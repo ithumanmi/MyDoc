@@ -64,6 +64,9 @@
 18. **[AI & Machine Learning (Trí tuệ nhân tạo)](domains/ai-ml/README.md)** (⭐ **New**)
     *   *Từ Classic ML đến Deep Learning, LLM và Generative AI.*
     *   👉 [Supervised Learning](domains/ai-ml/machine-learning/supervised-learning.md) | [Neural Networks](domains/ai-ml/deep-learning/neural-networks-101.md) | [Transformers & LLM](domains/ai-ml/nlp/transformers-llm.md)
+19. **[English & IELTS Mastery](guides/ielts/roadmap-7.5.md)** (⭐ **New**)
+    *   *Lộ trình đạt IELTS 7.5 trong 6 tháng từ mất gốc.*
+    *   👉 [Roadmap 7.5](guides/ielts/roadmap-7.5.md) | [Daily Routine](guides/ielts/daily-routine.md) | [Resources](guides/ielts/resources.md)
 
 ---
 

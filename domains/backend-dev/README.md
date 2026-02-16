@@ -163,6 +163,19 @@ graph TD
 ### ⚔️ Level 3: Scalable Systems (12 - 24 Tháng)
 *Tập trung: Microservices, Message Queues, Caching, Performance.*
 
+> **Advanced Guides:**
+> *   [🗄️ Advanced Database Engineering](./database/advanced-db.md) ⭐ **NEW**
+> *   [⚡ High Performance Architecture](./architecture/high-performance.md) ⭐ **NEW**
+> *   [🧩 Microservices Design Patterns](./architecture/microservices-patterns.md) ⭐ **NEW**
+> *   [🧮 Advanced Algorithms (Bloom Filter, GeoHash)](./architecture/advanced-algorithms.md) ⭐ **NEW**
+> *   [🌐 Distributed Systems](./architecture/distributed-systems.md) ⭐ **NEW**
+> *   [🔒 Advanced Security](./security/advanced-security.md) ⭐ **NEW**
+> *   [📡 Advanced API Patterns](./api-design/advanced-patterns.md) ⭐ **NEW**
+> *   [🏗️ System Design Case Studies (Netflix, Uber, Twitter)](./system-design/case-studies.md) ⭐ **NEW**
+> *   [☁️ Cloud Native Architecture (Serverless, Service Mesh)](./architecture/cloud-native.md) ⭐ **NEW**
+> *   [🧪 Advanced Testing Strategies (Chaos, Load, Contract)](./testing/advanced-strategies.md) ⭐ **NEW**
+> *   [♾️ DevOps & SRE Practices](./devops-sre/sre-practices.md) ⭐ **NEW**
+
 #### **Core Concepts:**
 
 **A. Microservices Architecture**

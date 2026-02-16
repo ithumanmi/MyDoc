@@ -41,6 +41,12 @@ Chào mừng đến với thư viện hướng dẫn chuyên sâu. Tại đây t
     *   Tư duy đúng (Mindset) và Công cụ (Tools).
 *   **[🧘 Well-being (Sức khỏe & Tinh thần)](./well-being/README.md)**
     *   Biohacking, tối ưu giấc ngủ và rèn luyện tinh thần thép (Stoicism).
+*   **[🧠 Psychology (Tâm lý học)](./psychology/README.md)** ⭐ **NEW**
+    *   Thấu hiểu bản thân và người khác.
+    *   Các trường phái (Freud, CBT, Maslow) và ứng dụng thực tế (Giao tiếp, Lãnh đạo).
+*   **[🏛️ Philosophy (Triết học)](./philosophy/README.md)**
+    *   Tư duy phản biện, Stoicism, Existentialism.
+    *   Philosophy of AI, Political Philosophy.
 
 ## 🎮 Technical Domains (Lĩnh vực Kỹ thuật)
 
