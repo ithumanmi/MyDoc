@@ -14,9 +14,9 @@ MVP (Minimum Viable Product) là phiên bản **tinh gọn nhất** của sản 
 ---
 
 ## Sai lầm thường gặp về MVP ❌
-1.  **MVP = Sản phẩm lỗi:** Sai. MVP phải chạy ổn định, chỉ là ít tính năng thôi. Một chiếc xe đạp (MVP) tốt hơn một chiếc ô tô... thiếu bánh xe.
-2.  **MVP = Bản Demo:** Sai. MVP phải giải quyết được vấn đề thực tế của khách hàng, Demo chỉ để trình diễn.
-3.  **Cắt bỏ UX/UI:** Sai. MVP vẫn cần dễ sử dụng và thẩm mỹ ở mức chấp nhận được.
+1.  **MVP = Sản phẩm lỗi:** Sai. MVP phải chạy ổn định, chỉ là ít tính năng thôi.
+2.  **MVP = Bản Demo:** Sai. MVP phải giải quyết được vấn đề thực tế của khách hàng.
+3.  **Làm MVP quá sớm:** Đôi khi bạn chưa cần làm MVP (Sản phẩm), mà chỉ cần làm **RAT (Riskiest Assumption Testing)** để kiểm tra giả định rủi ro nhất. 👉 **[Xem kỹ thuật RAT tại đây](./rat-testing.md)**
 
 ---
 
@@ -48,7 +48,7 @@ MVP (Minimum Viable Product) là phiên bản **tinh gọn nhất** của sản 
 1.  **Xác định Core Value:** Tính năng nào là quan trọng nhất? (Nếu bỏ đi thì sản phẩm chết).
 2.  **Chọn loại MVP phù hợp:** Dựa trên nguồn lực (tiền, team, thời gian).
 3.  **Xây dựng nhanh (Build):** Trong 1-2 tuần, không phải 6 tháng.
-4.  **Đo lường (Measure):** Số người dùng, tỷ lệ chuyển đổi, phản hồi.
+4.  **Đo lường (Measure):** Sử dụng các chỉ số **[Innovation Metrics](./innovation-metrics.md)** để đánh giá (Conversion Rate, Retention...).
 5.  **Học hỏi (Learn):** Tiếp tục phát triển (Pivot) hay Dừng lại (Persevere)? -> Vòng lặp **Build-Measure-Learn**.
 
-> **Tóm lại:** "Nếu bạn không cảm thấy xấu hổ về phiên bản đầu tiên của sản phẩm, nghĩa là bạn đã ra mắt quá muộn." - Reid Hoffman (Founder LinkedIn).
+👉 **[Tiếp theo: Kiểm thử (Testing)](./testing-methods.md)**

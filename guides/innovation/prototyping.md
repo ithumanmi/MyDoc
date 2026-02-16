@@ -52,7 +52,12 @@ Tùy vào mục đích và giai đoạn phát triển, ta có 3 cấp độ Prot
 
 ---
 
+## Design Sprint: Prototyping Thần Tốc ⚡
+Nếu bạn cần xây dựng và kiểm thử bản mẫu chỉ trong 1 ngày, hãy tham khảo quy trình **[Design Sprint (Ngày thứ 5)](./design-sprint.md)**. Trong Sprint, cả team sẽ tập trung toàn lực để tạo ra một bản mẫu "đủ tốt" (Goldilocks Quality) để đánh lừa thị giác người dùng.
+
+---
+
 ## Mẹo Cho Non-Designers (Người không chuyên)
 *   Dùng **PowerPoint/Keynote** để làm prototype đơn giản (các slide liên kết với nhau).
 *   Dùng **Canva** để kéo thả giao diện nhanh.
-*   Đừng lo về xấu đẹp ở giai đoạn đầu, quan trọng là **logic** có hợp lý không.
+👉 **[Tiếp theo: MVP (Minimum Viable Product)](./mvp.md)**

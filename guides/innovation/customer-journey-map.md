@@ -73,7 +73,15 @@ Trong mỗi giai đoạn trên, bạn cần phân tích 4 yếu tố sau:
 
 ---
 
+## CJM vs. Service Blueprint
+*   **Customer Journey Map:** Tập trung vào **trải nghiệm & cảm xúc** của khách hàng (Frontstage).
+*   **Service Blueprint:** Tập trung vào **quy trình vận hành** của doanh nghiệp (Backstage & System) để đáp ứng trải nghiệm đó.
+
+👉 **[Xem chi tiết: Service Design & Blueprint](./service-design.md)**
+
+---
+
 ## Tại sao cần CJM?
 *   **Tìm ra điểm đau (Pain Points):** Biết chính xác khách hàng bực mình ở đâu để sửa.
 *   **Tối ưu hóa trải nghiệm:** Biến khách hàng bình thường thành khách hàng trung thành.
-*   **Thống nhất quy trình:** Giúp các bộ phận (Marketing, Sales, CS) hiểu vai trò của mình trong hành trình chung.
+👉 **[Tiếp theo: Xác định vấn đề (Define)](./problem-statement.md)**

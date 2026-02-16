@@ -17,6 +17,15 @@ Persona không phải là "người dùng trung bình", mà là **người dùng
 
 ---
 
+## Persona vs. Jobs To Be Done (JTBD)
+*   **Persona:** Tập trung vào **Ai** (Who). Dựa trên nhân khẩu học, tính cách. Giúp tạo sự đồng cảm.
+*   **JTBD:** Tập trung vào **Việc cần làm** (What & Why). Dựa trên hoàn cảnh và động cơ. Giúp tìm ra nguyên nhân mua hàng.
+
+> **Lời khuyên:** Dùng Persona để thiết kế giao diện (UI) và Marketing. Dùng JTBD để phát triển tính năng (Product).
+👉 **[Xem chi tiết: Jobs To Be Done (JTBD)](./jobs-to-be-done.md)**
+
+---
+
 ## Cấu trúc chuẩn của một Persona
 Một bản Persona tốt thường bao gồm 4 phần chính:
 
@@ -66,4 +75,4 @@ Một bản Persona tốt thường bao gồm 4 phần chính:
 ## Lưu ý khi tạo Persona
 *   **Dựa trên dữ liệu:** Đừng tự tưởng tượng ra Persona. Hãy phỏng vấn ít nhất 5-7 người dùng thật.
 *   **Cụ thể:** Tránh những mô tả chung chung như "thích đi du lịch". Hãy nói "thích đi du lịch bụi một mình 2 lần/năm".
-*   **Tập trung vào 1-3 Persona chính:** Đừng cố tạo ra quá nhiều Persona, sẽ gây loãng. Chọn ra 1 Persona chính (Primary) và 1-2 Persona phụ (Secondary).
+👉 **[Tiếp theo: Customer Journey Map](./customer-journey-map.md)**

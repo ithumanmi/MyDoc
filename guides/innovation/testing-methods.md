@@ -41,6 +41,7 @@ Mục tiêu không phải là để chứng minh bạn đúng, mà là để **h
 2.  **Biến số:** Chỉ thay đổi **DUY NHẤT 1 yếu tố** (màu nút). Nếu đổi cả màu nút lẫn tiêu đề, bạn sẽ không biết cái nào tạo ra kết quả.
 3.  **Chia Traffic:** Dùng tool (Google Optimize, Optimizely) để chia ngẫu nhiên 50% khách thấy A, 50% khách thấy B.
 4.  **Đo lường:** Chạy trong 1-2 tuần để có đủ dữ liệu (Statistical Significance).
+    *   Sử dụng các **[Chỉ số đo lường (Metrics)](./innovation-metrics.md)** cụ thể như Conversion Rate hay CTR để quyết định.
 5.  **Kết luận:** Phiên bản nào thắng (Winner) sẽ được áp dụng chính thức.
 
 ---
@@ -62,4 +63,4 @@ Sau khi test, bạn sẽ nhận được rất nhiều ý kiến. Hãy dùng khu
 3.  **Test với người nhà/bạn bè:** Họ không phải khách hàng mục tiêu và thường thiên vị bạn.
 4.  **Không quay lại sửa đổi:** Test xong để đó thì vô nghĩa. Phải dùng kết quả để quay lại bước **Ideate** hoặc **Prototype**.
 
-> **Tóm lại:** Testing là cầu nối giữa "Ý tưởng hay ho" và "Sản phẩm thực tế". Đừng sợ bị chê, hãy sợ làm ra thứ không ai dùng.
+👉 **[Xem Case Studies thực tế](./case-studies.md)**

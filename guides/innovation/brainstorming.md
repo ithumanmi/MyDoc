@@ -30,6 +30,14 @@ Mục tiêu của Brainstorming không phải là tìm ra ngay **ý tưởng đ�
 
 ---
 
+## Khi Nào Brainstorming Thất Bại?
+Đôi khi Brainstorming truyền thống không hiệu quả do áp lực nhóm (Groupthink) hoặc cạn ý tưởng. Lúc này, bạn cần những vũ khí mạnh hơn.
+
+👉 **[Xem thêm: Kỹ thuật Tìm Ý Tưởng Nâng Cao (Advanced Ideation)](./advanced-ideation.md)**
+(Bao gồm: Six Thinking Hats, TRIZ, Crazy 8s...)
+
+---
+
 ## Các Kỹ Thuật Brainstorming Phổ Biến
 
 ### 1. Mind Mapping (Bản đồ tư duy) 🗺️
@@ -58,6 +66,16 @@ Dùng 7 từ khóa để biến đổi ý tưởng cũ thành mới:
 
 ---
 
+## Vai Trò Của Facilitator Trong Brainstorming 🎤
+Để buổi Brainstorming không biến thành "cái chợ vỡ" hoặc "độc thoại của sếp", vai trò của người điều phối (Facilitator) là cực kỳ quan trọng.
+*   Giữ năng lượng cho team.
+*   Ngăn chặn những kẻ "dìm hàng" ý tưởng (Idea Killers).
+*   Khơi gợi ý tưởng từ những người trầm tính.
+
+👉 **[Xem chi tiết: Kỹ năng điều phối (Facilitation Skills)](./facilitation-skills.md)**
+
+---
+
 ## Quy Trình 1 Buổi Brainstorming Hiệu Quả
 1.  **Chuẩn bị:** Không gian thoải mái, bảng trắng, post-it note, bút màu.
 2.  **Mở đầu:** Nêu rõ vấn đề (Problem Statement) và nhắc lại 4 nguyên tắc vàng.
@@ -67,4 +85,4 @@ Dùng 7 từ khóa để biến đổi ý tưởng cũ thành mới:
 6.  **Bình chọn:** Dùng sticker dot (chấm tròn) để mọi người bình chọn ý tưởng mình thích nhất.
 7.  **Kết thúc:** Chọn ra 3-5 ý tưởng tiềm năng nhất để sang bước **Prototype**.
 
-> **Lưu ý:** Đừng để buổi Brainstorming kết thúc mà không có hành động tiếp theo (Action Item). Ý tưởng chỉ là ý tưởng nếu không được thực hiện.
+👉 **[Tiếp theo: Làm mẫu (Prototyping)](./prototyping.md)**
