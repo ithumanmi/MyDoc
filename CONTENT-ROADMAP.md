@@ -239,11 +239,11 @@ This repository is a comprehensive knowledge base covering:
 
 ### **Priority 1: Complete Economics Trifecta**
 
-#### **behavioral-economics.md** (~5,500 words) 🔴 **HIGH PRIORITY**
+#### **behavioral-economics.md** (~5,500 words) ✅ **COMPLETED**
 
 **Location:** `guides/investing/advanced/behavioral-economics.md`
 
-**Estimated Time:** 2.5 hours
+**Status:** Done. Added comprehensive guide covering 15 biases, Prospect Theory, Mental Accounting, and actionable strategies for investors.
 
 **Content Structure:**
 ```markdown
@@ -330,6 +330,14 @@ This repository is a comprehensive knowledge base covering:
 - Practical debiasing techniques
 - Decision-making frameworks
 - Self-assessment tools
+
+---
+
+#### **Updated: PKM System** ✅ **COMPLETED**
+
+**File:** `guides/productivity/meta-skills/pkm-system.md`
+
+**Status:** Created guide covering PARA method, CODE framework, and Zettelkasten basics. Added PARA Dashboard template.
 
 ---
 
@@ -425,9 +433,11 @@ Add economics section with 3 new files:
 
 ### **Productivity & Career**
 
-#### **6. Deep Work System** (~5,000 words)
+#### **6. Deep Work System** (~5,000 words) ✅ **COMPLETED**
 
 **File:** `guides/productivity/core-skills/deep-work-system.md`
+
+**Status:** Done. Covered 4 rules of Deep Work, Time Blocking strategies, and Shutdown Rituals. Included scheduler template.
 
 **Topics:**
 - Cal Newport's framework

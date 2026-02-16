@@ -25,7 +25,11 @@ Trong kỷ nguyên AI và tự động hóa, "làm việc chăm chỉ" (Hard wor
 
 ### 1. Core Skills (Kỹ năng cốt lõi)
 Xây dựng nền tảng cho một bộ não hiệu suất cao.
-*   **[Deep Work Mastery](./core-skills/deep-work-mastery.md):** Kỹ năng làm việc sâu, loại bỏ xao nhãng để tạo ra kết quả đột phá.
+*   **[Mental Models Library](./mental-models/mental-models-library.md):** Thư viện các mô hình tư duy cốt lõi (First Principles, Inversion, Pareto...).
+*   **[Deep Work System](./core-skills/deep-work-system.md):** Kỹ năng làm việc sâu, loại bỏ xao nhãng.
+*   **[Working with AI](./meta-skills/working-with-ai.md):** Tư duy Centaur - Làm chủ AI thay vì để AI làm chủ bạn.
+*   **[Learning How to Learn](./meta-skills/learning-how-to-learn.md):** Kỹ năng tự học đỉnh cao (Feynman, Spaced Repetition).
+*   **[PKM System (Building a Second Brain)](./meta-skills/pkm-system.md):** Xây dựng bộ não thứ hai để quản lý tri thức (Phương pháp PARA).
 *   **[Communication & Pedagogy](./core-skills/communication-mastery.md):** Kỹ năng sư phạm và diễn đạt - Đòn bẩy cho sự nghiệp (The Multiplier Skill).
 *   **[Time Management Systems](./core-skills/time-management-systems.md):** Các hệ thống quản lý thời gian (Pomodoro, Time Blocking, GTD).
 *   **[Energy Management](./core-skills/energy-management.md):** Quản trị năng lượng quan trọng hơn quản trị thời gian. (Ngủ, Dinh dưỡng, Dopamine Detox).
