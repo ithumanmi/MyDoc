@@ -67,6 +67,9 @@
 19. **[English & IELTS Mastery](guides/ielts/roadmap-7.5.md)** (⭐ **New**)
     *   *Lộ trình đạt IELTS 7.5 trong 6 tháng từ mất gốc.*
     *   👉 [Roadmap 7.5](guides/ielts/roadmap-7.5.md) | [Daily Routine](guides/ielts/daily-routine.md) | [Resources](guides/ielts/resources.md)
+20. **[Innovation & Problem Solving (Đổi mới sáng tạo)](guides/innovation/design-thinking.md)** (⭐ **New**)
+    *   *Phương pháp tư duy đột phá và giải quyết vấn đề.*
+    *   👉 [Design Thinking](guides/innovation/design-thinking.md)
 
 ---
 

@@ -11,6 +11,8 @@ Chào mừng đến với thư viện hướng dẫn chuyên sâu. Tại đây t
 *   **[🚀 Growth (Tăng trưởng)](./growth/README.md)**
     *   Lộ trình trở thành Top 1% Developer.
     *   Hệ thống chống trượt (Anti-Slip System) để duy trì kỷ luật.
+*   **[💡 Innovation (Đổi mới sáng tạo)](./innovation/design-thinking.md)** ⭐ **NEW**
+    *   Design Thinking và giải quyết vấn đề đột phá.
 *   **[💼 Career (Sự nghiệp)](./career/README.md)**
     *   Chiến lược thăng tiến, đàm phán lương và phỏng vấn.
 *   **[⚡ Productivity (Năng suất)](./productivity/README.md)**
