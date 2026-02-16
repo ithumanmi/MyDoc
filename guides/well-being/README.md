@@ -1,10 +1,48 @@
-# Well-Being Guides
+# 🌿 Well-Being & Biohacking Guides
 
-## Biohacking
-- [Movement Protocols](movement-protocols.md): A guide to enhance your physical well-being through various movement techniques.
-- [Glucose and Insulin System](glucose-insulin-system.md): Understand the relationship between glucose and insulin for optimal health.
+> [← Back to Home](../../README.md)
 
-## Mental Resilience
-- [Mindfulness Meditation](mindfulness-meditation.md): Techniques to cultivate mindfulness and improve mental health.
-- [Sleep Optimization](sleep-optimization.md): Strategies to achieve better sleep quality.
-- [Burnout Prevention](burnout-prevention.md): Tips to recognize and prevent burnout effectively.
+## 🧬 Biohacking (Tối ưu hóa sinh học)
+*(Hiểu và tối ưu "phần cứng" cơ thể của bạn)*
+
+### Hormones & Neurotransmitters
+*   **[🧠 Dopamine System](./biohacking/dopamine-system.md):** Động lực, kỷ luật & cai nghiện MXH.
+*   **[🛡️ Cortisol & Melatonin](./biohacking/cortisol-melatonin-system.md):** Quản lý stress & tối ưu giấc ngủ.
+*   **[🩸 Glucose & Insulin](./biohacking/glucose-insulin-system.md):** Duy trì năng lượng ổn định cả ngày.
+*   **[⚡ Testosterone System](./biohacking/testosterone-system.md):** Sức mạnh & Drive (cho cả nam/nữ).
+*   **[🧪 Neurotransmitters Guide](./biohacking/neurotransmitters-guide.md):** Serotonin, Acetylcholine, GABA.
+
+### Protocols (Giao thức thực hành)
+*   **[🛌 Sleep Optimization](./biohacking/sleep-optimization.md):** Chiến lược để có giấc ngủ sâu hồi phục.
+*   **[🏃 Movement Protocols](./biohacking/movement-protocols.md):** Vận động khoa học (Zone 2, HIIT, Strength).
+*   **[🥗 Nutrition for Brain](./biohacking/nutrition-for-brain.md):** Thực phẩm thông minh cho não bộ.
+*   **[⚙️ Health OS Overview](./biohacking/health-os-overview.md):** Tổng quan về Hệ điều hành sức khỏe.
+*   **[📋 Health Optimization Protocols](./biohacking/health-optimization-protocols.md):** Các thói quen hàng ngày (Morning/Evening Routine).
+
+---
+
+## 🧘 Mental Resilience (Sức mạnh tinh thần)
+*(Rèn luyện "phần mềm" tâm trí)*
+
+*   **[🧘 Mindfulness Meditation](./mental-resilience/mindfulness-meditation.md):** Kỹ thuật thiền định & tỉnh thức.
+*   **[🔥 Burnout Prevention](./mental-resilience/burnout-prevention.md):** Nhận diện, ngăn ngừa và phục hồi kiệt sức.
+*   **[🏛️ Stoicism for Modern Life](./mental-resilience/stoicism-for-modern-life.md):** Ứng dụng triết lý Khắc kỷ để vững vàng trước nghịch cảnh.
+
+---
+
+## 🚀 High Performance (Hiệu suất đỉnh cao)
+*(Kết hợp Thân & Tâm để làm việc xuất sắc)*
+
+*   **[🌊 High Performance & Flow](./high-performance.md):** Trạng thái dòng chảy, Deep Work & Nhịp Ultradian.
+
+---
+
+## 📝 Templates (Công cụ theo dõi)
+*   **[📊 Daily Performance Tracker](./templates/daily-performance-tracker.md):** Bảng theo dõi năng lượng & sự tập trung hàng ngày.
+
+---
+
+## Bắt đầu từ đâu?
+1.  Nếu bạn thấy mệt mỏi/stress: Đọc **[Cortisol & Melatonin](./biohacking/cortisol-melatonin-system.md)** và **[Sleep Optimization](./biohacking/sleep-optimization.md)**.
+2.  Nếu bạn mất động lực: Đọc **[Dopamine System](./biohacking/dopamine-system.md)**.
+3.  Nếu bạn muốn làm việc hiệu quả hơn: Đọc **[High Performance](./high-performance.md)**.

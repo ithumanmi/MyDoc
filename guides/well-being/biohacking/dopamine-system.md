@@ -563,11 +563,12 @@ Almonds, Dark chocolate (70%+), Greek yogurt
 ---
 
 ## 🔗 Related Resources
-
-**Trong Health OS:**
-- [Cortisol & Stress](cortisol-melatonin-system.md#cortisol) - Stress làm deplete dopamine
-- [Sleep System](cortisol-melatonin-system.md#melatonin) - Recovery cho dopamine receptors
-- [Optimization Protocols](health-optimization-protocols.md) - Daily routines
+   
+   **Trong Health OS:**
+   - [High Performance & Flow State](../high-performance.md) - Cách tối ưu hóa Dopamine để đạt trạng thái dòng chảy
+   - [Cortisol & Stress](cortisol-melatonin-system.md#cortisol) - Stress làm deplete dopamine
+   - [Sleep System](cortisol-melatonin-system.md#melatonin) - Recovery cho dopamine receptors
+   - [Optimization Protocols](health-optimization-protocols.md) - Daily routines
 
 **Trong Framework:**
 - [Chapter 2: Deliberate Practice](../../../chapters/02-luyen-tap-co-chu-dich.md) - Flow state cần dopamine
