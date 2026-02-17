@@ -333,15 +333,15 @@ This repository is a comprehensive knowledge base covering:
 
 ---
 
-#### **Updated: PKM System** ✅ **COMPLETED**
+#### **Updated: Data Analytics Roadmap** ✅ **COMPLETED**
 
-**File:** `guides/productivity/meta-skills/pkm-system.md`
+**File:** `guides/career/data-analytics-roadmap.md`
 
-**Status:** Created guide covering PARA method, CODE framework, and Zettelkasten basics. Added PARA Dashboard template.
+**Status:** Created comprehensive 5-stage roadmap (Foundation -> SQL -> Viz -> Python -> Advanced). Added Portfolio Checklist template.
 
 ---
 
-### **Priority 2: Navigation Updates**
+\n### **Priority 3: Data Analytics Deep Dive**\n\n#### **data-analytics-thinking.md** (~2,500 words) ✅ **COMPLETED**\n- 6-step Analysis Process (Google)\n- Asking the right questions\n- Logical Fallacies in Data\n\n#### **data-visualization-mastery.md** (~2,000 words) ✅ **COMPLETED**\n- Gestalt Principles\n- Chart Selection Guide\n- Data-Ink Ratio\n- Color Theory\n- Dashboard Checklist Template\n\n### **Priority 4: Navigation Updates**\n
 
 #### **Update guides/well-being/README.md** (15 min) 🟡
 
