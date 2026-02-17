@@ -177,6 +177,7 @@ graph TD
 > *   [🔑 OAuth 2.0 & OIDC Deep Dive](./security/oauth2-oidc-deep-dive.md) ⭐ **Must Read**
 > *   [📡 Advanced API Patterns](./api-design/advanced-patterns.md) ⭐ **NEW**
 > *   [🏗️ System Design Case Studies (Netflix, Uber, Twitter)](./system-design/case-studies.md) ⭐ **NEW**
+> *   [☁️ How Amazon S3 Works (Deep Dive)](./system-design/amazon-s3-architecture.md) ⭐ **Must Read**
 > *   [☁️ Cloud Native Architecture (Serverless, Service Mesh)](./architecture/cloud-native.md) ⭐ **NEW**
 > *   [🧪 Advanced Testing Strategies (Chaos, Load, Contract)](./testing/advanced-strategies.md) ⭐ **NEW**
 > *   [♾️ DevOps & SRE Practices (Docker, K8s)](./devops-sre/docker-k8s-guide.md) ⭐ **Must Read**
