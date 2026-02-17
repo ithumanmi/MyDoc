@@ -1,6 +1,6 @@
 # 🎨 Data Visualization Mastery: Nghệ Thuật Kể Chuyện Bằng Dữ Liệu
 
-> [← Back to Data Analytics Roadmap](./data-analytics-roadmap.md)
+> [← Back to Data Analytics Roadmap](./README.md)
 
 ## Tại sao Data Viz quan trọng?
 Não bộ con người xử lý hình ảnh nhanh hơn văn bản 60.000 lần. Một biểu đồ tốt có thể thay thế hàng ngàn dòng dữ liệu.

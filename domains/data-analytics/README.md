@@ -1,6 +1,6 @@
-# 📊 Data Analytics Roadmap: Lộ Trình Từ Zero Đến Hero
+# 📊 Data Analytics Domain
 
-> [← Back to Career Guides](../README.md)
+> [← Back to Main Index](../../README.md)
 
 ## Tại sao chọn Data Analytics?
 Dữ liệu là "dầu mỏ" của thế kỷ 21. Mọi quyết định kinh doanh hiện đại đều dựa trên dữ liệu (Data-driven decision making).
@@ -33,7 +33,7 @@ Nhu cầu tuyển dụng Data Analyst (DA) luôn cao, với mức lương hấp 
     *   **PowerBI:** Tốt nếu công ty dùng hệ sinh thái Microsoft.
     *   **Tableau:** Mạnh về đồ họa và linh hoạt.
 *   **Data Storytelling:** Kỹ năng thuyết trình.
-    👉 **[Xem chi tiết: Nguyên tắc Data Visualization & Checklist thiết kế Dashboard](./data-visualization-mastery.md)**
+    👉 **[Xem chi tiết: Nguyên tắc Data Visualization & Checklist](./data-visualization-mastery.md)**
 
 ### Giai đoạn 4: Lập trình phân tích (Programming) 🐍
 *Mục tiêu: Xử lý dữ liệu lớn và tự động hóa.*
@@ -45,6 +45,19 @@ Nhu cầu tuyển dụng Data Analyst (DA) luôn cao, với mức lương hấp 
 *   **Machine Learning cơ bản:** Regression, Clustering (để dự báo).
 *   **Big Data:** Spark, Hadoop (khi dữ liệu quá lớn).
 *   **Cloud:** AWS, Google Cloud, Azure.
+
+---
+
+## 🏗️ Thực Hành & Dự Án Mẫu (Projects)
+Học đi đôi với hành. Dưới đây là các dự án mẫu để bạn làm đẹp Portfolio:
+
+1.  **[Case Study: E-commerce Sales Analysis](./projects/ecommerce-analysis-case-study.md)** (⭐ **Recommended**)
+    *   *Kỹ năng:* SQL, Tư duy phân tích, Business Insight.
+    *   *Nhiệm vụ:* Giải quyết bài toán doanh số giảm cho Giám đốc Kinh doanh.
+2.  *(Coming Soon: Phân tích Customer Churn - Tại sao khách rời bỏ?)*
+3.  *(Coming Soon: Dashboard Marketing Performance)*
+
+👉 **[Tải Mẫu Báo Cáo Phân Tích Chuyên Nghiệp](./templates/project-report-template.md)**
 
 ---
 

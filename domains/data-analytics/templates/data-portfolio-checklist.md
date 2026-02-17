@@ -1,6 +1,6 @@
 # 📂 Data Analytics Portfolio Checklist
 
-> [← Back to Data Analytics Roadmap](../data-analytics-roadmap.md)
+> [← Back to Data Analytics Roadmap](../README.md)
 
 Để xin được việc, bạn cần 3-5 dự án chất lượng (Quality > Quantity). Đừng chỉ up code lên GitHub, hãy viết Case Study.
 

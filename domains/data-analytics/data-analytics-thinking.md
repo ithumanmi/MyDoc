@@ -1,6 +1,6 @@
 # 🧠 Data Analytics Thinking: Tư Duy Phân Tích Dữ Liệu
 
-> [← Back to Data Analytics Roadmap](./data-analytics-roadmap.md)
+> [← Back to Data Analytics Roadmap](./README.md)
 
 ## Tại sao Tư duy quan trọng hơn Công cụ?
 Biết dùng SQL hay Python chỉ giúp bạn lấy được dữ liệu. Nhưng **Tư duy Phân tích (Analytics Thinking)** mới giúp bạn biết cần lấy dữ liệu gì và dùng nó để làm gì.
