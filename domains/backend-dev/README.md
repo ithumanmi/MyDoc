@@ -173,7 +173,8 @@ graph TD
 > *   [💠 Hexagonal Architecture (Code "Bất Tử")](./architecture/hexagonal-architecture.md) ⭐ **Must Read**
 > *   [🧮 Advanced Algorithms (Bloom Filter, GeoHash)](./architecture/advanced-algorithms.md) ⭐ **NEW**
 > *   [🌐 Distributed Systems](./architecture/distributed-systems.md) ⭐ **NEW**
-> *   [🔒 Advanced Security](./security/advanced-security.md) ⭐ **NEW**
+> *   [🔒 Advanced Security (OWASP, JWT, DDoS)](./security/advanced-security.md) ⭐ **NEW**
+> *   [🔑 OAuth 2.0 & OIDC Deep Dive](./security/oauth2-oidc-deep-dive.md) ⭐ **Must Read**
 > *   [📡 Advanced API Patterns](./api-design/advanced-patterns.md) ⭐ **NEW**
 > *   [🏗️ System Design Case Studies (Netflix, Uber, Twitter)](./system-design/case-studies.md) ⭐ **NEW**
 > *   [☁️ Cloud Native Architecture (Serverless, Service Mesh)](./architecture/cloud-native.md) ⭐ **NEW**

@@ -14,6 +14,7 @@ Sử dụng `Ctrl + F` để tìm kiếm nhanh chủ đề bạn cần.
 
 ## 🔨 Level 2: Professional Development (Chuyên Nghiệp)
 *   [Backend Security Checklist](./backend-security.md) - OWASP Top 10, AuthN vs AuthZ.
+*   [OAuth 2.0 & OIDC Deep Dive](./security/oauth2-oidc-deep-dive.md) ⭐ - Authentication Flows, PKCE.
 *   [Testing Guide](./testing-guide.md) - Unit, Integration, E2E Testing Strategies.
 *   [Monitoring & Observability](./monitoring-observability.md) - Logging, Metrics, Tracing.
 
