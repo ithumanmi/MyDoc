@@ -165,8 +165,8 @@ graph TD
 
 > **Advanced Guides:**
 > *   [🗄️ Advanced Database Engineering](./database/advanced-db.md) ⭐ **NEW**
+> *   [🧩 Microservices Patterns (Circuit Breaker, Saga)](./architecture/microservices-patterns-deep-dive.md) ⭐ **Must Read**
 > *   [⚡ High Performance Architecture](./architecture/high-performance.md) ⭐ **NEW**
-> *   [🧩 Microservices Design Patterns](./architecture/microservices-patterns.md) ⭐ **NEW**
 > *   [🧮 Advanced Algorithms (Bloom Filter, GeoHash)](./architecture/advanced-algorithms.md) ⭐ **NEW**
 > *   [🌐 Distributed Systems](./architecture/distributed-systems.md) ⭐ **NEW**
 > *   [🔒 Advanced Security](./security/advanced-security.md) ⭐ **NEW**
