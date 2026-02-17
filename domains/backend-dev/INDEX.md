@@ -27,6 +27,7 @@ Sử dụng `Ctrl + F` để tìm kiếm nhanh chủ đề bạn cần.
 
 ### 🧩 Architecture & Patterns (Kiến Trúc)
 *   [Scale Up vs Scale Out](./architecture/scaling-strategy.md) ⭐ - Chiến lược mở rộng hệ thống.
+*   [Hexagonal Architecture](./architecture/hexagonal-architecture.md) ⭐ - Ports & Adapters Pattern.
 *   [Microservices Patterns](./architecture/microservices-patterns-deep-dive.md) - Circuit Breaker, Saga Pattern.
 *   [High Performance Architecture](./architecture/high-performance.md) - Caching, Async Processing.
 *   [Distributed Systems](./architecture/distributed-systems.md) - Các nguyên lý hệ thống phân tán.
