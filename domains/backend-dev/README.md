@@ -164,7 +164,7 @@ graph TD
 *Tập trung: Microservices, Message Queues, Caching, Performance.*
 
 > **Advanced Guides:**
-> *   [🗄️ Advanced Database Engineering](./database/advanced-db.md) ⭐ **NEW**
+> *   [🗄️ Advanced Database Engineering (Indexing, Sharding)](./database/advanced-db-optimization.md) ⭐ **Must Read**
 > *   [🧩 Microservices Patterns (Circuit Breaker, Saga)](./architecture/microservices-patterns-deep-dive.md) ⭐ **Must Read**
 > *   [⚡ High Performance Architecture](./architecture/high-performance.md) ⭐ **NEW**
 > *   [🧮 Advanced Algorithms (Bloom Filter, GeoHash)](./architecture/advanced-algorithms.md) ⭐ **NEW**
