@@ -58,3 +58,142 @@ The main reason I **yearn to** live there is the **quality of life**. The cost o
 
 **Q: How can governments improve living conditions in cities?**
 *   **Band 8.0:** There are several measures they could take. First, they should invest heavily in **public transport systems** like metros or buses to reduce reliance on private vehicles, which would alleviate traffic jams. Second, creating more **green spaces** like parks and vertical gardens would help filter the air and provide residents with places to relax. Finally, implementing stricter regulations on emissions from factories and vehicles is crucial to combat pollution.
+
+---
+
+## 📚 Essential Vocabulary for Hometown/Places Topic
+
+### **Describing Places - Adjectives:**
+- **Bustling, vibrant, lively** - sầm uất, sôi động
+- **Picturesque, breathtaking, stunning** - đẹp như tranh
+- **Quaint, charming, cozy** - dễ thương, ấm cúng
+- **Sprawling, vast, expansive** - rộng lớn
+- **Sleepy, laid-back, tranquil** - yên tĩnh, thư thái
+- **Chaotic, hectic, frantic** - hỗn loạn, bận rộn
+
+### **Urban Development Nouns:**
+- **Metropolis, urban area, hub** - đô thị, trung tâm
+- **Infrastructure, amenities, facilities** - cơ sở hạ tầng, tiện ích
+- **Landmark, attraction, monument** - địa danh nổi tiếng
+- **Urbanization, gentrification** - đô thị hóa
+- **Traffic congestion, gridlock** - tắc nghẽn giao thông
+
+### **Useful Verbs & Phrases:**
+- **Hail from, originate from** - đến từ (formal)
+- **Set foot in** - đặt chân đến
+- **Strike a balance** - cân bằng
+- **Undergo transformation** - trải qua biến đổi
+- **Mushroom (verb)** - mọc lên như nấm
+- **Yearn to, long to** - khao khát
+
+### **Collocations:**
+- **Rich history / cultural heritage** - lịch sử/di sản văn hóa phong phú
+- **Sense of community** - tinh thần cộng đồng
+- **Quality of life** - chất lượng cuộc sống
+- **Cost of living** - chi phí sinh hoạt
+- **Pace of life** - nhịp sống
+- **Top-notch amenities** - tiện ích hàng đầu
+
+### **Idioms:**
+- **Love at first sight** - yêu từ cái nhìn đầu tiên
+- **Off the beaten track** - xa xôi, hẻo lánh
+- **A stone's throw away** - rất gần (khoảng cách ném đá)
+- **The hustle and bustle** - sự nhộn nhịp, ồn ào
+
+### **Sentence Patterns:**
+1. **"What strikes me most about X is..."** - Điều ấn tượng nhất về X là...
+2. **"It's renowned for / famous for..."** - Nổi tiếng về...
+3. **"Unlike X, Y offers..."** - Không giống X, Y mang lại...
+4. **"The city has undergone..."** - Thành phố đã trải qua...
+5. **"One of the drawbacks/benefits is..."**
+
+---
+
+## 🎯 Part 2 Answer - Annotated Version
+
+### 🗣️ Sample Answer (Band 8.0+) - WITH ANALYSIS
+
+"I'm going to talk about **Da Nang** [Specific place name], which is widely considered the most **livable city** [Collocation] in Vietnam. It's located in the central region, **sandwiched between** [Descriptive phrase] the mountains and the sea.
+
+I first **set foot in** [Idiom: Band 7.5+, means 'visited'] Da Nang about five years ago on a family trip, and **to be honest** [Discourse marker], it was **love at first sight** [Idiom: Band 8.0]. What **struck me most** [Strong collocation] was how clean and modern the city looked **compared to** [Comparison] where I currently live.
+
+Da Nang is **renowned for** [Formal phrase] its **pristine beaches** [Collocation], **specifically** [Discourse marker] My Khe beach, which is often voted as one of the most beautiful beaches on the planet. **Besides that** [Linker], it's famous for the Dragon Bridge, which **actually breathes fire** [Specific detail] on weekends—it's quite a **spectacle** [Strong noun]! The city **strikes a perfect balance** [Idiom] between **bustling urban life** [Collocation] and **tranquil nature** [Collocation].
+
+The main reason I **yearn to** [Formal verb: Band 8.0, means 'want very much'] live there is the **quality of life** [Collocation]. The **cost of living is reasonable** [Set phrase], the traffic is manageable, and the locals are incredibly **hospitable** [Advanced adjective]. I'm really into outdoor activities, so the idea of **being able to** [Modal phrase] go for a swim or a hike after work is very appealing to me. It feels like a place where I could pursue my career while still enjoying a **laid-back lifestyle** [Collocation], which is something I find **lacking in** [Phrasal verb] big metropolises."
+
+---
+
+### **📊 Why This Answer is Band 8.0+:**
+
+**✅ Lexical Resource (LR) - 8.0:**
+- **Idioms:** "set foot in", "love at first sight", "strike a balance"
+- **Collocations:** "livable city", "pristine beaches", "bustling urban life", "quality of life"
+- **Less common vocabulary:** renowned, spectacle, hospitable, yearn to
+- **Descriptive phrases:** "sandwiched between", "struck me most"
+
+**✅ Grammatical Range & Accuracy (GRA) - 8.0:**
+- **Passive voice:** "is widely considered", "is often voted"
+- **Relative clauses:** "which is widely considered", "which actually breathes fire"
+- **Complex sentences:** Multiple clauses with natural linking
+- **Modal structures:** "could pursue", "being able to"
+
+**✅ Fluency & Coherence (FC) - 8.0:**
+- **Clear PPF structure:** Past (first visit) → Present (description) → Future (why want to live)
+- **Discourse markers:** "to be honest", "specifically", "besides that"
+- **Logical progression:** Introduction → Features → Reasons → Conclusion
+- **Cohesive devices:** Pronouns (it), synonyms (city/place)
+
+**✅ Pronunciation (if spoken):**
+- **Word stress:** **LIV**-able, **REN**-owned, **SPEC**-tacle
+- **Natural intonation:** Voice rises on key points (love at first sight, breathes fire!)
+
+---
+
+### **❌ Compare: Band 6.0 vs Band 8.0**
+
+| Aspect | Band 6.0 | Band 8.0 |
+|:---|:---|:---|
+| **Opening** | "I want to talk about Da Nang. It's a city in Vietnam." | "I'm going to talk about Da Nang, which is widely considered the most livable city in Vietnam." |
+| **Description** | "It has nice beaches. My Khe beach is beautiful." | "It's renowned for its pristine beaches, specifically My Khe beach, which is often voted as one of the most beautiful beaches on the planet." |
+| **Vocabulary** | Simple: "nice", "beautiful", "good" | Advanced: "pristine", "renowned", "hospitable", "yearn to" |
+| **Idioms** | None | 3+ idioms: "set foot in", "love at first sight", "strike a balance" |
+| **Grammar** | Simple sentences | Complex structures with relative clauses, passives |
+| **Detail level** | Generic | Specific: Dragon Bridge breathes fire, outdoor activities |
+
+**Band 6.0 Example:**
+"I want to talk about Da Nang. It's a city in Vietnam. I went there 5 years ago with my family. It's very beautiful. It has nice beaches and good food. The people are friendly. I like it because the life there is relaxing. I want to live there in the future."
+
+**Problems with Band 6.0:**
+- ❌ Repetitive "it's", "very", "good", "nice"
+- ❌ No idioms or sophisticated vocabulary
+- ❌ Only simple sentences
+- ❌ Lacks specific details and personality
+
+---
+
+## 💡 Part 1 Tips - Quick Improvements
+
+**Instead of:**
+❌ "My hometown is **very** beautiful."
+❌ "There are **many** people."
+❌ "It's a **good** place to live."
+
+**Say:**
+✅ "My hometown is **incredibly picturesque**." [Band 7.5+]
+✅ "It's quite **densely populated**." [Formal phrase]
+✅ "It's an **ideal place** to settle down." [Collocation]
+
+**Formula for Part 1 Hometown questions:**
+1. **Direct answer** (1 sentence)
+2. **Reason/Detail** (1-2 sentences with specific examples)
+3. **Personal feeling** (optional, 1 sentence)
+
+**Example:**
+Q: Do you like your hometown?
+- ✅ "Yes, absolutely. [Answer] What I love most about it is the sense of community—everyone is so warm and welcoming. [Reason + Detail] Plus, the street food scene is simply unbeatable! [Personal feeling + Strong adjective]"
+
+---
+
+> **Pro Tip:** When describing places, use the **5 senses** - What do you see, hear, smell, taste, feel? This makes your answer more vivid and memorable!
+>
+> **Last Updated:** February 2026

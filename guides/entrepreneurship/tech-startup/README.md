@@ -42,4 +42,5 @@ Paul Graham (Y Combinator) định nghĩa: **"A startup is a company designed to
 *   **[Growth Hacking 101](./growth-hacking-101.md):** Chiến lược tăng trưởng người dùng với chi phí thấp (Viral, Referral).
 *   **[SaaS Metrics Bible](./saas-metrics-bible.md):** Các chỉ số sống còn của mô hình phần mềm (MRR, Churn, LTV/CAC).
 *   **[Fundraising Roadmap](./fundraising-roadmap.md):** Bí mật gọi vốn từ Angel Investors và Venture Capitals.
+*   **[Funding Options Beyond VC](./funding-options-2026.md):** 8 cách gọi vốn thông minh khác ngoài VC (2026).
 *   **[Mobile App Monetization](./mobile-app-monetization.md):** Chiến lược kiếm tiền thông minh cho Mobile Apps 2026.

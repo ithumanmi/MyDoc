@@ -42,6 +42,7 @@ Lộ trình này dành cho người có nền tảng **Elementary (~3.5-4.0)** m
 *   **Phương pháp:**
     *   **Nghe chép chính tả (Dictation):** Dùng web *Listenaminute.com* hoặc *Breaking News English*.
     *   **Active Listening:** Nghe và tóm tắt lại nội dung.
+    *   → **[Xem ngay: Listening Mastery - 5 Question Types & Strategies (8.0+)](./listening-mastery.md)** ⭐ **NEW**
 *   **Tài liệu:** *Basic IELTS Listening*, *Hacker IELTS Listening*.
 
 ### **📖 Reading**
@@ -49,7 +50,8 @@ Lộ trình này dành cho người có nền tảng **Elementary (~3.5-4.0)** m
     *   **Skimming:** Đọc lướt lấy ý chính (Tiêu đề, câu đầu đoạn).
     *   **Scanning:** Đọc tìm từ khóa (Tên riêng, số năm).
     *   **Keyword Table:** Lập bảng từ vựng đồng nghĩa (Paraphrasing) sau mỗi bài đọc.
-    *   → **[Xem ngay: Reading & Listening Hacks (8.0+ Strategies)](./receptive-skills-hacks.md)**
+    *   → **[Xem ngay: Reading Mastery - 14 Question Types & Strategies (8.0+)](./reading-mastery.md)** ⭐ **NEW**
+    *   → **[Quick Tips: Reading & Listening Hacks](./receptive-skills-hacks.md)**
 *   **Tài liệu:** *Reading Strategies for the IELTS Test*, *Hacker IELTS Reading*.
 
 ### **✍️ Writing**
@@ -98,3 +100,38 @@ Lộ trình này dành cho người có nền tảng **Elementary (~3.5-4.0)** m
 *   **Xem phim:** Friends, How I Met Your Mother (Phụ đề Anh).
 *   **Đọc báo:** The Guardian, BBC News, VnExpress International.
 *   **Nhớ mục tiêu:** Du học, Định cư, Lương $2000+.
+
+---
+
+## 📚 Essential Resources (Tài liệu bổ sung)
+
+### **🆕 New Guides (Must Read):**
+1. **[📊 Band Descriptors Guide](./band-descriptors.md)** - Hiểu rõ 4 tiêu chí chấm điểm (TR, CC, LR, GRA)
+   - Band 6.0 vs 7.5 comparison with real examples
+   - Self-assessment checklist
+2. **[⚠️ Common Mistakes (50+)](./common-mistakes.md)** - Lỗi phổ biến người Việt hay mắc
+   - Grammar, Pronunciation, Vocabulary, Speaking, Writing, Listening, Reading
+   - How to fix each mistake
+3. **[🎓 IELTS Guide Homepage](./README.md)** - Navigation hub cho tất cả tài liệu
+
+### **Daily Tools:**
+- **[Daily Study Routine](./daily-routine.md)** - Lịch học chi tiết cho người bận rộn
+- **[Resources Hub](./resources.md)** - Books, Websites, Apps, YouTube, Podcasts
+
+---
+
+## 🎯 Quick Links by Skill
+
+**Writing:**
+- [Task 1 Mastery](./writing-task-1.md) | [Task 2 Mastery](./writing-mastery.md) | [Idea Bank](./idea-bank.md)
+
+**Speaking:**
+- [Speaking Mastery](./speaking-mastery.md) | [Fluency Drills](./speaking-fluency-drills.md) | [AI Partner](./ai-speaking-partner.md) | [Samples](./samples/README.md)
+
+**Reading & Listening:**
+- [Listening Mastery](./listening-mastery.md) ⭐ **NEW** - 5 Question Types
+- [Reading Mastery](./reading-mastery.md) ⭐ **NEW** - 14 Question Types
+- [Receptive Skills Hacks](./receptive-skills-hacks.md) - Quick Tips
+
+**Vocabulary:**
+- [Vocab Upgrade (6.0 → 8.0)](./vocab-upgrade.md)

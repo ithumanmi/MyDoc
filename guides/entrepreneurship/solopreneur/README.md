@@ -40,3 +40,4 @@ Trong thế giới Solopreneur: Thành công = Lợi nhuận cao + Ít rắc r�
 *   **[Audience-First Strategy](./audience-first-strategy.md):** Tại sao bạn nên xây dựng cộng đồng TRƯỚC khi xây sản phẩm?
 *   **[Automation Stack](./automation-stack.md):** Bộ công cụ "vũ khí hạng nặng" giúp Solopreneur vận hành doanh nghiệp 1 người.
 *   **[Mobile App Monetization](../tech-startup/mobile-app-monetization.md):** Chiến lược kiếm tiền cho Solo Mobile Dev (2026).
+*   **[Funding Options for Solopreneurs](../tech-startup/funding-options-2026.md):** Các nguồn vốn phù hợp để khởi sự một mình (Bootstrap, Grants, Pre-sale).

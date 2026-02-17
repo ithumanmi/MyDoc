@@ -53,3 +53,108 @@ Despite the frustration, I’m not ready to **throw in the towel** just yet. I r
 **Q: What are the disadvantages of using technology in the classroom?**
 *   **Band 8.0:** One major drawback is distraction. Students might be tempted to play games or chat with friends instead of listening to the lecture. Another concern is the digital divide; not all students have equal access to devices and high-speed internet, which can exacerbate educational inequality. Furthermore, excessive screen time can lead to eye strain and a sedentary lifestyle.
 
+---
+
+## 📚 Essential Vocabulary for Technology Topic
+
+### **Nouns (Danh từ):**
+- **Device, gadget, appliance** - thiết bị
+- **Innovation, breakthrough, advancement** - sự đổi mới, tiến bộ
+- **Automation, AI (Artificial Intelligence)** - tự động hóa, trí tuệ nhân tạo
+- **Digital divide** - khoảng cách công nghệ số
+- **Cybersecurity, data breach** - an ninh mạng, rò rỉ dữ liệu
+
+### **Adjectives (Tính từ):**
+- **Cutting-edge, state-of-the-art, high-tech** - tiên tiến, hiện đại
+- **User-friendly, intuitive** - dễ sử dụng, trực quan
+- **Obsolete, outdated** - lỗi thời
+- **Indispensable, essential** - không thể thiếu
+- **Overwhelming, daunting** - quá tải, đáng sợ
+
+### **Verbs & Phrases (Động từ & Cụm từ):**
+- **Rely on, depend on** - phụ thuộc vào
+- **Revolutionize, transform** - cách mạng hóa
+- **Automate a process** - tự động hóa quy trình
+- **Access information** - truy cập thông tin
+- **Upgrade, update** - nâng cấp, cập nhật
+- **Troubleshoot** - khắc phục sự cố
+
+### **Idioms & Collocations (Thành ngữ & Kết hợp từ):**
+- **Glued to one's phone** - dán mắt vào điện thoại
+- **Steep learning curve** - khó học, cần thời gian
+- **Double-edged sword** - con dao hai lưỡi
+- **Throw in the towel** - từ bỏ
+- **Keep up with technology** - theo kịp công nghệ
+- **Cutting-edge technology** - công nghệ tiên tiến
+
+### **Useful Sentence Patterns:**
+1. **"Technology has revolutionized the way we..."** (work, communicate, learn)
+2. **"One of the drawbacks of X is..."** (distraction, privacy concerns)
+3. **"Without technology, it would be impossible to..."**
+4. **"We have become increasingly dependent on..."**
+5. **"The rise of X has led to..."** (automation, unemployment)
+
+---
+
+## 🎯 Part 2 Answer - Annotated Version
+
+### 🗣️ Sample Answer (Band 8.0+) - WITH ANALYSIS
+
+"I'm going to talk about my **DSLR camera** [Specific detail], which has been a **real headache** [Idiom: Band 7.5+] for me. I purchased it last year **with the intention of** [Formal phrase - Band 7+] taking up photography as a serious hobby.
+
+It's a **professional-grade** [Compound adjective] camera, so it comes with a **steep learning curve** [Idiom: Band 8.0]. **Unlike** [Comparison] my smartphone which does everything automatically, this camera requires manual adjustment for every single shot. The interface is **cluttered with** [Phrasal expression] confusing icons and menus.
+
+The main difficulty lies in balancing the **exposure triangle** [Technical term]—aperture, shutter speed, and ISO. If I change one setting, I have to adjust the others, and **frankly** [Discourse marker], it's quite **overwhelming** [Strong adjective: Band 7+]. I often miss the moment while **fumbling with** [Phrasal verb] the settings.
+
+**Despite** [Contrast linker] the frustration, I'm not ready to **throw in the towel** [Idiom: means 'give up'] just yet. I realize that mastering any skill takes time and patience. I've started watching tutorials on YouTube and practicing on weekends. My goal is to **eventually** [Time adverb] become proficient enough to capture professional-quality portraits of my family."
+
+---
+
+### **📊 Why This Answer is Band 8.0+:**
+
+**✅ Lexical Resource (LR) - 8.0:**
+- **Idioms:** "real headache", "steep learning curve", "throw in the towel"
+- **Collocations:** "professional-grade", "cluttered with", "fumbling with"
+- **Less common vocabulary:** "overwhelming", "proficient", "intention"
+- **Topic-specific terms:** "exposure triangle", "aperture", "ISO"
+
+**✅ Grammatical Range & Accuracy (GRA) - 8.0:**
+- **Complex sentences:** "Unlike my smartphone which does everything automatically, this camera requires..."
+- **Relative clauses:** "which has been a real headache"
+- **Conditionals:** "If I change one setting, I have to adjust..."
+- **Participle phrases:** "while fumbling with the settings"
+- **Perfect tenses:** "has been", "I've started"
+
+**✅ Fluency & Coherence (FC) - 8.0:**
+- **Clear PPF structure:** Past (bought) → Present (difficulty) → Future (plan)
+- **Discourse markers:** "frankly", "despite", "eventually", "just yet"
+- **Logical flow:** Problem → Description → Solution
+- **Natural pauses:** Not robotic, sounds conversational
+
+**✅ Pronunciation (if spoken):**
+- **Word stress:** **PRO**-fessional-grade, over-**WHELM**-ing
+- **Sentence stress:** Emphasis on key words (DSLR, headache, overwhelming)
+- **Intonation:** Voice rises and falls naturally
+
+---
+
+### **❌ Compare: Band 6.0 vs Band 8.0**
+
+| Aspect | Band 6.0 | Band 8.0 |
+|:---|:---|:---|
+| **Opening** | "I want to talk about my camera." | "I'm going to talk about my DSLR camera, which has been a real headache for me." |
+| **Vocabulary** | Simple: "very difficult", "very hard" | Advanced: "steep learning curve", "overwhelming" |
+| **Grammar** | Simple sentences only | Mix of simple & complex structures |
+| **Idioms** | None | 3+ idioms naturally used |
+| **Specificity** | Generic "camera" | Specific "DSLR camera", "Canon EOS" |
+| **Length** | ~100 words | ~150 words |
+
+**Band 6.0 Example:**
+"I want to talk about my camera. I bought it last year. It's very difficult to use. My phone is easy but this camera is hard. It has many buttons. The biggest problem is the settings. I have to change many things. It's very confusing. But I want to learn. I watch YouTube and practice."
+
+**Problems with Band 6.0:**
+- ❌ Repetitive simple sentences
+- ❌ Basic vocabulary ("very", "many", "hard")
+- ❌ No idioms or collocations
+- ❌ Lacks detail and personality
+
