@@ -176,6 +176,11 @@ graph TD
 > *   [🧪 Advanced Testing Strategies (Chaos, Load, Contract)](./testing/advanced-strategies.md) ⭐ **NEW**
 > *   [♾️ DevOps & SRE Practices](./devops-sre/sre-practices.md) ⭐ **NEW**
 
+### 🏗️ Thực Hành System Design (Hands-on Practice)
+Lý thuyết là chưa đủ. Hãy bắt tay vào thiết kế:
+1.  **[Design Instagram (Deep Dive)](./system-design/design-instagram.md)** (⭐ **Recommended**) - Bài toán kinh điển về Feed & Scalability.
+2.  **[System Design Interview Cheatsheet](./templates/system-design-interview-cheatsheet.md)** - Các con số latency và công thức tính nhanh cần nhớ.
+
 #### **Core Concepts:**
 
 **A. Microservices Architecture**
