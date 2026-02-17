@@ -26,6 +26,7 @@ Trong kỷ nguyên AI và tự động hóa, "làm việc chăm chỉ" (Hard wor
 ### 1. Core Skills (Kỹ năng cốt lõi)
 Xây dựng nền tảng cho một bộ não hiệu suất cao.
 *   **[Mental Models Library](./mental-models/mental-models-library.md):** Thư viện các mô hình tư duy cốt lõi (First Principles, Inversion, Pareto...).
+*   **[Strategic Thinking Frameworks](./mental-models/strategic-thinking-frameworks.md)** (⭐ **New**) - SWOT, Second-Order Thinking, Impact/Effort Matrix.
 *   **[Deep Work System](./core-skills/deep-work-system.md):** Kỹ năng làm việc sâu, loại bỏ xao nhãng.
 *   **[Working with AI](./meta-skills/working-with-ai.md):** Tư duy Centaur - Làm chủ AI thay vì để AI làm chủ bạn.
 *   **[Learning How to Learn](./meta-skills/learning-how-to-learn.md):** Kỹ năng tự học đỉnh cao (Feynman, Spaced Repetition).
