@@ -183,9 +183,10 @@ graph TD
 
 ### 🏗️ Thực Hành System Design (Hands-on Practice)
 Lý thuyết là chưa đủ. Hãy bắt tay vào thiết kế:
-1.  **[Design Instagram (Deep Dive)](./system-design/design-instagram.md)** (⭐ **Recommended**) - Bài toán kinh điển về Feed & Scalability.
-2.  **[20 System Design Concepts (Glossary)](./system-design/system-design-glossary.md)** (⭐ **New**) - Giải thích các khái niệm quan trọng bằng ví dụ đời thường (ELI5).
-3.  **[System Design Interview Cheatsheet](./templates/system-design-interview-cheatsheet.md)** - Các con số latency và công thức tính nhanh cần nhớ.
+1.  **[The System Design Universe (Map)](./system-design/system-design-universe.md)** (⭐ **Must See**) - Bản đồ toàn cảnh 7 tầng kiến thức từ Lõi ra Vỏ.
+2.  **[Design Instagram (Deep Dive)](./system-design/design-instagram.md)** (⭐ **Recommended**) - Bài toán kinh điển về Feed & Scalability.
+3.  **[20 System Design Concepts (Glossary)](./system-design/system-design-glossary.md)** - Giải thích các khái niệm quan trọng bằng ví dụ đời thường (ELI5).
+4.  **[System Design Interview Cheatsheet](./templates/system-design-interview-cheatsheet.md)** - Các con số latency và công thức tính nhanh cần nhớ.
 
 #### **Core Concepts:**
 
