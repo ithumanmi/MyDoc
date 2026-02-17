@@ -167,6 +167,7 @@ graph TD
 > *   [🗄️ Advanced Database Engineering (Indexing, Sharding)](./database/advanced-db-optimization.md) ⭐ **Must Read**
 > *   [🧩 Microservices Patterns (Circuit Breaker, Saga)](./architecture/microservices-patterns-deep-dive.md) ⭐ **Must Read**
 > *   [⚡ High Performance Architecture](./architecture/high-performance.md) ⭐ **NEW**
+> *   [🐘 Scale Up vs 🐜 Scale Out (Chiến lược mở rộng)](./architecture/scaling-strategy.md) ⭐ **Must Read**
 > *   [🧮 Advanced Algorithms (Bloom Filter, GeoHash)](./architecture/advanced-algorithms.md) ⭐ **NEW**
 > *   [🌐 Distributed Systems](./architecture/distributed-systems.md) ⭐ **NEW**
 > *   [🔒 Advanced Security](./security/advanced-security.md) ⭐ **NEW**
