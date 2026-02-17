@@ -174,7 +174,8 @@ graph TD
 > *   [🏗️ System Design Case Studies (Netflix, Uber, Twitter)](./system-design/case-studies.md) ⭐ **NEW**
 > *   [☁️ Cloud Native Architecture (Serverless, Service Mesh)](./architecture/cloud-native.md) ⭐ **NEW**
 > *   [🧪 Advanced Testing Strategies (Chaos, Load, Contract)](./testing/advanced-strategies.md) ⭐ **NEW**
-> *   [♾️ DevOps & SRE Practices](./devops-sre/sre-practices.md) ⭐ **NEW**
+> *   [♾️ DevOps & SRE Practices (Docker, K8s)](./devops-sre/docker-k8s-guide.md) ⭐ **Must Read**
+> *   [♾️ SRE Practices (Site Reliability Engineering)](./devops-sre/sre-practices.md) ⭐ **NEW**
 
 ### 🏗️ Thực Hành System Design (Hands-on Practice)
 Lý thuyết là chưa đủ. Hãy bắt tay vào thiết kế:
