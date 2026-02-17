@@ -26,6 +26,8 @@ Train được mô hình 99% accuracy trên Notebook là chuyện nhỏ.
 
 ## 2. Monitoring (Giám sát)
 
+*   **[AI Monitoring Guide](./ai-monitoring.md):** Hướng dẫn chi tiết về Data Drift, Model Drift và các công cụ giám sát.
+
 Mô hình AI giống như thực phẩm tươi sống. Nó sẽ bị "hỏng" theo thời gian.
 
 ### **A. Data Drift (Trôi dữ liệu)**
@@ -44,6 +46,7 @@ Mô hình AI giống như thực phẩm tươi sống. Nó sẽ bị "hỏng" th
 
 ## 3. CI/CD for ML (Quy trình tự động hóa)
 
+*   **[CI/CD for AI Guide](./cicd-for-ai.md):** Hướng dẫn chi tiết về Continuous Integration, Deployment và Training cho AI.
 *   **Continuous Integration (CI):** Tự động test code, test dữ liệu đầu vào.
 *   **Continuous Delivery (CD):** Tự động đóng gói Docker, deploy lên môi trường Staging/Production.
 *   **Continuous Training (CT):** Tự động trigger quy trình train lại khi phát hiện Data Drift.

@@ -22,7 +22,7 @@ Hướng dẫn toàn diện về phát triển sự nghiệp, kiếm thu nhập,
 
 ### 📱 Mobile App Monetization
 
-*   **[App Dev Side Income](./app-dev-side-income.md)** - Chiến lược kiếm thêm thu nhập từ App Mobile
+*   **[Mobile Dev Side Income](./app-dev-side-income.md)** - Chiến lược kiếm thêm thu nhập từ App Mobile
 *   **[App Monetization Guide](./app-monetization-guide.md)** - Các mô hình kiếm tiền từ App (Ads, IAP, Subscription)
 
 ---

@@ -1,8 +1,22 @@
 # 🎮 Game Development Roadmap (Unity Focus)
 
-> [← Back to Chapter 1](../../chapters/01-xac-dinh-linh-vuc.md) | [Home](../../README.md)
+> 📍 **Navigation Note:**  
+> - **This folder (domains/game-dev/):** Technical skills - Unity, C#, Game Architecture, Shaders, Multiplayer  
+> - **Career & Business guide:** See [guides/game-dev/](../../guides/game-dev/README.md) for freelancing, publisher deals, monetization strategies
+
+> [← Back to Chapter 1](../../chapters/01-xac-dinh-linh-vuc.md) | [Home](../../README.md) | [🚀 Quick Start](../../QUICK-START.md) | [📖 Glossary](../../GLOSSARY.md)
+>
+> **Difficulty:** 🟢 Beginner → 🔴 Advanced (Progressive)
+>
+> **Prerequisites:** Basic programming knowledge (any language), Passion for games
+>
+> **Time to Master:** 12-24 months (Beginner to Professional Unity Developer)
 >
 > 🚀 **New Guide:** [Roadmap to $10k/Month for Game Developers](../../guides/game-dev/game-dev-10k-roadmap.md)
+
+**🎯 Starting Game Dev?** See [Quick Start - Beginner Path](../../QUICK-START.md#-path-1-beginner-developer-0-1-year) for your first steps!  
+**🔍 Game Dev terms:** Check [Glossary](../../GLOSSARY.md) - Unity, C#, Physics, AI concepts explained simply.  
+**📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md) to understand learning paths.
 
 ---
 
@@ -206,4 +220,8 @@ Multiplayer Game không chỉ là game có nhiều người chơi, mà là một
 *   ✅ **Specific (Gameplay):** "Strong grasp of Unity Physics 2D, Coroutines, and Input System. Experienced in implementing Character Controllers."
 *   ✅ **Specific (Mobile):** "Mobile Performance Optimization (Object Pooling, Texture Compression, URP Batching) for Android devices."
 *   ✅ **Specific (Multiplayer):** "Implemented Authoritative Server logic using Unity Netcode for GameObjects, handling Lag Compensation and Client-side Prediction for a fast-paced FPS."
+
+---
+
+> **Last Updated:** February 2026
 

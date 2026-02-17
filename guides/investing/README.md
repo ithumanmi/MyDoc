@@ -1,8 +1,13 @@
 # 💰 Investing & Economics Guides
 
-Chào mừng bạn đến với kho tàng kiến thức về Đầu tư và Kinh tế học. Mục tiêu của chúng tôi là giúp bạn xây dựng tư duy tài chính vững chắc dựa trên dữ liệu và khoa học hành vi.
+> [← Back to Home](../../README.md) | [🚀 Quick Start](../../QUICK-START.md) | [📖 Glossary](../../GLOSSARY.md)
 
-> [← Back to Home](../../README.md)
+**🎯 Starting your investing journey?** See [Quick Start Guide - Entrepreneur Path](../../QUICK-START.md#-path-4-entrepreneur--side-income-builder)  
+**🔍 Key terms:** Check [Glossary](../../GLOSSARY.md) for Macroeconomics, Behavioral Economics, etc.
+
+---
+
+Chào mừng bạn đến với kho tàng kiến thức về Đầu tư và Kinh tế học. Mục tiêu của chúng tôi là giúp bạn xây dựng tư duy tài chính vững chắc dựa trên dữ liệu và khoa học hành vi.
 
 ---
 
@@ -11,7 +16,7 @@ Chào mừng bạn đến với kho tàng kiến thức về Đầu tư và Kinh
 
 *   **[🌍 Macroeconomics (Kinh tế Vĩ mô)](./advanced/macroeconomics.md):** Hiểu về GDP, Lạm phát, Lãi suất và Chu kỳ kinh tế. (Big Picture)
 *   **[🏪 Microeconomics (Kinh tế Vi mô)](./advanced/microeconomics.md):** Hiểu về Cung cầu, Định giá và Hành vi tiêu dùng. (Small Picture)
-*   **[🧠 Behavioral Economics (Kinh tế Hành vi)](./advanced/behavioral-economics.md):** Hiểu về Tâm lý học, Thiên kiến nhận thức và Tại sao chúng ta ra quyết định sai lầm.
+*   **[🧠 Behavioral Economics (Kinh tế Hành vi)](./advanced/behavioral-economics.md):** Hiểu về Tâm lý học, Thiên kiến nhận thức và Tại sao chúng ta ra quyết định sai lầm. **(Core)**
 
 ---
 

@@ -1,11 +1,17 @@
 # 🌿 Well-Being & Biohacking Guides
 
-> [← Back to Home](../../README.md)
+> [← Back to Home](../../README.md) | [🚀 Quick Start](../../QUICK-START.md) | [📖 Glossary](../../GLOSSARY.md)
+
+**🎯 New here?** Check the [Quick Start Guide](../../QUICK-START.md) - especially the **Work-Life Balance path**!  
+**🔍 Need definitions?** See [Glossary](../../GLOSSARY.md) for terms like Dopamine, Cortisol, Flow State, etc.
+
+---
 
 ## 🧬 Biohacking (Tối ưu hóa sinh học)
 *(Hiểu và tối ưu "phần cứng" cơ thể của bạn)*
 
 ### Hormones & Neurotransmitters
+*   **[⚙️ CNS Basics](./cns-basics.md):** (Mới) Hệ Thần Kinh Trung Ương - "CPU" của cơ thể.
 *   **[🧠 Dopamine System](./biohacking/dopamine-system.md):** Động lực, kỷ luật & cai nghiện MXH.
 *   **[🛡️ Cortisol & Melatonin](./biohacking/cortisol-melatonin-system.md):** Quản lý stress & tối ưu giấc ngủ.
 *   **[🩸 Glucose & Insulin](./biohacking/glucose-insulin-system.md):** Duy trì năng lượng ổn định cả ngày.

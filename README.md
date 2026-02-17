@@ -5,13 +5,44 @@
 
 ---
 
+## 🎯 **BẮT ĐẦU TỪ ĐÂY** (New to this repo?)
+
+**👉 [QUICK START GUIDE](./QUICK-START.md)** ⭐ **Bắt buộc đọc trước!**
+
+Với **108,000+ từ** và 10+ domains, bạn dễ bị overwhelm. Quick Start Guide sẽ giúp bạn chọn đúng lộ trình dựa trên:
+- 👶 **Beginner** (0-1 năm) - Tránh Tutorial Hell
+- 🔧 **Mid-Level** (2-5 năm) - Chuyên sâu & Level up
+- 👑 **Senior** (5+ năm) - Hướng đến Top 1%
+- 💼 **Entrepreneur** - Side income & Startup
+- 🧘 **Burnout Recovery** - Work-life balance
+
+**⏱️ 2 phút đọc Quick Start = Tiết kiệm 20 giờ đi sai hướng!**
+
+---
+
+## 📁 Repository Structure
+
+Hiểu cấu trúc để navigate hiệu quả:
+
+- **`domains/`** - Kỹ năng kỹ thuật theo chuyên ngành (AI/ML, Backend, Game Dev, Blockchain...)
+- **`guides/`** - Kỹ năng sống & sự nghiệp (Career, Finance, Entrepreneurship, Well-being...)
+- **`chapters/`** - Lộ trình học tuần tự (Chương 1-10) - Framework cốt lõi
+- **`templates/`** - Templates ready-to-use (Weekly Review, OKR, Post-mortem...)
+- **`resources/`** - Sách, tools, communities, podcasts
+  - **`resources/collected_links/`** - Curated links theo domain (AI, Backend, Security...)
+- **`case-studies/`** - Phân tích case thực tế (Vietnam & Global leaders)
+
+> **💡 Tip:** Một số topics có overlap có chủ đích (VD: game-dev có cả trong `domains/` (technical) và `guides/` (career)). Xem navigation notes trong từng folder để biết đi đâu.
+
+---
+
 ## 🗺️ Mục lục (Navigation)
 
 ### 🏗️ Phase 1: Foundations (Xây nền móng)
 0.  **[🏆 Hướng dẫn: Becoming Top 1% (Developer xuất chúng)](guides/growth/becoming-top-1-percent.md)** (⭐ **New**)
     *   *Tại sao cùng 5 năm kinh nghiệm, lương lại chênh lệch gấp 10 lần?*
 1.  **[Chương 1: Xác định lĩnh vực & Mục tiêu](chapters/01-xac-dinh-linh-vuc.md)**
-    *   *Chọn gì?* [Game Dev](domains/game-dev/README.md) | [AI/ML](domains/ai-ml/README.md) | [App Dev](domains/app-dev/README.md) | [Web Dev](domains/web-dev/README.md) | [Network & Security](domains/network-security/README.md)
+    *   *Chọn gì?* [Game Dev](domains/game-dev/README.md) | [AI/ML](domains/ai-ml/README.md) | [Mobile Dev](domains/mobile-dev/README.md) | [Web Dev](domains/web-dev/README.md) | [Network & Security](domains/network-security/README.md)
 2.  **[Chương 2: Luyện tập có chủ đích (Deliberate Practice)](chapters/02-luyen-tap-co-chu-dich.md)**
     *   *Tại sao code 10,000 giờ vẫn gà? Cách học nhanh gấp 10 lần.*
 3.  **[Chương 3: Học từ người khổng lồ (Mentorship)](chapters/03-hoc-hoi-mentor.md)**
@@ -96,5 +127,22 @@
 
 ---
 
-> **Note:** Tài liệu này là một "Sống" (Living Document). Nó sẽ liên tục được cập nhật.
-> *Last updated: 2026*
+---
+
+## 🔧 Maintenance & Contribution
+
+This repository is actively maintained with quarterly content reviews:
+
+- 📅 **[MAINTENANCE.md](./MAINTENANCE.md)** - Quarterly review schedule & process
+- 🤝 **[CONTRIBUTING.md](./CONTRIBUTING.md)** - How to contribute
+- 🏗️ **[ARCHITECTURE.md](./ARCHITECTURE.md)** - Repository structure explained
+- 📊 **[DIFFICULTY-GUIDE.md](./DIFFICULTY-GUIDE.md)** - Learning path difficulty levels (🟢 Beginner → 🟡 Intermediate → 🔴 Advanced)
+
+**Automated Tools:**
+- `python check_links.py` - Verify all links are valid (run monthly)
+- `python check_dates.py` - Find outdated content (run quarterly)
+
+---
+
+> **Note:** Tài liệu này là một "Living Document" được cập nhật định kỳ mỗi quý.
+> *Last updated: February 2026*

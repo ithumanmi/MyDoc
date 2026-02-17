@@ -1,6 +1,11 @@
 # 📚 Comprehensive Guides (Thư viện Hướng dẫn)
 
-> [← Back to Home](../README.md)
+> [← Back to Home](../README.md) | [🚀 Quick Start Guide](../QUICK-START.md) | [📖 Glossary](../GLOSSARY.md)
+
+**🎯 New to this repo?** Start with the [**Quick Start Guide**](../QUICK-START.md) to choose your learning path!  
+**🔍 Looking for a term?** Check the [**Master Glossary**](../GLOSSARY.md) for 70+ concepts.
+
+---
 
 Chào mừng đến với thư viện hướng dẫn chuyên sâu. Tại đây tập hợp các module kiến thức thực chiến (Deep Dives) cho từng khía cạnh của sự nghiệp và cuộc sống.
 
@@ -23,6 +28,7 @@ Chào mừng đến với thư viện hướng dẫn chuyên sâu. Tại đây t
 *   **[📈 Investing (Đầu tư)](./investing/README.md)**
     *   Xây dựng tư duy đầu tư thụ động (Passive Income).
     *   Hiểu về Cổ phiếu, Bất động sản và các kênh tài sản.
+    *   [Behavioral Economics](./investing/advanced/behavioral-economics.md) - Tâm lý học đầu tư.
 *   **[🏢 Entrepreneurship (Khởi nghiệp)](./entrepreneurship/README.md)**
     *   Hướng dẫn xây dựng doanh nghiệp từ Zero to One.
     *   Vận hành SME và Solopreneur.

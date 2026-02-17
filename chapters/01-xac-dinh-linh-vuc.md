@@ -9,7 +9,7 @@ Mỗi lĩnh vực dưới đây đều có lộ trình (roadmap) chi tiết riê
 
 *   **🎮 [Game Development](../domains/game-dev/README.md):** Dành cho người thích Logic + Art + Math.
 *   **🤖 [Artificial Intelligence (AI) / Machine Learning](../domains/ai-ml/README.md):** Dành cho người thích Data + Math + Research.
-*   **📱 [App Development (Mobile)](../domains/app-dev/README.md):** Dành cho người thích Product + UX/UI.
+*   **📱 [Mobile App Development](../domains/mobile-dev/README.md):** Dành cho người thích Product + UX/UI.
 *   **🌐 [Web Development](../domains/web-dev/README.md):** Dành cho người thích Speed + SaaS + Fullstack.
 *   **🛡️ [Network & Security](../domains/network-security/README.md):** Dành cho người thích System + Defense + Hacking.
 *   **🔗 [Blockchain](../domains/blockchain/README.md):** Dành cho người thích Decentralization + Cryptography + Finance.

@@ -1,5 +1,9 @@
 # 👾 Game Development Roadmap
 
+> 📍 **Navigation Note:**  
+> - **This folder (guides/game-dev/):** Career & Business - Freelancing, Publisher deals, Monetization, Remote work  
+> - **Technical guide:** See [domains/game-dev/](../../domains/game-dev/README.md) for Unity, C#, Shaders, Game Architecture
+
 > [← Back to Guides](../README.md)
 
 Lộ trình phát triển sự nghiệp Game Developer & Publisher.

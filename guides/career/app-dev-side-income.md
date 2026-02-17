@@ -8,7 +8,7 @@ Hướng dẫn tối ưu hóa thời gian để kiếm thêm thu nhập từ k�
 
 ## 📋 Mục lục
 
-1. [Tại sao chọn App Dev làm Side Hustle?](#1-tại-sao-chọn-app-dev-làm-side-hustle)
+1. [Tại sao chọn Mobile Dev làm Side Hustle?](#1-tại-sao-chọn-mobile-dev-làm-side-hustle)
 2. [Chiến lược 1: Freelance (Active Income)](#2-chiến-lược-1-freelance-active-income)
 3. [Chiến lược 2: Micro-SaaS & Indie Apps (Passive Income)](#3-chiến-lược-2-micro-saas--indie-apps-passive-income)
 4. [Time Management: Cân bằng Job chính & Side Project](#4-time-management-cân-bằng-job-chính--side-project)

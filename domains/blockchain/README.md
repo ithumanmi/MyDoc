@@ -1,6 +1,16 @@
 # 🔗 Blockchain Knowledge Base
 
 > [← Back to Home](../../README.md)
+>
+> **Difficulty:** 🟢 Beginner → 🔴 Advanced (Progressive)
+>
+> **Prerequisites:** Basic programming knowledge helpful but not required
+>
+> **Time to Master:** 6-18 months (Fundamentals to DApp development)
+
+**📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md) to understand learning paths.
+
+---
 
 Blockchain không chỉ là Crypto. Nó là một cuộc cách mạng về **Trust (Niềm tin)** và **Data Integrity (Tính toàn vẹn dữ liệu)**.
 Thư viện này cung cấp kiến thức toàn diện từ cơ bản đến chuyên sâu về công nghệ Blockchain.
@@ -75,3 +85,7 @@ graph TD
 *   **Explorer:** Etherscan, BscScan, Solscan.
 *   **Development:** Remix IDE, VS Code (Solidity extension).
 *   **Data:** Dune Analytics, DefiLlama, CoinGecko.
+
+---
+
+> **Last Updated:** February 2026

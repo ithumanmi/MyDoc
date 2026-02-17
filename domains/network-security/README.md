@@ -1,6 +1,16 @@
 # 🛡️ Network & Security Roadmap
 
 > [← Back to Chapter 1](../../chapters/01-xac-dinh-linh-vuc.md) | [Home](../../README.md)
+>
+> **Difficulty:** 🟢 Beginner → 🔴 Advanced (Progressive)
+>
+> **Prerequisites:** Basic Linux/Windows knowledge, Command line familiarity
+>
+> **Time to Master:** 18-36 months (Networking basics to Pentesting/Blue Team)
+
+**📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md) to understand learning paths.
+
+---
 
 "Amateurs hack systems, professionals hack people." - Bruce Schneier.
 Hiểu về mạng và bảo mật không chỉ dành cho Hacker, mà là kỹ năng sinh tồn của mọi Developer trong thời đại số.
@@ -123,3 +133,7 @@ Học Security là phải thực chiến. Hãy làm các bài lab này (trên m�
 3.  **Burp Suite:** Proxy để chặn và sửa đổi request web.
 4.  **Metasploit:** Framework để khai thác lỗ hổng.
 5.  **TryHackMe / HackTheBox:** Các phòng lab ảo để luyện tập an toàn.
+
+---
+
+> **Last Updated:** February 2026

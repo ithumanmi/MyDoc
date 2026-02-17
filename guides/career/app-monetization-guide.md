@@ -1,6 +1,6 @@
 # 💰 Mobile App Monetization Guide: 0 → $10k+/tháng
 
-> [← Back to App Dev Roadmap](../../../domains/app-dev/README.md) | [Home](../../README.md)
+> [← Back to Mobile Dev Roadmap](../../domains/mobile-dev/README.md) | [Home](../../README.md)
 
 Hướng dẫn toàn diện về các mô hình kiếm tiền từ Mobile App, từ Freelance đến Passive Income.
 

@@ -1,6 +1,18 @@
 # 🤖 Artificial Intelligence & Machine Learning Roadmap
 
-> [← Back to Home](../../README.md)
+> [← Back to Home](../../README.md) | [🚀 Quick Start](../../QUICK-START.md) | [📖 Glossary](../../GLOSSARY.md)
+>
+> **Difficulty:** 🟢 Beginner → 🔴 Advanced (Progressive)
+>
+> **Prerequisites:** Python basics, High school math (improving as you go)
+>
+> **Time to Master:** 12-24 months (Beginner to Production-ready)
+
+**🎯 New to AI/ML?** Start with [Quick Start Guide](../../QUICK-START.md) to find your path!  
+**🔍 AI terms:** See [Glossary](../../GLOSSARY.md) for Machine Learning, Neural Networks, LLM, etc.  
+**📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md) to understand learning paths.
+
+---
 
 AI không còn là khoa học viễn tưởng. Nó đang viết code, vẽ tranh và lái xe.
 Lộ trình này giúp bạn đi từ con số 0 đến việc xây dựng được mô hình Generative AI của riêng mình.
@@ -62,6 +74,7 @@ graph TD
 
 ### **6. Generative AI (AI tạo sinh)**
 *   **[Diffusion Models](./generative-ai/diffusion-models.md):** Cách Stable Diffusion vẽ tranh từ văn bản.
+*   **[🛡️ Responsible AI](./generative-ai/responsible-ai.md):** Nguyên tắc, rủi ro và cách xây dựng AI an toàn, công bằng.
 
 ### **7. AI Agents & Multi-Agent Systems (Trợ lý AI)**
 *   **[Agent Architecture](./agents/agent-architecture.md):** Cấu trúc của một Agent (LLM + Memory + Tools).
@@ -79,6 +92,7 @@ graph TD
 
 ### **9. MLOps (Vận hành AI)**
 *   **[Deployment Pipeline](./mlops/deployment-pipeline.md):** Đưa mô hình từ Notebook ra Production bằng Docker và Kubernetes.
+*   **[CI/CD for AI](./mlops/cicd-for-ai.md):** Quy trình CI/CD chuyên biệt cho Machine Learning (CT & Model Registry).
 
 ---
 
@@ -86,3 +100,7 @@ graph TD
 *   **Frameworks:** PyTorch (Research), TensorFlow (Production), Scikit-learn.
 *   **Environment:** Jupyter Notebook, Google Colab, Kaggle.
 *   **Tracking:** MLflow, Weights & Biases (W&B).
+
+---
+
+> **Last Updated:** February 2026

@@ -205,48 +205,44 @@ Cảm giác: "Tôi muốn làm điều này!"
 
 **Mục tiêu:** Reset dopamine receptors, tăng sensitivity.
 
-#### **Week 1-2: Hard Reset**
+#### **Phân loại: Dopamine Fasting vs Dopamine Detox**
+*   **Dopamine Fasting (24h - 48h):** Ngắn hạn, dùng để "ngắt mạch" ngay lập tức khi cảm thấy quá tải (overstimulated). Thích hợp làm vào cuối tuần.
+*   **Dopamine Detox (30 ngày):** Dài hạn, dùng để "cài đặt lại" (rewire) thói quen và độ nhạy của não bộ.
 
-**CẤM hoàn toàn:**
-- ❌ Social media (delete apps)
-- ❌ Video games
-- ❌ Porn/sexual content
-- ❌ Netflix binge
-- ❌ Junk food
-- ❌ Scroll vô thức
+#### **Week 1-2: Hard Reset (Giai đoạn cai nghiện)**
 
-**CHỈ ĐƯỢC phép:**
-- ✅ Làm việc có mục đích
-- ✅ Đọc sách (physical book)
-- ✅ Tập thể dục
-- ✅ Nấu ăn
-- ✅ Trò chuyện face-to-face
-- ✅ Thiền, reflection
-- ✅ Viết nhật ký
+**CẤM hoàn toàn (The "NO" List):**
+*   ❌ **Social media:** Facebook, Instagram, TikTok, YouTube (giải trí). *Mẹo: Xóa app, dùng tool chặn.*
+*   ❌ **Video games:** Tất cả các thể loại.
+*   ❌ **Porn/Sexual content:** Tuyệt đối không.
+*   ❌ **Digital Entertainment:** Netflix, phim ảnh, đọc truyện online.
+*   ❌ **Junk food:** Đồ ngọt, đồ ăn nhanh, nước ngọt.
+*   ❌ **Substances:** Rượu bia, thuốc lá, chất kích thích.
 
-**Kết quả mong đợi (sau Week 2):**
-- Cảm thấy restless, bored (NORMAL!)
-- Khó chịu, cáu gắt (withdrawal symptoms)
-- Dần dần: Bắt đầu thấy việc bình thường... hấp dẫn hơn
+**ĐƯỢC PHÉP (The "YES" List):**
+*   ✅ **Công việc & Học tập:** Làm việc trên máy tính là ok, nhưng chỉ dùng công cụ cần thiết.
+*   ✅ **Âm nhạc:** Nhạc không lời, Lofi, Classical (để tập trung). Tránh nhạc quá kích động.
+*   ✅ **Podcast/Audiobook:** Chỉ nội dung giáo dục/phát triển bản thân (không giải trí nhảm nhí).
+*   ✅ **Vận động:** Gym, chạy bộ, đi dạo.
+*   ✅ **Sáng tạo:** Viết lách, vẽ, chơi nhạc cụ.
+*   ✅ **Kết nối thực:** Gặp gỡ bạn bè, gia đình face-to-face.
 
----
+**Kỹ thuật vượt qua cơn thèm (Urge Surfing):**
+Khi cơn thèm (muốn lướt web, chơi game) ập đến:
+1.  **Nhận diện:** "À, mình đang cảm thấy chán/bồn chồn và muốn dopamine."
+2.  **Quan sát:** Đừng chống lại, hãy quan sát cảm giác đó như một con sóng. Nó sẽ dâng lên cao trào rồi tự tan biến.
+3.  **Hít thở:** Hít sâu 5-10 lần.
+4.  **Hành động thay thế:** Uống 1 ly nước, hít đất 10 cái, hoặc đi ra ngoài trời.
 
-#### **Week 3-4: Reintroduction (Có chọn lọc)**
+#### **Week 3-4: Reintroduction (Tái hòa nhập có kiểm soát)**
 
-**Cho phép (với rules):**
-- ✅ Social media: 30 phút/ngày, sau 6PM
-- ✅ Games: 1 giờ, sau khi hoàn thành goals ngày
-- ✅ Netflix: 1 episode, cuối tuần
+Mục tiêu không phải là sống như tu sĩ mãi mãi, mà là sử dụng dopamine một cách chủ động.
 
-**VẪN CẤM:**
-- ❌ Porn
-- ❌ Scroll mindless
-- ❌ Binge anything
-
-**Kết quả mong đợi:**
-- Appreciate dopamine sources nhỏ hơn
-- Tập trung tốt hơn
-- Động lực trở lại
+**Quy tắc tái hòa nhập:**
+1.  **Không dùng buổi sáng:** 1-2 giờ đầu ngày tuyệt đối không MXH/Giải trí.
+2.  **Dùng như phần thưởng:** Chỉ chơi game/xem phim *SAU KHI* đã hoàn thành công việc quan trọng nhất trong ngày.
+3.  **Giới hạn thời gian:** Cài đặt app limit (ví dụ: FB 15 phút/ngày).
+4.  **Chất lượng hơn số lượng:** Xem 1 bộ phim hay (2 tiếng) tốt hơn lướt TikTok vô thức (2 tiếng).
 
 ---
 
@@ -413,24 +409,50 @@ Almonds, Dark chocolate (70%+), Greek yogurt
 
 ---
 
-## 💊 Supplements (Optional)
+## 💊 Supplements (Optional but Effective)
 
-**⚠️ Disclaimer:** Consult doctor trước khi dùng. Không thay thế lifestyle changes.
+**⚠️ Cảnh báo quan trọng:** Các chất bổ sung chỉ là công cụ hỗ trợ, không thể thay thế cho giấc ngủ, dinh dưỡng và lối sống lành mạnh. Việc lạm dụng chất bổ sung để "hack" dopamine liên tục mà không có thời gian phục hồi sẽ dẫn đến kiệt quệ (down-regulation). Hãy tham khảo ý kiến bác sĩ trước khi sử dụng.
 
-### **Tier 1: Safe & Proven**
+### **Tier 1: Foundational (Nền tảng - An toàn dùng hàng ngày)**
+Đây là các chất giúp xây dựng nền tảng sinh học khỏe mạnh cho dopamine hoạt động.
 
-| Supplement | Dose | Effect | Notes |
-|------------|------|--------|-------|
-| **L-Tyrosine** | 500-1000mg | Precursor trực tiếp | Uống sáng, empty stomach |
-| **Mucuna Pruriens** | 300-500mg | Chứa L-DOPA tự nhiên | Cycling: 5 days on, 2 off |
-| **Omega-3** | 1-2g EPA/DHA | Tăng dopamine receptors | Daily |
-| **Vitamin D3** | 2000-4000 IU | Dopamine synthesis | Với K2 |
+| Supplement | Cơ chế hoạt động | Liều dùng & Thời điểm |
+| :--- | :--- | :--- |
+| **Magnesium (Glycinate/Threonate)** | Là cofactor cần thiết cho enzyme *Tyrosine Hydroxylase* (chuyển đổi Tyrosine thành L-Dopa). Giúp thư giãn thần kinh. | 200-400mg trước khi ngủ 1-2h. |
+| **Vitamin D3 (+ K2)** | Hỗ trợ enzyme chuyển đổi Tyrosine thành Dopamine. Thiếu D3 thường dẫn đến dopamine thấp. | 2.000-5.000 IU vào buổi sáng (sau ăn). |
+| **B-Complex (Methylated)** | Vitamin B6 (P5P), B9 (Folate), B12 là cofactor bắt buộc trong quá trình tổng hợp dopamine. | Uống buổi sáng để tăng năng lượng. |
+| **Omega-3 (EPA/DHA)** | Tăng độ nhạy cảm của thụ thể dopamine (Receptor sensitivity) và tính linh hoạt của màng tế bào. | 1.000-2.000mg EPA+DHA sau bữa ăn có chất béo. |
+| **L-Tyrosine** | Tiền chất trực tiếp của Dopamine. Dùng khi cần tăng focus cấp tốc hoặc khi thiếu ngủ/stress. | 500-1.500mg uống lúc đói (trước khi làm việc 30p). |
 
-### **Tier 2: Advanced (Consult expert)**
+### **Tier 2: Advanced (Nâng cao - Dùng thận trọng/Theo chu kỳ)**
+Các chất này có tác dụng mạnh hơn, tác động trực tiếp đến mức độ dopamine. Cần dùng có kiểm soát.
 
-- **CDP-Choline** - Tăng dopamine + acetylcholine
-- **Rhodiola Rosea** - Adaptogen, chống stress
-- **Ginkgo Biloba** - Tăng dopamine availability
+| Supplement | Cơ chế hoạt động | Liều dùng & Lưu ý |
+| :--- | :--- | :--- |
+| **Caffeine + L-Theanine** | Caffeine chặn Adenosine (giảm mệt) + L-Theanine tăng sóng Alpha (bình tĩnh). Combo hoàn hảo cho focus. | Tỷ lệ 1:2 (100mg Caffeine + 200mg L-Theanine). Tránh dùng sau 2PM. |
+| **Mucuna Pruriens** | Chứa L-Dopa tự nhiên (tiền chất sát sườn nhất của Dopamine). Tác dụng rất mạnh nhưng **rủi ro cao**. | **Chỉ dùng ngắt quãng** (ví dụ: 1-2 lần/tuần). Dùng liên tục sẽ làm cơ thể ngừng tự sản xuất Dopamine (Down-regulation). |
+| **CDP-Choline (Citicoline)** | Tăng mật độ thụ thể Dopamine và Acetylcholine. Tốt cho focus và trí nhớ. | 250-500mg buổi sáng. |
+| **Ginkgo Biloba** | Tăng lưu lượng máu lên não và ức chế nhẹ sự phân hủy dopamine (MAO inhibitor). | 120mg buổi sáng. |
+
+### **Tier 3: Cảnh báo (Tránh xa hoặc cần chỉ định Y khoa)**
+*   **Nicotine:** Tăng dopamine cực mạnh nhưng gây nghiện cao. Không khuyến khích.
+*   **Adderall / Ritalin:** Thuốc điều trị ADHD. Chỉ dùng khi có đơn bác sĩ. Lạm dụng sẽ phá hủy hệ thống dopamine vĩnh viễn.
+
+---
+
+### **🧪 Stack Mẫu (Supplement Stacks)**
+
+#### **1. The "Deep Work" Stack (Cho 4h tập trung cao độ)**
+*   Caffeine (100-200mg) hoặc 1 ly cà phê đen.
+*   L-Theanine (200-400mg).
+*   L-Tyrosine (500-1.000mg).
+*   *Uống lúc đói, 30 phút trước khi bắt đầu.*
+
+#### **2. The "Recovery" Stack (Phục hồi sau ngày dài)**
+*   Magnesium Glycinate (400mg).
+*   Omega-3 (1.000mg).
+*   Vitamin C (500mg) - giúp giảm stress oxy hóa.
+*   *Uống sau bữa tối hoặc trước khi ngủ.*
 
 ---
 

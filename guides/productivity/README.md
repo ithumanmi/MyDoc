@@ -1,6 +1,11 @@
 # ⚡ Productivity & Income Growth (Năng suất & Thu nhập)
 
-> [← Back to Guides](../README.md) | [Home](../../README.md)
+> [← Back to Guides](../README.md) | [Home](../../README.md) | [🚀 Quick Start](../../QUICK-START.md) | [📖 Glossary](../../GLOSSARY.md)
+
+**🎯 New here?** Check [Quick Start Guide](../../QUICK-START.md) for personalized learning paths!  
+**🔍 Key terms:** See [Glossary](../../GLOSSARY.md) for Deep Work, Pomodoro, Time Blocking, etc.
+
+---
 
 Chào mừng bạn đến với hướng dẫn về Tối ưu hóa Hiệu suất làm việc.
 

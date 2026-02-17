@@ -1,6 +1,11 @@
 # 🚀 Growth Hacking Your Life
 
-> [← Back to Guides](../README.md)
+> [← Back to Guides](../README.md) | [🎯 Quick Start](../../QUICK-START.md) | [📖 Glossary](../../GLOSSARY.md)
+
+**🎯 Want to become Top 1%?** Start here: [Quick Start - All Paths](../../QUICK-START.md)  
+**🔍 Key concepts:** [Glossary](../../GLOSSARY.md) - Deliberate Practice, Systems Thinking, Life OS, etc.
+
+---
 
 Các chiến lược và hệ thống để tăng trưởng bản thân theo cấp số nhân.
 

@@ -1,8 +1,18 @@
 # 🔧 Backend Development Roadmap
 
-> [← Back to Chapter 1](../../chapters/01-xac-dinh-linh-vuc.md) | [Home](../../README.md)
+> [← Back to Chapter 1](../../chapters/01-xac-dinh-linh-vuc.md) | [Home](../../README.md) | [🚀 Quick Start](../../QUICK-START.md) | [📖 Glossary](../../GLOSSARY.md)
+>
+> **Difficulty:** 🟢 Beginner → 🔴 Advanced (Progressive)
+>
+> **Prerequisites:** Basic programming (any language), Command line familiarity
+>
+> **Time to Master:** 12-18 months (Junior to Senior-ready)
 >
 > 🗂️ **[XEM MỤC LỤC TOÀN DIỆN (MASTER INDEX)](./INDEX.md)** - Tra cứu nhanh tất cả tài liệu Backend.
+
+**🎯 New to Backend?** Check [Quick Start - Mid-Level Path](../../QUICK-START.md#-path-2-mid-level-developer-2-5-years) or [Senior Path](../../QUICK-START.md#-path-3-senior--expert-5-years)  
+**🔍 Backend terms:** See [Glossary](../../GLOSSARY.md) for REST API, Microservices, Caching, Load Balancing, etc.  
+**📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md) to understand learning paths.
 
 ---
 
@@ -620,3 +630,7 @@ API_KEY=abc123
 | **Use case** | Startups, API-heavy, Real-time (Chat, Streaming) | Enterprise, Game Backend (Unity), Financial systems |
 
 **Kết luận:** Học cả 2 là lý tưởng. Bắt đầu với **Node.js** (Dễ), sau đó học **C#** (Performance).
+
+---
+
+> **Last Updated:** February 2026

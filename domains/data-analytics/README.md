@@ -1,6 +1,16 @@
 # 📊 Data Analytics Domain
 
 > [← Back to Main Index](../../README.md)
+>
+> **Difficulty:** 🟢 Beginner → 🟡 Intermediate (Business-focused)
+>
+> **Prerequisites:** Excel basics, Business curiosity, No coding required initially
+>
+> **Time to Master:** 6-12 months (Excel mastery to SQL/Python proficiency)
+
+**📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md) to understand learning paths.
+
+---
 
 ## Tại sao chọn Data Analytics?
 Dữ liệu là "dầu mỏ" của thế kỷ 21. Mọi quyết định kinh doanh hiện đại đều dựa trên dữ liệu (Data-driven decision making).
@@ -80,3 +90,7 @@ Học đi đôi với hành. Dưới đây là các dự án mẫu để bạn l
 3.  **Domain Knowledge:** Hiểu về ngành bạn làm (Marketing, Finance, E-com) quan trọng ngang ngửa kỹ năng code.
 
 👉 **[Xem thêm: Checklist xây dựng Data Portfolio](./templates/data-portfolio-checklist.md)**
+
+---
+
+> **Last Updated:** February 2026
