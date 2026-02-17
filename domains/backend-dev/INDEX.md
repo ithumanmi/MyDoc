@@ -24,6 +24,7 @@ Sử dụng `Ctrl + F` để tìm kiếm nhanh chủ đề bạn cần.
 *   [System Design Guide](./system-design-guide.md) - Lý thuyết cốt lõi (CAP, Load Balancing).
 *   [The System Design Universe](./system-design/system-design-universe.md) ⭐ - Bản đồ toàn cảnh 7 tầng kiến thức.
 *   [Design Instagram (Deep Dive)](./system-design/design-instagram.md) ⭐ - Bài thực hành thiết kế hệ thống Feed.
+*   [Design Real-time Chat](./system-design/realtime-chat-system.md) ⭐ - WebSocket, Redis Pub/Sub.
 *   [20 System Design Concepts (Glossary)](./system-design/system-design-glossary.md) - Giải thích khái niệm bằng ví dụ đời thường.
 *   [System Design Cheatsheet](./templates/system-design-interview-cheatsheet.md) - Các con số Latency và công thức tính nhanh.
 
