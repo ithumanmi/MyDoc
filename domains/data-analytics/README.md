@@ -25,7 +25,8 @@ Nhu cầu tuyển dụng Data Analyst (DA) luôn cao, với mức lương hấp 
 *   **SQL (Structured Query Language):** Kỹ năng bắt buộc phải có.
     *   Cơ bản: SELECT, FROM, WHERE, GROUP BY, ORDER BY.
     *   Trung cấp: JOINS (Inner, Left, Right), Aggregate Functions.
-    *   Nâng cao: CTEs, Window Functions, Subqueries.
+    *   **Nâng cao:** CTEs, Window Functions, Subqueries.
+    👉 **[Đọc ngay: SQL Mastery (Window Functions & CTEs)](./sql-mastery.md)**
 
 ### Giai đoạn 3: Trực quan hóa & Kể chuyện (Visualization) 🎨
 *Mục tiêu: Biến con số khô khan thành biểu đồ biết nói.*
