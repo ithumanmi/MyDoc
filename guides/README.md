@@ -32,6 +32,9 @@ Chào mừng đến với thư viện hướng dẫn chuyên sâu. Tại đây t
 *   **[🏢 Entrepreneurship (Khởi nghiệp)](./entrepreneurship/README.md)**
     *   Hướng dẫn xây dựng doanh nghiệp từ Zero to One.
     *   Vận hành SME và Solopreneur.
+*   **[🚚 Logistics & Supply Chain (Hậu cần)](./logistics/README.md)** ⭐ **NEW**
+    *   Quản trị chuỗi cung ứng, kho vận và xuất nhập khẩu.
+    *   Tối ưu hóa vận hành và giao hàng chặng cuối.
 *   **[🔍 Market Research (Nghiên cứu thị trường)](./market-research/README.md)**
     *   Phương pháp tìm kiếm ý tưởng và phân tích đối thủ cạnh tranh.
 *   **[⚖️ Legal Resources (Kiến thức Pháp lý)](./legal-resources.md)** ⭐ **NEW**

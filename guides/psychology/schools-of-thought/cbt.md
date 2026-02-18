@@ -9,11 +9,65 @@
 ## 1. Nguyên lý Cốt lõi
 *   Không phải sự việc (Event) làm ta đau khổ.
 *   Mà là **cách ta suy nghĩ (Belief)** về sự việc đó làm ta đau khổ.
-*   **Mô hình A-B-C:**
-    *   **A (Activating Event):** Sự kiện kích hoạt (Vd: Bị sếp mắng).
-    *   **B (Belief):** Niềm tin/Suy nghĩ (Vd: "Mình là kẻ thất bại, sếp ghét mình").
-    *   **C (Consequence):** Hậu quả cảm xúc/hành vi (Vd: Buồn bã, nghỉ việc).
-*   -> Muốn đổi C, phải đổi B.
+
+### **Mô hình ABC(DE):**
+
+```mermaid
+graph TD
+    A[A: Activating Event<br/>Sự kiện kích hoạt<br/><br/>Ex: Bị sếp mắng] --> B[B: Belief<br/>Niềm tin/Suy nghĩ<br/><br/>Ex: Mình là kẻ thất bại<br/>Sếp ghét mình]
+    B --> C[C: Consequence<br/>Hậu quả Cảm xúc & Hành vi<br/><br/>Ex: Buồn bã, Lo âu<br/>Muốn nghỉ việc]
+    C --> D[D: Dispute<br/>Thách thức Niềm tin<br/><br/>Ex: Có bằng chứng gì?<br/>Sếp đang stress?<br/>Lần trước mình làm tốt mà]
+    D --> E[E: Effect<br/>Kết quả Mới<br/><br/>Ex: Bình tĩnh hơn<br/>Cải thiện công việc<br/>Hỏi feedback]
+    
+    style A fill:#ff9999
+    style B fill:#ffcc99
+    style C fill:#ffff99
+    style D fill:#99ccff
+    style E fill:#99ff99
+```
+
+**Phiên bản ASCII (cho terminal/text editor):**
+```
+┌─────────────────────────┐
+│  A: Activating Event    │
+│  (Sự kiện kích hoạt)    │
+│  Ex: Bị sếp mắng        │
+└───────────┬─────────────┘
+            │
+            ↓
+┌─────────────────────────┐
+│  B: Belief              │
+│  (Niềm tin/Suy nghĩ)    │
+│  Ex: "Mình thất bại"    │
+│      "Sếp ghét mình"    │
+└───────────┬─────────────┘
+            │
+            ↓
+┌─────────────────────────┐
+│  C: Consequence         │
+│  (Hậu quả)              │
+│  Ex: Buồn, lo âu        │
+│      Muốn nghỉ việc     │
+└───────────┬─────────────┘
+            │
+            ↓
+┌─────────────────────────┐
+│  D: Dispute             │
+│  (Thách thức)           │
+│  Ex: Có bằng chứng?     │
+│      Sếp đang stress?   │
+└───────────┬─────────────┘
+            │
+            ↓
+┌─────────────────────────┐
+│  E: Effect              │
+│  (Kết quả mới)          │
+│  Ex: Bình tĩnh          │
+│      Cải thiện việc     │
+└─────────────────────────┘
+```
+
+**→ Muốn đổi C (Consequence), phải đổi B (Belief).**
 
 ## 2. Cognitive Distortions (Lỗi tư duy thường gặp)
 Người trầm cảm/lo âu thường mắc các lỗi này:
