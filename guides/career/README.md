@@ -19,6 +19,10 @@ Hướng dẫn toàn diện về phát triển sự nghiệp, kiếm thu nhập,
 *   **[Indie Hacker Roadmap](./indie-hacker-roadmap.md)** - Hướng dẫn toàn diện xây dựng sản phẩm độc lập
 *   **[Path to $10k Monthly](./path-to-10k-monthly.md)** - Lộ trình đạt thu nhập $10,000/tháng từ code
 *   **[Remote Backend Guide](./remote-backend-guide.md)** - Bí quyết tìm việc Remote lương cao (Global)
+*   **[The Art of Execution (Nghệ thuật Thực thi)](./art-of-execution.md)** ⭐ **NEW** - 5 dấu hiệu nhận biết nhân sự làm việc hiệu quả.
+*   **[The Brutal Truths of Maturity (Sự Thật Trần Trụi)](./brutal-truths-of-maturity.md)** ⭐ **NEW** - 17 bài học "đau lòng" về con người và tiền bạc sau tuổi 30.
+*   **[The Scholar's Aura (Tướng Khí Học Thuật)](./scholars-aura.md)** ⭐ **NEW** - Cách dùng tri thức để rèn luyện thần thái lãnh đạo (Sắc quyết, Trầm sát, Sắc lạnh).
+*   **[Building Confidence (Xây Dựng Sự Tự Tin)](./building-confidence.md)** ⭐ **NEW** - 5 trụ cột để rèn luyện phong thái đàn ông vững chãi.
 
 ### 📱 Mobile App Monetization
 

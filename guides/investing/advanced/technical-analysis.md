@@ -28,14 +28,14 @@ Phân tích kỹ thuật (TA) là việc nhìn vào lịch sử giá để dự 
 *   **MA 50:** Xu hướng trung hạn. Giá nằm trên MA 50 -> Xu hướng tăng.
 *   **MA 200:** Xu hướng dài hạn. "Golden Cross" (MA 50 cắt lên MA 200) là tín hiệu Uptrend mạnh.
 
-### **RSI (Relative Strength Index)**
-*   **Quá mua (Overbought > 70):** Giá đã tăng quá nóng, dễ điều chỉnh giảm. -> Cân nhắc bán.
-*   **Quá bán (Oversold < 30):** Giá đã giảm quá đà, dễ bật tăng trở lại. -> Cân nhắc mua.
-
 ---
-
-## 4. Trend is your Friend (Xu hướng là bạn)
 
 *   **Uptrend:** Đỉnh sau cao hơn đỉnh trước, Đáy sau cao hơn đáy trước. -> Chỉ canh Mua (Long).
 *   **Downtrend:** Đỉnh sau thấp hơn đỉnh trước, Đáy sau thấp hơn đáy trước. -> Chỉ canh Bán (Short) hoặc đứng ngoài.
 *   **Sideway:** Đi ngang trong hộp. -> Mua biên dưới, bán biên trên.
+
+## 4. Trend is your Friend (Xu hướng là bạn)
+
+### **RSI (Relative Strength Index)**
+*   **Quá mua (Overbought > 70):** Giá đã tăng quá nóng, dễ điều chỉnh giảm. -> Cân nhắc bán.
+*   **Quá bán (Oversold < 30):** Giá đã giảm quá đà, dễ bật tăng trở lại. -> Cân nhắc mua.

@@ -15,28 +15,29 @@ Bạn có thể quản lý thời gian hoàn hảo, nhưng nếu não bạn "h�
 
 ---
 
-## 2. 4 Nguồn năng lượng (The Energy Pyramid)
+## 2. 4 Nguồn năng lượng (The Energy Pyramid) - Góc nhìn Hệ thống
 
-### **A. Physical Energy (Thể chất - Nền móng)**
-Cung cấp nhiên liệu cho não bộ.
-1.  **Sleep (Giấc ngủ):** Ưu tiên số 1. Ngủ 7-8h mỗi đêm. Thiếu ngủ = Say rượu (Về mặt nhận thức).
-2.  **Nutrition (Dinh dưỡng):** Tránh đường (Sugar Crash). Ăn nhiều Protein và Rau xanh để duy trì đường huyết ổn định.
-3.  **Exercise (Vận động):** Tập thể dục nhẹ buổi sáng giúp bơm máu lên não tốt hơn cà phê.
+### **A. Physical Energy (Thể chất - Hệ thống Cung cấp)**
+Đây là "nguồn điện" cho Prefrontal Cortex (PFC) hoạt động. Khi hệ thống này yếu, Amygdala (mạch sợ hãi) sẽ tự động chiếm quyền.
+1.  **Sleep (Giấc ngủ):** Ưu tiên số 1. Ngủ 7-8h để rửa sạch các độc tố trong não (Glymphatic system).
+2.  **Nutrition (Dinh dưỡng):** Giới hạn đường để tránh "Glucose spike & crash" – nguyên nhân gây ra sự mất ổn định của PFC.
+3.  **Morning Sunlight:** Tiếp xúc ánh sáng mặt trời ngay khi thức dậy để thiết lập nhịp Circadian, tối ưu hóa Cortisol buổi sáng và Melatonin buổi tối.
 
-### **B. Emotional Energy (Cảm xúc)**
-Nhiên liệu cho động lực.
-1.  **Negative Emotions:** Giận dữ, lo lắng tiêu tốn cực nhiều năng lượng.
-2.  **Positive Rituals:** Biết ơn, Thiền, Gặp gỡ bạn bè tích cực để sạc lại "pin cảm xúc".
+### **B. Emotional Energy (Cảm xúc - Hệ thống Điều hướng)**
+Cảm xúc tiêu cực kích hoạt Amygdala, làm tiêu tốn năng lượng gấp nhiều lần so với trạng thái bình tĩnh.
+1.  **Name it to Tame it:** Đặt tên cho cảm xúc để chuyển từ Amygdala (phản ứng) sang PFC (phân tích).
+2.  **Safe Zone:** Tạo ra một khoảng thời gian/không gia mỗi ngày không có kích thích (Silent time) để hệ thần kinh được "nguội" đi.
 
-### **C. Mental Energy (Trí tuệ)**
-Nhiên liệu cho sự tập trung.
-1.  **Single-tasking:** Đa nhiệm (Multitasking) đốt năng lượng chuyển đổi (Switching Cost) cực lớn.
-2.  **Visualization:** Hình dung kết quả trước khi làm để não bộ đỡ phải "đoán mò".
+### **C. Mental Energy (Trí tuệ - Hệ thống Xử lý)**
+Khả năng tập trung phụ thuộc vào lượng Glucose và Dopamine ổn định.
+1.  **Eliminate Decision Fatigue:** Tự động hóa các quyết định nhỏ (mặc gì, ăn gì, làm gì lúc mấy giờ) để dành năng lượng xử lý cho các vấn đề phức tạp.
+2.  **Single-tasking:** Đa nhiệm làm rò rỉ năng lượng do chi phí chuyển đổi (Switching cost) thần kinh.
 
-### **D. Spiritual Energy (Tinh thần/Ý nghĩa)**
-Nhiên liệu cho sự bền bỉ (Grit).
-1.  **Purpose (Mục đích):** Tại sao bạn làm việc này? Vì tiền? Vì đam mê? Vì gia đình?
-2.  **Values:** Sống đúng với giá trị của mình sẽ không thấy mệt mỏi.
+### **D. Spiritual Energy (Bản sắc - Hệ thống Định hướng)**
+Hệ thống này quyết định "Vòng lặp phản hồi" của bạn là tích cực hay tiêu cực.
+1.  **Identity Alignment:** Khi hành động trùng khớp với bản sắc (ví dụ: "Tôi là người kỷ luật"), não bộ sẽ tiết ra Dopamine một cách bền vững thay vì cần sự cố gắng.
+2.  **Purpose:** Mục đích là "điểm nút" giúp bạn vượt qua các cơn stress ngắn hạn mà không bị sụp đổ hệ thống.
+
 
 ---
 
@@ -59,10 +60,10 @@ Vì não bạn đã quen với **High Dopamine** (Kích thích mạnh, nhanh).
 1.  **Dopamine Fasting:** Dành 1 ngày/tuần không điện thoại, không Internet, không đồ ngọt. Để não "Reset" lại độ nhạy cảm.
 2.  **Hard things first:** Làm việc khó nhất vào buổi sáng khi Dopamine chưa bị tiêu hao bởi MXH.
 
----
-
 ## 5. Checklist Hồi phục Năng lượng
 
 *   [ ] Ngủ trưa ngắn (Power Nap): 20 phút (Đừng ngủ quá 30p sẽ bị say ngủ).
 *   [ ] Uống đủ nước: Não thiếu nước sẽ teo lại và xử lý chậm.
 *   [ ] Tiếp xúc ánh sáng mặt trời: Giúp điều chỉnh đồng hồ sinh học (Circadian Rhythm).
+
+---

@@ -31,6 +31,8 @@
 *(Rèn luyện "phần mềm" tâm trí)*
 
 *   **[🧘 Mindfulness Meditation](./mental-resilience/mindfulness-meditation.md):** Kỹ thuật thiền định & tỉnh thức.
+*   **[Restore Tinh-Khi-Than (Phục hồi Tinh Khí Thần)](./restore-tinh-khi-than.md):** ⭐ **NEW** Chữa lành rối loạn lo âu từ gốc rễ năng lượng.
+*   **[Cultivating Yang Energy (Nuôi Dưỡng Dương Khí)](./cultivating-yang-energy.md):** ⭐ **NEW** 5 trụ cột để tăng cường sức mạnh, uy lực và thần thái.
 *   **[🔥 Burnout Prevention](./mental-resilience/burnout-prevention.md):** Nhận diện, ngăn ngừa và phục hồi kiệt sức.
 *   **[🏛️ Stoicism for Modern Life](./mental-resilience/stoicism-for-modern-life.md):** Ứng dụng triết lý Khắc kỷ để vững vàng trước nghịch cảnh.
 

@@ -69,4 +69,8 @@ Họ xây dựng KCN theo **hành lang Logistics** (Logistics Corridors), không
 
 1.  **Logistics không thể sửa bằng tiền:** Một khi nhà máy đã xây, không thể bứng đi chỗ khác. Chi phí cao sẽ ăn mòn lợi nhuận suốt vòng đời dự án.
 2.  **Tầm nhìn quy hoạch:** Phải đặt Logistics làm nền tảng (Foundation), không phải dịch vụ đi kèm (Add-on).
-3.  **Lời khuyên cho Nhà đầu tư:** Khi chọn địa điểm đặt nhà máy, đừng chỉ nhìn giá thuê đất rẻ. Hãy tính toán **Tổng chi phí Logistics (Total Logistics Cost)** trong 10-20 năm. Đất rẻ có thể biến thành "bẫy chi phí" khổng lồ.
+3.  **Dự báo 15-20 năm tới:** Bản đồ KCN Việt Nam sẽ xoay quanh các cụm **Cảng nước sâu**.
+    *   **Quy luật "Gravity" (Hấp dẫn):** Cảng lớn hút hãng tàu -> hút kho bãi -> hút Forwarder -> hút nhà máy. Đây là vòng lặp tự củng cố.
+    *   **Container hóa & Tàu siêu lớn:** Tàu 24.000 TEU chỉ ghé cảng nước sâu (như Cái Mép, Lạch Huyện). KCN xa cảng sẽ bị loại khỏi tuyến tàu mẹ trực tiếp, chịu chi phí trung chuyển $200-$400/cont vĩnh viễn và chậm 5-10 ngày transit.
+    *   **Tái cấu trúc vai trò:** KCN nội địa sẽ không biến mất nhưng sẽ mất vai trò trung tâm xuất khẩu, chuyển sang phục vụ nội địa hoặc sản xuất vệ tinh (Niche).
+4.  **Lời khuyên cho Nhà đầu tư:** Khi chọn địa điểm đặt nhà máy, đừng chỉ nhìn giá thuê đất rẻ. Hãy tính toán **Tổng chi phí Logistics (Total Logistics Cost)** trong 10-20 năm. Đất rẻ có thể biến thành "bẫy chi phí" khổng lồ. Địa lý không thay đổi, nhà máy gần cảng sẽ luôn chiến thắng về chi phí trong dài hạn.

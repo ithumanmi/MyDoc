@@ -32,7 +32,12 @@ Trong kỷ nguyên AI và tự động hóa, "làm việc chăm chỉ" (Hard wor
 Xây dựng nền tảng cho một bộ não hiệu suất cao.
 *   **[Mental Models Library](./mental-models/mental-models-library.md):** Thư viện các mô hình tư duy cốt lõi (First Principles, Inversion, Pareto...).
 *   **[Strategic Thinking Frameworks](./mental-models/strategic-thinking-frameworks.md)** (⭐ **New**) - SWOT, Second-Order Thinking, Impact/Effort Matrix.
+*   **[Life System Thinking (Tư Duy Hệ Thống)](./mental-models/life-system-thinking.md)** (⭐ **New**) - Thiết kế hệ thống vận hành thay vì dùng ý chí.
+*   **[Probabilistic Thinking (Tư Duy Xác Suất)](./mental-models/probabilistic-thinking.md)** (⭐ **New**) - Ứng dụng xác suất vào đời sống.
+*   **[Methodology Mindset (Phương Pháp Luận)](./mental-models/methodology-mindset.md)** (⭐ **New**) - Bộ não đứng sau mọi sự tiến bộ.
+    *   **[Part 2: Từ Tư Duy Đến Kiến Tạo](./mental-models/methodology-mindset-p2.md)** - Lộ trình 3 bậc trưởng thành.
 *   **[Deep Work System](./core-skills/deep-work-system.md):** Kỹ năng làm việc sâu, loại bỏ xao nhãng.
+*   **[Density of Life (Mật độ Sống)](./core-skills/density-of-life.md):** ⭐ **NEW** Cách sống 1 năm bằng 10 năm trải nghiệm.
 *   **[Working with AI](./meta-skills/working-with-ai.md):** Tư duy Centaur - Làm chủ AI thay vì để AI làm chủ bạn.
 *   **[Learning How to Learn](./meta-skills/learning-how-to-learn.md):** Kỹ năng tự học đỉnh cao (Feynman, Spaced Repetition).
 *   **[PKM System (Building a Second Brain)](./meta-skills/pkm-system.md):** Xây dựng bộ não thứ hai để quản lý tri thức (Phương pháp PARA).

@@ -38,6 +38,7 @@ Trong kỷ nguyên thông tin hỗn loạn, khả năng lọc nhiễu và nhìn 
 **3. Future Trends (Xu hướng Tương lai):**
 *   **[AI & Singularity](./future-trends/ai-singularity.md):** Điểm kỳ dị công nghệ.
 *   **[Demographic Collapse](./future-trends/demographic-collapse.md):** Khủng hoảng nhân khẩu học.
+*   **[Việt Nam 2045-2050](./future-trends/future-citizen-skills.md):** ⭐ **NEW** Nhận thức mới về phát triển & Kỹ năng công dân tương lai.
 
 ---
 

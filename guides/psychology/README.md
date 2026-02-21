@@ -31,7 +31,14 @@ Chào mừng bạn đến với **Psychology Domain**. Đây là bản đồ ki�
 *   **[Inclusive Quality (Bao liệt)](./practical-applications/inclusive-quality.md):** Khả năng dung nạp sự khác biệt, vượt lên trên sự bao dung thông thường.
     *   **[🦅 Inclusive Masculinity (Đàn ông Trưởng thành)](./practical-applications/inclusive-masculinity.md):** Phẩm chất bao liệt và bản lĩnh đàn ông.
     *   **[🦁 Inclusive Leadership (Lãnh đạo Thực chiến)](./practical-applications/inclusive-leadership.md):** Giữ ổn định hệ thống và dẫn dắt đội ngũ.
+*   **[💎 Inner Qualities of Attraction (Phẩm chất Thu hút)](./practical-applications/inner-qualities-of-attraction.md):** ⭐ **NEW** Tại sao phụ nữ chọn ở lại dựa trên nội tâm đàn ông.
 *   **[Social Psychology (Hiểu người)](./practical-applications/social-psychology.md):** Áp lực đám đông, Quyền lực & Sự tuân phục.
+*   **[Quality vs Quantity (Chất lượng Mối quan hệ)](./practical-applications/quality-vs-quantity.md):** ⭐ **NEW** Nhận diện người thật lòng và sự cô độc trưởng thành.
+*   **[The Art of Reading People (Nghệ thuật Nhìn người)](./practical-applications/art-of-reading-people.md):** ⭐ **NEW** 7 dấu hiệu nhận biết bản chất con người để bảo vệ tâm hồn.
+*   **[True Charisma (Khí Chất & Năng Lượng)](./practical-applications/aura-and-energy.md):** ⭐ **NEW** Tại sao khí chất thực sự không hút người yếu.
+*   **[True Maturity (Chiều Sâu Trưởng Thành)](./practical-applications/true-maturity.md):** ⭐ **NEW** Buông bỏ nhu cầu kiểm soát để hiểu người sâu sắc.
+*   **[3 Levels of Thinking (3 Tầng Tư Duy)](./practical-applications/three-levels-of-thinking.md):** ⭐ **NEW** Tại sao nỗ lực thôi là chưa đủ để vượt trần.
+*   **[The Pleasure of Collapse (Khoái cảm Sụp đổ)](./practical-applications/the-pleasure-of-collapse.md):** ⭐ **NEW** Tại sao kẻ mạnh nghiện sự mục ruỗng.
 *   **[Relationships (Mối quan hệ)](./practical-applications/relationships.md):** Gắn bó (Attachment styles), Ranh giới & Giao tiếp.
 *   **[Work & Money (Công việc)](./practical-applications/work-money.md):** Động lực, Burnout & Tâm lý học hành vi trong tài chính.
 *   **[Defense & Manipulation (Phòng vệ)](./practical-applications/defense-mechanisms.md):** Gaslighting, Thao túng & Cơ chế phòng vệ.

@@ -23,14 +23,18 @@ Với SME, nếu không có lãi ngay từ ngày đầu (hoặc tháng đầu), 
 ### 1. Mindset (Tư duy Làm chủ)
 Chuyển đổi từ người làm chuyên môn sang người làm kinh doanh.
 *   **[Cashflow Quadrant](./mindset/cashflow-quadrant.md):** Sự khác biệt cốt lõi giữa "Làm tư" và "Làm chủ".
+*   **[10M Revenue Formula (Công Thức 10 Triệu Đô)](./mindset/10m-revenue-formula.md):** ⭐ **NEW** Cách vượt lên 99% mọi người bằng đòn bẩy và tư duy đúng.
+*   **[Naval Ravikant (Tư duy Giàu có & Tự do)](./mindset/naval-ravikant-leverage.md):** ⭐ **NEW** Đừng bán thời gian lấy tiền, hãy dùng đòn bẩy.
 *   **[Lean Startup for SME](./mindset/lean-startup-for-sme.md):** Khởi nghiệp tinh gọn. Thử sai nhanh, rẻ, ít rủi ro.
 *   **[Delegation Mastery](./mindset/delegation-mastery.md):** Nghệ thuật ủy quyền để thoát khỏi sự vụ lặt vặt.
 
 ### 2. Operations (Vận hành & Quy trình)
 Xây dựng cỗ máy kiếm tiền tự động.
 *   **[Finance 101 for Owners](./operations/finance-101-for-owners.md):** Đọc hiểu Báo cáo tài chính, quản lý dòng tiền để không "chết trên đống tài sản".
+*   **[CEO Time Management (Quản trị Thời gian)](./operations/ceo-time-management.md):** ⭐ **NEW** 9 hệ thống giúp bạn thoát khỏi việc sự vụ và có thêm 10 giờ mỗi tuần.
 *   **[SOP System (Standard Operating Procedure)](./operations/sop-system.md):** Viết quy trình chuẩn để nhân bản nhân sự và mở rộng quy mô.
 *   **[Hiring & Firing](./operations/hiring-firing.md):** Tuyển dụng đúng người, sa thải đúng lúc (và đúng luật).
+*   **[High Performance Teams (Xây dựng Đội ngũ Hiệu suất Cao)](./operations/high-performance-teams.md):** ⭐ **NEW** Biến tài năng thành kết quả bằng Tâm lý học An toàn và Hệ thống.
 
 ### 3. Growth (Tăng trưởng & Marketing)
 Mang tiền về cho doanh nghiệp.

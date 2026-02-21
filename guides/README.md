@@ -63,6 +63,12 @@ Chào mừng đến với thư viện hướng dẫn chuyên sâu. Tại đây t
 
 *   **[👾 Game Development](./game-dev/README.md)**
     *   Lộ trình cho Game Developer (Unity, Unreal, Design Patterns).
+*   **[🏗️ System Design (Thiết kế Hệ thống)](./system-design/README.md)** ⭐ **NEW**
+    *   Kiến trúc phần mềm, Scalability.
+    *   Redis, Caching, Databases.
+*   **[📊 Data Strategy (Chiến lược Dữ liệu)](./data-strategy/README.md)**
+    *   Mô hình tổ chức dữ liệu (Centralized vs Decentralized).
+    *   Quản trị dữ liệu và Xây dựng đội ngũ Data.
 
 ---
 

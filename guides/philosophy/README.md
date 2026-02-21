@@ -48,6 +48,7 @@ Lộ trình này được thiết kế đi từ nền tảng tư duy đến các
 *   **[Modern Philosophy (Triết học Hiện đại)](./schools-and-thinkers/modern-philosophy.md):** Descartes (Tôi tư duy), Kant, Nietzsche.
 *   **[Existentialism (Chủ nghĩa Hiện sinh)](./schools-and-thinkers/existentialism-deep-dive.md):** Sartre, Camus. Tự do và sự phi lý.
 *   **[Contemporary Philosophy (Đương đại)](./schools-and-thinkers/contemporary-philosophy.md):** Wittgenstein, Foucault.
+*   **[The Scholar & The Outlaw (Học giả & Giang hồ)](./scholar-and-outlaw.md):** ⭐ **NEW** Cân bằng giữa sự điềm đạm và phóng khoáng để sống tự do.
 *   **[Postmodernism (Hậu hiện đại)](./schools-and-thinkers/postmodernism-deep-dive.md):** Derrida, Baudrillard, Sự sụp đổ của Chân lý.
 *   **[Political Philosophy (Chính trị)](./schools-and-thinkers/political-philosophy.md):** Tự do vs Bình đẳng, Công lý (Rawls).
     *   **[Advanced Political Philosophy](./schools-and-thinkers/political-advanced.md):** Machiavelli, Arendt, Foucault (Quyền lực).
@@ -56,6 +57,10 @@ Lộ trình này được thiết kế đi từ nền tảng tư duy đến các
 *Triết học không phải để nói, mà để sống.*
 
 *   **[Stoicism Daily (Thực hành Khắc kỷ)](./practical-applications/stoicism-daily.md):** Dichotomy of Control, Negative Visualization.
+*   **[Inner Strength (Thời không thuận, Đạo phải sâu)](./practical-applications/inner-strength-in-adversity.md):** ⭐ **NEW** Rèn rễ tâm khi đời gặp bão tố.
+*   **[The Awakened Fury (Cơn Thịnh Nộ Thức Tỉnh)](./awakened-fury.md):** ⭐ **NEW** Khi người lương thiện buộc phải cầm kiếm vì công lý.
+*   **[Changing Destiny (Nghịch Thiên Cải Mệnh)](./practical-applications/changing-destiny.md):** ⭐ **NEW** Công thức khoa học để viết lại số phận (Đức năng thắng số).
+*   **[The Existential Mindset (Tư duy Hiện sinh)](./practical-applications/existential-mindset.md):** ⭐ **NEW** 6 dấu hiệu bạn đang sống sâu sắc hơn đám đông (hack não).
 *   **[Decision Making Frameworks](./practical-applications/decision-making-frameworks.md):** Ra quyết định dựa trên triết học.
 *   **[Meaning & Purpose](./practical-applications/meaning-and-purpose.md):** Tìm kiếm ý nghĩa cuộc sống (Frankl).
 *   **[Ethics in Tech](./practical-applications/ethics-in-tech.md):** Đạo đức trong AI và công nghệ.
