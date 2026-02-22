@@ -32,6 +32,7 @@ Trong kỷ nguyên thông tin hỗn loạn, khả năng lọc nhiễu và nhìn 
 *   **[Antifragile](./systems-thinking/antifragile.md):** Tư duy "Kháng thương" - Hưởng lợi từ sự hỗn loạn.
 
 **2. Geopolitics & Macro (Bức tranh lớn):**
+*   **[Vietnam Diplomacy Strategy 2026-2031](./geopolitics-macro/vietnam-diplomacy-strategy.md):** ⭐ **NEW** Ngoại giao toàn diện & Nâng tầm hội nhập.
 *   **[The Changing World Order](./geopolitics-macro/world-order-cycles.md):** Chu kỳ thay đổi trật tự thế giới (Ray Dalio).
 *   **[Currency Wars](./geopolitics-macro/currency-wars.md):** Chiến tranh tiền tệ & Tương lai của USD.
 
