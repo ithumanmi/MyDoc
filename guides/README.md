@@ -96,6 +96,8 @@ Chào mừng đến với thư viện hướng dẫn chuyên sâu. Tại đây t
     *   Vận mệnh: Thống kê mẫu hình, Timing.
 *   **[🧠 Global Intelligence (Trí tuệ Toàn cầu)](./01-mental-models/global-intelligence/README.md)**
     *   Tư duy hệ thống (Systems Thinking) và Vĩ mô (Macro).
+*   **[⚙️ Failure Management System (FMS)](./failure-management-system.md)** ⭐ **NEW**
+    *   Hệ thống quản trị rủi ro và sửa sai thần tốc.
 
 ## 🧬 Lifestyle & OS (Hệ điều hành cuộc sống)
 

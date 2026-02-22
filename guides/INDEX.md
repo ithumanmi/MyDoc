@@ -14,6 +14,8 @@ Chào mừng bạn đến với kho tàng kiến thức toàn diện. Đây là 
 *   **Systems & Frameworks:**
     *   [PARA Dashboard](./productivity/templates/para-dashboard.md) - Tổ chức cuộc sống số.
     *   [Decision Journal](./productivity/templates/decision-journal.md) - Nhật ký ra quyết định.
+    *   [Fast Correction Mindset](./01-mental-models/fast-correction-mindset.md) - Tư duy Thoát sai nhanh.
+    *   [Failure Management System (FMS)](./01-mental-models/failure-management-system.md) - ⭐ **NEW** Hệ thống quản trị thất bại và sửa sai thần tốc.
     *   [Mental Models Library](./productivity/mental-models/mental-models-library.md) - Thư viện các mô hình tư duy.
 
 ---

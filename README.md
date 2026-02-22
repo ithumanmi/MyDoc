@@ -148,6 +148,7 @@ Hiểu cấu trúc để navigate hiệu quả:
 *   🌿 **[Retail Ecosystem (Biology)](case-studies/mental-models-analysis/biology-analysis-corporate-ecosystem.md):** Phân tích sự sinh tồn và tuyệt chủng của doanh nghiệp bằng Chọn lọc tự nhiên và Hiệu ứng Nữ hoàng Đỏ.
 *   🧪 **[Viral Growth (Chemistry)](case-studies/mental-models-analysis/chemistry-analysis-product-launch.md):** Phân tích sự bùng nổ và bão hòa của sản phẩm bằng Chất xúc tác, Phản ứng dây chuyền và Nguyên lý Le Chatelier.
 *   📜 **[The Fall of Nokia (History)](case-studies/mental-models-analysis/history-analysis-nokia-fall.md):** Phân tích sự sụp đổ của đế chế di động bằng Path Dependence, Hiệu ứng Lindy và Chu kỳ công nghệ.
+*   🧠 **[Fast Correction Mindset (Strategy)](guides/01-mental-models/fast-correction-mindset.md):** (⭐ **New**) Tư duy thoát sai nhanh và lợi thế sinh tồn trong môi trường bất định.
 *   ⚙️ **[Knight Capital Group (Engineering)](case-studies/mental-models-analysis/engineering-analysis-deployment-failure.md):** Phân tích sự sụp đổ trị giá 440 triệu USD bằng Biên an toàn, Dự phòng và Nợ kỹ thuật.
 *   💰 **[Food Delivery Platform (Economics)](case-studies/mental-models-analysis/economics-analysis-platform-failure.md):** Phân tích sự sụp đổ của nền tảng giao đồ ăn bằng Chi phí cơ hội, Ưu đãi sai lệch và Độ đàn hồi của cầu.
 *   ⚡ **[Amazon Blitzscaling (Growth)](case-studies/mental-models-analysis/amazon-blitzscaling-analysis.md):** Phân tích cách Amazon chấp nhận lỗ kế toán để xây dựng đế chế E-commerce qua lăng kính Bánh đà và Blitzscaling.
