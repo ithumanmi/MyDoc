@@ -35,6 +35,8 @@ Xây dựng cỗ máy kiếm tiền tự động.
 *   **[SOP System (Standard Operating Procedure)](./operations/sop-system.md):** Viết quy trình chuẩn để nhân bản nhân sự và mở rộng quy mô.
 *   **[Hiring & Firing](./operations/hiring-firing.md):** Tuyển dụng đúng người, sa thải đúng lúc (và đúng luật).
 *   **[High Performance Teams (Xây dựng Đội ngũ Hiệu suất Cao)](./operations/high-performance-teams.md):** ⭐ **NEW** Biến tài năng thành kết quả bằng Tâm lý học An toàn và Hệ thống.
+*   **[Sales KPI Framework (Xây dựng KPI Kinh doanh)](./operations/sales-kpi-framework.md):** ⭐ **NEW** Quy trình 5 bước điều hướng hành vi Sales và chống "số ảo".
+*   **[Tech KPI Framework (KPI cho bộ phận Kỹ thuật)](./operations/tech-kpi-framework.md):** ⭐ **NEW** Cân bằng giữa tốc độ tính năng và Nợ kỹ thuật (DORA Metrics).
 
 ### 3. Growth (Tăng trưởng & Marketing)
 Mang tiền về cho doanh nghiệp.

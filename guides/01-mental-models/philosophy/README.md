@@ -44,6 +44,7 @@ Lộ trình này được thiết kế đi từ nền tảng tư duy đến các
     *   **[Taoism Deep Dive](./schools-and-thinkers/taoism-deep-dive.md):** Lão Tử, Trang Tử, Vô Vi và Tự Nhiên.
     *   **[Buddhism Deep Dive](./schools-and-thinkers/buddhism-deep-dive.md):** Tam Pháp Ấn, Tính Không, Tâm lý học & Thiền tập.
     *   **[Confucianism Deep Dive](./schools-and-thinkers/confucianism-deep-dive.md):** Ngũ Thường, Quân Tử, Đạo Trị Nước.
+        *   👉 **[Tứ Đức (Công - Dung - Ngôn - Hạnh)](./schools-and-thinkers/women-virtues-eastern.md):** ⭐ **NEW** Phẩm chất phụ nữ Á Đông.
     *   **[Zen Deep Dive](./schools-and-thinkers/zen-deep-dive.md):** Vô Tâm, Kiến Tánh, Trà Đạo & Wabi-Sabi.
 *   **[Modern Philosophy (Triết học Hiện đại)](./schools-and-thinkers/modern-philosophy.md):** Descartes (Tôi tư duy), Kant, Nietzsche.
 *   **[Existentialism (Chủ nghĩa Hiện sinh)](./schools-and-thinkers/existentialism-deep-dive.md):** Sartre, Camus. Tự do và sự phi lý.
@@ -57,6 +58,7 @@ Lộ trình này được thiết kế đi từ nền tảng tư duy đến các
 *Triết học không phải để nói, mà để sống.*
 
 *   **[Stoicism Daily (Thực hành Khắc kỷ)](./practical-applications/stoicism-daily.md):** Dichotomy of Control, Negative Visualization.
+*   **🌌 [Stoicism for Women (Khắc kỷ cho Phụ nữ)](./practical-applications/stoicism-for-women.md):** ⭐ **NEW** Xây dựng pháo đài nội tâm và chủ quyền cảm xúc.
 *   **[Inner Strength (Thời không thuận, Đạo phải sâu)](./practical-applications/inner-strength-in-adversity.md):** ⭐ **NEW** Rèn rễ tâm khi đời gặp bão tố.
 *   **[The Awakened Fury (Cơn Thịnh Nộ Thức Tỉnh)](./awakened-fury.md):** ⭐ **NEW** Khi người lương thiện buộc phải cầm kiếm vì công lý.
 *   **[Changing Destiny (Nghịch Thiên Cải Mệnh)](./practical-applications/changing-destiny.md):** ⭐ **NEW** Công thức khoa học để viết lại số phận (Đức năng thắng số).

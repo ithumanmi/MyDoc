@@ -22,6 +22,8 @@ Chào mừng đến với thư viện hướng dẫn chuyên sâu. Tại đây t
     *   Chiến lược thăng tiến, đàm phán lương và phỏng vấn.
 *   **[⚡ Productivity (Năng suất)](./03-career-skills/productivity/README.md)**
     *   Kỹ năng Deep Work, quản lý thời gian và diễn đạt (Communication Mastery).
+*   **[📞 Sales & Telesales](./03-career-skills/sales-telesales/README.md)** ⭐ **NEW**
+    *   Tư duy bán hàng, cấu trúc cuộc gọi Telesales và tâm lý học thuyết phục.
 *   **[🌐 Web Development (Phát triển Web)](./03-career-skills/web-dev/README.md)** ⭐ **NEW**
     *   Lộ trình sự nghiệp, Portfolio xịn và Chinh phục phỏng vấn Fullstack.
 *   **[👾 Game Development](./03-career-skills/game-dev/README.md)**

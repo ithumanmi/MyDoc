@@ -150,6 +150,9 @@ Hiểu cấu trúc để navigate hiệu quả:
 *   📜 **[The Fall of Nokia (History)](case-studies/mental-models-analysis/history-analysis-nokia-fall.md):** Phân tích sự sụp đổ của đế chế di động bằng Path Dependence, Hiệu ứng Lindy và Chu kỳ công nghệ.
 *   ⚙️ **[Knight Capital Group (Engineering)](case-studies/mental-models-analysis/engineering-analysis-deployment-failure.md):** Phân tích sự sụp đổ trị giá 440 triệu USD bằng Biên an toàn, Dự phòng và Nợ kỹ thuật.
 *   💰 **[Food Delivery Platform (Economics)](case-studies/mental-models-analysis/economics-analysis-platform-failure.md):** Phân tích sự sụp đổ của nền tảng giao đồ ăn bằng Chi phí cơ hội, Ưu đãi sai lệch và Độ đàn hồi của cầu.
+*   ⚡ **[Amazon Blitzscaling (Growth)](case-studies/mental-models-analysis/amazon-blitzscaling-analysis.md):** Phân tích cách Amazon chấp nhận lỗ kế toán để xây dựng đế chế E-commerce qua lăng kính Bánh đà và Blitzscaling.
+*   ⚖️ **[Blitzscaling Comparison (Growth)](case-studies/mental-models-analysis/blitzscaling-comparison-amazon-uber-airbnb.md):** So sánh các kiểu "đốt tiền" của Amazon (Hạ tầng), Uber (Trợ giá) và Airbnb (Niềm tin).
+*   🛡️ **[Uber Legal Strategy (Risk)](case-studies/mental-models-analysis/uber-legal-strategy-analysis.md):** (⭐ **New**) Phân tích cách Uber khai thác lỗ hổng pháp lý và vận động chính trị để Blitzscale toàn cầu.
 
 ---
 

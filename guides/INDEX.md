@@ -57,6 +57,7 @@ Chào mừng bạn đến với kho tàng kiến thức toàn diện. Đây là 
 *   **[Influence & Negotiation](./productivity/core-skills/influence-negotiation.md):** Kỹ năng gây ảnh hưởng và đàm phán.
     *   [Salary Negotiation Script](./productivity/templates/salary-negotiation-script.md).
 *   **[Social Charisma](./productivity/core-skills/social-charisma.md):** Xây dựng sức hút cá nhân.
+*   **[Sales & Telesales Mastery](./03-career-skills/sales-telesales/README.md):** ⭐ **NEW** Nghệ thuật thuyết phục, [Đàm phán hợp đồng](./03-career-skills/sales-telesales/contract-negotiation.md) và [Lộ trình đàm phán bậc thầy](./03-career-skills/sales-telesales/negotiation-mastery-roadmap.md). ([Kịch bản thực hành](./03-career-skills/sales-telesales/README.md#-role-play-scripts-kịch-bản-thực-hành))
 *   **[Strategic Networking](./productivity/core-skills/strategic-networking.md):** Chiến lược kết nối và quan hệ.
 
 ---
@@ -86,6 +87,10 @@ Chào mừng bạn đến với kho tàng kiến thức toàn diện. Đây là 
     *   [Idea Validation](./entrepreneurship/tech-startup/idea-validation.md) - Kiểm chứng ý tưởng.
     *   [Product Market Fit](./entrepreneurship/tech-startup/product-market-fit.md).
     *   [SaaS Metrics Bible](./entrepreneurship/tech-startup/saas-metrics-bible.md).
+    *   [⚡ Blitzscaling](./entrepreneurship/tech-startup/blitzscaling.md) - Chiến lược tăng trưởng thần tốc.
+*   **Operations & KPI:**
+    *   [Sales KPI Framework](./02-wealth-business/entrepreneurship/operations/sales-kpi-framework.md) - Quy trình 5 bước xây dựng KPI thực chiến.
+    *   [Tech KPI Framework](./02-wealth-business/entrepreneurship/operations/tech-kpi-framework.md) - Chống nợ kỹ thuật bằng DORA Metrics.
 *   **Solopreneur & Side Hustle:**
     *   [Audience First Strategy](./entrepreneurship/solopreneur/audience-first-strategy.md).
     *   [Freelancer Roadmap](./productivity/side-hustle/freelancer-roadmap.md).
@@ -238,9 +243,10 @@ Chào mừng bạn đến với kho tàng kiến thức toàn diện. Đây là 
 *Tư duy sâu sắc về cuộc sống.*
 
 *   **Schools of Thought:**
-    *   [Stoicism for Modern Life](./philosophy/practical-applications/stoicism-for-modern-life.md).
+    *   [Stoicism for Modern Life](./philosophy/practical-applications/stoicism-for-modern-life.md) & [For Women](./philosophy/practical-applications/stoicism-for-women.md).
     *   [Buddhism Deep Dive](./philosophy/schools-and-thinkers/buddhism-deep-dive.md).
     *   [Taoism](./philosophy/schools-and-thinkers/taoism-deep-dive.md).
+    *   [Confucianism & Women's Virtues (Tứ Đức)](./philosophy/schools-and-thinkers/women-virtues-eastern.md).
 *   **Fundamentals:**
     *   [Critical Thinking Basics](./philosophy/fundamentals/critical-thinking-basics.md).
     *   [Logic & Fallacies](./philosophy/fundamentals/logic-and-fallacies.md).

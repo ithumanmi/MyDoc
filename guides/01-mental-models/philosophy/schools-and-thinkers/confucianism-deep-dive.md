@@ -54,7 +54,8 @@ Quân tử không phải sinh ra đã là quân tử, mà do rèn luyện (Tu th
 Ba mối quan hệ rường cột của xã hội:
 1.  **Quân - Thần:** Vua phải sáng, Tôi phải trung.
 2.  **Phụ - Tử:** Cha phải từ (yêu thương), Con phải hiếu.
-3.  **Phu - Phụ:** Chồng phải nghĩa, Vợ phải thuận (hoặc "nghe theo" trong bối cảnh xưa - cần hiểu linh hoạt thời nay là sự tôn trọng và hòa thuận).
+3.  **Phu - Phụ:** Chồng phải nghĩa, Vợ phải thuận.
+    *   👉 **Xem thêm:** [**Tứ Đức (Công - Dung - Ngôn - Hạnh)**](./women-virtues-eastern.md) - Bộ khung rèn luyện phẩm chất phụ nữ Á Đông dưới góc nhìn hiện đại. (⭐ **New**)
 
 ### **B. Đức trị (Rule by Virtue)**
 *   Khổng Tử phản đối Pháp trị (cai trị bằng hình phạt tàn khốc).

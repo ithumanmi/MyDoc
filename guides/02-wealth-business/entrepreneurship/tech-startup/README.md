@@ -44,3 +44,4 @@ Paul Graham (Y Combinator) định nghĩa: **"A startup is a company designed to
 *   **[Fundraising Roadmap](./fundraising-roadmap.md):** Bí mật gọi vốn từ Angel Investors và Venture Capitals.
 *   **[Funding Options Beyond VC](./funding-options-2026.md):** 8 cách gọi vốn thông minh khác ngoài VC (2026).
 *   **[Mobile App Monetization](./mobile-app-monetization.md):** Chiến lược kiếm tiền thông minh cho Mobile Apps 2026.
+*   **[⚡ Blitzscaling (Tăng trưởng thần tốc)](./blitzscaling.md):** Chiến lược ưu tiên tốc độ hơn hiệu quả để chiếm lĩnh thị trường. (⭐ **NEW**)

@@ -62,6 +62,7 @@ Module này không dạy bạn giải tích phức tạp để đi thi. Nó cung
 
 ## 📊 Case Study Toán học Thực tế
 *   [Phân tích Toán học về một chiến dịch Marketing thất bại](../../../case-studies/mental-models-analysis/mathematical-analysis-business-case.md)
+*   **🏦 [Ứng dụng Toán học trong Kinh tế vĩ mô](./macroeconomic-math.md):** ⭐ **NEW** Mô hình hóa nền kinh tế bằng giải tích, vi phân và xác suất.
 
 ---
 
