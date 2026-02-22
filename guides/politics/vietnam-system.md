@@ -60,8 +60,39 @@ Tổ chức theo 3 cấp: Tỉnh/Thành phố trực thuộc Trung ương; Huy�
 
 ---
 
-## 6. Mặt trận Tổ quốc Việt Nam
+## 6. Mặt trận Tổ quốc & Các tổ chức Chính trị - Xã hội
 Là liên minh chính trị, liên hiệp tự nguyện của các tổ chức chính trị, xã hội... Đóng vai trò giám sát, phản biện xã hội và thắt chặt khối đại đoàn kết dân tộc.
+*   **Chi tiết:** [Mặt trận Tổ quốc & Các đoàn thể](./vietnam/vff-mass-organizations.md)
+
+---
+
+## 7. Hệ thống Tư pháp & Cải cách Tư pháp
+Bao gồm Tòa án và Viện kiểm sát, thực hiện chức năng bảo vệ công lý và quyền con người.
+*   **Chi tiết:** [Hệ thống Tư pháp & Cải cách Tư pháp](./vietnam/judicial-system.md)
+
+---
+
+## 8. Sơ đồ vận hành tổng quát
+```mermaid
+graph TD
+    CPV[Đảng Cộng sản Việt Nam] -->|"Lãnh đạo/Định hướng"| NA[Quốc hội - Lập pháp]
+    CPV -->|"Lãnh đạo/Nhân sự"| GOV[Chính phủ - Hành pháp]
+    NA -->|"Bầu/Giám sát"| GOV
+    NA -->|"Làm luật"| SOCIETY[Xã hội & Dân cư]
+    GOV -->|"Quản lý/Thực thi"| SOCIETY
+    LOCAL["UBND & HĐND Địa phương"] -->|"Thực thi tại cơ sở"| SOCIETY
+    GOV -->|"Chỉ đạo"| LOCAL
+    VFF[Mặt trận Tổ quốc] -->|"Giám sát/Phản biện"| CPV
+    VFF -->|"Giám sát/Phản biện"| GOV
+```
+
+---
+
+## 9. Tổng kết: "Đảng lãnh đạo, Nhà nước quản lý, Nhân dân làm chủ"
+Đây là mô hình vận hành xuyên suốt:
+1.  **Đảng lãnh đạo:** Đề ra cương lĩnh, chiến lược, chủ trương lớn.
+2.  **Nhà nước quản lý:** Thể chế hóa chủ trương của Đảng thành pháp luật và thực thi trên toàn quốc.
+3.  **Nhân dân làm chủ:** Thông qua bầu cử, giám sát, phản biện và tham gia trực tiếp vào quản lý xã hội.
 
 ---
 > **Suy ngẫm:** Sự phối hợp giữa Đảng và Nhà nước giúp Việt Nam duy trì sự ổn định chính trị để tập trung phát triển kinh tế như thế nào trong những thập kỷ qua?

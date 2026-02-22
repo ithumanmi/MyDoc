@@ -28,6 +28,8 @@ Chào mừng bạn đến với module **Politics**. Tại đây, chúng ta khô
     *   [Quy trình Lập pháp & Quốc hội](./vietnam/legislative-process.md)
     *   [Quản trị Hành chính & Địa phương](./vietnam/administration-local-gov.md)
     *   [Kiểm soát Quyền lực & Chống tham nhũng](./vietnam/power-control-anti-corruption.md)
+    *   [Mặt trận Tổ quốc & Các đoàn thể](./vietnam/vff-mass-organizations.md)
+    *   [Hệ thống Tư pháp & Cải cách Tư pháp](./vietnam/judicial-system.md)
 *   **[Trật tự thế giới](./geopolitics/world-order.md):** Đơn cực, song cực và đa cực.
 *   **[Ngoại giao Việt Nam](./geopolitics/vietnam-diplomacy.md):** "Ngoại giao cây tre" và chiến lược 2026-2031.
 *   **[Kinh tế Chính trị (Political Economy)](./geopolitics/political-economy.md):** Sự giao thoa giữa tiền bạc và quyền lực toàn cầu.
