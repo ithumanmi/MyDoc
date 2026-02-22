@@ -63,3 +63,21 @@ Tại sao "Triệu phú đầu tiên là khó nhất"?
     *   Bạn có quan hệ (Network).
     *   -> Khối lượng ($m$) của bạn tăng lên. Chỉ cần tác động nhẹ, bạn cũng tạo ra xung lực lớn ($F = \Delta p / \Delta t$).
 *   **Chiến lược:** Giai đoạn đầu, chấp nhận làm việc không công hoặc lương thấp để lấy đà (Profile, Kỹ năng). Đừng tham lợi nhuận ngắn hạn mà làm mất đà.
+
+### 4. Checklist An toàn cho Đòn bẩy (Practical Rules)
+*   Xác định Worst-case: stress-test kịch bản tài sản giảm 30% và đảm bảo còn thanh khoản 6 tháng. Nếu không đủ, giảm đòn bẩy.
+*   Giới hạn margin tối đa: ví dụ cá nhân không quá 1:2, doanh nghiệp khởi nghiệp không quá 1:3 trừ khi có doanh thu ổn định.
+*   Luôn có \"control rod\" (quỹ dự phòng) >= 6 tháng chi phí, riêng cho trường hợp bán tháo.
+*   Tránh đòn bẩy trên tài sản phi thanh khoản (private equity, art) nếu bạn cần rút tiền ngắn hạn.
+
+### 5. Recipes: Giảm Ma sát & Tăng Đà (Practical Habit Recipes)
+*   Friction Map (1 trang): Liệt kê 3 hành vi muốn thay đổi; với mỗi hành vi, ghi 1 cách giảm ma sát và 1 kích hoạt 2 phút.
+*   Ví dụ đọc sách 20 phút/ngày:
+    - Giảm ma sát: Đặt sách trên gối, tắt thông báo 21:30.
+    - Kích hoạt: 2 phút mở sách (bắt đầu là mục tiêu).
+*   Chuỗi ngày (streak): mục tiêu 30 ngày. Nếu đứt mạch, bắt đầu lại mà không tự trách.
+
+### 6. Momentum Playbook cho Startup/Cá nhân
+*   Lead Domino: Tìm hành động nhỏ nhất mà khi hoàn thành sẽ khiến chuỗi hành động khác dễ xảy ra (ví dụ: có case study khách hàng đầu tiên).
+*   Early traction: Mục tiêu 100 users đầu với funnel đơn giản (Signup→Use→Share). Tối ưu từng bước.
+*   Preserve momentum: Công bố các mốc nhỏ để hút social proof; dùng mốc để gọi vốn hoặc tuyển người.

@@ -41,3 +41,19 @@ Tại sao ý tưởng thì nhiều mà người làm thì ít?
 *   **Vay mượn năng lượng:** Uống cà phê hay nước tăng lực không cung cấp năng lượng thực (ATP), nó chỉ chặn tín hiệu mệt mỏi (Adenosine) lên não. Bạn đang vay năng lượng từ tương lai.
 *   **Hậu quả:** Khi thuốc hết tác dụng, bạn sẽ sập nguồn (Crash) để trả nợ.
 *   **Chiến lược:** Nạp năng lượng thực (Ngủ, Ăn, Thở) thay vì dùng chất kích thích để lừa dối cơ thể.
+
+### 4. Practical Energy Management (Checklist)
+*   Energy Ledger: Ghi 1 tuần mức năng lượng (sáng/chiều) và các hoạt động trước đó (cà phê, ngủ), tìm pattern giảm năng lượng.
+*   Rule of 3: Trong ngày, chỉ dùng caffeine trong 3 lần (sáng, giữa trưa, trước 3pm) để tránh phá giấc ngủ.
+*   Sleep Buffer: Tối thiểu 7 giờ/ngày. Nếu phải vay giờ ngủ (đêm thức), tăng ngủ bù 1.5x trong 3 ngày sau đó.
+*   Batch low-energy tasks vào khung thấp năng lượng (email, admin); giữ high-focus tasks cho ultradian peak.
+
+### 5. Activation Energy Hacks (Tactics)
+*   Two-minute rule: Bắt đầu với nhiệm vụ 2 phút để vượt rào kích hoạt; tiếp tục thêm 10 phút nữa nếu có thể.
+*   Tiny MVP: Đối với khởi nghiệp, xây prototype tối thiểu (no-code) để giảm energy activation từ tuần/tháng xuống ngày/giờ.
+*   Commitment Device: Đặt lịch tự động (calendar + blocker), hoặc trả tiền trước (class/coach) để giảm khả năng trì hoãn.
+
+### 6. Entropy Maintenance Routine (Weekly)
+*   Daily 15': Inbox/Downloads/Desk tidy.
+*   Weekly 60': Deep clean inbox + data backup.
+*   Monthly 2h: Archive/archive policy review, delete unused tools/subscriptions (reduce cognitive load).

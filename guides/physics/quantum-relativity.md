@@ -41,3 +41,21 @@ Việc quan sát một hiện tượng lượng tử làm thay đổi hiện tư
 *   Muốn giảm cân nhưng lười tập?
 *   Hãy thuê PT hoặc rủ bạn cùng tập (Observer).
 *   Sự hiện diện của "Người quan sát" sẽ làm sụp đổ các trạng thái lười biếng tiềm năng (Wave function collapse) và ép bạn vào trạng thái "Tập luyện" duy nhất.
+
+### 4. Reframing Exercises (Practical)
+*   Daily Reframe (3 questions): What happened? What story am I telling myself? What is a kinder/better frame I can choose?
+*   Traffic Reframe: Turn delays into listening time (podcast/audiobook) — convert perceived waste into productive rest.
+
+### 5. Decision Journal Template (Uncertainty-safe)
+*   Before big decisions, note: Context, Options, Prior assumptions, Expected outcomes (probabilities), Action to take, Review date (3/6/12 months).
+*   Use posterior check at review date to update priors (Bayesian practice).
+
+### 6. Building Critical Mass: tactical steps
+*   Seed first 50 users via personal network + incentives (founder invites, referral credits).
+*   Create 3 core activities that drive retention (daily habit, weekly event, monthly milestone).
+*   Measure: activation rate, 7-day retention, viral coefficient K. Iterate until K>1 or retention healthy.
+
+### 7. Observer Effect for Experiments (Measurement Guidance)
+*   A/B test with blinding where possible; avoid overt monitoring that changes behavior (use passive analytics).
+*   When observing teams, use randomized sampling and anonymous surveys to reduce Hawthorne effect.
+*   Track leading indicators (engagement actions) rather than just lagging metrics (revenue) to see real-time signal.

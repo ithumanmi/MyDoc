@@ -86,6 +86,11 @@ Chào mừng đến với thư viện hướng dẫn chuyên sâu. Tại đây t
 *   **[🏛️ Philosophy (Triết học)](./philosophy/README.md)**
     *   Tư duy phản biện, Stoicism, Existentialism.
     *   Philosophy of AI, Political Philosophy.
+*   **[☯️ Mysticism (Huyền học Ứng dụng)](./mysticism/README.md)** ⭐ **NEW**
+    *   Kinh Dịch: Logic nhị phân, Quản trị sự thay đổi.
+    *   Vận mệnh: Thống kê mẫu hình, Chu kỳ thời điểm (Timing).
+    *   Phong Thủy: UX không gian, Thiết kế môi trường hiệu suất.
+    *   Đạo học: Trạng thái Flow (Vô vi), Sự thuận dòng.
 
 ## 🎮 Technical Domains (Lĩnh vực Kỹ thuật)
 

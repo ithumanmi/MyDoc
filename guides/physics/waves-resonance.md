@@ -38,3 +38,26 @@ Não bộ con người hoạt động theo chu kỳ sóng 90 phút tập trung c
 ### 3. Hiệu ứng Doppler trong Thấu cảm (Empathy)
 Khi tranh luận, hãy nhớ rằng đối phương đang ở trong một "hệ quy chiếu chuyển động" khác bạn (hoàn cảnh gia đình, áp lực tài chính, trải nghiệm quá khứ).
 *   **Hành động:** Thay vì nói "Anh sai rồi", hãy hỏi "Tại sao anh lại thấy như vậy? Anh đang đứng ở đâu?". Điều chỉnh tần số của mình để bắt sóng được đối phương.
+
+### 4. Marketing Resonance: Template & Checklist
+*   Resonance checklist:
+    1. Target insight (1 line): khách hàng đau ở đâu?
+    2. Single message: 10-12 words chạm nỗi đau.
+    3. CTA rõ ràng (trial/demo/share).
+*   Template: \"Bạn đang [nỗi đau]? Thử [giải pháp cụ thể] trong 7 ngày miễn phí. Nếu không hiệu quả, hoàn tiền.\" — simple, repeatable, testable.
+
+### 5. Hiring & Team Resonance (Practical)
+*   Culture-fit interview script (3 questions):
+    1. \"Mô tả môi trường làm việc bạn cảm thấy hạnh phúc nhất.\" (kiểm tra tần số)
+    2. \"Kể về 1 tình huống khiến bạn xung đột trong team. Bạn làm gì?\" (độ lệch pha)
+    3. \"Bạn làm gì khi cảm thấy kiệt sức?\" (thực tế năng lượng)
+*   Onboarding: seed core values in first 2 weeks (daily rituals, peer pairing) to lock candidate into company frequency.
+
+### 6. Ultradian Schedule (Example Day)
+*   07:30 - 09:00: Deep work (peak 1)
+*   09:00 - 09:20: Break (walk, water)
+*   09:20 - 10:50: Focus work (peak 2)
+*   11:00 - 12:30: Meetings / shallow work
+*   13:30 - 15:00: Deep work (peak 3)
+*   15:00 - 15:20: Break
+*   15:20 - 17:00: Admin / follow-ups
