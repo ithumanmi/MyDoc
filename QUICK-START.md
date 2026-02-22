@@ -59,7 +59,7 @@ Click vào profile phù hợp nhất với bạn:
 
 #### **Tuần 4: Habit & Mindset**
 1. 📖 **[Chương 5: Kỷ luật & Thói quen](./chapters/05-ky-luat-thoi-quen.md)** (1 giờ)
-2. 🛡️ **[Anti-Slip System](./guides/growth/anti-slip-system.md)** (1 giờ) - Hệ thống chống bỏ cuộc
+2. 🛡️ **[Anti-Slip System](./guides/03-career-skills/growth/anti-slip-system.md)** (1 giờ) - Hệ thống chống bỏ cuộc
 3. ✅ **Action:** Setup [Habit Tracker](./doc-framework.md#habit-tracker)
 
 ### **Checkpoint (Sau 1 tháng):**
@@ -83,7 +83,7 @@ Click vào profile phù hợp nhất với bạn:
 ### **Lộ trình học (8 tuần):**
 
 #### **Tuần 1-2: Tư duy Top 1%**
-1. 🏆 **[Becoming Top 1%](./guides/growth/becoming-top-1-percent.md)** (2 giờ) ⭐ **Must Read**
+1. 🏆 **[Becoming Top 1%](./guides/03-career-skills/growth/becoming-top-1-percent.md)** (2 giờ) ⭐ **Must Read**
    - Hiểu sự khác biệt giữa Average và Top 1%
 2. 🧠 **[Systems Thinking](./chapters/09-systems-thinking.md)** (2 giờ)
 3. 🎯 **[ONE CORE SKILL Framework](./chapters/01-xac-dinh-linh-vuc.md#-one-core-skill-framework---vũ-khí-của-top-1)** (1 giờ)
@@ -111,9 +111,9 @@ Click vào profile phù hợp nhất với bạn:
 3. 📧 **Action:** Gửi 3 [Cold Email](./templates/cold-email-mentor.md) tìm mentor
 
 #### **Tuần 7-8: Productivity & Health**
-1. ⏰ **[Deep Work](./guides/productivity/core-skills/deep-work-mastery.md)** (2 giờ)
-2. 🧘 **[Burnout Prevention](./guides/well-being/mental-resilience/burnout-prevention.md)** (1 giờ)
-3. 🛌 **[Sleep Optimization](./guides/well-being/biohacking/sleep-optimization.md)** (1 giờ)
+1. ⏰ **[Deep Work](./guides/03-career-skills/productivity/core-skills/deep-work-mastery.md)** (2 giờ)
+2. 🧘 **[Burnout Prevention](./guides/04-lifestyle-os/well-being/mental-resilience/burnout-prevention.md)** (1 giờ)
+3. 🛌 **[Sleep Optimization](./guides/04-lifestyle-os/well-being/biohacking/sleep-optimization.md)** (1 giờ)
 
 ### **Checkpoint (Sau 2 tháng):**
 - [ ] Đã define Core Skill rõ ràng
@@ -137,10 +137,10 @@ Click vào profile phù hợp nhất với bạn:
 
 #### **Tuần 1-4: Leadership & Strategy**
 1. 🏛️ **Philosophy & Mental Models:**
-   - [Stoicism for Modern Life](./guides/well-being/mental-resilience/stoicism-for-modern-life.md)
-   - [Philosophy Guide](./guides/philosophy/README.md) - Explore decision-making frameworks
-2. 🎮 **[Game Theory](./guides/growth/game-theory.md)** + **[Game Theory for Engineers](./guides/growth/game-theory-for-engineers.md)** (4 giờ)
-3. 🧠 **[Life OS Framework](./guides/growth/life-os-framework.md)** (3 giờ) - Hệ điều hành cuộc đời
+   - [Stoicism for Modern Life](./guides/04-lifestyle-os/well-being/mental-resilience/stoicism-for-modern-life.md)
+   - [Philosophy Guide](./guides/01-mental-models/philosophy/README.md) - Explore decision-making frameworks
+2. 🎮 **[Game Theory](./guides/03-career-skills/growth/game-theory.md)** + **[Game Theory for Engineers](./guides/03-career-skills/growth/game-theory-for-engineers.md)** (4 giờ)
+3. 🧠 **[Life OS Framework](./guides/03-career-skills/growth/life-os-framework.md)** (3 giờ) - Hệ điều hành cuộc đời
 
 #### **Tuần 5-8: Deep Technical Mastery**
 **Backend Track:**
@@ -150,15 +150,15 @@ Click vào profile phù hợp nhất với bạn:
 - 📖 [Advanced Security](./domains/backend-dev/security/advanced-security.md)
 
 **Game Dev Track:**
-- 📖 [Game Publisher Roadmap](./guides/game-dev/game-publisher-roadmap.md)
-- 📖 [Publisher Financial Model](./guides/game-dev/publisher-financial-model.md)
+- 📖 [Game Publisher Roadmap](./guides/03-career-skills/game-dev/game-publisher-roadmap.md)
+- 📖 [Publisher Financial Model](./guides/03-career-skills/game-dev/publisher-financial-model.md)
 
 #### **Tuần 9-10: Finance & Investing**
 1. 💰 **Economics Foundation:**
-   - [Macroeconomics](./guides/investing/advanced/macroeconomics.md)
-   - [Microeconomics](./guides/investing/advanced/microeconomics.md)
-   - [Behavioral Economics](./guides/investing/advanced/behavioral-economics.md)
-2. 📈 **[Investing Guide](./guides/investing/README.md)** (Start passive income streams)
+   - [Macroeconomics](./guides/02-wealth-business/investing/advanced/macroeconomics.md)
+   - [Microeconomics](./guides/02-wealth-business/investing/advanced/microeconomics.md)
+   - [Behavioral Economics](./guides/02-wealth-business/investing/advanced/behavioral-economics.md)
+2. 📈 **[Investing Guide](./guides/02-wealth-business/investing/README.md)** (Start passive income streams)
 
 #### **Tuần 11-12: Legacy & Impact**
 1. 📝 **Content Creation:**
@@ -174,7 +174,7 @@ Click vào profile phù hợp nhất với bạn:
 - [ ] Được mời phỏng vấn cho Staff/Principal role
 
 ### **Next Steps:**
-→ **[Entrepreneurship Path](./guides/entrepreneurship/README.md)** hoặc **[Remote Work Guide](./guides/career/remote-backend-guide.md)** để kiếm $10k+/tháng.
+→ **[Entrepreneurship Path](./guides/02-wealth-business/entrepreneurship/README.md)** hoặc **[Remote Work Guide](./guides/03-career-skills/career/remote-backend-guide.md)** để kiếm $10k+/tháng.
 
 ---
 
@@ -188,33 +188,33 @@ Click vào profile phù hợp nhất với bạn:
 ### **Lộ trình học (6 tuần):**
 
 #### **Tuần 1-2: Mindset & Market**
-1. 💡 **[Indie Hacker Roadmap](./guides/career/indie-hacker-roadmap.md)** (2 giờ)
-2. 🎯 **[Path to $10k Monthly](./guides/career/path-to-10k-monthly.md)** (2 giờ)
-3. 📊 **[Market Research](./guides/market-research/README.md)** - Tìm ý tưởng
+1. 💡 **[Indie Hacker Roadmap](./guides/03-career-skills/career/indie-hacker-roadmap.md)** (2 giờ)
+2. 🎯 **[Path to $10k Monthly](./guides/03-career-skills/career/path-to-10k-monthly.md)** (2 giờ)
+3. 📊 **[Market Research](./guides/02-wealth-business/market-research/README.md)** - Tìm ý tưởng
 
 #### **Tuần 3-4: Monetization Strategy**
 **Pick Your Model:**
 
 **Option 1: Freelancing**
-- 📖 [Freelancer Roadmap](./guides/productivity/side-hustle/freelancer-roadmap.md)
-- 📖 [Game Dev Freelance Guide](./guides/game-dev/game-dev-freelance-guide.md)
+- 📖 [Freelancer Roadmap](./guides/03-career-skills/productivity/side-hustle/freelancer-roadmap.md)
+- 📖 [Game Dev Freelance Guide](./guides/03-career-skills/game-dev/game-dev-freelance-guide.md)
 
 **Option 2: App/SaaS**
-- 📖 [App Monetization Guide](./guides/career/app-monetization-guide.md)
-- 📖 [App Dev Side Income](./guides/career/app-dev-side-income.md)
+- 📖 [App Monetization Guide](./guides/03-career-skills/career/app-monetization-guide.md)
+- 📖 [App Dev Side Income](./guides/03-career-skills/career/app-dev-side-income.md)
 
 **Option 3: Game Indie Hacker**
-- 📖 [Game Indie Hacker Guide](./guides/game-dev/game-indie-hacker-guide.md)
-- 📖 [Game Dev $10k Roadmap](./guides/game-dev/game-dev-10k-roadmap.md)
+- 📖 [Game Indie Hacker Guide](./guides/03-career-skills/game-dev/game-indie-hacker-guide.md)
+- 📖 [Game Dev $10k Roadmap](./guides/03-career-skills/game-dev/game-dev-10k-roadmap.md)
 
 #### **Tuần 5-6: Launch & Iterate**
 1. 🚀 Build MVP trong 2 tuần
-2. 💰 **[Salary Negotiation](./guides/productivity/career-growth/salary-negotiation.md)** (nếu giữ full-time job)
-3. 📈 **[Growth Marketing](./guides/entrepreneurship/growth/)** basics
+2. 💰 **[Salary Negotiation](./guides/03-career-skills/productivity/career-growth/salary-negotiation.md)** (nếu giữ full-time job)
+3. 📈 **[Growth Marketing](./guides/02-wealth-business/entrepreneurship/growth/)** basics
 
 ### **Vietnam-Specific Resources:**
-- 📜 **[Tax & Legal Vietnam](./guides/career/tax-legal-vietnam.md)**
-- 📜 **[Legal Resources](./guides/legal-resources.md)**
+- 📜 **[Tax & Legal Vietnam](./guides/03-career-skills/career/tax-legal-vietnam.md)**
+- 📜 **[Legal Resources](./guides/02-wealth-business/legal-resources.md)**
 
 ### **Checkpoint (Sau 6 tuần):**
 - [ ] Launched MVP hoặc landed first client
@@ -222,7 +222,7 @@ Click vào profile phù hợp nhất với bạn:
 - [ ] Setup legal/tax structure
 
 ### **Next Steps:**
-→ Scale to $1000/month → $10k/month theo **[Entrepreneurship Guide](./guides/entrepreneurship/README.md)**.
+→ Scale to $1000/month → $10k/month theo **[Entrepreneurship Guide](./guides/02-wealth-business/entrepreneurship/README.md)**.
 
 ---
 
@@ -236,30 +236,30 @@ Click vào profile phù hợp nhất với bạn:
 ### **Lộ trình học (4 tuần):**
 
 #### **Tuần 1: Assessment & Recovery**
-1. 🔥 **[Burnout Prevention](./guides/well-being/mental-resilience/burnout-prevention.md)** (2 giờ) ⭐ **Start Here**
+1. 🔥 **[Burnout Prevention](./guides/04-lifestyle-os/well-being/mental-resilience/burnout-prevention.md)** (2 giờ) ⭐ **Start Here**
    - Self-assessment: Bạn ở giai đoạn nào?
-2. 🛌 **[Sleep Optimization](./guides/well-being/biohacking/sleep-optimization.md)** (1 giờ)
+2. 🛌 **[Sleep Optimization](./guides/04-lifestyle-os/well-being/biohacking/sleep-optimization.md)** (1 giờ)
    - Fix giấc ngủ = Fix 70% vấn đề
 
 #### **Tuần 2: Energy Management**
-1. ⚡ **[Health OS Framework](./guides/well-being/biohacking/health-os-overview.md)** (2 giờ)
-2. 🩸 **[Glucose & Insulin System](./guides/well-being/biohacking/glucose-insulin-system.md)** (1 giờ)
+1. ⚡ **[Health OS Framework](./guides/04-lifestyle-os/well-being/biohacking/health-os-overview.md)** (2 giờ)
+2. 🩸 **[Glucose & Insulin System](./guides/04-lifestyle-os/well-being/biohacking/glucose-insulin-system.md)** (1 giờ)
    - Ổn định năng lượng cả ngày
-3. 🧠 **[Dopamine System](./guides/well-being/biohacking/dopamine-system.md)** (1 giờ)
+3. 🧠 **[Dopamine System](./guides/04-lifestyle-os/well-being/biohacking/dopamine-system.md)** (1 giờ)
    - Lấy lại động lực
 
 #### **Tuần 3: Movement & Mindfulness**
-1. 🏃 **[Movement Protocols](./guides/well-being/biohacking/movement-protocols.md)** (1 giờ)
-2. 🧘 **[Mindfulness Meditation](./guides/well-being/mental-resilience/mindfulness-meditation.md)** (1 giờ)
+1. 🏃 **[Movement Protocols](./guides/04-lifestyle-os/well-being/biohacking/movement-protocols.md)** (1 giờ)
+2. 🧘 **[Mindfulness Meditation](./guides/04-lifestyle-os/well-being/mental-resilience/mindfulness-meditation.md)** (1 giờ)
    - Start với 5 phút/ngày
 
 #### **Tuần 4: Systems & Sustainability**
-1. 🌊 **[High Performance & Flow](./guides/well-being/high-performance.md)** (2 giờ)
-2. 🏛️ **[Stoicism](./guides/well-being/mental-resilience/stoicism-for-modern-life.md)** (1 giờ)
-3. 📋 **[Health Optimization Protocols](./guides/well-being/biohacking/health-optimization-protocols.md)** - Daily routine
+1. 🌊 **[High Performance & Flow](./guides/04-lifestyle-os/well-being/high-performance.md)** (2 giờ)
+2. 🏛️ **[Stoicism](./guides/04-lifestyle-os/well-being/mental-resilience/stoicism-for-modern-life.md)** (1 giờ)
+3. 📋 **[Health Optimization Protocols](./guides/04-lifestyle-os/well-being/biohacking/health-optimization-protocols.md)** - Daily routine
 
 ### **Templates:**
-- 📊 **[Daily Performance Tracker](./guides/well-being/templates/daily-performance-tracker.md)**
+- 📊 **[Daily Performance Tracker](./guides/04-lifestyle-os/well-being/templates/daily-performance-tracker.md)**
 
 ### **Checkpoint (Sau 1 tháng):**
 - [ ] Sleep 7-8 giờ/đêm ổn định
@@ -267,7 +267,7 @@ Click vào profile phù hợp nhất với bạn:
 - [ ] Energy levels improved (track với Daily Tracker)
 
 ### **Next Steps:**
-→ Maintain protocols + Explore **[Systems Thinking in Life](./guides/growth/systems-thinking-in-life.md)** để optimize toàn diện.
+→ Maintain protocols + Explore **[Systems Thinking in Life](./guides/03-career-skills/growth/systems-thinking-in-life.md)** để optimize toàn diện.
 
 ---
 
@@ -307,7 +307,7 @@ Bất kể bạn ở path nào, hãy dùng những tools này:
 ❌ Không nhất thiết. Follow path phù hợp với profile của bạn ở trên.
 
 ### **5. Làm sao để không bỏ cuộc giữa chừng?**
-📖 Đọc **[Anti-Slip System](./guides/growth/anti-slip-system.md)** - Hệ thống chống trượt dốc.
+📖 Đọc **[Anti-Slip System](./guides/03-career-skills/growth/anti-slip-system.md)** - Hệ thống chống trượt dốc.
 
 ---
 

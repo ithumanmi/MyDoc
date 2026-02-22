@@ -49,7 +49,7 @@ Interface cho phép applications communicate với nhau. RESTful API dùng HTTP 
 
 Hệ thống phòng ngừa việc bỏ cuộc giữa chừng khi học kỹ năng mới. Bao gồm: Accountability, Progress tracking, Habit stacking, Emergency protocols.
 
-📖 Chi tiết: [Anti-Slip System](./guides/growth/anti-slip-system.md) ⭐ **Must Read**
+📖 Chi tiết: [Anti-Slip System](./guides/03-career-skills/growth/anti-slip-system.md) ⭐ **Must Read**
 
 ---
 
@@ -79,7 +79,7 @@ Tự động tăng/giảm số instances dựa trên traffic. VD: Black Friday t
 
 Nghiên cứu về tâm lý và thiên kiến ảnh hưởng đến quyết định tài chính. VD: Loss aversion (Sợ lỗ hơn thích lời), FOMO, Herding behavior.
 
-📖 Chi tiết: [Behavioral Economics](./guides/investing/advanced/behavioral-economics.md)
+📖 Chi tiết: [Behavioral Economics](./guides/02-wealth-business/investing/advanced/behavioral-economics.md)
 
 ---
 
@@ -88,7 +88,7 @@ Nghiên cứu về tâm lý và thiên kiến ảnh hưởng đến quyết đ�
 
 Trạng thái kiệt sức thể chất và tinh thần do stress kéo dài. 3 giai đoạn: Honeymoon → Onset of Stress → Chronic Burnout → Crisis.
 
-📖 Chi tiết: [Burnout Prevention](./guides/well-being/mental-resilience/burnout-prevention.md) ⭐ **Must Read**
+📖 Chi tiết: [Burnout Prevention](./guides/04-lifestyle-os/well-being/mental-resilience/burnout-prevention.md) ⭐ **Must Read**
 
 ---
 
@@ -136,7 +136,7 @@ Model kỹ năng chữ T:
 
 Top 1% Engineers có Core Skill rõ ràng + Supporting skills.
 
-📖 Chi tiết: [Becoming Top 1%](./guides/growth/becoming-top-1-percent.md)
+📖 Chi tiết: [Becoming Top 1%](./guides/03-career-skills/growth/becoming-top-1-percent.md)
 
 ---
 
@@ -169,7 +169,7 @@ Data structure (B-Tree) tăng tốc query bằng cách tạo "mục lục" cho c
 
 Làm việc tập trung tuyệt đối không distraction. 4 giờ deep work = 3 ngày làm việc bình thường. Cal Newport's framework.
 
-📖 Chi tiết: [Deep Work Mastery](./guides/productivity/core-skills/deep-work-mastery.md)
+📖 Chi tiết: [Deep Work Mastery](./guides/03-career-skills/productivity/core-skills/deep-work-mastery.md)
 
 ---
 
@@ -187,7 +187,7 @@ Luyện tập có chủ đích với feedback loops. Khác với "practice mindl
 
 Neurotransmitter điều khiển động lực, kỷ luật, focus. Optimize bằng: Cold exposure, Exercise, Dopamine detox (tránh quick hits từ social media).
 
-📖 Chi tiết: [Dopamine System](./guides/well-being/biohacking/dopamine-system.md)
+📖 Chi tiết: [Dopamine System](./guides/04-lifestyle-os/well-being/biohacking/dopamine-system.md)
 
 ---
 
@@ -231,7 +231,7 @@ Chu trình: Action → Measure → Learn → Adjust → Repeat. "You can't impro
 
 Trạng thái tập trung cao độ, mất cảm giác thời gian. Mihaly Csikszentmihalyi: "Challenge slightly beyond skill level."
 
-📖 Chi tiết: [High Performance & Flow](./guides/well-being/high-performance.md)
+📖 Chi tiết: [High Performance & Flow](./guides/04-lifestyle-os/well-being/high-performance.md)
 
 ---
 
@@ -243,8 +243,8 @@ Trạng thái tập trung cao độ, mất cảm giác thời gian. Mihaly Csiks
 Nghiên cứu ra quyết định chiến lược khi kết quả phụ thuộc vào người khác. Nash Equilibrium, Prisoner's Dilemma, Zero-sum games.
 
 📖 Chi tiết: 
-- [Game Theory Fundamentals](./guides/growth/game-theory.md)
-- [Game Theory for Engineers](./guides/growth/game-theory-for-engineers.md)
+- [Game Theory Fundamentals](./guides/03-career-skills/growth/game-theory.md)
+- [Game Theory for Engineers](./guides/03-career-skills/growth/game-theory-for-engineers.md)
 
 ---
 
@@ -253,7 +253,7 @@ Nghiên cứu ra quyết định chiến lược khi kết quả phụ thuộc v
 
 Quản lý năng lượng: Tránh glucose spikes (carbs đơn) → Ổn định insulin → Sustained energy cả ngày. CGM tracking.
 
-📖 Chi tiết: [Glucose & Insulin System](./guides/well-being/biohacking/glucose-insulin-system.md)
+📖 Chi tiết: [Glucose & Insulin System](./guides/04-lifestyle-os/well-being/biohacking/glucose-insulin-system.md)
 
 ---
 
@@ -273,7 +273,7 @@ Google Remote Procedure Call - Protocol nhanh hơn REST (binary format, HTTP/2).
 
 Framework debug cơ thể như debug code. Track: Dopamine, Glucose, Testosterone, Cortisol, Sleep, Movement.
 
-📖 Chi tiết: [Health OS Overview](./guides/well-being/biohacking/health-os-overview.md) ⭐ **Unique**
+📖 Chi tiết: [Health OS Overview](./guides/04-lifestyle-os/well-being/biohacking/health-os-overview.md) ⭐ **Unique**
 
 ---
 
@@ -304,7 +304,7 @@ Framework debug cơ thể như debug code. Track: Dopamine, Glucose, Testosteron
 
 Developer build & launch products solo/small team. Focus: Bootstrap, MRR (Monthly Recurring Revenue), Passive income.
 
-📖 Chi tiết: [Indie Hacker Roadmap](./guides/career/indie-hacker-roadmap.md)
+📖 Chi tiết: [Indie Hacker Roadmap](./guides/03-career-skills/career/indie-hacker-roadmap.md)
 
 ---
 
@@ -337,7 +337,7 @@ Container orchestration platform. Auto-scaling, self-healing, rolling updates. I
 
 Hệ điều hành cuộc đời - 4 tầng: Hardware (Body), OS (Mind), Apps (Skills), Data (Knowledge). Optimize từng layer.
 
-📖 Chi tiết: [Life OS Framework](./guides/growth/life-os-framework.md) ⭐ **Must Read**
+📖 Chi tiết: [Life OS Framework](./guides/03-career-skills/growth/life-os-framework.md) ⭐ **Must Read**
 
 ---
 
@@ -357,7 +357,7 @@ Phân phối requests đến multiple servers. Algorithms: Round Robin, Least Co
 
 Kinh tế vĩ mô: GDP, Lạm phát, Lãi suất, Chu kỳ kinh tế. Ảnh hưởng đến investment strategy (Bull vs Bear markets).
 
-📖 Chi tiết: [Macroeconomics](./guides/investing/advanced/macroeconomics.md)
+📖 Chi tiết: [Macroeconomics](./guides/02-wealth-business/investing/advanced/macroeconomics.md)
 
 ---
 
@@ -375,7 +375,7 @@ Hàng đợi xử lý async tasks. Producer đẩy jobs → Queue → Consumer l
 
 Kinh tế vi mô: Cung cầu, Định giá, Hành vi tiêu dùng. Apply vào career (Bạn = Product, Skills = Value proposition).
 
-📖 Chi tiết: [Microeconomics](./guides/investing/advanced/microeconomics.md)
+📖 Chi tiết: [Microeconomics](./guides/02-wealth-business/investing/advanced/microeconomics.md)
 
 ---
 
@@ -404,7 +404,7 @@ Functions chạy giữa request và response. Use cases: Logging, Auth check, Pa
 
 Trạng thái mà không ai có lợi khi đổi chiến lược đơn phương. VD: Prisoner's Dilemma - Both confess là Nash Equilibrium.
 
-📖 Chi tiết: [Game Theory](./guides/growth/game-theory.md)
+📖 Chi tiết: [Game Theory](./guides/03-career-skills/growth/game-theory.md)
 
 ---
 
@@ -536,7 +536,7 @@ Framework đặt mục tiêu hiệu quả:
 
 Triết lý Khắc kỷ: Focus vào những gì control được, chấp nhận những gì không. Dichotomy of Control, Amor Fati, Memento Mori.
 
-📖 Chi tiết: [Stoicism for Modern Life](./guides/well-being/mental-resilience/stoicism-for-modern-life.md)
+📖 Chi tiết: [Stoicism for Modern Life](./guides/04-lifestyle-os/well-being/mental-resilience/stoicism-for-modern-life.md)
 
 ---
 
@@ -556,7 +556,7 @@ Nhìn toàn bộ hệ thống thay vì parts riêng lẻ. Identify feedback loop
 
 📖 Chi tiết: 
 - [Systems Thinking](./chapters/09-systems-thinking.md)
-- [Systems Thinking in Life](./guides/growth/systems-thinking-in-life.md)
+- [Systems Thinking in Life](./guides/03-career-skills/growth/systems-thinking-in-life.md)
 
 ---
 
@@ -592,7 +592,7 @@ Chia ngày thành blocks cho tasks cụ thể. VD: 9-11 AM = Deep Work, 2-3 PM =
 
 Developer thuộc top 1% về impact/lương. Đặc điểm: Ownership, Business mindset, Deep work, T-shaped skills, Communication.
 
-📖 Chi tiết: [Becoming Top 1%](./guides/growth/becoming-top-1-percent.md) ⭐ **Must Read**
+📖 Chi tiết: [Becoming Top 1%](./guides/03-career-skills/growth/becoming-top-1-percent.md) ⭐ **Must Read**
 
 ---
 
