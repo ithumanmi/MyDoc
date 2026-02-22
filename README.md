@@ -134,6 +134,7 @@ Hiểu cấu trúc để navigate hiệu quả:
 *   🧪 **[Viral Growth (Chemistry)](case-studies/chemistry-analysis-product-launch.md):** Phân tích sự bùng nổ và bão hòa của sản phẩm bằng Chất xúc tác, Phản ứng dây chuyền và Nguyên lý Le Chatelier.
 *   📜 **[The Fall of Nokia (History)](case-studies/history-analysis-nokia-fall.md):** Phân tích sự sụp đổ của đế chế di động bằng Path Dependence, Hiệu ứng Lindy và Chu kỳ công nghệ.
 *   ⚙️ **[Knight Capital Group (Engineering)](case-studies/engineering-analysis-deployment-failure.md):** Phân tích sự sụp đổ trị giá 440 triệu USD bằng Biên an toàn, Dự phòng và Nợ kỹ thuật.
+*   💰 **[Food Delivery Platform (Economics)](case-studies/economics-analysis-platform-failure.md):** Phân tích sự sụp đổ của nền tảng giao đồ ăn bằng Chi phí cơ hội, Ưu đãi sai lệch và Độ đàn hồi của cầu.
 
 ---
 

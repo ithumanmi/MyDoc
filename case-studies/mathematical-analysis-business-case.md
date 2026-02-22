@@ -42,4 +42,11 @@
 3.  **Bayesian Feedback Loop:** Cập nhật mô hình tài chính hàng tuần dựa trên dữ liệu thực tế (Evidence), không dựa trên kế hoạch ban đầu.
 4.  **Stress Test:** Luôn chạy mô hình với kịch bản CAC tăng 2x và LTV giảm 50% trước khi thực hiện.
 
+---
+
+## 🔗 Nguồn tham khảo & Đọc thêm
+*   **Công thức Kelly trong Đầu tư:** [The Kelly Criterion: How to Size Your Bets (Investopedia)](https://www.investopedia.com/articles/trading/04/091504.asp)
+*   **Tư duy Bayesian:** [The Visual Guide to Bayesian Thinking (Veritasium - Video)](https://www.youtube.com/watch?v=HZGCoVF3YvM)
+*   **Unit Economics:** [Why Startups Fail: The Unit Economics Issue (HBR)](https://hbr.org/2021/05/why-startups-fail)
+
 > **"Con số không biết nói dối, nhưng những người làm toán thiếu kỷ luật thường tự lừa dối mình bằng những con số đẹp."**

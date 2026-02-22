@@ -84,6 +84,18 @@ Chào mừng bạn đến với kho tàng kiến thức về Đầu tư và Kinh
 
 ---
 
+## 🏢 Case Studies (Bài học thực tế áp dụng Đa mô hình)
+*   **[🧮 Marketing Campaign (Math)](../../case-studies/mathematical-analysis-business-case.md):** Phân tích thất bại đốt tiền bằng EV, Kelly Criterion và Bayesian.
+*   **[⚛️ Tech Corp Stagnation (Physics)](../../case-studies/physics-analysis-corporate-stagnation.md):** Giải mã sự trì trệ bằng Entropy, Năng lượng kích hoạt và Quán tính.
+*   **[🌿 Retail Ecosystem (Biology)](../../case-studies/biology-analysis-corporate-ecosystem.md):** Cuộc chiến sinh tồn giữa Retail Corp và Digital Predators (Chọn lọc tự nhiên).
+*   **[🧪 Viral App Social-X (Chemistry)](../../case-studies/chemistry-analysis-product-launch.md):** Phân tích bùng nổ và bão hòa bằng Chất xúc tác và Nguyên lý Le Chatelier.
+*   **[📜 The Fall of Nokia (History)](../../case-studies/history-analysis-nokia-fall.md):** Bài học về Path Dependence và Hiệu ứng Lindy.
+*   **[⚙️ Knight Capital Group (Engineering)](../../case-studies/engineering-analysis-deployment-failure.md):** Sự sụp đổ 440 triệu USD do lỗi Deployment và Nợ kỹ thuật.
+*   **[💰 Food Delivery Platform (Economics)](../../case-studies/economics-analysis-platform-failure.md):** Phân tích sự sụp đổ bằng Chi phí cơ hội và Độ đàn hồi của cầu.
+*   **[💀 Startup X Failure (Ancient Models)](../../case-studies/startup-failure-ancient-models.md):** Phân tích lỗi văn hóa và lãnh đạo bằng mô hình Tam Cương Ngũ Thường.
+
+---
+
 ## Bắt đầu từ đâu?
 1.  Nếu bạn mới bắt đầu, hãy đọc **[Behavioral Economics](./advanced/behavioral-economics.md)** để tránh mất tiền ngu.
 2.  Sau đó đọc **[Macroeconomics](./advanced/macroeconomics.md)** để biết khi nào nên tấn công/phòng thủ.

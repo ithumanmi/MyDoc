@@ -33,4 +33,11 @@
 3.  **Tự động hóa Deployment:** Loại bỏ yếu tố con người trong quá trình triển khai. Sử dụng các quy trình CI/CD và chiến lược **Blue-Green Deployment** để đảm bảo luôn có hệ thống dự phòng sẵn sàng.
 4.  **Audit Biên an toàn:** Thường xuyên kiểm tra các ngưỡng chịu tải và giới hạn rủi ro của hệ thống dưới các kịch bản stress-test cực đoan.
 
+---
+
+## 🔗 Nguồn tham khảo & Đọc thêm
+*   **Chi tiết sự cố Knight Capital:** [Knight Capital posts $389.9 million loss on trading glitch (Reuters)](https://www.reuters.com/article/us-knightcapital-results/knight-capital-posts-389-9-million-loss-on-trading-glitch-idUSBRE89G0HI20121017/)
+*   **Thông cáo của SEC:** [SEC Charges Knight Capital With Violations of Market Access Rule (SEC.gov)](https://www.sec.gov/news/press-release/2013-2013-222.htm)
+*   **Bài học về Nợ kỹ thuật:** [Technical Debt: The Silent Killer of Startups (Forbes)](https://www.forbes.com/sites/forbestechcouncil/2021/04/13/technical-debt-the-silent-killer-of-startups/)
+
 > **"Trong kỹ thuật, một lỗi nhỏ không bao giờ là vấn đề, vấn đề nằm ở một hệ thống không cho phép lỗi nhỏ đó xảy ra mà không kéo theo sự sụp đổ của toàn bộ cấu trúc."**

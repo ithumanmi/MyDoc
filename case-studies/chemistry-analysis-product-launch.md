@@ -38,4 +38,11 @@
 2.  **Bổ sung "Chất ức chế" (Inhibitors):** Đôi khi cần dùng các rào cản (như mã mời, giới hạn số phòng) để làm chậm tốc độ tăng trưởng, giúp hệ thống có thời gian "kết tinh" văn hóa.
 3.  **Dự báo Phản ứng ngược:** Luôn chuẩn bị cho Nguyên lý Le Chatelier bằng cách xây dựng **Moat** (Hào kinh tế) sâu hơn, thay vì chỉ dựa vào tính năng dễ bị copy.
 
+---
+
+## 🔗 Nguồn tham khảo & Đọc thêm
+*   **Sự suy yếu của Clubhouse:** [Clubhouse cuts more than half of staff (TechCrunch)](https://techcrunch.com/2023/04/27/clubhouse-needs-to-fix-things-and-today-it-cut-more-than-half-of-staff/)
+*   **Tâm lý học về Sự bùng nổ (Hype):** [The Psychology of Hype in Product Launches (Psychology Today)](https://www.psychologytoday.com/us/blog/the-power-prime/201110/the-psychology-hype)
+*   **Lý thuyết về Sự lan truyền (Virality):** [Why Things Catch On (Jonah Berger - Wharton School)](https://jonahberger.com/books/contagious/)
+
 > **"Một sản phẩm thành công cần một chất xúc tác để khởi đầu, nhưng để tồn tại lâu dài, nó cần một cấu trúc hóa học bền vững hơn là một phản ứng cháy bùng rồi tắt."**

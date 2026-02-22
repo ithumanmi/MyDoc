@@ -41,4 +41,11 @@
 *   **Niche Construction:** Đừng cố làm siêu thị cho mọi người. Hãy tìm một ngách sinh thái (ví dụ: Thực phẩm hữu cơ cao cấp) nơi các đối thủ khổng lồ không thể chen chân vào.
 *   **DNA hóa Văn hóa:** Văn hóa đổi mới phải được "mã hóa" vào từng nhân viên (DNA), để dù tổ chức có lớn đến đâu, các "tế bào" con sinh ra vẫn giữ được tinh thần khởi nghiệp ban đầu.
 
+---
+
+## 🔗 Nguồn tham khảo & Đọc thêm
+*   **Sự sụp đổ của Sears:** [Why Sears is Failing (HBR)](https://hbr.org/2017/07/why-sears-is-failing)
+*   **Thuyết Darwin Kỹ thuật số:** [Digital Darwinism: How to survive in the age of digital predators (Forbes)](https://www.forbes.com/sites/briansolis/2017/12/21/digital-darwinism-how-to-survive-in-the-age-of-digital-predators/)
+*   **Hệ sinh thái Amazon:** [Amazon’s Flywheel: How to Build a Dominant Ecosystem (A16z)](https://a16z.com/2016/01/21/growth-catalysts/)
+
 > **"Trong thế giới sinh học cũng như kinh doanh, sự ổn định chỉ là trạng thái tạm thời trên con đường dẫn đến sự tuyệt chủng. Chỉ có sự biến đổi liên tục mới là vĩnh cửu."**

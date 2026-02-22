@@ -32,4 +32,11 @@
 2.  **Lindy cho Giá trị, Đổi mới cho Công cụ:** Giữ lại giá trị cốt lõi (Sự tin cậy, Kết nối) nhưng phải liên tục thay đổi hình thức thể hiện (Công cụ).
 3.  **Nhận diện "Điểm xoay" Chu kỳ:** Đừng nhìn vào đối thủ cạnh tranh hiện tại, hãy nhìn vào những "kẻ ngoại đạo" đang thay đổi luật chơi của toàn ngành.
 
+---
+
+## 🔗 Nguồn tham khảo & Đọc thêm
+*   **Phân tích sự sụp đổ của Nokia:** [The Real Cause of Nokia's Crisis (HBR)](https://hbr.org/2011/02/the-real-cause-of-nokias-crisi)
+*   **Sự trỗi dậy và suy tàn của một gã khổng lồ:** [Nokia: The rise and fall of a mobile giant (BBC)](https://www.bbc.com/news/technology-23947212)
+*   **Lý thuyết Lindy trong Kinh doanh:** [The Lindy Effect: How to predict the longevity of products (Farnam Street)](https://fs.blog/lindy-effect/)
+
 > **"Lịch sử dạy chúng ta rằng: Những người không nhớ gì về quá khứ thì dễ lặp lại sai lầm, nhưng những người quá tôn thờ quá khứ thì sẽ bị nó chôn vùi."**

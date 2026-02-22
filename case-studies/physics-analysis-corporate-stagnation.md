@@ -41,4 +41,11 @@ Lãnh đạo mới đã áp dụng các nguyên lý Vật lý để "Reset" tậ
 *   **Minimum Viable Bureaucracy:** Thiết kế rào cản hành chính sao cho năng lượng kích hoạt luôn thấp hơn động lực của nhân viên.
 *   **Pivot Momentum:** Khi thị trường thay đổi, khối lượng (tài sản/nhân sự) lớn sẽ là gánh nặng nếu không có vận tốc thay đổi hướng.
 
+---
+
+## 🔗 Nguồn tham khảo & Đọc thêm
+*   **Entropy trong Tổ chức:** [Corporate Entropy: Why Large Organizations Stagnate (HBR)](https://hbr.org/2012/11/corporate-entropy)
+*   **Năng lượng Kích hoạt trong Kinh doanh:** [The Second Law of Thermodynamics and Business (Farnam Street)](https://fs.blog/entropy/)
+*   **Sự sụp đổ của Yahoo:** [The Long, Slow Death of Yahoo (TechCrunch)](https://techcrunch.com/2016/07/25/the-long-slow-death-of-yahoo/)
+
 > **"Trong kinh doanh, đứng yên không có nghĩa là ổn định, đó là dấu hiệu của việc Entropy đang ăn mòn bạn từ bên trong."**

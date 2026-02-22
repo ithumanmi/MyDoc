@@ -37,4 +37,11 @@
 2.  **Integrity là mã nguồn:** Giữ chữ **Tín** tuyệt đối với số liệu. Sai lầm có thể sửa, nhưng mất niềm tin là sập hệ thống.
 3.  **Hòa hợp Âm - Dương:** Tăng trưởng phải đi kèm với **Biên an toàn** (Quỹ dự phòng). Đừng chỉ chạy theo Động năng (Momentum) mà quên đi Thế năng (Potential energy).
 
+---
+
+## 🔗 Nguồn tham khảo & Đọc thêm
+*   **Sự sụp đổ của WeWork:** [WeWork's bankruptcy is proof that its core business never actually worked (TechCrunch)](https://techcrunch.com/2023/11/07/wework-bankruptcy-business-bad/)
+*   **Scandal của Theranos:** [The Fall of Theranos: Ethics and Leadership (Wired)](https://www.wired.com/story/theranos-scandal-summary/)
+*   **Văn hóa độc hại trong Startup:** [How Toxic Startup Culture Leads to Failure (Forbes)](https://www.forbes.com/sites/forbescoachescouncil/2020/01/14/how-toxic-startup-culture-leads-to-failure/)
+
 > **"Trị quốc như trị nhỏ tiên"** (Trị nước lớn như nấu cá nhỏ - đừng đảo lộn quá nhiều). Startup sụp đổ thường không phải vì thiếu tiền, mà vì người đầu bếp đã đảo quá mạnh làm nát con cá (Hệ thống).
