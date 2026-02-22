@@ -20,3 +20,34 @@ Khi hệ thống hỏng, đừng chỉ dán băng keo (Fix triệu chứng). Hã
     3.  Tại sao? -> Trục máy bị kẹt.
     4.  Tại sao? -> Thiếu dầu bôi trơn.
     5.  Tại sao? -> Bơm dầu bị hỏng. -> **Thay bơm dầu (Gốc rễ), chứ không chỉ thay cầu chì.**
+
+---
+
+## 🛠️ Ứng dụng Thực chiến (Life Applications)
+
+### 1. Danh sách "Không được làm" (Not-To-Do List)
+*   Thành công thường đến từ việc *không* làm những việc ngu ngốc hơn là làm những việc thông minh.
+*   **My Not-To-Do List:**
+    *   Không lướt điện thoại trên giường.
+    *   Không uống rượu bia vào ngày trong tuần.
+    *   Không tranh cãi với người lạ trên mạng.
+    *   Không mua sắm khi buồn chán.
+*   Tuân thủ danh sách này mang lại ROI cao hơn bất kỳ danh sách "To-Do" nào.
+
+### 2. Tối giản hóa Cuộc sống (Via Negativa)
+*   Bạn cảm thấy stress, quá tải?
+*   Đừng tìm cách học thêm kỹ năng quản lý thời gian (Thêm vào).
+*   Hãy loại bỏ bớt trách nhiệm (Bớt đi).
+    *   Từ chối những cuộc họp vô bổ.
+    *   Thoát khỏi những nhóm chat ồn ào.
+    *   Vứt bớt đồ đạc không dùng.
+*   Hạnh phúc = Thực tế - Mong cầu. Giảm mong cầu là cách nhanh nhất để tăng hạnh phúc.
+
+### 3. Tìm gốc rễ của sự Trì hoãn (5 Whys)
+*   Vấn đề: Tôi lười tập thể dục.
+    1.  Tại sao? -> Vì tôi thấy mệt khi đi làm về.
+    2.  Tại sao? -> Vì tôi làm việc quá sức và ăn trưa qua loa.
+    3.  Tại sao? -> Vì tôi dậy muộn nên không kịp chuẩn bị cơm trưa.
+    4.  Tại sao? -> Vì tối qua tôi thức khuya xem phim.
+    5.  Tại sao? -> Vì tôi mang điện thoại lên giường.
+*   **Giải pháp gốc rễ:** Để điện thoại ở phòng khách trước khi đi ngủ. (Chứ không phải mua thuốc tăng lực để tập gym).

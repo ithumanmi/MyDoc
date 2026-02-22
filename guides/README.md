@@ -52,17 +52,22 @@ Chào mừng đến với thư viện hướng dẫn chuyên sâu. Tại đây t
     *   Cơ học: Quán tính, Đòn bẩy, Gia tốc.
     *   Nhiệt động lực học: Entropy, Năng lượng kích hoạt.
 *   **[🧬 Biology (Sinh học Ứng dụng)](./biology/README.md)**
-    *   Tiến hóa: Chọn lọc tự nhiên, Hiệu ứng Nữ hoàng Đỏ.
-    *   Hệ sinh thái: Ngách thị trường, Cộng sinh.
+    *   Tiến hóa: Chọn lọc tự nhiên (Career), Hiệu ứng Nữ hoàng Đỏ.
+    *   Hệ sinh thái: Ngách thị trường (Personal Brand), Cộng sinh.
+    *   Tế bào: DNA văn hóa, Ung thư (Lifestyle Creep), Hormesis.
 *   **[🧪 Chemistry (Hóa học Ứng dụng)](./chemistry/README.md)**
-    *   Xúc tác: Giảm ma sát, Lãnh đạo phục vụ.
-    *   Phản ứng dây chuyền: Hiệu ứng lan truyền.
+    *   Xúc tác: Giảm ma sát (Activation Energy), Lãnh đạo phục vụ.
+    *   Phản ứng dây chuyền: Hiệu ứng Domino (Habits), Autocatalysis.
+    *   Chất giới hạn: Điểm nghẽn cá nhân (Bottleneck), Sự tinh khiết (Deep Work).
+    *   Le Chatelier: Cai nghiện (Dopamine Detox), Chuyển pha (Product-Market Fit).
 *   **[📜 History (Lịch sử Ứng dụng)](./history/README.md)**
-    *   Chu kỳ: 4 Mùa của lịch sử, Chu kỳ suy thịnh.
-    *   Bài học: Hiệu ứng Lindy (Cũ > Mới), Path Dependence (QWERTY).
-*   **[⚙️ Engineering (Kỹ thuật Ứng dụng)](./engineering/README.md)** ⭐ **NEW**
-    *   An toàn: Biên an toàn, Dự phòng (Redundancy), Điểm chết (SPOF).
-    *   Tối ưu: Tam giác sắt (Trade-offs), Tư duy ngược (Inversion).
+    *   Chu kỳ: Mùa Đông (Cash is King), Bong bóng (Bubble Spotting).
+    *   Bài học: Hiệu ứng Lindy (Chọn sách/Kỹ năng), Path Dependence (First Move).
+    *   Tư duy: Hindsight Bias (Nhật ký quyết định), Lock-in Effect (Personal Moat).
+*   **[⚙️ Engineering (Kỹ thuật Ứng dụng)](./engineering/README.md)**
+    *   An toàn: Biên an toàn (Quỹ khẩn cấp), Dự phòng (Nguồn thu đa dạng), SPOF.
+    *   Tối ưu: Tam giác sắt (Trade-offs), Tư duy ngược (Via Negativa), 5 Whys.
+    *   Hiệu suất: Nợ kỹ thuật (Nợ sức khỏe/Quan hệ), Định luật Diminishing Returns.
 *   **[🏛️ Politics (Chính trị)](./politics/README.md)** ⭐ **Vietnam Deep Dive!**
     *   Bản chất quyền lực, thể chế và địa chính trị.
     *   Hệ thống chính trị Việt Nam (Đảng, Quốc hội, Chính phủ).
@@ -74,9 +79,10 @@ Chào mừng đến với thư viện hướng dẫn chuyên sâu. Tại đây t
     *   Tư duy đúng (Mindset) và Công cụ (Tools).
 *   **[🧘 Well-being (Sức khỏe & Tinh thần)](./well-being/README.md)**
     *   Biohacking, tối ưu giấc ngủ và rèn luyện tinh thần thép (Stoicism).
-*   **[🧠 Psychology (Tâm lý học)](./psychology/README.md)** ⭐ **NEW**
-    *   Thấu hiểu bản thân và người khác.
-    *   Các trường phái (Freud, CBT, Maslow) và ứng dụng thực tế (Giao tiếp, Lãnh đạo).
+*   **[🧠 Psychology (Tâm lý học)](./psychology/README.md)**
+    *   Thiên kiến: Confirmation Bias, Sunk Cost, Anchoring.
+    *   Xã hội: Social Proof, Reciprocity, Hiệu ứng đám đông.
+    *   Dao cạo: Hanlon's Razor (Giảm drama), Occam's Razor (Tư duy đơn giản).
 *   **[🏛️ Philosophy (Triết học)](./philosophy/README.md)**
     *   Tư duy phản biện, Stoicism, Existentialism.
     *   Philosophy of AI, Political Philosophy.

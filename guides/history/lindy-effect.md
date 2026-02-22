@@ -21,3 +21,28 @@ Sau khi sự việc đã xảy ra, chúng ta có xu hướng tin rằng nó là 
 *   "Tôi biết ngay là thị trường sẽ sập mà!" (Nhưng lúc đó bạn không bán).
 *   **Nguy hiểm:** Nó làm ta ảo tưởng về khả năng dự đoán tương lai của mình.
 *   **Giải pháp:** Ghi chép nhật ký dự đoán (Decision Journal). Ghi lại suy nghĩ của bạn *trước khi* sự kiện xảy ra để đối chiếu trung thực sau này.
+
+---
+
+## 🛠️ Ứng dụng Thực chiến (Life Applications)
+
+### 1. Chọn Kỹ năng theo Lindy (Lindy Skills)
+*   **Câu hỏi:** Kỹ năng này có tồn tại sau 50 năm nữa không?
+*   **Coding (Python/JS):** Có thể không (AI viết code). -> Rủi ro.
+*   **Tư duy logic & Giải quyết vấn đề:** Chắc chắn có. -> An toàn.
+*   **Thuyết phục & Bán hàng:** Chắc chắn có. -> An toàn.
+*   **Đầu tư:** Học những nguyên lý bất biến (Gốc rễ) thay vì chạy theo công cụ (Ngọn).
+
+### 2. Nhật ký Quyết định (Decision Journal) chống Hindsight Bias
+*   Mỗi khi ra quyết định lớn (Đầu tư, Nhảy việc, Yêu đương), hãy viết xuống:
+    1.  Tình hình hiện tại là gì?
+    2.  Tôi dự đoán điều gì sẽ xảy ra?
+    3.  Tại sao tôi nghĩ vậy (Cơ sở lý luận)?
+    4.  Cảm xúc của tôi lúc này (Sợ, Tham, Hưng phấn)?
+*   6 tháng sau mở ra đọc lại. Bạn sẽ sốc vì trí nhớ của bạn đã "biên tập" lại quá khứ nhiều như thế nào. Đây là cách duy nhất để rút kinh nghiệm thực sự.
+
+### 3. Ăn uống kiểu Lindy (Lindy Diet)
+*   Ông bà ta có ăn dầu thực vật tinh luyện (Seed oils) không? Không. -> Tránh.
+*   Ông bà ta có ăn đường tinh luyện (High Fructose Corn Syrup) không? Không. -> Tránh.
+*   Ông bà ta ăn gì? Thịt, Cá, Trứng, Rau, Củ, Quả theo mùa. -> Ăn mạnh.
+*   Nếu thực phẩm cần quảng cáo "Tốt cho sức khỏe", khả năng cao nó không tốt (vì thực phẩm thật không cần marketing).

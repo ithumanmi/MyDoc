@@ -20,3 +20,21 @@ Tần số sóng thay đổi khi nguồn phát hoặc người quan sát di chuy
 ## 4. Chu kỳ (Cycles)
 Sóng luôn có đỉnh và đáy. Mọi thứ trong tự nhiên đều tuần hoàn (Mùa màng, Kinh tế, Cảm xúc).
 *   **Bài học:** Khi ở đỉnh cao, hãy chuẩn bị cho mùa đông (Tích lũy). Khi ở đáy vực, đừng tuyệt vọng vì mùa xuân sẽ tới. Đừng ngoại suy (Extrapolate) hiện tại ra vô tận (Nghĩ rằng tăng trưởng sẽ mãi mãi hoặc khủng hoảng sẽ mãi mãi).
+
+---
+
+## 🛠️ Ứng dụng Thực chiến (Life Applications)
+
+### 1. Cộng hưởng trong Tuyển dụng & Văn hóa
+*   **Tần số riêng:** Văn hóa doanh nghiệp (Core Values).
+*   **Tần số tác động:** Ứng viên mới.
+*   **Kết quả:** Nếu ứng viên có cùng tần số (Culture Fit), họ sẽ làm việc với động lực tự thân khủng khiếp. Nếu lệch tần số, dù giỏi đến đâu, họ cũng sẽ gây nhiễu loạn hệ thống (Destructive Interference).
+
+### 2. Chu kỳ Sinh học (Ultradian Rhythm)
+Não bộ con người hoạt động theo chu kỳ sóng 90 phút tập trung cao độ, sau đó là 20 phút cần nghỉ ngơi.
+*   **Sai lầm:** Cố ngồi làm việc liên tục 4 tiếng -> Hiệu suất giảm dần đều.
+*   **Chiến lược:** Làm việc theo Sprint 90 phút. Nghỉ giải lao thực sự (đi bộ, không điện thoại) giữa các hiệp. Tận dụng đỉnh sóng năng lượng.
+
+### 3. Hiệu ứng Doppler trong Thấu cảm (Empathy)
+Khi tranh luận, hãy nhớ rằng đối phương đang ở trong một "hệ quy chiếu chuyển động" khác bạn (hoàn cảnh gia đình, áp lực tài chính, trải nghiệm quá khứ).
+*   **Hành động:** Thay vì nói "Anh sai rồi", hãy hỏi "Tại sao anh lại thấy như vậy? Anh đang đứng ở đâu?". Điều chỉnh tần số của mình để bắt sóng được đối phương.

@@ -24,3 +24,26 @@
 *   **Upward:** So với người giỏi hơn -> Cảm hứng hoặc Tự ti.
 *   **Downward:** So với người kém hơn -> An ủi hoặc Kiêu ngạo.
 *   *Mạng xã hội làm trầm trọng hóa so sánh Upward.*
+
+---
+
+## 🛠️ Ứng dụng Thực chiến (Life Applications)
+
+### 1. Thuyết phục bằng Bằng chứng Xã hội (Social Proof)
+*   Nếu bạn muốn ai đó làm gì, hãy cho họ thấy "mọi người cũng đang làm thế".
+*   **Marketing:** "10.000 người đã mua". "Sản phẩm bán chạy nhất".
+*   **Quản lý:** "Hầu hết nhân viên đều nộp báo cáo trước thứ 6". (Tạo áp lực tuân phục tích cực).
+
+### 2. Nguyên tắc Có đi có lại (Reciprocity)
+*   Con người có nhu cầu mãnh liệt phải trả nợ ân tình.
+*   **Ứng dụng:** Hãy cho đi trước khi nhận lại.
+    *   Mời khách hàng đi ăn.
+    *   Tặng tài liệu miễn phí (Lead magnet).
+    *   Giúp đỡ đồng nghiệp việc nhỏ.
+*   Khi bạn cần nhờ vả, họ sẽ rất khó từ chối.
+
+### 3. Cam kết & Nhất quán (Commitment & Consistency)
+*   Khi ai đó đã cam kết (đặc biệt là công khai), họ có xu hướng làm đúng như vậy để giữ hình ảnh nhất quán.
+*   **Ứng dụng:**
+    *   Muốn khách hàng mua gói lớn? Hãy bán cho họ gói nhỏ trước (Foot-in-the-door). Khi đã là "khách hàng", họ dễ mua tiếp hơn.
+    *   Muốn bản thân tập gym? Hãy tuyên bố trên Facebook hoặc rủ bạn bè. Áp lực giữ lời hứa sẽ kéo bạn đến phòng tập.

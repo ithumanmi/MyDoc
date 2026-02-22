@@ -31,3 +31,35 @@ $F_1 \times d_1 = F_2 \times d_2$. Một lực nhỏ với cánh tay đòn dài 
     2.  **Vốn (Capital):** Dùng tiền đẻ ra tiền. (Cũ, cần vốn).
     3.  **Code:** Viết phần mềm 1 lần, triệu người dùng. (Mới, Permissionless - Không cần xin phép).
     4.  **Media:** Quay video/Viết blog 1 lần, triệu người xem. (Mới, Permissionless).
+
+---
+
+## 🛠️ Ứng dụng Thực chiến (Life Applications)
+
+### 1. Mô-men xoắn (Torque) trong Đòn bẩy Tài chính
+Mô-men xoắn $\tau = r \times F$. Cánh tay đòn ($r$) càng dài, lực tác động ($F$) càng được nhân lên.
+*   **Vay nợ (Margin/Mortgage):** Là cánh tay đòn tài chính.
+    *   Vốn 1 tỷ, vay 4 tỷ (Đòn bẩy 1:5).
+    *   Tài sản tăng 10% -> Lời 50% trên vốn gốc (Sức mạnh khủng khiếp).
+    *   Tài sản giảm 10% -> Lỗ 50% vốn gốc.
+    *   Tài sản giảm 20% -> **Cháy tài khoản** (Gãy cánh tay đòn).
+*   **Bài học:** Đòn bẩy khuếch đại cả lợi nhuận và rủi ro. Chỉ dùng mô-men lớn khi chắc chắn về xu hướng (như Archimedes cần điểm tựa vững chắc).
+
+### 2. Ma sát (Friction) trong Thiết kế Thói quen (Behavior Design)
+BJ Fogg (Tiny Habits): Hành vi = Động lực + Khả năng + Nhắc nhở.
+*   **Giảm Ma sát (Tăng Khả năng):**
+    *   Muốn đọc sách? Mở sẵn trang sách, để trên gối. (Ma sát $\approx 0$).
+    *   Muốn khách mua hàng? One-click checkout của Amazon. (Ma sát $\approx 0$).
+*   **Tăng Ma sát (Giảm Khả năng):**
+    *   Muốn cai nghiện điện thoại? Để điện thoại ở phòng khác, tắt màu màn hình (Grayscale).
+    *   Muốn tiết kiệm tiền? Để tiền trong tài khoản tiết kiệm không rút được ngay (Cold storage).
+
+### 3. Động lượng (Momentum) $p = mv$ trong Sự nghiệp
+Tại sao "Triệu phú đầu tiên là khó nhất"?
+*   **Ban đầu (v=0):** Bạn cần lực đẩy cực lớn để thắng ma sát nghỉ.
+*   **Khi đã có đà (v lớn):**
+    *   Bạn có uy tín (Thương hiệu cá nhân).
+    *   Bạn có tiền (Vốn).
+    *   Bạn có quan hệ (Network).
+    *   -> Khối lượng ($m$) của bạn tăng lên. Chỉ cần tác động nhẹ, bạn cũng tạo ra xung lực lớn ($F = \Delta p / \Delta t$).
+*   **Chiến lược:** Giai đoạn đầu, chấp nhận làm việc không công hoặc lương thấp để lấy đà (Profile, Kỹ năng). Đừng tham lợi nhuận ngắn hạn mà làm mất đà.

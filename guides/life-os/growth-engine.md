@@ -1,0 +1,31 @@
+# 2️⃣ Growth Engine (Động cơ Tăng trưởng)
+
+> **"Tăng trưởng không phải là cố gắng nhiều hơn, mà là tích lũy thông minh hơn."**
+
+## Core Mental Models
+
+### 1. Compound Interest (Lãi suất kép)
+*   **Tư duy:** Sự nhất quán (Consistency) quan trọng hơn cường độ (Intensity).
+*   **Hành động:** Tìm kiếm những việc có tính tích lũy (Kiến thức, Brand, Tài sản). Tránh những việc làm xong là mất (Bán thời gian lấy tiền).
+
+### 2. Positive Feedback Loops (Vòng lặp dương)
+*   **Tư duy:** Đầu ra của chu kỳ này phải là đầu vào của chu kỳ sau.
+*   **Hành động:**
+    *   Viết blog -> Có độc giả -> Có quan hệ -> Có kiến thức mới -> Viết blog hay hơn.
+    *   Kiếm tiền -> Đầu tư -> Có thêm tiền -> Đầu tư nhiều hơn.
+
+### 3. Network Effects (Hiệu ứng mạng lưới)
+*   **Tư duy:** Giá trị tăng theo bình phương số lượng kết nối ($n^2$).
+*   **Hành động:** Tham gia hoặc xây dựng các nền tảng/cộng đồng nơi người dùng tương tác với nhau.
+
+### 4. Viral Coefficient (Hệ số K)
+*   **Tư duy:** Một người dùng mang về bao nhiêu người dùng mới?
+*   **Hành động:** Thiết kế sản phẩm/nội dung sao cho người ta *muốn* chia sẻ nó.
+
+---
+
+## 🛠️ Quy trình Tăng trưởng (Checklist)
+
+1.  **Flywheel Check:** Việc tôi đang làm có tạo đà cho ngày mai không? Hay ngày mai tôi phải bắt đầu lại từ số 0?
+2.  **Scalability Check:** Nếu có 1000 khách hàng (thay vì 10), hệ thống có vỡ không? Hay nó càng mạnh hơn?
+3.  **Logarithmic vs Linear:** Tôi đang tăng trưởng theo hàm mũ (Log/Exp) hay hàm tuyến tính (Linear)? (Làm thuê theo giờ là tuyến tính).
