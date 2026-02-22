@@ -44,6 +44,25 @@ Chào mừng đến với thư viện hướng dẫn chuyên sâu. Tại đây t
 
 ## 🌍 Macro & Mindset (Tư duy & Vĩ mô)
 
+*   **[🧮 Mathematics (Toán học Ứng dụng)](./mathematics/README.md)**
+    *   Tư duy xác suất (Bayes, EV), Thống kê (CLT, p-value).
+    *   Lý thuyết trò chơi (Nash, Prisoner's Dilemma).
+    *   Toán tài chính (NPV, Kelly Criterion) và Logic (Fallacies).
+*   **[⚛️ Physics (Vật lý học Ứng dụng)](./physics/README.md)**
+    *   Cơ học: Quán tính, Đòn bẩy, Gia tốc.
+    *   Nhiệt động lực học: Entropy, Năng lượng kích hoạt.
+*   **[🧬 Biology (Sinh học Ứng dụng)](./biology/README.md)**
+    *   Tiến hóa: Chọn lọc tự nhiên, Hiệu ứng Nữ hoàng Đỏ.
+    *   Hệ sinh thái: Ngách thị trường, Cộng sinh.
+*   **[🧪 Chemistry (Hóa học Ứng dụng)](./chemistry/README.md)**
+    *   Xúc tác: Giảm ma sát, Lãnh đạo phục vụ.
+    *   Phản ứng dây chuyền: Hiệu ứng lan truyền.
+*   **[📜 History (Lịch sử Ứng dụng)](./history/README.md)**
+    *   Chu kỳ: 4 Mùa của lịch sử, Chu kỳ suy thịnh.
+    *   Bài học: Hiệu ứng Lindy (Cũ > Mới), Path Dependence (QWERTY).
+*   **[⚙️ Engineering (Kỹ thuật Ứng dụng)](./engineering/README.md)** ⭐ **NEW**
+    *   An toàn: Biên an toàn, Dự phòng (Redundancy), Điểm chết (SPOF).
+    *   Tối ưu: Tam giác sắt (Trade-offs), Tư duy ngược (Inversion).
 *   **[🏛️ Politics (Chính trị)](./politics/README.md)** ⭐ **Vietnam Deep Dive!**
     *   Bản chất quyền lực, thể chế và địa chính trị.
     *   Hệ thống chính trị Việt Nam (Đảng, Quốc hội, Chính phủ).
