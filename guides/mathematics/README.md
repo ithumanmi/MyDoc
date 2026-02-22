@@ -12,19 +12,23 @@ Module này không dạy bạn giải tích phức tạp để đi thi. Nó cung
 *Cách đưa ra quyết định khi thiếu thông tin.*
 *   **[Tư duy Xác suất trong Đời sống](./probability-real-life.md):** Tại sao bạn sợ đi máy bay hơn đi xe máy? (Expected Value, Risk Assessment).
 *   **Bayesian Thinking:** Cập nhật niềm tin khi có dữ liệu mới.
+*   **[Ứng dụng Thực chiến](./probability-real-life.md#🛠️-ứng-dụng-thực-chiến-life-applications):** Secretary Problem (Hẹn hò/Hiring), Mua bảo hiểm, Dự báo thời tiết.
 
 ### 📊 2. Thống kê & Dữ liệu (Statistics)
 *Không để những con số đánh lừa.*
 *   **[Thống kê & Những cái bẫy tư duy](./statistics-mental-models.md):** Correlation vs Causation, Survivorship Bias, Law of Large Numbers.
 *   **Đọc hiểu dữ liệu:** Cách nhìn ra sự thật sau các biểu đồ truyền thông.
+*   **[Ứng dụng Thực chiến](./statistics-mental-models.md#🛠️-ứng-dụng-thực-chiến-life-applications):** Mean vs Median (Lương), Base Rate Neglect (Startups), False Positives.
 
 ### ♟️ 3. Lý thuyết Trò chơi (Game Theory)
 *Chiến lược khi kết quả phụ thuộc vào người khác.*
 *   **[Game Theory trong Đàm phán & Hợp tác](./game-theory-negotiation.md):** Nash Equilibrium, Prisoner's Dilemma, Zero-sum vs Non-zero-sum games.
+*   **[Ứng dụng Thực chiến](./game-theory-negotiation.md#🛠️-ứng-dụng-thực-chiến-life-applications):** Game of Chicken (Đàm phán), Bi kịch của công xã, Burn the Boats.
 
 ### 💰 4. Toán Tài chính (Financial Math)
 *Ngôn ngữ của tiền bạc.*
 *   **[Toán học của Sự giàu có](./financial-math.md):** Lãi suất kép (Compound Interest), Giá trị dòng tiền (NPV/IRR), Quy tắc 72.
+*   **[Ứng dụng Thực chiến](./financial-math.md#🛠️-ứng-dụng-thực-chiến-life-applications):** Buy vs Rent (NPV), Latte Factor (Pareto), Time-Money Trade-off.
 
 ### 🧠 5. Logic & Lập luận (Logic)
 *Xây dựng lập luận chặt chẽ.*
@@ -33,6 +37,7 @@ Module này không dạy bạn giải tích phức tạp để đi thi. Nó cung
 ### 💻 6. Toán học trong Kỷ nguyên số (Tech Math)
 *Tư duy của Computer Scientist.*
 *   **[Algorithms & Complexity](./algorithms-complexity.md):** Big O, Caching, Explore vs Exploit.
+*   **[Ứng dụng Thực chiến](./algorithms-complexity.md#🛠️-ứng-dụng-thực-chiến-life-applications):** Batch Processing, Mise-en-place (Caching), Premature Optimization.
 *   **[Network & Graph Theory](./network-graph-theory.md):** Hiệu ứng mạng lưới, Viral Coefficient, Định luật Metcalfe.
 *   **[Information Theory](./information-theory.md):** Entropy, Signal-to-Noise, Nén dữ liệu.
 

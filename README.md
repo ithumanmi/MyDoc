@@ -101,6 +101,9 @@ Hiểu cấu trúc để navigate hiệu quả:
 20. **[Innovation & Problem Solving (Đổi mới sáng tạo)](guides/innovation/design-thinking.md)** (⭐ **New**)
     *   *Phương pháp tư duy đột phá và giải quyết vấn đề.*
     *   👉 [Design Thinking](guides/innovation/design-thinking.md)
+21. **[Mysticism & Ancient Systems (Huyền học)](guides/mysticism/README.md)** (⭐ **New**)
+    *   *Kinh Dịch, Bát Tự, Tử Vi dưới góc nhìn hệ thống và tối ưu hóa.*
+    *   👉 [Business Mysticism Map](guides/mysticism/business-mysticism-map.md) | [I-Ching Dynamics](guides/mysticism/i-ching-system-dynamics.md)
 
 ---
 

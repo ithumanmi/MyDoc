@@ -47,6 +47,21 @@ Chào mừng bạn đến với **Psychology Domain**. Đây là bản đồ ki�
 ### **IV. Công cụ & Khung tư duy**
 *   **[🔑 Key Concepts (Từ điển khái niệm)](./key-concepts.md):** Dopamine, Flow, Trauma, Ego, Projection...
 *   **[🛠️ Frameworks (Bộ khung tư duy)](./frameworks.md):** Câu hỏi cốt lõi để giải quyết vấn đề tâm lý.
+*   **[🧠 Cognitive Biases (Thiên kiến Nhận thức)](./cognitive-biases.md):** ⭐ **NEW** Hệ thống 1 & 2, Confirmation Bias, Sunk Cost.
+*   **[✂️ Decision Razors (Dao cạo Quyết định)](./decision-making-razors.md):** ⭐ **NEW** Hanlon's Razor, Occam's Razor, Dunning-Kruger.
+
+---
+
+## 🛠️ Ứng dụng Thực chiến (Life Applications)
+
+### 1. [Làm chủ Ra quyết định](./cognitive-biases.md#🛠️-ứng-dụng-thực-chiến-life-applications)
+*   Kích hoạt Hệ thống 2, Chiến lược Mỏ neo trong đàm phán, Cắt lỗ bằng tư duy Zero-based.
+
+### 2. [Tâm lý học Xã hội Ứng dụng](./practical-applications/social-psychology.md#🛠️-ứng-dụng-thực-chiến-life-applications)
+*   Thuyết phục bằng Social Proof, Nguyên tắc Có đi có lại (Reciprocity), Cam kết & Nhất quán.
+
+### 3. [Giải quyết Xung đột & Học tập](./decision-making-razors.md#🛠️-ứng-dụng-thực-chiến-life-applications)
+*   Dùng Hanlon's Razor giảm drama, Debug cuộc sống bằng Occam's Razor, Vượt qua Thung lũng thất vọng (Dunning-Kruger).
 
 ---
 

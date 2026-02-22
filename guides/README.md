@@ -45,29 +45,33 @@ Chào mừng đến với thư viện hướng dẫn chuyên sâu. Tại đây t
 ## 🌍 Macro & Mindset (Tư duy & Vĩ mô)
 
 *   **[🧮 Mathematics (Toán học Ứng dụng)](./mathematics/README.md)**
-    *   Tư duy xác suất (Bayes, EV), Thống kê (CLT, p-value).
-    *   Lý thuyết trò chơi (Nash, Prisoner's Dilemma).
-    *   Toán tài chính (NPV, Kelly Criterion) và Logic (Fallacies).
+    *   Xác suất (Bayes, EV), Thống kê (CLT), Game Theory (Nash).
+    *   Toán tài chính (NPV, Kelly) và [Ứng dụng Thực chiến](./mathematics/probability-real-life.md#🛠️-ứng-dụng-thực-chiến-life-applications).
 *   **[⚛️ Physics (Vật lý học Ứng dụng)](./physics/README.md)**
-    *   Cơ học: Quán tính, Đòn bẩy, Gia tốc.
-    *   Nhiệt động lực học: Entropy, Năng lượng kích hoạt.
+    *   Cơ học: Đòn bẩy tài chính, Ma sát thói quen, Động lượng sự nghiệp.
+    *   Nhiệt động: Quản trị năng lượng cá nhân, Chống Entropy.
+    *   Lượng tử: Hệ quy chiếu hạnh phúc, Hiệu ứng người quan sát.
+*   **[🧬 Life Operating System (Hệ điều hành Cuộc đời)](./life-os/README.md)** ⭐ **CORE**
+    *   **6 Engines:** Decision, Growth, Risk, Strategy, Optimization, Alignment.
+    *   **Hardware:** Psychology of Self, Energy Management.
+    *   **Multiplier:** Leverage Theory (Capital, Code, Media, People).
 *   **[🧬 Biology (Sinh học Ứng dụng)](./biology/README.md)**
     *   Tiến hóa: Chọn lọc tự nhiên (Career), Hiệu ứng Nữ hoàng Đỏ.
     *   Hệ sinh thái: Ngách thị trường (Personal Brand), Cộng sinh.
     *   Tế bào: DNA văn hóa, Ung thư (Lifestyle Creep), Hormesis.
 *   **[🧪 Chemistry (Hóa học Ứng dụng)](./chemistry/README.md)**
-    *   Xúc tác: Giảm ma sát (Activation Energy), Lãnh đạo phục vụ.
-    *   Phản ứng dây chuyền: Hiệu ứng Domino (Habits), Autocatalysis.
-    *   Chất giới hạn: Điểm nghẽn cá nhân (Bottleneck), Sự tinh khiết (Deep Work).
+    *   Xúc tác: Giảm ma sát, Người kết nối (Super-connector).
+    *   Phản ứng dây chuyền: Hiệu ứng Domino, Autocatalysis.
+    *   Chất giới hạn: Điểm nghẽn cá nhân, Sự tinh khiết (Deep Work).
     *   Le Chatelier: Cai nghiện (Dopamine Detox), Chuyển pha (Product-Market Fit).
 *   **[📜 History (Lịch sử Ứng dụng)](./history/README.md)**
-    *   Chu kỳ: Mùa Đông (Cash is King), Bong bóng (Bubble Spotting).
-    *   Bài học: Hiệu ứng Lindy (Chọn sách/Kỹ năng), Path Dependence (First Move).
-    *   Tư duy: Hindsight Bias (Nhật ký quyết định), Lock-in Effect (Personal Moat).
+    *   Chu kỳ: Mùa Đông kinh tế, Nhận diện bong bóng.
+    *   Bài học: Hiệu ứng Lindy, Path Dependence, Lock-in Effect.
+    *   Tư duy: Nhật ký quyết định chống Hindsight Bias.
 *   **[⚙️ Engineering (Kỹ thuật Ứng dụng)](./engineering/README.md)**
-    *   An toàn: Biên an toàn (Quỹ khẩn cấp), Dự phòng (Nguồn thu đa dạng), SPOF.
-    *   Tối ưu: Tam giác sắt (Trade-offs), Tư duy ngược (Via Negativa), 5 Whys.
-    *   Hiệu suất: Nợ kỹ thuật (Nợ sức khỏe/Quan hệ), Định luật Diminishing Returns.
+    *   An toàn: Biên an toàn (Quỹ khẩn cấp), Dự phòng (Nguồn thu đa dạng).
+    *   Tối ưu: Tam giác sắt (Trade-offs), Tư duy ngược (Via Negativa).
+    *   Hiệu suất: Quản lý nợ (Sức khỏe/Quan hệ), Diminishing Returns.
 *   **[🏛️ Politics (Chính trị)](./politics/README.md)** ⭐ **Vietnam Deep Dive!**
     *   Bản chất quyền lực, thể chế và địa chính trị.
     *   Hệ thống chính trị Việt Nam (Đảng, Quốc hội, Chính phủ).
