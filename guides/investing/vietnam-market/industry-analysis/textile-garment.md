@@ -40,9 +40,22 @@ Giai đoạn sản xuất may mặc và phân phối. Việt Nam hiện nằm tr
 
 ## 📈 Thách thức và Cơ hội
 
-1.  **Phụ thuộc nguyên liệu:** Việc phụ thuộc vào nhập khẩu bông và vải khiến biên lợi nhuận của ngành dễ bị tổn thương khi giá nguyên liệu thế giới biến động hoặc đứt gãy chuỗi cung ứng.
-2.  **Yêu cầu xanh hóa:** Các thị trường lớn (EU, Mỹ) đang áp dụng các tiêu chuẩn khắt khe về ESG, buộc doanh nghiệp Việt Nam phải đầu tư vào năng lượng tái tạo và nguyên liệu tái chế (như sợi tái chế của STK).
-3.  **Dịch chuyển sang ODM/OBM:** Để nâng cao giá trị gia tăng, các doanh nghiệp đang nỗ lực thoát ly khỏi mô hình gia công CMT thuần túy để chuyển sang tự thiết kế và xây dựng thương hiệu.
+1.  **Phụ thuộc nguyên liệu:** Phụ thuộc 70% vào vải nhập khẩu từ Trung Quốc. Cơ hội đến từ việc đầu tư vào các cụm dệt nhuộm tập trung để đáp ứng quy tắc xuất xứ của EVFTA.
+2.  **Yêu cầu xanh hóa:** Các tiêu chuẩn ESG khắt khe từ EU (CBAM) buộc doanh nghiệp phải dùng năng lượng tái tạo. STK hưởng lợi nhờ mảng sợi tái chế.
+
+---
+
+## 📊 Thống kê & Dự báo 2025-2026
+
+*   **Xuất khẩu:** Dệt may đóng góp tỷ trọng lớn (~13.5%) vào xuất khẩu sang Mỹ. Kim ngạch xuất khẩu sang Mỹ năm 2025 ước đạt **16,1 tỷ USD**.
+*   **Vị thế:** Việt Nam duy trì top 3 nước xuất khẩu may mặc thế giới, với sự phục hồi mạnh mẽ của các đơn hàng FOB từ quý IV/2025.
+
+---
+
+## 🏛️ Chính sách Chính phủ trọng điểm
+
+*   **Chiến lược phát triển ngành Dệt may & Da giày đến 2030:** Tập trung chuyển dịch từ gia công sang thiết kế mẫu mã (ODM) và sở hữu thương hiệu riêng (OBM).
+*   **Hỗ trợ tài chính cho chuyển đổi xanh:** Chính phủ khuyến khích các khoản vay ưu đãi cho doanh nghiệp đầu tư hạ tầng xử lý nước thải và điện mặt trời mái nhà tại các xưởng may.
 
 ---
 

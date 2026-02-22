@@ -35,6 +35,19 @@ Tài liệu này phân tích chuỗi giá trị từ cây mía đến các sản
 
 ---
 
+## 🔬 Đào sâu Phân tích: Đặc thù Bảo hộ & Phụ phẩm
+
+### 1. Chính sách bảo hộ & Hạn ngạch (Quotas)
+*   Ngành đường Việt Nam chịu ảnh hưởng lớn từ các hiệp định thương mại (như ATIGA). Khả năng cạnh tranh với đường giá rẻ từ Thái Lan phụ thuộc hoàn toàn vào hiệu lực của các rào cản thuế quan mà Chính phủ áp dụng.
+
+### 2. Tỷ lệ thu hồi đường (CCS)
+*   Đây là chỉ số quan trọng để đánh giá chất lượng mía và công nghệ luyện đường. CCS càng cao, chi phí sản xuất trên mỗi kg đường càng thấp.
+
+### 3. Kinh tế tuần hoàn (By-products)
+*   Doanh nghiệp tối ưu hóa giá trị từ cây mía bằng cách dùng bã mía làm điện sinh khối, mật rỉ làm ethanol. Các mảng này đóng góp từ 10-15% tổng lợi nhuận, giúp giảm bớt rủi ro khi giá đường sụt giảm.
+
+---
+
 ## 📚 Tài liệu liên quan
 *   [Ngành Thực Phẩm & Đồ Uống (Khách hàng tiêu thụ đường)](./food-beverage-industry.md)
 *   [Ngành Nông Nghiệp](./agriculture-industry.md)

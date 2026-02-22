@@ -37,9 +37,22 @@ Hầu hết các công ty khoáng sản vận hành theo **chuỗi khép kín**:
 
 ## 📈 Nhận Định Đầu Tư
 
-1.  **Biến số Giá bán:** Đây là yếu tố quan trọng nhất cần quan tâm. Doanh thu và lợi nhuận của các doanh nghiệp khoáng sản tỷ lệ thuận và cực kỳ nhạy cảm với **GIÁ BÁN SẢN PHẨM** trên thị trường thế giới.
-2.  **Yếu tố Địa chính trị:** Trung Quốc (China) hiện đang hạn chế xuất khẩu các loại khoáng sản và Đất hiếm, điều này tạo áp lực làm **GIÁ BÁN TĂNG MẠNH**, trực tiếp có lợi cho các doanh nghiệp khai thác tại Việt Nam như KSV, MSR.
-3.  **Trữ lượng Đất hiếm:** Việt Nam sở hữu khoảng 10% trữ lượng đất hiếm toàn cầu, biến đây thành tài sản chiến lược quốc gia trong tương lai (ứng dụng trong bán dẫn, xe điện, công nghệ cao).
+1.  **Biến số Giá bán:** Doanh thu khoáng sản cực kỳ nhạy cảm với giá thế giới. Việt Nam đang hưởng lợi từ việc Trung Quốc thắt chặt xuất khẩu đất hiếm và Wolfram.
+2.  **Đất hiếm:** Việt Nam sở hữu **10% trữ lượng toàn cầu**, biến đây thành tài sản chiến lược trong chuỗi cung ứng bán dẫn và pin xe điện.
+
+---
+
+## 📊 Thống kê & Dự báo 2025-2026
+
+*   **Vị thế:** Việt Nam xếp hạng 2 thế giới về trữ lượng đất hiếm, là điểm đến thay thế quan trọng cho chuỗi cung ứng công nghệ cao toàn cầu năm 2026.
+*   **Doanh thu:** LNST của MSR và KSV dự báo hồi phục mạnh khi nhu cầu vật liệu công nghiệp phục hồi.
+
+---
+
+## 🏛️ Chính sách Chính phủ trọng điểm
+
+*   **Luật Địa chất và Khoáng sản (Dự thảo 2024):** Thay thế Luật Khoáng sản 2010, tập trung vào đấu giá quyền khai thác và phân cấp quản lý để tránh thất thoát tài nguyên.
+*   **Quy hoạch thăm dò, khai thác khoáng sản chiến lược đến 2030:** Hạn chế xuất khẩu quặng thô, ưu tiên chế biến sâu để gia tăng giá trị quốc gia.
 
 ---
 

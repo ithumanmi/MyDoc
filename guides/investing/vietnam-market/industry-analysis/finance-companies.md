@@ -54,20 +54,20 @@ Hiện nay tại Việt Nam có **16 công ty tài chính** được Ngân hàng
 
 *   **FE Credit:** ~11,000 tỷ VNĐ (Lớn nhất thị trường).
 *   **EVN Finance (EVF):** ~7,600 tỷ VNĐ.
-*   **Công ty Tài chính Công nghiệp Tàu thuỷ:** ~2,500 tỷ VNĐ.
-*   **HD Saison:** ~2,300 tỷ VNĐ.
-*   **Home Credit:** ~2,000 tỷ VNĐ.
-*   **Mcredit (MB Shinsei):** ~1,300 tỷ VNĐ.
-*   **Lotte Finance:** ~1,300 tỷ VNĐ.
-*   **PTF (Tài chính Bưu điện):** ~1,050 tỷ VNĐ.
-*   **SHB Finance:** ~1,000 tỷ VNĐ.
-*   **Jaccs:** ~900 tỷ VNĐ.
-*   **Toyota Finance:** ~700 tỷ VNĐ.
-*   **Mirea Asset:** ~700 tỷ VNĐ.
-*   **Viet Credit (TIN):** ~687 tỷ VNĐ.
-*   **Shinhan Finance:** ~615 tỷ VNĐ.
-*   **Handico:** ~550 tỷ VNĐ.
-*   **Cộng đồng:** ~500 tỷ VNĐ.
+
+---
+
+## 📊 Thống kê & Dự báo 2025-2026
+
+*   **Tỷ trọng thị trường:** Các công ty tài chính chỉ chiếm **12,4%** thị phần vay tiêu dùng nhưng phục vụ tới **60%** lao động phổ thông.
+*   **Tăng trưởng:** Dự báo nhu cầu vay tiêu dùng hồi phục mạnh trong năm 2026 khi thu nhập khả dụng tăng lên sau giai đoạn thắt chặt.
+
+---
+
+## 🏛️ Chính sách Chính phủ trọng điểm
+
+*   **Luật Các tổ chức tín dụng 2024 (Hiệu lực từ 01/08/2024):** Quy định chặt chẽ hơn về trần lãi suất và quy trình thu hồi nợ, nhằm bảo vệ người đi vay và minh bạch hóa thị trường tài chính tiêu dùng.
+*   **Đề án phát triển thanh toán không dùng tiền mặt:** Thúc đẩy các công ty tài chính tích hợp ví điện tử và giải pháp "Mua trước trả sau" (BNPL).
 
 ---
 

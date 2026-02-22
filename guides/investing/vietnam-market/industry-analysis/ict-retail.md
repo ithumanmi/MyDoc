@@ -55,9 +55,22 @@ Nơi tiếp cận trực tiếp với người tiêu dùng cuối cùng.
 
 ## 📈 Nhận Định Thị Trường
 
-1.  **Sự bão hòa:** Thị trường điện thoại thông minh đang tiến dần đến mức bão hòa, các nhà bán lẻ lớn phải tìm kiếm động lực tăng trưởng mới (như laptop, thiết bị gia dụng hoặc mảng dược phẩm).
-2.  **Cuộc chiến TMĐT:** TikTok Shop và Shopee đang thay đổi thói quen mua sắm thiết bị ICT nhỏ lẻ, buộc các cửa hàng vật lý phải tối ưu chi phí và tăng trải nghiệm khách hàng.
-3.  **Hợp nhất thị trường:** Các chuỗi lớn như MWG và FRT vẫn giữ thế thượng phong, nhưng các chuỗi tầm trung (CellphoneS, Hoàng Hà) đang bứt tốc nhờ giá cạnh tranh và marketing linh hoạt.
+1.  **Sự bão hòa:** Thị trường điện thoại thông minh bão hòa khiến các nhà bán lẻ dịch chuyển sang mảng Gia dụng và ICT phục vụ doanh nghiệp.
+2.  **Cuộc chiến TMĐT:** TikTok Shop và Shopee tạo áp lực giảm giá bán lẻ vật lý, buộc các doanh nghiệp (MWG, FRT) phải tối ưu hóa chi phí vận hành.
+
+---
+
+## 📊 Thống kê & Dự báo 2025-2026
+
+*   **Tăng trưởng xuất khẩu:** Xuất khẩu máy vi tính, sản phẩm điện tử và linh kiện (phần lớn qua kênh ICT) dự báo duy trì đà tăng trưởng hai con số.
+*   **Điểm nhấn:** Kim ngạch xuất khẩu sản phẩm công nghệ số năm 2025 ước đạt **172 tỷ USD**.
+
+---
+
+## 🏛️ Chính sách Chính phủ trọng điểm
+
+*   **Nghị quyết 158/2024/QH15:** Tập trung phát triển thị trường tiêu dùng nội địa và hạ tầng số, hỗ trợ doanh nghiệp bán lẻ ICT chuyển đổi sang mô hình kinh doanh đa kênh (Omnichannel).
+*   **Chương trình chuyển đổi số quốc gia:** Kích cầu tiêu dùng các thiết bị đầu cuối hỗ trợ 5G và hạ tầng IoT trong dân cư.
 
 ---
 

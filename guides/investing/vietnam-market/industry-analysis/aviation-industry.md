@@ -55,8 +55,22 @@ Nhóm trực tiếp thực hiện các chuyến bay, chịu ảnh hưởng mạn
 ## 📈 Nhận Định Đầu Tư
 
 1.  **Hạ tầng là ưu tiên:** Trong chuỗi giá trị, các doanh nghiệp quản lý hạ tầng và dịch vụ độc quyền tại cảng (ACV, SCS, NCT) thường có lợi thế cạnh tranh và biên lợi nhuận bền vững hơn các hãng vận tải.
-2.  **Cú hích Long Thành:** Siêu dự án Sân bay Long Thành là động lực tăng trưởng dài hạn cho toàn ngành, đặc biệt là ACV và các đơn vị dịch vụ mặt đất, hàng hóa.
-3.  **Rủi ro vận tải:** Các hãng hàng không (HVN, VJC) thường gặp áp lực lớn về nợ vay, chi phí nhiên liệu và lỗ lũy kế, đòi hỏi sự thận trọng khi phân tích đầu tư.
+2.  **Cú hích Long Thành:** Siêu dự án Sân bay Long Thành dự kiến vận hành từ **tháng 9/2026** là động lực tăng trưởng dài hạn cho toàn ngành.
+3.  **Hành khách quốc tế:** Dự báo năm 2026 đạt khoảng **52 triệu lượt** (+13,9% YoY), vượt xa mức trước đại dịch.
+
+---
+
+## 📊 Thống kê & Dự báo 2025-2026
+
+*   **Sản lượng vận chuyển:** Năm 2025 ước đạt **84 triệu lượt hành khách** (+11,4% YoY). Trong đó, khách quốc tế tăng trưởng mạnh mẽ **13,6%**.
+*   **Hàng hóa hàng không:** Sản lượng đạt **1,2 triệu tấn** (+18,5% YoY), phản ánh sự bùng nổ của xuất khẩu linh kiện điện tử và TMĐT xuyên biên giới.
+
+---
+
+## 🏛️ Chính sách Chính phủ trọng điểm
+
+*   **Quyết định phê duyệt quy hoạch cảng hàng không quốc gia đến 2030:** Tập trung nguồn lực hoàn thiện giai đoạn 1 sân bay Long Thành (công suất 25 triệu khách/năm) và mở rộng nhà ga T3 Tân Sơn Nhất.
+*   **Chính sách miễn thị thực (Visa):** Việc mở rộng danh sách các quốc gia miễn visa là "đòn bẩy" trực tiếp giúp tăng tỷ lệ lấp đầy trên các đường bay quốc tế.
 
 ---
 

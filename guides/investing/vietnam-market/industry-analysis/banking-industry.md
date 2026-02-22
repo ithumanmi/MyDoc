@@ -51,7 +51,17 @@ Cách thức ngân hàng tạo ra doanh thu và lợi nhuận:
 
 ---
 
-## 📚 Tài liệu liên quan
-*   [Công Ty Tài Chính Việt Nam](./finance-companies.md)
-*   [Ngành Bán Lẻ ICT Việt Nam](./ict-retail.md)
-*   [Kinh tế Vĩ mô & Chính sách tiền tệ](../../advanced/macroeconomics.md)
+## 📊 Thống kê & Dự báo 2025-2026
+
+*   **Tăng trưởng tín dụng:** Năm 2025 đạt **19,01%**; dự báo năm 2026 duy trì mức cao khoảng **17,6%**, tập trung vào chất lượng tài sản.
+*   **Chất lượng tài sản:** Tỷ lệ nợ xấu nội bảng toàn hệ thống năm 2025 ước khoảng **1,69%**, dự báo giảm về **1,54%** năm 2026 nhờ thu hồi nợ xấu quyết liệt.
+*   **Lợi nhuận:** Dự báo lợi nhuận toàn ngành năm 2026 tăng trưởng **17,7%** nhờ cải thiện biên lãi thuần (NIM).
+
+---
+
+## 🏛️ Chính sách Chính phủ trọng điểm
+
+*   **Lộ trình từ bỏ "Room tín dụng":** Chính phủ và NHNN định hướng dần xóa bỏ quản lý theo hạn mức tăng trưởng tín dụng hành chính, chuyển sang các công cụ điều hành gián tiếp dựa trên an toàn vốn (Basel II, III).
+    *   [Trích dẫn: vietnambiz.vn](https://vietnambiz.vn/trien-vong-ngan-hang-2026-dong-luc-tu-bo-room-tin-dung-lợi-nhuận-uoc-tang-177-2025101584620897.htm)
+*   **Chính sách tiền tệ 2026:** Điều hành chủ động, linh hoạt, phối hợp chặt chẽ với chính sách tài khóa mở rộng để thúc đẩy tăng trưởng GDP mục tiêu 7-8%.
+    *   [Trích dẫn: baochinhphu.vn](http://www.baochinhphu.vn/giai-phap-trong-tam-dieu-hanh-chinh-sach-tien-te-chinh-sach-tai-khoa-nam-2026-102260209163547508.htm)

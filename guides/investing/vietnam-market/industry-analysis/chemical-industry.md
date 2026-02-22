@@ -41,6 +41,20 @@ Sản phẩm hoá chất phục vụ đa dạng các ngành công nghiệp hạ 
 *   **Dữ liệu 9T/2024:** Doanh thu 7.447 tỷ, LNST 2.322 tỷ.
 *   **Nhận định:** Giá PPV thế giới đang bắt đầu chu kỳ tăng, mở ra cơ hội đầu tư dài hạn.
 
+---
+
+## 📊 Thống kê & Dự báo 2025-2026
+
+*   **Tăng trưởng ngành:** Ngành hóa chất dự kiến duy trì đà tăng trưởng ổn định nhờ nhu cầu từ công nghiệp điện tử và pin lithium toàn cầu.
+*   **Quy mô:** Việt Nam đang hình thành các cụm công nghiệp hóa chất tập trung để tối ưu hóa chuỗi cung ứng nội địa.
+
+---
+
+## 🏛️ Chính sách Chính phủ trọng điểm
+
+*   **Chiến lược phát triển ngành công nghiệp hóa chất đến 2030 (Công văn 4352/VPCP-CN):** Tập trung vào việc nâng cao giá trị gia tăng, giảm phụ thuộc vào nhập khẩu hóa chất cơ bản và đẩy mạnh hóa dầu.
+*   **Ưu đãi thuế cho công nghệ cao:** Các dự án sản xuất nguyên liệu cho bán dẫn và pin xe điện được hưởng mức ưu đãi thuế cao nhất.
+
 ### 2. CSV (Hoá chất Cơ bản Miền Nam)
 *   **Thị phần:** Nắm giữ thị phần lớn trong nhiều mảng hoá chất cơ bản (Axit Sunfuric 50%, HCl 50%, Silicat 30%, Al(OH)3 30%, Xút lỏng 25%).
 *   **Dữ liệu 9T/2024:** Doanh thu 1.339 tỷ (+16%), LNST 203 tỷ (+15%).

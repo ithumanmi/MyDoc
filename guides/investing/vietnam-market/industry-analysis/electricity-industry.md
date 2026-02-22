@@ -57,7 +57,17 @@ Quy hoạch điện VIII định hướng dịch chuyển mạnh mẽ sang năng
 
 ---
 
-## 📚 Tài liệu liên quan
-*   [Ngành Công Nghệ AI](./ai-industry.md)
-*   [BĐS Khu Công Nghiệp](./industrial-real-estate.md)
-*   [Kinh tế Vĩ mô Việt Nam](../../advanced/macroeconomics.md)
+## 📊 Thống kê & Dự báo 2025-2026
+
+*   **Tăng trưởng nhu cầu:** Dự báo nhu cầu điện tăng trưởng **10,3% - 12,5%/năm** trong giai đoạn 2026-2030, phục vụ GDP tăng trưởng 8-10%.
+*   **Tổng công suất:** Mục tiêu năm 2030 đạt **150.489 MW**, trong đó điện khí và năng lượng tái tạo là mũi nhọn.
+*   **Giá bán lẻ:** Điều chỉnh linh hoạt theo cơ chế thị trường, giúp cải thiện dòng tiền cho toàn chuỗi giá trị (điển hình là đợt tăng 4,8% cuối 2024).
+
+---
+
+## 🏛️ Chính sách Chính phủ trọng điểm
+
+*   **Quy hoạch Điện VIII điều chỉnh (Quyết định 768/QĐ-TTg):** Phê duyệt tháng 4/2025, điều chỉnh tăng mạnh công suất năng lượng tái tạo lên 166% so với quy hoạch ban đầu để hướng tới Net Zero 2050.
+    *   [Trích dẫn: moit.gov.vn](https://moit.gov.vn/tin-tuc/phat-trien-nang-luong/bo-cong-thuong-ban-hanh-ke-hoach-trien-khai-quy-hoach-dien-viii-dieu-chinh.html)
+*   **Cơ chế DPPA (Bán điện trực tiếp):** Cho phép các đơn vị năng lượng tái tạo bán điện trực tiếp cho khách hàng công nghiệp lớn, gỡ nút thắt về độc quyền truyền tải của EVN.
+    *   [Trích dẫn: nangluongvietnam.vn](https://nangluongvietnam.vn)

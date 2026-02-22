@@ -52,7 +52,16 @@ Khâu cuối cùng đưa sản phẩm đến tay khách hàng và vận hành sa
 
 ---
 
-## 📚 Tài liệu liên quan
-*   [BĐS Khu Công Nghiệp](./industrial-real-estate.md)
-*   [Ngành Ngân Hàng Việt Nam](./banking-industry.md)
-*   [Lộ trình giao dịch toàn diện](../../advanced/trading-roadmap.md)
+## 📊 Thống kê & Dự báo 2025-2026
+
+*   **Chu kỳ phục hồi:** Năm 2026 dự kiến là giai đoạn **mở rộng** của ngành bất động sản với nguồn cung mới dồi dào từ các dự án lớn.
+*   **Giá bán:** Giá căn hộ tại Hà Nội và TP.HCM dự báo duy trì đà tăng nhẹ do chi phí tiền sử dụng đất tăng theo bảng giá đất mới.
+*   **Giao dịch:** Tổng số lượng giao dịch đất nền và chung cư năm 2025 tăng trưởng ổn định, hàng tồn kho bắt đầu giảm mạnh từ cuối 2025.
+
+---
+
+## 🏛️ Chính sách Chính phủ trọng điểm
+
+*   **Bộ 3 Luật "Xương sống" (Đất đai - Nhà ở - Kinh doanh BĐS):** Có hiệu lực từ 01/08/2024, tạo khung pháp lý minh bạch cho việc định giá đất và cấp phép dự án, giúp khơi thông hàng trăm nghìn tỷ đồng vốn bị tắc nghẽn.
+    *   [Trích dẫn: luatsuvietnam.net](https://luatvietnam.net/vn/cac-luat-dat-dai-nha-o-kinh-doanh-bat-dong-san-deu-co-hieu-luc-som-tu-1-8-2024-vbpl130657.html)
+*   **Chính sách lãi suất thấp:** NHNN duy trì môi trường lãi suất cho vay mua nhà ở mức ưu đãi để kích cầu tiêu dùng.

@@ -48,7 +48,16 @@ Nguồn vốn là "nguyên liệu" quan trọng nhất để CTCK thực hiện 
 
 ---
 
-## 📚 Tài liệu liên quan
-*   [Ngành Công Ty Tài Chính](./finance-companies.md)
-*   [Ngành Ngân Hàng](./banking-industry.md)
-*   [Lộ trình giao dịch toàn diện](../../investing/advanced/trading-roadmap.md)
+## 📊 Thống kê & Dự báo 2025-2026
+
+*   **Quy mô vốn hóa:** Thị trường chứng khoán Việt Nam hướng tới mục tiêu nâng hạng lên **Thị trường mới nổi (Emerging Market)** của MSCI và FTSE Russell vào năm 2025-2026.
+*   **Thanh khoản:** Dự báo thanh khoản bình quân phiên năm 2026 duy trì mức **25.000 - 30.000 tỷ đồng** nhờ sự tham gia của các quỹ ngoại sau nâng hạng.
+*   **Vốn chủ sở hữu:** Top các CTCK như TCBS, SSI liên tục tăng vốn lên mức trên **20.000 tỷ đồng** để đáp ứng nhu cầu margin và nghiệp vụ bảo lãnh.
+
+---
+
+## 🏛️ Chính sách Chính phủ trọng điểm
+
+*   **Chiến lược phát triển thị trường chứng khoán đến năm 2030:** Mục tiêu vốn hóa thị trường cổ phiếu đạt **100% GDP** vào năm 2025 và **120% GDP** vào năm 2030.
+    *   [Trích dẫn: tapchinganhang.gov.vn](https://tapchinganhang.gov.vn/thi-truong-tai-chinh-toan-cau-nam-2025-va-trien-vong-2026-16953.html)
+*   **Hệ thống KRX:** Việc chính thức vận hành hệ thống KRX năm 2025 giúp rút ngắn chu kỳ giao dịch và triển khai các sản phẩm mới (Bán khống, Day trading).

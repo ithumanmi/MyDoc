@@ -41,6 +41,36 @@ Giai đoạn tạo ra giá trị gia tăng và kiểm soát tiêu chuẩn chất
 
 ---
 
+## 🏛️ Chính sách Chính phủ trọng điểm
+
+*   **Chương trình hành động gỡ "Thẻ vàng" IUU (Nghị quyết 52/NQ-CP):** Chính phủ quyết tâm xử lý dứt điểm các vi phạm khai thác bất hợp pháp để khôi phục hoàn toàn tiềm năng xuất khẩu sang EU. Tính đến cuối 2025, đã hoàn thành 101/101 nhiệm vụ trọng tâm.
+    *   [Trích dẫn: hcmcpv.org.vn](https://www.hcmcpv.org.vn/tin-tuc/hoan-thien-he-thong-du-lieu-xu-ly-dut-diem-nhung-vi-pham-iuu-1491940679)
+*   **Quyết định 339/QĐ-TTg:** Phê duyệt Chiến lược phát triển thủy sản đến năm 2030, ưu tiên hiện đại hóa đội tàu kiểm ngư và hỗ trợ ngư dân chuyển đổi nghề nuôi trồng bền vững.
+    *   [Trích dẫn: vanban.chinhphu.vn](https://vanban.chinhphu.vn/default.aspx?docid=202798)
+
+---
+
+## 🔬 Đào sâu Phân tích: Các chỉ số "Sống còn"
+
+### 1. Tỷ lệ tự chủ (Self-sufficiency Ratio)
+*   Doanh nghiệp nào tự chủ được con giống và thức ăn (như **VHC, ANV**) sẽ có biên lợi nhuận gộp ổn định hơn khi giá nguyên liệu đầu vào biến động.
+*   *Công thức:* (Sản lượng tự nuôi / Tổng sản lượng chế biến) x 100%.
+
+### 2. Giá trị tồn kho & Chu kỳ nuôi trồng
+*   Nếu doanh nghiệp tích lũy tồn kho giá rẻ lúc giá nguyên liệu thấp và bán ra khi giá xuất khẩu tăng (như **ANV** năm 2022), lợi nhuận sẽ đột biến.
+*   **Rủi ro:** Cá/Tôm quá lứa chưa bán được sẽ làm tăng chi phí thức ăn (nuôi báo cô).
+
+### 3. Phụ phẩm - "Mỏ vàng ẩn giấu"
+*   **VHC** là điển hình thành công khi khai thác Collagen & Gelatin từ da cá tra. Mảng này có biên lợi nhuận gộp lên tới 30-40%, cao hơn nhiều so với cá fillet (15-20%).
+
+---
+
+## ⚠️ Rủi ro cần lưu ý
+*   **Thuế chống bán phá giá (POR):** Các đợt xem xét hành chính của Bộ Thương mại Mỹ (DOC) có thể làm thay đổi hoàn toàn cục diện xuất khẩu.
+*   **Rào cản kỹ thuật:** Thẻ vàng IUU (với hải sản) và các tiêu chuẩn khắt khe về kháng sinh.
+
+---
+
 ## 📚 Tài liệu liên quan
 *   [Ngành Logistics (Vận chuyển xuất khẩu)](./logistics-industry.md)
 *   [Kinh tế Vĩ mô (Tỷ giá & Lạm phát)](../../advanced/macroeconomics.md)

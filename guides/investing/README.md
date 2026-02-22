@@ -24,6 +24,15 @@ Chào mừng bạn đến với kho tàng kiến thức về Đầu tư và Kinh
 *(Coming Soon)*
 *   **Value Investing:** [Đầu tư giá trị (Warren Buffett style)](./advanced/value-investing.md).
 *   **Portfolio Construction:** [Xây dựng danh mục đầu tư đa lớp (All-Weather)](./advanced/portfolio-construction.md).
+*   **Sector Rotation:** [Chiến thuật Luân chuyển nhóm ngành theo chu kỳ](./advanced/sector-rotation-strategy.md).
+*   **Industry Cycles:** [Phân tích chuyên sâu Chu kỳ các nhóm ngành](./advanced/industry-cycles-deep-dive.md).
+*   **Smart Money:** [Theo dấu dòng tiền của các tổ chức và khối ngoại](./advanced/smart-money-analysis.md).
+*   **Investment Process:** [10 Bước thực hiện một thương vụ đầu tư thành công](./advanced/investment-process-10-steps.md).
+*   **US-VN Relations:** [Hoa Kỳ & Cuộc tái cấu trúc kinh tế Việt Nam 2025-2030](./advanced/us-vn-economic-restructuring.md).
+*   **Vietnam Corporate Giants:** [Viettel, FPT, và Vingroup trong cuộc chơi toàn cầu](./advanced/vietnam-corporate-giants.md).
+*   **VN30 Blue-chips:** [Phân tích chuyên sâu 5 mã cổ phiếu trụ cột dẫn dắt thị trường](./advanced/vn30-blue-chips-analysis.md).
+*   **Commodity Cycles:** [Phân tích Vàng, Dầu và Nông sản toàn cầu](./advanced/commodity-cycles.md).
+*   **Forex Trading:** [Chiến lược giao dịch ngoại hối và Tương quan tỷ giá](./advanced/forex-trading.md).
 *   **Risk Management:** [Quản trị rủi ro và Phân bổ vốn](./advanced/risk-management.md).
 *   **Technical Analysis:** [Phân tích kỹ thuật và Hành động giá](./advanced/technical-analysis.md).
 
@@ -66,7 +75,9 @@ Chào mừng bạn đến với kho tàng kiến thức về Đầu tư và Kinh
 ---
 
 ## 🚀 Crypto & Emerging Assets
-*(Coming Soon)*
+*Tìm hiểu về tương lai của tiền tệ và tài sản số.*
+
+*   **[₿ Crypto & DeFi Fundamentals](./advanced/crypto-defi.md):** Bản chất của BTC, các xu hướng AI + Crypto, RWA và chiến lược đầu tư tài sản số.
 *   **Bitcoin Fundamentals:** Tại sao BTC là vàng kỹ thuật số?
 *   **DeFi:** Tài chính phi tập trung.
 

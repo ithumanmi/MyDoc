@@ -33,6 +33,19 @@ Hệ thống đường ống dẫn nước đến tận hộ gia đình và doan
 
 ---
 
+## 🔬 Đào sâu Phân tích: Độc quyền & Hiệu quả
+
+### 1. Độc quyền tự nhiên (Natural Monopoly)
+*   Ngành nước có đặc thù là chi phí đầu tư mạng lưới đường ống cực kỳ lớn. Do đó, tại một khu vực địa lý, thường chỉ có một doanh nghiệp cấp nước duy nhất. Điều này tạo ra một "con hào kinh tế" bất khả xâm phạm.
+
+### 2. Tỷ lệ thất thoát nước (Non-revenue Water - NRW)
+*   Đây là chỉ số hiệu quả vận hành quan trọng nhất. Doanh nghiệp nào kiểm soát tốt NRW (như **TDM, BWE** thường < 10%) sẽ tối ưu hóa được lợi nhuận trên mỗi m3 nước sản xuất.
+
+### 3. Mô hình holding & sở hữu chéo
+*   Tại Việt Nam, các công ty nước thường sở hữu chéo lẫn nhau (ví dụ TDM sở hữu cổ phần lớn tại BWE). Nhà đầu tư cần phân tích báo cáo hợp nhất để hiểu rõ dòng tiền cổ tức thực tế chảy về công ty mẹ.
+
+---
+
 ## 📚 Tài liệu liên quan
 *   [Ngành BĐS Khu Công Nghiệp (Khách hàng chính)](./industrial-real-estate.md)
 *   [Ngành Điện (Tiện ích thiết yếu)](./electricity-industry.md)

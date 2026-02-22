@@ -57,7 +57,16 @@ Hiện tại Việt Nam sử dụng hai công nghệ chính:
 
 ---
 
-## 📚 Tài liệu liên quan
-*   [Ngành Khoáng Sản (Nguồn cung quặng)](./mining-industry.md)
-*   [Ngành Bất Động Sản (Đầu ra chính)](./real-estate.md)
-*   [BĐS Khu Công Nghiệp](./industrial-real-estate.md)
+## 📊 Thống kê & Dự báo 2025-2026
+
+*   **Sản lượng sản xuất:** Dự báo tăng trưởng **8-10%**, đạt 30-32 triệu tấn thép thành phẩm vào năm 2026.
+*   **Tiêu thụ nội địa:** Nhu cầu dự báo đạt **21,5-22,5 triệu tấn**, hưởng lợi từ sóng đầu tư công và sự phục hồi của BĐS dân dụng.
+*   **HPG (Hòa Phát):** Sản lượng thép thô năm 2025 ước đạt **11 triệu tấn** (+26% YoY), khẳng định vị thế thống trị khu vực.
+
+---
+
+## 🏛️ Chính sách Chính phủ trọng điểm
+
+*   **Chiến lược phát triển ngành thép đến 2030 (Quyết định 261/QĐ-TTg):** Phê duyệt ngày 09/02/2026, đặt mục tiêu tự chủ 80-85% nhu cầu thép trong nước và nâng cao năng lực sản xuất thép chất lượng cao (HRC).
+    *   [Trích dẫn: baochinhphu.vn](http://www.baochinhphu.vn/giai-phap-trong-tam-dieu-hanh-chinh-sach-tien-te-chinh-sach-tai-khoa-nam-2026-102260209163547508.htm)
+*   **Thuế phòng vệ thương mại:** Tiếp tục áp dụng các biện pháp tự vệ và chống bán phá giá đối với thép nhập khẩu giá rẻ (đặc biệt là HRC từ Trung Quốc) để bảo hộ sản xuất trong nước.

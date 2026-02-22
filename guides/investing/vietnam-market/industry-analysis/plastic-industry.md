@@ -54,9 +54,22 @@ Các doanh nghiệp chế biến nhựa nguyên sinh thành sản phẩm cuối 
 
 ## 📈 Nhận Định Đầu Tư
 
-1.  **Biến số đầu vào:** Kết quả kinh doanh của các doanh nghiệp nhựa hạ nguồn (đặc biệt là BMP, NTP) cực kỳ nhạy cảm với biến động giá dầu và giá nhựa nguyên sinh nhập khẩu.
-2.  **Lợi thế cạnh tranh:** Các doanh nghiệp sở hữu công nghệ lõi (như TLG) hoặc thị phần áp đảo (như BMP) thường có khả năng duy trì biên lợi nhuận tốt hơn khi thị trường biến động.
-3.  **Triển vọng:** Nhóm nhựa kỹ thuật và dân dụng đang cho thấy định giá hấp dẫn với hiệu quả kinh doanh ổn định.
+1.  **Biến số đầu vào:** Kết quả kinh doanh cực kỳ nhạy cảm với giá dầu và giá nhựa nguyên sinh nhập khẩu (Việt Nam vẫn phải nhập 80%).
+2.  **Lợi thế cạnh tranh:** Các doanh nghiệp sở hữu chuỗi phân phối mạnh (BMP) hoặc công nghệ sản xuất đặc thù (TLG) có khả năng chuyển chi phí đầu vào sang khách hàng tốt hơn.
+
+---
+
+## 📊 Thống kê & Dự báo 2025-2026
+
+*   **Tăng trưởng xuất khẩu:** Kim ngạch xuất khẩu nhựa dự báo tăng trưởng ổn định **8-10%/năm** nhờ các hiệp định EVFTA và CPTPP.
+*   **Điểm nhấn:** TLG duy trì thị phần áp đảo **60%** trong nước, trong khi BMP tiếp tục hưởng lợi từ sóng xây dựng hạ tầng dân dụng năm 2026.
+
+---
+
+## 🏛️ Chính sách Chính phủ trọng điểm
+
+*   **Quy chuẩn kỹ thuật quốc gia về bao bì nhựa tái chế:** Chính phủ thúc đẩy mô hình kinh tế tuần hoàn, ưu tiên các doanh nghiệp có năng lực sản xuất nhựa sinh học và tái chế (như AAA).
+*   **Ưu đãi thuế cho công nghệ hỗ trợ:** Ngành nhựa kỹ thuật phục vụ điện tử và ô tô được đưa vào danh mục ưu tiên phát triển.
 
 ---
 

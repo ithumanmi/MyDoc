@@ -30,10 +30,46 @@ Tài liệu này phân tích chuỗi giá trị từ hạ tầng cảng biển �
 
 ## 📈 Nhận Định Đầu Tư: "Động lực tăng trưởng"
 
-1.  **Dòng vốn FDI:** Các nhà máy mới mở ra (Samsung, LG, Foxconn...) đồng nghĩa với nhu cầu xuất nhập khẩu tăng.
-2.  **Giá cước vận tải:** Biến động giá cước container thế giới (chỉ số Drewry, SCFI).
-3.  **Công suất cảng:** Việc đưa vào vận hành các cầu cảng mới (ví dụ Gemalink giai đoạn 2) là cú hích cho doanh thu.
-4.  **Phí xếp dỡ:** Chính sách tăng phí sàn xếp dỡ của Nhà nước giúp các doanh nghiệp cảng biển cải thiện biên lợi nhuận.
+1.  **Dòng vốn FDI:** Nhu cầu xuất nhập khẩu duy trì cao. Tổng khối lượng hàng hóa 5 tháng đầu năm 2025 đạt **464 triệu tấn** (+13% YoY).
+2.  **Giá cước vận tải:** Biến động giá cước container. Sản lượng hàng container 5 tháng đầu năm 2025 ước đạt **13,23 triệu TEU** (+13% YoY).
+3.  **Công suất cảng:** Cảng Vũng Tàu tăng trưởng ấn tượng **15%**, TP.HCM tăng **9,2%** về sản lượng container trong năm 2025.
+4.  **Phí xếp dỡ:** Chi phí logistics Việt Nam vẫn ở mức cao; áp lực tăng từ chi phí nhiên liệu và quy định mới về thời gian lái xe (Nghị định 168/2024).
+
+---
+
+## 📊 Thống kê & Dự báo 2025-2026
+
+*   **Tăng trưởng sản lượng:** Container xuất nhập khẩu bứt tốc mạnh mẽ (+14%), phản ánh sự phục hồi của giao thương quốc tế.
+*   **Thách thức:** Chi phí nhân sự tăng 20-25% do tuân thủ quy định mới, đòi hỏi doanh nghiệp phải đẩy mạnh tự động hóa để tối ưu biên lợi nhuận.
+
+---
+
+## 🏛️ Chính sách Chính phủ trọng điểm
+
+*   **Quyết định 2229/QĐ-TTg (Tháng 10/2025):** Phê duyệt Chiến lược phát triển dịch vụ logistics Việt Nam đến 2035, tầm nhìn 2050. Trọng tâm là hình thành các trung tâm logistics quy mô lớn và khu thương mại tự do.
+    *   [Trích dẫn: congbao.chinhphu.vn](https://congbao.chinhphu.vn/tai-ve-van-ban-so-2229-qd-ttg-46361-59300?format=pdf)
+*   **Thành lập Khu Thương mại tự do Đà Nẵng (2024):** Gắn liền với cảng biển Liên Chiểu, tạo tiền đề cho mô hình logistics hiện đại tích hợp dịch vụ giá trị gia tăng.
+    *   [Trích dẫn: logistics.gov.vn](https://logistics.gov.vn/nghien-cuudao-tao/bao-cao-logistics-viet-nam-2024-khu-thuong-mai-tu-do-mien-phi)
+
+---
+
+## 🔬 Đào sâu Phân tích: Đặc thù Cảng biển & Vận tải
+
+### 1. Vị trí địa lý - "Lợi thế độc quyền"
+*   Cảng biển không thể di dời. Doanh nghiệp sở hữu cảng ở hạ nguồn, nước sâu, ít bị bồi lắng (như **GMD** tại Cái Mép) có ưu thế tuyệt đối so với các cảng thượng nguồn bị hạn chế bởi tĩnh không cầu hoặc độ sâu luồng.
+
+### 2. Mô hình "Cảng - Đội tàu - Logistics" (Hệ sinh thái)
+*   Doanh nghiệp có chuỗi khép kín (như **HAH**) sẽ tối ưu được chi phí trống (Empty container run) và chủ động điều phối lịch trình, giúp biên lợi nhuận cao hơn các doanh nghiệp chỉ thuần vận tải.
+
+### 3. Chỉ số Hiệu suất Cảng (Port Performance KPIs)
+*   **Sản lượng thông quan (Throughput):** Tính bằng TEU (với container) hoặc Tấn (với hàng rời).
+*   **Tỷ lệ lấp đầy (Occupancy Rate):** Cảng hoạt động ở mức 80-90% công suất là mức lý tưởng nhất để tối ưu lợi nhuận mà không bị nghẽn.
+
+---
+
+## ⚠️ Rủi ro ngành
+*   **Dư cung hạ tầng:** Việc xây dựng quá nhiều cảng nhỏ lẻ tại cùng một khu vực (như Hải Phòng) dẫn đến cuộc chiến phá giá phí xếp dỡ.
+*   **Biến động giá dầu (Bunker Oil):** Chiếm 30-40% chi phí vận hành đội tàu. Giá dầu tăng nhanh hơn giá cước sẽ làm xói mòn lợi nhuận.
 
 ---
 

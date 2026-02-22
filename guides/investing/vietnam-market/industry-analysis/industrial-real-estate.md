@@ -47,14 +47,26 @@ Phương thức hạch toán ảnh hưởng trực tiếp đến các chỉ số
 ## 📈 Nguồn Cung & Giá Thuê (Dữ liệu thị trường)
 
 ### **Tổng nguồn cung quỹ đất:**
-*   **Phía Bắc:** 11,550 ha (Thị trường cấp 1), 8,800 ha (Thị trường cấp 2).
-*   **Phía Nam:** 22,780 ha (Thị trường cấp 1), 10,897 ha (Thị trường cấp 2).
+*   **Phía Bắc:** Dự kiến bổ sung **5.050 ha** đất công nghiệp trong giai đoạn 2026-2029.
+*   **Phía Nam:** Duy trì tỷ lệ lấp đầy cao trên **90%**.
 
 ### **So sánh Giá thuê:**
-Giá thuê tại Việt Nam hiện đang thấp hơn trung bình Đông Nam Á từ **20-40%**:
-*   **Khu vực:** Singapore (400$), Thái Lan (250$), Malaysia (240$), Indonesia (180$).
-*   **Việt Nam (Phía Nam):** Trung bình **188$/m2/chu kỳ thuê** (+15% so với cùng kỳ).
-*   **Việt Nam (Phía Bắc):** Trung bình **127$/m2/chu kỳ thuê** (+27% so với cùng kỳ).
+*   **Việt Nam (Phía Nam):** Trung bình **191$/m2/chu kỳ thuê**.
+*   **Việt Nam (Phía Bắc):** Trung bình **141$/m2/chu kỳ thuê** (+3,8% YoY).
+
+---
+
+## 📊 Thống kê & Dự báo 2025-2026
+
+*   **Tỷ lệ lấp đầy:** Miền Bắc đạt khoảng **86%**; các khu vực trọng điểm như Hà Nội, Bắc Ninh luôn ở mức >95%.
+*   **Giá thuê:** Dự báo tăng trưởng ổn định **4-5%/năm** nhờ nhu cầu lớn từ các tập đoàn công nghệ và bán dẫn.
+
+---
+
+## 🏛️ Chính sách Chính phủ trọng điểm
+
+*   **Nghị định 35/2022/NĐ-CP & sửa đổi 2025:** Đơn giản hóa thủ tục thành lập KCN và khuyến khích mô hình **KCN sinh thái**, KCN chuyên ngành bán dẫn.
+*   **Phát triển hạ tầng đồng bộ:** Việc đẩy mạnh các dự án cao tốc Bắc-Nam và đường vành đai giúp "mở khóa" giá trị quỹ đất KCN tại các tỉnh cấp 2.
 
 ---
 

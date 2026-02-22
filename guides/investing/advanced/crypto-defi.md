@@ -30,7 +30,26 @@ Thị trường Crypto là "Miền Tây hoang dã" của tài chính: Cơ hội 
 
 ---
 
-## 2. DeFi (Decentralized Finance) - Ngân hàng không người
+## 2. Các Xu hướng Bùng nổ 2025-2026
+
+Thị trường Crypto đang dịch chuyển từ "đầu cơ thuần túy" sang "ứng dụng thực tế".
+
+### **A. RWA (Real World Assets - Tài sản thực trên chuỗi)**
+*   **Bản chất:** Token hóa bất động sản, trái phiếu chính phủ, vàng lên Blockchain.
+*   **Tại sao quan trọng:** Kết nối dòng vốn hàng nghìn tỷ USD từ tài chính truyền thống (TradFi) vào Crypto. 
+*   *Dự án tiêu biểu:* BlackRock BUIDL, Ondo Finance (ONDO), MakerDAO.
+
+### **B. AI + Crypto (Trí tuệ nhân tạo phi tập trung)**
+*   **Bản chất:** Dùng Blockchain để quản lý dữ liệu huấn luyện AI, chia sẻ năng lượng tính toán (GPU) phi tập trung.
+*   *Dự án tiêu biểu:* Near (NEAR), Render (RNDR), Bittensor (TAO).
+
+### **C. Layer 2 & Modular Blockchain**
+*   **Bản chất:** Giải quyết vấn đề phí gas cao và tốc độ chậm của Ethereum.
+*   *Dự án tiêu biểu:* Arbitrum (ARB), Optimism (OP), Base (Coinbase), Celestia (TIA).
+
+---
+
+## 3. DeFi (Decentralized Finance) - Ngân hàng không người
 
 Kiếm tiền thụ động (Passive Income) từ coin đang nắm giữ.
 

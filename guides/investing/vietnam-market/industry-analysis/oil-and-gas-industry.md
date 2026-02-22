@@ -44,10 +44,26 @@ Cầu nối quan trọng, hưởng lợi từ khối lượng vận tải và nh
 
 ## 📈 Nhận Định Đầu Tư: "Dầu tăng ai hưởng lợi?"
 
-1.  **Thượng nguồn (PVD, PVS):** Hưởng lợi rõ rệt nhất khi giá dầu duy trì ở mức cao (thường trên 60-70 USD/thùng), kích thích các hoạt động thăm dò và khai thác mới (như siêu dự án Lô B Ô Môn).
-2.  **Lọc hóa dầu (BSR):** Biên lợi nhuận phụ thuộc vào **Crack Spread** (chênh lệch giá sản phẩm thành phẩm và dầu thô). Giá dầu tăng nhanh có thể tạo lợi thế tồn kho giá rẻ trong ngắn hạn.
-3.  **Phân phối (PLX, OIL):** Hưởng lợi khi khối lượng tiêu thụ tăng và giá bán lẻ được điều chỉnh kịp thời, tuy nhiên biên lợi nhuận bị kiểm soát bởi định mức chi phí của nhà nước.
-4.  **Vận tải (PVT, PVP):** Hưởng lợi gián tiếp từ khối lượng vận chuyển ổn định và giá cước vận tải biển quốc tế.
+1.  **Thượng nguồn (PVD, PVS):** Siêu dự án **Lô B - Ô Môn** (12 tỷ USD) đang triển khai mạnh; EPCI#1 đạt 16,7%, EPCI#2 đạt 34% (tính đến đầu 2025).
+2.  **Lọc hóa dầu (BSR):** PVN đầu tư hơn **14.600 tỷ đồng** chỉ trong 5 tháng đầu năm 2025 (tăng 44%) để thúc đẩy hạ tầng.
+3.  **Phân phối (PLX, OIL):** Hưởng lợi khi khối lượng tiêu thụ tăng. Dự án Lô B kỳ vọng mang lại dòng khí đầu tiên (**First Gas**) vào tháng 8/2027.
+4.  **Vận tải (PVT, PVP):** DN bọc ống PVB đặt mục tiêu lợi nhuận 2025 tăng **175%** nhờ các gói thầu từ dự án Lô B.
+
+---
+
+## 📊 Thống kê & Dự báo 2025-2026
+
+*   **Sản lượng khí:** Dự án Lô B dự kiến cung cấp **5,06 tỷ m³ khí/năm** cho các nhà máy điện Ô Môn.
+*   **Dòng tiền doanh nghiệp:** Ba doanh nghiệp dầu khí thượng nguồn được dự báo thu về gần **11.000 tỷ đồng** từ chuỗi dự án trọng điểm này.
+
+---
+
+## 🏛️ Chính sách Chính phủ trọng điểm
+
+*   **Quy hoạch Điện VIII điều chỉnh (2024):** Theo Quyết định 768/QĐ-TTg, Chính phủ tăng công suất năng lượng tái tạo lên 166% so với quy hoạch cũ, tạo cơ hội cho mảng xây lắp điện dầu khí (PVS).
+    *   [Trích dẫn: moit.gov.vn](https://moit.gov.vn/tin-tuc/phat-trien-nang-luong/chinh-thuc-phe-duyet-quy-hoach-dien-viii-dieu-chinh.html)
+*   **Luật Dầu khí 2022 (Áp dụng mạnh từ 2025):** Tạo khung pháp lý minh bạch cho các dự án khai thác khí biển sâu (Lô B), gỡ nút thắt về cơ chế đầu tư cho PVN.
+    *   [Trích dẫn: thuvienphapluat.vn](https://thuvienphapluat.vn/van-ban/Tai-nguyen-Moi-truong/Luat-Dau-khi-2022-505749.aspx)
 
 ---
 

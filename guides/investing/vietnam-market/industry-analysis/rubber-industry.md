@@ -51,7 +51,15 @@ Giai đoạn sản xuất công nghiệp và bán lẻ sản phẩm cuối cùng
 
 ---
 
-## 📚 Tài liệu liên quan
-*   [BĐS Khu Công Nghiệp](./industrial-real-estate.md)
-*   [Ngành Ngân Hàng Việt Nam](./banking-industry.md)
-*   [Ngành Bán Lẻ ICT Việt Nam](./ict-retail.md)
+## 📊 Thống kê & Dự báo 2025-2026
+
+*   **Giá cao su:** Dự báo duy trì đà hồi phục mạnh mẽ nhờ nhu cầu lốp xe từ ngành xe điện (EV) và nguồn cung hạn chế từ Thái Lan.
+*   **Xuất khẩu:** Trung Quốc tiếp tục là thị trường tiêu thụ >70% sản lượng cao su Việt Nam.
+*   **Chuyển đổi đất:** Dự báo diện tích đất cao su chuyển đổi sang KCN đạt hàng nghìn ha mỗi năm tại Bình Dương và Bình Phước (GVR, PHR dẫn đầu).
+
+---
+
+## 🏛️ Chính sách Chính phủ trọng điểm
+
+*   **Quy hoạch Hệ thống Khu công nghiệp 2026-2030:** Ưu tiên chuyển đổi các vùng cao su kém hiệu quả sang hạ tầng công nghiệp xanh và logisitics, giúp gia tăng giá trị tài sản ròng (RNAV) cho doanh nghiệp.
+*   **Tiêu chuẩn ESG và Chứng chỉ bền vững:** Đẩy mạnh áp dụng chứng chỉ rừng FSC để tăng sức cạnh tranh cho xuất khẩu cao su thiên nhiên vào Mỹ và EU.

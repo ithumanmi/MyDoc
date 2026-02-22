@@ -27,10 +27,22 @@ Tài liệu này phân tích hệ sinh thái từ vận tải hành khách đế
 
 ## 📈 Nhận Định Đầu Tư: "Sức hồi phục từ khách quốc tế"
 
-1.  **Số lượng khách quốc tế (International Arrivals):** Đặc biệt là khách từ Trung Quốc, Hàn Quốc và Âu Mỹ.
-2.  **Chính sách Visa:** Việc nới lỏng chính sách thị thực giúp tăng sức cạnh tranh cho du lịch Việt Nam.
-3.  **Giá nhiên liệu bay (Jet A1):** Ảnh hưởng trực tiếp đến lợi nhuận các hãng hàng không.
-4.  **Tỷ lệ lấp đầy (Occupancy Rate):** Chỉ số sống còn của các khách sạn và tàu cao tốc.
+1.  **Số lượng khách quốc tế (International Arrivals):** Mục tiêu đạt đỉnh mới trong năm 2026 nhờ làn sóng du lịch trải nghiệm.
+2.  **Chính sách Visa:** Việc mở rộng diện miễn thị thực giúp tăng thời gian lưu trú và mức chi tiêu của du khách Âu Mỹ.
+
+---
+
+## 📊 Thống kê & Dự báo 2025-2026
+
+*   **Kỷ lục tháng:** Tháng 1/2026 ghi nhận con số kỷ lục **2,5 triệu lượt khách quốc tế**, tăng **18,5%** so với cùng kỳ.
+*   **Thị trường trọng điểm:** Hàn Quốc, Trung Quốc và châu Âu dẫn đầu; trong đó các thị trường mới như Ấn Độ (+80%) đang bùng nổ mạnh mẽ.
+
+---
+
+## 🏛️ Chính sách Chính phủ trọng điểm
+
+*   **Quy hoạch hệ thống du lịch thời kỳ 2021-2030:** Hình thành các cụm du lịch quốc gia và đẩy mạnh ứng dụng du lịch thông minh (Smart Tourism).
+*   **Đề án phát triển kinh tế ban đêm:** Khuyến khích các mô hình vui chơi giải trí và mua sắm sau 22h tại các thành phố lớn để gia tăng doanh thu du lịch.
 
 ---
 

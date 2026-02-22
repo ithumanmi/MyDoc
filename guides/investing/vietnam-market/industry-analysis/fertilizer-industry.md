@@ -41,6 +41,21 @@ Xung đột tại Trung Đông gây ra "áp lực kép" lên ngành phân bón:
 2.  **Đứt gãy nguồn cung:** Trung Đông là khu vực xuất khẩu phân bón lớn, xung đột làm tăng nguy cơ gián đoạn nguồn cung toàn cầu.
 3.  **Chi phí Logistics:** Hoạt động quân sự của Houthi tại Biển Đỏ làm tăng giá cước vận tải, gián tiếp đẩy giá phân bón tăng cao.
 
+---
+
+## 📊 Thống kê & Dự báo 2025-2026
+
+*   **Sản lượng xuất khẩu:** 6 tháng đầu năm 2025 đạt **1,12 triệu tấn** (+23,9% YoY), giá trị đạt **449,6 triệu USD**.
+*   **Giá bán:** Giá phân Urea trung bình đạt **401,8 USD/ton** trong nửa đầu 2025. Dự báo giá sẽ duy trì ở mức cao do nhu cầu lớn từ Ấn Độ và các thị trường nông nghiệp lớn.
+*   **Thị trường xuất khẩu:** Campuchia là thị trường lớn nhất (chiếm ~34% sản lượng), tiếp theo là Hàn Quốc và Malaysia.
+
+---
+
+## 🏛️ Chính sách Chính phủ trọng điểm
+
+*   **Luật Thuế GTGT (VAT) sửa đổi:** Đề xuất áp thuế VAT 5% đối với mặt hàng phân bón. Đây là "cú hích" cực lớn cho các doanh nghiệp sản xuất nội địa (DPM, DCM, LAS) vì giúp họ được hoàn thuế đầu vào (ước tính giúp biên lợi nhuận tăng thêm 1,5 - 2%).
+*   **Chiến lược phát triển nông nghiệp bền vững:** Chính phủ khuyến khích chuyển dịch từ phân bón vô cơ sang phân bón hữu cơ, tạo dư địa tăng trưởng dài hạn cho các doanh nghiệp có mảng hữu cơ mạnh (như BFC).
+
 ### 🚀 Cơ hội đầu tư
 Dựa trên biến động giá và lợi thế tự chủ nguồn cung, các mã cổ phiếu tiềm năng bao gồm:
 **BFC, LAS, DDV, CSV, DGC.**

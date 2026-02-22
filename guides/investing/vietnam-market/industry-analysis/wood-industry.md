@@ -36,6 +36,19 @@ Tài liệu này phân tích chuỗi giá trị từ gỗ nguyên liệu đến 
 
 ---
 
+## 🔬 Đào sâu Phân tích: Đặc thù Chuỗi cung ứng & Thị trường
+
+### 1. Sự dịch chuyển từ Mỹ (China + 1)
+*   Ngành gỗ Việt Nam hưởng lợi lớn từ việc các nhà bán lẻ Mỹ dịch chuyển đơn hàng ra khỏi Trung Quốc. Việt Nam hiện là nước xuất khẩu đồ nội thất bằng gỗ lớn nhất vào thị trường Mỹ.
+
+### 2. Mô hình tích hợp Đá - Gỗ (Trường hợp PTB)
+*   Sự kết hợp giữa sản xuất đồ gỗ nội thất và đá thạch anh nhân tạo tạo ra một gói giải pháp hoàn thiện cho căn bếp/nhà tắm, giúp tăng giá trị đơn hàng và thắt chặt mối quan hệ với các chuỗi bán lẻ lớn như Costco, Home Depot.
+
+### 3. Tự chủ nguyên liệu & Chứng chỉ FSC
+*   Các doanh nghiệp có vùng nguyên liệu đạt chứng chỉ FSC (quản lý rừng bền vững) sẽ dễ dàng tiếp cận các thị trường khó tính như EU và được hưởng mức giá bán cao hơn.
+
+---
+
 ## 📚 Tài liệu liên quan
 *   [Ngành Logistics (Vận chuyển đồ gỗ)](./logistics-industry.md)
 *   [Ngành Cao Su (Nguồn gỗ cao su)](./rubber-industry.md)

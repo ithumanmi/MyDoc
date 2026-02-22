@@ -54,9 +54,24 @@ Nơi AI tiếp cận người dùng cuối và doanh nghiệp.
 
 ## 📈 Nhận Định Cơ Hội Tại Việt Nam
 
-1.  **Thượng nguồn (Upstream):** Việt Nam có lợi thế về khoáng sản (đất hiếm) và các doanh nghiệp hoá chất (DGC) phục vụ sản xuất linh kiện điện tử.
-2.  **Trung nguồn (Midstream):** Thu hút FDI từ các tập đoàn bán dẫn lớn (Amkor, Samsung) đang biến Việt Nam thành một mắt xích quan trọng trong khâu đóng gói và thử nghiệm chip.
-3.  **Hạ nguồn (Downstream):** FPT và Viettel đang dẫn đầu trong việc xuất khẩu phần mềm và cung cấp giải pháp Cloud/AI nội địa, giúp doanh nghiệp trong nước chuyển đổi số.
+1.  **Làn sóng hạ tầng:** Đầu tư vào các trung tâm dữ liệu (Data Center) dự kiến đạt công suất **524 MW** vào năm 2025 và hướng tới **950 MW** vào năm 2030.
+2.  **Bán dẫn:** Việt Nam đặt mục tiêu đưa ngành bán dẫn đạt quy mô **16,5 tỷ USD** vào năm 2030, tạo tiền đề cho các ứng dụng AI chuyên sâu.
+3.  **Hợp tác quốc tế:** Sự hiện diện của các ông lớn như NVIDIA, Meta đẩy nhanh tiến độ đào tạo nhân lực AI chất lượng cao tại Việt Nam.
+
+---
+
+## 📊 Thống kê & Dự báo 2025-2026
+
+*   **Tầm quan trọng:** AI được Chính phủ xác định là động lực chính để nâng cao sức cạnh tranh và năng suất lao động quốc gia năm 2026.
+*   **Thị trường:** Việt Nam nằm trong nhóm các quốc gia có tốc độ ứng dụng AI trong doanh nghiệp nhanh nhất khu vực ASEAN.
+
+---
+
+## 🏛️ Chính sách Chính phủ trọng điểm
+
+*   **Chiến lược quốc gia về nghiên cứu, phát triển và ứng dụng AI đến năm 2030:** Mục tiêu đưa Việt Nam vào top 4 khu vực ASEAN và top 50 thế giới về AI.
+*   **Nghị quyết 158/2024/QH15:** Ưu tiên nguồn vốn ngân sách cho phát triển hạ tầng số và nghiên cứu AI trong các ngành công nghiệp mũi nhọn.
+    *   [Trích dẫn: vanban.chinhphu.vn](https://vanban.chinhphu.vn/?docid=211924)
 
 ---
 
