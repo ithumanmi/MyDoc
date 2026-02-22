@@ -26,6 +26,10 @@ Huyền học (Esotericism) không chỉ là tâm linh hay bói toán. Dưới g
 *   **Bản chất:** Trạng thái Flow, Sự tối giản và Thuận theo tự nhiên.
 *   **Ứng dụng:** Quản trị bản thân, Lãnh đạo không gượng ép (Servant Leadership).
 
+### 5. [Các Mô hình Xã hội Cổ xưa (Ancient Social Models)](./ancient-social-models.md)
+*   **Bản chất:** Giao thức vận hành xã hội (Tam Cương, Ngũ Thường, Tam Tòng Tứ Đức).
+*   **Ứng dụng:** Xây dựng cấu trúc đội ngũ ổn định, Giao thức giao tiếp (API xã hội).
+
 ---
 
 ## 🗺️ [Bản đồ Ứng dụng Huyền học trong Kinh doanh](./business-mysticism-map.md)

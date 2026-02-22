@@ -30,6 +30,11 @@ Vật lý là môn khoa học nghiên cứu cách vũ trụ vận hành ở mứ
 *Thế giới vi mô và vĩ mô.*
 *   **[Nguyên lý Bất định & Tương đối](./quantum-relativity.md):** Không có gì là tuyệt đối. Quan sát thay đổi kết quả. (Heisenberg, Frame of Reference).
 *   **Khối lượng tới hạn (Critical Mass):** Điểm bùng phát hạt nhân.
+
+---
+
+## ⚛️ Case Study Vật lý Thực tế
+*   [Phân tích Vật lý về sự Trì trệ và Tái sinh của Tập đoàn Tech Corp](../../case-studies/physics-analysis-corporate-stagnation.md)
 *   **[Ứng dụng Thực chiến](./quantum-relativity.md#🛠️-ứng-dụng-thực-chiến-life-applications):** Reframing hạnh phúc, Accountability Partner (Observer Effect).
 
 ---

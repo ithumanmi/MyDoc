@@ -33,6 +33,11 @@ Tư duy kỹ thuật giúp xây dựng những hệ thống bền vững, chịu
 
 ---
 
+## ⚙️ Case Study Kỹ thuật Thực tế
+*   [Phân tích Kỹ thuật về Sự sụp đổ của Knight Capital Group](../../case-studies/engineering-analysis-deployment-failure.md)
+
+---
+
 ## 📚 Tài liệu tham khảo
 1.  **"The Design of Everyday Things"** - Don Norman.
 2.  **"Engineering Rules"** - JoAnne Yates.

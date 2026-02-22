@@ -49,6 +49,11 @@ Module này không dạy bạn giải tích phức tạp để đi thi. Nó cung
 
 ---
 
+## 📊 Case Study Toán học Thực tế
+*   [Phân tích Toán học về một chiến dịch Marketing thất bại](../../case-studies/mathematical-analysis-business-case.md)
+
+---
+
 ## 📚 Tài liệu tham khảo
 1.  **"How Not to Be Wrong: The Power of Mathematical Thinking"** - Jordan Ellenberg.
 2.  **"The Drunkard's Walk: How Randomness Rules Our Lives"** - Leonard Mlodinow.

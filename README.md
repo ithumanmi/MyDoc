@@ -127,6 +127,13 @@ Hiểu cấu trúc để navigate hiệu quả:
 ## 💡 Case Studies (Bài học thực tế)
 *   🇻🇳 **[Vietnam Success Stories](case-studies/vietnam-success-stories.md):** Nguyễn Thành Trung (Axie), Hiếu PC...
 *   🌏 **[Global Tech Leaders](case-studies/global-tech-leaders.md):** Elon Musk, Linus Torvalds...
+*   📉 **[Startup Failure (Perspective)](case-studies/startup-failure-ancient-models.md):** Phân tích thất bại dưới lăng kính Mô hình Xã hội Cổ xưa.
+*   📊 **[Marketing Failure (Math)](case-studies/mathematical-analysis-business-case.md):** Phân tích thất bại bằng Xác suất, Công thức Kelly và Lý thuyết Trò chơi.
+*   ⚛️ **[Corporate Stagnation (Physics)](case-studies/physics-analysis-corporate-stagnation.md):** Phân tích sự trì trệ của tập đoàn bằng Entropy, Năng lượng kích hoạt và Quán tính.
+*   🌿 **[Retail Ecosystem (Biology)](case-studies/biology-analysis-corporate-ecosystem.md):** Phân tích sự sinh tồn và tuyệt chủng của doanh nghiệp bằng Chọn lọc tự nhiên và Hiệu ứng Nữ hoàng Đỏ.
+*   🧪 **[Viral Growth (Chemistry)](case-studies/chemistry-analysis-product-launch.md):** Phân tích sự bùng nổ và bão hòa của sản phẩm bằng Chất xúc tác, Phản ứng dây chuyền và Nguyên lý Le Chatelier.
+*   📜 **[The Fall of Nokia (History)](case-studies/history-analysis-nokia-fall.md):** Phân tích sự sụp đổ của đế chế di động bằng Path Dependence, Hiệu ứng Lindy và Chu kỳ công nghệ.
+*   ⚙️ **[Knight Capital Group (Engineering)](case-studies/engineering-analysis-deployment-failure.md):** Phân tích sự sụp đổ trị giá 440 triệu USD bằng Biên an toàn, Dự phòng và Nợ kỹ thuật.
 
 ---
 

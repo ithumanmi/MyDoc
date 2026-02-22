@@ -30,6 +30,11 @@ Hóa học cung cấp các mô hình tư duy về sự chuyển đổi, điểm 
 *Thích nghi với áp lực.*
 *   **[Nguyên lý Le Chatelier](./le-chatelier.md):** Hệ thống sẽ tự điều chỉnh để chống lại sự thay đổi áp đặt lên nó. (Thay đổi giá, Thay đổi luật chơi).
 *   **Chuyển pha (Phase Transitions):** Từ Lượng sang Chất (Nước sôi ở 100 độ).
+
+---
+
+## 🧪 Case Study Hóa học Thực tế
+*   [Phân tích Hóa học về Sự bùng nổ và Bão hòa của Ứng dụng "Social-X"](../../case-studies/chemistry-analysis-product-launch.md)
 *   **[Ứng dụng Thực chiến](./le-chatelier.md#🛠️-ứng-dụng-thực-chiến-life-applications):** Dopamine Detox, Product-Market Fit, Tăng nồng độ may mắn.
 
 ---

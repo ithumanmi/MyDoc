@@ -33,6 +33,11 @@ Học lịch sử không phải để nhớ ngày tháng năm, mà để nhận 
 
 ---
 
+## 📜 Case Study Lịch sử Thực tế
+*   [Phân tích Lịch sử về Sự thống trị và Sụp đổ của "Đế chế" Nokia](../../case-studies/history-analysis-nokia-fall.md)
+
+---
+
 ## 📚 Tài liệu tham khảo
 1.  **"The Lessons of History"** - Will & Ariel Durant.
 2.  **"Sapiens"** - Yuval Noah Harari.
