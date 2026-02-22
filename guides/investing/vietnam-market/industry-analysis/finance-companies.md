@@ -60,14 +60,19 @@ Hiện nay tại Việt Nam có **16 công ty tài chính** được Ngân hàng
 ## 📊 Thống kê & Dự báo 2025-2026
 
 *   **Tỷ trọng thị trường:** Các công ty tài chính chỉ chiếm **12,4%** thị phần vay tiêu dùng nhưng phục vụ tới **60%** lao động phổ thông.
-*   **Tăng trưởng:** Dự báo nhu cầu vay tiêu dùng hồi phục mạnh trong năm 2026 khi thu nhập khả dụng tăng lên sau giai đoạn thắt chặt.
+*   **Hồi phục:** Dự báo nhu cầu vay tiêu dùng tăng trưởng **15-20%** trong năm 2026 khi thu nhập khả dụng của tầng lớp lao động phổ thông hồi phục.
+*   **Nợ xấu:** Kỳ vọng tỷ lệ nợ xấu giảm từ mức đỉnh lịch sử (2023-2024) nhờ các chính sách khoanh nợ và thu hồi nợ chuyên nghiệp hơn.
 
 ---
 
 ## 🏛️ Chính sách Chính phủ trọng điểm
 
-*   **Luật Các tổ chức tín dụng 2024 (Hiệu lực từ 01/08/2024):** Quy định chặt chẽ hơn về trần lãi suất và quy trình thu hồi nợ, nhằm bảo vệ người đi vay và minh bạch hóa thị trường tài chính tiêu dùng.
-*   **Đề án phát triển thanh toán không dùng tiền mặt:** Thúc đẩy các công ty tài chính tích hợp ví điện tử và giải pháp "Mua trước trả sau" (BNPL).
+*   **Luật Các tổ chức tín dụng 2024 (Số 32/2024/QH15):** Quy định chặt chẽ về tỷ lệ sở hữu cổ phần, giới hạn cấp tín dụng và đặc biệt là quy trình thu hồi nợ minh bạch; cấm các hành vi đòi nợ mang tính khủng bố.
+    *   [Trích dẫn: chinhphu.vn](https://chinhphu.vn/?classid=1&docid=209801)
+*   **Thông tư 12/2024/TT-NHNN:** Quy định về việc cho vay bằng phương thức điện tử, giúp giảm chi phí vận hành và tăng khả năng tiếp cận tín dụng chính thống cho vùng sâu vùng xa.
+    *   [Trích dẫn: sbv.gov.vn](https://sbv.gov.vn/webcenter/portal/vi/menu/trangchu/vbqppl/chitietvb?dDocName=SBV654123)
+*   **Chiến lược tài chính toàn diện quốc gia đến năm 2025 (Quyết định 149/QĐ-TTg):** Mục tiêu ít nhất 80% người trưởng thành có tài khoản giao dịch và tiếp cận được các dịch vụ tài chính cơ bản.
+    *   [Trích dẫn: vanban.chinhphu.vn](https://vanban.chinhphu.vn/default.aspx?docid=199042)
 
 ---
 

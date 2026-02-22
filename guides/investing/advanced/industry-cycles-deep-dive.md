@@ -49,12 +49,38 @@ Tại thị trường Việt Nam, các ngành nghề thường vận động the
 
 ## 📊 Bảng Tóm Tắt Chiến Thuật Giao Dịch
 
-| Loại Chu Kỳ | Phương Pháp Định Giá Ưu Tiên | Thời Điểm Mua | Thời Điểm Bán |
-| :--- | :--- | :--- | :--- |
-| **Hàng Hóa** | P/B, EV/EBITDA | Khi P/E cao vọt (Lợi nhuận đáy) | Khi P/E thấp kỷ lục (Lợi nhuận đỉnh) |
-| **Tài Chính** | P/B (Bank), P/E (Chứng) | Khi lãi suất bắt đầu giảm | Khi lãi suất có dấu hiệu đạt đỉnh |
-| **Xuất Khẩu** | P/E, Giá trị đơn hàng (Backlog) | Trước các kỳ lễ hội lớn 3-6 tháng | Khi tồn kho tại thị trường đích tăng cao |
-| **Phòng Thủ** | P/E, Tỷ suất cổ tức (Dividend Yield) | Bất cứ khi nào định giá hợp lý | Khi định giá quá ảo so với tăng trưởng |
+| Loại Chu Kỳ | Nhóm ngành tiêu biểu | Phương Pháp Định Giá | Thời Điểm Mua | Thời Điểm Bán |
+| :--- | :--- | :--- | :--- | :--- |
+| **Hàng Hóa** | Thép, Dầu khí, Phân bón | P/B, EV/EBITDA | Khi P/E cao vọt (Lợi nhuận đáy) | Khi P/E thấp (Lợi nhuận đỉnh) |
+| **Tài Chính** | Bank, Chứng, BĐS | P/B (Bank), P/E (Chứng) | Lãi suất bắt đầu giảm | Lãi suất có dấu hiệu đạt đỉnh |
+| **Xuất Khẩu** | Thủy sản, Dệt may, Gỗ | P/E, Backlog đơn hàng | Trước kỳ lễ hội 3-6 tháng | Tồn kho tại Mỹ/EU tăng cao |
+| **Phòng Thủ** | Sữa, Điện, Nước, Dược | P/E, Dividend Yield | Định giá hợp lý (P/E < trung bình) | Định giá quá cao so với tăng trưởng |
+
+---
+
+## 🔬 Đào sâu: Mối tương quan Lãi suất và Ngành nghề
+
+Lãi suất là "trọng lực" của thị trường tài chính. Khi lãi suất thay đổi, dòng tiền sẽ luân chuyển giữa các nhóm ngành theo quy luật sau:
+
+1.  **Giai đoạn Lãi suất giảm (Nới lỏng):**
+    *   **Hưởng lợi nhất:** Chứng khoán (thanh khoản tăng), Bất động sản (chi phí vay giảm), Ngân hàng (tín dụng tăng trưởng).
+    *   **Chiến thuật:** Tấn công mạnh vào các nhóm nhạy cảm với tiền tệ.
+
+2.  **Giai đoạn Lãi suất thấp & Ổn định:**
+    *   **Hưởng lợi nhất:** Sản xuất, Xây dựng, Bán lẻ. Đây là lúc doanh nghiệp mạnh dạn vay vốn mở rộng quy mô.
+    *   **Chiến thuật:** Chọn các cổ phiếu tăng trưởng (Growth Stocks).
+
+3.  **Giai đoạn Lãi suất tăng (Thắt chặt):**
+    *   **Hưởng lợi nhất:** Bảo hiểm (thu nhập đầu tư tăng), các doanh nghiệp có lượng tiền mặt khổng lồ và không có nợ vay.
+    *   **Chiến thuật:** Chuyển sang phòng thủ, ưu tiên cổ tức tiền mặt.
+
+---
+
+## 📈 Chu kỳ Kinh tế Việt Nam vs. Thế giới
+
+Việt Nam có một độ trễ nhất định so với chu kỳ kinh tế Mỹ (thường từ 3-6 tháng).
+*   **Chỉ số dẫn dắt:** Khi FED ngừng tăng lãi suất, đó là tín hiệu sớm cho thị trường chứng khoán Việt Nam.
+*   **Chỉ số thực tế:** Khi PMI Mỹ tăng, các đơn hàng dệt may và thủy sản Việt Nam sẽ bùng nổ sau đó 1 quý.
 
 ---
 

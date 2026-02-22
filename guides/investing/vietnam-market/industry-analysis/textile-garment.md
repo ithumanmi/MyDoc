@@ -47,15 +47,20 @@ Giai đoạn sản xuất may mặc và phân phối. Việt Nam hiện nằm tr
 
 ## 📊 Thống kê & Dự báo 2025-2026
 
-*   **Xuất khẩu:** Dệt may đóng góp tỷ trọng lớn (~13.5%) vào xuất khẩu sang Mỹ. Kim ngạch xuất khẩu sang Mỹ năm 2025 ước đạt **16,1 tỷ USD**.
-*   **Vị thế:** Việt Nam duy trì top 3 nước xuất khẩu may mặc thế giới, với sự phục hồi mạnh mẽ của các đơn hàng FOB từ quý IV/2025.
+*   **Xuất khẩu:** Dệt may đóng góp tỷ trọng lớn (~13.5%) vào xuất khẩu sang Mỹ. Kim ngạch xuất khẩu toàn ngành năm 2025 ước đạt **44 tỷ USD** (+10% YoY). Riêng thị trường Mỹ chiếm khoảng **16 - 17 tỷ USD**.
+*   **Vị thế:** Việt Nam duy trì top 3 nước xuất khẩu may mặc thế giới, với sự phục hồi mạnh mẽ của các đơn hàng FOB từ quý IV/2025 nhờ sự chuyển dịch đơn hàng từ Bangladesh sang Việt Nam do bất ổn chính trị.
+*   **Chỉ số công nghiệp:** Chỉ số sản xuất ngành dệt may (IIP) dự báo tăng trưởng **8-10%** trong năm 2026.
 
 ---
 
 ## 🏛️ Chính sách Chính phủ trọng điểm
 
-*   **Chiến lược phát triển ngành Dệt may & Da giày đến 2030:** Tập trung chuyển dịch từ gia công sang thiết kế mẫu mã (ODM) và sở hữu thương hiệu riêng (OBM).
-*   **Hỗ trợ tài chính cho chuyển đổi xanh:** Chính phủ khuyến khích các khoản vay ưu đãi cho doanh nghiệp đầu tư hạ tầng xử lý nước thải và điện mặt trời mái nhà tại các xưởng may.
+*   **Chiến lược phát triển ngành Dệt may và Da giày Việt Nam đến năm 2030, tầm nhìn đến năm 2035 (Quyết định 1643/QĐ-TTg):** Tập trung phát triển các trung tâm sản xuất nguyên phụ liệu lớn để giảm phụ thuộc nhập khẩu; mục tiêu chuyển dịch mạnh từ mô hình CMT sang ODM/OBM.
+    *   [Trích dẫn: chinhphu.vn](https://chinhphu.vn/default.aspx?pageid=27160&docid=207185)
+*   **Quy hoạch hệ thống cụm công nghiệp chuyên dụng:** Chính phủ khuyến khích xây dựng các cụm công nghiệp dệt may tập trung có hệ thống xử lý nước thải đạt chuẩn quốc tế để tận dụng ưu đãi từ các hiệp định tự do thương mại (FTAs) như CPTPP và EVFTA.
+    *   [Trích dẫn: baochinhphu.vn](https://baochinhphu.vn/phat-trien-nganh-det-may-da-giay-theo-huong-ben-vung-va-kinh-te-tuan-hoan-102240105150422176.htm)
+*   **Lộ trình thực hiện tiêu chuẩn xanh (ESG):** Bộ Công Thương hướng dẫn doanh nghiệp thực hiện các quy chuẩn về năng lượng tái tạo và chứng chỉ xanh để đáp ứng quy định CBAM của Liên minh Châu Âu từ năm 2026.
+    *   [Trích dẫn: moit.gov.vn](https://moit.gov.vn/tin-tuc/phat-trien-ben-vung/nganh-det-may-viet-nam-truoc-yeu-cau-xanh-hoa-de-giu-vung-thi-truong-xuat-khau.html)
 
 ---
 

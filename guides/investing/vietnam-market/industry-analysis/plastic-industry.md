@@ -61,15 +61,20 @@ Các doanh nghiệp chế biến nhựa nguyên sinh thành sản phẩm cuối 
 
 ## 📊 Thống kê & Dự báo 2025-2026
 
-*   **Tăng trưởng xuất khẩu:** Kim ngạch xuất khẩu nhựa dự báo tăng trưởng ổn định **8-10%/năm** nhờ các hiệp định EVFTA và CPTPP.
-*   **Điểm nhấn:** TLG duy trì thị phần áp đảo **60%** trong nước, trong khi BMP tiếp tục hưởng lợi từ sóng xây dựng hạ tầng dân dụng năm 2026.
+*   **Tăng trưởng xuất khẩu:** Kim ngạch xuất khẩu sản phẩm nhựa dự báo đạt trên **6 tỷ USD** năm 2025. Tốc độ tăng trưởng ổn định **8-10%/năm** nhờ lợi thế từ các hiệp định EVFTA và CPTPP.
+*   **Điểm nhấn:** TLG duy trì thị phần áp đảo **60%** trong nước; BMP và NTP hưởng lợi từ việc giá nguyên liệu PVC/PE duy trì ở mức thấp trong chu kỳ 2025-2026.
+*   **Quy mô:** Ngành nhựa Việt Nam có khoảng 3.300 doanh nghiệp, trong đó 90% là doanh nghiệp vừa và nhỏ, tạo dư địa cho các hoạt động M&A từ các tập đoàn lớn (Thái Lan, Hàn Quốc).
 
 ---
 
 ## 🏛️ Chính sách Chính phủ trọng điểm
 
-*   **Quy chuẩn kỹ thuật quốc gia về bao bì nhựa tái chế:** Chính phủ thúc đẩy mô hình kinh tế tuần hoàn, ưu tiên các doanh nghiệp có năng lực sản xuất nhựa sinh học và tái chế (như AAA).
-*   **Ưu đãi thuế cho công nghệ hỗ trợ:** Ngành nhựa kỹ thuật phục vụ điện tử và ô tô được đưa vào danh mục ưu tiên phát triển.
+*   **Quyết định phê duyệt Đề án phát triển kinh tế tuần hoàn tại Việt Nam (Quyết định 687/QĐ-TTg):** Thúc đẩy việc tái chế nhựa; lộ trình cấm túi ni lông khó phân hủy tại các siêu thị và trung tâm thương mại từ năm 2025, tạo cơ hội cho nhóm nhựa tự hủy sinh học (như AAA).
+    *   [Trích dẫn: chinhphu.vn](https://chinhphu.vn/default.aspx?pageid=27160&docid=206013)
+*   **Thông tư 02/2022/TT-BTNMT quy định chi tiết Luật Bảo vệ môi trường:** Áp dụng trách nhiệm mở rộng của nhà sản xuất (EPR), buộc các doanh nghiệp nhựa phải đóng phí tái chế cho bao bì đưa ra thị trường từ năm 2024.
+    *   [Trích dẫn: thuvienphapluat.vn](https://thuvienphapluat.vn/van-ban/Tai-nguyen-Moi-truong/Thong-tu-02-2022-TT-BTNMT-huong-dan-Luat-Bao-ve-moi-truong-500207.aspx)
+*   **Chính sách ưu đãi công nghiệp hỗ trợ (Nghị định 111/2015/NĐ-CP & sửa đổi):** Doanh nghiệp sản xuất linh kiện nhựa kỹ thuật cho ngành điện tử, ô tô được hưởng thuế suất thu nhập doanh nghiệp ưu đãi 10% trong 15 năm.
+    *   [Trích dẫn: vanban.chinhphu.vn](https://vanban.chinhphu.vn/default.aspx?docid=181677)
 
 ---
 

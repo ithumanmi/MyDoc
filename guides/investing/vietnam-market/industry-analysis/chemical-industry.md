@@ -45,15 +45,19 @@ Sản phẩm hoá chất phục vụ đa dạng các ngành công nghiệp hạ 
 
 ## 📊 Thống kê & Dự báo 2025-2026
 
-*   **Tăng trưởng ngành:** Ngành hóa chất dự kiến duy trì đà tăng trưởng ổn định nhờ nhu cầu từ công nghiệp điện tử và pin lithium toàn cầu.
-*   **Quy mô:** Việt Nam đang hình thành các cụm công nghiệp hóa chất tập trung để tối ưu hóa chuỗi cung ứng nội địa.
+*   **Tăng trưởng ngành:** Dự báo giá trị sản xuất công nghiệp ngành hóa chất tăng trưởng bình quân **10 - 12%/năm** giai đoạn 2025-2030.
+*   **Điểm nhấn công nghệ:** Phốt pho vàng (PPV) dự báo đạt mức tăng trưởng nhu cầu kép (CAGR) **15%** nhờ sự bùng nổ của pin LFP (Lithium Iron Phosphate) và các ứng dụng trong AI/bán dẫn.
 
 ---
 
 ## 🏛️ Chính sách Chính phủ trọng điểm
 
-*   **Chiến lược phát triển ngành công nghiệp hóa chất đến 2030 (Công văn 4352/VPCP-CN):** Tập trung vào việc nâng cao giá trị gia tăng, giảm phụ thuộc vào nhập khẩu hóa chất cơ bản và đẩy mạnh hóa dầu.
-*   **Ưu đãi thuế cho công nghệ cao:** Các dự án sản xuất nguyên liệu cho bán dẫn và pin xe điện được hưởng mức ưu đãi thuế cao nhất.
+*   **Chiến lược phát triển ngành công nghiệp hóa chất Việt Nam đến năm 2030 (Quyết định 726/QĐ-TTg):** Mục tiêu đưa hóa chất trở thành ngành công nghiệp nền tảng, hiện đại; hình thành 2 tổ hợp công nghiệp hóa chất tập trung tại Nghi Sơn (Thanh Hóa) và Vũng Tàu.
+    *   [Trích dẫn: chinhphu.vn](https://chinhphu.vn/default.aspx?pageid=27160&docid=205934)
+*   **Quyết định 1262/QĐ-TTg về Kế hoạch thực hiện Chiến lược hóa chất:** Ưu tiên thu hút FDI vào các mảng hóa chất chuyên dụng, hóa chất tinh khiết phục vụ điện tử và y tế; hỗ trợ doanh nghiệp nội địa làm chủ công nghệ sản xuất từ nguồn quặng trong nước.
+    *   [Trích dẫn: vanban.chinhphu.vn](https://vanban.chinhphu.vn/default.aspx?docid=206263)
+*   **Chính sách ưu đãi thuế cho công nghệ cao:** Các dự án sản xuất nguyên liệu đầu vào cho công nghiệp bán dẫn (như PPV tinh khiết) được áp dụng mức thuế suất ưu đãi 10% trong 15 năm.
+    *   [Trích dẫn: xaydungchinhsach.chinhphu.vn](https://xaydungchinhsach.chinhphu.vn/chinh-phu-uu-tien-phat-trien-cong-nghiep-ban-dan-va-hoa-chat-119240812093514678.htm)
 
 ### 2. CSV (Hoá chất Cơ bản Miền Nam)
 *   **Thị phần:** Nắm giữ thị phần lớn trong nhiều mảng hoá chất cơ bản (Axit Sunfuric 50%, HCl 50%, Silicat 30%, Al(OH)3 30%, Xút lỏng 25%).

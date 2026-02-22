@@ -43,7 +43,7 @@ Trước khi chọn cổ phiếu, bạn cần biết mình là ai:
 
 ---
 
-## 🛠️ 4. Nguyên tắc Quản trị Danh mục
+## 🏗️ 7. Nguyên tắc Quản trị Danh mục
 
 1.  **Đa dạng hóa vừa đủ:** Một danh mục cá nhân hiệu quả thường có từ **3 đến 5 mã cổ phiếu** thuộc các ngành khác nhau. Quá nhiều mã sẽ làm loãng lợi nhuận và khó theo dõi.
 2.  **Tái cân bằng (Rebalancing):** Định kỳ (hàng quý hoặc hàng năm), hãy xem xét lại tỷ trọng. Nếu một cổ phiếu tăng quá mạnh và chiếm 50% danh mục, hãy chốt lời một phần để đưa về tỷ trọng mục tiêu.

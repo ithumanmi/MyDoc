@@ -69,8 +69,12 @@ Nhóm trực tiếp thực hiện các chuyến bay, chịu ảnh hưởng mạn
 
 ## 🏛️ Chính sách Chính phủ trọng điểm
 
-*   **Quyết định phê duyệt quy hoạch cảng hàng không quốc gia đến 2030:** Tập trung nguồn lực hoàn thiện giai đoạn 1 sân bay Long Thành (công suất 25 triệu khách/năm) và mở rộng nhà ga T3 Tân Sơn Nhất.
-*   **Chính sách miễn thị thực (Visa):** Việc mở rộng danh sách các quốc gia miễn visa là "đòn bẩy" trực tiếp giúp tăng tỷ lệ lấp đầy trên các đường bay quốc tế.
+*   **Quy hoạch hệ thống cảng hàng không, sân bay toàn quốc (Quyết định 648/QĐ-TTg):** Xác định sân bay Long Thành là cảng hàng không quốc tế cửa ngõ quốc gia và là trung tâm trung chuyển hàng không quốc tế của khu vực.
+    *   [Trích dẫn: chinhphu.vn](https://chinhphu.vn/default.aspx?pageid=27160&docid=208034)
+*   **Chính sách huy động vốn xã hội hóa hạ tầng sân bay:** Chính phủ khuyến khích mô hình PPP để đầu tư vào các sân bay như Phan Thiết, Chu Lai, tạo dư địa tăng trưởng cho các doanh nghiệp xây lắp và vận hành hạ tầng.
+    *   [Trích dẫn: xaydungchinhsach.chinhphu.vn](https://xaydungchinhsach.chinhphu.vn/chinh-phu-uu-tien-thu-hut-dau-tu-xa-hoi-hoa-cang-hang-khong-119241021153214567.htm)
+*   **Nghị quyết đẩy nhanh tiến độ sân bay Long Thành:** Mục tiêu hoàn thành các hạng mục chính để sẵn sàng khai thác kỹ thuật vào cuối năm 2025, vận hành thương mại năm 2026.
+    *   [Trích dẫn: baochinhphu.vn](https://baochinhphu.vn/don-doc-thi-cong-xuyen-tet-san-bay-long-thanh-quyet-tam-ve-dich-2025-102240212093514678.htm)
 
 ---
 

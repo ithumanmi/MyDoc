@@ -44,15 +44,20 @@ Hầu hết các công ty khoáng sản vận hành theo **chuỗi khép kín**:
 
 ## 📊 Thống kê & Dự báo 2025-2026
 
-*   **Vị thế:** Việt Nam xếp hạng 2 thế giới về trữ lượng đất hiếm, là điểm đến thay thế quan trọng cho chuỗi cung ứng công nghệ cao toàn cầu năm 2026.
-*   **Doanh thu:** LNST của MSR và KSV dự báo hồi phục mạnh khi nhu cầu vật liệu công nghiệp phục hồi.
+*   **Vị thế toàn cầu:** Việt Nam xếp hạng **thứ 2 thế giới** về trữ lượng Đất hiếm (khoảng 22 triệu tấn) và nằm trong Top 3 về trữ lượng Wolfram, Bauxit.
+*   **Tiềm năng tăng trưởng:** Doanh thu xuất khẩu khoáng sản chiến lược dự báo tăng trưởng **15-20%** trong năm 2026 do nhu cầu bùng nổ từ các ngành công nghiệp xanh (pin xe điện, tuabin gió) và bán dẫn.
+*   **Giá hàng hóa:** Wolfram và Đồng dự báo duy trì ở mức cao lịch sử do nguồn cung toàn cầu thắt chặt và sự đứt gãy chuỗi cung ứng tại một số khu vực xung đột.
 
 ---
 
 ## 🏛️ Chính sách Chính phủ trọng điểm
 
-*   **Luật Địa chất và Khoáng sản (Dự thảo 2024):** Thay thế Luật Khoáng sản 2010, tập trung vào đấu giá quyền khai thác và phân cấp quản lý để tránh thất thoát tài nguyên.
-*   **Quy hoạch thăm dò, khai thác khoáng sản chiến lược đến 2030:** Hạn chế xuất khẩu quặng thô, ưu tiên chế biến sâu để gia tăng giá trị quốc gia.
+*   **Luật Địa chất và Khoáng sản 2024 (Dự kiến thông qua cuối 2024, hiệu lực 2025):** Thay thế Luật Khoáng sản 2010; chuyển từ cơ chế "xin - cho" sang đấu giá quyền khai thác minh bạch; ưu tiên các dự án có công nghệ chế biến sâu tại chỗ.
+    *   [Trích dẫn: chinhphu.vn](https://chinhphu.vn/lay-y-kien-nhan-dan-ve-du-thao-luat-dia-chat-va-khoang-san-102240315093514678.htm)
+*   **Quyết định số 866/QĐ-TTg phê duyệt Quy hoạch khoáng sản đến 2030:** Quy hoạch chi tiết lộ trình thăm dò và khai thác đất hiếm, bô-xít, titan, đồng, chì, kẽm... Mục tiêu hình thành các tổ hợp công nghiệp chế biến sâu quy mô lớn tại Tây Nguyên (bô-xít) và miền Bắc (đất hiếm).
+    *   [Trích dẫn: vanban.chinhphu.vn](https://vanban.chinhphu.vn/default.aspx?docid=208155)
+*   **Chính sách hạn chế xuất khẩu quặng thô:** Bộ Công Thương tiếp tục siết chặt hạn ngạch xuất khẩu tinh quặng để đảm bảo nguồn nguyên liệu cho sản xuất công nghiệp trong nước theo Nghị quyết số 10-NQ/TW của Bộ Chính trị.
+    *   [Trích dẫn: baochinhphu.vn](https://baochinhphu.vn/uu-tien-che-bien-sau-khoang-san-chien-luoc-102240721150422176.htm)
 
 ---
 

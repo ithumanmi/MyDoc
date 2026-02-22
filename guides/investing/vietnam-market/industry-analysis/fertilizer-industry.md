@@ -53,8 +53,10 @@ Xung đột tại Trung Đông gây ra "áp lực kép" lên ngành phân bón:
 
 ## 🏛️ Chính sách Chính phủ trọng điểm
 
-*   **Luật Thuế GTGT (VAT) sửa đổi:** Đề xuất áp thuế VAT 5% đối với mặt hàng phân bón. Đây là "cú hích" cực lớn cho các doanh nghiệp sản xuất nội địa (DPM, DCM, LAS) vì giúp họ được hoàn thuế đầu vào (ước tính giúp biên lợi nhuận tăng thêm 1,5 - 2%).
-*   **Chiến lược phát triển nông nghiệp bền vững:** Chính phủ khuyến khích chuyển dịch từ phân bón vô cơ sang phân bón hữu cơ, tạo dư địa tăng trưởng dài hạn cho các doanh nghiệp có mảng hữu cơ mạnh (như BFC).
+*   **Luật Thuế Giá trị gia tăng (VAT) sửa đổi (Thông qua kỳ họp thứ 8, Quốc hội khóa XV):** Chính thức áp dụng mức thuế VAT 5% đối với phân bón từ năm 2025. Đây là thay đổi mang tính lịch sử, giúp doanh nghiệp nội địa được khấu trừ thuế đầu vào (ước tính khoảng 200-500 tỷ đồng/năm cho mỗi ông lớn như DPM, DCM), tăng sức cạnh tranh với hàng nhập khẩu.
+    *   [Trích dẫn: baochinhphu.vn](https://baochinhphu.vn/ap-thue-vat-5-phan-bon-loi-cho-ca-ba-nha-102241101150422176.htm)
+*   **Chiến lược phát triển công nghiệp hóa chất đến 2030 (Quyết định 1262/QĐ-TTg):** Tập trung hiện đại hóa các nhà máy phân bón than (Hà Bắc, Ninh Bình) và đẩy mạnh sản xuất phân bón công nghệ cao, phân bón hữu cơ vi sinh.
+    *   [Trích dẫn: vanban.chinhphu.vn](https://vanban.chinhphu.vn/default.aspx?docid=206263)
 
 ### 🚀 Cơ hội đầu tư
 Dựa trên biến động giá và lợi thế tự chủ nguồn cung, các mã cổ phiếu tiềm năng bao gồm:

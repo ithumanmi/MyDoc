@@ -54,15 +54,20 @@ Tài liệu này phân tích chuỗi giá trị ngành bán lẻ Việt Nam, t�
 
 ## 📊 Thống kê & Dự báo 2025-2026
 
-*   **Tăng trưởng chung:** Tổng mức bán lẻ hàng hóa và doanh thu dịch vụ tiêu dùng dự báo tăng trưởng ổn định **9-10%** trong năm 2026.
-*   **Xu hướng tiêu dùng:** 54% người tiêu dùng giữ nguyên ngân sách và 38% cắt giảm chi tiêu (số liệu 2025), buộc các nhà bán lẻ phải đẩy mạnh khuyến mãi và đa dạng hóa phân khúc giá rẻ.
+*   **Tăng trưởng chung:** Tổng mức bán lẻ hàng hóa và doanh thu dịch vụ tiêu dùng dự báo tăng trưởng ổn định **9,5 - 10,5%** trong năm 2026.
+*   **Thị phần hiện đại:** Tỷ lệ bán lẻ hiện đại (Modern Trade) dự kiến đạt **35-40%** tổng thị trường vào năm 2026 (so với ~25% năm 2022), tạo dư địa lớn cho các chuỗi như WinMart, Bách Hóa Xanh, Long Châu.
+*   **Xu hướng tiêu dùng:** 54% người tiêu dùng giữ nguyên ngân sách và 38% cắt giảm chi tiêu (số liệu 2025), buộc các nhà bán lẻ phải đẩy mạnh khuyến mãi và đa dạng hóa phân khúc giá thấp (Value-for-money).
 
 ---
 
 ## 🏛️ Chính sách Chính phủ trọng điểm
 
-*   **Đẩy mạnh kích cầu tiêu dùng nội địa:** Chính phủ duy trì các chương trình khuyến mại tập trung quốc gia và xem xét tiếp tục giảm thuế GTGT (VAT) để hỗ trợ sức mua.
-*   **Chiến lược phát triển thương mại trong nước đến 2030:** Ưu tiên hiện đại hóa hệ thống phân phối truyền thống và hỗ trợ doanh nghiệp Việt tham gia sâu vào chuỗi cung ứng quốc tế.
+*   **Luật Bảo vệ quyền lợi người tiêu dùng 2023 (Hiệu lực từ 01/07/2024):** Quy định chặt chẽ về trách nhiệm của các nền tảng thương mại điện tử và người bán hàng online, giúp minh bạch hóa thị trường và bảo vệ các doanh nghiệp bán lẻ chính thống.
+    *   [Trích dẫn: chinhphu.vn](https://chinhphu.vn/?classid=1&docid=208153)
+*   **Chiến lược phát triển thương mại trong nước giai đoạn đến năm 2030 (Quyết định 1163/QĐ-TTg):** Mục tiêu doanh thu thương mại điện tử chiếm 10-11% tổng mức bán lẻ; hỗ trợ doanh nghiệp Việt xây dựng chuỗi cung ứng bền vững.
+    *   [Trích dẫn: vanban.chinhphu.vn](https://vanban.chinhphu.vn/default.aspx?docid=203642)
+*   **Nghị quyết số 110/2023/QH15 về tiếp tục thực hiện chính sách giảm thuế GTGT:** Chính sách giảm 2% thuế VAT (từ 10% xuống 8%) cho nhiều nhóm mặt hàng tiêu dùng thường xuyên được gia hạn để kích cầu tiêu dùng nội địa.
+    *   [Trích dẫn: baochinhphu.vn](https://baochinhphu.vn/gia-han-giam-thue-vat-den-het-nam-2024-tiep-da-phuc-hoi-cho-ban-le-102240629150422176.htm)
 
 ---
 

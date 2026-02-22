@@ -62,15 +62,20 @@ Nơi tiếp cận trực tiếp với người tiêu dùng cuối cùng.
 
 ## 📊 Thống kê & Dự báo 2025-2026
 
-*   **Tăng trưởng xuất khẩu:** Xuất khẩu máy vi tính, sản phẩm điện tử và linh kiện (phần lớn qua kênh ICT) dự báo duy trì đà tăng trưởng hai con số.
-*   **Điểm nhấn:** Kim ngạch xuất khẩu sản phẩm công nghệ số năm 2025 ước đạt **172 tỷ USD**.
+*   **Quy mô thị trường:** Doanh thu bán lẻ hàng hóa ICT trong nước dự báo duy trì mức tăng trưởng **8-10%/năm** nhờ làn sóng nâng cấp thiết bị hỗ trợ AI và mạng 5G.
+*   **Xuất khẩu:** Kim ngạch xuất khẩu sản phẩm công nghệ số năm 2025 ước đạt **172 tỷ USD**, đóng góp quan trọng vào thặng dư thương mại quốc gia.
+*   **Điểm nhấn:** Xu hướng tiêu dùng dịch chuyển mạnh sang phân khúc trung - cao cấp; doanh số iPhone và máy tính đồ họa tăng trưởng nhanh hơn phân khúc giá rẻ.
 
 ---
 
 ## 🏛️ Chính sách Chính phủ trọng điểm
 
-*   **Nghị quyết 158/2024/QH15:** Tập trung phát triển thị trường tiêu dùng nội địa và hạ tầng số, hỗ trợ doanh nghiệp bán lẻ ICT chuyển đổi sang mô hình kinh doanh đa kênh (Omnichannel).
-*   **Chương trình chuyển đổi số quốc gia:** Kích cầu tiêu dùng các thiết bị đầu cuối hỗ trợ 5G và hạ tầng IoT trong dân cư.
+*   **Luật Giao dịch điện tử 2023 (Có hiệu lực từ 01/07/2024):** Tạo hành lang pháp lý đồng bộ cho việc mua bán, thanh toán trực tuyến, giúp các nhà bán lẻ ICT tối ưu quy trình bán hàng đa kênh (Omnichannel).
+    *   [Trích dẫn: chinhphu.vn](https://chinhphu.vn/?classid=1&docid=208151)
+*   **Chiến lược phát triển kinh tế số và xã hội số đến năm 2025 (Quyết định 411/QĐ-TTg):** Mục tiêu kinh tế số chiếm 20% GDP; kích cầu tiêu dùng smartphone hỗ trợ 4G/5G để phổ cập dịch vụ số.
+    *   [Trích dẫn: vanban.chinhphu.vn](https://vanban.chinhphu.vn/default.aspx?docid=205607)
+*   **Nghị quyết 158/2024/QH15:** Tập trung phát triển thị trường tiêu dùng nội địa, hỗ trợ doanh nghiệp tiếp cận nguồn vốn ưu đãi để đầu tư hạ tầng logistics phục vụ bán lẻ hiện đại.
+    *   [Trích dẫn: vanban.chinhphu.vn](https://vanban.chinhphu.vn/?docid=211924)
 
 ---
 

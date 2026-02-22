@@ -58,15 +58,20 @@ Phương thức hạch toán ảnh hưởng trực tiếp đến các chỉ số
 
 ## 📊 Thống kê & Dự báo 2025-2026
 
-*   **Tỷ lệ lấp đầy:** Miền Bắc đạt khoảng **86%**; các khu vực trọng điểm như Hà Nội, Bắc Ninh luôn ở mức >95%.
-*   **Giá thuê:** Dự báo tăng trưởng ổn định **4-5%/năm** nhờ nhu cầu lớn từ các tập đoàn công nghệ và bán dẫn.
+*   **Tỷ lệ lấp đầy:** Miền Bắc đạt khoảng **86%**; các khu vực trọng điểm như Hà Nội, Bắc Ninh luôn ở mức >95%. Tại miền Nam, tỷ lệ lấp đầy ổn định ở mức **92%**.
+*   **Giá thuê:** Dự báo tăng trưởng ổn định **4-5%/năm** nhờ nhu cầu lớn từ các tập đoàn công nghệ và bán dẫn. Giá thuê tại các tỉnh cấp 2 (như Bà Rịa - Vũng Tàu, Hải Dương) tăng trưởng nhanh hơn các tỉnh trung tâm.
+*   **Dòng vốn FDI:** Vốn FDI thực hiện năm 2025 ước đạt **25 tỷ USD**, trong đó >60% đổ vào ngành công nghiệp chế biến, chế tạo tại các KCN.
 
 ---
 
 ## 🏛️ Chính sách Chính phủ trọng điểm
 
-*   **Nghị định 35/2022/NĐ-CP & sửa đổi 2025:** Đơn giản hóa thủ tục thành lập KCN và khuyến khích mô hình **KCN sinh thái**, KCN chuyên ngành bán dẫn.
-*   **Phát triển hạ tầng đồng bộ:** Việc đẩy mạnh các dự án cao tốc Bắc-Nam và đường vành đai giúp "mở khóa" giá trị quỹ đất KCN tại các tỉnh cấp 2.
+*   **Nghị định 35/2022/NĐ-CP & Dự thảo sửa đổi 2024:** Quy định về quản lý khu công nghiệp và khu kinh tế, trong đó bãi bỏ thủ tục cấp Giấy chứng nhận đầu tư hạ tầng KCN đối với các dự án đã có trong quy hoạch, giúp rút ngắn thời gian chuẩn bị dự án từ 6-9 tháng.
+    *   [Trích dẫn: xaydungchinhsach.chinhphu.vn](https://xaydungchinhsach.chinhphu.vn/diem-moi-trong-quan-ly-khu-cong-nghiep-khu-kinh-te-119240530093514678.htm)
+*   **Quyết định số 227/QĐ-TTg về điều chỉnh chỉ tiêu sử dụng đất:** Chính phủ cấp thêm hạn mức đất công nghiệp cho các tỉnh có tỷ lệ lấp đầy cao và hạ tầng kết nối tốt, tạo dư địa cho các doanh nghiệp như IDC, BCM, KBC mở rộng quỹ đất.
+    *   [Trích dẫn: chinhphu.vn](https://chinhphu.vn/?classid=2&docid=209567)
+*   **Chiến lược phát triển KCN sinh thái:** Việt Nam hợp tác với UNIDO để chuyển đổi các KCN truyền thống sang mô hình sinh thái, nhằm đáp ứng tiêu chuẩn xanh (ESG) của các nhà đầu tư Âu - Mỹ.
+    *   [Trích dẫn: baochinhphu.vn](https://baochinhphu.vn/phat-trien-khu-cong-nghiep-sinh-thai-huong-toi-muc-tieu-net-zero-102240915150422176.htm)
 
 ---
 

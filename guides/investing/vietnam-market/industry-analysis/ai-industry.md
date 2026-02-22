@@ -63,13 +63,16 @@ Nơi AI tiếp cận người dùng cuối và doanh nghiệp.
 ## 📊 Thống kê & Dự báo 2025-2026
 
 *   **Tầm quan trọng:** AI được Chính phủ xác định là động lực chính để nâng cao sức cạnh tranh và năng suất lao động quốc gia năm 2026.
-*   **Thị trường:** Việt Nam nằm trong nhóm các quốc gia có tốc độ ứng dụng AI trong doanh nghiệp nhanh nhất khu vực ASEAN.
+*   **Thị trường:** Việt Nam nằm trong nhóm các quốc gia có tốc độ ứng dụng AI trong doanh nghiệp nhanh nhất khu vực ASEAN. Doanh thu dịch vụ phần mềm liên quan đến AI dự kiến tăng trưởng **25-30%** mỗi năm.
 
 ---
 
 ## 🏛️ Chính sách Chính phủ trọng điểm
 
-*   **Chiến lược quốc gia về nghiên cứu, phát triển và ứng dụng AI đến năm 2030:** Mục tiêu đưa Việt Nam vào top 4 khu vực ASEAN và top 50 thế giới về AI.
+*   **Chiến lược quốc gia về nghiên cứu, phát triển và ứng dụng AI đến năm 2030 (Quyết định 127/QĐ-TTg):** Mục tiêu đưa Việt Nam vào top 4 khu vực ASEAN và top 50 thế giới về AI; hình thành 3 trung tâm đổi mới sáng tạo quốc gia về AI.
+    *   [Trích dẫn: chinhphu.vn](https://chinhphu.vn/default.aspx?pageid=27160&docid=202359)
+*   **Luật Công nghiệp Công nghệ số (Dự thảo 2024-2025):** Thiết lập khung pháp lý thử nghiệm (Sandbox) cho các sản phẩm AI, ưu tiên miễn thuế thu nhập doanh nghiệp cho các dự án nghiên cứu AI tại Khu công nghệ cao.
+    *   [Trích dẫn: mpc.gov.vn](https://mic.gov.vn/lay-y-kien-nhan-dan-ve-du-thao-luat-cong-nghiep-cong-nghe-so-197240702170356554.htm)
 *   **Nghị quyết 158/2024/QH15:** Ưu tiên nguồn vốn ngân sách cho phát triển hạ tầng số và nghiên cứu AI trong các ngành công nghiệp mũi nhọn.
     *   [Trích dẫn: vanban.chinhphu.vn](https://vanban.chinhphu.vn/?docid=211924)
 
