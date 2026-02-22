@@ -21,7 +21,7 @@ Chào mừng bạn đến với kho tàng kiến thức về Đầu tư và Kinh
 ---
 
 ## 📈 Investment Strategy (Chiến lược Đầu tư)
-*(Coming Soon)*
+
 *   **Value Investing:** [Đầu tư giá trị (Warren Buffett style)](./advanced/value-investing.md).
 *   **Portfolio Construction:** [Xây dựng danh mục đầu tư đa lớp (All-Weather)](./advanced/portfolio-construction.md).
 *   **Sector Rotation:** [Chiến thuật Luân chuyển nhóm ngành theo chu kỳ](./advanced/sector-rotation-strategy.md).
@@ -35,6 +35,7 @@ Chào mừng bạn đến với kho tàng kiến thức về Đầu tư và Kinh
 *   **Forex Trading:** [Chiến lược giao dịch ngoại hối và Tương quan tỷ giá](./advanced/forex-trading.md).
 *   **Risk Management:** [Quản trị rủi ro và Phân bổ vốn](./advanced/risk-management.md).
 *   **Technical Analysis:** [Phân tích kỹ thuật và Hành động giá](./advanced/technical-analysis.md).
+*   **Trading Roadmap:** [Lộ trình từ người mới đến trader chuyên nghiệp](./advanced/trading-roadmap.md).
 
 ---
 

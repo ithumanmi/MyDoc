@@ -22,7 +22,7 @@ Chào mừng bạn đến với module **Politics**. Tại đây, chúng ta khô
 
 ### 🛠️ Phase 3: Địa chính trị & Quan hệ Quốc tế (Geopolitics)
 *Nhìn ra thế giới và sự tương tác giữa các quốc gia.*
-*   **[Hệ thống chính trị Việt Nam](./vietnam-system.md):** Hiểu về cơ cấu Đảng, Nhà nước và cách vận hành tổng quát.
+*   **[Hệ thống chính trị Việt Nam](./vietnam-system.md):** Hiểu về cơ cấu Đảng, Nhà nước và cách vận hành tổng quát. (⭐ **New**)
 *   **Deep Dive Việt Nam:**
     *   [Cấu trúc Đảng & Đại hội Đảng](./vietnam/party-structure.md)
     *   [Quy trình Lập pháp & Quốc hội](./vietnam/legislative-process.md)

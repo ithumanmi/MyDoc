@@ -68,9 +68,9 @@ Hiểu cấu trúc để navigate hiệu quả:
     *   👉 **[Advanced: Life OS Framework (Hệ điều hành cuộc đời)](guides/growth/life-os-framework.md)** (Mô hình 4 tầng & Lịch vận hành mẫu)
 
 ### 💰 Phase 4: Wealth & Freedom (Tài chính & Tự do)
-10. **[Investing Framework (Đầu tư)](guides/investing/README.md)**
+10. **[Investing Framework (Đầu tư)](guides/investing/README.md)** ⭐ **Vietnam Market Deep Dive!**
     *   *Xây dựng cỗ máy kiếm tiền thụ động từ con số 0.*
-    *   👉 [Stocks Deep Dive](guides/investing/fundamentals/stocks-deep-dive.md) | [Real Estate Deep Dive](guides/investing/fundamentals/real-estate-deep-dive.md)
+    *   👉 [Stocks Deep Dive](guides/investing/fundamentals/stocks-deep-dive.md) | [Vietnam Industry Analysis](guides/investing/README.md#-vietnam-market-analysis-phân-tích-thị-trường-việt-nam)
 11. **[Productivity & Income Growth](guides/productivity/README.md)**
     *   *Tối ưu hóa năng suất để tăng thu nhập chủ động (Active Income).*
     *   👉 [Deep Work Mastery](guides/productivity/core-skills/deep-work-mastery.md) | [Salary Negotiation](guides/productivity/career-growth/salary-negotiation.md) | [Freelancer Roadmap](guides/productivity/side-hustle/freelancer-roadmap.md)
