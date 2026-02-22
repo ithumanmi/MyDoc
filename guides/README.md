@@ -44,6 +44,9 @@ Chào mừng đến với thư viện hướng dẫn chuyên sâu. Tại đây t
 
 ## 🌍 Macro & Mindset (Tư duy & Vĩ mô)
 
+*   **[🏛️ Politics (Chính trị)](./politics/README.md)** ⭐ **NEW**
+    *   Bản chất quyền lực, thể chế và địa chính trị.
+    *   Học cách thế giới vận hành và định vị cá nhân.
 *   **[🧠 Global Intelligence (Trí tuệ Toàn cầu)](./global-intelligence/README.md)**
     *   **Meta-Skill:** Đọc vị thế giới, lọc nhiễu thông tin (I.P.O Model).
     *   Tư duy hệ thống (Systems Thinking) và Vĩ mô (Macro).
