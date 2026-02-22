@@ -11,6 +11,7 @@
 **🎯 New to AI/ML?** Start with [Quick Start Guide](../../QUICK-START.md) to find your path!  
 **🔍 AI terms:** See [Glossary](../../GLOSSARY.md) for Machine Learning, Neural Networks, LLM, etc.  
 **📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md) to understand learning paths.
+**🧩 Knowledge Audit:** Check [AI & ML Knowledge Audit](../../case-studies/knowledge-audits/ai-knowledge-audit.md) to test your expertise!
 
 ---
 

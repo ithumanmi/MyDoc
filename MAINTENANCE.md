@@ -1,7 +1,7 @@
 # 🔧 Repository Maintenance Guide
 
 > **Purpose:** Guidelines for keeping the MyDoc repository fresh, accurate, and up-to-date.
->
+
 > **Last Updated:** February 2026
 
 ---
@@ -74,8 +74,8 @@ These files contain time-sensitive information:
 | `domains/backend-dev/README.md` | Framework versions, cloud services | Feb 2026 |
 | `domains/blockchain/README.md` | Market volatility, new protocols | Feb 2026 |
 | `domains/network-security/README.md` | New vulnerabilities, security tools | Feb 2026 |
-| `guides/career/*.md` | Salary trends, market conditions | Feb 2026 |
-| `guides/finance/*.md` | Economic cycles, monetary policy | Feb 2026 |
+| `guides/03-career-skills/career/*.md` | Salary trends, market conditions | Feb 2026 |
+| `guides/02-wealth-business/finance/*.md` | Economic cycles, monetary policy | Feb 2026 |
 
 ### **Medium Priority (Update Bi-Annually)**
 
@@ -85,8 +85,8 @@ Stable content, but needs occasional refresh:
 |:---|:---|:---:|
 | `domains/game-dev/README.md` | Unity/Unreal versions, new techniques | Feb 2026 |
 | `domains/data-analytics/README.md` | BI tool updates, SQL standards | Feb 2026 |
-| `guides/growth/*.md` | New personal development research | Feb 2026 |
-| `guides/entrepreneurship/*.md` | Startup trends, funding landscape | Feb 2026 |
+| `guides/03-career-skills/growth/*.md` | New personal development research | Feb 2026 |
+| `guides/02-wealth-business/entrepreneurship/*.md` | Startup trends, funding landscape | Feb 2026 |
 
 ### **Low Priority (Annual Review)**
 
@@ -118,7 +118,7 @@ python check_links.py
 
 ---
 
-### **2. Last Updated Date Checker (New Script)**
+## 2. Last Updated Date Checker (New Script)
 
 **Script:** `check_dates.py` (see below for implementation)
 
@@ -322,5 +322,5 @@ Track these metrics to measure maintenance quality:
 ---
 
 > **Remember:** Fresh content = Trustworthy content. Users rely on accurate, up-to-date information for career decisions!
->
+
 > *Last major revision: February 2026*

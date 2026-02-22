@@ -132,7 +132,95 @@ Chào mừng bạn đến với kho tàng kiến thức toàn diện. Đây là 
 
 ---
 
-## 🌱 9. Well-being & Biohacking (Sức khỏe & Sinh học)
+## 📱 9. Mobile App Development (Phát triển Ứng dụng Di động)
+*Xây dựng và kiếm tiền từ các sản phẩm di động.*
+
+*   **Careers & Jobs:**
+    *   [Mobile Developer Career Ladder](./03-career-skills/mobile-dev/mobile-career-ladder.md).
+    *   [Remote Mobile Dev Guide](./03-career-skills/mobile-dev/remote-mobile-guide.md).
+*   **Indie Hacking & Business:**
+    *   [Indie Hacker Guide](./03-career-skills/mobile-dev/indie-hacker-guide.md).
+    *   [ASO Playbook](./03-career-skills/mobile-dev/monetization/aso-playbook.md).
+    *   [IAP & Monetization Strategy](./03-career-skills/mobile-dev/monetization/iap-strategy.md).
+*   **Audit:**
+    *   [📱 Mobile Knowledge Audit](../case-studies/knowledge-audits/mobile-dev-knowledge-audit.md).
+
+---
+
+## 🔗 10. Blockchain & Web3 (Công nghệ Chuỗi khối)
+*Phát triển và kinh doanh trong nền kinh tế phi tập trung.*
+
+*   **Careers & Education:**
+    *   [Web3 Developer Ladder](./03-career-skills/blockchain/web3-dev-ladder.md).
+    *   [Security Auditor Path](./03-career-skills/blockchain/security-auditor-path.md).
+*   **Economy & Governance:**
+    *   [DAO Governance](./03-career-skills/blockchain/dao-governance.md).
+    *   [Airdrop & Retroactive Strategy](./03-career-skills/blockchain/airdrop-strategy.md).
+    *   [NFT & Creator Economy](./03-career-skills/blockchain/nft-creator-economy.md).
+*   **Audit:**
+    *   [🔗 Blockchain Knowledge Audit](../case-studies/knowledge-audits/blockchain-knowledge-audit.md).
+
+---
+
+## 🛡️ 11. Cyber Security (An ninh mạng)
+*Bảo vệ hệ thống và tư duy Red/Blue Team.*
+
+*   **Careers & Paths:**
+    *   [Red Team vs Blue Team](./03-career-skills/security/red-blue-team-ladder.md).
+    *   [Security Certifications Guide](./03-career-skills/security/certifications-guide.md).
+    *   [Bug Bounty Playbook](./03-career-skills/security/bug-bounty-playbook.md).
+*   **OpSec & Privacy:**
+    *   [Personal OpSec Checklist](./03-career-skills/security/personal-opsec.md).
+    *   [Anonymous Living](./03-career-skills/security/anonymous-living.md).
+*   **Audit:**
+    *   [🛡️ Cyber Security Knowledge Audit](../case-studies/knowledge-audits/security-knowledge-audit.md).
+
+---
+
+## 📊 12. Data Analytics & BI (Phân tích dữ liệu)
+*Biến dữ liệu thành giá trị và quyết định thông minh.*
+
+*   **Careers & Growth:**
+    *   [Data Analyst Career Ladder](./03-career-skills/data-analytics/data-analyst-ladder.md).
+    *   [Portfolio Playbook](./03-career-skills/data-analytics/portfolio-playbook.md).
+    *   [Technical Test Prep](./03-career-skills/data-analytics/tech-test-prep.md).
+*   **Intelligence & Logic:**
+    *   [Decision Intelligence](./03-career-skills/data-analytics/README.md).
+    *   [Data Biases](./03-career-skills/data-analytics/data-biases.md).
+*   **Audit:**
+    *   [📊 Data Analytics Knowledge Audit](../case-studies/knowledge-audits/data-analytics-knowledge-audit.md).
+
+---
+
+## 🌐 13. Web Development (Phát triển Web)
+*Xây dựng ứng dụng hiện đại và sự nghiệp Fullstack.*
+
+*   **Careers & Portfolio:**
+    *   [Junior to Senior Path](./03-career-skills/web-dev/career/junior-senior-roadmap.md).
+    *   [GitHub Architecture](./03-career-skills/web-dev/portfolio/github-architecture.md).
+    *   [Remote Web Dev Guide](./03-career-skills/web-dev/career/remote-web-guide.md).
+*   **Interviews:**
+    *   [React & Next.js Q&A](./03-career-skills/web-dev/interviews/react-next-mastery.md).
+    *   [System Design for Web](./03-career-skills/web-dev/interviews/system-design-basics.md).
+*   **Audit:**
+    *   [🌐 Web Development Knowledge Audit](../case-studies/knowledge-audits/web-dev-knowledge-audit.md).
+
+---
+
+## 🧮 14. Data Structures & Algorithms (DSA)
+*Nền tảng tư duy lập trình và tối ưu hóa hệ thống.*
+
+*   **Roadmap:** [Full DSA Roadmap](../domains/dsa/README.md).
+*   **Core Topics:**
+    *   [Complexity Analysis](../domains/dsa/README.md#giai-đoạn-1-phân-tích--cấu-trúc-cơ-bản).
+    *   [Advanced Structures](../domains/dsa/README.md#giai-đoạn-3-cấu-trúc-dữ-liệu-phi-tuyến-advanced).
+    *   [Optimization Patterns](../domains/dsa/README.md#giai-đoạn-4-thuật-toán-tối-ưu-patterns).
+*   **Audit:**
+    *   [🧮 DSA Knowledge Audit](../case-studies/knowledge-audits/dsa-knowledge-audit.md).
+
+---
+
+## 🌱 15. Well-being & Biohacking (Sức khỏe & Sinh học)
 *Tối ưu hóa cơ thể và tâm trí.*
 
 *   **Biohacking Systems:**
@@ -146,7 +234,7 @@ Chào mừng bạn đến với kho tàng kiến thức toàn diện. Đây là 
 
 ---
 
-## 🦉 10. Philosophy & Wisdom (Triết học & Minh triết)
+## 🦉 16. Philosophy & Wisdom (Triết học & Minh triết)
 *Tư duy sâu sắc về cuộc sống.*
 
 *   **Schools of Thought:**
@@ -159,7 +247,7 @@ Chào mừng bạn đến với kho tàng kiến thức toàn diện. Đây là 
 
 ---
 
-## 🗣️ 11. Language Mastery (IELTS)
+## 🗣️ 17. Language Mastery (IELTS)
 *Chinh phục ngôn ngữ tiếng Anh.*
 
 *   **Strategy:** [Roadmap 7.5+](./ielts/roadmap-7.5.md), [Daily Routine](./ielts/daily-routine.md).
@@ -170,7 +258,7 @@ Chào mừng bạn đến với kho tàng kiến thức toàn diện. Đây là 
 
 ---
 
-## 🔗 12. Resources & Toolkit (Tài nguyên)
+## 🔗 18. Resources & Toolkit (Tài nguyên)
 *Các liên kết và công cụ hữu ích.*
 
 *   [AI Development](./resources/collected_links/ai-development.md).
@@ -179,4 +267,5 @@ Chào mừng bạn đến với kho tàng kiến thức toàn diện. Đây là 
 *   [Web UI/UX](./resources/collected_links/web-ui-ux.md).
 
 ---
+
 > *"Học tập là kho báu sẽ đi theo chủ nhân của nó khắp mọi nơi."*

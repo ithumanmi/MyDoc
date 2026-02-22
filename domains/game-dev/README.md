@@ -17,6 +17,7 @@
 **🎯 Starting Game Dev?** See [Quick Start - Beginner Path](../../QUICK-START.md#-path-1-beginner-developer-0-1-year) for your first steps!  
 **🔍 Game Dev terms:** Check [Glossary](../../GLOSSARY.md) - Unity, C#, Physics, AI concepts explained simply.  
 **📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md) to understand learning paths.
+**🧩 Knowledge Audit:** Check [Game Dev Knowledge Audit](../../case-studies/knowledge-audits/game-dev-knowledge-audit.md) to test your skills!
 
 ---
 
@@ -92,6 +93,7 @@ graph TD
 
 *   **Core Concepts:**
     *   **Physics 2D:** Forces, Gravity, Material (Friction/Bounciness).
+    *   👉 **Advanced Physics:** [**Building a Simple 3D Physics Engine with Trigonometry**](./physics/simple-physics-engine.md) (⭐ **New**)
     *   **UI (uGUI/Toolkit):** Canvas, Anchors, Buttons, Sliders.
     *   **Animation:** Animator Controller, States, Transitions, Blend Trees.
     *   **Audio:** AudioSource, AudioListener, AudioMixer.
@@ -108,10 +110,11 @@ graph TD
 *Tập trung: Architecture, 3D và AI.*
 
 *   **Core Concepts:**
-    *   **Design Patterns:** Singleton (GameManager), Observer (Event System - Giảm phụ thuộc giữa các object), Object Pooling (Tối ưu đạn/kẻ thù).
-    *   **3D World:** Mesh, Texture, Material, Lighting (Baked vs Realtime).
-    *   **AI:** NavMesh (Tìm đường), Finite State Machine (Idle -> Chase -> Attack).
-    *   **Data Persistence:** JSON / ScriptableObjects để quản lý Stats/Inventory.
+    *   **Design Patterns:** Singleton (GameManager), Observer (Event System), Object Pooling.
+    *   **3D World:** Mesh, Texture, Material, Lighting.
+    *   **Animation Advanced:** [**Inverse Kinematics (IK) & Natural Movement**](./animation/inverse-kinematics.md) (⭐ **New**)
+    *   **AI:** NavMesh (Tìm đường), [**Steering Behaviors**](./ai/steering-behaviors.md) (⭐ **New**), Finite State Machine.
+    *   **Data Persistence:** JSON / ScriptableObjects.
 *   **Actions:**
     *   Build **3D Shooter (FPS/TPS)** hoặc **Top-down RPG**.
     *   Implement hệ thống **Inventory** và **Quest**.
@@ -127,6 +130,7 @@ Bạn không thể giỏi tất cả. Hãy chọn 1 con đường:
 
 #### **🅰️ Path A: Technical Artist (Graphics)**
 *   **Học:** Shader Graph, HLSL, VFX Graph, Post-processing, URP/HDRP Pipelines.
+*   👉 **Advanced Shaders:** [**Mastering Shaders with Trigonometry: Water & Fire**](./graphics/trig-shaders.md) (⭐ **New**)
 *   **Job:** Cầu nối giữa Artist và Coder. Lương rất cao và khan hiếm.
 
 #### **🅱️ Path B: Multiplayer Engineer (Networking)**
@@ -141,11 +145,27 @@ Bạn không thể giỏi tất cả. Hãy chọn 1 con đường:
 ---
 
 ### **Advanced Topics (Chuyên sâu)**
+*   **[Advanced Physics Engine](./physics/simple-physics-engine.md):** 🎡 Ứng dụng lượng giác xây dựng Physics Engine 3D. (⭐ **New**)
+*   **[Trig Shaders (Water/Fire)](./graphics/trig-shaders.md):** 🔥🌊 Tạo hiệu ứng nước và lửa bằng lượng giác. (⭐ **New**)
+*   **[Inverse Kinematics (IK)](./animation/inverse-kinematics.md):** 🦶 Toán học giúp tay chân nhân vật bám sát địa hình. (⭐ **New**)
+*   **[Steering Behaviors](./ai/steering-behaviors.md):** 🤖 Hệ thống di chuyển AI thông minh dựa trên lực và lượng giác. (⭐ **New**)
 *   **[Game Engines Deep Dive](./engines/unity-advanced.md):** Unity DOTS/ECS tối ưu hiệu năng và Unreal Engine 5 Nanite/Lumen.
 *   **[Graphics & Shaders](./graphics/shader-programming.md):** Viết Shader (HLSL/GLSL) và hiệu ứng VFX Graph.
 *   **[Game AI Patterns](./ai/game-ai-patterns.md):** Thiết kế trí tuệ nhân tạo cho NPC (FSM, Behavior Trees, GOAP).
 *   **[Behavior Tree Guide](./ai/behavior-tree/core-concepts.md):** Hướng dẫn toàn diện về Behavior Tree (Lý thuyết, Tự code, GraphView Editor).
 *   **[Procedural Generation](./pcg/procedural-generation.md):** Thuật toán tạo thế giới ngẫu nhiên (Perlin Noise, Wave Function Collapse).
+
+### 🔍 Advanced Research List (Kỹ thuật chuyên sâu cần nghiên cứu thêm)
+*Đây là danh sách các kỹ thuật "khó" để bạn tra cứu và mở rộng sau này, không nhất thiết phải học ngay:*
+
+*   **Projectile Trajectory & Prediction:** Dự đoán vị trí đón đầu mục tiêu dựa trên vận tốc và trọng lực.
+*   **Procedural Mesh Generation:** Tự tạo hình học (Mesh) bằng code (ví dụ: tạo hang động, địa hình thực tế).
+*   **Compute Shaders:** Tận dụng sức mạnh của GPU để tính toán hàng triệu tác vụ song song (như đàn cá, rừng cây).
+*   **Rollback Netcode (GGPO):** Kỹ thuật đỉnh cao trong Networking giúp game đối kháng chạy mượt dù có độ trễ cao.
+*   **Goal-Oriented Action Planning (GOAP):** Hệ thống AI cấp cao cho phép NPC tự lập kế hoạch để đạt được mục tiêu (dùng trong F.E.A.R, Stalker).
+*   **Flow Field Pathfinding:** Kỹ thuật tìm đường cho hàng ngàn unit cùng lúc (phổ biến trong game RTS như StarCraft).
+*   **Fluid Simulation (SPH):** Mô phỏng dòng chảy của nước, khói, lửa ở mức độ vật lý hạt.
+*   **Spatial Audio & Ray-traced Sound:** Mô phỏng cách âm thanh phản xạ trong môi trường 3D.
 
 ### **Unity Deep Dive (Làm chủ Unity)**
 *   **[Advanced Architecture](./unity-deep-dive/architecture-patterns.md):** ScriptableObjects, Dependency Injection (Zenject) và Design Patterns.

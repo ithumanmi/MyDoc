@@ -22,12 +22,21 @@ Chào mừng đến với thư viện hướng dẫn chuyên sâu. Tại đây t
     *   Chiến lược thăng tiến, đàm phán lương và phỏng vấn.
 *   **[⚡ Productivity (Năng suất)](./03-career-skills/productivity/README.md)**
     *   Kỹ năng Deep Work, quản lý thời gian và diễn đạt (Communication Mastery).
+*   **[🌐 Web Development (Phát triển Web)](./03-career-skills/web-dev/README.md)** ⭐ **NEW**
+    *   Lộ trình sự nghiệp, Portfolio xịn và Chinh phục phỏng vấn Fullstack.
 *   **[👾 Game Development](./03-career-skills/game-dev/README.md)**
     *   Lộ trình cho Game Developer (Unity, Unreal, Design Patterns).
+*   **[📱 Mobile App Development](./03-career-skills/mobile-dev/README.md)** ⭐ **NEW**
+    *   Lộ trình sự nghiệp, Monetization (Ads, IAP) và Indie Hacking.
 *   **[🏗️ System Design (Thiết kế Hệ thống)](./03-career-skills/system-design/README.md)** ⭐ **NEW**
     *   Kiến trúc phần mềm, Scalability.
-*   **[📊 Data Strategy (Chiến lược Dữ liệu)](./03-career-skills/data-strategy/README.md)**
+*   **[🔗 Blockchain & Web3](./03-career-skills/blockchain/README.md)** ⭐ **NEW**
+    *   Lộ trình sự nghiệp (Auditor, Smart Contract Engineer), DeFi và Tokenomics.
+*   **[🛡️ Cyber Security](./03-career-skills/security/README.md)** ⭐ **NEW**
+    *   Lộ trình sự nghiệp (Red/Blue Team), OpSec và Phản ứng sự cố.
+*   **[📊 Data Strategy & Analytics](./03-career-skills/data-strategy/README.md)**
     *   Mô hình tổ chức dữ liệu (Centralized vs Decentralized).
+    *   **[Data Analytics Career Guide](./03-career-skills/data-analytics/README.md)** ⭐ **NEW** - Lộ trình thăng tiến, Portfolio và Decision Intelligence.
 *   **[📚 IELTS Mastery](./03-career-skills/ielts/README.md)**
     *   Lộ trình học IELTS 7.5+ cho Developer.
 
@@ -39,6 +48,7 @@ Chào mừng đến với thư viện hướng dẫn chuyên sâu. Tại đây t
     *   [Behavioral Economics](./02-wealth-business/investing/advanced/behavioral-economics.md) - Tâm lý học đầu tư.
 *   **[🏢 Entrepreneurship (Khởi nghiệp)](./02-wealth-business/entrepreneurship/README.md)**
     *   Hướng dẫn xây dựng doanh nghiệp từ Zero to One.
+    *   **[Entrepreneurship Audit](../../case-studies/knowledge-audits/entrepreneurship-knowledge-audit.md)** ⭐ **NEW** - Thử thách đo lường năng lực Founder.
     *   Vận hành SME và Solopreneur.
 *   **[🚚 Logistics & Supply Chain (Hậu cần)](./02-wealth-business/logistics/README.md)** ⭐ **NEW**
     *   Quản trị chuỗi cung ứng, kho vận và xuất nhập khẩu.
@@ -91,6 +101,7 @@ Chào mừng đến với thư viện hướng dẫn chuyên sâu. Tại đây t
     *   **6 Engines:** Decision, Growth, Risk, Strategy, Optimization, Alignment.
 *   **[🧘 Well-being (Sức khỏe & Tinh thần)](./04-lifestyle-os/well-being/README.md)**
     *   Biohacking, tối ưu giấc ngủ và Stoicism.
+    *   **[Life OS Audit](../../case-studies/knowledge-audits/life-os-knowledge-audit.md)** ⭐ **NEW** - Thử thách đo lường hiệu suất cá nhân.
 *   **[🏛️ Politics (Chính trị)](./04-lifestyle-os/politics/README.md)** ⭐ **Vietnam Deep Dive!**
     *   Bản chất quyền lực, thể chế và địa chính trị Việt Nam.
 

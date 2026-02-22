@@ -34,7 +34,7 @@ Vật lý là môn khoa học nghiên cứu cách vũ trụ vận hành ở mứ
 ---
 
 ## ⚛️ Case Study Vật lý Thực tế
-*   [Phân tích Vật lý về sự Trì trệ và Tái sinh của Tập đoàn Tech Corp](../../../case-studies/physics-analysis-corporate-stagnation.md)
+*   [Phân tích Vật lý về sự Trì trệ và Tái sinh của Tập đoàn Tech Corp](../../../case-studies/mental-models-analysis/physics-analysis-corporate-stagnation.md)
 *   **[Ứng dụng Thực chiến](./quantum-relativity.md#🛠️-ứng-dụng-thực-chiến-life-applications):** Reframing hạnh phúc, Accountability Partner (Observer Effect).
 
 ---

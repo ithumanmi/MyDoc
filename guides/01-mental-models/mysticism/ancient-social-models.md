@@ -136,7 +136,7 @@ Khi toàn bộ cấu trúc (Tam Cương) bị lỗi nghiêm trọng và không t
 ---
 
 ## 💀 Case Study Thực tế
-*   [Phân tích sự sụp đổ của Startup X dưới lăng kính Mô hình Cổ xưa](../../../case-studies/startup-failure-ancient-models.md)
+*   [Phân tích sự sụp đổ của Startup X dưới lăng kính Mô hình Cổ xưa](../../../case-studies/mental-models-analysis/startup-failure-ancient-models.md)
 
 ---
 

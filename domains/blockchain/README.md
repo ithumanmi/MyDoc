@@ -9,6 +9,7 @@
 > **Time to Master:** 6-18 months (Fundamentals to DApp development)
 
 **📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md) to understand learning paths.
+**🧩 Knowledge Audit:** Check [Blockchain & Web3 Knowledge Audit](../../case-studies/knowledge-audits/blockchain-knowledge-audit.md) to test your expertise!
 
 ---
 

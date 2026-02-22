@@ -20,3 +20,8 @@ Lộ trình phát triển sự nghiệp Game Developer & Publisher.
 *   **[Game Publisher Roadmap](./game-publisher-roadmap.md):** Trở thành nhà phát hành Game (Publisher).
 *   **[Publisher Marketing Playbook](./publisher-marketing-playbook.md):** Chiến lược Marketing cho Game.
 *   **[Contract Template](./publisher-contract-template.md):** Mẫu hợp đồng phát hành game.
+
+---
+
+## 📊 Knowledge Audit
+*   **[🎮 Game Dev Knowledge Audit](../../../case-studies/knowledge-audits/game-dev-knowledge-audit.md):** Thử thách đo lường năng lực làm game toàn diện (Technical, Design, Business).

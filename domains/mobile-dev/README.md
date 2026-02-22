@@ -1,6 +1,9 @@
 # 📱 Mobile App Development Roadmap
 
 > [← Back to Chapter 1](../../chapters/01-xac-dinh-linh-vuc.md) | [Home](../../README.md)
+>
+> **📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md) to understand learning paths.
+> **🧩 Knowledge Audit:** Check [Mobile App Knowledge Audit](../../case-studies/knowledge-audits/mobile-dev-knowledge-audit.md) to test your skills!
 
 ---
 

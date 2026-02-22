@@ -34,7 +34,7 @@ Hóa học cung cấp các mô hình tư duy về sự chuyển đổi, điểm 
 ---
 
 ## 🧪 Case Study Hóa học Thực tế
-*   [Phân tích Hóa học về Sự bùng nổ và Bão hòa của Ứng dụng "Social-X"](../../../case-studies/chemistry-analysis-product-launch.md)
+*   [Phân tích Hóa học về Sự bùng nổ và Bão hòa của Ứng dụng "Social-X"](../../../case-studies/mental-models-analysis/chemistry-analysis-product-launch.md)
 *   **[Ứng dụng Thực chiến](./le-chatelier.md#🛠️-ứng-dụng-thực-chiến-life-applications):** Dopamine Detox, Product-Market Fit, Tăng nồng độ may mắn.
 
 ---

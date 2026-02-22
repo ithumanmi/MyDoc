@@ -9,6 +9,7 @@
 > **Time to Master:** 6-12 months (Excel mastery to SQL/Python proficiency)
 
 **📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md) to understand learning paths.
+**🧩 Knowledge Audit:** Check [Data Analytics Knowledge Audit](../../case-studies/knowledge-audits/data-analytics-knowledge-audit.md) to test your expertise!
 
 ---
 

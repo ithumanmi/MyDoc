@@ -1,6 +1,9 @@
 # 🌐 Web Development Roadmap (Fullstack Focus)
 
 > [← Back to Chapter 1](../../chapters/01-xac-dinh-linh-vuc.md) | [Home](../../README.md)
+>
+> **📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md) to understand learning paths.
+> **🧩 Knowledge Audit:** Check [Web Dev Knowledge Audit](../../case-studies/knowledge-audits/web-dev-knowledge-audit.md) to test your skills!
 
 ---
 

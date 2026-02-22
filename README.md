@@ -92,7 +92,10 @@ Hiểu cấu trúc để navigate hiệu quả:
 17. **[Blockchain & Crypto (Công nghệ Chuỗi khối)](domains/blockchain/README.md)**
     *   *Hiểu về Smart Contract, DeFi, NFT và Tokenomics.*
     *   👉 [Fundamentals](domains/blockchain/fundamentals/blockchain-101.md) | [Smart Contracts](domains/blockchain/development/smart-contracts.md) | [Investing](domains/blockchain/investing/tokenomics.md)
-18. **[AI & Machine Learning (Trí tuệ nhân tạo)](domains/ai-ml/README.md)** (⭐ **New**)
+18. **[Data Structures & Algorithms (Cấu trúc dữ liệu & Giải thuật)](domains/dsa/README.md)** (⭐ **New**)
+    *   *Nền tảng tư duy lập trình và tối ưu hóa hệ thống.*
+    *   👉 [Visual Roadmap](domains/dsa/README.md#🗺️-2-visual-roadmap) | [Complexity Analysis](domains/dsa/README.md#giai-đoạn-1-phân-tích--cấu-trúc-cơ-bản) | [Optimization Patterns](domains/dsa/README.md#giai-đoạn-4-thuật-toán-tối-ưu-patterns)
+19. **[AI & Machine Learning (Trí tuệ nhân tạo)](domains/ai-ml/README.md)**
     *   *Từ Classic ML đến Deep Learning, LLM và Generative AI.*
     *   👉 [Supervised Learning](domains/ai-ml/machine-learning/supervised-learning.md) | [Neural Networks](domains/ai-ml/deep-learning/neural-networks-101.md) | [Transformers & LLM](domains/ai-ml/nlp/transformers-llm.md)
 19. **[English & IELTS Mastery](guides/03-career-skills/ielts/roadmap-7.5.md)** (⭐ **New**)
@@ -125,16 +128,28 @@ Hiểu cấu trúc để navigate hiệu quả:
 ---
 
 ## 💡 Case Studies (Bài học thực tế)
-*   🇻🇳 **[Vietnam Success Stories](case-studies/vietnam-success-stories.md):** Nguyễn Thành Trung (Axie), Hiếu PC...
-*   🌏 **[Global Tech Leaders](case-studies/global-tech-leaders.md):** Elon Musk, Linus Torvalds...
-*   📉 **[Startup Failure (Perspective)](case-studies/startup-failure-ancient-models.md):** Phân tích thất bại dưới lăng kính Mô hình Xã hội Cổ xưa.
-*   📊 **[Marketing Failure (Math)](case-studies/mathematical-analysis-business-case.md):** Phân tích thất bại bằng Xác suất, Công thức Kelly và Lý thuyết Trò chơi.
-*   ⚛️ **[Corporate Stagnation (Physics)](case-studies/physics-analysis-corporate-stagnation.md):** Phân tích sự trì trệ của tập đoàn bằng Entropy, Năng lượng kích hoạt và Quán tính.
-*   🌿 **[Retail Ecosystem (Biology)](case-studies/biology-analysis-corporate-ecosystem.md):** Phân tích sự sinh tồn và tuyệt chủng của doanh nghiệp bằng Chọn lọc tự nhiên và Hiệu ứng Nữ hoàng Đỏ.
-*   🧪 **[Viral Growth (Chemistry)](case-studies/chemistry-analysis-product-launch.md):** Phân tích sự bùng nổ và bão hòa của sản phẩm bằng Chất xúc tác, Phản ứng dây chuyền và Nguyên lý Le Chatelier.
-*   📜 **[The Fall of Nokia (History)](case-studies/history-analysis-nokia-fall.md):** Phân tích sự sụp đổ của đế chế di động bằng Path Dependence, Hiệu ứng Lindy và Chu kỳ công nghệ.
-*   ⚙️ **[Knight Capital Group (Engineering)](case-studies/engineering-analysis-deployment-failure.md):** Phân tích sự sụp đổ trị giá 440 triệu USD bằng Biên an toàn, Dự phòng và Nợ kỹ thuật.
-*   💰 **[Food Delivery Platform (Economics)](case-studies/economics-analysis-platform-failure.md):** Phân tích sự sụp đổ của nền tảng giao đồ ăn bằng Chi phí cơ hội, Ưu đãi sai lệch và Độ đàn hồi của cầu.
+*   🧩 **[Knowledge Audit (Self-Test)](case-studies/knowledge-audits/knowledge-audit-self-test.md):** (⭐ **New**) Stress-test đo lường độ Hiểu sâu và Hiểu rộng của chính bạn.
+*   🎮 **[Game Dev Knowledge Audit](case-studies/knowledge-audits/game-dev-knowledge-audit.md):** (⭐ **New**) Thử thách làm game toàn diện (Technical, Design, Business).
+*   ⚙️ **[Backend Knowledge Audit](case-studies/knowledge-audits/backend-knowledge-audit.md):** (⭐ **New**) Thử thách thiết kế hệ thống Backend (Scalability, Security, Database).
+*   🤖 **[AI Knowledge Audit](case-studies/knowledge-audits/ai-knowledge-audit.md):** (⭐ **New**) Thử thách thiết kế giải pháp AI toàn diện (ML, CV, NLP, GenAI, MLOps).
+*   📱 **[Mobile App Knowledge Audit](case-studies/knowledge-audits/mobile-dev-knowledge-audit.md):** (⭐ **New**) Thử thách thiết kế ứng dụng di động toàn diện (UX, Performance, Monetization).
+*   🔗 **[Blockchain Knowledge Audit](case-studies/knowledge-audits/blockchain-knowledge-audit.md):** (⭐ **New**) Thử thách thiết kế hệ thống phi tập trung (Smart Contract, DeFi, Tokenomics).
+*   🛡️ **[Cyber Security Knowledge Audit](case-studies/knowledge-audits/security-knowledge-audit.md):** (⭐ **New**) Thử thách bảo mật hệ thống (Web Security, Network Forensics, Incident Response).
+*   📊 **[Data Analytics Knowledge Audit](case-studies/knowledge-audits/data-analytics-knowledge-audit.md):** (⭐ **New**) Thử thách phân tích dữ liệu thực chiến (SQL, Stats, Viz, Business Logic).
+*   🌐 **[Web Dev Knowledge Audit](case-studies/knowledge-audits/web-dev-knowledge-audit.md):** (⭐ **New**) Thử thách thiết kế ứng dụng web hiện đại (Performance, Security, Architecture).
+*   🏢 **[Entrepreneurship Audit](case-studies/knowledge-audits/entrepreneurship-knowledge-audit.md):** (⭐ **New**) Thử thách xây dựng Startup từ Zero to One (Product, Finance, Ops).
+*   🧠 **[Life OS Audit](case-studies/knowledge-audits/life-os-knowledge-audit.md):** (⭐ **New**) Thử thách tối ưu hóa hiệu suất cá nhân và khả năng tự học.
+*   🧮 **[DSA Knowledge Audit](case-studies/knowledge-audits/dsa-knowledge-audit.md):** (⭐ **New**) Thử thách tư duy logic và tối ưu hóa thuật toán (Complexity, Structures, DP).
+*   🇻🇳 **[Vietnam Success Stories](case-studies/stories/vietnam-success-stories.md):** Nguyễn Thành Trung (Axie), Hiếu PC...
+*   🌏 **[Global Tech Leaders](case-studies/stories/global-tech-leaders.md):** Elon Musk, Linus Torvalds...
+*   📉 **[Startup Failure (Perspective)](case-studies/mental-models-analysis/startup-failure-ancient-models.md):** Phân tích thất bại dưới lăng kính Mô hình Xã hội Cổ xưa.
+*   📊 **[Marketing Failure (Math)](case-studies/mental-models-analysis/mathematical-analysis-business-case.md):** Phân tích thất bại bằng Xác suất, Công thức Kelly và Lý thuyết Trò chơi.
+*   ⚛️ **[Corporate Stagnation (Physics)](case-studies/mental-models-analysis/physics-analysis-corporate-stagnation.md):** Phân tích sự trì trệ của tập đoàn bằng Entropy, Năng lượng kích hoạt và Quán tính.
+*   🌿 **[Retail Ecosystem (Biology)](case-studies/mental-models-analysis/biology-analysis-corporate-ecosystem.md):** Phân tích sự sinh tồn và tuyệt chủng của doanh nghiệp bằng Chọn lọc tự nhiên và Hiệu ứng Nữ hoàng Đỏ.
+*   🧪 **[Viral Growth (Chemistry)](case-studies/mental-models-analysis/chemistry-analysis-product-launch.md):** Phân tích sự bùng nổ và bão hòa của sản phẩm bằng Chất xúc tác, Phản ứng dây chuyền và Nguyên lý Le Chatelier.
+*   📜 **[The Fall of Nokia (History)](case-studies/mental-models-analysis/history-analysis-nokia-fall.md):** Phân tích sự sụp đổ của đế chế di động bằng Path Dependence, Hiệu ứng Lindy và Chu kỳ công nghệ.
+*   ⚙️ **[Knight Capital Group (Engineering)](case-studies/mental-models-analysis/engineering-analysis-deployment-failure.md):** Phân tích sự sụp đổ trị giá 440 triệu USD bằng Biên an toàn, Dự phòng và Nợ kỹ thuật.
+*   💰 **[Food Delivery Platform (Economics)](case-studies/mental-models-analysis/economics-analysis-platform-failure.md):** Phân tích sự sụp đổ của nền tảng giao đồ ăn bằng Chi phí cơ hội, Ưu đãi sai lệch và Độ đàn hồi của cầu.
 
 ---
 

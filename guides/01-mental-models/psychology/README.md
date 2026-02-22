@@ -16,6 +16,7 @@ Chào mừng bạn đến với **Psychology Domain**. Đây là bản đồ ki�
 *   **[Evolutionary Psych (Tiến hóa)](./fundamentals/evolutionary-psych.md):** Bản năng sinh tồn và chọn lọc tự nhiên.
 *   **[Neuroscience (Não bộ)](./fundamentals/neuroscience-brain.md):** Dopamine, Serotonin và Tính dẻo thần kinh.
 *   **[Developmental Psych (Phát triển)](./fundamentals/developmental-psych.md):** Sự thay đổi tâm lý từ trẻ em đến người già.
+*   **🌌 [Recursion in Psychology (Đệ quy Tâm lý)](./recursion-in-psychology.md):** ⭐ **NEW** Vòng lặp cảm xúc, Thấu hiểu xã hội đệ quy và Siêu nhận thức.
 
 ### **II. Các Trường phái Quan trọng (Schools of Thought)**
 *Đứng trên vai người khổng lồ.*

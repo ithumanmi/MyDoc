@@ -33,24 +33,35 @@ Module này không dạy bạn giải tích phức tạp để đi thi. Nó cung
 ### 🧠 5. Logic & Lập luận (Logic)
 *Xây dựng lập luận chặt chẽ.*
 *   **[Tư duy Logic & Phản biện](./logic-reasoning.md):** Các lỗi ngụy biện thường gặp (Fallacies), First Principles Thinking.
+*   **🌌 [Đệ quy trong Ý thức (Self-Awareness)](./recursion-consciousness.md):** Tại sao ý thức nảy sinh từ các vòng lặp tự soi chiếu? (⭐ **New**)
 
 ### 💻 6. Toán học trong Kỷ nguyên số (Tech Math)
 *Tư duy của Computer Scientist.*
 *   **[Algorithms & Complexity](./algorithms-complexity.md):** Big O, Caching, Explore vs Exploit.
 *   **[Ứng dụng Thực chiến](./algorithms-complexity.md#🛠️-ứng-dụng-thực-chiến-life-applications):** Batch Processing, Mise-en-place (Caching), Premature Optimization.
+*   👉 **[Technical Roadmap: Data Structures & Algorithms](../../../domains/dsa/README.md):** Lộ trình học thuật thuật toán cho Developer.
+*   **🌌 [Ramanujan Recursion & Number Theory](../../../domains/dsa/math-recursion-ramanujan.md):** Khám phá trí tuệ của **Srinivasa Ramanujan** qua Hàm phân hoạch và Tau function. (⭐ **New**)
 *   **[Network & Graph Theory](./network-graph-theory.md):** Hiệu ứng mạng lưới, Viral Coefficient, Định luật Metcalfe.
 *   **[Information Theory](./information-theory.md):** Entropy, Signal-to-Noise, Nén dữ liệu.
 
 ### 🌪️ 7. Tư duy Hệ thống & Đa chiều (Systems & Dimensions)
 *Hiểu sự phức tạp và thay đổi.*
 *   **[Systems & Chaos Theory](./systems-chaos-theory.md):** Hiệu ứng cánh bướm, Feedback Loops, Entropy.
-*   **[Optimization & Calculus](./optimization-calculus.md):** Đạo hàm (Tốc độ thay đổi), Gradient Descent, Local Maxima.
-*   **[Linear Algebra](./linear-algebra-dimensions.md):** Vector (Hướng & Lực), Giảm chiều dữ liệu (PCA), Hệ cơ sở (Skill Stack).
+*   **[Optimization & Calculus](./optimization-calculus.md):** Đạo hàm (Tốc độ thay đổi), Tích phân (Sự tích lũy), Gradient Descent.
+*   **[Linear Algebra & Multi-dimensional Space](./linear-algebra-dimensions.md):** Vector, Không gian nhiều chiều (ML/AI), Giảm chiều dữ liệu (PCA).
+*   **🎡 [Advanced Trigonometry (Lượng giác cao cấp)](./advanced-trigonometry.md):** ⭐ **NEW** Chuỗi Fourier, Hàm Hyperbolic và ma trận quay.
+
+### 🌌 8. Toán học Lý thuyết & Nâng cao (Advanced Concepts)
+*Vẻ đẹp của các cấu trúc trừu tượng.*
+*   **[Số phức (Complex Numbers)](./complex-numbers.md):** Tư duy xoay (Rotation), Fractal và Đẳng thức Euler.
+*   **[Phương trình vi phân (Differential Equations)](./differential-equations.md):** Mô hình hóa sự thay đổi liên tục trong vật lý và sinh học.
+*   **[Hình học vi phân (Differential Geometry)](./differential-geometry.md):** Độ cong, không gian phi Euclid và nền tảng của Thuyết tương đối.
+*   **[Lý thuyết Phân tích (Mathematical Analysis)](./mathematical-analysis.md):** Giới hạn, Chuỗi Taylor và sự hội tụ vô hạn.
 
 ---
 
 ## 📊 Case Study Toán học Thực tế
-*   [Phân tích Toán học về một chiến dịch Marketing thất bại](../../../case-studies/mathematical-analysis-business-case.md)
+*   [Phân tích Toán học về một chiến dịch Marketing thất bại](../../../case-studies/mental-models-analysis/mathematical-analysis-business-case.md)
 
 ---
 

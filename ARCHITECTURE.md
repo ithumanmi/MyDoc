@@ -118,7 +118,7 @@ domains/
 
 **Content Type:** Mental models, career strategies, life optimization
 
-**Current Categories (16):**
+**Strategic Pillars (4):**
 
 ```
 guides/
@@ -195,6 +195,8 @@ This is **intentional** to serve different needs:
 |:---|:---|:---|
 | `domains/game-dev/` | **HOW to build games** (Technical) | Unity architecture, C# patterns, Shader programming |
 | `guides/game-dev/` | **HOW to earn from games** (Business) | Freelancing rates, Publisher contracts, Monetization |
+| `domains/mobile-dev/` | **HOW to build apps** (Technical) | Flutter/React Native, State Management, Local Storage |
+| `guides/mobile-dev/` | **HOW to earn from apps** (Business) | Indie Hacking, AdMob, IAP, ASO |
 
 **Navigation notes** in both READMEs clarify this boundary.
 
@@ -255,9 +257,11 @@ High-quality external resources:
 
 #### **`case-studies/` - Real-World Analysis**
 
-Success/failure case studies:
-- `vietnam-success-stories.md` - Local examples
-- `global-tech-leaders.md` - International examples
+Success/failure case studies categorized by type:
+- **`knowledge-audits/`** - Skills & depth self-assessments
+- **`mental-models-analysis/`** - Multidisciplinary breakdowns (Physics, Biology, etc.)
+- **`stories/`** - Profiles of leaders and companies
+- **`templates/`** - Answer sheets for audits
 
 ---
 
@@ -353,7 +357,7 @@ Is it technical HOW-TO content?
 │
 └─ NO → Is it career/business advice?
    ├─ YES → Add to guides/
-   │  └─ Which category? (career, growth, entrepreneurship, etc.)
+   │  └─ Which pillar? (01-mental-models, 02-wealth-business, 03-career-skills, 04-lifestyle-os)
    │
    └─ NO → Is it a template/tool?
       ├─ YES → Add to templates/

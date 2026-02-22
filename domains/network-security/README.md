@@ -9,6 +9,7 @@
 > **Time to Master:** 18-36 months (Networking basics to Pentesting/Blue Team)
 
 **📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md) to understand learning paths.
+**🧩 Knowledge Audit:** Check [Cyber Security Knowledge Audit](../../case-studies/knowledge-audits/security-knowledge-audit.md) to test your skills!
 
 ---
 

@@ -35,7 +35,7 @@ Sinh học cung cấp các mô hình tư duy về sự sống còn, thích nghi,
 ---
 
 ## 🌿 Case Study Sinh học Thực tế
-*   [Phân tích Sinh học về Hệ sinh thái Bán lẻ - Retail Corp vs. Digital Predators](../../../case-studies/biology-analysis-corporate-ecosystem.md)
+*   [Phân tích Sinh học về Hệ sinh thái Bán lẻ - Retail Corp vs. Digital Predators](../../../case-studies/mental-models-analysis/biology-analysis-corporate-ecosystem.md)
 
 ---
 

@@ -13,6 +13,7 @@
 **🎯 New to Backend?** Check [Quick Start - Mid-Level Path](../../QUICK-START.md#-path-2-mid-level-developer-2-5-years) or [Senior Path](../../QUICK-START.md#-path-3-senior--expert-5-years)  
 **🔍 Backend terms:** See [Glossary](../../GLOSSARY.md) for REST API, Microservices, Caching, Load Balancing, etc.  
 **📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md) to understand learning paths.
+**🧩 Knowledge Audit:** Check [Backend Knowledge Audit](../../case-studies/knowledge-audits/backend-knowledge-audit.md) to test your skills!
 
 ---
 

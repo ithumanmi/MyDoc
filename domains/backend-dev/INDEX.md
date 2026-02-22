@@ -56,6 +56,7 @@ Sử dụng `Ctrl + F` để tìm kiếm nhanh chủ đề bạn cần.
 ---
 
 ## 📚 Advanced Topics (Chuyên Sâu)
+*   **Knowledge Audit:** [⚙️ Backend Knowledge Audit](../../case-studies/knowledge-audits/backend-knowledge-audit.md) ⭐ - Thử thách đo lường năng lực Backend toàn diện.
 *   **Algorithms:** [Advanced Algorithms for Backend](./architecture/advanced-algorithms.md) (Bloom Filter, GeoHash).
 *   **API:** [Advanced API Patterns](./api-design/advanced-patterns.md) (GraphQL, gRPC, Webhooks).
 *   **Testing:** [Advanced Testing Strategies](./testing/advanced-strategies.md) (Chaos Engineering, Contract Testing).

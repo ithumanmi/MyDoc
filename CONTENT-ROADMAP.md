@@ -23,7 +23,7 @@ This repository is a comprehensive knowledge base covering:
 
 ### **Phase 1: Well-being Foundation (34,300 words)**
 
-#### **guides/well-being/biohacking/**
+#### **guides/04-lifestyle-os/well-being/biohacking/**
 
 1. **movement-protocols.md** (6,800 words) ✅
    - Zone 2 cardio training
@@ -61,7 +61,7 @@ This repository is a comprehensive knowledge base covering:
    - Dopamine, serotonin, GABA, etc.
    - Optimization strategies
 
-#### **guides/well-being/mental-resilience/**
+#### **guides/04-lifestyle-os/well-being/mental-resilience/**
 
 6. **burnout-prevention.md** (6,800 words) ✅
    - Burnout science & stages
@@ -75,7 +75,7 @@ This repository is a comprehensive knowledge base covering:
 
 ### **Phase 2: Economics Foundation (10,200 words)**
 
-#### **guides/investing/advanced/**
+#### **guides/02-wealth-business/investing/advanced/**
 
 1. **macroeconomics.md** (5,000 words) ✅ **[EXPANDED]**
    - GDP & economic growth
@@ -156,7 +156,7 @@ This repository is a comprehensive knowledge base covering:
 
 ### **Phase 4: Philosophy & Critical Thinking (~35,000 words)**
 
-#### **guides/philosophy/**
+#### **guides/01-mental-models/philosophy/**
 
 1.  **what-is-philosophy.md** (4,000 words) ✅ **[NEW]**
     *   Definition & Etymology
@@ -241,7 +241,7 @@ This repository is a comprehensive knowledge base covering:
 
 #### **behavioral-economics.md** (~5,500 words) ✅ **COMPLETED**
 
-**Location:** `guides/investing/advanced/behavioral-economics.md`
+**Location:** `guides/02-wealth-business/investing/advanced/behavioral-economics.md`
 
 **Status:** Done. Added comprehensive guide covering 15 biases, Prospect Theory, Mental Accounting, and actionable strategies for investors.
 
@@ -335,7 +335,7 @@ This repository is a comprehensive knowledge base covering:
 
 #### **Updated: Data Analytics Roadmap** ✅ **COMPLETED**
 
-**File:** `guides/career/data-analytics-roadmap.md`
+**File:** `guides/03-career-skills/career/data-analytics-roadmap.md`
 
 **Status:** Created comprehensive 5-stage roadmap (Foundation -> SQL -> Viz -> Python -> Advanced). Added Portfolio Checklist template.
 
@@ -343,7 +343,7 @@ This repository is a comprehensive knowledge base covering:
 
 \n### **Priority 3: Data Analytics Deep Dive**\n\n#### **data-analytics-thinking.md** (~2,500 words) ✅ **COMPLETED**\n- 6-step Analysis Process (Google)\n- Asking the right questions\n- Logical Fallacies in Data\n\n#### **data-visualization-mastery.md** (~2,000 words) ✅ **COMPLETED**\n- Gestalt Principles\n- Chart Selection Guide\n- Data-Ink Ratio\n- Color Theory\n- Dashboard Checklist Template\n\n### **Priority 4: Navigation Updates**\n
 
-#### **Update guides/well-being/README.md** (15 min) 🟡
+#### **Update guides/04-lifestyle-os/well-being/README.md** (15 min) 🟡
 
 Add links to all new biohacking & mental resilience guides:
 - Movement protocols
@@ -352,7 +352,7 @@ Add links to all new biohacking & mental resilience guides:
 - Glucose & insulin system
 - Burnout prevention
 
-#### **Update guides/investing/README.md** (15 min) 🟡
+#### **Update guides/02-wealth-business/investing/README.md** (15 min) 🟡
 
 Add economics section with 3 new files:
 - Macroeconomics (expanded)
@@ -367,7 +367,7 @@ Add economics section with 3 new files:
 
 #### **1. Hormones Deep Dive** (~6,000 words)
 
-**File:** `guides/well-being/biohacking/hormones-optimization.md`
+**File:** `guides/04-lifestyle-os/well-being/biohacking/hormones-optimization.md`
 
 **Topics:**
 - Testosterone optimization (men & women)
@@ -380,7 +380,7 @@ Add economics section with 3 new files:
 
 #### **2. Biomarkers & Testing** (~5,000 words)
 
-**File:** `guides/well-being/biohacking/biomarkers-tracking.md`
+**File:** `guides/04-lifestyle-os/well-being/biohacking/biomarkers-tracking.md`
 
 **Topics:**
 - Blood test interpretation
@@ -392,7 +392,7 @@ Add economics section with 3 new files:
 
 #### **3. Micronutrients Guide** (~5,500 words)
 
-**File:** `guides/well-being/biohacking/micronutrients.md`
+**File:** `guides/04-lifestyle-os/well-being/biohacking/micronutrients.md`
 
 **Topics:**
 - Essential vitamins (A, B, C, D, E, K)
@@ -408,7 +408,7 @@ Add economics section with 3 new files:
 
 #### **4. Value Investing Deep Dive** (~6,000 words)
 
-**File:** `guides/investing/strategy/value-investing-advanced.md`
+**File:** `guides/02-wealth-business/investing/strategy/value-investing-advanced.md`
 
 **Topics:**
 - DCF modeling
@@ -419,7 +419,7 @@ Add economics section with 3 new files:
 
 #### **5. Portfolio Construction** (~5,500 words)
 
-**File:** `guides/investing/strategy/portfolio-construction.md`
+**File:** `guides/02-wealth-business/investing/strategy/portfolio-construction.md`
 
 **Topics:**
 - Asset allocation frameworks
@@ -435,7 +435,7 @@ Add economics section with 3 new files:
 
 #### **6. Deep Work System** (~5,000 words) ✅ **COMPLETED**
 
-**File:** `guides/productivity/core-skills/deep-work-system.md`
+**File:** `guides/03-career-skills/productivity/core-skills/deep-work-system.md`
 
 **Status:** Done. Covered 4 rules of Deep Work, Time Blocking strategies, and Shutdown Rituals. Included scheduler template.
 
@@ -448,7 +448,7 @@ Add economics section with 3 new files:
 
 #### **7. Negotiation Masterclass** (~6,000 words)
 
-**File:** `guides/career/negotiation-masterclass.md`
+**File:** `guides/03-career-skills/career/negotiation-masterclass.md`
 
 **Topics:**
 - Salary negotiation tactics
@@ -464,7 +464,7 @@ Add economics section with 3 new files:
 
 #### **8. Game Theory Life Applications** (~6,000 words) 🎲 **PHASED APPROACH**
 
-**File:** `guides/growth/game-theory-life-applications.md`
+**File:** `guides/03-career-skills/growth/game-theory-life-applications.md`
 
 **Estimated Time:** 3-4.5 hours (split into 3 phases)
 
