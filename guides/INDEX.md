@@ -25,6 +25,8 @@ Chào mừng bạn đến với kho tàng kiến thức toàn diện. Đây là 
 
 *   **[Meta-Learning](./productivity/meta-skills/meta-learning.md):** Nghệ thuật học siêu tốc (Ultralearning).
 *   **[Learning How to Learn](./productivity/meta-skills/learning-how-to-learn.md):** Các nguyên lý khoa học thần kinh về việc học.
+*   **[Project Management Fundamentals](./productivity/meta-skills/project-management-fundamentals.md):** ⭐ **NEW** Nghệ thuật quản lý dự án (Waterfall vs Agile).
+*   **[Study Project Management](./productivity/meta-skills/study-project-management.md):** ⭐ **NEW** Quản trị lộ trình học khối lượng lớn.
 *   **[Working with AI](./productivity/meta-skills/working-with-ai.md):** Kỹ năng cộng tác với trí tuệ nhân tạo.
 *   **[PKM System](./productivity/meta-skills/pkm-system.md):** Quản lý tri thức cá nhân (Personal Knowledge Management).
 *   **[Critical Thinking](./productivity/core-skills/critical-thinking.md):** Tư duy phản biện và ra quyết định.
