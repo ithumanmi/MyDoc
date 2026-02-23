@@ -59,6 +59,8 @@ Chọn **3–5 quy tắc** bạn cam kết tuân thủ. Ít nhưng rõ, dễ nh�
 
 ### Bước 3: Thiết kế quy trình ngày & tuần (Processes)
 
+👉 **Đang chạy 3 dự án song song?** Dùng [Kịch bản quản lý 3 dự án](../../../../templates/multi-project-scenario.md) — Day Theming, block tối thiểu 2h/dự án, ví dụ tuần cụ thể.
+
 **Quy trình ngày (Daily Runway):**
 *   **Buổi sáng (5–15 phút):** Xem lịch + danh sách ưu tiên → chốt 1–3 việc phải xong hôm nay. Không check email/MXH trước bước này (tránh reactive).
 *   **Khối sâu (Deep Block):** 2–4 giờ liên tục cho việc quan trọng nhất (theo [Pomodoro](./time-management-systems.md#1-the-pomodoro-technique-kỹ-thuật-quả-cà-chua) hoặc time block).

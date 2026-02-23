@@ -1,6 +1,6 @@
 # 💰 Freelancer Roadmap: Từ Zero đến First Client
 
-> [← Back to Productivity](../../../README.md)
+> [← Back to Productivity](../README.md) | [🧭 Freelancer Framework (6 trụ cột)](./freelancer-framework.md)
 
 Làm thuê cho 1 công ty = Bạn chỉ có 1 khách hàng.
 Làm Freelancer = Bạn có nhiều khách hàng. (Đa dạng hóa rủi ro).

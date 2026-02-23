@@ -57,6 +57,7 @@ Tối ưu hóa nguồn thu nhập chính (Active Income).
 
 ### 3. Side Hustle (Nguồn thu thứ 2)
 Đa dạng hóa thu nhập, giảm rủi ro phụ thuộc vào lương.
+*   **[Freelancer Framework](./side-hustle/freelancer-framework.md):** ⭐ **NEW** Hệ thống 6 trụ cột: Skill → Portfolio → Acquisition → Proposal & Pricing → Contract & Delivery → Operations & Scale.
 *   **[Freelancer Roadmap](./side-hustle/freelancer-roadmap.md):** Lộ trình từ Zero đến khách hàng đầu tiên.
 *   **[Content Creation Blueprint](./side-hustle/content-creation-blueprint.md):** Xây dựng thương hiệu cá nhân và kiếm tiền từ viết lách/video.
 *   **[Monetization Models](./side-hustle/monetization-models.md):** Affiliate, Digital Products, Coaching.

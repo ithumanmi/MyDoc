@@ -55,6 +55,7 @@
 | Template | Mô tả ngắn | Đường dẫn |
 |:---------|:-----------|:----------|
 | **Project Post-Mortem** | Phân tích dự án sau khi hoàn thành hoặc thất bại | [templates/project-post-mortem.md](./project-post-mortem.md) |
+| **Multi-Project Scenario** | Kịch bản quản lý 3 dự án cùng lúc (Day Theming, block 2h, checklist, ví dụ tuần) | [templates/multi-project-scenario.md](./multi-project-scenario.md) |
 
 ---
 

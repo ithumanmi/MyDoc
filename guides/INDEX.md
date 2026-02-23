@@ -99,6 +99,7 @@ Chào mừng bạn đến với kho tàng kiến thức toàn diện. Đây là 
     *   [Tech KPI Framework](./02-wealth-business/entrepreneurship/operations/tech-kpi-framework.md) - Chống nợ kỹ thuật bằng DORA Metrics.
 *   **Solopreneur & Side Hustle:**
     *   [Audience First Strategy](./entrepreneurship/solopreneur/audience-first-strategy.md).
+    *   [Freelancer Framework](./productivity/side-hustle/freelancer-framework.md) (6 trụ cột: Skill → Portfolio → Proposal → Contract → Scale).
     *   [Freelancer Roadmap](./productivity/side-hustle/freelancer-roadmap.md).
 *   **Market Research:**
     *   [Introduction](./market-research/core/introduction-to-market-research.md).

@@ -73,7 +73,7 @@ Hiểu cấu trúc để navigate hiệu quả:
     *   👉 [Stocks Deep Dive](guides/02-wealth-business/investing/fundamentals/stocks-deep-dive.md) | [Vietnam Industry Analysis](guides/02-wealth-business/investing/README.md#-vietnam-market-analysis-phân-tích-thị-trường-việt-nam)
 11. **[Productivity & Income Growth](guides/03-career-skills/productivity/README.md)**
     *   *Tối ưu hóa năng suất để tăng thu nhập chủ động (Active Income).*
-    *   👉 [Deep Work Mastery](guides/03-career-skills/productivity/core-skills/deep-work-mastery.md) | [Salary Negotiation](guides/03-career-skills/productivity/career-growth/salary-negotiation.md) | [Freelancer Roadmap](guides/03-career-skills/productivity/side-hustle/freelancer-roadmap.md)
+    *   👉 [Deep Work Mastery](guides/03-career-skills/productivity/core-skills/deep-work-mastery.md) | [Salary Negotiation](guides/03-career-skills/productivity/career-growth/salary-negotiation.md) | [Freelancer Framework](guides/03-career-skills/productivity/side-hustle/freelancer-framework.md) | [Freelancer Roadmap](guides/03-career-skills/productivity/side-hustle/freelancer-roadmap.md)
 12. **[Market Research (Nghiên cứu thị trường)](guides/02-wealth-business/market-research/README.md)**
     *   *Tìm kiếm ý tưởng triệu đô & Phân tích đối thủ.*
 13. **[Entrepreneurship (Khởi nghiệp)](guides/02-wealth-business/entrepreneurship/README.md)**
@@ -116,6 +116,7 @@ Hiểu cấu trúc để navigate hiệu quả:
 *   📝 **[Daily Log](templates/daily-log.md):** Nhật ký công việc hằng ngày.
 *   🎯 **[OKR Planning](templates/okr-planning.md):** Đặt mục tiêu Quý/Năm.
 *   💀 **[Project Post-Mortem](templates/project-post-mortem.md):** Rút kinh nghiệm dự án.
+*   📂 **[Quản lý 3 dự án cùng lúc](templates/multi-project-scenario.md):** Kịch bản tuần mẫu + Day Theming + checklist.
 *   ✉️ **[Cold Email Mentor](templates/cold-email-mentor.md):** Mẫu email xin lời khuyên.
 
 ---
