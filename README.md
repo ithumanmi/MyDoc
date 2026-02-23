@@ -111,6 +111,7 @@ Hiểu cấu trúc để navigate hiệu quả:
 ---
 
 ## 🛠️ Templates (Mẫu áp dụng ngay)
+*   📑 **[Tổng hợp & Phân loại toàn bộ Template](templates/TEMPLATES-INDEX.md):** (⭐ **New**) 12 nhóm: Productivity, Learning, Career, Innovation, Legal, Domain, Knowledge Audit...
 *   📅 **[Weekly Review](templates/weekly-review.md):** Tổng kết tuần hiệu quả.
 *   📝 **[Daily Log](templates/daily-log.md):** Nhật ký công việc hằng ngày.
 *   🎯 **[OKR Planning](templates/okr-planning.md):** Đặt mục tiêu Quý/Năm.
