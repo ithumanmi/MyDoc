@@ -10,6 +10,7 @@ Chào mừng bạn đến với kho tàng kiến thức toàn diện. Đây là 
 *   **[Monthly Reset Protocol](./productivity/monthly-reset.md):** Quy trình tái tạo bản thân hàng tháng. ([Template](./productivity/templates/monthly-review-template.md))
 *   **[Deep Work Mastery](./productivity/core-skills/deep-work-mastery.md):** Kỹ năng làm việc sâu và tập trung cao độ. ([System](./productivity/core-skills/deep-work-system.md), [Scheduler](./productivity/templates/deep-work-scheduler.md))
 *   **[Time Management Systems](./productivity/core-skills/time-management-systems.md):** Các hệ thống quản lý thời gian hiệu quả.
+*   **[Personal Work Framework](./productivity/core-skills/personal-work-framework.md):** ⭐ **NEW** Xây nguyên tắc + quy trình + nghi thức làm việc cho bản thân.
 *   **[Energy Management](./productivity/core-skills/energy-management.md):** Quản lý năng lượng thay vì quản lý thời gian.
 *   **Systems & Frameworks:**
     *   [PARA Dashboard](./productivity/templates/para-dashboard.md) - Tổ chức cuộc sống số.
@@ -25,7 +26,8 @@ Chào mừng bạn đến với kho tàng kiến thức toàn diện. Đây là 
 
 *   **[Meta-Learning](./productivity/meta-skills/meta-learning.md):** Nghệ thuật học siêu tốc (Ultralearning).
 *   **[Learning How to Learn](./productivity/meta-skills/learning-how-to-learn.md):** Các nguyên lý khoa học thần kinh về việc học.
-*   **[Project Management Fundamentals](./productivity/meta-skills/project-management-fundamentals.md):** ⭐ **NEW** Nghệ thuật quản lý dự án (Waterfall vs Agile).
+*   **[Personal Knowledge Base (CSDL cá nhân)](./productivity/meta-skills/personal-knowledge-base.md):** ⭐ **NEW** Thu thập – lưu trữ – truy xuất tri thức; tránh "xô thủng đáy".
+*   **[Project Management Fundamentals](./productivity/meta-skills/project-management-fundamentals.md):** Nghệ thuật quản lý dự án (Waterfall vs Agile).
 *   **[Study Project Management](./productivity/meta-skills/study-project-management.md):** ⭐ **NEW** Quản trị lộ trình học khối lượng lớn.
 *   **[Working with AI](./productivity/meta-skills/working-with-ai.md):** Kỹ năng cộng tác với trí tuệ nhân tạo.
 *   **[PKM System](./productivity/meta-skills/pkm-system.md):** Quản lý tri thức cá nhân (Personal Knowledge Management).

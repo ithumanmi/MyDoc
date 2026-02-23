@@ -37,12 +37,14 @@ Xây dựng nền tảng cho một bộ não hiệu suất cao.
 *   **[Methodology Mindset (Phương Pháp Luận)](./mental-models/methodology-mindset.md)** (⭐ **New**) - Bộ não đứng sau mọi sự tiến bộ.
     *   **[Part 2: Từ Tư Duy Đến Kiến Tạo](./mental-models/methodology-mindset-p2.md)** - Lộ trình 3 bậc trưởng thành.
 *   **[Deep Work System](./core-skills/deep-work-system.md):** Kỹ năng làm việc sâu, loại bỏ xao nhãng.
-*   **[Density of Life (Mật độ Sống)](./core-skills/density-of-life.md):** ⭐ **NEW** Cách sống 1 năm bằng 10 năm trải nghiệm.
+*   **[Personal Work Framework (Framework làm việc)](./core-skills/personal-work-framework.md):** ⭐ **NEW** Xây nguyên tắc + quy trình + nghi thức + công cụ cho bản thân.
+*   **[Density of Life (Mật độ Sống)](./core-skills/density-of-life.md):** Cách sống 1 năm bằng 10 năm trải nghiệm.
 *   **[Working with AI](./meta-skills/working-with-ai.md):** Tư duy Centaur - Làm chủ AI thay vì để AI làm chủ bạn.
 *   **[Learning How to Learn](./meta-skills/learning-how-to-learn.md):** Kỹ năng tự học đỉnh cao (Feynman, Spaced Repetition).
-*   **[Project Management Fundamentals](./meta-skills/project-management-fundamentals.md):** ⭐ **NEW** Nghệ thuật quản lý dự án dành cho mọi ngành nghề.
-*   **[Study Project Management](./meta-skills/study-project-management.md):** ⭐ **NEW** Tối ưu lộ trình học khối lượng lớn bằng tư duy Project Manager.
-*   **[PKM System (Building a Second Brain)](./meta-skills/pkm-system.md):** Xây dựng bộ não thứ hai để quản lý tri thức (Phương pháp PARA).
+*   **[Personal Knowledge Base (CSDL cá nhân)](./meta-skills/personal-knowledge-base.md):** ⭐ **NEW** Thu thập – lưu trữ – truy xuất tri thức; tránh "xô thủng đáy", xây lợi thế cạnh tranh.
+*   **[Project Management Fundamentals](./meta-skills/project-management-fundamentals.md):** Nghệ thuật quản lý dự án dành cho mọi ngành nghề.
+*   **[Study Project Management](./meta-skills/study-project-management.md):** Tối ưu lộ trình học khối lượng lớn bằng tư duy Project Manager.
+*   **[PKM System (Building a Second Brain)](./meta-skills/pkm-system.md):** Xây dựng bộ não thứ hai để quản lý tri thức (PARA, CODE, Zettelkasten).
 *   **[Communication & Pedagogy](./core-skills/communication-mastery.md):** Kỹ năng sư phạm và diễn đạt - Đòn bẩy cho sự nghiệp (The Multiplier Skill).
 *   **[Time Management Systems](./core-skills/time-management-systems.md):** Các hệ thống quản lý thời gian (Pomodoro, Time Blocking, GTD).
 *   **[Energy Management](./core-skills/energy-management.md):** Quản trị năng lượng quan trọng hơn quản trị thời gian. (Ngủ, Dinh dưỡng, Dopamine Detox).

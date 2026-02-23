@@ -1,5 +1,7 @@
 # ⚙️ Life System Thinking: Kiến Tạo Hệ Thống Vận Hành Thay Vì Dùng Ý Chí
 
+> [← Back to Productivity](../README.md) | [→ Xây Framework làm việc cụ thể](../core-skills/personal-work-framework.md)
+>
 > **"Ta không mệt vì yếu. Ta mệt vì ta đang chạy trong một hệ thống rò rỉ, chắp vá, không tối ưu."**
 
 Burn-out không đến từ việc cuộc sống quá khó khăn, mà đến từ sự hỗn độn trong vận hành: công việc, cảm xúc, sức khỏe, kỳ vọng và niềm tin lôi ta về những hướng khác nhau. Thay vì cố sửa "triệu chứng" bằng kỷ luật hay ý chí, chúng ta cần sửa **Cấu trúc hệ thống**.

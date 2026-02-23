@@ -1,6 +1,6 @@
 # 🧠 PKM System: Xây Dựng Bộ Não Thứ Hai
 
-> [← Back to Productivity Guides](../../../README.md)
+> [← Back to Productivity](../README.md) | [CSDL cá nhân (Personal Knowledge Base)](./personal-knowledge-base.md)
 
 ## Tại sao bạn cần PKM?
 Bộ não con người rất giỏi trong việc **sáng tạo ý tưởng** (Thinking), nhưng lại rất tệ trong việc **lưu trữ thông tin** (Storage).

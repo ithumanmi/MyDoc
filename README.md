@@ -128,7 +128,8 @@ Hiểu cấu trúc để navigate hiệu quả:
 ---
 
 ## 💡 Case Studies (Bài học thực tế)
-*   🧩 **[Knowledge Audit (Self-Test)](case-studies/knowledge-audits/knowledge-audit-self-test.md):** (⭐ **New**) Stress-test đo lường độ Hiểu sâu và Hiểu rộng của chính bạn.
+*   📋 **[Kế hoạch 50 Case Study](case-studies/CASE-STUDY-50-PLAN.md):** (⭐ **New**) Lộ trình sưu tầm & phân loại 50 case — Mental Models, Vietnam, Global, Failure, Industry.
+*   🧩 **[Knowledge Audit (Self-Test)](case-studies/knowledge-audits/knowledge-audit-self-test.md):** Stress-test đo lường độ Hiểu sâu và Hiểu rộng của chính bạn.
 *   🎮 **[Game Dev Knowledge Audit](case-studies/knowledge-audits/game-dev-knowledge-audit.md):** (⭐ **New**) Thử thách làm game toàn diện (Technical, Design, Business).
 *   ⚙️ **[Backend Knowledge Audit](case-studies/knowledge-audits/backend-knowledge-audit.md):** (⭐ **New**) Thử thách thiết kế hệ thống Backend (Scalability, Security, Database).
 *   🤖 **[AI Knowledge Audit](case-studies/knowledge-audits/ai-knowledge-audit.md):** (⭐ **New**) Thử thách thiết kế giải pháp AI toàn diện (ML, CV, NLP, GenAI, MLOps).

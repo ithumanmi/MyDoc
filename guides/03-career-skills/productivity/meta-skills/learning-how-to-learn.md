@@ -51,4 +51,5 @@ Theo Josh Kaufman, bạn chỉ cần 20 giờ tập trung để đạt mức "kh
 3.  **Remove barriers:** Loại bỏ xao nhãng.
 4.  **Practice:** Thực hành ít nhất 20 giờ.
 
-👉 **[Mẫu thực hành: Learning Plan Template](../../../templates/learning-plan.md)**
+👉 **[Mẫu thực hành: Learning Plan Template](../../../templates/learning-plan.md)**  
+👉 **Lưu trữ lâu dài:** [CSDL cá nhân (Personal Knowledge Base)](./personal-knowledge-base.md) — tóm tắt bằng lời mình, review 15 phút/ngày, tổng hợp 1 giờ/tuần để tri thức không "rơi qua xô thủng đáy".

@@ -9,8 +9,9 @@
 > **Time to Master:** 12-24 months (Beginner to Production-ready)
 
 **🎯 New to AI/ML?** Start with [Quick Start Guide](../../QUICK-START.md) to find your path!  
+**🗺️ Structured 9-step path:** [AI Engineering Roadmap 2026](./ai-engineering-roadmap-2026.md) — Foundation → RAG → **Agents** → MLOps → Portfolio.  
 **🔍 AI terms:** See [Glossary](../../GLOSSARY.md) for Machine Learning, Neural Networks, LLM, etc.  
-**📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md) to understand learning paths.
+**📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md) to understand learning paths.  
 **🧩 Knowledge Audit:** Check [AI & ML Knowledge Audit](../../case-studies/knowledge-audits/ai-knowledge-audit.md) to test your expertise!
 
 ---
@@ -77,8 +78,9 @@ graph TD
 *   **[Diffusion Models](./generative-ai/diffusion-models.md):** Cách Stable Diffusion vẽ tranh từ văn bản.
 *   **[🛡️ Responsible AI](./generative-ai/responsible-ai.md):** Nguyên tắc, rủi ro và cách xây dựng AI an toàn, công bằng.
 
-### **7. AI Agents & Multi-Agent Systems (Trợ lý AI)**
-*   **[Agent Architecture](./agents/agent-architecture.md):** Cấu trúc của một Agent (LLM + Memory + Tools).
+### **7. AI Agents & Multi-Agent Systems (Trợ lý AI)** — *Bước 4 trong [AI Engineering Roadmap 2026](./ai-engineering-roadmap-2026.md)*
+*   **[Agents — Mục lục & Lộ trình](./agents/README.md):** ⭐ Tổng quan và thứ tự học (Architecture → Frameworks → RAG/Memory → Multi-Agent → Eval).
+*   **[Agent Architecture](./agents/agent-architecture.md):** Cấu trúc của một Agent (LLM + Memory + Planning + Tools).
 *   **[Agent Frameworks](./agents/agent-frameworks.md):** LangChain, LangGraph, AutoGen và CrewAI.
 *   **[Multi-Agent Collaboration](./agents/multi-agent-collaboration.md):** Cách nhiều Agent hợp tác để giải quyết vấn đề phức tạp.
 *   **[Autonomous Agents](./agents/autonomous-agents.md):** AutoGPT, BabyAGI và tương lai của AI tự chủ.
