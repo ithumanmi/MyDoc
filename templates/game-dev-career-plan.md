@@ -1,0 +1,14 @@
+# 🎯 4-Month Comeback Plan – Unity/Game Tech Engineer
+
+| Tháng/Sprint | Mục tiêu chính | KPI & Deliverable | Hành động chi tiết |
+| --- | --- | --- | --- |
+| **Tháng 1**<br/>Sprint 1-2 | Reset nền tảng & định vị lại bản thân | • Hoàn thành Game Dev Knowledge Audit<br/>• Cập nhật CV + Portfolio hiện tại<br/>• 15h luyện DSA/CS basics | 1. Dùng `case-studies/knowledge-audits/game-dev-knowledge-audit.md` để chấm điểm skill.<br/>2. Gom tất cả dự án cũ vào Notion/GitHub, chọn 2 project tốt nhất.<br/>3. Ôn DSA qua LeetCode Easy/Medium (2 bài/ngày) + note bằng tiếng Anh ngắn.<br/>4. Viết “Career Reset Log” 1 trang (VN hoặc EN) để làm rõ mục tiêu 4 tháng. |
+| **Tháng 2**<br/>Sprint 3-4 | Sản phẩm #1 – Unity Vertical Slice | • Demo 3-5 phút gameplay (GitHub + video)<br/>• Devlog tiếng Anh 4 bài (150 từ/bài)<br/>• 10h luyện tiếng Anh nghe-nói | 1. Thiết kế scope vertical slice (GDD ngắn, 3 core mechanic).<br/>2. Sử dụng `domains/game-dev/unity-deep-dive/` (URP, optimization, DOTS nếu cần).<br/>3. Mỗi tuần up devlog trên LinkedIn/itch.io (vừa luyện tiếng Anh, vừa PR).<br/>4. 2 buổi/tuần shadowing podcast (Fireship, Game Dev Guide) + ghi chú. |
+| **Tháng 3**<br/>Sprint 5-6 | Sản phẩm #2 – Backend/AI Microservice | • Microservice (NodeJS/TS) deploy lên Render/railway<br/>• Tích hợp AI feature (ví dụ dialogue generator)<br/>• Blog post kỹ thuật tiếng Anh | 1. Ý tưởng: matchmaking service, leaderboards, AI NPC chat.<br/>2. Áp dụng `domains/backend-dev/api-design-guide.md` và `domains/ai-ml/ai-engineering-roadmap-2026.md` (chọn 1 module).<br/>3. Viết blog post (500-700 từ) mô tả kiến trúc, khó khăn, kết quả; đăng trên dev.to hoặc Medium.<br/>4. Thử phỏng vấn mock với bạn bè/mentor (1 lần/tuần). |
+| **Tháng 4**<br/>Sprint 7-8 | Go-to-market & Job Hunt | • 30 hồ sơ ứng tuyển (VN + remote)<br/>• 2 freelance pitch/tuần<br/>• 20 kết nối networking mới | 1. Update CV/portfolio với 2 sản phẩm mới, đính kèm video demo.<br/>2. Theo dõi job board (TopCV, ITViec, Glints, RemoteOK) → 5 application/tuần.<br/>3. Săn freelance qua Upwork, Facebook group Game Dev VN (pitch 2 job/tuần).<br/>4. Tham gia Discord/Telegram unity/game dev, xin coffee chat 1-2 người/tuần.<br/>5. Mỗi tuần review kết quả bằng `templates/weekly-review.md` và điều chỉnh chiến lược (nếu <70% KPI). |
+
+## 📌 Notes & Tracking
+- Dùng `templates/daily-log.md` để ghi lại học/tiếng Anh/DSA hàng ngày.
+- Nếu tuần nào thiếu động lực, bật lại `guides/03-career-skills/growth/life-os-framework.md` để reset hệ thống làm việc.
+- Ưu tiên chất lượng sản phẩm > số lượng: nếu vertical slice chưa đủ polish, kéo thêm 1 tuần nhưng phải ship video demo.
+- Kịch bản fallback: nếu job full-time chưa ra sau 4 tháng, dùng 2 demo + blog để xây brand freelance (tối thiểu 1.000 USD/tháng).
