@@ -6,7 +6,7 @@ Chào mừng bạn đến với **Psychology Domain**. Đây là bản đồ ki�
 
 ---
 
-## 🗺️ Learning Path
+## 📚 Learning Path
 
 ### **I. Nền tảng Tâm lý học (Core Knowledge)**
 *Hiểu bộ máy vận hành của con người.*

@@ -3,7 +3,7 @@
 > [← Back to Guides](../../../README.md) | [Home](../../../README.md)
 
 Chào mừng bạn đến với thế giới của **Business Owners**.
-Khác với Tech Startup (tăng trưởng bằng tiền nhà đầu tư), hướng dẫn này dành cho **SME / Kinh doanh truyền thống**: Tăng trưởng bằng **Lợi nhuận từ khách hàng**.
+Khác với Tech Startup (tăng trưởng bằng tiền nhà đầu tư), hướng dẫn này dành cho **SME / Kinh doanh truyền thống**: Tăng trưởng bằng **Lợi nhuận từ khách hàng**. Đây là “Trụ Build” trong [Wealth & Business Hub](../README.md). Khi đã có lợi nhuận ổn định, chuyển sang trụ **Protect** (Legal & Tax) và **Multiply** (Investing) để không chết vì compliance/thuế.
 
 ---
 
@@ -12,8 +12,8 @@ Khác với Tech Startup (tăng trưởng bằng tiền nhà đầu tư), hướ
 Nhiều người khởi nghiệp với tư duy sai lầm: "Đốt tiền lấy thị phần".
 Với SME, nếu không có lãi ngay từ ngày đầu (hoặc tháng đầu), bạn đang gặp rủi ro lớn.
 
-*   **Cashflow is King:** Dòng tiền là máu. Máu ngừng chảy là doanh nghiệp chết.
-*   **Systemize everything:** Nếu doanh nghiệp sụp đổ khi bạn đi vắng 1 tuần -> Bạn đang làm khổ chủ (Self-employed), không phải làm chủ (Business Owner).
+*   **Cashflow is King:** Dòng tiền là máu. Máu ngừng chảy là doanh nghiệp chết. (Xem thêm `finance/money-flow-intelligence.md` để đọc macro cashflow patterns.)
+*   **Systemize everything:** Nếu doanh nghiệp sụp đổ khi bạn đi vắng 1 tuần -> Bạn đang làm khổ chủ (Self-employed), không phải làm chủ (Business Owner). Khi systemize xong, đọc tiếp `investing/fundamentals/asset-classes.md` để chuyển lợi nhuận thành tài sản.
 *   **Lean Operations:** Tinh gọn bộ máy, tối ưu chi phí cố định (Fixed Cost).
 
 ---

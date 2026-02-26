@@ -3,7 +3,8 @@
 > [← Back to Home](../../../README.md) | [🚀 Quick Start](../../../QUICK-START.md) | [📖 Glossary](../../../GLOSSARY.md)
 
 **🎯 Starting your investing journey?** See [Quick Start Guide - Entrepreneur Path](../../../QUICK-START.md#-path-4-entrepreneur--side-income-builder)  
-**🔍 Key terms:** Check [Glossary](../../../GLOSSARY.md) for Macroeconomics, Behavioral Economics, etc.
+**🔍 Key terms:** Check [Glossary](../../../GLOSSARY.md) for Macroeconomics, Behavioral Economics, etc.  
+**🧭 Cần bối cảnh tổng thể?** Xem [Wealth & Business Hub](../README.md) – xác định bạn đang ở trụ Build/Protect/Multiply trước khi chọn lộ trình đầu tư.
 
 ---
 
@@ -21,6 +22,17 @@ Chào mừng bạn đến với kho tàng kiến thức về Đầu tư và Kinh
 ---
 
 ## 📈 Investment Strategy (Chiến lược Đầu tư)
+
+### 🔍 Investor Maturity Checklist (Tự chấm 1-5)
+| Mức | Mô tả | Checklist |
+| --- | --- | --- |
+| **Level 1 – F0** | Chưa hiểu asset class, chưa có quỹ khẩn cấp | Đọc `fundamentals/asset-classes.md`, `fundamentals/financial-health.md`. Thiết lập Emergency Fund 6 tháng. |
+| **Level 2 – Foundation** | Biết đọc BCTC cơ bản, có kế hoạch tiết kiệm đều | Hoàn thành `fundamentals/financial-statements-for-f0.md`, `strategy/passive-investing.md`. Dùng `tools/portfolio-tracking.md`. |
+| **Level 3 – Active Builder** | Biết phân bổ tài sản, hiểu macro cơ bản | Đọc `advanced/macroeconomics.md`, `advanced/portfolio-construction.md`, viết Investment Policy Statement cá nhân. |
+| **Level 4 – Sector Explorer** | Phân tích ngành/chu kỳ, theo dõi dòng tiền thông minh | Sử dụng `vietnam-market/industry-analysis/*.md`, `advanced/smart-money-analysis.md`. Lập watchlist VN30 + ngành ưu tiên. |
+| **Level 5 – Capital Allocator** | Vận hành nhiều chiến lược (value, rotation, derivatives) | Hoàn thành `advanced/value-investing.md`, `advanced/sector-rotation-strategy.md`, `advanced/options-trading.md`, `advanced/risk-management.md`. Có weekly macro briefing. |
+
+> Đánh giá trung thực và chọn lộ trình phù hợp. Nếu Level 1-2, ưu tiên tích luỹ kiến thức và kỷ luật trước khi thử derivatives/crypto.
 
 *   **Value Investing:** [Đầu tư giá trị (Warren Buffett style)](./advanced/value-investing.md).
 *   **Portfolio Construction:** [Xây dựng danh mục đầu tư đa lớp (All-Weather)](./advanced/portfolio-construction.md).
@@ -49,7 +61,7 @@ Chào mừng bạn đến với kho tàng kiến thức về Đầu tư và Kinh
 *   **[🏛️ Banking Industry (Ngành Ngân Hàng)](./vietnam-market/industry-analysis/banking-industry.md):** Phân tích các chỉ số tài chính (CASA, NIM, ROE, ROA) và dữ liệu vốn chủ sở hữu của các ngân hàng hàng đầu Việt Nam.
 *   **[📈 Securities Industry (Ngành Chứng Khoán)](./vietnam-market/industry-analysis/securities-industry.md):** Phân tích chuỗi giá trị ngành chứng khoán, từ nguồn vốn, hoạt động môi giới, margin đến mảng tự doanh và ngân hàng đầu tư (IB).
 *   **[🏗️ Industrial Real Estate (BĐS Khu Công Nghiệp)](./vietnam-market/industry-analysis/industrial-real-estate.md):** Phân tích chuỗi giá trị, dòng vốn FDI, chiến lược "China + 1" và các phương thức hạch toán doanh thu đặc thù của ngành KCN.
-*   **[🏘️ Real Estate Industry (Ngành Bất Động Sản)](./vietnam-market/industry-analysis/real-estate.md):** Tổng quan chuỗi giá trị BĐS dân dụng, từ quỹ đất, xây dựng (vật liệu xây dựng) đến tài trợ vốn và quản lý vận hành.
+*   **[🏘️ Real Estate Industry (Ngành Bất Động Sản)](./vietnam-market/industry-analysis/real-estate.md):** Tổng quan chuỗi giá trị BĐS dân dụng, từ quỹ đất, xây dựng (vật liệu xây dựng) đến tài trợ vốn và quản lý vận hành. Gợi ý cross-link: Khi muốn mua BĐS cá nhân, xem thêm `legal/personal/real-estate-personal.md` và `legal/finance-investing/tax-investing.md` để tránh rủi ro pháp lý.
 *   **[🌳 Rubber Industry (Ngành Cao Su)](./vietnam-market/industry-analysis/rubber-industry.md):** Phân tích chuỗi giá trị từ khai thác mủ đến sản xuất săm lốp (DRC, CSM) và tiềm năng chuyển đổi đất KCN (GVR, PHR).
 *   **[👕 Textile & Garment (Ngành Dệt May)](./vietnam-market/industry-analysis/textile-garment.md):** Phân tích chuỗi giá trị từ nhập khẩu bông/sợi đến các mô hình sản xuất (CMT, FOB, ODM, OBM) và các doanh nghiệp đầu ngành (VGG, TNG, MSH).
 *   **[🧪 Plastic Industry (Ngành Nhựa)](./vietnam-market/industry-analysis/plastic-industry.md):** Phân tích chuỗi giá trị ngành nhựa từ thượng nguồn dầu khí đến các phân khúc hạ nguồn (xây dựng, bao bì, dân dụng, kỹ thuật).
@@ -97,5 +109,7 @@ Chào mừng bạn đến với kho tàng kiến thức về Đầu tư và Kinh
 ---
 
 ## Bắt đầu từ đâu?
-1.  Nếu bạn mới bắt đầu, hãy đọc **[Behavioral Economics](./advanced/behavioral-economics.md)** để tránh mất tiền ngu.
-2.  Sau đó đọc **[Macroeconomics](./advanced/macroeconomics.md)** để biết khi nào nên tấn công/phòng thủ.
+1.  Dùng **Investor Maturity Checklist** để xem bạn đang ở level nào.
+2.  Nếu F0: đọc **[Behavioral Economics](./advanced/behavioral-economics.md)** + **[Financial Health](./fundamentals/financial-health.md)**.
+3.  Nếu Foundation: học **[Macroeconomics](./advanced/macroeconomics.md)** + **[Portfolio Construction](./strategy/portfolio-construction.md)**, áp dụng vào danh mục thật nhỏ.
+4.  Nếu nâng cấp lên Sector Explorer/Capital Allocator: kết hợp dữ liệu từ `vietnam-market/` và `legal/` (thuế, compliance) để tránh rủi ro sàn.

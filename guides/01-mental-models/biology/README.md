@@ -16,13 +16,13 @@ Sinh học cung cấp các mô hình tư duy về sự sống còn, thích nghi,
 
 ### 🌿 2. Hệ sinh thái & Ngách (Ecosystems)
 *Cạnh tranh và Hợp tác.*
-*   **[Ngách sinh thái & Sự cộng sinh](./ecosystems-niches.md):** Tại sao bạn không nên cạnh tranh trực tiếp với kẻ khổng lồ? (Niches, Symbiosis).
+*   **[Ngách sinh thái & Sự cộng sinh](./ecosystems-niches.md):** Tại sao bạn không nên cạnh tranh trực tiếp với kẻ khổng lồ? (Niches, Symbiosis). Liên hệ `../../02-wealth-business/entrepreneurship/solopreneur/audience-first-strategy.md` để biến niche thành lợi thế kinh doanh.
 *   **Sức chứa (Carrying Capacity):** Giới hạn tăng trưởng của mọi hệ thống.
 *   **[Ứng dụng Thực chiến](./ecosystems-niches.md#🛠️-ứng-dụng-thực-chiến-life-applications):** Personal Brand (Monopoly of One), Sức chứa mạng xã hội.
 
 ### 🦠 3. Tế bào & Nhân bản (Cells & Replication)
 *Tăng trưởng và Di truyền.*
-*   **[DNA & Văn hóa Doanh nghiệp](./cells-replication.md):** Mã gen quyết định hình hài tổ chức. Tự nhân bản (Mitosis) và Ung thư (Cancer - Tăng trưởng mất kiểm soát).
+*   **[DNA & Văn hóa Doanh nghiệp](./cells-replication.md):** Mã gen quyết định hình hài tổ chức. Tự nhân bản (Mitosis) và Ung thư (Cancer - Tăng trưởng mất kiểm soát). Khi cần viết SOP/bộ gen tổ chức, tham chiếu `../../02-wealth-business/entrepreneurship/operations/sop-system.md`.
 *   **Lãi suất kép sinh học:** Vi khuẩn nhân đôi sau mỗi 20 phút.
 *   **[Ứng dụng Thực chiến](./cells-replication.md#🛠️-ứng-dụng-thực-chiến-life-applications):** Phân bào doanh nghiệp, Apoptosis cho thói quen xấu.
 

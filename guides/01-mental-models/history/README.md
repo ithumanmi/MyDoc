@@ -38,7 +38,9 @@ Học lịch sử không phải để nhớ ngày tháng năm, mà để nhận 
 2. **Chọn thứ bền vững (Lindy):** Khi đã biết bối cảnh, ưu tiên kỹ năng, thói quen, quyết định có tuổi thọ dài.
 3. **Khóa hoặc đổi đường ray (Path Dependence):** Đánh giá xem quyết định hiện tại sẽ khóa bạn vào đường ray nào, cần đi tiếp hay chuyển hướng.
 4. **Kiểm chứng bằng phản thực tế (Counterfactuals):** Trước/sau khi quyết định, dựng kịch bản “Nếu khác đi thì sao?” để tránh ảo tưởng hindsight.
-> Checklist nhanh: **Chu kỳ → Lindy → Path → Counterfactual.**
+- Kết nối thực chiến: Sau khi hiểu chu kỳ & Lindy, mở `../../02-wealth-business/investing/advanced/macroeconomics.md` để đọc dữ liệu kinh tế hiện tại. Dùng Path Dependence để audit công ty của bạn (xem thêm `../../02-wealth-business/entrepreneurship/operations/finance-101-for-owners.md`).
+
+> Checklist nhanh: **Chu kỳ → Lindy → Path → Counterfactual** + nối sang Investing & Entrepreneurship để hành động.
 
 ---
 

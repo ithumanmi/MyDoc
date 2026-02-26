@@ -327,9 +327,9 @@ Hệ thống này được cập nhật thường xuyên. Nếu bạn:
 
 ---
 
-## 📅 Cập nhật lần cuối
+**📅 Cập nhật lần cuối**
 
-**Tháng 2/2026** - Hệ thống mới được xây dựng
+**Tháng 2/2026** - Hệ thống mới được xây dựng (Xem roadmap tổng ở [Wealth & Business Hub](../README.md))
 
 **Luật thay đổi thường xuyên.** Luôn kiểm tra [Updates](./updates/) và website chính thức trước khi hành động.
 
