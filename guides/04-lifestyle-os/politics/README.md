@@ -34,6 +34,12 @@ Chào mừng bạn đến với module **Politics**. Tại đây, chúng ta khô
 *   **[Ngoại giao Việt Nam](./geopolitics/vietnam-diplomacy.md):** "Ngoại giao cây tre" và chiến lược 2026-2031.
 *   **[Kinh tế Chính trị (Political Economy)](./geopolitics/political-economy.md):** Sự giao thoa giữa tiền bạc và quyền lực toàn cầu.
 
+**Checklist thực hành Phase 3-4:**
+1. **Tuần 1:** Đọc `politics/vietnam-system.md`, ghi chú cơ cấu Đảng + Nhà nước.
+2. **Tuần 2:** So sánh Việt Nam với 1 nước khác qua `world-order.md` + `political-economy.md`.
+3. **Tuần 3:** Viết mini-briefing (500 chữ) về sự kiện geopolitics gần đây và impact đến nghề/công ty bạn.
+4. **Tuần 4:** Thiết kế "Risk radar" cá nhân (liên hệ [Risk Engine](../life-os/risk-engine.md)) – liệt kê 3 rủi ro chính trị có thể ảnh hưởng gia đình/sự nghiệp và phương án dự phòng.
+
 ### 🔗 Phase 4: Chính trị trong kỷ nguyên số (Digital Politics)
 *Công nghệ đang thay đổi luật chơi như thế nào?*
 *   **[Thuật toán & Dân chủ](./digital/algorithms-democracy.md):** Sự thao túng thông tin và Echo Chambers.
@@ -51,3 +57,4 @@ Chào mừng bạn đến với module **Politics**. Tại đây, chúng ta khô
 > **Kết nối tri thức:**
 > * Muốn hiểu về tư duy hệ thống? Xem [Global Intelligence](../../../01-mental-models/global-intelligence/README.md).
 > * Muốn hiểu về đạo đức của người lãnh đạo? Xem [Philosophy](../../../01-mental-models/philosophy/README.md).
+> * Cần khung ứng dụng vào chiến lược cá nhân? Xem [Life OS – Strategy/Risk Engine](../life-os/README.md).

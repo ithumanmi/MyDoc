@@ -3,10 +3,10 @@
 ## 1. Lý thuyết Thế hệ (The Fourth Turning) - Strauss & Howe
 Lịch sử Mỹ (và nhiều nơi khác) di chuyển theo chu kỳ khoảng 80 năm (một đời người), chia làm 4 giai đoạn (Turnings), mỗi giai đoạn khoảng 20 năm:
 
-1.  **High (Mùa Xuân):** Sau khủng hoảng, trật tự mới được thiết lập. Thể chế mạnh, cá nhân yếu. (Ví dụ: 1946-1964, Sau thế chiến II).
-2.  **Awakening (Mùa Hè):** Con người mệt mỏi với kỷ luật, tìm kiếm tự do cá nhân và tâm linh. (Ví dụ: 1965-1984, Phong trào Hippie).
-3.  **Unraveling (Mùa Thu):** Cá nhân mạnh, thể chế yếu. Sự hoài nghi lên ngôi. (Ví dụ: 1985-2005, Kỷ nguyên Dotcom, Tiêu dùng).
-4.  **Crisis (Mùa Đông):** Khủng hoảng nổ ra đe dọa sự tồn vong. Thể chế được tái thiết lập. Sự hy sinh cá nhân lên ngôi. (Ví dụ: 2008-nay, Khủng hoảng tài chính, Đại dịch, Xung đột).
+1.  **High (Mùa Xuân):** Sau khủng hoảng, trật tự mới được thiết lập. Thể chế mạnh, cá nhân yếu. (Ví dụ: 1946-1964, Sau thế chiến II; tại Việt Nam: giai đoạn 1990-1997 sau Đổi Mới, kinh tế tăng trưởng liên tục, lòng tin cao).
+2.  **Awakening (Mùa Hè):** Con người mệt mỏi với kỷ luật, tìm kiếm tự do cá nhân và tâm linh. (Ví dụ: 1965-1984, Phong trào Hippie; ở Việt Nam có thể thấy làn sóng khởi nghiệp tự do, internet bùng nổ giai đoạn 2000-2007).
+3.  **Unraveling (Mùa Thu):** Cá nhân mạnh, thể chế yếu. Sự hoài nghi lên ngôi. (Ví dụ: 1985-2005, Kỷ nguyên Dotcom; ở Việt Nam: sau khủng hoảng tài chính 2008, niềm tin vào thị trường bất động sản/chứng khoán dao động, doanh nghiệp vỡ nợ dây chuyền).
+4.  **Crisis (Mùa Đông):** Khủng hoảng nổ ra đe dọa sự tồn vong. Thể chế được tái thiết lập. Sự hy sinh cá nhân lên ngôi. (Ví dụ: 2008-nay, Khủng hoảng tài chính, Đại dịch, Xung đột; ở Việt Nam: khủng hoảng tài chính châu Á 1997, COVID-19 2020-2021).
 
 *   **Ứng dụng:** Biết mình đang ở mùa nào để hành động phù hợp. Mùa Đông là lúc để phòng thủ và chuẩn bị cho trật tự mới, không phải lúc để mạo hiểm mù quáng.
 
@@ -37,10 +37,11 @@ Kinh tế vận hành theo chu kỳ nợ dài hạn (50-75 năm).
     *   Tăng tỷ lệ tiền mặt/vàng trong danh mục đầu tư.
     *   Giảm nợ xuống mức tối thiểu (Deleveraging cá nhân).
     *   Học kỹ năng mới (Nâng cấp bản thân) để khi Mùa Xuân đến (Kinh tế phục hồi), bạn là người đầu tiên nắm bắt cơ hội.
-
 ### 2. Nhận diện Dấu hiệu Bong bóng (Bubble Spotting)
 *   Khi bà bán rau cũng nói về chứng khoán/crypto -> Dấu hiệu đỉnh.
 *   Khi mọi người vay nợ để mua tiêu sản (Xe, Điện thoại) với niềm tin ngày mai sẽ giàu hơn -> Dấu hiệu đỉnh.
+*   **Ví dụ Việt Nam:** Giai đoạn 2006-2007, vốn ngoại đổ vào, ngân hàng cho vay tràn lan, người người lướt sóng chứng khoán/bất động sản → khủng hoảng 2008 quét sạch.
+*   **Chiến lược:** Khi đám đông tham lam, hãy sợ hãi. Bán dần ra khi tiếng nhạc còn đang to nhất.
 *   **Chiến lược:** Khi đám đông tham lam, hãy sợ hãi. Bán dần ra khi tiếng nhạc còn đang to nhất.
 
 ### 3. Chu kỳ Cảm xúc Cá nhân

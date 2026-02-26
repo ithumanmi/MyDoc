@@ -152,6 +152,21 @@ Meaning là "Battery nền" của Life OS.
 *   **Meaning ↔ Relationship:** Relationship sâu sắc -> Meaning tăng. Meaning lệch lạc -> Chọn sai người, sai nhóm.
 *   **Meaning ↔ Health & Attention:** Không có Meaning -> Dễ nghiện dopamine rẻ tiền. Có Meaning -> Tự nhiên muốn bảo vệ sức khỏe & sự chú ý để làm việc lớn.
 
+### 🧭 Nho – Đạo – Phật: Bộ ba minh triết cho Meaning System
+
+| Trường phái | Điểm mạnh | Khi nào kích hoạt | Cách tích hợp vào Life OS |
+| --- | --- | --- | --- |
+| **Nho (Confucianism)** | Kỷ cương, trách nhiệm xã hội, đạo lý hành xử | Khi cần lãnh đạo, hoạch định chiến lược, giữ kỷ luật | Áp dụng cho Career/Relationship System: đề cao nghĩa – lễ – tín, ra quyết định dựa trên lợi ích cộng đồng, xây “family culture” trong đội nhóm |
+| **Đạo (Taoism)** | Tự tại, thuận theo tự nhiên, giữ năng lượng | Khi cần xả áp, trở về trạng thái quan sát, tránh kiểm soát quá mức | Áp dụng cho Health/Attention System: thiết kế ngày làm việc có nhịp thở, chừa “white space” để trực giác vận hành, không cưỡng cầu những gì chưa đủ duyên |
+| **Phật (Buddhism)** | Từ bi, vô ngã, trí tuệ nội tâm | Khi ego bùng nổ, khi dễ dính vào thành bại, khi cần reset narrative | Áp dụng cho Meaning System: thực hành quan sát tâm, kết nối nỗi đau người khác, biến career thành phương tiện phụng sự |
+
+**Tích hợp ba dòng:**
+1. **Nho** cho “outer game” – hành động chuẩn mực, chiến lược rõ ràng.
+2. **Đạo** cho “inner balance” – giữ tâm không bị vỡ khi môi trường hỗn loạn.
+3. **Phật** cho “meta energy” – lòng từ bi giúp Meaning không bị biến thành tham vọng trống rỗng.
+
+> Khi Life OS mất cân bằng: Kích hoạt Nho để lấy lại cấu trúc, kích hoạt Đạo để lùi lại quan sát, kích hoạt Phật để giải độc cảm xúc và tái tạo narrative.
+
 ---
 
 ## ⚠️ System Dependencies (Thứ tự ưu tiên xử lý)
@@ -211,5 +226,44 @@ Sử dụng bảng này để **Audit hàng tuần**. Đừng đợi sập mới
 > Bạn không còn ở mức "Làm sao để sống tốt hơn".
 > Bạn đã ở mức: **"Làm sao để không tự phá hủy cuộc đời mình khi mọi thứ không như ý".**
 > Đây là tư duy của Senior Engineer, Founder và người từng ngã mạnh nhưng không muốn ngã lại.
+
+---
+
+## 🧿 Eastern Wisdom OS (Module bổ trợ)
+
+> Kích hoạt DNA Á Đông để Life OS vừa sắc bén vừa giàu lòng trắc ẩn.
+
+### 🎯 Mục tiêu
+1. **Giữ kỷ luật và trách nhiệm (Nho)** mà không biến thành robot.
+2. **Nuôi dưỡng sự tự tại (Đạo)** để không bị cuốn vào hỗn loạn.
+3. **Tăng nội lực từ bi (Phật)** để sức mạnh đi cùng lòng nhân.
+
+### 🧠 Kỹ năng then chốt
+- **Confucian Planning:** Lập kế hoạch đời sống dựa trên nghĩa – lễ – tín, luôn có “đạo lý hành xử” trong các mối quan hệ.
+- **Taoist Detachment:** Biết “vô vi hữu vi” – hành động trong flow, không cưỡng cầu kết quả chưa đủ duyên.
+- **Buddhist Metta Intelligence:** Quan sát tâm, bóc tách ego, dùng lòng từ bi làm năng lượng tái thiết.
+
+### 🧪 Bài tập thực hành
+1. **Nhật ký Tam giáo (Daily Triad Journal)**
+   - Sáng: Viết 1 câu “Nho” (cam kết trách nhiệm hôm nay).
+   - Trưa: Check-in “Đạo” – hôm nay mình đang cưỡng cầu điều gì? Thả lỏng ở đâu?
+   - Tối: Thực hành “Phật” – ghi lại 1 hành động nhỏ giúp đời nhẹ hơn.
+
+2. **Tam thức quyết (Weekly Ritual)**
+   - **Ngày 1:** Review kế hoạch/OKR bằng góc nhìn Nho – có ai bị ảnh hưởng? mình có giữ chữ tín không?
+   - **Ngày 3:** Retreat Đạo – 2 giờ không thiết bị, chỉ đi bộ/thiền, quan sát hệ thống nội tâm.
+   - **Ngày 5:** Reflection Phật – chọn một nỗi đau xã hội (VD: burnout của đồng đội) và xem mình có thể làm gì.
+
+3. **Tri-harmony Sprint (30 ngày)**
+   - Tuần 1: Kỷ luật Nho – hoàn thiện 1 hệ thống kỷ luật cá nhân (routine, calendar block).
+   - Tuần 2: Tự tại Đạo – thử sống “Slow slot” mỗi ngày (60 phút không mục tiêu, chỉ quan sát).
+   - Tuần 3: Từ bi Phật – làm một dự án giúp người khác (mentoring, chia sẻ kiến thức).
+   - Tuần 4: Hòa hợp – viết báo cáo “Tôi mạnh hơn nhờ Nho – Đạo – Phật như thế nào?”.
+
+### 🔁 Integration Checklist
+- [ ] Career quyết định dựa trên “Nghĩa – Lợi – Tín”.
+- [ ] Lịch làm việc có slot “Non-doing” để tâm hồi phục.
+- [ ] Có bài thực hành từ bi (thiền Metta, giúp đỡ vô danh) mỗi tuần.
+- [ ] Khi mâu thuẫn nội tâm: hỏi “đây có phải phiên bản trí tuệ, tự tại, từ bi nhất của mình không?”.
 
 > [← Home](../../../README.md)

@@ -28,8 +28,17 @@ Học lịch sử không phải để nhớ ngày tháng năm, mà để nhận 
 
 ### 🔮 4. Phản thực tế (Counterfactuals)
 *Điều gì sẽ xảy ra nếu...?*
-*   **[Tư duy Phản thực tế](./counterfactuals.md):** Đánh giá quyết định dựa trên các kịch bản thay thế (Alternative Histories).
+*   **[Tư duy Phản thực tế](./counterfactuals.md):** Đánh giá quyết định dựa trên các kịch bản thay thế (Alternative Histories) bằng template post-mortem, pre-mortem.
 *   **Thiên kiến Hậu xét (Hindsight Bias):** "Tôi biết ngay mà!" - Sự ảo tưởng rằng quá khứ dễ đoán hơn thực tế.
+
+---
+
+## 🧩 Cách kết hợp các Mental Model Lịch sử
+1. **Xác định bối cảnh (Chu kỳ):** Dùng các chu kỳ để biết bạn đang ở “mùa” nào của nền kinh tế/xã hội và của chính mình.
+2. **Chọn thứ bền vững (Lindy):** Khi đã biết bối cảnh, ưu tiên kỹ năng, thói quen, quyết định có tuổi thọ dài.
+3. **Khóa hoặc đổi đường ray (Path Dependence):** Đánh giá xem quyết định hiện tại sẽ khóa bạn vào đường ray nào, cần đi tiếp hay chuyển hướng.
+4. **Kiểm chứng bằng phản thực tế (Counterfactuals):** Trước/sau khi quyết định, dựng kịch bản “Nếu khác đi thì sao?” để tránh ảo tưởng hindsight.
+> Checklist nhanh: **Chu kỳ → Lindy → Path → Counterfactual.**
 
 ---
 
