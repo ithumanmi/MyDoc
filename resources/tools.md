@@ -98,3 +98,9 @@
 2.  **GitHub Copilot:** AI pair programmer. Code nhanh hơn 50%.
 3.  **Claude (Anthropic):** Xử lý văn bản dài, tóm tắt sách/tài liệu cực tốt.
 4.  **Midjourney / DALL-E:** Tạo ảnh minh họa cho blog/slide.
+
+---
+
+## 🧪 Bonus: Research Workflow
+
+Nếu bạn đang thực hiện dự án học thuật hoặc R&D, tham khảo thêm danh sách [🔬 Research Workflow Tools](./research-tools.md) để có bộ công cụ chuyên sâu cho việc tìm tài liệu, đọc, viết, phân tích dữ liệu và cộng tác.
