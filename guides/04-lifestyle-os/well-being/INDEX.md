@@ -17,6 +17,7 @@ Sử dụng file này để tìm nhanh các giao thức tối ưu hóa sức kh�
 
 ### Protocols (Giao thức)
 *   [🛌 Sleep Optimization](./biohacking/sleep-optimization.md): Giấc ngủ sâu & hồi phục.
+*   [🌙 Ngủ đúng & Năng lượng cả ngày](./ngu-dung-va-nang-luong-ca-ngay.md): Cách ngủ đúng, duy trì năng lượng như sáng suốt ngày, tăng mức năng lượng nền.
 *   [🏃 Movement Protocols](./biohacking/movement-protocols.md): Vận động tối ưu (Zone 2, HIIT).
 *   [🥗 Nutrition for Brain](./biohacking/nutrition-for-brain.md): Thực phẩm bổ não.
 *   [⚙️ Health OS Overview](./biohacking/health-os-overview.md): Tổng quan hệ điều hành sức khỏe.
