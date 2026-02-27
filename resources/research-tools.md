@@ -31,12 +31,12 @@
 
 | Công cụ | Điểm nổi bật | Giá |
 | --- | --- | --- |
-| **Consensus** | AI đọc >200M bài báo, trả lời Có/Không kèm trích dẫn | Free |
-| **Elicit** | Tự động tìm bài liên quan, trích xuất dữ liệu nguồn uy tín | Free |
-| **Semantic Scholar** | Search miễn phí từ Viện Allen, mạnh về AI/CS | Free |
-| **ResearchRabbit** | “Spotify cho bài báo”: đề xuất liên quan dựa trên graph | Free |
-| **Google Scholar** | Công cụ tìm kiếm học thuật phổ biến nhất | Free |
-| **Microsoft Academic** | (Legacy) hỗ trợ truy vấn theo chủ đề, tác giả | Free |
+| **Consensus** ([link](https://consensus.app/)) | AI đọc >200M bài báo, trả lời Có/Không kèm trích dẫn | Free |
+| **Elicit** ([link](https://elicit.org/)) | Tự động tìm bài liên quan, trích xuất dữ liệu nguồn uy tín | Free |
+| **Semantic Scholar** ([link](https://www.semanticscholar.org/)) | Search miễn phí từ Viện Allen, mạnh về AI/CS | Free |
+| **ResearchRabbit** ([link](https://www.researchrabbit.ai/)) | “Spotify cho bài báo”: đề xuất liên quan dựa trên graph | Free |
+| **Google Scholar** ([link](https://scholar.google.com/)) | Công cụ tìm kiếm học thuật phổ biến nhất | Free |
+| **Microsoft Academic** ([link](https://academic.microsoft.com/)) | (Legacy) hỗ trợ truy vấn theo chủ đề, tác giả | Free |
 
 ---
 
@@ -44,12 +44,12 @@
 
 | Công cụ | Use case | Giá |
 | --- | --- | --- |
-| **NotebookLM** | Chuyển bài báo thành podcast + mindmap | Free |
-| **Scholarly / Scholarcy** | Tóm tắt, tạo flashcard | Free tier |
-| **ChatPDF** | Hỏi đáp trực tiếp trên PDF | Free tier |
-| **Scite** | Xem bài báo được ủng hộ hay phản bác | Free tier |
-| **Scribe** | Tạo summary và bullet chính | Free |
-| **Ref-N-Write** | Gợi ý paraphrase, tóm tắt và trích dẫn | Free tier |
+| **NotebookLM** ([link](https://notebooklm.google.com/)) | Chuyển bài báo thành podcast + mindmap | Free |
+| **Scholarly / Scholarcy** ([link](https://www.scholarcy.com/)) | Tóm tắt, tạo flashcard | Free tier |
+| **ChatPDF** ([link](https://www.chatpdf.com/)) | Hỏi đáp trực tiếp trên PDF | Free tier |
+| **Scite** ([link](https://scite.ai/)) | Xem bài báo được ủng hộ hay phản bác | Free tier |
+| **Scribe** ([link](https://scribehow.com/)) | Tạo summary và bullet chính | Free |
+| **Ref-N-Write** ([link](https://ref-n-write.com/)) | Gợi ý paraphrase, tóm tắt và trích dẫn | Free tier |
 
 ---
 
@@ -57,12 +57,12 @@
 
 | Công cụ | Use case | Giá |
 | --- | --- | --- |
-| **Paperpal** | AI editor văn phong nghiên cứu (Grammarly for academia) | Free |
-| **Jenni AI** | Tự động gợi ý hoàn thiện câu/đoạn | Free tier |
-| **Overleaf** | Soạn thảo LaTeX collaborative | Free |
-| **SciSpace** | All-in-one: viết, trích dẫn, xuất bản | Free tier |
-| **Mendeley** | Quản lý tài liệu & bibliography | Free |
-| **Zotero** | Quản lý & đồng bộ tài liệu, plugin trích dẫn | Free |
+| **Paperpal** ([link](https://paperpal.com/)) | AI editor văn phong nghiên cứu (Grammarly for academia) | Free |
+| **Jenni AI** ([link](https://jenni.ai/)) | Tự động gợi ý hoàn thiện câu/đoạn | Free tier |
+| **Overleaf** ([link](https://www.overleaf.com/)) | Soạn thảo LaTeX collaborative | Free |
+| **SciSpace** ([link](https://typeset.io/)) | All-in-one: viết, trích dẫn, xuất bản | Free tier |
+| **Mendeley** ([link](https://www.mendeley.com/)) | Quản lý tài liệu & bibliography | Free |
+| **Zotero** ([link](https://www.zotero.org/)) | Quản lý & đồng bộ tài liệu, plugin trích dẫn | Free |
 
 ---
 
@@ -70,12 +70,12 @@
 
 | Công cụ | Use case | Giá |
 | --- | --- | --- |
-| **Tableau** | Phân tích & trực quan hóa dữ liệu | Free tier |
-| **Power BI** | Phân tích dữ liệu từ Microsoft | Free tier |
-| **R Studio** | Phân tích thống kê với R | Free |
-| **Python (Pandas, NumPy)** | Xử lý dữ liệu mã nguồn mở | Free |
-| **Jupyter Notebook** | Môi trường coding cho phân tích khoa học | Free |
-| **Google Data Studio (Looker Studio)** | Dashboard & báo cáo dữ liệu | Free |
+| **Tableau** ([link](https://www.tableau.com/)) | Phân tích & trực quan hóa dữ liệu | Free tier |
+| **Power BI** ([link](https://powerbi.microsoft.com/)) | Phân tích dữ liệu từ Microsoft | Free tier |
+| **R Studio** ([link](https://posit.co/download/rstudio-desktop/)) | Phân tích thống kê với R | Free |
+| **Python (Pandas, NumPy)** ([link](https://www.python.org/)) | Xử lý dữ liệu mã nguồn mở | Free |
+| **Jupyter Notebook** ([link](https://jupyter.org/)) | Môi trường coding cho phân tích khoa học | Free |
+| **Google Data Studio (Looker Studio)** ([link](https://lookerstudio.google.com/)) | Dashboard & báo cáo dữ liệu | Free |
 
 ---
 
@@ -83,12 +83,12 @@
 
 | Công cụ | Use case | Giá |
 | --- | --- | --- |
-| **Ablilu / Ablilu?** | Quản lý dự án nghiên cứu trực quan (Kanban) | Free |
-| **Notion** | Ghi chú, lưu trữ dữ liệu tập trung | Free tier |
-| **Airtable** | Quản lý dataset dạng bảng linh hoạt | Free tier |
-| **Evernote** | Ghi chú, lưu trữ thông tin | Free tier |
-| **Google Keep** | Ghi chú nhanh, sync đa thiết bị | Free |
-| **Todoist** | Quản lý công việc, dự án nghiên cứu | Free tier |
+| **Ablilu** ([link](https://ablilu.com/)) | Quản lý dự án nghiên cứu trực quan (Kanban) | Free |
+| **Notion** ([link](https://www.notion.so/product)) | Ghi chú, lưu trữ dữ liệu tập trung | Free tier |
+| **Airtable** ([link](https://www.airtable.com/)) | Quản lý dataset dạng bảng linh hoạt | Free tier |
+| **Evernote** ([link](https://evernote.com/)) | Ghi chú, lưu trữ thông tin | Free tier |
+| **Google Keep** ([link](https://keep.google.com/)) | Ghi chú nhanh, sync đa thiết bị | Free |
+| **Todoist** ([link](https://todoist.com/)) | Quản lý công việc, dự án nghiên cứu | Free tier |
 
 ---
 
@@ -96,10 +96,10 @@
 
 | Công cụ | Use case | Giá |
 | --- | --- | --- |
-| **Gensim** | Topic modeling, tóm tắt khối văn bản lớn | Free |
-| **spaCy** | Xử lý ngôn ngữ tự nhiên (NER, dependency parse) | Free |
-| **NLTK** | Bộ NLP cổ điển cho phân tích văn bản | Free |
-| **Textract** | Trích xuất dữ liệu từ PDF/DOC/ảnh | Free tier |
+| **Gensim** ([link](https://radimrehurek.com/gensim/)) | Topic modeling, tóm tắt khối văn bản lớn | Free |
+| **spaCy** ([link](https://spacy.io/)) | Xử lý ngôn ngữ tự nhiên (NER, dependency parse) | Free |
+| **NLTK** ([link](https://www.nltk.org/)) | Bộ NLP cổ điển cho phân tích văn bản | Free |
+| **Textract** ([link](https://aws.amazon.com/textract/)) | Trích xuất dữ liệu từ PDF/DOC/ảnh | Free tier |
 
 ---
 
@@ -107,11 +107,11 @@
 
 | Công cụ | Use case | Giá |
 | --- | --- | --- |
-| **Slack** | Chat nhóm nghiên cứu, tích hợp workflow | Free tier |
-| **Google Drive** | Lưu trữ/chia sẻ dữ liệu | Free tier |
-| **Microsoft Teams** | Họp & chia sẻ tài liệu trực tuyến | Free tier |
-| **Asana** | Quản lý dự án nghiên cứu | Free tier |
-| **Zoom** | Họp trực tuyến (giới hạn thời gian bản free) | Free tier |
+| **Slack** ([link](https://slack.com/)) | Chat nhóm nghiên cứu, tích hợp workflow | Free tier |
+| **Google Drive** ([link](https://www.google.com/drive/)) | Lưu trữ/chia sẻ dữ liệu | Free tier |
+| **Microsoft Teams** ([link](https://www.microsoft.com/microsoft-teams/group-chat-software)) | Họp & chia sẻ tài liệu trực tuyến | Free tier |
+| **Asana** ([link](https://asana.com/)) | Quản lý dự án nghiên cứu | Free tier |
+| **Zoom** ([link](https://zoom.us/)) | Họp trực tuyến (giới hạn thời gian bản free) | Free tier |
 
 ---
 
@@ -119,9 +119,9 @@
 
 | Công cụ | Use case | Giá |
 | --- | --- | --- |
-| **Zapier** | Tự động hóa tác vụ (kết nối apps) | Free tier |
-| **IFTTT** | Kết nối ứng dụng & automation đơn giản | Free |
-| **Integromat / Make** | Tự động hóa workflow phức tạp | Free tier |
+| **Zapier** ([link](https://zapier.com/)) | Tự động hóa tác vụ (kết nối apps) | Free tier |
+| **IFTTT** ([link](https://ifttt.com/)) | Kết nối ứng dụng & automation đơn giản | Free |
+| **Integromat / Make** ([link](https://www.make.com/)) | Tự động hóa workflow phức tạp | Free tier |
 
 ---
 
