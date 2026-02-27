@@ -2,6 +2,28 @@
 
 > **"A reader lives a thousand lives before he dies. The man who never reads lives only one."** - George R.R. Martin
 
+*Last updated: February 2026*
+
+---
+
+## 🧭 Cách sử dụng tài liệu
+
+1. **Chọn 1 cuốn/tuần** theo mục tiêu hiện tại (Technical, Architecture, Career...).
+2. **Log tiến độ** trong [Reading Tracker](../templates/weekly-review.md#reading-log) hoặc tạo mục riêng trong Notion/Obsidian.
+3. **Snapshot bài học** sau mỗi cuốn để tái sử dụng trong portfolio/blog.
+
+> Gợi ý: dùng Template "Reading Highlights" trong [Doc Framework](../doc-framework.md#habit-tracker) để chuẩn hóa ghi chú.
+
+---
+
+## 📑 Table of Contents
+
+- [1. Technical Foundations](#%F0%9F%8F%97%EF%B8%8F-1-technical-foundations-ki%E1%BA%BFn-th%E1%BB%A9c-n%E1%BB%81n-t%E1%BA%A3ng)
+- [2. Architecture & System Design](#%F0%9F%8F%9B%EF%B8%8F-2-architecture--system-design-ki%E1%BA%BFn-tr%C3%BAc-h%E1%BB%87-th%E1%BB%91ng)
+- [3. Career & Soft Skills](#%F0%9F%A7%A0-3-career--soft-skills-s%E1%BB%B1-nghi%E1%BB%87p--k%E1%BB%B9-n%C4%83ng-m%E1%BB%81m)
+- [4. Mindset & Productivity](#%F0%9F%92%A1-4-mindset--productivity-t%C6%B0-duy--hi%E1%BB%87u-su%E1%BA%A5t)
+- [5. Domain Specific](#%F0%9F%93%9A-5-domain-specific-theo-l%C4%A9nh-v%E1%BB%B1c)
+
 ---
 
 ## 🏗️ 1. Technical Foundations (Kiến thức nền tảng)
@@ -83,3 +105,5 @@ Kỹ thuật giúp bạn có việc, kỹ năng mềm giúp bạn thăng tiến.
 *   **AI/ML:** "Deep Learning" - Ian Goodfellow (Sách giáo khoa về DL).
 *   **Web Dev:** "You Don't Know JS" (Series) - Kyle Simpson (Hiểu sâu về JS).
 *   **DevOps:** "The Phoenix Project" - Gene Kim (Tiểu thuyết về IT Ops).
+
+> 👉 Mỗi domain đều có danh sách link chuyên sâu trong `resources/collected_links/`. Ví dụ: [AI Development](./collected_links/ai-development.md), [Backend Dev](./collected_links/backend-dev.md).

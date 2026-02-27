@@ -2,6 +2,26 @@
 
 > Học hỏi từ những người giỏi nhất thế giới thông qua tai nghe của bạn.
 
+*Last updated: February 2026*
+
+---
+
+## 🧭 Cách sử dụng tài liệu
+
+1. **Tạo playlist tuần**: chọn 1 podcast dài (deep dive) + 2 video ngắn (update công nghệ).
+2. **Log ghi chú** bằng [Template Weekly Review](../templates/weekly-review.md#learning--content) hoặc Obsidian Daily Notes.
+3. **Chuyển hóa insight**: viết 1 post/tuần tóm tắt bài học để củng cố kiến thức.
+
+> Gợi ý: dùng [Doc Framework](../doc-framework.md#habit-tracker) để đánh dấu số phút nghe học mỗi ngày.
+
+---
+
+## 📑 Table of Contents
+
+- [Podcasts (EN)](#%F0%9F%8E%A7-podcasts-ti%E1%BA%BFng-anh)
+- [YouTube Channels](#%F0%9F%93%BA-youtube-channels)
+- [Podcasts & Channels (VN)](#%F0%9F%87%BB%F0%9F%87%B3-podcasts--channels-ti%E1%BA%BFng-vi%E1%BB%87t)
+
 ---
 
 ## 🎧 Podcasts (Tiếng Anh)

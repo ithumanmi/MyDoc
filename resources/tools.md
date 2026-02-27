@@ -2,6 +2,28 @@
 
 > **"A craftsman is only as good as his tools."**
 
+*Last updated: February 2026*
+
+---
+
+## 🧭 Cách sử dụng tài liệu
+
+1. **Diagnose nhu cầu**: Productivity, Knowledge, Coding hay AI? → chọn 1 tool/nhóm.
+2. **Thiết lập ritual**: Đưa tool vào lịch (vd. Pomodoro 3 block/ngày, Review ghi chú với Obsidian tối Chủ nhật).
+3. **Đánh giá hiệu quả**: Viết lại trong [Weekly Review](../templates/weekly-review.md#tooling--automation) xem tool có thực sự giúp bạn không.
+
+> Tip: Tạo danh sách “Tool Stack” cá nhân trong [Doc Framework](../doc-framework.md#habit-tracker) để chuẩn hóa khi setup máy mới.
+
+---
+
+## 📑 Table of Contents
+
+- [Productivity & Focus](#%E2%9A%A1-productivity--focus-hi%E1%BB%87u-su%E1%BA%AFt--t%E1%BA%ADp-trung)
+- [Knowledge Management](#%F0%9F%93%9D-knowledge-management-qu%E1%BA%A3n-l%C3%BD-ki%E1%BA%BFn-th%E1%BB%A9c)
+- [Development & Coding](#%F0%9F%92%BB-development--coding)
+- [Networking & Portfolio](#%F0%9F%8C%90-networking--portfolio)
+- [AI Assistants](#%F0%9F%A4%96-ai-assistants-tr%E1%BB%A3-l%C3%BD-%E1%BA%A3o)
+
 ---
 
 ## ⚡ Productivity & Focus (Hiệu suất & Tập trung)

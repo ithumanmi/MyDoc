@@ -2,6 +2,26 @@
 
 > **"If you want to go fast, go alone. If you want to go far, go together."**
 
+*Last updated: February 2026*
+
+---
+
+## 🧭 Cách sử dụng tài liệu
+
+1. **Chọn 1-2 cộng đồng** phù hợp với mục tiêu (học, network, launch sản phẩm).
+2. **Đặt KPI nhỏ**: mỗi tuần đóng góp ít nhất 1 comment hoặc chia sẻ 1 tài nguyên hữu ích.
+3. **Log học được** trong phần Networking của [Weekly Review Template](../templates/weekly-review.md#networking--relationships).
+
+> Tip: Tạo "Community CRM" trong [Doc Framework](../doc-framework.md#habit-tracker) để ghi chú người bạn kết nối.
+
+---
+
+## 📑 Table of Contents
+
+- [Global Communities](#%F0%9F%8C%90-global-communities-qu%E1%BB%91c-t%E1%BA%BF)
+- [Vietnam Communities](#%F0%9F%87%BB%F0%9F%87%B3-vietnam-communities-trong-n%C6%B0%E1%BB%9Bc)
+- [Networking Tips](#%F0%9F%A4%9D-networking-tips)
+
 ---
 
 ## 🌐 Global Communities (Quốc tế)
