@@ -1,19 +1,21 @@
 # Link Audit Report
 
-**Date:** Wed 02/18/2026
+**Date:** Fri 02/27/2026
 
-**Summary:** 3 broken links found out of 242 total links
+**Summary:** 3 broken links found out of 286 total links
 
 ## Broken Links
 
-### QUICK-START.md
+### guides/README.md
 
-- ❌ `[Stoicism for Modern Life](./guides/philosophy/stoicism-for-modern-life.md)`
-  - Target: `guides\philosophy\stoicism-for-modern-life.md`
+- ❌ `[Entrepreneurship Audit](../../case-studies/knowledge-audits/entrepreneurship-knowledge-audit.md)`
+  - Target: `..\case-studies\knowledge-audits\entrepreneurship-knowledge-audit.md`
 
-- ❌ `[Decision-Making Frameworks](./guides/philosophy/decision-making-frameworks.md)`
-  - Target: `guides\philosophy\decision-making-frameworks.md`
+- ❌ `[Life OS Audit](../../case-studies/knowledge-audits/life-os-knowledge-audit.md)`
+  - Target: `..\case-studies\knowledge-audits\life-os-knowledge-audit.md`
 
-- ❌ `[Ethics in Tech](./guides/philosophy/ethics-in-tech.md)`
-  - Target: `guides\philosophy\ethics-in-tech.md`
+### domains/game-dev/README.md
+
+- ❌ `[guides/game-dev/](../../guides/game-dev/README.md)`
+  - Target: `guides\game-dev\README.md`
 

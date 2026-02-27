@@ -49,8 +49,7 @@ Chào mừng đến với thư viện hướng dẫn chuyên sâu. Tại đây t
     *   Hiểu về Cổ phiếu, Bất động sản và các kênh tài sản.
     *   [Behavioral Economics](./02-wealth-business/investing/advanced/behavioral-economics.md) - Tâm lý học đầu tư.
 *   **[🏢 Entrepreneurship (Khởi nghiệp)](./02-wealth-business/entrepreneurship/README.md)**
-    *   Hướng dẫn xây dựng doanh nghiệp từ Zero to One.
-    *   **[Entrepreneurship Audit](../../case-studies/knowledge-audits/entrepreneurship-knowledge-audit.md)** ⭐ **NEW** - Thử thách đo lường năng lực Founder.
+    *   **[Entrepreneurship Audit](../case-studies/knowledge-audits/entrepreneurship-knowledge-audit.md)** ⭐ **NEW** - Thử thách đo lường năng lực Founder.
     *   Vận hành SME và Solopreneur.
 *   **[🚚 Logistics & Supply Chain (Hậu cần)](./02-wealth-business/logistics/README.md)** ⭐ **NEW**
     *   Quản trị chuỗi cung ứng, kho vận và xuất nhập khẩu.
@@ -96,7 +95,7 @@ Chào mừng đến với thư viện hướng dẫn chuyên sâu. Tại đây t
     *   Vận mệnh: Thống kê mẫu hình, Timing.
 *   **[🧠 Global Intelligence (Trí tuệ Toàn cầu)](./01-mental-models/global-intelligence/README.md)**
     *   Tư duy hệ thống (Systems Thinking) và Vĩ mô (Macro).
-*   **[⚙️ Failure Management System (FMS)](./failure-management-system.md)** ⭐ **NEW**
+*   ⚙️ **[Failure Management System (FMS)](./01-mental-models/failure-management-system.md)**
     *   Hệ thống quản trị rủi ro và sửa sai thần tốc.
 
 ## 🧬 Lifestyle & OS (Hệ điều hành cuộc sống)
@@ -104,8 +103,8 @@ Chào mừng đến với thư viện hướng dẫn chuyên sâu. Tại đây t
 *   **[🧬 Life Operating System (Hệ điều hành Cuộc đời)](./04-lifestyle-os/life-os/README.md)** ⭐ **CORE**
     *   **6 Engines:** Decision, Growth, Risk, Strategy, Optimization, Alignment.
 *   **[🧘 Well-being (Sức khỏe & Tinh thần)](./04-lifestyle-os/well-being/README.md)**
-    *   Biohacking, tối ưu giấc ngủ và Stoicism.
-    *   **[Life OS Audit](../../case-studies/knowledge-audits/life-os-knowledge-audit.md)** ⭐ **NEW** - Thử thách đo lường hiệu suất cá nhân.
+*   **[🧘 Well-being (Sức khỏe & Tinh thần)](./04-lifestyle-os/well-being/README.md)**
+    *   **[Life OS Audit](../case-studies/knowledge-audits/life-os-knowledge-audit.md)** ⭐ **NEW** - Thử thách đo lường hiệu suất cá nhân.
 *   **[🏛️ Politics (Chính trị)](./04-lifestyle-os/politics/README.md)** ⭐ **Vietnam Deep Dive!**
     *   Bản chất quyền lực, thể chế và địa chính trị Việt Nam.
 

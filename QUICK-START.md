@@ -137,7 +137,7 @@ Click vào profile phù hợp nhất với bạn:
 
 #### **Tuần 1-4: Leadership & Strategy**
 1. 🏛️ **Philosophy & Mental Models:**
-   - [Stoicism for Modern Life](./guides/04-lifestyle-os/well-being/mental-resilience/stoicism-for-modern-life.md)
+   - [Stoicism for Modern Life](./guides/01-mental-models/philosophy/practical-applications/stoicism-for-modern-life.md)
    - [Philosophy Guide](./guides/01-mental-models/philosophy/README.md) - Explore decision-making frameworks
 2. 🎮 **[Game Theory](./guides/03-career-skills/growth/game-theory.md)** + **[Game Theory for Engineers](./guides/03-career-skills/growth/game-theory-for-engineers.md)** (4 giờ)
 3. 🧠 **[Life OS Framework](./guides/03-career-skills/growth/life-os-framework.md)** (3 giờ) - Hệ điều hành cuộc đời

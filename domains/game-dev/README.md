@@ -12,7 +12,7 @@
 >
 > **Time to Master:** 12-24 months (Beginner to Professional Unity Developer)
 >
-> 🚀 **New Guide:** [Roadmap to $10k/Month for Game Developers](../../guides/game-dev/game-dev-10k-roadmap.md)
+- 💰 **Business:** [Roadmap to $10k/Month for Game Developers](../../guides/03-career-skills/game-dev/game-dev-10k-roadmap.md)
 
 **🎯 Starting Game Dev?** See [Quick Start - Beginner Path](../../QUICK-START.md#-path-1-beginner-developer-0-1-year) for your first steps!  
 **🔍 Game Dev terms:** Check [Glossary](../../GLOSSARY.md) - Unity, C#, Physics, AI concepts explained simply.  
