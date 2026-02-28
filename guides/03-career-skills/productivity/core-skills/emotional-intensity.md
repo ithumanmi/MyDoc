@@ -85,3 +85,8 @@ Tracking 4 tuần liên tục để thấy đường baseline đang ổn định
 - [ ] Repair conversation (nếu cần) hoàn tất trong 24h
 
 > 📌 *Reminder:* Cường độ cảm xúc giống như dòng điện: thiếu không chạy được máy, quá tải sẽ đốt cháy mạch. Thiết kế hệ thống giúp bạn “điều biến” nó đúng lúc, đúng nơi.
+
+### Related Skills
+- [Awareness Depth](awareness-depth.md): tăng khả năng quan sát tín hiệu nội tâm.
+- [Energy Management](energy-management.md): đảm bảo nền tảng thể chất để cảm xúc ổn định.
+- [Experience Digestion](experience-digestion.md): biến các cơn cảm xúc thành bài học tích hợp.

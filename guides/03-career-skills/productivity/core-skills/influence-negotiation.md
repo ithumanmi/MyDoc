@@ -87,3 +87,8 @@ Con người sợ mất $100 hơn là muốn kiếm được $100.
 > **Đọc thêm:**
 > *   [Communication Mastery](./communication-mastery.md)
 > *   [Public Speaking Mastery](./public-speaking-mastery.md)
+
+### Related Skills
+- [Communication Mastery](communication-mastery.md): xây nền tảng diễn đạt rõ ràng, logic.
+- [Strategic Networking](strategic-networking.md): mở rộng hệ sinh thái quan hệ trước khi bước vào đàm phán.
+- [Awareness Depth](awareness-depth.md): đọc tín hiệu cảm xúc và quyền lực trong phòng.

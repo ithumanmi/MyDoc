@@ -39,6 +39,8 @@ Xây dựng nền tảng cho một bộ não hiệu suất cao.
 *   **[Deep Work System](./core-skills/deep-work-system.md):** Kỹ năng làm việc sâu, loại bỏ xao nhãng.
 *   **[Personal Work Framework (Framework làm việc)](./core-skills/personal-work-framework.md):** ⭐ **NEW** Xây nguyên tắc + quy trình + nghi thức + công cụ cho bản thân.
 *   **[Density of Life (Mật độ Sống)](./core-skills/density-of-life.md):** Cách sống 1 năm bằng 10 năm trải nghiệm.
+*   **[Core Skills Index](./core-skills/INDEX.md):** Lộ trình học tập theo từng tầng kỹ năng (Foundation → Focus → Influence...).
+*   **[Core Skills Tracker](./core-skills/core-skills-tracker.md):** Bảng log ritual & metrics để duy trì tiến bộ đa kỹ năng.
 *   **[Working with AI](./meta-skills/working-with-ai.md):** Tư duy Centaur - Làm chủ AI thay vì để AI làm chủ bạn.
 *   **[Learning How to Learn](./meta-skills/learning-how-to-learn.md):** Kỹ năng tự học đỉnh cao (Feynman, Spaced Repetition).
 *   **[Personal Knowledge Base (CSDL cá nhân)](./meta-skills/personal-knowledge-base.md):** ⭐ **NEW** Thu thập – lưu trữ – truy xuất tri thức; tránh "xô thủng đáy", xây lợi thế cạnh tranh.

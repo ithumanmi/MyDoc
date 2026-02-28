@@ -95,3 +95,8 @@ Theo dõi mỗi tuần bằng bảng trắng/Notion để não thấy “feedbac
 - [ ] Shutdown hoàn tất + ghi lại lesson học được hôm nay
 
 > 📌 *Reminder:* Attention không phải trạng thái cố định mà là kỹ năng huấn luyện. Mỗi lần bạn kiên trì giữ được 1 block focus, bạn đang xây thêm “cơ bắp chú ý” cho não bộ.
+
+### Related Skills
+- [Energy Management](energy-management.md): đảm bảo nhiên liệu cho Prefrontal Cortex.
+- [Deep Work Mastery](deep-work-mastery.md): vận dụng attention vào các block sản lượng cao.
+- [Awareness Depth](awareness-depth.md): nhận diện tín hiệu xao nhãng và tự điều chỉnh.

@@ -99,3 +99,8 @@ Một hình ảnh hơn ngàn lời nói. Senior Engineer luôn vẽ hình trư�
 *   **Drill 2: The ELI5 Challenge:** Thử giải thích công việc của bạn cho bố mẹ hoặc một người bạn không làm tech nghe. Nếu họ không hiểu, bạn thua.
 *   **Drill 3: Record & Listen:** Ghi âm lại bài presentation của mình và nghe lại. Bạn sẽ phát hiện ra mình nói "à, ừm" (filler words) nhiều thế nào.
 *   **Drill 4: One-Pager Proposal:** Viết đề xuất dự án chỉ trong 1 trang A4. Buộc bạn phải chắt lọc ý chính.
+
+### Related Skills
+- [Influence & Negotiation](influence-negotiation.md): vận dụng kỹ năng giao tiếp để thuyết phục stakeholder.
+- [Public Speaking Mastery](public-speaking-mastery.md): nâng cấp khả năng trình bày trước đám đông.
+- [Experience Digestion](experience-digestion.md): phản chiếu các lần giao tiếp để cải thiện liên tục.

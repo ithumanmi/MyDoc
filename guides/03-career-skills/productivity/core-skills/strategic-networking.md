@@ -76,3 +76,8 @@ Gửi tin nhắn ngắn gọn để họ biết bạn vẫn nhớ đến họ.
 > **Đọc thêm:**
 > *   [Social Charisma](./social-charisma.md) - Cách tạo ấn tượng khi gặp mặt.
 > *   [Influence & Negotiation](./influence-negotiation.md) - Thuyết phục và đàm phán.
+
+### Related Skills
+- [Social Charisma](social-charisma.md): tối ưu ấn tượng đầu tiên khi gặp gỡ.
+- [Communication Mastery](communication-mastery.md): giữ cuộc trò chuyện có chiều sâu.
+- [Experience Digestion](experience-digestion.md): rút bài học từ mỗi tương tác để cải thiện chiến lược networking.

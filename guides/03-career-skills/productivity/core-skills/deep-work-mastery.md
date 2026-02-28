@@ -62,3 +62,8 @@ Trong thế giới đầy rẫy xao nhãng (Notification, TikTok, Slack), khả 
 *   **Nhạc:** White Noise, Brown Noise, hoặc nhạc không lời (Baroque).
 
 > **Lời khuyên:** Hãy bắt đầu với 1 giờ Deep Work mỗi ngày. Khi quen, tăng lên 2-4 giờ. Đừng cố quá 4 giờ vì não bộ có giới hạn.
+
+### Related Skills
+- [Attention Mastery](attention-mastery.md): nền tảng để duy trì cường độ tập trung.
+- [Time Management Systems](time-management-systems.md): bố trí block Deep Work hợp lý trong lịch.
+- [Experience Digestion](experience-digestion.md): biến output Deep Work thành bài học nâng cấp hệ điều hành.

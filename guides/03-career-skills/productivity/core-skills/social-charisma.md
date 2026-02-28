@@ -79,3 +79,8 @@ Tài liệu này dựa trên nghiên cứu của Olivia Fox Cabane (The Charisma
 > **Đọc thêm:**
 > *   [Influence & Negotiation](./influence-negotiation.md) - Kỹ thuật thuyết phục chuyên sâu.
 > *   [Public Speaking Mastery](./public-speaking-mastery.md) - Rèn luyện giọng nói và phong thái.
+
+### Related Skills
+- [Strategic Networking](strategic-networking.md): sử dụng charisma để nuôi dưỡng mạng lưới chất lượng.
+- [Communication Mastery](communication-mastery.md): kết hợp nội dung sắc bén với phong thái cuốn hút.
+- [Awareness Depth](awareness-depth.md): đọc tín hiệu xã hội để điều chỉnh Presence/Power/Warmth phù hợp.

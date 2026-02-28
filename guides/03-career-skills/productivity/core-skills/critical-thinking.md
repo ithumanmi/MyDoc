@@ -81,3 +81,8 @@ Trước khi chốt một quyết định lớn (nghỉ việc, mua nhà, cướ
 > **Đọc thêm:**
 > *   [Decision Journal](../../../templates/decision-journal.md) - Công cụ ghi chép quyết định.
 > *   [Resilience & Antifragility](../../growth/resilience-antifragility.md) - Tâm thế chấp nhận rủi ro.
+
+### Related Skills
+- [Awareness Depth](awareness-depth.md): tăng khả năng quan sát bias nội tại trước khi ra quyết định.
+- [Experience Digestion](experience-digestion.md): biến quyết định thành bài học để nâng cấp mental models.
+- [Personal Work Framework](personal-work-framework.md): nhúng tư duy phản biện vào quy trình làm việc hàng ngày.

@@ -93,3 +93,8 @@ Theo dõi 4 tuần để đảm bảo vòng lặp Capture → Process → Test k
 - [ ] Thiết kế experiment nhỏ và log kết quả
 
 > 📌 *Reminder:* Tiêu hóa trải nghiệm không phải việc “tự nhiên mà có”. Nó cần hệ thống. Khi bạn biến mỗi cú va vào đời thành một đoạn mã mới cho Operating System, tốc độ trưởng thành sẽ tăng cấp số nhân.
+
+### Related Skills
+- [Awareness Depth](awareness-depth.md): cung cấp radar để nhận diện tín hiệu đáng tiêu hóa.
+- [Emotional Intensity](emotional-intensity.md): giúp xử lý cảm xúc mạnh trước khi chuyển thành bài học.
+- [Personal Work Framework](personal-work-framework.md): tích hợp bài học vào workflow hàng ngày.

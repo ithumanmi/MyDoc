@@ -41,3 +41,8 @@ Chọn chiến lược phù hợp với bạn:
 *   **Cách làm:** Vẽ các ô vuông trên lịch cho từng task. Nếu có việc phát sinh, hãy vẽ lại lịch (Reschedule).
 
 👉 **[Mẫu thực hành: Deep Work Scheduler](./templates/deep-work-scheduler.md)**
+
+### Related Skills
+- [Deep Work Mastery](deep-work-mastery.md): nền tảng kỹ thuật và triết lý làm việc sâu.
+- [Attention Mastery](attention-mastery.md): đảm bảo cường độ tập trung khi vào block Deep Work.
+- [Time Management Systems](time-management-systems.md): sắp xếp lịch để bảo vệ các block quan trọng.

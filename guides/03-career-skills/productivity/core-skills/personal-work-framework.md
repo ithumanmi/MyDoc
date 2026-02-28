@@ -144,3 +144,8 @@ Khi có **một dự án chiếm nhiều thời gian** (ôn thi, khóa học, d�
 *   **[Deep Work System](./deep-work-system.md):** Cách bảo vệ và tận dụng khối sâu.
 *   **[Energy Management](./energy-management.md):** Năng lượng trước thời gian.
 *   **[Personal Knowledge Base](./../meta-skills/personal-knowledge-base.md)** & **[PKM](./../meta-skills/pkm-system.md):** Lưu trữ và tái sử dụng tri thức trong công việc.
+
+### Related Skills
+- [Time Management Systems](time-management-systems.md): nền lịch và workflow để cài framework.
+- [Attention Mastery](attention-mastery.md): bảo vệ khối focus trong framework cá nhân.
+- [Experience Digestion](experience-digestion.md): reflect & iterate để framework ngày càng hiệu quả.

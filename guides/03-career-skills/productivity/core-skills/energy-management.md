@@ -67,3 +67,8 @@ Vì não bạn đã quen với **High Dopamine** (Kích thích mạnh, nhanh).
 *   [ ] Tiếp xúc ánh sáng mặt trời: Giúp điều chỉnh đồng hồ sinh học (Circadian Rhythm).
 
 ---
+
+### Related Skills
+- [Attention Mastery](attention-mastery.md): năng lượng ổn định giúp duy trì tập trung lâu dài.
+- [Time Management Systems](time-management-systems.md): phân bổ công việc phù hợp với nhịp năng lượng.
+- [Emotional Intensity](emotional-intensity.md): nền tảng thể chất vững giúp điều tiết cảm xúc tốt hơn.

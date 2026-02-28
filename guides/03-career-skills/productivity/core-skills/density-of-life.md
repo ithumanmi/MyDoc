@@ -60,3 +60,8 @@ Muốn một năm bằng mười năm, hãy thực hành:
 Chiều dài của đời người ít khi nằm trong tầm kiểm soát. Nhưng độ sâu của đời sống thì có.
 
 Sống một năm bằng mười năm không có nghĩa là ép mình bùng cháy liên tục. Nó là quá trình làm cho mỗi khoảnh khắc có trọng lượng.
+
+### Related Skills
+- [Awareness Depth](awareness-depth.md): mở rộng nhận thức để cảm nhận “thời gian bên trong”.
+- [Experience Digestion](experience-digestion.md): phản tỉnh để chuyển trải nghiệm thành mật độ.
+- [Attention Mastery](attention-mastery.md): bảo vệ sự hiện diện trọn vẹn cho từng khoảnh khắc.

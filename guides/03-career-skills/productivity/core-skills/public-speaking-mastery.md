@@ -282,3 +282,8 @@ Sự tự tin đến từ sự chuẩn bị.
 > **Đọc thêm:**
 > *   [Communication Mastery](./communication-mastery.md) - Kỹ năng diễn đạt cốt lõi.
 > *   [Cortisol & Stress Control](../../../../04-lifestyle-os/well-being/biohacking/cortisol-melatonin-system.md) - Kiểm soát căng thẳng sinh học.
+
+### Related Skills
+- [Communication Mastery](communication-mastery.md): xây nội dung logic, dễ hiểu.
+- [Emotional Intensity](emotional-intensity.md): điều tiết cảm xúc khi đứng trên sân khấu.
+- [Strategic Networking](strategic-networking.md): dùng public speaking để mở rộng tầm ảnh hưởng.

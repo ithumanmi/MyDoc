@@ -72,3 +72,8 @@ Giúp bạn phân biệt giữa "Quan trọng" (Important) và "Khẩn cấp" (U
 *   **Sơ cấp:** Google Calendar + Google Tasks.
 *   **Trung cấp:** Todoist / TickTick (Kết hợp Calendar & List).
 *   **Cao cấp:** Notion / Obsidian (Quản lý cả kiến thức và dự án - Second Brain).
+
+### Related Skills
+- [Energy Management](energy-management.md): đồng bộ lịch làm việc với nhịp năng lượng cơ thể.
+- [Attention Mastery](attention-mastery.md): đảm bảo block thời gian chuyển thành output sâu.
+- [Personal Work Framework](personal-work-framework.md): biến lịch thành workflow lặp lại được.
