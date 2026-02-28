@@ -42,6 +42,7 @@ Xây dựng nền tảng cho một bộ não hiệu suất cao.
 *   **[Working with AI](./meta-skills/working-with-ai.md):** Tư duy Centaur - Làm chủ AI thay vì để AI làm chủ bạn.
 *   **[Learning How to Learn](./meta-skills/learning-how-to-learn.md):** Kỹ năng tự học đỉnh cao (Feynman, Spaced Repetition).
 *   **[Personal Knowledge Base (CSDL cá nhân)](./meta-skills/personal-knowledge-base.md):** ⭐ **NEW** Thu thập – lưu trữ – truy xuất tri thức; tránh "xô thủng đáy", xây lợi thế cạnh tranh.
+*   **[Productive Meditation](./meta-skills/productive-meditation.md):** Thiền khi đi bộ/làm việc tay chân để giải bài toán khó.
 *   **[Project Management Fundamentals](./meta-skills/project-management-fundamentals.md):** Nghệ thuật quản lý dự án dành cho mọi ngành nghề.
 *   **[Study Project Management](./meta-skills/study-project-management.md):** Tối ưu lộ trình học khối lượng lớn bằng tư duy Project Manager.
 *   **[PKM System (Building a Second Brain)](./meta-skills/pkm-system.md):** Xây dựng bộ não thứ hai để quản lý tri thức (PARA, CODE, Zettelkasten).
