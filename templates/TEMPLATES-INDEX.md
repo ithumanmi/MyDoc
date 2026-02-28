@@ -12,11 +12,11 @@
 |:---------|:-----------|:----------|
 | **Daily Log** | Nhật ký 5–10 phút cuối ngày, đóng gói công việc & chuẩn bị ngày mai | [templates/daily-log.md](./daily-log.md) |
 | **Weekly Review** | Tổng kết tuần 30–45 phút (Chủ nhật / Thứ Hai) | [templates/weekly-review.md](./weekly-review.md) |
-| **Monthly Review** | Tổng kết tháng, điều chỉnh hướng đi | [guides/.../monthly-review-template.md](../guides/03-career-skills/productivity/templates/monthly-review-template.md) |
+| **Monthly Review** | Tổng kết tháng, điều chỉnh hướng đi | [monthly-review-template](./productivity/monthly-review-template.md) |
 | **OKR Planning** | Đặt mục tiêu Quý/Năm (Objectives & Key Results) | [templates/okr-planning.md](./okr-planning.md) |
-| **Deep Work Scheduler** | Lên lịch khối làm việc sâu (time block) | [guides/.../deep-work-scheduler.md](../guides/03-career-skills/productivity/templates/deep-work-scheduler.md) |
-| **Decision Journal** | Ghi lại quyết định quan trọng & lý do (để review sau) | [guides/.../decision-journal.md](../guides/03-career-skills/productivity/templates/decision-journal.md) |
-| **PARA Dashboard** | Dashboard tổ chức theo PARA (Projects, Areas, Resources, Archives) | [guides/.../para-dashboard.md](../guides/03-career-skills/productivity/templates/para-dashboard.md) |
+| **Deep Work Scheduler** | Lên lịch khối làm việc sâu (time block) | [deep-work-scheduler](./productivity/deep-work-scheduler.md) |
+| **Decision Journal** | Ghi lại quyết định quan trọng & lý do (để review sau) | [decision-journal](./productivity/decision-journal.md) |
+| **PARA Dashboard** | Dashboard tổ chức theo PARA (Projects, Areas, Resources, Archives) | [para-dashboard](./productivity/para-dashboard.md) |
 
 ---
 
@@ -24,8 +24,8 @@
 
 | Template | Mô tả ngắn | Đường dẫn |
 |:---------|:-----------|:----------|
-| **Learning Plan** | Kế hoạch học kỹ năng (First 20 Hours: Deconstruct, Practice) | [guides/.../learning-plan.md](../guides/03-career-skills/productivity/templates/learning-plan.md) |
-| **Learning Project Canvas** | Canvas lập kế hoạch cho một dự án học (skill/project) | [guides/.../learning-project-canvas.md](../guides/03-career-skills/productivity/templates/learning-project-canvas.md) |
+| **Learning Plan** | Kế hoạch học kỹ năng (First 20 Hours: Deconstruct, Practice) | [learning-plan](./productivity/learning-plan.md) |
+| **Learning Project Canvas** | Canvas lập kế hoạch cho một dự án học (skill/project) | [learning-project-canvas](./productivity/learning-project-canvas.md) |
 
 ---
 
@@ -34,10 +34,10 @@
 | Template | Mô tả ngắn | Đường dẫn |
 |:---------|:-----------|:----------|
 | **Cold Email Mentor** | Mẫu email xin lời khuyên từ mentor / người đi trước | [templates/cold-email-mentor.md](./cold-email-mentor.md) |
-| **CV (Global)** | Mẫu CV chuẩn quốc tế | [guides/.../cv-template-global.md](../guides/03-career-skills/career/templates/cv-template-global.md) |
-| **Freelance Proposal** | Mẫu proposal gửi khách khi bid dự án | [guides/.../freelance-proposal-template.md](../guides/03-career-skills/career/templates/freelance-proposal-template.md) |
-| **Landing Page Copy** | Mẫu copy cho landing page cá nhân / freelance | [guides/.../landing-page-copy-template.md](../guides/03-career-skills/career/templates/landing-page-copy-template.md) |
-| **Salary Negotiation Script** | Kịch bản đàm phán lương | [guides/.../salary-negotiation-script.md](../guides/03-career-skills/productivity/templates/salary-negotiation-script.md) |
+| **CV (Global)** | Mẫu CV chuẩn quốc tế | [cv-template-global](./career/cv-template-global.md) |
+| **Freelance Proposal** | Mẫu proposal gửi khách khi bid dự án | [freelance-proposal-template](./career/freelance-proposal-template.md) |
+| **Landing Page Copy** | Mẫu copy cho landing page cá nhân / freelance | [landing-page-copy-template](./career/landing-page-copy-template.md) |
+| **Salary Negotiation Script** | Kịch bản đàm phán lương | [salary-negotiation-script](./productivity/salary-negotiation-script.md) |
 
 ---
 
@@ -45,8 +45,8 @@
 
 | Template | Mô tả ngắn | Đường dẫn |
 |:---------|:-----------|:----------|
-| **Story Bank** | Ngân hàng câu chuyện cá nhân (phỏng vấn, pitch, networking) | [guides/.../story-bank.md](../guides/03-career-skills/productivity/templates/story-bank.md) |
-| **30-Day Speaking Challenge** | Lộ trình 30 ngày luyện nói / thuyết trình | [guides/.../30-day-speaking-challenge.md](../guides/03-career-skills/productivity/templates/30-day-speaking-challenge.md) |
+| **Story Bank** | Ngân hàng câu chuyện cá nhân (phỏng vấn, pitch, networking) | [story-bank](./productivity/story-bank.md) |
+| **30-Day Speaking Challenge** | Lộ trình 30 ngày luyện nói / thuyết trình | [30-day-speaking-challenge](./productivity/30-day-speaking-challenge.md) |
 
 ---
 

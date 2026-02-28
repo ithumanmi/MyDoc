@@ -13,6 +13,7 @@ Meta skills = kỹ năng “đòn bẩy” giúp bạn học nhanh hơn, thiết
 - [PKM System (Building a Second Brain)](pkm-system.md)
 - [Project Management Fundamentals](project-management-fundamentals.md)
 - [Study Project Management](study-project-management.md)
+- [Work System Design](work-system-design.md)
 
 ## Hướng dẫn sử dụng
 1. **Chọn meta skill theo vấn đề hiện tại:**
