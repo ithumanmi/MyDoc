@@ -112,6 +112,20 @@ drafts/
 *.backup
 *~
 
+# ===== Large files (exceed GitHub 100MB limit) =====
+resources/English/Phase 3 Intensive Practice/CAMBRIDGE 12-20260228T152915Z-1-001.zip
+resources/English/Phase 3 Intensive Practice/CAMBRIDGE 13-20260228T152913Z-1-001.zip
+resources/English/Phase 3 Intensive Practice/CAMBRIDGE 14-20260228T152849Z-1-001.zip
+resources/English/Phase 3 Intensive Practice/CAMBRIDGE 14-20260228T152911Z-1-001.zip
+resources/English/Phase 3 Intensive Practice/CAMBRIDGE 15-20260228T152807Z-1-001.zip
+resources/English/Phase 3 Intensive Practice/CAMBRIDGE 16-20260228T152711Z-1-001.zip
+resources/English/Phase 3 Intensive Practice/CAMBRIDGE 17-20260228T152709Z-1-001.zip
+resources/English/Phase 3 Intensive Practice/CAMBRIDGE 18 -20260228T152556Z-1-001.zip
+resources/English/Phase 3 Intensive Practice/CAMBRIDGE 19 -20260228T152555Z-1-001.zip
+resources/English/Phase 1 Rebuilding Foundation/Pronunciation/drive-download-20260228T151107Z-1-001.zip
+resources/English/Phase 1 Rebuilding Foundation/Vocabulary/Oxford_Word_Skills_-_Intermediate/Oxford Word Skills Intermediate.rar
+resources/English/Phase 2 Skill Building/Reading/[TCE sưu tầm] Reading strategies for the ielts test.pdf
+
 # ===== Keep Important Files =====
 # Force include certain files even if pattern matches
 !.gitignore
