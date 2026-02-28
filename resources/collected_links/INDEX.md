@@ -20,6 +20,8 @@ Tổng hợp và phân loại các liên kết tài nguyên hữu ích được 
     *   Công cụ Pentest, tài liệu học tập và các lab luyện tập bảo mật.
 8.  [🛠️ Tools, Utilities & Others](./tools-utils.md)
     *   Các phần mềm, nền tảng Productivity và các tiện ích khác.
+9.  [🏛️ Government Information Sources](../government-data-sources.md)
+    *   Cổng thông tin chính phủ, dữ liệu thống kê, pháp luật và báo cáo chính sách chính thống.
 
 ---
 > **Lưu ý:** Danh sách này được cập nhật dựa trên các link được cung cấp. Một số mô tả có thể cần kiểm chứng thêm.

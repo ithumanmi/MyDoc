@@ -23,6 +23,7 @@
 - [Development & Coding](#%F0%9F%92%BB-development--coding)
 - [Networking & Portfolio](#%F0%9F%8C%90-networking--portfolio)
 - [AI Assistants](#%F0%9F%A4%96-ai-assistants-tr%E1%BB%A3-l%C3%BD-%E1%BA%A3o)
+- [Government Information Sources](./government-data-sources.md)
 
 ---
 
@@ -104,3 +105,5 @@
 ## 🧪 Bonus: Research Workflow
 
 Nếu bạn đang thực hiện dự án học thuật hoặc R&D, tham khảo thêm danh sách [🔬 Research Workflow Tools](./research-tools.md) để có bộ công cụ chuyên sâu cho việc tìm tài liệu, đọc, viết, phân tích dữ liệu và cộng tác.
+
+> ✳️ **Mới:** Để tra cứu dữ liệu và chính sách chính thống (Việt Nam & Trung Quốc), xem thêm [Nguồn Thông Tin Chính Phủ](./government-data-sources.md).
