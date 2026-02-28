@@ -17,6 +17,6 @@ Kho thư viện nguồn lực được tuyển chọn để hỗ trợ học t�
    - Muốn tự học → xem *Books* + *Podcasts/Channels*.
    - Cần network → xem *Communities*.
    - Làm research → kết hợp *Research Tools* + *Government Data Sources*.
-3. **Lưu vào hệ thống cá nhân:** Ghim những nguồn phù hợp vào PKM/Bookmark để dễ truy cập lại. Có thể dùng bảng trong [core-skills tracker](../guides/03-career-skills/productivity/core-skills/core-skills-tracker.md) để log việc sử dụng nguồn lực.
+3. **Lưu vào hệ thống cá nhân:** Ghim những nguồn phù hợp vào PKM/Bookmark để dễ truy cập lại. Có thể dùng bảng trong [Core Skills Tracker](../guides/03-career-skills/productivity/core-skills/core-skills-tracker.md) để log việc sử dụng nguồn lực.
 
 > 💡 *Tip:* Thiết lập “Resource Review” mỗi quý: rà soát mục nào hữu ích, cập nhật nguồn mới, bỏ link chết, để thư viện luôn tươi mới.
