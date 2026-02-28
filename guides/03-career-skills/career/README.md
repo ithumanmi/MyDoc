@@ -23,6 +23,7 @@ Hướng dẫn toàn diện về phát triển sự nghiệp, kiếm thu nhập,
 *   **[The Brutal Truths of Maturity (Sự Thật Trần Trụi)](./brutal-truths-of-maturity.md)** ⭐ **NEW** - 17 bài học "đau lòng" về con người và tiền bạc sau tuổi 30.
 *   **[The Scholar's Aura (Tướng Khí Học Thuật)](./scholars-aura.md)** ⭐ **NEW** - Cách dùng tri thức để rèn luyện thần thái lãnh đạo (Sắc quyết, Trầm sát, Sắc lạnh).
 *   **[Building Confidence (Xây Dựng Sự Tự Tin)](./building-confidence.md)** ⭐ **NEW** - 5 trụ cột để rèn luyện phong thái đàn ông vững chãi.
+*   **[Principal Engineer Mindset](./principal-engineer-mindset.md)** ⭐ **NEW** - Tư duy và lộ trình rèn luyện để trở thành Principal Engineer.
 
 ### 📱 Mobile App Monetization
 
