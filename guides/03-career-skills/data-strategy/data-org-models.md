@@ -100,3 +100,7 @@ Không có mô hình "tốt nhất", chỉ có mô hình "phù hợp nhất" d�
     *   Nếu IT và Business không cùng tiếng nói -> Đưa nhân sự về Spoke (Hybrid) mà không có quản lý từ Hub sẽ gây hỗn loạn.
 
 > **Lời khuyên:** Xây dựng tổ chức dữ liệu là quá trình tiến hóa. Hãy bắt đầu bằng sự tập trung (Centralized) để lấy lại trật tự, sau đó mở rộng sang mô hình Lai (Hybrid) khi đội ngũ đã trưởng thành.
+
+---
+
+📌 **Next Steps:** Sau khi chọn mô hình tổ chức, tiếp tục thiết lập [Data Governance Kit](./data-governance-starter.md) để phân rõ ownership và [Data Literacy Blueprint](./data-literacy-program.md) nhằm thúc đẩy adoption trên toàn công ty.

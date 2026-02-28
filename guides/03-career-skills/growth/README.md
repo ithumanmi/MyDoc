@@ -27,3 +27,4 @@ Các chiến lược và hệ thống để tăng trưởng bản thân theo c�
 *   **[Political OS](./political-os.md):** Hệ điều hành tư duy quyền lực – đọc quyền lực để điều chỉnh cuộc đời.
 *   **[Economics OS](./economics-os.md):** Hệ điều hành tư duy kinh tế – quản trị tài nguyên cho sự nghiệp và tài sản.
 *   **[Unspoken Rules & Social Etiquette](./social-etiquette-unspoken-rules.md):** Bộ quy tắc “biết điều” để sống văn minh, giữ uy tín.
+*   **[Power of Small Talk](./power-of-small-talk.md):** Kỹ năng tán gẫu mở khóa quan hệ & cơ hội nghề nghiệp.
