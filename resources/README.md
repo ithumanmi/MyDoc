@@ -8,6 +8,7 @@ Kho thư viện nguồn lực được tuyển chọn để hỗ trợ học t�
 - [Podcasts & Channels](podcasts-channels.md): Nguồn nội dung audio/video cập nhật liên tục.
 - [Research Tools](research-tools.md): Công cụ thu thập dữ liệu, khảo sát, phân tích.
 - [Government Data Sources](government-data-sources.md): Bộ dữ liệu mở từ các tổ chức chính phủ.
+- [Tech Tender Sources](tech-tender-sources.md): Tổng hợp cổng đấu thầu dự án công nghệ (VN, ASEAN, quốc tế).
 - [Tools](tools.md): Phần mềm/tiện ích giúp tăng năng suất.
 - [Collected Links](collected_links/INDEX.md): Bộ link curated theo domain (AI, Web, Security, Finance...).
 - [Meetup Venues](meetup-venues.md): Danh sách quán café/nhà hàng phù hợp hẹn gặp, họp nhóm, hẹn hò, nhậu nhẹt.

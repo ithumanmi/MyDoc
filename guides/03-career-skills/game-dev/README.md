@@ -20,6 +20,7 @@ Lộ trình phát triển sự nghiệp Game Developer & Publisher.
 *   **[Game Publisher Roadmap](./game-publisher-roadmap.md):** Trở thành nhà phát hành Game (Publisher).
 *   **[Publisher Marketing Playbook](./publisher-marketing-playbook.md):** Chiến lược Marketing cho Game.
 *   **[Contract Template](./publisher-contract-template.md):** Mẫu hợp đồng phát hành game.
+*   **[5 Mobile Monetization Traps](./mobile-monetization-traps.md):** Checklist tránh 5 bẫy doanh thu (store, ads, discount, currency, hybrid).
 
 ---
 

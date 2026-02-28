@@ -149,6 +149,7 @@ Bạn không thể giỏi tất cả. Hãy chọn 1 con đường:
 *   **[Trig Shaders (Water/Fire)](./graphics/trig-shaders.md):** 🔥🌊 Tạo hiệu ứng nước và lửa bằng lượng giác. (⭐ **New**)
 *   **[Inverse Kinematics (IK)](./animation/inverse-kinematics.md):** 🦶 Toán học giúp tay chân nhân vật bám sát địa hình. (⭐ **New**)
 *   **[Steering Behaviors](./ai/steering-behaviors.md):** 🤖 Hệ thống di chuyển AI thông minh dựa trên lực và lượng giác. (⭐ **New**)
+*   **[Core Mechanic Game Design Doc](./core-mechanic-design-doc.md):** ✍️ Template viết GDD cho cơ chế cốt lõi + ví dụ Aether Dash.
 *   **[Game Engines Deep Dive](./engines/unity-advanced.md):** Unity DOTS/ECS tối ưu hiệu năng và Unreal Engine 5 Nanite/Lumen.
 *   **[Graphics & Shaders](./graphics/shader-programming.md):** Viết Shader (HLSL/GLSL) và hiệu ứng VFX Graph.
 *   **[Game AI Patterns](./ai/game-ai-patterns.md):** Thiết kế trí tuệ nhân tạo cho NPC (FSM, Behavior Trees, GOAP).

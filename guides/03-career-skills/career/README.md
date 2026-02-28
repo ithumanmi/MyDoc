@@ -24,6 +24,7 @@ Hướng dẫn toàn diện về phát triển sự nghiệp, kiếm thu nhập,
 *   **[The Scholar's Aura (Tướng Khí Học Thuật)](./scholars-aura.md)** ⭐ **NEW** - Cách dùng tri thức để rèn luyện thần thái lãnh đạo (Sắc quyết, Trầm sát, Sắc lạnh).
 *   **[Building Confidence (Xây Dựng Sự Tự Tin)](./building-confidence.md)** ⭐ **NEW** - 5 trụ cột để rèn luyện phong thái đàn ông vững chãi.
 *   **[Principal Engineer Mindset](./principal-engineer-mindset.md)** ⭐ **NEW** - Tư duy và lộ trình rèn luyện để trở thành Principal Engineer.
+*   **[LeetCode + System Design Roadmap](./leetcode-system-design-roadmap.md)** ⭐ **NEW** - 4 pha luyện thuật toán & system design để apply Big Tech/high-paying startups.
 
 ### 📱 Mobile App Monetization
 
