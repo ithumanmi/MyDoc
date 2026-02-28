@@ -27,6 +27,7 @@ An ninh mạng không chỉ là về việc viết mã an toàn, mà là về t�
 *   **[OSINT (Open Source Intelligence)](./osint-basics.md):** Nghệ thuật thu thập thông tin từ các nguồn công khai.
 *   **[Social Engineering Defense](./social-engineering-defense.md):** Bảo vệ tổ chức khỏi các cuộc tấn công đánh vào tâm lý con người.
 *   **[DevSecOps Integration](./devsecops-guide.md):** Đưa bảo mật vào quy trình phát triển phần mềm hiện đại.
+*   **[Digital Trust Insights](./digital-trust-insights.md):** Chuyển từ mindset “gác cổng” sang kiến trúc sư niềm tin số cho doanh nghiệp.
 
 ---
 

@@ -7,6 +7,7 @@ Các công cụ, thư viện và framework hỗ trợ thiết kế giao diện, 
 *   [Penpot](https://penpot.app/) - Công cụ thiết kế & prototyping mã nguồn mở (thay thế Figma), hỗ trợ SVG.
 *   [Excalidraw](https://excalidraw.com/) - Bảng trắng ảo (Virtual Whiteboard) mã nguồn mở, vẽ tay sơ đồ.
 *   [HeyGaia UI](https://ui.heygaia.io/) - (Cần kiểm tra) Bộ UI kit hoặc công cụ thiết kế.
+*   [Carbon Design System](https://carbondesignsystem.com/) / [GitHub](https://github.com/carbon-design-system/carbon) - Hệ sinh thái thiết kế của IBM với đầy đủ component, guideline và tools.
 
 ## ⚛️ Frontend Libraries
 *   [React Bits](https://reactbits.dev/) / [GitHub](https://github.com/DavidHDev/react-bits) - Bộ sưu tập các snippet, component React thú vị (animations, patterns).
@@ -16,6 +17,10 @@ Các công cụ, thư viện và framework hỗ trợ thiết kế giao diện, 
 *   [SVGL](https://svgl.app/) - Thư viện logo SVG của các công nghệ phổ biến.
 *   [CSS Loaders](https://css-loaders.com/) - Bộ sưu tập các hiệu ứng loading bằng CSS thuần.
 *   [Shadcn Themer](https://shadcnthemer.com/) - Công cụ tạo theme cho Shadcn UI.
+*   [PRR Kit](https://www.npmjs.com/package/prr-kit) / [Docs](https://prrkit.sitenow.cloud/#quick-start) / [GitHub](https://github.com/mrquangthai278/prr-kit) - Bộ component React tập trung vào productivity dashboards và admin UI.
+
+## 🧰 Toolkits & Templates
+*   [PRR Kit Examples](https://github.com/mrquangthai278/prr-kit) - Repo mẫu, hướng dẫn tích hợp PRR Kit vào dự án React/Next.js.
 
 ## 📚 Resources & Learning
 *   [UI/UX Pro Max Skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) - Lộ trình hoặc tài nguyên học UI/UX nâng cao.

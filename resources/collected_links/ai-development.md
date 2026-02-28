@@ -54,6 +54,8 @@ Danh sách các công cụ, thư viện và tài nguyên liên quan đến phát
 ## 🛠️ Tools & Platforms
 *   [Claude Directory](https://www.claudedirectory.co/) - Danh mục các ứng dụng/công cụ liên quan đến Claude.
 *   [Good AI List](https://goodailist.com/) - Danh sách các công cụ AI tốt nhất.
+    *   [Danh sách repository](https://goodailist.com/repos) - Tổng hợp các dự án AI nổi bật được phân loại.
+*   [AI Engineering Hub](https://github.com/patchy631/ai-engineering-hub) - Bộ sưu tập tài nguyên thực chiến về AI Engineering (RAG, agents, hệ thống sản xuất).
 *   [AI PlanetX](https://www.aiplanetx.com/c/largest-ai-tools-database) - Cơ sở dữ liệu công cụ AI lớn.
 *   [LLM Woku Shop](https://llm.wokushop.com/) - (Cần kiểm tra) Có thể là chợ hoặc danh sách LLM.
 *   [Skills.sh](https://skills.sh/) - Nền tảng hoặc kho kỹ năng cho AI.
@@ -69,8 +71,10 @@ Danh sách các công cụ, thư viện và tài nguyên liên quan đến phát
 *   [Kể Prompt cho AI Agents theo luồng](https://aiourlife.blogspot.com/2026/01/ke-prompt-cho-ai-agents-theo-luong.html) - Blog hướng dẫn viết prompt.
 *   [Designing Prompts for AI Agents](https://aiourlife.blogspot.com/2026/01/designing-prompts-for-ai-agents-to.html) - Hướng dẫn thiết kế prompt.
 *   [Awesome AI System Prompts](https://github.com/dontriskit/awesome-ai-system-prompts) - Bộ sưu tập system prompt hay.
+*   [System Prompts & Models of AI Tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - Tổng hợp prompt và mô hình cho đa dạng AI tool.
 *   [CS249r Book](https://github.com/harvard-edge/cs249r_book) - Tài liệu khóa học hoặc sách về TinyML/Edge AI từ Harvard.
 *   [DeepSeek-OCR-2](https://github.com/deepseek-ai/DeepSeek-OCR-2) - Mô hình OCR mạnh mẽ từ DeepSeek.
+*   [Nhiều Agent cùng sai lầm](https://leesun.space/post/nhieu-agent-cung-sai-lam) - Bài viết phân tích các lỗi phổ biến khi xây dựng nhiều AI Agent song song.
 
 \n## 🏥 Medical AI & Datasets\n*   [ViMedCSS](https://huggingface.co/datasets/tensorxt/ViMedCSS) - Dataset hội thoại y tế tiếng Việt (Vietnamese Medical Code-Switching Speech Dataset) với hơn 15k mẫu, hỗ trợ nghiên cứu ASR và NLP trong y khoa.\n\n## 🌐 Others
 *   [Sniffnet](https://github.com/GyulyVGC/sniffnet) - Công cụ giám sát mạng (có thể dùng để monitor traffic của AI app).

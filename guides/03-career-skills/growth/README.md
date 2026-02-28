@@ -17,6 +17,7 @@ Các chiến lược và hệ thống để tăng trưởng bản thân theo c�
 *   **[Becoming Top 1% Developer](./becoming-top-1-percent.md):** Tư duy để vượt trội so với đám đông.
 *   **[Game Theory for Engineers](./game-theory-for-engineers.md):** Áp dụng lý thuyết trò chơi vào sự nghiệp.
 *   **[Failure Playbooks](./failure-playbooks.md):** Học từ thất bại (Post-mortem).
+*   **[8 Mindsets After 30](./8-mindsets-after-30.md):** 8 tư duy cốt lõi để ra quyết định sắc bén sau tuổi 30.
 
 ## ⚙️ Systems & Frameworks
 
@@ -25,3 +26,4 @@ Các chiến lược và hệ thống để tăng trưởng bản thân theo c�
 *   **[Systems Thinking in Life](./systems-thinking-in-life.md):** Tư duy hệ thống trong đời sống (Sức khỏe, Tài chính).
 *   **[Political OS](./political-os.md):** Hệ điều hành tư duy quyền lực – đọc quyền lực để điều chỉnh cuộc đời.
 *   **[Economics OS](./economics-os.md):** Hệ điều hành tư duy kinh tế – quản trị tài nguyên cho sự nghiệp và tài sản.
+*   **[Unspoken Rules & Social Etiquette](./social-etiquette-unspoken-rules.md):** Bộ quy tắc “biết điều” để sống văn minh, giữ uy tín.

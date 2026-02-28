@@ -53,3 +53,34 @@ Tự động tổng hợp tin tức và viết báo cáo.
 3.  **Summarize:** Tóm tắt nội dung chính của từng bài.
 4.  **Synthesize:** Tổng hợp thành một báo cáo hoàn chỉnh (Markdown/PDF).
 5.  **Analyze:** Đưa ra nhận định cá nhân về xu hướng (Bullish/Bearish).
+
+---
+
+## 5. Notebook LM – Trợ lý ghi chú & học tập dựa trên dữ liệu riêng
+
+Notebook LM của Google được thiết kế riêng cho việc tổng hợp kiến thức từ **chính dữ liệu bạn upload**. Khác với ChatGPT/Gemini (có thể trả lời lệch ngữ cảnh vì tra cứu Internet), Notebook LM cam kết: **“Không trích nguồn ngoài – chỉ trả lời từ dữ liệu của bạn.”**
+
+### 🧩 Vấn đề & Giải pháp
+*   **Vấn đề:** Người sáng tạo nội dung / giảng viên thường bị hỏi đi hỏi lại cùng một câu hỏi, dù thông tin đã có trong khóa học hoặc tài liệu nội bộ. Các AI chung chung hay trả lời sai vì lấy nguồn từ Internet.
+*   **Giải pháp:** Notebook LM tạo một “sổ tay AI” chỉ đọc dữ liệu bạn cung cấp. Mọi câu trả lời đều dựa trên tài liệu đã được upload → đảm bảo chính xác, tiết kiệm thời gian.
+
+### 🏢 Ứng dụng trong doanh nghiệp
+*   **Onboarding nhân viên mới:** Upload SOP, hướng dẫn nội bộ → nhân viên hỏi gì AI cũng trả lời đúng theo quy trình công ty.
+*   **Chăm sóc khách hàng:** Tạo chatbot FAQ bám sát tài liệu sản phẩm, giảm tải đội hỗ trợ.
+
+### 🎓 Ứng dụng trong học tập
+*   Upload slide/ebook → yêu cầu AI tóm tắt, tạo mind map, trích xuất flashcard.
+*   Sinh câu hỏi ôn tập, quiz theo từng chương.
+
+### ⚙️ Quy trình sử dụng
+1.  **Sources:** Kéo thả tài liệu (PDF, Google Docs, transcript video...).
+2.  **Chat:** Hỏi đáp tự nhiên, luôn được trích nguồn từ tài liệu.
+3.  **Studio/Notes:** Tự động sinh các artefacts như outline bài giảng, brief, bảng ghi chú.
+
+### ✨ Tính năng nổi bật
+*   **Audio Overview:** Tạo bản tóm tắt bằng giọng nói.
+*   **Study Guide / Brief Docs:** Sinh tài liệu học tập hoặc executive summary.
+*   **Mind Map:** Xuất bản đồ tư duy trực quan.
+*   **Tone & Length Controls:** Điều chỉnh phong cách trả lời (ngắn/gọn, hướng dẫn, phân tích chuyên sâu).
+
+> 📌 **Điểm mấu chốt:** Notebook LM = “LLM chuyên biệt cho dữ liệu cá nhân/đội ngũ”. Dùng nó để tự động hóa việc trả lời câu hỏi lặp lại, tổng hợp giáo trình, hoặc hỗ trợ học tập theo tốc độ riêng.

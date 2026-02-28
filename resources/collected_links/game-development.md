@@ -81,6 +81,8 @@ Các công cụ nhỏ nhưng "có võ", giúp tăng tốc workflow đáng kể.
 ## 🛠️ Engines & Frameworks (Others)
 *   [Colyseus](https://colyseus.io/) - Multiplayer Game Server framework (Node.js/TypeScript).
 *   [Twinery](https://twinery.org/) - Công cụ mã nguồn mở để viết các câu chuyện tương tác (Interactive Fiction), game text-based.
+*   [DinhKarate Game/AI Projects](https://github.com/dinhkarate/) - Repo cá nhân chứa nhiều thử nghiệm về game AI, agent và automation.
+*   [Open Source Indie Tools](https://www.reddit.com/r/indiegames/) - Cộng đồng chia sẻ công cụ, bài học tài chính và marketing cho game độc lập.
 
 ## 📚 Resources & Cheatsheets
 *   [100+ Gamedev Cheatsheets (Figma)](https://www.figma.com/design/zOPXbdCaC2dvJK10foKO3v/100--Gamedev-Cheatsheets-by-Anton-Slashcev?node-id=0-1&p=f) - Tổng hợp kiến thức, công thức làm game cực kỳ chi tiết của Anton Slashcev.

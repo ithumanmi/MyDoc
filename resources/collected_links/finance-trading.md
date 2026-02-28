@@ -11,3 +11,5 @@ Các tài nguyên, công cụ và thư viện dành cho phân tích tài chính,
 ## 📈 Analysis & Platforms
 *   [Artificial Analysis](https://artificialanalysis.ai/) - Phân tích, so sánh các mô hình AI (LLMs, Image Gen) về hiệu năng/giá cả.
 *   [Halving Jobs](https://halvingjobs.com/vi#bot-trading) - Trang tìm việc hoặc thông tin liên quan đến Crypto/Blockchain (có đề cập bot trading).
+*   [Crypto Fundraising Info](https://crypto-fundraising.info/) - Theo dõi các vòng gọi vốn trong hệ sinh thái Web3/Crypto.
+*   [BNB Chain Update](https://x.com/BNBCHAIN/status/2026854763472760894) - Thông báo chính thức từ BNB Chain về cập nhật hệ sinh thái.

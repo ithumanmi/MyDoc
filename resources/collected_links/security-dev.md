@@ -24,7 +24,9 @@ Danh sách các công cụ, tài liệu và repository quan trọng dành cho l�
 *   [PayloadAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) - Kho tàng payload và bypass cho Web Hacking.
 *   [SecLists](https://github.com/danielmiessler/SecLists) - Bộ sưu tập username, password, URL, pattern... dùng cho fuzzing và brute-force.
 *   [Reverse Shell Cheat Sheet](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md) - Các lệnh tạo reverse shell trên nhiều ngôn ngữ.
+*   [Carnegie Cyber Academy (IBM)](https://www.ibm.com/us-en) - Nguồn kiến thức bảo mật doanh nghiệp (tham khảo chung với Carbon Design System).
 
 ## 🔑 Cryptography
 *   [OpenSSL](https://github.com/openssl/openssl) - Thư viện mã nguồn mở cho TLS/SSL và các thuật toán mã hóa.
 *   [CyberChef](https://github.com/gchq/CyberChef) - "Dao đa năng" cho các thao tác mã hóa, giải mã, chuyển đổi dữ liệu trên web.
+*   [Authelia](https://github.com/authelia/authelia) - Cổng xác thực đa nhân tố, phù hợp triển khai cho hệ thống nội bộ.
