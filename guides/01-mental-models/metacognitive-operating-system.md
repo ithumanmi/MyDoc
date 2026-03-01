@@ -24,9 +24,9 @@ Inputs (Tín hiệu) → Processing Loops (Phân tích) → Control Center (Quy 
 | Input | Công cụ gợi ý | Câu hỏi tự kiểm |
 | --- | --- | --- |
 | Nhật ký / Daily Log | [templates/daily-log.md](../../templates/daily-log.md) | Hôm nay tôi phản ứng vì trigger nào? |
-| Feedback từ mentor/team | templates/decision-journal.md | Tần suất feedback trùng nhau? |
-| Biometrics (sleep, energy) | templates/personal-metrics-dashboard.md | Có bias nào xuất hiện khi thiếu ngủ? |
-| External signals (news, thị trường) | guides/04-lifestyle-os/research-tools.md | Tôi phản ứng hay chủ động chọn nguồn? |
+| Feedback từ mentor/team | [decision-journal.md](../../templates/decision-journal.md) | Tần suất feedback trùng nhau? |
+| Biometrics (sleep, energy) | [personal-metrics-dashboard.md](../../templates/personal-metrics-dashboard.md) | Có bias nào xuất hiện khi thiếu ngủ? |
+| External signals (news, thị trường) | [research-tools.md](../04-lifestyle-os/research-tools.md) | Tôi phản ứng hay chủ động chọn nguồn? |
 
 ### 2.2 Processing Loops – “Bộ xử lý”
 
@@ -116,10 +116,10 @@ Các module lõi đặt tại Control Center (giống BIOS):
 
 | Nhu cầu | Liên kết | Công dụng |
 | --- | --- | --- |
-| Ghi chép & review | [templates/daily-log.md](../../templates/daily-log.md), [templates/weekly-review.md](../../templates/weekly-review.md) | Bám sát inputs & monitor |
-| Tăng khả năng quan sát | [guides/04-lifestyle-os/well-being/mental-resilience/](../../guides/04-lifestyle-os/well-being/mental-resilience/) | Giữ OS ổn định khi stress |
-| Bổ sung mental models | `guides/01-mental-models/` (subfolders) | Nâng cấp “model loop” |
-| Thiết kế triết lý cá nhân | [philosophy/integration/personal-philosophy-template.md](./philosophy/integration/personal-philosophy-template.md) | Làm “kernel” ổn định |
+| Ghi chép & review | [daily-log.md](../../templates/daily-log.md), [weekly-review.md](../../templates/weekly-review.md) | Bám sát inputs & monitor |
+| Tăng khả năng quan sát | [mental-resilience](../04-lifestyle-os/well-being/mental-resilience/README.md) | Giữ OS ổn định khi stress |
+| Bổ sung mental models | [01-mental-models hub](./README.md) (subfolders) | Nâng cấp “model loop” |
+| Thiết kế triết lý cá nhân | [personal-philosophy-template.md](./philosophy/integration/personal-philosophy-template.md) | Làm “kernel” ổn định |
 
 ## 7. Quickstart 7 ngày
 
