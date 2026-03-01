@@ -11,9 +11,9 @@
 
 | Layer | Nội dung | Câu hỏi chính | Module tiêu biểu |
 | --- | --- | --- | --- |
-| **Layer 1 – Core Sciences** | Math, Physics, Chemistry, Biology | Luật nền của vũ trụ là gì? | `mathematics/`, `physics/`, `chemistry/`, `biology/` |
-| **Layer 2 – Human Systems** | Psychology, Philosophy, History | Con người vận hành thế nào qua thời gian? | `psychology/`, `philosophy/`, `history/` |
-| **Layer 3 – Meta Intelligence** | Global Intelligence, Mysticism, Failure Systems | Làm sao kết nối dữ liệu, dự phóng tương lai, giữ vững hệ thống cá nhân? | `global-intelligence/`, `mysticism/`, `failure-management-system.md` |
+| **Layer 1 – Core Sciences** | Math, Physics, Chemistry, Biology | Luật nền của vũ trụ là gì? | [mathematics/](./mathematics/README.md), [physics/](./physics/README.md), [chemistry/](./chemistry/README.md), [biology/](./biology/README.md) |
+| **Layer 2 – Human Systems** | Psychology, Philosophy, History | Con người vận hành thế nào qua thời gian? | [psychology/](./psychology/README.md), [philosophy/](./philosophy/README.md), [history/](./history/README.md) |
+| **Layer 3 – Meta Intelligence** | Global Intelligence, Mysticism, Failure Systems | Làm sao kết nối dữ liệu, dự phóng tương lai, giữ vững hệ thống cá nhân? | [global-intelligence/](./global-intelligence/README.md), [mysticism/](./mysticism/README.md), [Failure Management System](./failure-management-system.md) |
 
 > Không nhất thiết đi tuyến tính. Hãy audit (bên dưới) để biết bạn yếu ở layer nào, sau đó đào sâu module tương ứng.
 
@@ -27,20 +27,20 @@
 
 | Trục | Câu hỏi | Gợi ý đọc |
 | --- | --- | --- |
-| **Reasoning & Logic** | Tôi có thể phân tích vấn đề bằng lập luận chặt chẽ? | `mathematics/logic-reasoning.md`, `philosophy/fundamentals/logic-and-fallacies.md` |
-| **Systems & Complexity** | Tôi hiểu feedback loop, chaos, system design? | `mathematics/systems-chaos-theory.md`, `global-intelligence/systems-thinking/feedback-loops-deep-dive.md` |
-| **Decision & Risk** | Tôi ra quyết định nhanh nhưng không liều? | `psychology/decision-making-razors.md`, `physics/mechanics.md` (momentum, leverage), liên kết tới `life-os/decision-engine.md` |
-| **Historical & Context Awareness** | Tôi nhận diện chu kỳ, Lindy, path dependence? | `history/README.md`, `chemistry/chain-reactions.md` (analogy), `finance/economic-cycles.md` |
-| **Human Dynamics & Emotions** | Tôi hiểu hành vi, bias, dark psychology? | `psychology/cognitive-biases.md`, `psychology/dark-psychology-defense.md`, liên kết `well-being/mental-resilience/` |
-| **Meta / Inner Alignment** | Tôi có khung triết học cá nhân, hiểu mysticism/culture alignment? | `philosophy/integration/personal-philosophy-template.md`, `mysticism/README.md` |
+| **Reasoning & Logic** | Tôi có thể phân tích vấn đề bằng lập luận chặt chẽ? | [logic-reasoning.md](./mathematics/logic-reasoning.md), [logic-and-fallacies.md](./philosophy/fundamentals/logic-and-fallacies.md) |
+| **Systems & Complexity** | Tôi hiểu feedback loop, chaos, system design? | [systems-chaos-theory.md](./mathematics/systems-chaos-theory.md), [feedback-loops-deep-dive.md](./global-intelligence/systems-thinking/feedback-loops-deep-dive.md) |
+| **Decision & Risk** | Tôi ra quyết định nhanh nhưng không liều? | [decision-making-razors.md](./psychology/decision-making-razors.md), [mechanics.md](./physics/mechanics.md) (momentum, leverage), liên kết tới [decision-engine.md](../04-lifestyle-os/life-os/decision-engine.md) |
+| **Historical & Context Awareness** | Tôi nhận diện chu kỳ, Lindy, path dependence? | [history/README.md](./history/README.md), [chain-reactions.md](./chemistry/chain-reactions.md) (analogy), [economic-cycles.md](../02-wealth-business/finance/economic-cycles.md) |
+| **Human Dynamics & Emotions** | Tôi hiểu hành vi, bias, dark psychology? | [cognitive-biases.md](./psychology/cognitive-biases.md), [dark-psychology-defense.md](./psychology/dark-psychology-defense.md), liên kết [mental-resilience](../04-lifestyle-os/well-being/mental-resilience/README.md) |
+| **Meta / Inner Alignment** | Tôi có khung triết học cá nhân, hiểu mysticism/culture alignment? | [personal-philosophy-template.md](./philosophy/integration/personal-philosophy-template.md), [mysticism/README.md](./mysticism/README.md) |
 
 > Action: Viết lại 1 trục điểm thấp, chọn 1 bài tương ứng, triển khai experiment trong 7 ngày.
 
 ## 🔗 Cross-Domain Shortcuts
-- **History ↔ Wealth:** Khi nghiên cứu chu kỳ (Strauss-Howe, Lindy), mở thêm `guides/02-wealth-business/investing/advanced/macroeconomics.md` để nối với kinh tế.
-- **Biology ↔ Entrepreneurship:** Ecosystems, Carrying Capacity gợi ý chiến lược ngách → link `guides/02-wealth-business/entrepreneurship/growth/sales-funnel-basics.md`.
-- **Psychology ↔ Lifestyle:** Khi học bias hoặc dark psychology, đối chiếu `guides/04-lifestyle-os/well-being/mental-resilience/` để có protocol giữ tâm vững.
-- **Global Intelligence ↔ Politics:** Module này kết nối trực tiếp với `guides/04-lifestyle-os/politics/README.md` để đọc game quyền lực thế giới.
+- **History ↔ Wealth:** Khi nghiên cứu chu kỳ (Strauss-Howe, Lindy), mở thêm [investing/advanced/macroeconomics.md](../02-wealth-business/investing/advanced/macroeconomics.md) để nối với kinh tế.
+- **Biology ↔ Entrepreneurship:** Ecosystems, Carrying Capacity gợi ý chiến lược ngách → link [entrepreneurship/growth/sales-funnel-basics.md](../02-wealth-business/entrepreneurship/growth/sales-funnel-basics.md).
+- **Psychology ↔ Lifestyle:** Khi học bias hoặc dark psychology, đối chiếu [well-being/mental-resilience/](../04-lifestyle-os/well-being/mental-resilience/README.md) để có protocol giữ tâm vững.
+- **Global Intelligence ↔ Politics:** Module này kết nối trực tiếp với [politics/README.md](../04-lifestyle-os/politics/README.md) để đọc game quyền lực thế giới.
 
 ## 📚 Case Study Index
 | Mental Model | Case study | Hành động |
