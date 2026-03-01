@@ -38,6 +38,16 @@
 | **Mission/Quest System** | Story, RPG nhẹ | Graph Editor + runtime API | Cung cấp như service update content |
 | **Analytics & LiveOps Hooks** | SaaS game analytics, Remote config | SDK wrapper + event schema | Bán productized service (Dashboard + integration) |
 | **Localization & Asset Pipeline** | Xây product global | CSV/Google Sheet adapter + auto import tool | Service dịch/localize nhanh |
+| **Ads Monetization Kit** | Hyper-casual, hybrid casual | Script quản lý waterfall, mediation, A/B placement | Bán package + dịch vụ tối ưu eCPM |
+| **Stylized Color & Material Library** | Multi-game studio muốn thống nhất look | Shader graph + color palette manager | Thu phí license hoặc bán theme pack |
+| **Config & Remote Tuning** | LiveOps/seasonal event | ScriptableObject + Google Sheet sync + runtime override | Bán như “balance tuning service” |
+| **Coroutine/Task Framework** | Game cần xử lý async phức tạp | Wrapper quản lý lifecycle, cancel token | Gói nâng hiệu suất + bảo trì |
+| **FX/Particles Toolkit** | UI feedback, combat game | Prefab VFX + controller script | Bán asset pack + bundle dịch vụ tùy chỉnh |
+| **Advanced Inventory + Crafting** | Survival, RPG lite | Modular inventory core + crafting recipe builder | Productized service cập nhật nội dung |
+| **Loading & Streaming Suite** | Open world, mobile nặng | Addressables profile + streaming profiler | Gói tư vấn tối ưu memory |
+| **Math & Utilities Pack** | Studio nhỏ cần chuẩn hóa | Vector extension, noise generators, curve tools | Bán license + training nội bộ |
+| **In-game Shop + Offer Engine** | LiveOps monetization | UI prefab + promo scheduler + receipt validator | Triển khai cho khách hàng + doanh thu chia sẻ |
+| **Sprite/UI System** | 2D toolkit | UI kit responsive + localization-ready | Bán template + workshop hướng dẫn |
 
 ## 4. Checklist reuse-ready
 
@@ -46,6 +56,8 @@
 - [ ] Có test đơn giản (PlayMode/Editor) đảm bảo không vỡ khi nâng phiên bản.
 - [ ] Có license rõ ràng (MIT/Commercial) khi dùng cho khách hàng.
 - [ ] Tài liệu ghi rõ dependency và phiên bản Unity hỗ trợ.
+
+> Khi checklist đạt 100%, thêm module vào catalog cá nhân (Notion/Website) để khách hàng thấy ngay năng lực.
 
 ## 5. Stack công cụ gợi ý
 
