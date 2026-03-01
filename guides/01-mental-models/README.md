@@ -17,6 +17,10 @@
 
 > Không nhất thiết đi tuyến tính. Hãy audit (bên dưới) để biết bạn yếu ở layer nào, sau đó đào sâu module tương ứng.
 
+### 🔁 Metacognitive Operating System (New)
+
+*Nếu bạn muốn “build OS” giám sát mọi vòng lặp suy nghĩ, hãy đọc:* **[Metacognitive Operating System (Metacog-OS)](./metacognitive-operating-system.md)** – bài hướng dẫn tạo hệ điều hành tự nhận thức với các layer Bootloader/Monitor/Update, Metacog Canvas và ritual 7 ngày để bắt đầu.
+
 ## ✅ Mental Model Audit Checklist
 
 Đánh giá 1-5 (1 = yếu, 5 = mạnh). Mục nào ≤3 thì ưu tiên đọc module tương ứng.
