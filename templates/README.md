@@ -34,6 +34,7 @@
 | Template | Mô tả ngắn | Đường dẫn |
 |:---------|:-----------|:----------|
 | **Cold Email Mentor** | Mẫu email xin lời khuyên từ mentor / người đi trước | [templates/cold-email-mentor.md](./cold-email-mentor.md) |
+| **Outreach Studio (IT/Game/Web3)** | Template tiếp cận studio/công ty để pitch hợp tác hoặc ứng tuyển | [templates/outreach-studio.md](./outreach-studio.md) |
 | **CV (Global)** | Mẫu CV chuẩn quốc tế | [cv-template-global](./career/cv-template-global.md) |
 | **Freelance Proposal** | Mẫu proposal gửi khách khi bid dự án | [freelance-proposal-template](./career/freelance-proposal-template.md) |
 | **Landing Page Copy** | Mẫu copy cho landing page cá nhân / freelance | [landing-page-copy-template](./career/landing-page-copy-template.md) |

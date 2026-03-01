@@ -13,6 +13,7 @@ Kho thư viện nguồn lực được tuyển chọn để hỗ trợ học t�
 - [Collected Links](collected_links/INDEX.md): Bộ link curated theo domain (AI, Web, Security, Finance...).
 - [Meetup Venues](meetup-venues.md): Danh sách quán café/nhà hàng phù hợp hẹn gặp, họp nhóm, hẹn hò, nhậu nhẹt.
 - [AI Hardware Vendors](ai-hardware-vendors.md): Nguồn mua/thuê GPU server, cloud GPU, edge kit tại Việt Nam và quốc tế.
+- [Vietnam IT & Game Talent Landscape](vietnam-it-landscape.md): Tổng hợp công ty IT, studio game và nguồn tuyển dụng IT tại Việt Nam.
 
 ## Hướng dẫn sử dụng
 1. **Xác định nhu cầu:** Ví dụ cần tài liệu học AI, nguồn dữ liệu tài chính, hay cộng đồng để hỏi đáp.
