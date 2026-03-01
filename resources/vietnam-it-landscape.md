@@ -47,6 +47,76 @@
 | **TNEX (MSB)** | https://www.tnex.com.vn/careers | Lifestyle digital bank | React Native, Backend Node, CX lead | Hướng tới gen Z, nhiều campaign marketing |
 | **Kredivo Vietnam** | https://www.kredivo.com/id/careers (ENG) | BNPL, consumer lending | Credit risk, Data scientist, Backend | Thuộc fintech Indonesia, tuyển remote VN |
 | **Ajaib / Finhay** | https://finhay.com.vn/tuyen-dung | Đầu tư, chứng khoán số | Backend, Quant, Product growth | Liên kết các broker lớn, focus retail investor |
+
+### 🏦 Vietnamese Financial Conglomerates & Digital Banking Units
+
+| Tập đoàn/Ngân hàng | URL tuyển dụng / Thông tin | Mảng trọng tâm | Nhu cầu nhân sự chính | Điểm nhấn chuyển đổi số |
+| --- | --- | --- | --- | --- |
+| **Vietcombank (VCB Digibank)** | https://tuyendung.vietcombank.com.vn | Ngân hàng bán lẻ & doanh nghiệp, ngân hàng số VCB Digibank | Core banking, Security, Data analyst, Mobile banking | Đầu tư mạnh vào Open API, hợp tác với các bigtech để mở rộng dịch vụ số |
+| **BIDV Digital Bank** | https://tuyendung.bidv.com.vn | Retail banking, SME lending, BIDV SmartBanking | Cloud engineer, Data platform, Risk modeling | Lộ trình hiện đại hóa core T24 và trung tâm dữ liệu mới tại Hòa Lạc |
+| **VietinBank iPay** | https://tuyendung.vietinbank.vn | Bán lẻ số, thanh toán doanh nghiệp | DevOps, Cybersecurity, Mobile dev | Xây Digital Banking Center tại Hà Nội, hợp tác VietinBank Digital Labs |
+| **MB Group (MB Digital Business)** | https://career.mb.com.vn | Ngân hàng số (MBBank app, Biz MB), hệ sinh thái tài chính – bảo hiểm – chứng khoán | Product owner, Data scientist, Cloud, DevSecOps | Có nền tảng MEGA DIGITAL, đầu tư đội ngũ 3.000 nhân sự công nghệ |
+| **VPBank (VPBank NEO & VPBank Finance)** | https://tuyendung.vpbank.com.vn | Ngân hàng số cho retail & SME, tài chính tiêu dùng FE Credit | Mobile, Data, Growth, Credit risk | VPBank NEO hợp tác Google Cloud, xây Data Lake phục vụ scoring real-time |
+| **Techcombank** | https://career.techcombank.com.vn | Wealth management, payment, corporate banking | Cloud, Data, API platform, SRE | Chương trình “Vision 2025” đầu tư 500M USD vào Data & Cloud với AWS |
+| **ACB (ACB ONE)** | https://tuyendung.acb.com.vn | Ngân hàng bán lẻ, SME, ngân hàng số ACB ONE | Backend .NET/Java, QA automation, Data analytics | Chuyển core banking sang hệ thống mới, triển khai omnichannel contact center |
+| **Sacombank (Digital Banking Division)** | https://www.sacombankcareers.com.vn | Thanh toán bán lẻ, thẻ, kiều hối | Mobile, API, Security, Business analyst | Sacombank 2025 hướng tới ngân hàng số hàng đầu, hợp tác Vietcredit, Tap-to-Phone |
+| **SHB Group** | https://tuyendung.shb.com.vn | Tài trợ thương mại, ngân hàng số SHB Mobile | Data warehouse, ESB, DevOps | Đầu tư trung tâm dữ liệu tại Hòa Lạc, lộ trình IFRS & Basel II |
+| **SeABank (SeaBank Digital Hub)** | https://seabank.com.vn/tuyen-dung | Retail banking, BNPL (Buy Now Pay Later) | CRM engineer, Microservices, Data governance | Hợp tác Apple Pay, triển khai ngân hàng số SeAMobile |
+| **HDBank / HD SAISON** | https://hdbank.com.vn/tuyen-dung | Ngân hàng bán lẻ + tài chính tiêu dùng, aviation (Vietjet) | Credit scoring, Mobile dev, Partner integration | Ecosystem hàng không – retail, tích hợp tài chính vào hệ sinh thái Vietjet/Phu Long |
+| **MSB (TNEX & MSB Digital Factory)** | https://careers.msb.com.vn | Neobank TNEX, retail banking | React Native, Node.js, Cloud infra | TNEX tách biệt như startup nội bộ, sử dụng kiến trúc microservices trên Azure |
+| **Viet Capital Bank / Cake by VPBank x Be** | https://tuyendung.vietcapitalbank.com.vn | Ngân hàng số hợp tác BeGroup | Product, Growth, Data | Cake tích hợp trong ứng dụng Be, chạy team growth riêng |
+| **Agribank Digital** | https://tuyendung.agribank.com.vn | Nông nghiệp, mạng lưới rộng khắp | Core banking upgrade, Payment engineer, Security | Dự án hiện đại hóa core (core banking transformation) trị giá 7000 tỷ VNĐ |
+| **VietCredit / FE Credit / Home Credit** | https://www.vietcredit.com.vn/career | Consumer finance, BNPL | Risk analytics, Data, Collections tech | Tập trung AI scoring, eKYC, automation quy trình thẩm định |
+
+> **Gợi ý:** Khi săn nhân sự digital banking, ưu tiên các key từ khóa: *Digital Factory, Data Platform, Cloud Center of Excellence, Enterprise Architect* – các ngân hàng VN đang xây "ngân hàng trong ngân hàng" dạng startup nội bộ để chạy nhanh hơn.
+
+### 📈 Vietnam Securities & Trading Houses
+
+| Công ty chứng khoán | URL | Mảng trọng tâm | Vị trí/nhu cầu chính | Điểm nhấn công nghệ |
+| --- | --- | --- | --- | --- |
+| **SSI Securities** | https://www.ssi.com.vn/ve-ssi/tuyen-dung | Brokerage, investment banking, wealth | Digital product owner, Quant, Algo trading, Data engineer | Vận hành SSI iBoard/iWin, phát triển hạ tầng giao dịch HFT nội bộ |
+| **VNDIRECT** | https://careers.vndirect.com.vn | Retail brokerage, online trading, wealth advisory | Backend .NET/Java, Mobile, Data science, DevOps | Xây dựng nền tảng Bứt Phá 2026 – omnichannel trải nghiệm nhà đầu tư |
+| **HSC (Ho Chi Minh City Securities)** | https://www.hsc.com.vn/tuyen-dung | Brokerage, research, derivatives | Trading system engineer, Quant analyst, Research data | Đầu tư nền tảng iBroker, hệ thống phái sinh real-time |
+| **VPS Securities (SmartOne)** | https://tuyendung.vps.com.vn | Retail & margin trading, derivatives | Mobile engineer, Risk modeling, Data warehouse | App SmartOne có >3 triệu user, chạy kiến trúc microservices, dùng Kafka |
+| **TCBS (Techcom Securities)** | https://tcbs.com.vn/tuyen-dung | Wealthtech, bond marketplace, mutual funds | Fullstack, Data platform, Product manager | Nền tảng TCInvest, robo-advisor iCopy, mạnh về API open investment |
+| **Mirae Asset Securities Vietnam** | https://www.miraeasset.vn/tin-tuyen-dung | Cross-border brokerage, prime services | Quant, Risk control, API integration engineer | Hệ thống trading kết nối thị trường Hàn Quốc & SEA |
+| **KB Securities Vietnam** | https://www.kbsec.com.vn/viec-lam | Brokerage, investment banking | Data engineer, Mobile dev, Compliance IT | Thuộc KB Financial (Hàn Quốc), xây nền tảng KBAble |
+| **Yuanta Securities Vietnam** | https://www.yuanta.com.vn/tuyen-dung | Brokerage, prop trading, wealth | Backend, Core trading system, Risk analytics | Đầu tư mạnh hệ thống giao dịch phái sinh, API cho đối tác fintech |
+| **KIS Vietnam Securities** | https://kisvn.vn/category/tuyen-dung | Brokerage, research, derivatives | Quant dev, System admin, QA automation | Phát triển nền tảng K-Trade, hợp tác KRX cho hệ thống mới |
+| **FPTS (FPT Securities)** | https://www.fpts.com.vn/tuyen-dung | Brokerage, online trading, eKYC | Frontend, DevOps, Security | Lợi thế tech từ FPT, dùng eContract/eKYC tự động |
+| **MB Securities (MBS)** | https://mbs.com.vn/tuyen-dung | Brokerage + ngân hàng đầu tư thuộc MB Group | Data analyst, Algo trading engineer, Product owner | Tận dụng data từ MB Bank để cá nhân hóa sản phẩm đầu tư |
+| **ACBS (ACB Securities)** | https://acbs.com.vn/tuyen-dung | Brokerage, bond distribution | Mobile dev, CRM engineer, Risk IT | Đồng bộ với ACB ONE, triển khai trải nghiệm seamless bank-broker |
+| **Saigon Securities Inc. (SSCI/BSI)** | https://bsi.com.vn/tuyen-dung | Prop trading, investment banking | Risk, Compliance IT, BI engineer | Có desk prop trading hàng đầu, cần hệ thống giám sát thời gian thực |
+| **Sở Giao dịch Hàng hóa Việt Nam (MXV)** | https://mxv.com.vn/tuyen-dung | Commodity trading, derivatives | Trading platform engineer, Market data analyst | Kết nối CME, TOCOM; cần kỹ sư low-latency, tích hợp FIX |
+
+> *Lưu ý:* Nhiều công ty chứng khoán đang xây đội ngũ **quant, risk analytics, API trading** để chuẩn bị cho hệ thống KRX mới. Nhà tuyển dụng ưu tiên ứng viên có kinh nghiệm Java/.NET, Python cho dữ liệu thị trường và hiểu biết chuẩn FIX.
+
+### 🌎 Global Trading & Market Making Firms (đang mở rộng tại APAC)
+
+| Firm | URL | Sản phẩm/mảng chính | Nhu cầu tuyển nổi bật | Ghi chú cho talent VN |
+| --- | --- | --- | --- | --- |
+| **Citadel Securities** | https://www.citadelsecurities.com/careers | Market making equities, options, fixed income | C++ low-latency engineer, Quant researcher, Data platform | Có hub tại Singapore & Hong Kong, chương trình internship APAC mở cho ứng viên VN du học |
+| **Jane Street** | https://www.janestreet.com/join-jane-street/ | ETF/option market making, crypto liquidity | Functional programmer (OCaml), Quant trader, Systems engineer | Tuyển intern/quants tại Hong Kong, offer relocation & housing |
+| **Jump Trading / Jump Crypto** | https://www.jumptrading.com/careers | HFT multi-asset, crypto market making | FPGA engineer, Distributed systems, Quant dev | Văn phòng Singapore, tích cực tuyển engineer châu Á cho dự án Web3 |
+| **Optiver** | https://www.optiver.com/working-at-optiver/jobs/ | Options/liquidity provider | C++ engineer, Quant researcher, Trader trainee | Optiver APAC tại Sydney & Singapore, có chương trình Optiver Academy |
+| **IMC Trading** | https://www.imc.com/us/careers/ | Options, futures, ETF liquidity | Low-latency dev, Quant trader, Platform reliability | Mở tech hub tại Sydney, Singapore; hỗ trợ visa quickly |
+| **DRW / Cumberland** | https://drw.com/work-at-drw/ | Proprietary trading (fixed income, crypto) | Software engineer (C++/Rust), Quant, Risk | Có team tại Singapore và đối tác Việt Nam cho các dự án fintech |
+| **Hudson River Trading (HRT)** | https://www.hudsonrivertrading.com/careers/ | Algorithmic trading đa sàn | C++/Python engineer, Quant research, Core infra | Đặt văn phòng Singapore; sẵn sàng tuyển remote contractor timezone +7 |
+| **Tower Research Capital** | https://www.tower-research.com/open-positions | High-frequency trading futures & options | C++ dev, Site reliability, Quant dev | Hub mới tại Gurgaon và Singapore, gần Việt Nam, lương cạnh tranh |
+| **Two Sigma** | https://careers.twosigma.com | Quant hedge fund, data science | ML engineer, Data platform, Quant researcher | Có văn phòng Singapore (Two Sigma Asia), hợp tác với các fintech VN qua API |
+| **Flow Traders** | https://www.flowtraders.com/careers | ETF liquidity, digital asset market making | C++ engineer, Python data, Trader trainee | Base tại Amsterdam nhưng mở rộng mạnh ở Singapore, Hong Kong |
+| **Susquehanna (SIG)** | https://sig.com/campus-programs/ | Options trading, sports analytics | Trading intern, Quant dev, Research | SIG Singapore đang săn talent châu Á, có chương trình đào tạo poker/math |
+| **Goldman Sachs Global Markets** | https://www.goldmansachs.com/careers/ | Multi-asset trading, prime brokerage | SRE, Electronic trading dev, Quant strat | Văn phòng Singapore/Hong Kong tuyển engineer cho hệ thống Marquee, GS Accelerate |
+| **Morgan Stanley Electronic Trading (MSET)** | https://www.morganstanley.com/people-opportunities | Equities, FX electronic trading | Java/C++ e-trading dev, Data analytics, Low-latency infra | Có trung tâm công nghệ tại Hong Kong, India; remote/hybrid hỗ trợ client VN |
+| **Interactive Brokers** | https://www.interactivebrokers.com/en/general/career.php | Global multi-asset broker | Backend Java/C++, Customer Success, Compliance IT | Có văn phòng HCMC phục vụ khách hàng VN từ 2024, nền tảng API mạnh |
+| **Virtu Financial** | https://www.virtu.com/careers/ | Market making, agency execution | Network engineer, Quant dev, Compliance tech | Mở rộng tại APAC để hỗ trợ dark pool & algo execution |
+| **IG Group / tastytrade** | https://careers.iggroup.com | Retail trading, derivatives | Platform engineer, DevOps, Data | IG có văn phòng tại Singapore & Malaysia, hỗ trợ nhà đầu tư VN |
+| **Saxo Bank** | https://www.home.saxo/en/careers | Multi-asset trading platform | API engineer, Product manager, Quant risk | Saxo có văn phòng Hà Nội (liên doanh), hỗ trợ white-label broker VN |
+| **CMC Markets / Plus500** | https://www.cmcmarkets.com/group/careers | CFD & FX trading | Frontend/React, Risk monitoring, Data engineer | Tuyển nhân sự vận hành 24/5 tại Singapore, London, Sydney |
+| **BitMEX / Deribit / Binance** | https://www.bitmex.com/careers (ví dụ) | Crypto derivatives trading | Rust/Golang engineer, Quant risk, Security | Các sàn phái sinh crypto tuyển remote, ưu tiên kinh nghiệm low-latency & compliance |
+
+> *Gợi ý:* Dù base chính thường ở London/Chicago/New York, hầu hết firm đều mở **APAC hub (Singapore, Hong Kong, Sydney)** và sẵn sàng tuyển kỹ sư/quant Việt Nam thông qua chương trình graduate hoặc relocation. Chuẩn bị kỹ năng **C++/Rust low-latency, Python/ML cho thị trường, hiểu FIX/OUCH**, và profile toán mạnh để ứng tuyển.
+
 | **SeaMoney (ShopeePay, SPayLater)** | https://careers.seagroup.com | Regional payments, lending | Risk, Machine Learning, Infra | Có hub tại SG và VN, tuyển cross-border |
 | **GrabFin / GrabPay** | https://careers.grab.com/sg/en | Fintech trong super app | Security, Wallet, Compliance | Hỗ trợ relocation sang SG |
 | **Aspire (SG start-up)** | https://aspireapp.com/careers | SME banking, corporate card | Fullstack, Credit ops, Growth | Cho phép remote VN, scale-up Series C |
