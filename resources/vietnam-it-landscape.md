@@ -172,6 +172,91 @@
 
 ---
 
+## 🇯🇵 Japan Tech & Corporate Leaders Hiring in VN/SEA
+
+| Công ty/Tập đoàn | URL | Mảng/tech focus | Hub chính (Japan & VN/SEA) | Vị trí/nhu cầu tuyển | Ghi chú |
+| --- | --- | --- | --- | --- | --- |
+| **NTT Data / NTT Ltd.** | https://www.nttdata.com/global/en/careers | IT services, govtech, telecom | Tokyo, Osaka, Hanoi, HCMC | SAP/ERP consultant, Network engineer, Security | Vận hành trung tâm phát triển tại Hà Nội/Đà Nẵng (NTT Data Vietnam) |
+| **NEC Corporation** | https://www.nec.com/en/global/careers/ | Public safety, biometrics, smart city | Japan HQ, Hanoi (NEC Vietnam), Singapore | AI engineer, System integration, Analytics | Triển khai dự án camera AI cho TP.HCM & Hà Nội |
+| **Fujitsu** | https://www.fujitsu.com/global/about/careers/ | Hybrid IT, cloud, managed service | Tokyo, Okinawa, Hanoi (Fujitsu Vietnam) | Cloud engineer, SAP BASIS, Service desk JP/EN | Có Fujitsu Da Nang, hỗ trợ khách hàng Nhật |
+| **Rakuten Group** | https://global.rakuten.com/corp/careers/ | E-commerce, fintech, Viber | Tokyo, Singapore, HCMC (Viber VN) | Backend Go/Java, Mobile, Security | Có chương trình Rakuten Mobile, cần DevOps/5G |
+| **LINE / LY Corporation** | https://linecorp.com/en/career | Messaging, fintech, AI | Tokyo, Fukuoka, Taipei, Hanoi dev hub | Server engineer, AI research, Payment security | LINE Vietnam (Da Nang) làm Line Sticker, fintech|
+| **Mercari** | https://careers.mercari.com | C2C marketplace, fintech | Tokyo, Sendai, Bangalore, Singapore | Backend Go, ML, Security engineer | Có chương trình Mercari Global Hub, cho phép remote APAC |
+| **CyberAgent (Abema, Game)** | https://www.cyberagent.co.jp/en/careers/ | Digital media, game dev | Tokyo, Osaka, HCMC (CA Vietnam) | Unity/Unreal dev, Backend, Product manager | CyberAgent Vietnam vận hành studio game & adtech |
+| **DeNA** | https://dena.com/intl/careers/ | Game, mobility, healthcare | Tokyo, Singapore, Vietnam partners | Game engineer, LiveOps, Data analyst | Hợp tác nhiều studio VN cho co-dev mobile game |
+| **GREE / WFS (Wright Flyer Studio)** | https://corp.gree.net/jp/en/careers/ | Mobile/VR game, blockchain | Tokyo, Singapore, HCMC partner | Unity/UE dev, Artist, Producer | GREE Vietnam phát triển game casual, VR |
+| **Sony Group (PlayStation, Imaging)** | https://www.sony.com/en/SonyInfo/Careers/ | Consumer tech, imaging, entertainment | Tokyo, Singapore, HCMC (Sony Digital Network Apps) | Android, Imaging algorithm, Cloud backend | Sony DNA Vietnam hỗ trợ app PlayStation & imaging |
+| **Panasonic Holdings** | https://holdings.panasonic/global/corporate/jobs.html | Smart factory, energy, consumer IoT | Osaka, Tokyo, Binh Duong plant | Embedded engineer, QA automation, Smart factory consultant | Panasonic R&D VN làm firmware IoT, automotive |
+| **Hitachi Digital / Hitachi Vantara** | https://www.hitachi.com/careers | Industrial digital, data platform | Tokyo, Bangalore, HCMC (Global Logic) | Data engineer, Cloud architect, OT/IT integration | GlobalLogic (thuộc Hitachi) có trung tâm tại HCMC, Đà Nẵng |
+| **Mitsubishi UFJ Financial Group (MUFG) / MUFG Innovation Partners** | https://www.mufg.jp/english/careers/ | Banking, fintech investment | Tokyo, Singapore, Hanoi rep | Risk, Compliance, Digital banking, VC analyst | MUFG đầu tư vào MoMo, VietCredit, mở chương trình fintech scouting tại VN |
+| **SoftBank (Vision Fund, SB Telecom)** | https://www.softbank.jp/en/corp/hr/career/ | Telecom, AI, venture investment | Tokyo, Singapore, Vietnam portfolio | Investment analyst, AI infrastructure, Cloud engineer | SoftBank Vision Fund đầu tư vào Trusting Social, Sendo |
+| **Fast Retailing (Uniqlo Technology)** | https://www.fastretailing.com/employment/en/ | Retail tech, SCM | Tokyo, Osaka, Hanoi/HCMC stores | IT business analyst, Retail system engineer, Data analyst | Uniqlo VN ứng dụng POS, RFID, cần BA hiểu cả tiếng Nhật |
+| **Recruit Holdings / Indeed Japan** | https://recruit-holdings.com/en/career/ | HR tech, job marketplace | Tokyo, Singapore, Manila | Product manager, Data scientist, Backend | Recruit hợp tác TopCV/TopDev, mở chương trình joint venture VN |
+| **Denso / Aisin / Toyota Tsusho** | https://www.denso.com/global/en/careers/ | Automotive electronics, supply chain | Nagoya, Bangkok, Hanoi (R&D) | Embedded, Automotive software, Supply chain IT | Denso Vietnam làm ECU, sensor; cần C/C++ embedded |
+| **NIKKEI / Nikkei Asia** | https://www.nikkei.com/recruit/ | Media, data, research | Tokyo, Singapore, Hanoi bureaus | Data journalist, Product engineer, Analyst | Nikkei mở role phân tích thị trường VN và SEA |
+
+> *Tip:* Theo dõi trang **Japan Work in Vietnam** (JETRO), **VietnamWorks Japan Desk**, **JobStreet Japan Desk** để săn JD từ các tập đoàn Nhật đang mở rộng R&D/Delivery tại VN. Từ khóa hữu ích: “Global expansion”, “APAC hub”, “Vietnam delivery center”.
+
+---
+
+## 🇦🇺 Australia Tech & Corporate Leaders Engaging VN/SEA Talent
+
+| Công ty/Tập đoàn | URL | Mảng/tech focus | Hub chính (Australia & VN/SEA) | Vị trí/nhu cầu tuyển | Ghi chú |
+| --- | --- | --- | --- | --- | --- |
+| **Atlassian** | https://www.atlassian.com/company/careers | Collaboration software (Jira, Confluence) | Sydney, Canberra, Bengaluru, remote APAC | Backend (Java/Go), Cloud infra, Developer advocate | Có chương trình distributed-first, tuyển remote ở VN qua contractor/gig |
+| **Canva** | https://www.canva.com/careers | Design SaaS, AI media | Sydney, Melbourne, Singapore | Product engineer, ML engineer, Growth PM | Canva “Force for Good” mở role remote/hybrid tại SEA, cần tiếng Anh tốt |
+| **Telstra / Telstra Purple** | https://careers.telstra.com | Telco, cloud, cyber | Melbourne, Sydney, Ho Chi Minh (Telstra VN) | Network engineer, Cloud architect, Security analyst | Telstra VN vận hành center tại District 2 HCMC |
+| **Telstra Health / Evergen** | https://www.telstrahealth.com/careers | Digital health, energy | Sydney, Brisbane, Singapore partners | Health platform engineer, Data scientist, IoT engineer | Liên kết các bệnh viện và dự án năng lượng tái tạo tại VN |
+| **CSIRO / Data61** | https://www.csiro.au/en/work-with-us/careers | Deep tech research, AI, robotics | Canberra, Brisbane, Singapore liaison | Research engineer, AI scientist, Quantum computing | Có chương trình hợp tác với ĐH Bách Khoa, ĐHQG VN thông qua Aus4Innovation |
+| **WiseTech Global** | https://www.wisetechglobal.com/careers | Logistics SaaS (CargoWise) | Sydney, Melbourne, Singapore, HCMC partner | .NET engineer, DevOps, Product support | Có delivery partner tại Việt Nam phục vụ khách hàng logistics |
+| **Xero** | https://www.xero.com/careers | Cloud accounting SaaS | Wellington, Melbourne, Singapore | Backend, Data, Product design | Làm việc với hệ sinh thái startup VN thông qua partner chương trình Xero Advisors |
+| **Afterpay / Block (Square)** | https://careers.squareup.com | BNPL, fintech | Melbourne, Sydney, Singapore | Risk, Machine learning, Backend | Afterpay thuộc Block, tuyển remote APAC, link với nhà bán lẻ VN |
+| **REA Group** | https://www.rea-group.com/careers | Proptech (realestate.com.au) | Melbourne, Sydney, Kuala Lumpur | Data engineer, Mobile, Search relevance | Có liên doanh PropertyGuru/REA SEA, hợp tác với Batdongsan.com.vn |
+| **Seek / JobStreet** | https://www.seek.com.au/career | HR tech, job marketplace | Melbourne, Kuala Lumpur, Ho Chi Minh (JobStreet) | Product manager, Platform engineer, Data analytics | JobStreet VN thuộc Seek Asia, thường tuyển CX/Product tại HCMC |
+| **Airwallex** | https://www.airwallex.com/careers | Cross-border payments, FX | Melbourne, Sydney, Singapore, HCMC rep | Backend (Go/Java), Compliance, Partnerships | Unicorn fintech có VP Partnerships tại HCMC phục vụ merchant VN |
+| **SafetyCulture** | https://safetyculture.com/careers | Workplace safety SaaS (iAuditor) | Sydney, Townsville, Kansas City, Manila | Mobile engineer, Product marketer, Customer success | Có team APAC hỗ trợ khách hàng manufacturing VN |
+| **Envato** | https://envato.com/careers | Creative marketplace (ThemeForest) | Melbourne, Sydney, Mexico City, remote | Frontend, Platform engineer, Community ops | Freelancer VN chiếm lớn, Envato mở role remote contractor |
+| **SiteMinder** | https://www.siteminder.com/jobs | Hotel distribution SaaS | Sydney, Bangkok, Manila | Integrations engineer, Sales engineer, Customer success | Phục vụ khách sạn VN, mở role language support tiếng Việt |
+| ** Cochlear** | https://careers.cochlear.com | Medtech, hearing implants | Sydney, Kuala Lumpur manufacturing, HCMC clinics | Embedded engineer, Manufacturing automation, Clinical specialist | Có trung tâm hỗ trợ bệnh nhân tại VN, cần kỹ sư biomedical |
+| **CSL (Seqirus, Vifor)** | https://www.csl.com/careers | Biotech, vaccines | Melbourne, Singapore, HCMC rep | QA automation, Data analytics, Digital manufacturing | CSL hợp tác với VinBioCare, cần chuyên gia biotech IT |
+| **ResMed** | https://www.resmed.com/en-us/careers/ | Medtech sleep apnea, connected devices | Sydney, Manila, Singapore | Embedded, Cloud IoT, Data scientist | ResMed cloud team mở role remote APAC, phục vụ nhà máy tại Singapore và VN |
+| **Blackbird Ventures Portfolio (Eucalyptus, Culture Amp, Dovetail)** | https://www.blackbird.vc/careers | Healthtech, HR tech, research SaaS | Sydney, Melbourne, Remote APAC | Product engineer, Research ops, Growth | Các startup trong portfolio thường tuyển remote contractor ở VN |
+| **Culture Amp** | https://www.cultureamp.com/jobs | People analytics SaaS | Melbourne, San Francisco, London | Fullstack, Data, Research scientist | Culture Amp Remote+ cho phép làm ở VN nếu timezone phù hợp |
+| **Eucalyptus / Heydoc** | https://eucalyptus.vc/careers | Digital health clinics | Sydney, Melbourne, Remote APAC | Product engineer, Growth marketer, Clinical ops | Thử nghiệm mở rộng telehealth sang SEA thông qua partner |
+
+> *Tip:* Sử dụng kênh **Austrade**, **LandingPads Singapore**, nhóm **AusCham Vietnam Tech** và sự kiện **Vietnam-Australia Digital Forum** để kết nối với HR/BD của các tập đoàn Úc. LinkedIn filter “Company HQ = Australia” + “Remote APAC” giúp phát hiện các role distributed cho ứng viên Việt Nam.
+
+---
+
+## 🇺🇸 United States Tech & Corporate Leaders Hiring VN/SEA Talent
+
+| Công ty/Tập đoàn | URL | Mảng/tech focus | Hub chính (US & VN/SEA) | Vị trí/nhu cầu tuyển | Ghi chú |
+| --- | --- | --- | --- | --- | --- |
+| **Google Cloud / Google PSO** | https://careers.google.com/locations/asia-pacific/ | Cloud, data, AI | Mountain View, Singapore, HCMC (partner) | Cloud architect, Customer engineer, TAM | Google Cloud hợp tác VNG Cloud/FPT, tuyển pre-sales & PSO hỗ trợ khách hàng VN |
+| **Meta (Reality Labs + Ads)** | https://www.metacareers.com/ | Social, VR/AR, Ads infra | Menlo Park, Singapore hub | Partner engineer, Policy, AR/VR UX | Meta tuyển remote/hybrid cho Reality Labs, Ads Integrity hỗ trợ thị trường VN |
+| **Microsoft Asia Engineering** | https://careers.microsoft.com | Cloud, security, enterprise | Redmond, Shanghai, Singapore, HCMC (MCS) | Azure architect, Security engineer, Customer success | Có trung tâm tư vấn tại VN, chương trình Microsoft Aspire dành cho fresh grads |
+| **Amazon Web Services (AWS)** | https://www.amazon.jobs/en/locations/asia-pacific | Cloud infra, commerce, devices | Seattle, Singapore, Malaysia, VN partner labs | Solutions architect, DevOps, Partner SA | AWS mở Local Zones VN 2024, cần SA hỗ trợ khách hàng chính phủ/doanh nghiệp |
+| **Salesforce** | https://www.salesforce.com/company/careers/ | CRM, cloud platform | San Francisco, Singapore, Tokyo, HCMC partner | Solution consultant, MuleSoft dev, Support engineer | Thường tuyển remote APAC, phối hợp partner VN triển khai CRM |
+| **ServiceNow** | https://careers.servicenow.com | Workflow SaaS, automation | Santa Clara, Singapore, Sydney | Solution architect, Platform engineer, Developer advocate | Tổ chức ServiceNow User Group tại HCMC/Hà Nội, hỗ trợ partner VN |
+| **Palantir Technologies** | https://www.palantir.com/careers/ | Data platform, defense, govtech | Denver, Washington DC, Singapore | Forward deployed engineer, Deployment strategist, Security | Làm việc với chính phủ/enterprises SEA; yêu cầu clearance nhưng có track VN |
+| **Databricks** | https://www.databricks.com/company/careers | Lakehouse, AI, big data | San Francisco, Amsterdam, Singapore | Data engineer, Solutions architect, Resident architect | Mở role remote hỗ trợ khách hàng fintech và telco VN |
+| **Snowflake** | https://careers.snowflake.com | Data warehouse cloud | San Mateo, Sydney, Singapore | Sales engineer, Customer success, Data architect | Tuyển contractor VN thông qua partner SI (Implement, Cloud Kinetics) |
+| **Stripe** | https://stripe.com/jobs | Payments infra, fintech | San Francisco, Seattle, Singapore, remote APAC | Infrastructure engineer, Risk, Compliance analyst | Stripe Atlas & Stripe Climate hợp tác startup VN; tuyển remote contractor APAC |
+| **Visa / Mastercard / American Express** | https://usa.visa.com/careers.html | Payments network, risk, data | Foster City, Singapore, Hanoi/HCMC reps | Risk analyst, Product manager, Cybersecurity | Visa mở Innovation Studio SG, hợp tác MoMo, ZaloPay, cần talent VN |
+| **BlackRock / Aladdin** | https://careers.blackrock.com | Asset management, fintech | New York, Singapore, Gurgaon | Aladdin implementation, SRE, Data engineer | BlackRock và Temasek hỗ trợ quỹ VN; tuyển chuyên gia Aladdin remote APAC |
+| **Bloomberg** | https://careers.bloomberg.com | Market data, news, analytics | New York, Singapore, Hong Kong | Data specialist, News editor, Software engineer | Có bureau Hà Nội/HCMC, tuyển phóng viên/coder hiểu tiếng Việt |
+| **NVIDIA** | https://www.nvidia.com/en-us/about-nvidia/careers/ | GPU, AI hardware, automotive | Santa Clara, Singapore, HCMC (AI Lab) | CUDA engineer, Solution architect, Partner manager | Đã lập NVIDIA AI Lab với HCMUT, tuyển evangelist, SA hỗ trợ OEM VN |
+| **AMD / Qualcomm / Intel Foundry Services** | https://careers.amd.com | Semiconductor design, 5G | Austin, San Diego, Penang, Hanoi partner | ASIC design, Firmware, RF engineer | Hợp tác với Viettel High Tech, VinSmart; cần chuyên gia C/C++, DSP |
+| **Tesla / Rivian / Lucid** | https://www.tesla.com/careers | EV hardware, energy | Palo Alto, Shanghai, Singapore service hub | Firmware engineer, Battery R&D, Energy field service | Tesla Energy triển khai tại VN qua reseller, cần kỹ sư hỗ trợ solar/storage |
+| **OpenAI / Anthropic (Partners)** | https://openai.com/careers | AI foundation models | San Francisco, Remote | Applied AI engineer, Solutions architect, Policy | Dù chưa mở văn phòng VN, nhiều partner (FPT, VNG) cần talent tích hợp GPT |
+| **Unity Technologies / Epic Games** | https://careers.unity.com / https://www.epicgames.com/site/en-US/careers | Game engine, tools | San Francisco, Montreal, Singapore | Graphics engineer, Developer support, Partner engineer | Unity có Unity Learn hoạt động VN; Epic tuyển devrelations hỗ trợ studio VN |
+| **Roblox / Niantic / Riot Games (US teams)** | https://careers.roblox.com / https://nianticlabs.com/jobs/ | UGC gaming, AR, AAA | San Mateo, LA, Seattle | Gameplay engineer, Trust & Safety, Anti-cheat | Các team US tuyển remote contractor VN cho QA, CS, moderation |
+| **Cisco / Palo Alto Networks / CrowdStrike** | https://jobs.cisco.com / https://www.paloaltonetworks.com/careers | Networking, cybersecurity | San Jose, Singapore, Kuala Lumpur | Security architect, SASE engineer, Incident response | Cisco Vietnam (HCMC) & partner (Citek) đang mở rộng SOC |
+
+> *Tip:* Kết nối với **SelectUSA Tech**, **US Commercial Service (USCS) Vietnam**, cộng đồng **VietTech US**, **Viet Founders in Silicon Valley** và sự kiện **AUVSI XPONENTIAL APAC**, **AWS re:Invent watch party HCMC** để gặp HR/BD từ các công ty Mỹ. Sử dụng LinkedIn filter “Company HQ = United States” + “Location = Remote APAC / Vietnam” để tìm role phù hợp.
+
+---
+
 ## 🇮🇳 India Tech & Startup Map
 
 | Công ty/Startup | URL | Mảng/tech focus | Hub chính (Ấn Độ & SEA) | Vị trí/nhu cầu tuyển | Ghi chú |
