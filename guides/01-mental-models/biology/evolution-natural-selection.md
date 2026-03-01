@@ -23,6 +23,19 @@ Cơ thể và bộ não chúng ta được thiết kế cho môi trường săn 
 *   **Tại sao ta sợ nói trước đám đông?** Vì ngày xưa bị bộ lạc tẩy chay đồng nghĩa với cái chết. Giờ nó chỉ là sự xấu hổ nhẹ.
 *   **Bài học:** Đừng tin vào bản năng mù quáng. Hãy dùng lý trí (Frontal Cortex) để điều chỉnh hành vi phù hợp với bối cảnh hiện đại.
 
+## 5. Trôi dạt di truyền & Cổ chai (Genetic Drift & Bottleneck)
+
+*   **Genetic Drift:** Khi quần thể nhỏ, sự ngẫu nhiên có thể làm biến mất hoặc khuếch đại đặc điểm mà không liên quan đến “sức mạnh”.
+*   **Population Bottleneck:** Thảm họa làm dân số thu nhỏ → đa dạng gene giảm → đặc điểm “may mắn” sống sót trở thành chuẩn mực mới.
+*   **Business:** Startup nhỏ chịu tác động lớn từ mỗi quyết định tuyển dụng/khoản đầu tư (drift). Khủng hoảng (Covid, 2008) là bottleneck sàng lọc doanh nghiệp; ai dự trữ cash và linh hoạt sống sót sẽ định nghĩa “bình thường mới”.
+*   **Bài học:** Giảm sự lệ thuộc vào may rủi bằng cách tăng “kích thước quần thể” (đa dạng khách hàng, sản phẩm) và chuẩn bị kịch bản khi thị trường bị thắt chặt.
+
+## 6. Nhịp tiến hóa đột ngột (Punctuated Equilibrium)
+
+*   **Khái niệm:** Hệ sinh học giữ trạng thái ổn định lâu dài rồi bỗng chuyển pha nhanh chóng khi môi trường thay đổi (Phase Transition), không phải tăng trưởng tuyến tính.
+*   **Kinh tế:** Công nghệ AI, in 3D, năng lượng tái tạo… tạo “cú nhảy” thay vì tăng trưởng đều.
+*   **Chiến lược:** Theo dõi các tín hiệu yếu (weak signals) để biết khi nào hệ thống sắp chuyển pha; chuẩn bị “đột biến” (đầu tư R&D, mua lại nhân tài) trước khi sóng lớn đến.
+
 ---
 
 ## 🛠️ Ứng dụng Thực chiến (Life Applications)

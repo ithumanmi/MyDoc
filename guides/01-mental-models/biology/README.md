@@ -32,6 +32,21 @@ Sinh học cung cấp các mô hình tư duy về sự sống còn, thích nghi,
 *   **Feedback Loops:** Cơ chế tự điều chỉnh của cơ thể và tổ chức.
 *   **[Ứng dụng Thực chiến](./homeostasis-balance.md#🛠️-ứng-dụng-thực-chiến-life-applications):** Hormesis tinh thần, Ngủ đông tích cực.
 
+### 🛡️ 5. Hệ miễn dịch & Phòng thủ (Immune Systems)
+*Khả năng phát hiện – phản ứng – ghi nhớ mối đe dọa.*
+*   **[Immune Systems & Defense](./immune-systems-defense.md):** Innate vs. Adaptive, vaccine, auto-immune và cách xây “immune system” cho tổ chức.
+*   **Ứng dụng:** Chaos engineering, stress test tài chính, bảo vệ sáng kiến khỏi “kháng thể” doanh nghiệp.
+
+### 🔥 6. Trao đổi chất & Năng lượng (Metabolism)
+*Quản trị năng lượng để sống bền.*
+*   **[Metabolism & Energy Flow](./metabolism-energy.md):** ATP, catabolism vs. anabolism, ảnh hưởng đến burnout và khả năng scale.
+*   **Ứng dụng:** Energy budget cá nhân, xây “mitochondria” doanh nghiệp, chu kỳ nghỉ phục hồi.
+
+### 🧬 7. Di truyền học & Truyền tính trạng (Genetics)
+*Thiết kế “gen” cho tổ chức và sự nghiệp.*
+*   **[Genetics](./genetics.md):** DNA vs. RNA, cơ chế phiên mã – dịch mã, đột biến, quy luật Mendel.
+*   **Ứng dụng:** CRISPR/biotech, xét nghiệm ADN, “chỉnh sửa gene” văn hóa doanh nghiệp.
+
 ---
 
 ## 🌿 Case Study Sinh học Thực tế
