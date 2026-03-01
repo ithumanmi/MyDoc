@@ -93,3 +93,18 @@
 6. Deep Work Scheduler giúp bảo vệ block thời gian quan trọng khỏi cuộc họp.
 
 > Áp dụng đều đặn 3 template trên sẽ tạo vòng lặp: **Đặt mục tiêu → Thực thi có lịch → Review → Điều chỉnh**, giúp nâng hiệu suất theo cấp số nhân.
+
+---
+
+### 6. Bonus: Timeline 3 Tháng IELTS cho người đi làm 8h-19h
+[Mở full timeline chi tiết](../../guides/03-career-skills/ielts/timeline-3-thang.md)
+
+**Key takeaways:**
+- Chia 3 phase (Foundation → Skill Building → Intensive) mỗi phase 4 tuần, kèm checklist hằng ngày.
+- Lịch cố định cho người đi làm: Khối A viết buổi sáng, vocab trưa, deep work 21:15–22:30, mock test cuối tuần.
+- Tích hợp Gym 90 phút để giữ sức khỏe và Mistake Log để theo dõi lỗi.
+
+**Gợi ý sử dụng:**
+1. Thêm timeline này vào Google Calendar với event lặp (Khối A, Vocab Lunch, Deep Work IELTS).
+2. Dùng Mistake Log + Best Works folder để đo tiến bộ Writing/Speaking.
+3. Mỗi cuối phase chạy full mock để điều chỉnh trọng tâm tuần kế tiếp.
