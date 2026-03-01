@@ -11,7 +11,7 @@
 
 | Lớp | Câu hỏi chính | Module | File nổi bật |
 | --- | --- | --- | --- |
-| **Layer 1 – Life OS (Brainware)** | Tôi vận hành cuộc đời bằng hệ thống nào? | [life-os/](life-os/README.md) | [life-os/README.md](life-os/README.md), [decision-engine.md](life-os/decision-engine.md), [risk-engine.md](life-os/risk-engine.md) |
+| **Layer 1 – Life OS (Brainware)** | Tôi vận hành cuộc đời bằng hệ thống nào? | [life-os/](life-os/README.md) | [life-os/README.md](life-os/README.md), [decision-engine.md](life-os/decision-engine.md), [risk-engine.md](life-os/risk-engine.md), [psychology-reading-women.md](psychology-reading-women.md), [psychology-women-contexts.md](psychology-women-contexts.md) |
 | **Layer 2 – Well-being (Hardware)** | Năng lượng, hormone, tinh thần của tôi có ổn định không? | [well-being/](well-being/README.md) | [biohacking/health-os-overview.md](well-being/biohacking/health-os-overview.md), [mental-resilience/burnout-prevention.md](well-being/mental-resilience/burnout-prevention.md) |
 | **Layer 3 – Politics (Environment)** | Môi trường quốc gia/thế giới đang vận hành ra sao? Tôi cần chuẩn bị gì? | [politics/](politics/README.md) | [politics/README.md](politics/README.md), [politics/vietnam-system.md](politics/vietnam-system.md), [politics/geopolitics/world-order.md](politics/geopolitics/world-order.md) |
 
@@ -33,7 +33,7 @@
 > **Action:** Viết lại điểm yếu nhất, chọn 1 bài tương ứng và cài đặt checklist trong tuần này.
 
 ## 📂 Mục lục chính
-- [life-os/](life-os/README.md): 6 động cơ cốt lõi, psychology, energy, leverage.
+- [life-os/](life-os/README.md): 6 động cơ cốt lõi, psychology, energy, leverage, [psychology-reading-women.md](psychology-reading-women.md), [psychology-women-contexts.md](psychology-women-contexts.md).
 - [well-being/](well-being/README.md): Biohacking, mental resilience, templates theo dõi.
 - [politics/](politics/README.md): Fundamentals, philosophy, geopolitics, Việt Nam system, digital politics.
 
