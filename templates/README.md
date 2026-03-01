@@ -10,7 +10,7 @@
 
 | Template | Mô tả ngắn | Đường dẫn |
 |:---------|:-----------|:----------|
-| **Daily Log** | Nhật ký 5–10 phút cuối ngày, đóng gói công việc & chuẩn bị ngày mai | [templates/daily-log.md](./daily-log.md) |
+| **Daily Log** | Nhật ký 5–10 phút cuối ngày, đóng gói công việc & chuẩn bị ngày mai | [templates/daily-log.md](./daily-log.md) – [Ví dụ điền](./examples/examples-goal-productivity.md#3-ví-dụ-daily-log-template-5-10-phút-cuối-ngày) |
 | **Weekly Review** | Tổng kết tuần 30–45 phút (Chủ nhật / Thứ Hai) | [templates/weekly-review.md](./weekly-review.md) |
 | **Monthly Review** | Tổng kết tháng, điều chỉnh hướng đi | [monthly-review-template](./productivity/monthly-review-template.md) |
 | **OKR Planning** | Đặt mục tiêu Quý/Năm (Objectives & Key Results) | [templates/okr-planning.md](./okr-planning.md) |
@@ -56,6 +56,7 @@
 |:---------|:-----------|:----------|
 | **Project Post-Mortem** | Phân tích dự án sau khi hoàn thành hoặc thất bại | [templates/project-post-mortem.md](./project-post-mortem.md) |
 | **Multi-Project Scenario** | Kịch bản quản lý 3 dự án cùng lúc (Day Theming, block 2h, checklist, ví dụ tuần) | [templates/multi-project-scenario.md](./multi-project-scenario.md) |
+| **Examples: Goal & Productivity** | Bộ ví dụ mẫu (OKR, Weekly Review, Daily Log, Deep Work Scheduler) | [examples/examples-goal-productivity.md](./examples/examples-goal-productivity.md) |
 
 ---
 

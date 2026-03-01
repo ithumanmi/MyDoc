@@ -51,7 +51,24 @@
 
 ---
 
-### 3. Ví dụ Deep Work Scheduler (Tuần có nhiều cuộc họp)
+### 3. Ví dụ Daily Log (Template 5-10 phút cuối ngày)
+**Ngày:** Thứ 3 – 12/05/2026  
+**Mood/Energy:** 6/10 (nhức đầu nhẹ, thiếu ngủ)  
+**Focus Theme:** Quan sát phản ứng khi có cuộc gọi khẩn
+
+| Trường | Nội dung mẫu |
+|:-------|:-------------|
+| **Top Wins** | (1) Fix nhanh lỗi thanh toán nhờ chuẩn bị runbook. (2) Mentor call giúp clarify career ladder. |
+| **Blocked / Friction** | Slack bị spam → mất tập trung 3 lần. |
+| **Insight of the Day** | Khi nhận yêu cầu gấp, nếu pause 2 phút để viết ra options thì bình tĩnh hơn hẳn. |
+| **Next-Day Setup** | (1) Tắt notification Slack trong block Deep Work 07:00-09:00. (2) Chuẩn bị câu hỏi cho cuộc họp product 10:00. |
+| **Gratitude / Reflection** | Cảm ơn team DevOps đã ship hotfix đúng giờ. |
+
+> Cách điền: mở [Daily Log template](../daily-log.md), copy cấu trúc sang Notion/Obsidian, viết 5-10 phút cuối ngày để khóa lại học được gì và chuẩn bị cho ngày mai.
+
+---
+
+### 4. Ví dụ Deep Work Scheduler (Tuần có nhiều cuộc họp)
 **Mục tiêu Deep Work:** 12 giờ
 
 | Thời gian | Thứ 2 | Thứ 3 | Thứ 4 | Thứ 5 | Thứ 6 |
@@ -67,7 +84,7 @@
 
 ---
 
-### 4. Cách sử dụng
+### 5. Cách sử dụng
 1. Mở template tương ứng (OKR, Weekly Review, Deep Work Scheduler).
 2. Đặt ví dụ này cạnh bên để hiểu cách điền từng mục.
 3. Tùy chỉnh theo mục tiêu thực tế (project, KPI, thói quen của bạn).
