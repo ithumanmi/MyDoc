@@ -103,6 +103,7 @@ graph TD
 *   **Frameworks:** PyTorch (Research), TensorFlow (Production), Scikit-learn.
 *   **Environment:** Jupyter Notebook, Google Colab, Kaggle.
 *   **Tracking:** MLflow, Weights & Biases (W&B).
+*   **Hardware:** [AI Hardware Landscape](./ai-hardware-guide.md) – GPU/TPU/edge devices, checklist chọn hạ tầng AI.
 
 ---
 
