@@ -6,9 +6,9 @@
 
 | Metric | Câu hỏi đánh giá | Thang điểm | Phương pháp cải thiện |
 | --- | --- | --- | --- |
-| **Self-discipline** | Tôi có hoàn thành 90% kế hoạch tuần? | 1: Thường xuyên trễ<br/>5: Gần như luôn đúng kế hoạch | Dùng `templates/daily-log.md`, áp dụng rule 2 phút, review cuối ngày |
-| **Growth Mindset** | Khi gặp thất bại, tôi học được gì? | 1: Đổ lỗi/than vãn<br/>5: Có action item rõ | Ghi lại bài học vào `templates/weekly-review.md`, áp dụng “lỗi = dữ liệu” |
-| **Emotional Stability** | Tôi giữ bình tĩnh khi bị push deadline? | 1: Dễ bật lại<br/>5: Bình tĩnh giải quyết | Sử dụng `guides/04-lifestyle-os/well-being/mental-resilience/stoicism-for-modern-life.md` |
+| **Self-discipline** | Tôi có hoàn thành 90% kế hoạch tuần? | 1: Thường xuyên trễ<br/>5: Gần như luôn đúng kế hoạch | Dùng [daily-log.md](./daily-log.md), áp dụng rule 2 phút, review cuối ngày |
+| **Growth Mindset** | Khi gặp thất bại, tôi học được gì? | 1: Đổ lỗi/than vãn<br/>5: Có action item rõ | Ghi lại bài học vào [weekly-review.md](./weekly-review.md), áp dụng “lỗi = dữ liệu” |
+| **Emotional Stability** | Tôi giữ bình tĩnh khi bị push deadline? | 1: Dễ bật lại<br/>5: Bình tĩnh giải quyết | Sử dụng [stoicism-for-modern-life.md](../guides/04-lifestyle-os/well-being/mental-resilience/stoicism-for-modern-life.md) |
 | **Confidence & Presence** | Tôi có thể trình bày ý tưởng rõ ràng? | 1: Lắp bắp/mất ý<br/>5: Trình bày mạch lạc, có ví dụ | Luyện nói trước gương, tham gia sharing nhỏ trong cộng đồng |
 | **Integrity** | Tôi có làm đúng cam kết không ai giám sát? | 1: Thường bỏ<br/>5: Tự giác hoàn thành | Ghi lại cam kết vào Notion/Trello, check-ins hằng tuần |
 
@@ -17,7 +17,7 @@
 | Metric | KPI đề xuất | Tracking tool |
 | --- | --- | --- |
 | **Application Velocity** | Số hồ sơ gửi/tuần (target: 5) | Sheet “Job Pipeline” hoặc Notion |
-| **Interview Prep Hours** | Thời gian luyện DSA/system design (target: 6h/tuần) | `templates/daily-log.md` |
+| **Interview Prep Hours** | Thời gian luyện DSA/system design (target: 6h/tuần) | [daily-log.md](./daily-log.md) |
 | **Shipping Cadence** | Số feature/demo hoàn thành (target: 1 deliverable/2 tuần) | Kanban board (Trello/Linear) |
 | **Networking Touchpoints** | Số cuộc chat/email follow-up (target: 2-3/tuần) | CRM cá nhân (Airtable/Notion) |
 | **English Practice** | Số giờ nghe/nói/viết (target: 10h/tháng) | Notion habit tracker hoặc app (Duolingo log) |
@@ -26,11 +26,11 @@
 
 | Skill Cluster | Mô tả cấp độ | Thang đo 1-5 | Resource gợi ý |
 | --- | --- | --- | --- |
-| **Unity Gameplay Engineering** | OOP, Physics, Animation, Input System | 1: Chỉ làm theo tutorial<br/>5: Thiết kế gameplay system hoàn chỉnh | `domains/game-dev/unity-deep-dive/` |
-| **Graphics & Optimization** | URP/HDRP, profiling, batching, DOTS | 1: Không tối ưu<br/>5: Giữ FPS ổn định trên đa nền tảng | `domains/game-dev/graphics/` |
-| **Backend NodeJS/TS** | API design, database, auth, deployment | 1: CRUD cơ bản<br/>5: Viết microservice production-ready | `domains/backend-dev/api-design-guide.md`, `system-design-guide.md` |
-| **AI Integration** | Prompting, LLM API, gameplay AI | 1: Chỉ dùng lib có sẵn<br/>5: Xây custom pipeline/agent | `domains/ai-ml/ai-engineering-roadmap-2026.md` |
-| **DevOps / Tooling** | CI/CD, cloud deploy (Render/Railway), logging | 1: Chạy local<br/>5: Thiết lập pipeline tự động | `domains/backend-dev/devops-sre/` |
+| **Unity Gameplay Engineering** | OOP, Physics, Animation, Input System | 1: Chỉ làm theo tutorial<br/>5: Thiết kế gameplay system hoàn chỉnh | [unity-deep-dive](../domains/game-dev/unity-deep-dive/) |
+| **Graphics & Optimization** | URP/HDRP, profiling, batching, DOTS | 1: Không tối ưu<br/>5: Giữ FPS ổn định trên đa nền tảng | [graphics modules](../domains/game-dev/graphics/) |
+| **Backend NodeJS/TS** | API design, database, auth, deployment | 1: CRUD cơ bản<br/>5: Viết microservice production-ready | [api-design-guide](../domains/backend-dev/api-design-guide.md), [system-design-guide](../domains/backend-dev/system-design-guide.md) |
+| **AI Integration** | Prompting, LLM API, gameplay AI | 1: Chỉ dùng lib có sẵn<br/>5: Xây custom pipeline/agent | [ai-engineering-roadmap-2026.md](../domains/ai-ml/ai-engineering-roadmap-2026.md) |
+| **DevOps / Tooling** | CI/CD, cloud deploy (Render/Railway), logging | 1: Chạy local<br/>5: Thiết lập pipeline tự động | [devops-sre](../domains/backend-dev/devops-sre/) |
 
 Chấm điểm từng skill mỗi tháng. Nếu skill nào ≤3: lập kế hoạch học tập (course, project, mentorship) cho tháng kế tiếp.
 
