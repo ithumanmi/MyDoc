@@ -13,7 +13,7 @@
 | --- | --- | --- |
 | **G1. Personal Foundation** | Áp dụng Growth mindset, Life OS, quản trị năng lượng/chú ý. | `growth/life-os-framework.md`, `growth/anti-slip-system.md`, `productivity/README.md` |
 | **G2. Career Execution** | Hiểu thị trường, nâng CV/portfolio, tìm remote job. | `career/README.md`, `career/remote-backend-guide.md`, `productivity/career-growth/` |
-| **G3. Income Expansion** | Freelance, sales/telesales, indie hacker, innovation. | `career/indie-hacker-roadmap.md`, `sales-telesales/README.md`, `innovation/README.md` |
+| **G3. Income Expansion** | Freelance, sales/telesales, indie hacker, innovation. | `career/indie-hacker-roadmap.md`, `sales-telesales/README.md`, `innovation/README.md`, `innovation/micro-saas-research-roadmap.md` |
 | **G4. Global Leverage** | IELTS, hệ thống hoá product, system design, blockchain/mobile/web. | `ielts/README.md`, `system-design/`, `mobile-dev/`, `web-dev/`, `blockchain/` |
 
 > **Tip:** Đừng nhảy thẳng vào G3/G4 nếu G1 chưa ổn. Life OS & Growth là nền cho mọi roadmap.
@@ -38,7 +38,7 @@
 - `growth/`: Mindset, Life OS, systems thinking.
 - `productivity/`: Workflow, core skills, templates.
 - `sales-telesales/`: Kịch bản, psychology, training.
-- `innovation/`: Design thinking, product strategy, templates.
+- `innovation/`: Design thinking, product strategy, templates, [micro-saas-research-roadmap.md](innovation/micro-saas-research-roadmap.md).
 - `ielts/`: Roadmaps, drills, samples.
 - `system-design/`, `mobile-dev/`, `web-dev/`, `blockchain/`, `data-analytics/`, `game-dev/`: Từng lĩnh vực chuyên sâu.
 - `data-strategy/`, `security/`, `productivity/side-hustle/`: Nâng cấp thêm cho chuyên gia.
