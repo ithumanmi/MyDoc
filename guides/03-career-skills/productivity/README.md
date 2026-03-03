@@ -37,6 +37,9 @@ Xây dựng nền tảng cho một bộ não hiệu suất cao.
 *   **[Methodology Mindset (Phương Pháp Luận)](./mental-models/methodology-mindset.md)** (⭐ **New**) - Bộ não đứng sau mọi sự tiến bộ.
     *   **[Part 2: Từ Tư Duy Đến Kiến Tạo](./mental-models/methodology-mindset-p2.md)** - Lộ trình 3 bậc trưởng thành.
 *   **[Deep Work System](./core-skills/deep-work-system.md):** Kỹ năng làm việc sâu, loại bỏ xao nhãng.
+*   **[Deep Work Trong Thời Đại Số](./core-skills/deep-work-in-digital-age.md)** (⭐ **New**) - Chiến lược Deep Work giữa kỷ nguyên xao nhãng.
+*   **[Work Productivity Accelerator](./core-skills/work-productivity-accelerator.md)** (⭐ **New**) - Lộ trình 4 tuần tăng năng suất với hệ thống năng lượng, tập trung, vận hành.
+*   **[Dev Task Evaluation & Measurement](./core-skills/dev-task-evaluation.md)** (⭐ **New**) - Đo effort/impact, kiểm soát chất lượng task dev.
 *   **[Personal Work Framework (Framework làm việc)](./core-skills/personal-work-framework.md):** ⭐ **NEW** Xây nguyên tắc + quy trình + nghi thức + công cụ cho bản thân.
 *   **[Density of Life (Mật độ Sống)](./core-skills/density-of-life.md):** Cách sống 1 năm bằng 10 năm trải nghiệm.
 *   **[Core Skills Index](./core-skills/INDEX.md):** Lộ trình học tập theo từng tầng kỹ năng (Foundation → Focus → Influence...).

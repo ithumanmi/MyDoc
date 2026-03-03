@@ -21,7 +21,7 @@
 
 | Trục | Câu hỏi | <3 điểm nên đọc |
 | --- | --- | --- |
-| **Cashflow & Profitability** | Tôi có hệ thống quản lý dòng tiền, cash buffer 3-6 tháng cho business chưa? | `entrepreneurship/operations/finance-101-for-owners.md`, `finance/money-flow-intelligence.md` |
+| **Cashflow & Profitability** | Tôi có hệ thống quản lý dòng tiền, cash buffer 3-6 tháng cho business chưa? | `entrepreneurship/operations/finance-101-for-owners.md`, `finance/money-flow-intelligence.md`, `finance/cta-trend-following-breakout.md` |
 | **Market Fit & Distribution** | Sản phẩm/dịch vụ có phễu, retention rõ? | `entrepreneurship/growth/sales-funnel-basics.md`, `market-research/core/` |
 | **Compliance & Legal readiness** | Tôi hiểu loại hình doanh nghiệp, hợp đồng, thuế tương ứng chưa? | `legal/README.md`, `legal/business/business-structures.md`, `legal/templates/` |
 | **Investment literacy** | Tôi phân biệt được asset class, biết xây danh mục theo rủi ro? | `investing/fundamentals/asset-classes.md`, `investing/strategy/portfolio-construction.md` |
@@ -34,7 +34,7 @@
 - `entrepreneurship/`: Mindset, operations, growth, startup, solopreneur.
 - `investing/`: Fundamentals, advanced, strategy, Vietnam market, tools.
 - `legal/`: Fundamentals, personal, business, employment, tech, templates.
-- `finance/`: Kinh tế vĩ mô, chu kỳ, dòng tiền, geopolitics.
+- `finance/`: Kinh tế vĩ mô, chu kỳ, dòng tiền, geopolitics, CTA trend monitor.
 - `market-research/`, `logistics/`, `mmo-roadmap/`: Bổ trợ chuyên sâu.
 
 ## 🔗 Cross-link gợi ý
