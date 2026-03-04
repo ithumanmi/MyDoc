@@ -170,6 +170,7 @@ Bạn không thể giỏi tất cả. Hãy chọn 1 con đường:
 
 ### **Unity Deep Dive (Làm chủ Unity)**
 *   **[Advanced Architecture](./unity-deep-dive/architecture-patterns.md):** ScriptableObjects, Dependency Injection (Zenject) và Design Patterns.
+*   **[Clean Code & SOLID cho Unity](./unity-deep-dive/unity-clean-code-solid.md):** Áp dụng nguyên tắc lập trình sạch vào MonoBehaviour, ScriptableObject, event channel.
 *   **[Performance Optimization](./unity-deep-dive/optimization-techniques.md):** Quản lý bộ nhớ, Profiling và Draw Call Batching.
 *   **[Editor Scripting](./unity-deep-dive/editor-scripting.md):** Tự viết công cụ (Tools) và tùy biến Inspector.
 *   **[VFX & Lighting](./unity-deep-dive/vfx-lighting-mastery.md):** Nghệ thuật ánh sáng (Lightmapping) và hiệu ứng hạt (VFX Graph).

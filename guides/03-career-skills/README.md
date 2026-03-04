@@ -1,5 +1,7 @@
 # 🚀 Career Skills Hub
 
+> [← Back to guides/](../README.md) | [Home](../../README.md) | **Difficulty:** 🟢 Foundation → 🔴 Advanced | **Last reviewed:** March 2026
+>
 > Tổng quan cho toàn bộ thư mục **03-career-skills**. Chọn đường đi phù hợp thay vì lạc giữa rừng tài liệu.
 
 ## 🎯 Mục tiêu
@@ -42,6 +44,8 @@
 - `ielts/`: Roadmaps, drills, samples.
 - `system-design/`, `mobile-dev/`, `web-dev/`, `blockchain/`, `data-analytics/`, `game-dev/`: Từng lĩnh vực chuyên sâu.
 - `data-strategy/`, `security/`, `productivity/side-hustle/`: Nâng cấp thêm cho chuyên gia.
+
+> 📘 **Master Index:** [guides/03-career-skills/INDEX.md](./INDEX.md) – Mục lục chi tiết phân nhóm Growth, Productivity, Career, Innovation, Global Skills.
 
 ## 🔗 Cross-Guide Connections
 - **Growth ↔ Career:** Hoàn thành Life OS trước khi leo thang thu nhập (`growth/life-os-framework.md` liên kết tới `career/path-to-10k-monthly.md`).

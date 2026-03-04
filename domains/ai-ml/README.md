@@ -2,17 +2,15 @@
 
 > [← Back to Home](../../README.md) | [🚀 Quick Start](../../QUICK-START.md) | [📖 Glossary](../../GLOSSARY.md)
 >
-> **Difficulty:** 🟢 Beginner → 🔴 Advanced (Progressive)
->
-> **Prerequisites:** Python basics, High school math (improving as you go)
->
-> **Time to Master:** 12-24 months (Beginner to Production-ready)
+> **📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md) to understand learning paths.
+> **🧩 Knowledge Audit:** Check [AI & ML Knowledge Audit](../../case-studies/knowledge-audits/ai-knowledge-audit.md) to test your expertise!
+> **🔗 External Resources:** [resources/collected_links/ai-development.md](../../resources/collected_links/ai-development.md)
+> **📚 Glossary:** Jump to [GLOSSARY.md](../../GLOSSARY.md) for quick definitions.
+> **📅 Last reviewed:** March 2026
 
 **🎯 New to AI/ML?** Start with [Quick Start Guide](../../QUICK-START.md) to find your path!  
 **🗺️ Structured 9-step path:** [AI Engineering Roadmap 2026](./ai-engineering-roadmap-2026.md) — Foundation → RAG → **Agents** → MLOps → Portfolio.  
-**🔍 AI terms:** See [Glossary](../../GLOSSARY.md) for Machine Learning, Neural Networks, LLM, etc.  
-**📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md) to understand learning paths.  
-**🧩 Knowledge Audit:** Check [AI & ML Knowledge Audit](../../case-studies/knowledge-audits/ai-knowledge-audit.md) to test your expertise!
+**🔍 AI terms:** See [Glossary](../../GLOSSARY.md) for Machine Learning, Neural Networks, LLM, etc.
 
 ---
 

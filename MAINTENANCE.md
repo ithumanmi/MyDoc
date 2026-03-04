@@ -70,8 +70,8 @@ These files contain time-sensitive information:
 
 | File | Why Update? | Last Review |
 |:---|:---|:---:|
-| `domains/ai-ml/README.md` | Fast-moving field (new models/frameworks) | Feb 2026 |
-| `domains/backend-dev/README.md` | Framework versions, cloud services | Feb 2026 |
+| `domains/ai-ml/README.md` | Fast-moving field (new models/frameworks) | Mar 2026 |
+| `domains/backend-dev/README.md` | Framework versions, cloud services | Mar 2026 |
 | `domains/blockchain/README.md` | Market volatility, new protocols | Feb 2026 |
 | `domains/network-security/README.md` | New vulnerabilities, security tools | Feb 2026 |
 | `guides/03-career-skills/career/*.md` | Salary trends, market conditions | Feb 2026 |
@@ -82,8 +82,8 @@ These files contain time-sensitive information:
 Stable content, but needs occasional refresh:
 
 | File | Why Update? | Last Review |
+| File | Why Update? | Last Review |
 |:---|:---|:---:|
-| `domains/game-dev/README.md` | Unity/Unreal versions, new techniques | Feb 2026 |
 | `domains/data-analytics/README.md` | BI tool updates, SQL standards | Feb 2026 |
 | `guides/03-career-skills/growth/*.md` | New personal development research | Feb 2026 |
 | `guides/02-wealth-business/entrepreneurship/*.md` | Startup trends, funding landscape | Feb 2026 |

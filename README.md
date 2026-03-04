@@ -20,17 +20,20 @@ Với **108,000+ từ** và 10+ domains, bạn dễ bị overwhelm. Quick Start 
 
 ---
 
-## 📁 Repository Structure
+## 📁 Repository Structure & Tags
 
-Hiểu cấu trúc để navigate hiệu quả:
+Hiểu cấu trúc để navigate hiệu quả. Mỗi mục lớn hiển thị **độ khó** và **mốc cập nhật**:
 
-- **`domains/`** - Kỹ năng kỹ thuật theo chuyên ngành (AI/ML, Backend, Game Dev, Blockchain...)
-- **`guides/`** - Kỹ năng sống & sự nghiệp (Career, Finance, Entrepreneurship, Well-being...)
-- **`chapters/`** - Lộ trình học tuần tự (Chương 1-10) - Framework cốt lõi
-- **`templates/`** - Templates ready-to-use (Weekly Review, OKR, Post-mortem...)
-- **`resources/`** - Sách, tools, communities, podcasts
-  - **`resources/collected_links/`** - Curated links theo domain (AI, Backend, Security...)
-- **`case-studies/`** - Phân tích case thực tế (Vietnam & Global leaders)
+- **`domains/`** *(🟢 Beginner → 🔴 Advanced | Last reviewed: Feb 2026)* – Kỹ năng kỹ thuật theo chuyên ngành (AI/ML, Backend, Game Dev, Blockchain...)
+- **`guides/`** *(🟢 Foundation → 🔴 Advanced | Last reviewed: Mar 2026)* – Kỹ năng sống & sự nghiệp (Career, Finance, Entrepreneurship, Well-being...)
+- **`chapters/`** *(🟢 Beginner Path | Last reviewed: Feb 2026)* – Lộ trình học tuần tự (Chương 1-10)
+- **`templates/`** *(All levels | Last reviewed: Jan 2026)* – Templates ready-to-use (Weekly Review, OKR, Post-mortem...)
+- **`resources/`** *(Reference | Last reviewed: Jan 2026)* – Sách, tools, communities, podcasts
+  - **`resources/collected_links/`** *(Domain-specific links | Last reviewed: Dec 2025)* – Curated links theo domain (AI, Backend, Security...)
+- **`case-studies/`** *(Intermediate → Advanced | Last reviewed: Feb 2026)* – Phân tích case thực tế (Vietnam & Global leaders)
+- **[`OVERVIEW.md`](./OVERVIEW.md)** *(Meta map | Last reviewed: Mar 2026)* – Bản đồ trực quan kết nối các thư mục chính.
+
+> **🆕 Last reviewed badges** sẽ xuất hiện ở đầu README của mọi thư mục chính để người đọc nắm được độ mới nội dung.
 
 > **💡 Tip:** Một số topics có overlap có chủ đích (VD: game-dev có cả trong `domains/` (technical) và `guides/` (career)). Xem navigation notes trong từng folder để biết đi đâu.
 

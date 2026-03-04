@@ -12,8 +12,11 @@
 
 **🎯 New to Backend?** Check [Quick Start - Mid-Level Path](../../QUICK-START.md#-path-2-mid-level-developer-2-5-years) or [Senior Path](../../QUICK-START.md#-path-3-senior--expert-5-years)  
 **🔍 Backend terms:** See [Glossary](../../GLOSSARY.md) for REST API, Microservices, Caching, Load Balancing, etc.  
-**📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md) to understand learning paths.
-**🧩 Knowledge Audit:** Check [Backend Knowledge Audit](../../case-studies/knowledge-audits/backend-knowledge-audit.md) to test your skills!
+> **📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md) to understand learning paths.
+> **🧩 Knowledge Audit:** Check [Backend Knowledge Audit](../../case-studies/knowledge-audits/backend-knowledge-audit.md) to test your skills!
+> **🔗 External Resources:** [resources/collected_links/backend-dev.md](../../resources/collected_links/backend-dev.md)
+> **📚 Glossary:** Jump to [GLOSSARY.md](../../GLOSSARY.md) for quick definitions.
+> **📅 Last reviewed:** March 2026
 
 ---
 

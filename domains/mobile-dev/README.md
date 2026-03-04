@@ -4,6 +4,9 @@
 >
 > **📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md) to understand learning paths.
 > **🧩 Knowledge Audit:** Check [Mobile App Knowledge Audit](../../case-studies/knowledge-audits/mobile-dev-knowledge-audit.md) to test your skills!
+> **🔗 External Resources:** [resources/collected_links/mobile-dev.md](../../resources/collected_links/mobile-dev.md)
+> **📚 Glossary:** Jump to [GLOSSARY.md](../../GLOSSARY.md) for quick definitions.
+> **📅 Last reviewed:** March 2026
 
 ---
 

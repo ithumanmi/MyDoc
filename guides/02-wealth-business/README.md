@@ -34,7 +34,7 @@
 - `entrepreneurship/`: Mindset, operations, growth, startup, solopreneur.
 - `investing/`: Fundamentals, advanced, strategy, Vietnam market, tools.
 - `legal/`: Fundamentals, personal, business, employment, tech, templates.
-- `finance/`: Kinh tế vĩ mô, chu kỳ, dòng tiền, geopolitics, CTA trend monitor.
+- `finance/`: Kinh tế vĩ mô, dòng tiền, geopolitics, **Finance Domain Playbook cho dev/BA**, **Core Banking Modernization**, các playbook domain (Deposit, Lending, Payments) và **Insurance Policy Administration**.
 - `market-research/`, `logistics/`, `mmo-roadmap/`: Bổ trợ chuyên sâu.
 
 ## 🔗 Cross-link gợi ý

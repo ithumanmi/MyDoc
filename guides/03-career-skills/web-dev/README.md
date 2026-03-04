@@ -24,6 +24,10 @@ Trong ngành Web, **Live Project** nói thay cho bằng cấp.
 *   **[Personal Branding for Web Dev](./portfolio/personal-branding.md):** Xây dựng blog kỹ thuật và sự hiện diện trên LinkedIn/X (Twitter).
 *   **[Open Source Contribution](./portfolio/open-source-contribution.md):** Bắt đầu đóng góp cho các thư viện lớn (React, Next.js, v.v.).
 *   **[Git Flow & Best Practices](./git-flow-best-practices.md):** Làm chủ Git, chọn workflow phù hợp, giữ chất lượng code khi team scale.
+*   **[Clean Code Playbook](./clean-code-playbook.md):** Mindset, checklist và quy trình refactor giúp code sống khỏe lâu dài.
+*   **[Software Principles Field Guide](./software-principles-field-guide.md):** SOLID, DRY, KISS, YAGNI và kiến trúc hiện đại cho dev web.
+*   **[Design Patterns Playbook](./design-patterns-playbook.md):** Nhận diện nhóm pattern, ví dụ thực tế và checklist chọn đúng giải pháp.
+*   **[Code Review Playbook](./code-review-playbook.md):** Quy trình review, checklist reviewer/author và template bình luận.
 
 ---
 
