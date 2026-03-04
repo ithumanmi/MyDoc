@@ -1,12 +1,14 @@
 # 🔗 Blockchain Knowledge Base
 
-> [← Back to Home](../../README.md)
+> [← Back to Chapter 1](../../chapters/01-xac-dinh-linh-vuc.md) | [Home](../../README.md) | [🚀 Quick Start](../../QUICK-START.md) | [📖 Glossary](../../GLOSSARY.md)
 >
 > **Difficulty:** 🟢 Beginner → 🔴 Advanced (Progressive)
 >
 > **Prerequisites:** Basic programming knowledge helpful but not required
 >
 > **Time to Master:** 6-18 months (Fundamentals to DApp development)
+>
+> **🔗 Curated Links:** [resources/collected_links/blockchain.md](../../resources/collected_links/blockchain.md)
 
 **📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md) to understand learning paths.
 **🧩 Knowledge Audit:** Check [Blockchain & Web3 Knowledge Audit](../../case-studies/knowledge-audits/blockchain-knowledge-audit.md) to test your expertise!

@@ -41,6 +41,7 @@ When reviewing a domain README (e.g., `domains/ai-ml/README.md`):
   - Example: Replace deprecated tools with modern alternatives
 - [ ] **Salary ranges:** Update based on market research (quarterly trend)
 - [ ] **Job market reality:** Update "Cơ hội việc làm" ratings if market shifts
+- [ ] **Meta header consistency:** Each domain README must include breadcrumb, Difficulty, Prerequisites, Time to Master, Knowledge Audit, Glossary link, and **Curated Links** pointing to `resources/collected_links/<domain>.md`.
 
 ### **2. Link Health**
 - [ ] Run `python check_links.py` to verify all internal/external links

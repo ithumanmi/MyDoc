@@ -1,12 +1,14 @@
 # 📊 Data Analytics Domain
 
-> [← Back to Main Index](../../README.md)
+> [← Back to Chapter 1](../../chapters/01-xac-dinh-linh-vuc.md) | [Home](../../README.md) | [🚀 Quick Start](../../QUICK-START.md) | [📖 Glossary](../../GLOSSARY.md)
 >
 > **Difficulty:** 🟢 Beginner → 🟡 Intermediate (Business-focused)
 >
 > **Prerequisites:** Excel basics, Business curiosity, No coding required initially
 >
 > **Time to Master:** 6-12 months (Excel mastery to SQL/Python proficiency)
+>
+> **🔗 Curated Links:** [resources/collected_links/data-analytics.md](../../resources/collected_links/data-analytics.md)
 
 **📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md) to understand learning paths.
 **🧩 Knowledge Audit:** Check [Data Analytics Knowledge Audit](../../case-studies/knowledge-audits/data-analytics-knowledge-audit.md) to test your expertise!

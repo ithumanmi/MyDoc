@@ -16,9 +16,15 @@ Tổng hợp và phân loại các liên kết tài nguyên hữu ích được 
     *   Công cụ vẽ sơ đồ, viết tài liệu tự động và kiến thức nền tảng.
 6.  [⚙️ Backend Development](./backend-dev.md)
     *   Framework, Database, DevOps và các tài nguyên phát triển Backend.
-7.  [🔐 Security & Ethical Hacking](./security-dev.md)
+7.  [🔗 Blockchain & Web3](./blockchain.md)
+    *   Smart contract, DeFi, bảo mật và săn Airdrop.
+8.  [📊 Data Analytics](./data-analytics.md)
+    *   Lộ trình Excel → SQL → BI → Python, dataset và tooling.
+9.  [🧮 Data Structures & Algorithms](./dsa.md)
+    *   Theory, luyện thi DSA/CP và cheat sheet phỏng vấn.
+10. [🔐 Security & Ethical Hacking](./security-dev.md)
     *   Công cụ Pentest, tài liệu học tập và các lab luyện tập bảo mật.
-8.  [🛠️ Tools, Utilities & Others](./tools-utils.md)
+11. [🛠️ Tools, Utilities & Others](./tools-utils.md)
     *   Các phần mềm, nền tảng Productivity và các tiện ích khác.
 9.  [🏛️ Government Information Sources](../government-data-sources.md)
     *   Cổng thông tin chính phủ, dữ liệu thống kê, pháp luật và báo cáo chính sách chính thống.

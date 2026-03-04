@@ -1,12 +1,14 @@
 # 🧮 Data Structures & Algorithms (DSA) Roadmap
 
-> [← Back to Home](../../README.md)
+> [← Back to Chapter 1](../../chapters/01-xac-dinh-linh-vuc.md) | [Home](../../README.md) | [🚀 Quick Start](../../QUICK-START.md) | [📖 Glossary](../../GLOSSARY.md)
 >
 > **Difficulty:** 🟡 Intermediate → 🔴 Advanced (Deep Logic)
 >
 > **Prerequisites:** Basic knowledge of at least one programming language (C++, Java, Python, or JavaScript)
 >
 > **Time to Master:** 6-12 months (Consistent practice)
+>
+> **🔗 Curated Links:** [resources/collected_links/dsa.md](../../resources/collected_links/dsa.md)
 
 ---
 
