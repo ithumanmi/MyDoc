@@ -23,6 +23,7 @@ Trong ngành Web, **Live Project** nói thay cho bằng cấp.
 *   **[GitHub Architecture Guide](./portfolio/github-architecture.md):** Cách tổ chức Repo sao cho HR và Tech Lead nhìn vào là muốn tuyển.
 *   **[Personal Branding for Web Dev](./portfolio/personal-branding.md):** Xây dựng blog kỹ thuật và sự hiện diện trên LinkedIn/X (Twitter).
 *   **[Open Source Contribution](./portfolio/open-source-contribution.md):** Bắt đầu đóng góp cho các thư viện lớn (React, Next.js, v.v.).
+*   **[Git Flow & Best Practices](./git-flow-best-practices.md):** Làm chủ Git, chọn workflow phù hợp, giữ chất lượng code khi team scale.
 
 ---
 
