@@ -93,6 +93,11 @@ graph TD
 *   *"Grokking Algorithms"* - Dễ hiểu, nhiều hình minh họa (Dành cho người mới).
 *   *"Cracking the Coding Interview"* - Chiến thuật phỏng vấn Big Tech.
 
+### **Coding Challenges (Hands-on):**
+1. **[Coding Challenge #1 – Real-time Delivery Stream Scheduler](./coding-challenges/delivery-stream-scheduler.md):** Stream scheduling, priority queue, greedy assignment.
+2. **[Coding Challenge #2 – Memory Window Anomaly Detector](./coding-challenges/memory-window-anomaly.md):** Sliding window + hashmap, detection trong O(n).
+3. **[Coding Challenge #3 – Drone Route Load Balancer](./coding-challenges/drone-route-balancer.md):** Weighted interval scheduling + heap cho drone logistics.
+
 ---
 
 ## 📊 5. Knowledge Audit

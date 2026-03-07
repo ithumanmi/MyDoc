@@ -152,6 +152,7 @@ Bạn không thể giỏi tất cả. Hãy chọn 1 con đường:
 *   **[Unity Impact Metrics Playbook](./metrics/unity-impact-metrics.md):** 📊 Crash rate, FPS, load time, concurrency và các KPI LiveOps. (⭐ **New**)
 *   **[Hybrid Casual vs Casual vs Midcore Cheat Sheet](./metrics/mobile-genre-impact.md):** 🕹️ So sánh core loop, audience, cost & team theo infographic AppMagic. (⭐ **New**)
 *   **[Core Mechanic Game Design Doc](./core-mechanic-design-doc.md):** ✍️ Template viết GDD cho cơ chế cốt lõi + ví dụ Aether Dash.
+*   **[Unity Coding Challenges](./challenges/README.md):** Tập các bài tập thực chiến (spawn balancing, netcode, ECS performance). (⭐ **New**)
 *   **[Game Engines Deep Dive](./engines/unity-advanced.md):** Unity DOTS/ECS tối ưu hiệu năng và Unreal Engine 5 Nanite/Lumen.
 *   **[Graphics & Shaders](./graphics/shader-programming.md):** Viết Shader (HLSL/GLSL) và hiệu ứng VFX Graph.
 *   **[Game AI Patterns](./ai/game-ai-patterns.md):** Thiết kế trí tuệ nhân tạo cho NPC (FSM, Behavior Trees, GOAP).
