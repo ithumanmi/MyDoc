@@ -144,6 +144,38 @@ Bạn không thể giỏi tất cả. Hãy chọn 1 con đường:
 
 ---
 
+### ⏱️ Sprint 14 ngày ôn Unity (Basic → Advanced)
+
+> **Mục tiêu:** Tua lại toàn bộ pipeline Unity trong 2 tuần – từ C# cơ bản, gameplay, UI, AI đến tối ưu và build.
+
+| Ngày | Chủ đề | Bài tập/Deliverable |
+| --- | --- | --- |
+| 1 | C# Refresh (OOP, Collections, Events) | Viết script `CharacterStats` dùng property + event leveling |
+| 2 | Unity Fundamentals (Scene, Prefab, Input System mới) | Rebuild mini Pong với Input System 1.5 |
+| 3 | Game Loop & Time Management | Demo coroutine vs Update, Timer UI hiển thị FPS |
+| 4 | 2D Physics & Collision | Làm Flappy clone, note lại quy tắc Rigidbody2D/Collider2D |
+| 5 | UI Toolkit/uGUI & Localization | Trang Settings dùng UI Toolkit + hỗ trợ đa ngôn ngữ |
+| 6 | Animation (Animator, StateMachineBehaviour) | Thiết kế blend tree chạy/nhảy + animation event |
+| 7 | Data & Save System (ScriptableObject, JSON) | Tạo inventory dùng ScriptableObject + serialize save |
+| 8 | Design Patterns (Singleton, Event Bus, Object Pool) | Refactor project sample để loại bỏ `FindObjectOfType` |
+| 9 | 3D Basics (Lighting, Materials, Cinemachine) | Scene showcase có Cinemachine dolly + PostProcessing |
+| 10 | AI: NavMesh + FSM + Steering | Enemy patrol + chase + flee, log state transitions |
+| 11 | Multiplayer Primer (Netcode/Mirror) | Prototype sync transform + RPC gọi animation |
+| 12 | Performance Toolkit (Profiler, Memory, Addressables) | Báo cáo draw call, GC alloc và asset bundle plan |
+| 13 | Build & Deployment (PC/Mobile) | Xuất build Android/Windows, checklist icon, splash, IL2CPP |
+| 14 | Capstone Review | Gộp highlight 2 tuần -> Viết doc + ghi lại issue/lesson |
+
+**Nhịp mỗi ngày:** 25’ đọc docs/tutorial chính thống → 90’ build/refactor → 20’ ghi note + upload Git commit.
+
+**Checklist hoàn thành sprint:**
+- [ ] Repo Unity sạch (không commit `Library`, có `.gitignore`).
+- [ ] Demo scene thể hiện ít nhất 3 hệ thống (gameplay, UI, AI/FX).
+- [ ] Có build chạy được + video/GIF demo.
+- [ ] Doc tóm tắt lesson learned & backlog tiếp theo.
+- [ ] Checklist bug/optimization được ghi lại (Profiler capture, GC log).
+
+---
+
 ### **Advanced Topics (Chuyên sâu)**
 *   **[Advanced Physics Engine](./physics/simple-physics-engine.md):** 🎡 Ứng dụng lượng giác xây dựng Physics Engine 3D. (⭐ **New**)
 *   **[Trig Shaders (Water/Fire)](./graphics/trig-shaders.md):** 🔥🌊 Tạo hiệu ứng nước và lửa bằng lượng giác. (⭐ **New**)
