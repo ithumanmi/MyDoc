@@ -44,6 +44,8 @@
 - `ielts/`: Roadmaps, drills, samples.
 - `system-design/`, `mobile-dev/`, `web-dev/`, `blockchain/`, `data-analytics/`, `game-dev/`: Từng lĩnh vực chuyên sâu.
 - `data-strategy/`, `security/`, `productivity/side-hustle/`: Nâng cấp thêm cho chuyên gia.
+- **Bài mới:** [cross-domain-guide.md](./cross-domain-guide.md) — Liên kết đa lĩnh vực (AI × Product × Business) cho dev/tech lead.
+- **Bài mới:** [thematic-interconnectedness.md](./thematic-interconnectedness.md) — Khung nối chủ đề (Thematic Interconnectedness) để học/làm xuyên ngành.
 
 > 📘 **Master Index:** [guides/03-career-skills/INDEX.md](./INDEX.md) – Mục lục chi tiết phân nhóm Growth, Productivity, Career, Innovation, Global Skills.
 
