@@ -13,10 +13,10 @@
 
 | Giai đoạn | Tập trung chính | Tệp nổi bật |
 | --- | --- | --- |
-| **G1. Personal Foundation** | Áp dụng Growth mindset, Life OS, quản trị năng lượng/chú ý. | `./growth/life-os-framework.md`, `growth/anti-slip-system.md`, `productivity/README.md` |
-| **G2. Career Execution** | Hiểu thị trường, nâng CV/portfolio, tìm remote job. | `career/README.md`, `career/remote-backend-guide.md`, `productivity/career-growth/` |
-| **G3. Income Expansion** | Freelance, sales/telesales, indie hacker, innovation. | `career/indie-hacker-roadmap.md`, `sales-telesales/README.md`, `innovation/README.md`, `innovation/micro-saas-research-roadmap.md` |
-| **G4. Global Leverage** | IELTS, hệ thống hoá product, system design, blockchain/mobile/web. | `ielts/README.md`, `system-design/`, `mobile-dev/`, `web-dev/`, `blockchain/` |
+| **G1. Personal Foundation** | Áp dụng Growth mindset, Life OS, quản trị năng lượng/chú ý. | [growth/life-os-framework.md](./growth/life-os-framework.md), [growth/anti-slip-system.md](./growth/anti-slip-system.md), [productivity/README.md](./productivity/README.md) |
+| **G2. Career Execution** | Hiểu thị trường, nâng CV/portfolio, tìm remote job. | [career/README.md](./career/README.md), [career/remote-backend-guide.md](./career/remote-backend-guide.md), `productivity/career-growth/` |
+| **G3. Income Expansion** | Freelance, sales/telesales, indie hacker, innovation. | [career/indie-hacker-roadmap.md](./career/indie-hacker-roadmap.md), [sales-telesales/README.md](./sales-telesales/README.md), [innovation/README.md](./innovation/README.md), [innovation/micro-saas-research-roadmap.md](./innovation/micro-saas-research-roadmap.md) |
+| **G4. Global Leverage** | IELTS, hệ thống hoá product, system design, blockchain/mobile/web. | [ielts/README.md](./ielts/README.md), [system-design/](./system-design/), [mobile-dev/](./mobile-dev/), [web-dev/](./web-dev/), [blockchain/](./blockchain/) |
 
 > **Tip:** Đừng nhảy thẳng vào G3/G4 nếu G1 chưa ổn. Life OS & Growth là nền cho mọi roadmap.
 
@@ -26,13 +26,13 @@
 
 | Nhóm kỹ năng | Câu hỏi | Tài liệu gợi ý |
 | --- | --- | --- |
-| **Mindset & Systems** | Tôi có hệ thống duy trì năng lượng, chú ý, meaning không? | `growth/life-os-framework.md`, `growth/anti-slip-system.md` |
-| **Productivity & Workflow** | Tôi quản lý task, lịch, feedback thế nào? | `productivity/README.md`, `../../templates/productivity/` |
-| **Career Capital** | CV/Portfolio/LinkedIn của tôi cập nhật và rõ value proposition chưa? | `../../templates/career/cv-template-global.md`, `career/FAQ.md` |
-| **Communication & Negotiation** | Tôi tự tin deal lương, thương lượng với khách hàng? | `productivity/career-growth/salary-negotiation.md`, `sales-telesales/negotiation-mastery-roadmap.md` |
-| **Innovation/Product Thinking** | Tôi biết cách tìm nhu cầu, test MVP? | `innovation/design-thinking.md`, `innovation/product-market-fit.md` |
-| **Sales & Distribution** | Tôi có kênh bán hàng/đàm phán? | `sales-telesales/sales-funnel-architecture.md`, `career/app-monetization-guide.md` |
-| **Global Skills** | Tôi có chứng chỉ/ngoại ngữ/hệ thống phù hợp thị trường quốc tế? | `ielts/roadmap-7.5.md`, `system-design/top-10-problems.md` |
+| **Mindset & Systems** | Tôi có hệ thống duy trì năng lượng, chú ý, meaning không? | [growth/life-os-framework.md](./growth/life-os-framework.md), [growth/anti-slip-system.md](./growth/anti-slip-system.md) |
+| **Productivity & Workflow** | Tôi quản lý task, lịch, feedback thế nào? | [productivity/README.md](./productivity/README.md), [templates/productivity](../../templates/productivity/) |
+| **Career Capital** | CV/Portfolio/LinkedIn của tôi cập nhật và rõ value proposition chưa? | [cv-template-global.md](../../templates/career/cv-template-global.md), [career/FAQ.md](./career/FAQ.md) |
+| **Communication & Negotiation** | Tôi tự tin deal lương, thương lượng với khách hàng? | [salary-negotiation.md](./productivity/career-growth/salary-negotiation.md), [negotiation-mastery-roadmap.md](./sales-telesales/negotiation-mastery-roadmap.md) |
+| **Innovation/Product Thinking** | Tôi biết cách tìm nhu cầu, test MVP? | [innovation/design-thinking.md](./innovation/design-thinking.md), [innovation/product-market-fit.md](./innovation/product-market-fit.md) |
+| **Sales & Distribution** | Tôi có kênh bán hàng/đàm phán? | [sales-funnel-architecture.md](./sales-telesales/sales-funnel-architecture.md), [career/app-monetization-guide.md](./career/app-monetization-guide.md) |
+| **Global Skills** | Tôi có chứng chỉ/ngoại ngữ/hệ thống phù hợp thị trường quốc tế? | [ielts/roadmap-7.5.md](./ielts/roadmap-7.5.md), [system-design/top-10-problems.md](./system-design/top-10-problems.md) |
 
 ## 📂 Mục lục chính
 
