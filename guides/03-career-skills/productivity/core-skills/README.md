@@ -34,5 +34,6 @@ Tập hợp các kỹ năng nền tảng giúp xây Operating System cá nhân c
 - [Awareness Depth](awareness-depth.md)
 - [Emotional Intensity](emotional-intensity.md)
 - [Critical Thinking & Decision Making](critical-thinking.md)
+- [Sunk Cost Fallacy (Stop-Loss OS)](sunk-cost-fallacy.md)
 
 > 📌 *Tip:* Dùng INDEX để chọn 1-2 kỹ năng trọng tâm theo giai đoạn, sau đó log ritual trong Tracker để biến kiến thức thành thói quen.

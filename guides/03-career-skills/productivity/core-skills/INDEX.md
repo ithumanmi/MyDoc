@@ -24,6 +24,7 @@
     *   [Density of Life](density-of-life.md)
     *   [Social Charisma](social-charisma.md)
     *   [Critical Thinking](critical-thinking.md)
+    *   [Sunk Cost Fallacy (Stop-Loss Operating System)](sunk-cost-fallacy.md)
 
 ## Cách sử dụng
 - Bắt đầu từ Foundation → tiến dần tới các module phù hợp với mục tiêu.
