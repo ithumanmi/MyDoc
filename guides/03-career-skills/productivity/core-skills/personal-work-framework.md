@@ -6,6 +6,14 @@
 
 ---
 
+## 🧾 Tóm tắt 1 trang (One-Pager)
+
+- **Mục tiêu:** Giảm quyết định lặt vặt, bảo vệ khối sâu, giữ nhịp ổn định 12 tuần.
+- **Thành phần bắt buộc:** 3–5 nguyên tắc, quy trình ngày/tuần, 2 nghi thức cố định, 1 bộ công cụ tối giản.
+- **Chu kỳ:** Thiết kế nhanh 90 phút → Chạy thử 2 tuần → Review 30 phút/tuần → Điều chỉnh nhỏ mỗi tuần, điều chỉnh lớn mỗi 4–6 tuần.
+- **Đo lường:** 3 chỉ số: (1) Giờ deep work/tuần; (2) % cam kết hoàn thành (planned vs done); (3) Số lần review thực hiện (ngày/tuần).
+
+
 ## 1. Framework Làm Việc Là Gì?
 
 **Framework làm việc (Personal Work Framework)** là hệ thống **cá nhân** gồm:
@@ -32,6 +40,11 @@ Mục tiêu: **Giảm quyết định mỗi ngày** (decision fatigue), **tăng 
 ---
 
 ## 3. Cách Xây Từng Bước
+
+> **Lộ trình “build with me” (3 pha):**
+> 1) **Thiết kế 90 phút:** làm rõ ưu tiên, chọn 3–5 nguyên tắc, phác lịch ngày/tuần, chọn tool tối giản.
+> 2) **Chạy thử 2 tuần:** không tối ưu thêm, chỉ quan sát & log. Mục tiêu: tính ổn định, không phải hoàn hảo.
+> 3) **Review 30 phút/tuần:** sửa 1–2 điểm nghẽn lớn (quá tải lịch, thiếu block sâu, nghi thức không bám).
 
 ### Bước 1: Làm rõ giá trị và ưu tiên (Values & Priorities)
 
@@ -73,6 +86,22 @@ Chọn **3–5 quy tắc** bạn cam kết tuân thủ. Ít nhưng rõ, dễ nh�
 
 👉 **Tham khảo:** [Time Blocking](./time-management-systems.md#2-time-blocking-phân-lô-thời-gian), [GTD](./time-management-systems.md#3-gtd-getting-things-done---david-allen).
 
+**Mẫu lịch ngày (minh họa):**
+- 07:30–07:45: Plan ngày (chốt 3 việc).
+- 08:00–10:00: Deep Block #1 (dự án A). Không email/slack.
+- 10:15–11:45: Deep Block #2 (dự án B hoặc học).
+- 13:30–15:00: Shallow/meetings/admin.
+- 16:00–17:00: Buffer/processing inbox.
+- 21:30–21:40: Review & 3 việc ngày mai.
+
+**Mẫu lịch tuần (minh họa):**
+- Thứ 2: Plan tuần 30’ + Deep A.
+- Thứ 3: Deep A/B; chiều họp.
+- Thứ 4: Deep B; tối học/đọc.
+- Thứ 5: Deep C; shallow/admin.
+- Thứ 6: Deep A; wrap-up; gửi báo cáo.
+- CN: Weekly review 45’ (xem dưới).
+
 ---
 
 ### Bước 4: Gắn nghi thức (Rituals) — Trigger cố định
@@ -93,6 +122,16 @@ Càng đơn giản, càng dễ bám.
 *   **Inbox + Task:** Một nơi duy nhất (Todoist, Things, Notion, giấy…) để capture và list việc.
 *   **Lịch:** Một calendar (Google, Outlook, Apple) — mọi cuộc họp và time block đều ở đây.
 *   **Tri thức (PKM):** Một nơi note dài hạn, link dự án (Notion, Obsidian, Apple Notes…) — xem [PKM](./../meta-skills/pkm-system.md), [CSDL cá nhân](./../meta-skills/personal-knowledge-base.md).
+
+**Thiết lập tối giản (Minimal Setup 30’):**
+- Task: 1 board Kanban (Todo/Doing/Done) + 1 view Today.
+- Calendar: Block sẵn 1–2 deep blocks/ngày, 1 weekly review.
+- Inbox: 1 nơi duy nhất (task app hoặc 1 note “Inbox”).
+
+**Thiết lập nâng cao (Advanced):**
+- Task: Thêm Priority (A/B/C) + Context (Home/Work/Errand) + Tag Energy (High/Low).
+- Calendar: Template tuần lặp lại (recurring time blocks) + màu hóa Deep vs Shallow.
+- PKM: Template dự án + template daily note; link sang task bằng URL.
 
 Không cần "hoàn hảo" ngay — chọn đủ dùng, sau đó tinh chỉnh.
 
@@ -123,6 +162,23 @@ Bạn có thể khởi đầu chỉ với:
 
 Sau khi chạy ổn 2–4 tuần, thêm dần: năng lượng (xem [Energy Management](./energy-management.md)), PKM, phân loại project/dự án (PARA, GTD).
 
+**OKR-lite / đo lường:**
+- **O (Objective):** “Giữ nhịp làm việc ổn định và hoàn thành ưu tiên tuần.”
+- **KR1:** ≥ 10–14 giờ deep work/tuần (log bằng calendar hoặc time tracker).
+- **KR2:** ≥ 80% task ưu tiên tuần hoàn thành.
+- **KR3:** ≥ 2/2 phiên review (daily micro + weekly) thực hiện.
+
+**Checklist tự kiểm (fortnightly):**
+- [ ] Có ≥1 deep block mỗi ngày làm việc.
+- [ ] Weekly review được làm 2 tuần liên tiếp.
+- [ ] Inbox rỗng hoặc được xử lý 2 lần/tuần.
+- [ ] Không quá 3 ưu tiên/ngày; không overbook >70% lịch.
+
+**Troubleshooting nhanh:**
+- Thiếu focus → Khoanh deep block cố định sáng sớm; tắt thông báo; dùng timer 50–80’. 
+- Bội thực task → Giới hạn WIP; cắt xuống 3 việc A/ngày; dồn shallow vào 1–2 slot.
+- Không giữ được nhịp → Giảm scope, giữ ritual tối/tuần, thêm buddy check-in 1 lần/tuần.
+
 ---
 
 ## 5. Gắn Với Dự Án Lớn (Học, Thi, Dự án công việc)
@@ -134,6 +190,11 @@ Khi có **một dự án chiếm nhiều thời gian** (ôn thi, khóa học, d�
 *   Cột mốc dự án (milestone) nằm trong **weekly review** — kiểm tra tiến độ và điều chỉnh.
 
 👉 **Chi tiết:** [Study Project Management](./../meta-skills/study-project-management.md), [Project Management Fundamentals](./../meta-skills/project-management-fundamentals.md).
+
+**Template nhúng dự án vào tuần (ví dụ):**
+- Mỗi tuần chọn 1 “Project Focus” chính (P1) và tối đa 1 phụ (P2).
+- Deep blocks đầu tuần ưu tiên P1; cuối tuần buffer cho P2/đột xuất.
+- Weekly review: cập nhật 3 milestone gần nhất của P1/P2, điều chỉnh block tuần sau.
 
 ---
 
