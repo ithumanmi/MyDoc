@@ -14,6 +14,7 @@ Meta skills = kỹ năng “đòn bẩy” giúp bạn học nhanh hơn, thiết
 - [Project Management Fundamentals](project-management-fundamentals.md)
 - [Study Project Management](study-project-management.md)
 - [Work System Design](work-system-design.md)
+- [The Art of Learning (Josh Waitzkin)](the-art-of-learning.md)
 
 ## Hướng dẫn sử dụng
 1. **Chọn meta skill theo vấn đề hiện tại:**
