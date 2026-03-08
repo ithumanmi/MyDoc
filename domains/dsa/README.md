@@ -100,6 +100,44 @@ graph TD
 
 ---
 
+## 🗓️ 6. Lộ Trình Luyện DSA 14 Ngày (Intensive Sprint)
+
+> **Mục tiêu:** xây dựng nền tảng tư duy thuật toán + luyện giải 30-40 bài chất lượng cao trong 2 tuần, dành ~2-3 giờ/ngày.
+>
+> **Nguyên tắc:** (1) Mỗi ngày 1 chủ đề chính + 1 pattern phụ, (2) Luôn kết hợp đọc lý thuyết + code bài, (3) Review lỗi hằng ngày.
+
+| Ngày | Chủ đề chính | Focus phụ & tài nguyên | Bài tập gợi ý |
+|-----|--------------|-------------------------|---------------|
+| **Day 1** | Complexity Analysis | Big-O cheat sheet, [complexity-analysis.md](./complexity-analysis.md) | 3 bài so sánh độ phức tạp, trace manual |
+| **Day 2** | Arrays & Strings (Two Pointers) | Sliding Window mini-guide | 4 bài: Two Sum, Anagram, Longest Substring |
+| **Day 3** | Prefix Sum & Difference Array | Review edge cases (overflow) | 3 bài: Subarray Sum, Range Update |
+| **Day 4** | Linked Lists | Fast/Slow pointers, reverse list | 3 bài: Detect cycle, reorder list |
+| **Day 5** | Stacks & Queues | Monotonic Stack, Deque | 3 bài: Next Greater, Sliding Window Max |
+| **Day 6** | Recursion Fundamentals | Draw recursion tree, memo stack depth | 3 bài: Fibonacci, Tower of Hanoi, permutations |
+| **Day 7** | Sorting + Binary Search Patterns | Search on Answer, boundary tricks | 4 bài: Koko Eating Bananas, Aggressive Cows |
+| **Day 8** | Trees (Traversal, BST) | Implement inorder/level-order from scratch | 4 bài: Validate BST, Lowest Common Ancestor |
+| **Day 9** | Advanced Trees (Trie/Segment Tree overview) | Ôn lý thuyết + 1 bài cài đặt nhẹ | 2 bài: Prefix queries, range sum segment tree |
+| **Day 10** | Heaps & Priority Queue | Top-K patterns, heapify | 3 bài: Merge k sorted lists, Task Scheduler |
+| **Day 11** | Hash Tables & Bit Manipulation | Collision handling, XOR tricks | 4 bài: Subarray XOR, Two Sum variants |
+| **Day 12** | Graph Basics (BFS/DFS) | Adj list vs matrix, visited patterns | 4 bài: Number of Islands, Course Schedule |
+| **Day 13** | Shortest Path & Union-Find | Dijkstra template, DSU ops | 3 bài: Network Delay, Kruskal mini case |
+| **Day 14** | Dynamic Programming Sprint | Knapsack/LIS/LCS overview | 4 bài: 0/1 Knapsack, LIS patience sorting |
+
+### Daily Routine (gợi ý)
+
+1. **Warm-up 15’**: Đọc lại notes ngày trước, highlight lỗi tư duy.
+2. **Lý thuyết 30’**: Từ file tương ứng trong roadmap + video tuỳ chọn.
+3. **Practice 90’**: Chọn 3-4 bài LeetCode/Codeforces theo chủ đề.
+4. **Debrief 30’**: Ghi lại mẫu tư duy, tối ưu, hoặc template code.
+
+### Weekly Review (Day 7 & Day 14)
+
+- Tổng hợp 10 bài khó nhất, viết mini post-mortem.
+- Chọn 1 challenge thực tế trong thư mục `coding-challenges/` để áp dụng pattern.
+- Đánh giá tiến độ theo tiêu chí: số bài AC, số lỗi repeat, mức tự tin (1-5).
+
+---
+
 ## 📊 5. Knowledge Audit
 
 **🧩 Thử thách Năng lực:** Bạn đã sẵn sàng để giải quyết các bài toán phức tạp chưa? 
