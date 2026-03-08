@@ -27,8 +27,8 @@
 | Nhóm kỹ năng | Câu hỏi | Tài liệu gợi ý |
 | --- | --- | --- |
 | **Mindset & Systems** | Tôi có hệ thống duy trì năng lượng, chú ý, meaning không? | `growth/life-os-framework.md`, `growth/anti-slip-system.md` |
-| **Productivity & Workflow** | Tôi quản lý task, lịch, feedback thế nào? | `productivity/README.md`, `productivity/templates/` |
-| **Career Capital** | CV/Portfolio/LinkedIn của tôi cập nhật và rõ value proposition chưa? | `career/templates/cv-template-global.md`, `career/FAQ.md` |
+| **Productivity & Workflow** | Tôi quản lý task, lịch, feedback thế nào? | `productivity/README.md`, `../../templates/productivity/` |
+| **Career Capital** | CV/Portfolio/LinkedIn của tôi cập nhật và rõ value proposition chưa? | `../../templates/career/cv-template-global.md`, `career/FAQ.md` |
 | **Communication & Negotiation** | Tôi tự tin deal lương, thương lượng với khách hàng? | `productivity/career-growth/salary-negotiation.md`, `sales-telesales/negotiation-mastery-roadmap.md` |
 | **Innovation/Product Thinking** | Tôi biết cách tìm nhu cầu, test MVP? | `innovation/design-thinking.md`, `innovation/product-market-fit.md` |
 | **Sales & Distribution** | Tôi có kênh bán hàng/đàm phán? | `sales-telesales/sales-funnel-architecture.md`, `career/app-monetization-guide.md` |
