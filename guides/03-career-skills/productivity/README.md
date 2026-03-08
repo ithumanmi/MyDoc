@@ -1,6 +1,7 @@
 # ⚡ Productivity & Income Growth (Năng suất & Thu nhập)
 
-> [← Back to Guides](../../../README.md) | [Home](../../../README.md) | [🚀 Quick Start](../../../QUICK-START.md) | [📖 Glossary](../../../GLOSSARY.md)
+> [← Back to guides/03-career-skills](../README.md) | [Home](../../README.md) | **Last reviewed:** March 2026
+> [🚀 Quick Start](../../../QUICK-START.md) | [📖 Glossary](../../../GLOSSARY.md)
 
 **🎯 New here?** Check [Quick Start Guide](../../../QUICK-START.md) for personalized learning paths!  
 **🔍 Key terms:** See [Glossary](../../../GLOSSARY.md) for Deep Work, Pomodoro, Time Blocking, etc.

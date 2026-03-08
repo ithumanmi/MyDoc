@@ -2,7 +2,7 @@
 
 > 📍 **Navigation Note:**  
 > - **This folder (domains/game-dev/):** Technical skills - Unity, C#, Game Architecture, Shaders, Multiplayer  
-> - **Career & Business guide:** See [guides/game-dev/](../../guides/game-dev/README.md) for freelancing, publisher deals, monetization strategies
+> - **Career & Business guide:** See [guides/03-career-skills/game-dev/](../../guides/03-career-skills/game-dev/README.md) for freelancing, publisher deals, monetization strategies
 
 > [← Back to Chapter 1](../../chapters/01-xac-dinh-linh-vuc.md) | [Home](../../README.md) | [🚀 Quick Start](../../QUICK-START.md) | [📖 Glossary](../../GLOSSARY.md)
 >

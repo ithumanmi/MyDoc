@@ -1,5 +1,7 @@
 # 🚀 Innovation Playbook: Cẩm Nang Đổi Mới Sáng Tạo
 
+> [← Back to guides/03-career-skills](../README.md) | [Home](../../README.md) | **Last reviewed:** March 2026
+
 Chào mừng bạn đến với **Innovation Playbook**. Đây là tập hợp các phương pháp, công cụ và tư duy giúp bạn giải quyết vấn đề phức tạp và xây dựng sản phẩm đột phá.
 
 > **Mục tiêu:** Giúp cá nhân và tổ chức chuyển từ "Ý tưởng trên giấy" sang "Giá trị thực tế" một cách nhanh nhất.

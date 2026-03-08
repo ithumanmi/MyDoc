@@ -60,4 +60,4 @@ Mục tiêu: Giảm kích thích để ngủ sâu.
 2.  Journaling (Viết nhật ký): Đổ hết suy nghĩ ra giấy để đầu óc thảnh thơi.
 3.  Tắm nước ấm (Giảm nhiệt độ cơ thể lõi).
 
-👉 **[Mẫu thực hành: Daily Performance Tracker](./templates/daily-performance-tracker.md)**
+👉 **[Mẫu thực hành: Daily Performance Tracker](../../../../templates/well-being/daily-performance-tracker.md)**

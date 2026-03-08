@@ -46,7 +46,7 @@
 ---
 
 ## 📝 Templates (Công cụ theo dõi)
-*   **[📊 Daily Performance Tracker](./templates/daily-performance-tracker.md):** Bảng theo dõi năng lượng & sự tập trung hàng ngày.
+*   **[📊 Daily Performance Tracker](../../../../templates/well-being/daily-performance-tracker.md):** Bảng theo dõi năng lượng & sự tập trung hàng ngày.
 
 ---
 

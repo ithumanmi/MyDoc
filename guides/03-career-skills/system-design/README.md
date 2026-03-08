@@ -1,6 +1,6 @@
 # 🏗️ System Design & Architecture (Thiết kế Hệ thống)
 
-> [← Back to Guides](../../../README.md) | [Home](../../../README.md)
+> [← Back to guides/03-career-skills](../README.md) | [Home](../../README.md) | **Last reviewed:** March 2026
 
 Chào mừng bạn đến với hướng dẫn về **System Design**.
 Tại đây chúng ta sẽ đi sâu vào kiến trúc phần mềm, khả năng mở rộng (Scalability) và các công nghệ cốt lõi của backend hiện đại.

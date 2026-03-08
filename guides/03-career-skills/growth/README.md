@@ -1,6 +1,7 @@
 # 🚀 Growth Hacking Your Life
 
-> [← Back to Guides](../../README.md) | [🎯 Quick Start](../../../QUICK-START.md) | [📖 Glossary](../../../GLOSSARY.md)
+> [← Back to guides/03-career-skills](../README.md) | [Home](../../README.md) | **Last reviewed:** March 2026
+> [🎯 Quick Start](../../../QUICK-START.md) | [📖 Glossary](../../../GLOSSARY.md)
 
 **🎯 Want to become Top 1%?** Start here: [Quick Start - All Paths](../../../QUICK-START.md)  
 **🔍 Key concepts:** [Glossary](../../../GLOSSARY.md) - Deliberate Practice, Systems Thinking, Life OS, etc.  

@@ -1,6 +1,6 @@
 # 📞 Sales & Telesales Mastery: The Art of Persuasion
 
-> [← Back to Guides](../../README.md) | [Home](../../../README.md)
+> [← Back to guides/03-career-skills](../README.md) | [Home](../../README.md) | **Last reviewed:** March 2026
 >
 > *"Bán hàng không phải là ép buộc ai đó mua thứ họ không cần. Bán hàng là quá trình giúp đỡ khách hàng giải quyết vấn đề của họ thông qua giải pháp của bạn."*
 

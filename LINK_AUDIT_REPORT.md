@@ -1,18 +1,15 @@
 # Link Audit Report
 
-**Date:** Fri 02/27/2026
+**Date:** Sun 03/08/2026
 
-**Summary:** 3 broken links found out of 286 total links
+**Summary:** 2 broken links found out of 298 total links
 
 ## Broken Links
 
-### guides/README.md
+### QUICK-START.md
 
-- ❌ `[Entrepreneurship Audit](../../case-studies/knowledge-audits/entrepreneurship-knowledge-audit.md)`
-  - Target: `..\case-studies\knowledge-audits\entrepreneurship-knowledge-audit.md`
-
-- ❌ `[Life OS Audit](../../case-studies/knowledge-audits/life-os-knowledge-audit.md)`
-  - Target: `..\case-studies\knowledge-audits\life-os-knowledge-audit.md`
+- ❌ `[Daily Performance Tracker](./guides/04-lifestyle-os/well-being/templates/daily-performance-tracker.md)`
+  - Target: `guides\04-lifestyle-os\well-being\templates\daily-performance-tracker.md`
 
 ### domains/game-dev/README.md
 

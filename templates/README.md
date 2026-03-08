@@ -100,7 +100,7 @@
 | Template | Mô tả ngắn | Đường dẫn |
 |:---------|:-----------|:----------|
 | **Morning Mental Workout** | Bài tập tâm lý/mental mỗi sáng | [guides/.../morning-mental-workout.md](../guides/03-career-skills/growth/templates/morning-mental-workout.md) |
-| **Daily Performance Tracker** | Theo dõi năng lượng / hiệu suất hàng ngày | [guides/.../daily-performance-tracker.md](../guides/04-lifestyle-os/well-being/templates/daily-performance-tracker.md) |
+| **Daily Performance Tracker** | Theo dõi năng lượng / hiệu suất hàng ngày | [Template](./well-being/daily-performance-tracker.md) |
 
 ---
 

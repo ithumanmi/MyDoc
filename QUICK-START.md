@@ -259,7 +259,7 @@ Click vào profile phù hợp nhất với bạn:
 3. 📋 **[Health Optimization Protocols](./guides/04-lifestyle-os/well-being/biohacking/health-optimization-protocols.md)** - Daily routine
 
 ### **Templates:**
-- 📊 **[Daily Performance Tracker](./guides/04-lifestyle-os/well-being/templates/daily-performance-tracker.md)**
+- 📊 **[Daily Performance Tracker](./templates/well-being/daily-performance-tracker.md)**
 
 ### **Checkpoint (Sau 1 tháng):**
 - [ ] Sleep 7-8 giờ/đêm ổn định
