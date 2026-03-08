@@ -47,9 +47,9 @@ graph TD
     
     D4 --> E[👑 Level 4: Senior Architecture]
     E --> E1{Choose Your Path}
-    E1 --> E2[Frontend Expert (Performance/Animations)]
-    E1 --> E3[Backend Expert (System Design/Cloud)]
-    E1 --> E4[DevOps (CI/CD/Docker/K8s)]
+    E1 --> E2["Frontend Expert (Performance/Animations)"]
+    E1 --> E3["Backend Expert (System Design/Cloud)"]
+    E1 --> E4["DevOps (CI/CD/Docker/K8s)"]
     
     style A fill:#f9f,stroke:#333,stroke-width:2px
     style E fill:#bbf,stroke:#333,stroke-width:2px
