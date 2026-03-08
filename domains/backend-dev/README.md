@@ -338,6 +338,36 @@ Automate deployment, monitoring, scaling.
 *   Setup **K8s Cluster** với auto-scaling.
 *   Implement **Blue-Green Deployment**.
 
+##### 🔁 Lộ trình 14 ngày nghiên cứu AWS (Build foundation + ship PoC)
+
+> **Đối tượng:** Backend/DevOps muốn “hands-on” AWS trong 2 tuần – tập trung vào core services, networking, bảo mật và IaC.
+
+| Ngày | Chủ đề chính | Kết quả mong đợi |
+| --- | --- | --- |
+| 1 | AWS Overview + Global Infrastructure | Mindmap Region/AZ/Edge + ghi chú Shared Responsibility Model |
+| 2 | IAM Fundamentals | Tạo user, group, policy tối thiểu; ghi checklist bảo mật key |
+| 3 | Networking cơ bản (VPC, Subnet, SG, NACL) | Vẽ sơ đồ VPC 2-tier + viết Terraform snippet tạo VPC |
+| 4 | Compute 101 (EC2, AMI, Auto Scaling) | Spin up EC2 từ CLI, capture AMI, mô tả launch template |
+| 5 | Storage Layer (S3, EBS, EFS, Glacier) | Thiết lập lifecycle policy cho bucket + flow backup |
+| 6 | Database Services (RDS, Aurora, DynamoDB) | Bảng so sánh + tạo RDS Postgres t2.micro và script kết nối |
+| 7 | Container & Serverless (ECS Fargate vs EKS vs Lambda) | PoC deploy container Hello World trên Fargate + note trade-offs |
+| 8 | Networking nâng cao (Route 53, ALB/NLB, Global Accelerator) | Diagram traffic flow multi-AZ với health checks |
+| 9 | Observability (CloudWatch, X-Ray, CloudTrail) | Dashboard CloudWatch + cảnh báo CPU + truy vết CloudTrail |
+| 10 | Security & Compliance (KMS, Secrets Manager, Config) | Checklist rotation secret + rule AWS Config bắt S3 public |
+| 11 | Infrastructure as Code (Terraform CDKTF/CloudFormation) | Module Terraform nhỏ (VPC + EC2) và pipeline `terraform plan` |
+| 12 | CI/CD trên AWS (CodePipeline, CodeBuild, Artifact) | Pipeline đơn giản build Docker image & push ECR |
+| 13 | Cost Optimization & Governance (Budgets, Cost Explorer) | Thiết lập AWS Budget + báo cáo tag-based |
+| 14 | Capstone: Mini SaaS stack | Deploy 3-tier app: API (ECS/Lambda) + RDS + S3 static + Route53, viết post-mortem |
+
+**Nhịp mỗi ngày (gợi ý):** 30’ đọc docs/whitepaper + 60’ thao tác console/CLI/Terraform + 30’ viết note/diagram.
+
+**Checklist kết thúc sprint:**
+- [ ] Có IAM baseline (least privilege, MFA, access analyzer report).
+- [ ] Terraform module deploy được VPC + EC2 + S3 theo best practice.
+- [ ] Monitoring + alert tối thiểu (CPU alarm, error log search, CloudTrail enabled).
+- [ ] Budget alert & tagging policy để kiểm soát chi phí.
+- [ ] Demo app chạy multi-AZ, có diagram + README mô tả kiến trúc.
+
 ---
 
 #### **🅾️ Path C: Platform Engineer**
