@@ -196,6 +196,17 @@ Khi có **một dự án chiếm nhiều thời gian** (ôn thi, khóa học, d�
 - Deep blocks đầu tuần ưu tiên P1; cuối tuần buffer cho P2/đột xuất.
 - Weekly review: cập nhật 3 milestone gần nhất của P1/P2, điều chỉnh block tuần sau.
 
+**Ví dụ cụ thể cho Developer (có thể chỉnh lại):**
+
+| Vai trò dev | Mục tiêu 4–6 tuần | Deep block (ngày) | Shallow block | Weekly review focus |
+| --- | --- | --- | --- | --- |
+| **Backend mid-level** | Hoàn thiện API v1 + tăng độ tin cậy | Sáng: 2h “API core / perf fix” + 1h “refactor/tests” | Chiều: code review, ticket nhỏ, họp sprint | Kiểm tra error budget, test coverage, burndown; chọn 1 refactor nhỏ/tuần |
+| **Frontend/Fullstack** | Ship 2 feature UI + ổn định performance | Sáng: 2h “feature UI” + 1h “perf/UX polish” | Chiều: review PR, QA triage, sync design | Đo LCP/CLS, số bug UI; chốt 1 cải thiện UX/tuần |
+| **ML/AI Engineer** | Thử 2 baseline + deploy thử nghiệm | Sáng: 2h “experiment” + 1h “eval/metrics” | Chiều: data cleaning, infra nhỏ, họp | So sánh A/B, cập nhật model card, quyết định keep/kill experiment |
+| **Tech Lead** | Giảm block release, nâng chất lượng | Sáng: 2h “architecture/design” hoặc “critical fix” | Chiều: 1h coaching/1:1, 1h review PR, 30’ planning | Kiểm tra WIP, dependency, risk; dỡ bottleneck, align mục tiêu tuần |
+
+**Nhắc nhanh:** Chọn ≤2 ưu tiên/ngày; sâu buổi sáng, shallow gom buổi chiều; weekly review nhìn vào kết quả (defect, perf, throughput) thay vì chỉ effort.
+
 ---
 
 ## 🔗 Liên kết mở rộng
