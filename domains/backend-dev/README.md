@@ -290,6 +290,38 @@ Thiết kế hệ thống chịu tải hàng triệu users.
 *   Design **Real-time Chat System** (WebSocket, Redis Pub/Sub).
 *   Design **Video Streaming Platform** (CDN, Adaptive Bitrate).
 
+##### 🔁 Lộ trình 14 ngày hiểu sâu Design Systems cho Backend/Platform teams
+
+> **Tại sao Backend cần hiểu Design System?** Đảm bảo API consistency, contract rõ ràng giữa service và frontend, giảm drift khi phát triển đa team.
+
+| Ngày | Chủ đề | Output |
+| --- | --- | --- |
+| 1 | Design System 101 (Từ góc nhìn Backend) | Memo: mapping UI tokens ↔ API contract |
+| 2 | Design Tokens → API schema | Draft quy tắc expose metadata (theme, locale) qua API |
+| 3 | Component lifecycle ↔ API versioning | Checklist release sync giữa component & endpoint |
+| 4 | Accessibility & Internationalization hooks | API support cho a11y (aria labels, language switch) |
+| 5 | Documentation pipelines (Storybook ↔ OpenAPI) | Prototype sync Storybook controls ↔ Swagger schema |
+| 6 | Content governance & CMS integration | Model hóa content slot/variant trong API |
+| 7 | Backend tooling: GraphQL/REST consistency | Lint rule + graph schema cho design tokens |
+| 8 | Platform infrastructure (CI/CD, preview env) | Script auto deploy preview env per design branch |
+| 9 | Telemetry for design components | Spec log/metrics format hỗ trợ UX experiments |
+| 10 | Feature flags & gradual rollout | Plan flag taxonomy + exposure metrics |
+| 11 | API gateway & schema registry alignment | Checklist mapping gateway policy với component usage |
+| 12 | Developer portal + self-serve kit | Outline portal page linking DS assets + API boilerplate |
+| 13 | Governance & versioning council | RACI cho việc approve token/component change |
+| 14 | Integration demo (backend ↔ DS) | Build mini service expose token API + doc write-up |
+
+**Daily cadence (gợi ý):**
+1. 30’ đọc tài liệu (DesignOps, API governance, Backstage).
+2. 60’ thực hành (viết schema, script, hoặc PoC sync Storybook ↔ OpenAPI).
+3. 30’ review với Frontend/Design để thống nhất contract.
+
+**Checklist hoàn thành:**
+- [ ] Có policy mô tả cách backend cập nhật khi design token đổi.
+- [ ] OpenAPI/GraphQL schema phản ánh component states (variants, themes).
+- [ ] CI/CD tạo được preview env cho design review tích hợp dữ liệu thật.
+- [ ] Governance doc xác định SLA giữa Platform ↔ Design team.
+
 ---
 
 #### **🅱️ Path B: DevOps Engineer**
