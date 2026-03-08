@@ -145,7 +145,7 @@ Framework không phải bản vẽ một lần. Đặt lịch **review định k
 *   Điều gì không chạy? Bỏ hoặc đơn giản hóa.
 *   Điều gì thiếu? Thêm một quy tắc hoặc một nghi thức nhỏ.
 
-👉 **Tư duy:** [Fast Correction / FMS](../../01-mental-models/fast-correction-mindset.md) — sửa nhanh, không cầu toàn ngay từ đầu.
+👉 **Tư duy:** [Fast Correction / FMS](../../../01-mental-models/fast-correction-mindset.md) — sửa nhanh, không cầu toàn ngay từ đầu.
 
 ---
 

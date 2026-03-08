@@ -94,6 +94,39 @@ Rèn trigger cố định giúp bạn bật chế độ tập trung ngay cả kh
 > “If a student keeps a beginner’s mind, they can discover lessons in any conversation, any loss, any quiet moment.”
 
 ---
+Mấy ý cốt lõi của sách:
+
+1. Học sâu hơn là học nhiều
+Waitzkin nhấn mạnh rằng người giỏi thật sự không chỉ nhồi kiến thức, mà phải hiểu bản chất đến mức rất sâu. Khi đã nắm được nguyên lý cốt lõi, bạn có thể ứng biến trong nhiều tình huống khác nhau.
+
+2. “Investment in loss” – đầu tư vào thất bại
+Một ý rất hay của sách là thua, sai, bị lộ điểm yếu không phải chuyện xấu. Đó là dữ liệu để nâng cấp bản thân. Người học tốt là người dám nhìn thẳng vào chỗ yếu thay vì né tránh.
+
+3. Từ cái nhỏ đến cái lớn
+Ông gọi gần giống kiểu xây nền từ những yếu tố rất nhỏ, rất chuẩn. Khi nền móng đủ chắc, kỹ năng lớn sẽ phát triển tự nhiên. Tức là không học kiểu màu mè bên ngoài trước.
+
+4. Bình tĩnh dưới áp lực
+Sách nói nhiều về việc tạo ra một “vùng hiệu suất tối ưu” cho bản thân. Ví dụ: trước khi thi đấu hay làm việc quan trọng, bạn cần có ritual, nhịp thở, trạng thái tinh thần quen thuộc để vào guồng.
+
+5. Biến cái khó thành tự nhiên
+Ban đầu phải luyện có ý thức, chậm, kỹ. Nhưng luyện đủ sâu thì kỹ năng sẽ chuyển thành phản xạ. Đây là bước từ “biết” sang “làm được ổn định”.
+
+6. Không bám chặt vào một bản sắc cố định
+Nhiều người sợ thua vì nghĩ “nếu mình thua thì mình không còn là người giỏi nữa”. Waitzkin cho rằng điều này rất nguy hiểm. Người học tốt không bảo vệ cái tôi; họ bảo vệ quá trình phát triển.
+
+Vì sao cuốn này đáng đọc:
+
+Không phải self-help kiểu hô khẩu hiệu
+
+Có chiều sâu vì tác giả thực sự từng cạnh tranh đỉnh cao
+
+Áp dụng được cho học tập, công việc, đàm phán, thể thao, thậm chí luyện AI/prompting
+
+Điểm mạnh nhất của sách, theo nhiều người, là nó dạy bạn nhìn việc học như một nghệ thuật tinh luyện bản thân, không chỉ là chuyện đạt điểm cao hay thắng một lần.
+
+Nếu nói ngắn gọn, thông điệp lớn của cuốn sách là:
+
+Người xuất sắc không nhất thiết là người tài năng nhất từ đầu, mà là người biết học đúng cách, sửa mình đúng cách, và giữ được sự bình tĩnh để tiến bộ liên tục.
 
 ## 7. Liên kết thêm
 
