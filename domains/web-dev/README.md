@@ -120,6 +120,38 @@ Bạn cần chọn chuyên sâu:
 *   **Keywords:** Web Performance (Core Web Vitals), Accessibility (a11y), Micro-frontends, Advanced Animations (Framer Motion/GSAP), Design Systems.
 *   **Goal:** User Experience đỉnh cao, load time < 1s.
 
+##### 🔁 Lộ trình 14 ngày khám phá Design System
+
+| Ngày | Chủ đề | Deliverable |
+| --- | --- | --- |
+| 1 | Design System Overview + Case studies (Carbon, Material, Polaris) | Viết note so sánh 3 hệ thống (tokens, docs, governance) |
+| 2 | Design Principles & Brand voice | Draft nguyên tắc thiết kế (tone, spacing, motion) |
+| 3 | Design Tokens (Color, Typography, Spacing) | Tạo token file (JSON/Style Dictionary) |
+| 4 | Accessibility foundations (WCAG, contrast, focus states) | Checklist a11y cho tokens + buttons |
+| 5 | Figma Library setup (Auto-layout, variants) | Library core: button, input, badge |
+| 6 | Component architecture + naming conventions | Quy ước đặt tên component + doc usage |
+| 7 | Storybook / Ladle setup | Storybook chạy với tokens + controls |
+| 8 | Theming & Dark mode strategy | Demo theme switcher (CSS vars/Tailwind tokens) |
+| 9 | Iconography & Illustration guidelines | Bộ icon chuẩn (stroke, corner radius, grid) |
+| 10 | Motion & Micro-interactions | Spec animation (duration, easing) + demo |
+| 11 | Content design + localization rules | Bảng voice & tone + ví dụ multi-language |
+| 12 | Documentation workflow (zeroheight, Notion, custom site) | Page mô tả component (props, code snippet, usage) |
+| 13 | Governance model (DesignOps, contribution) | RACI + process đề xuất component mới |
+| 14 | Integration sprint (React/Next demo) | Build mini app tiêu chuẩn hóa component + publish recap |
+
+**Daily cadence đề xuất:**
+
+1. 30’ đọc lý thuyết (Design System Handbook, Refactoring UI, blog Figma).
+2. 60’ thực hành (Figma/Code). Ưu tiên output hữu hình (token file, component demo).
+3. 30’ review với tiêu chí: a11y, consistency, reusability.
+
+**Checklist hoàn thành:**
+
+- [ ] Token JSON + Tailwind (hoặc CSS vars) đồng bộ.
+- [ ] 6 component core (Button, Input, Dropdown, Card, Modal, Tooltip) có doc.
+- [ ] Storybook deploy (Chromatic/Vercel) cho QA nội bộ.
+- [ ] Governance doc + quy trình release version (semantic versioning).
+
 #### **🅱️ Path B: Backend Architect**
 *   **Keywords:** System Design, Microservices, Caching (Redis), Message Queues (RabbitMQ/Kafka), Database Sharding/Indexing.
 *   **Goal:** Hệ thống chịu tải hàng triệu users.
