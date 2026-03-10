@@ -92,9 +92,12 @@ Chào mừng bạn đến với kho tàng kiến thức về Đầu tư và Kinh
 ## 🚀 Crypto & Emerging Assets
 *Tìm hiểu về tương lai của tiền tệ và tài sản số.*
 
-*   **[₿ Crypto & DeFi Fundamentals](./advanced/crypto-defi.md):** Bản chất của BTC, các xu hướng AI + Crypto, RWA và chiến lược đầu tư tài sản số.
-*   **[₿ Bitcoin Fundamentals](./advanced/bitcoin-fundamentals.md):** Tại sao BTC là vàng kỹ thuật số?
-*   **[DeFi Playbook](./advanced/defi-playbook.md):** Tài chính phi tập trung.
+| Chủ đề | Nội dung |
+| --- | --- |
+| **Crypto & DeFi Fundamentals** | [Crypto & DeFi Fundamentals](./advanced/crypto-defi.md): Bản chất BTC, các xu hướng AI + Crypto, RWA. |
+| **Bitcoin Fundamentals** | [Bitcoin Fundamentals 2026](./advanced/bitcoin-fundamentals.md): Lịch sử, chính sách tiền tệ cố định và chiến lược vận hành BTC. |
+| **DeFi Playbook** | [DeFi Playbook](./advanced/defi-playbook.md): Hệ sinh thái lending, AMM, derivatives phi tập trung. |
+| **Digital Assets Strategy** | [Digital Assets Strategy 2026](./advanced/digital-assets-strategy.md): Khung allocate, rủi ro và compliance. |
 
 ---
 

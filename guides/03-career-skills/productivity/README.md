@@ -32,7 +32,8 @@ Trong kỷ nguyên AI và tự động hóa, "làm việc chăm chỉ" (Hard wor
 ### 1. Core Skills (Kỹ năng cốt lõi)
 Xây dựng nền tảng cho một bộ não hiệu suất cao.
 *   **[Mental Models Library](./mental-models/mental-models-library.md):** Thư viện các mô hình tư duy cốt lõi (First Principles, Inversion, Pareto...).
-*   **[Strategic Thinking Frameworks](./mental-models/strategic-thinking-frameworks.md)** (⭐ **New**) - SWOT, Second-Order Thinking, Impact/Effort Matrix.
+*   **[Strategic Thinking Playbook](./mental-models/strategic-thinking.md)** (⭐ **New**) - Mindset + toolkit + 30-60-90 plan để trở thành strategist.
+*   **[Strategic Thinking Frameworks](./mental-models/strategic-thinking-frameworks.md)** - SWOT, Second-Order Thinking, Impact/Effort Matrix.
 *   **[Life System Thinking (Tư Duy Hệ Thống)](./mental-models/life-system-thinking.md)** (⭐ **New**) - Thiết kế hệ thống vận hành thay vì dùng ý chí.
 *   **[Probabilistic Thinking (Tư Duy Xác Suất)](./mental-models/probabilistic-thinking.md)** (⭐ **New**) - Ứng dụng xác suất vào đời sống.
 *   **[Methodology Mindset (Phương Pháp Luận)](./mental-models/methodology-mindset.md)** (⭐ **New**) - Bộ não đứng sau mọi sự tiến bộ.
