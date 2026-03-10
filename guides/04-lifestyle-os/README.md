@@ -11,7 +11,7 @@
 
 | Lớp | Câu hỏi chính | Module | File nổi bật |
 | --- | --- | --- | --- |
-| **Layer 1 – Life OS (Brainware)** | Tôi vận hành cuộc đời bằng hệ thống nào? | [life-os/](life-os/README.md) | [life-os/README.md](life-os/README.md) – tổng quan 6 engine; [decision-engine.md](life-os/decision-engine.md) – khuôn ra quyết định; [risk-engine.md](life-os/risk-engine.md) – phòng thủ; [psychology-reading-women.md](psychology-reading-women.md) & [psychology-women-contexts.md](psychology-women-contexts.md) – bối cảnh quan hệ. |
+| **Layer 1 – Life OS (Brainware)** | Tôi vận hành cuộc đời bằng hệ thống nào? | [life-os/](life-os/README.md) | [life-os/README.md](life-os/README.md) – tổng quan 6 engine; [decision-engine.md](life-os/decision-engine.md) – khuôn ra quyết định; [risk-engine.md](life-os/risk-engine.md) – phòng thủ; [psychology-reading-women.md](psychology-reading-women.md) & [psychology-women-contexts.md](psychology-women-contexts.md) – bối cảnh quan hệ; **Bonus:** [Philosophy Domain](../01-mental-models/philosophy/README.md) – “firmware” giá trị & đạo đức. |
 | **Layer 2 – Well-being (Hardware)** | Năng lượng, hormone, tinh thần của tôi có ổn định không? | [well-being/](well-being/README.md) | [biohacking/health-os-overview.md](well-being/biohacking/health-os-overview.md) – Health OS 12 tuần; [mental-resilience/burnout-prevention.md](well-being/mental-resilience/burnout-prevention.md) – protocol chống burnout; [biohacking/sleep-optimization.md](well-being/biohacking/sleep-optimization.md) – tối ưu giấc ngủ. |
 | **Layer 3 – Politics (Environment)** | Môi trường quốc gia/thế giới đang vận hành ra sao? Tôi cần chuẩn bị gì? | [politics/](politics/README.md) | [politics/README.md](politics/README.md) – roadmap chính trị; [politics/vietnam-system.md](politics/vietnam-system.md) – cấu trúc VN; [politics/geopolitics/world-order.md](politics/geopolitics/world-order.md) – bức tranh toàn cầu. |
 
@@ -68,6 +68,7 @@
 
 ## 🔗 Cross-Link gợi ý
 - **Life OS ↔ Well-being:** Muốn engine chạy ổn, đọc [life-os/energy-management.md](life-os/energy-management.md) và [well-being/biohacking/health-os-overview.md](well-being/biohacking/health-os-overview.md) làm phần cứng.
+- **Life OS ↔ Philosophy:** Cài đặt worldview bằng [philosophy/README.md](../01-mental-models/philosophy/README.md); dùng [practical-applications/stoicism-daily.md](../01-mental-models/philosophy/practical-applications/stoicism-daily.md) làm “mềm” cho Decision Engine.
 - **Life OS ↔ Politics:** [strategy-engine.md](life-os/strategy-engine.md) và [risk-engine.md](life-os/risk-engine.md) áp dụng trực tiếp vào việc hiểu trật tự thế giới, phòng thủ trước biến động.
 - **Well-being ↔ Politics:** Khi nghiên cứu chính trị/căng thẳng, kích hoạt [mental-resilience/stoicism-for-modern-life.md](well-being/mental-resilience/stoicism-for-modern-life.md) để giữ tâm ổn định.
 - **Life OS ↔ Wealth Guides:** Nếu mục tiêu là chuẩn bị di cư/đầu tư quốc tế, kết hợp `life-os/strategy-engine.md` + `life-os/risk-engine.md` với **Wealth Business / Legal Resources**.
