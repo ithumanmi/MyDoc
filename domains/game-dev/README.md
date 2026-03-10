@@ -52,6 +52,7 @@ updated: 2026-03-11
 | [physics/](./physics/) | Physics engine, collision nâng cao | Build core mechanic dựa vào physics |
 | [graphics/](./graphics/) | Shader, VFX, lighting | Chọn Path Technical Artist |
 | [unity-deep-dive/](./unity-deep-dive/) | Clean code, editor tooling, optimization | Áp dụng cho dự án production |
+| [game-design/](./game-design/README.md) | Core loop, economy, narrative, playtest | Đồng bộ designer ↔ gameplay engineer |
 | [game-server-guide.md](./game-server-guide.md) & [senior-game-server-roadmap.md](./senior-game-server-roadmap.md) | Multiplayer architecture, career ladder | Path Multiplayer/Server Engineer |
 | [metrics/](./metrics/) | Unity impact metrics, genre cheat sheet | LiveOps, pitch dự án, marketing |
 | [challenges/](./challenges/README.md) | Coding exercises, ECS/netcode tasks | Luyện tay trước/phỏng vấn |
