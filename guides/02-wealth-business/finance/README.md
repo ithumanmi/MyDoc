@@ -45,6 +45,7 @@ updated: 2026-03-10
 | **Risk & Mastery Path** | [Quant Trading: Risk & Mastery Path](quant-trading-risk-advantage.md) – rủi ro, lợi thế, lộ trình rèn luyện. |
 | **Extended Playbook** | [Quant Trading Extended Playbook](quant-trading-extended-playbook.md) – tech stack + chiến lược + operating model. |
 | **Tech Stack Deep Dive** | [Quant Trading Tech Stack Deep Dive](quant-trading-tech-stack.md) – kiến trúc data→execution→security chi tiết. |
+| **Strategy Deep Dive** | [Quant Trading Strategy Deep Dive](quant-trading-strategy-deep-dive.md) – StatArb, CTA, Options, checklist vận hành. |
 
 > Sắp xếp thứ tự đọc: Blueprint → Risk & Mastery → Extended Playbook → Tech Stack.
 
