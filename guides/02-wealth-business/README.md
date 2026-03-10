@@ -34,7 +34,7 @@
 - `entrepreneurship/`: Mindset, operations, growth, startup, solopreneur.
 - `investing/`: Fundamentals, advanced, strategy, Vietnam market, tools.
 - `legal/`: Fundamentals, personal, business, employment, tech, templates.
-- `finance/`: Kinh tế vĩ mô, dòng tiền, geopolitics, **Finance Domain Playbook cho dev/BA**, **Core Banking Modernization**, các playbook domain (Deposit, Lending, Payments), **Insurance Policy Administration**, bài phân tích **[Emotional Economy](finance/emotional-economy.md)** và **[Emotional Economy Niche Report 2026](finance/emotional-economy-niche-report.md)**.
+- `finance/`: Kinh tế vĩ mô, dòng tiền, geopolitics, **Finance Domain Playbook cho dev/BA**, **Core Banking Modernization**, các playbook domain (Deposit, Lending, Payments), **Insurance Policy Administration**, bộ tài liệu **[Emotional Economy](finance/emotional-economy.md)**, **[Emotional Economy Niche Report 2026](finance/emotional-economy-niche-report.md)**, cùng bộ **Quant Trading** gồm **[Blueprint](finance/quant-trading-blueprint.md)**, **[Risk & Mastery Path](finance/quant-trading-risk-advantage.md)**, **[Extended Playbook](finance/quant-trading-extended-playbook.md)** và **[Tech Stack Deep Dive](finance/quant-trading-tech-stack.md)**.
 - `market-research/`, `logistics/`, `mmo-roadmap/`: Bổ trợ chuyên sâu.
 
 ## 🔗 Cross-link gợi ý

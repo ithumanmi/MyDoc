@@ -39,5 +39,6 @@ Trong thế giới Solopreneur: Thành công = Lợi nhuận cao + Ít rắc r�
 *   **[Productize Your Service](./productize-your-service.md):** Cách đóng gói kỹ năng thành sản phẩm để bán được nhiều lần (Scalable).
 *   **[Audience-First Strategy](./audience-first-strategy.md):** Tại sao bạn nên xây dựng cộng đồng TRƯỚC khi xây sản phẩm?
 *   **[Automation Stack](./automation-stack.md):** Bộ công cụ "vũ khí hạng nặng" giúp Solopreneur vận hành doanh nghiệp 1 người.
+*   **[One-Person Business Trends 2026](./one-person-business-trends-2026.md):** Báo cáo xu hướng doanh nghiệp 1 người, mô hình thu nhập, stack công cụ và lộ trình 90 ngày.
 *   **[Mobile App Monetization](../tech-startup/mobile-app-monetization.md):** Chiến lược kiếm tiền cho Solo Mobile Dev (2026).
 *   **[Funding Options for Solopreneurs](../tech-startup/funding-options-2026.md):** Các nguồn vốn phù hợp để khởi sự một mình (Bootstrap, Grants, Pre-sale).
