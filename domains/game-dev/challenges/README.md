@@ -1,3 +1,12 @@
+---
+title: "Unity Coding Challenges"
+description: "Bộ bài tập gameplay, netcode, ECS để luyện phản xạ production."
+tags:
+  - challenges
+  - unity
+updated: 2026-03-11
+---
+
 # 🧠 Unity Coding Challenges
 
 > Tập hợp các bài tập thực chiến để luyện kỹ năng gameplay, networking và tối ưu hóa trong Unity.

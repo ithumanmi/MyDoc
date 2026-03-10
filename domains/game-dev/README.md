@@ -1,8 +1,29 @@
+---
+title: "Game Development Roadmap (Unity Focus)"
+description: "Lộ trình kỹ năng Unity, gameplay, multiplayer và portfolio cho developer Việt Nam."
+tags:
+  - unity
+  - game-dev
+  - roadmap
+updated: 2026-03-11
+---
+
 # 🎮 Game Development Roadmap (Unity Focus)
+
+> **Goal & Success Criteria**  
+> • **Goal:** Build technical mastery (Unity, C#, Multiplayer) và publish được trò chơi/ứng tuyển studio.  
+> • **Deliverables:** Projects Tier 1-4, portfolio (Itch/GitHub), telemetry notes, server deployment.  
+> • **Success:** Tự ship game hoàn chỉnh, chăm sóc live metrics, cross-skill giữa gameplay & server.
 
 > 📍 **Navigation Note:**  
 > - **This folder (domains/game-dev/):** Technical skills - Unity, C#, Game Architecture, Shaders, Multiplayer  
 > - **Career & Business guide:** See [guides/03-career-skills/game-dev/](../../guides/03-career-skills/game-dev/README.md) for freelancing, publisher deals, monetization strategies
+
+> 🧭 **How to use:**  
+> 1. **Reality Check → Visual Roadmap:** xác định level hiện tại.  
+> 2. **Chọn Sprint 14 ngày** để củng cố nền tảng hoặc nhảy thẳng vào module chuyên sâu.  
+> 3. **Mapping Deliverables ↔ Career playbook:** kết hợp [Game Dev 10k Roadmap](../../guides/03-career-skills/game-dev/game-dev-10k-roadmap.md) + portfolio checklist.  
+> 4. **Liên kết Meta:** trong mỗi project, log telemetry vào [Unity Impact Metrics](./metrics/unity-impact-metrics.md) và audit skill bằng [Game Dev Knowledge Audit](../../case-studies/knowledge-audits/game-dev-knowledge-audit.md).
 
 > [← Back to Chapter 1](../../chapters/01-xac-dinh-linh-vuc.md) | [Home](../../README.md) | [🚀 Quick Start](../../QUICK-START.md) | [📖 Glossary](../../GLOSSARY.md)
 >
@@ -16,8 +37,26 @@
 
 **🎯 Starting Game Dev?** See [Quick Start - Beginner Path](../../QUICK-START.md#-path-1-beginner-developer-0-1-year) for your first steps!  
 **🔍 Game Dev terms:** Check [Glossary](../../GLOSSARY.md) - Unity, C#, Physics, AI concepts explained simply.  
-**📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md) to understand learning paths.
+**📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md) to understand learning paths.  
 **🧩 Knowledge Audit:** Check [Game Dev Knowledge Audit](../../case-studies/knowledge-audits/game-dev-knowledge-audit.md) to test your skills!
+
+---
+
+## 🧱 Module Index (Điểm danh thư mục con)
+
+| Module | Nội dung chính | Khi nào dùng |
+| --- | --- | --- |
+| [core-mechanic-design-doc.md](./core-mechanic-design-doc.md) | Template + ví dụ viết GDD cơ chế chính | Kick-off dự án mới, sync với designer |
+| [ai/](./ai/) | Behavior Tree, GOAP, Steering | Level 3+ tập trung AI gameplay |
+| [animation/](./animation/) | IK, natural movement | Khi cần nâng chất lượng chuyển động |
+| [physics/](./physics/) | Physics engine, collision nâng cao | Build core mechanic dựa vào physics |
+| [graphics/](./graphics/) | Shader, VFX, lighting | Chọn Path Technical Artist |
+| [unity-deep-dive/](./unity-deep-dive/) | Clean code, editor tooling, optimization | Áp dụng cho dự án production |
+| [game-server-guide.md](./game-server-guide.md) & [senior-game-server-roadmap.md](./senior-game-server-roadmap.md) | Multiplayer architecture, career ladder | Path Multiplayer/Server Engineer |
+| [metrics/](./metrics/) | Unity impact metrics, genre cheat sheet | LiveOps, pitch dự án, marketing |
+| [challenges/](./challenges/README.md) | Coding exercises, ECS/netcode tasks | Luyện tay trước/phỏng vấn |
+| [pcg/](./pcg/) | Procedural generation playbooks | Build world ngẫu nhiên, roguelike |
+| [engines/](./engines/) | Unity DOTS, Unreal comparisons | Đánh giá engine & tối ưu |
 
 ---
 
@@ -280,5 +319,5 @@ Multiplayer Game không chỉ là game có nhiều người chơi, mà là một
 
 ---
 
-> **Last Updated:** February 2026
+> **Last Updated:** March 2026
 
