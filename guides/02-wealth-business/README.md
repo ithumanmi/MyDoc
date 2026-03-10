@@ -31,11 +31,11 @@
 > **Action:** Chọn trục điểm thấp nhất, đọc file tương ứng và triển khai checklist 1 tuần.
 
 ## 📂 Module chính
-- `entrepreneurship/`: Mindset, operations, growth, startup, solopreneur.
-- `investing/`: Fundamentals, advanced, strategy, Vietnam market, tools.
-- `legal/`: Fundamentals, personal, business, employment, tech, templates.
-- `finance/`: Kinh tế vĩ mô, dòng tiền, geopolitics, **Finance Domain Playbook cho dev/BA**, **Core Banking Modernization**, các playbook domain (Deposit, Lending, Payments), **Insurance Policy Administration**, bộ tài liệu **[Emotional Economy](finance/emotional-economy.md)**, **[Emotional Economy Niche Report 2026](finance/emotional-economy-niche-report.md)**, cùng bộ **Quant Trading** gồm **[Blueprint](finance/quant-trading-blueprint.md)**, **[Risk & Mastery Path](finance/quant-trading-risk-advantage.md)**, **[Extended Playbook](finance/quant-trading-extended-playbook.md)** và **[Tech Stack Deep Dive](finance/quant-trading-tech-stack.md)**.
-- `market-research/`, `logistics/`, `mmo-roadmap/`: Bổ trợ chuyên sâu.
+- [Entrepreneurship Hub](entrepreneurship/README.md): Mindset, operations, growth, startup, solopreneur.
+- [Investing Hub](investing/README.md): Fundamentals, advanced, strategy, Vietnam market, tools.
+- [Legal Hub](legal/README.md): Fundamentals, personal, business, employment, tech, templates.
+- [Finance Hub](finance/README.md): Kinh tế vĩ mô, dòng tiền, geopolitics, domain playbooks (Deposit, Lending, Payments, Insurance), bộ Emotional Economy và bộ Quant Trading (Blueprint, Risk & Mastery, Extended Playbook, Tech Stack).
+- [Market Research](market-research/README.md), [Logistics](logistics/README.md), [MMO Roadmap](mmo-roadmap/README.md): Bổ trợ chuyên sâu.
 
 ## 🔗 Cross-link gợi ý
 - **Build ↔ Protect:** Trong mọi playbook Entrepreneurship, link sang legal/business + tax compliance để tránh “build xong bị phạt”.
