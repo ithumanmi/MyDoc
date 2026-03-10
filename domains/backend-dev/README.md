@@ -24,7 +24,7 @@
 | Mục tiêu | File/Thư mục | Nội dung chính |
 | --- | --- | --- |
 | **Bắt đầu & định hướng** | [README.md](./README.md) · [INDEX.md](./INDEX.md) | Toàn cảnh lĩnh vực, so sánh nghề, lộ trình 4 cấp độ |
-| **Roadmap ngôn ngữ** | [nodejs-typescript-roadmap.md](./nodejs-typescript-roadmap.md) · [csharp-dotnet-roadmap.md](./csharp-dotnet-roadmap.md) · [golang-roadmap.md](./golang-roadmap.md) · [rust-roadmap.md](./rust-roadmap.md) | Lộ trình 3 phase + dự án mẫu + checklist cho từng stack |
+| **Roadmap ngôn ngữ** | [nodejs-typescript-roadmap.md](./nodejs-typescript-roadmap.md) · [python-backend-roadmap.md](./python-backend-roadmap.md) · [java-spring-roadmap.md](./java-spring-roadmap.md) · [csharp-dotnet-roadmap.md](./csharp-dotnet-roadmap.md) · [golang-roadmap.md](./golang-roadmap.md) · [rust-roadmap.md](./rust-roadmap.md) | Lộ trình 3 phase + dự án mẫu + checklist cho từng stack |
 | **Kiến trúc & System Design** | [system-design-guide.md](./system-design-guide.md) · thư mục [architecture/](./architecture/) · [system-design/](./system-design/) | Khái niệm cốt lõi, case study, template phỏng vấn |
 | **Bảo mật & Testing** | [backend-security.md](./backend-security.md) · [security/](./security/) · [testing-guide.md](./testing-guide.md) · [testing/](./testing/) | OWASP, secure coding, testing pyramid, chaos/load tests |
 | **Vận hành & DevOps/SRE** | [devops-sre/](./devops-sre/) · [monitoring-observability.md](./monitoring-observability.md) · [deployment-guide.md](./deployment-guide.md) · [devops lab pack](./devops-sre/devops-lab-pack.md) | Docker/K8s, IaC, observability stack, incident playbook, thực hành 30 ngày |

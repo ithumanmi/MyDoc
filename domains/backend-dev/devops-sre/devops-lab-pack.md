@@ -123,3 +123,54 @@ Rèn kỹ năng on-call, tối ưu chi phí, và quy trình chuẩn cho producti
 5. **Next steps**: Sau khi xong 4 track, chọn 1 hệ thống thật (pet project hoặc service nội bộ) áp dụng trọn bộ quy trình này.
 
 > Khi cần hỗ trợ, mở issue trong repo để team đóng góp thêm script, template hoặc tài liệu tham khảo.
+
+---
+
+## 🔥 Bonus: Advanced Lab Cluster (Tuần 5-6)
+
+> Dành cho team đã hoàn thành 4 track cơ bản và muốn chuẩn bị cho tình huống production phức tạp (đa cloud, traffic đột biến, yêu cầu bảo mật cao). Chọn ít nhất 2 lab dưới đây để thực hiện trong 2 tuần.
+
+### 5A. Chaos & Resilience Engineering
+- **Objective:** Đo độ bền hệ thống khi một phần hạ tầng gặp sự cố.
+- **Steps:**  
+  1. Dùng **LitmusChaos** hoặc **Gremlin** inject lỗi (kill pod, tăng latency DB).  
+  2. Thiết lập **Steady State Hypothesis** (VD: P95 < 300ms, error rate < 1%).  
+  3. Chạy chaos experiment, đo metric trước/sau, đưa ra remediation plan.
+- **Deliverables:** Chaos manifest, dashboard metric, postmortem (có action items).  
+- **Verification:** Runbook được cập nhật với threshold mới, alert không còn noise khi chaos chạy ngoài giờ.
+
+### 5B. Multi-Cloud & Service Mesh Lab
+- **Objective:** Deploy một workload trên 2 cloud khác nhau hoặc 2 cluster K8s, dùng Service Mesh để quan sát và điều phối traffic.
+- **Steps:**  
+  1. Tạo 2 cluster (EKS + GKE hoặc kind + k3d).  
+  2. Cài **Istio/Linkerd** hoặc Cilium Service Mesh.  
+  3. Thiết lập traffic shifting (80/20), mutual TLS, circuit breaker.  
+  4. Tích hợp observability mesh (Kiali, Jaeger).
+- **Deliverables:** Diagram multi-cluster, manifest mesh, video demo traffic shift.  
+- **Verification:** Fail cluster A → traffic tự động chuyển sang B, metric + trace vẫn đầy đủ.
+
+### 5C. Security Hardening as Code
+- **Objective:** Chuẩn hóa bảo mật bằng automation trước khi release features mới.
+- **Steps:**  
+  1. Viết policy IaC (OPA, Conftest, Kyverno) để enforce rule (VD: không chạy container privilege, phải có resource limit).  
+  2. Tích hợp `tfsec`/`Checkov`/`kubescape` vào CI pipeline.  
+  3. Tạo secret zero-trust flow (Vault + dynamic secrets hoặc AWS IAM roles).  
+  4. Review compliance checklist (GDPR/PDPA, PCI) và tạo automation check.
+- **Deliverables:** Policy repo, pipeline screenshot, security report, checklist mapping controls → evidence.  
+- **Verification:** Pipeline block nếu vi phạm policy, secrets rotation được log lại, audit trail đầy đủ.
+
+### 5D. Traffic Surge & Cost Game Day
+- **Objective:** Mô phỏng chiến dịch marketing lớn, tối ưu vừa hiệu năng vừa chi phí.
+- **Steps:**  
+  1. Dùng k6 hoặc Locust bắn traffic gấp 10 lần bình thường.  
+  2. Auto scale horizontal + vertical, monitor cost bằng CloudWatch/Prometheus.  
+  3. Áp dụng Spot instances / Savings plan / autoscale down-time để giữ chi phí < X$/ngày.  
+  4. Viết recap: Trade-off hiệu năng vs chi phí, đề xuất tối ưu lâu dài.
+- **Deliverables:** Benchmark report (TPS, latency, cost), autoscale policy, cost dashboard screenshot.  
+- **Verification:** Traffic peak không làm error >2%, chi phí tăng <40% so với baseline.
+
+### Gợi ý triển khai Advanced Lab
+1. **Chia đội**: Mỗi lab phụ trách bởi 2 người (1 backend, 1 SRE) → pair review lẫn nhau.  
+2. **Timeline**: 2 tuần, mỗi lab 3-4 buổi. Buổi cuối demo cho toàn team.  
+3. **Success Criteria**: Có thể trình bày trong buổi postmortem hoặc brown bag talk, commit artifacts vào repo nội bộ.  
+4. **Retrospective**: Sau mỗi lab, ghi lại 3 bài học lớn & 1 đề xuất cải tiến quy trình DevOps hiện tại.

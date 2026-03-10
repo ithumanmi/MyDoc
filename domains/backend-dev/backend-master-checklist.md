@@ -34,7 +34,7 @@
 3. Sau khi hoàn thành 1 cấp độ, cập nhật CV/LinkedIn để phản ánh kỹ năng mới.
 
 ### Liên kết nhanh
-- 📘 Roadmap theo stack: [Node.js + TS](./nodejs-typescript-roadmap.md) · [C#/.NET](./csharp-dotnet-roadmap.md) · [Golang](./golang-roadmap.md) · [Rust](./rust-roadmap.md)
+- 📘 Roadmap theo stack: [Node.js + TS](./nodejs-typescript-roadmap.md) · [Python](./python-backend-roadmap.md) · [Java Spring](./java-spring-roadmap.md) · [C#/.NET](./csharp-dotnet-roadmap.md) · [Golang](./golang-roadmap.md) · [Rust](./rust-roadmap.md)
 - 🛡️ Bảo mật & testing: [backend-security.md](./backend-security.md) · [testing-guide.md](./testing-guide.md)
 - 🏗️ System Design: [system-design-guide.md](./system-design-guide.md) · thư mục [system-design/](./system-design/)
 - ♾️ DevOps/SRE: thư mục [devops-sre/](./devops-sre/) · [monitoring-observability.md](./monitoring-observability.md) · [devops lab pack](./devops-sre/devops-lab-pack.md)
