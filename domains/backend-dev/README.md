@@ -20,6 +20,19 @@
 
 ---
 
+## 🧭 Backend Operating Map
+| Mục tiêu | File/Thư mục | Nội dung chính |
+| --- | --- | --- |
+| **Bắt đầu & định hướng** | [README.md](./README.md) · [INDEX.md](./INDEX.md) | Toàn cảnh lĩnh vực, so sánh nghề, lộ trình 4 cấp độ |
+| **Roadmap ngôn ngữ** | [nodejs-typescript-roadmap.md](./nodejs-typescript-roadmap.md) · [csharp-dotnet-roadmap.md](./csharp-dotnet-roadmap.md) · [golang-roadmap.md](./golang-roadmap.md) · [rust-roadmap.md](./rust-roadmap.md) | Lộ trình 3 phase + dự án mẫu + checklist cho từng stack |
+| **Kiến trúc & System Design** | [system-design-guide.md](./system-design-guide.md) · thư mục [architecture/](./architecture/) · [system-design/](./system-design/) | Khái niệm cốt lõi, case study, template phỏng vấn |
+| **Bảo mật & Testing** | [backend-security.md](./backend-security.md) · [security/](./security/) · [testing-guide.md](./testing-guide.md) · [testing/](./testing/) | OWASP, secure coding, testing pyramid, chaos/load tests |
+| **Vận hành & DevOps/SRE** | [devops-sre/](./devops-sre/) · [monitoring-observability.md](./monitoring-observability.md) · [deployment-guide.md](./deployment-guide.md) | Docker/K8s, IaC, observability stack, incident playbook |
+| **Portfolio & Career** | [backend-master-checklist.md](./backend-master-checklist.md) · [templates/](./templates/) | Checklist nâng cấp năng lực, tài liệu audit, template CV/portfolio |
+
+> 📌 **Mẹo:** Bookmark bảng này + INDEX.md để dẫn đường nhanh tới đúng tài liệu khi cần upgrade kỹ năng hoặc chuẩn bị phỏng vấn.
+
+
 ## 📊 1. Reality Check: Backend Dev vs The World
 
 Backend Developer là "xương sống" của mọi ứng dụng hiện đại. Bạn không build giao diện đẹp mắt, nhưng bạn build hệ thống **chịu tải hàng triệu users**.
@@ -696,6 +709,21 @@ API_KEY=abc123
 | **Use case** | Startups, API-heavy, Real-time (Chat, Streaming) | Enterprise, Game Backend (Unity), Financial systems |
 
 **Kết luận:** Học cả 2 là lý tưởng. Bắt đầu với **Node.js** (Dễ), sau đó học **C#** (Performance).
+
+---
+
+## ✅ Backend Master Checklist (Tóm tắt)
+
+> Chi tiết checklist + bảng tự đánh giá mở rộng ở [backend-master-checklist.md](./backend-master-checklist.md). Dưới đây là bản rút gọn để bạn tự rà hàng tháng.
+
+| Cấp độ | Năng lực chính | Bạn đã xong chưa? |
+| --- | --- | --- |
+| **Level 1 – Foundations** | CRUD API chuẩn REST, SQL cơ bản, test/unit tối thiểu, deploy demo | [ ] |
+| **Level 2 – Professional API** | Auth (JWT/OAuth), logging + monitoring, CI/CD, DB indexing/migration | [ ] |
+| **Level 3 – Scalable Systems** | Microservices, messaging, caching, performance test, cloud deploy | [ ] |
+| **Level 4 – Senior Paths** | System design sâu, DevOps/SRE hoặc Platform specialization, incident leadership | [ ] |
+
+👉 Khi tick đủ 1 hàng, chuyển sang checklist chi tiết trong file riêng để xác nhận bằng minh chứng (repo, doc, metric).
 
 ---
 

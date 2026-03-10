@@ -6,6 +6,26 @@ Hướng dẫn toàn diện về System Design và Distributed Systems - Kỹ n�
 
 ---
 
+## TL;DR & Lộ trình đọc nhanh
+> Bạn có thể đọc toàn bộ guide (~20 phút) hoặc theo hành trình ngắn bên dưới.
+
+### TL;DR (Key takeaways)
+- ✅ Hiểu nền tảng: Scalability (Vertical vs Horizontal), Load Balancing, CAP, Replication/Sharding.
+- ✅ Thành thạo patterns: Caching, Message Queue, API Gateway, Circuit Breaker, CQRS/Event Sourcing.
+- ✅ Biết đọc tình huống thực tế: URL shortener, Twitter feed, Netflix streaming, Uber dispatch, WhatsApp chat.
+- ✅ Tập trung hiệu năng: Golden signals, profiling tools, autoscaling.
+- ✅ Chuẩn bị interview: framework 4 bước, capacity planning, template câu hỏi.
+
+### Lộ trình đọc gợi ý
+1. **Mới bắt đầu?** Đọc `#1 Fundamentals` + `#2 Core Patterns` (15 phút).
+2. **Chuẩn bị phỏng vấn?** Kết hợp `#4 Real-world Cases` + `#6 Interview Framework` + template ở `templates/system-design-interview-cheatsheet.md`.
+3. **Muốn build thực tế?** Nhảy thẳng tới `#7 Hands-on Projects`, sau đó quay lại `#3 Advanced Concepts` khi gặp vấn đề.
+4. **Cần recap nhanh?** Scroll đến cuối mỗi section để xem bullet key points, bookmark lại anchor để quay lại khi cần.
+
+> 💡 Tip: sử dụng TOC của editor hoặc tính năng collapse headings để đi theo từng mục thay vì đọc liền mạch.
+
+---
+
 ## 📋 Mục lục
 
 1. [Fundamentals](#1-fundamentals-nền-tảng)
