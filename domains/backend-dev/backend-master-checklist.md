@@ -37,7 +37,7 @@
 - 📘 Roadmap theo stack: [Node.js + TS](./nodejs-typescript-roadmap.md) · [C#/.NET](./csharp-dotnet-roadmap.md) · [Golang](./golang-roadmap.md) · [Rust](./rust-roadmap.md)
 - 🛡️ Bảo mật & testing: [backend-security.md](./backend-security.md) · [testing-guide.md](./testing-guide.md)
 - 🏗️ System Design: [system-design-guide.md](./system-design-guide.md) · thư mục [system-design/](./system-design/)
-- ♾️ DevOps/SRE: thư mục [devops-sre/](./devops-sre/) · [monitoring-observability.md](./monitoring-observability.md)
+- ♾️ DevOps/SRE: thư mục [devops-sre/](./devops-sre/) · [monitoring-observability.md](./monitoring-observability.md) · [devops lab pack](./devops-sre/devops-lab-pack.md)
 - 🧭 Lộ trình chung & operating map: [README.md](./README.md)
 
 > Cần thêm cấp độ hoặc muốn biến checklist này thành template tự đánh giá tự động? Mở issue hoặc tạo PR nhé!

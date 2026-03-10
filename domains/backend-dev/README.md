@@ -27,7 +27,7 @@
 | **Roadmap ngôn ngữ** | [nodejs-typescript-roadmap.md](./nodejs-typescript-roadmap.md) · [csharp-dotnet-roadmap.md](./csharp-dotnet-roadmap.md) · [golang-roadmap.md](./golang-roadmap.md) · [rust-roadmap.md](./rust-roadmap.md) | Lộ trình 3 phase + dự án mẫu + checklist cho từng stack |
 | **Kiến trúc & System Design** | [system-design-guide.md](./system-design-guide.md) · thư mục [architecture/](./architecture/) · [system-design/](./system-design/) | Khái niệm cốt lõi, case study, template phỏng vấn |
 | **Bảo mật & Testing** | [backend-security.md](./backend-security.md) · [security/](./security/) · [testing-guide.md](./testing-guide.md) · [testing/](./testing/) | OWASP, secure coding, testing pyramid, chaos/load tests |
-| **Vận hành & DevOps/SRE** | [devops-sre/](./devops-sre/) · [monitoring-observability.md](./monitoring-observability.md) · [deployment-guide.md](./deployment-guide.md) | Docker/K8s, IaC, observability stack, incident playbook |
+| **Vận hành & DevOps/SRE** | [devops-sre/](./devops-sre/) · [monitoring-observability.md](./monitoring-observability.md) · [deployment-guide.md](./deployment-guide.md) · [devops lab pack](./devops-sre/devops-lab-pack.md) | Docker/K8s, IaC, observability stack, incident playbook, thực hành 30 ngày |
 | **Portfolio & Career** | [backend-master-checklist.md](./backend-master-checklist.md) · [templates/](./templates/) | Checklist nâng cấp năng lực, tài liệu audit, template CV/portfolio |
 
 > 📌 **Mẹo:** Bookmark bảng này + INDEX.md để dẫn đường nhanh tới đúng tài liệu khi cần upgrade kỹ năng hoặc chuẩn bị phỏng vấn.
