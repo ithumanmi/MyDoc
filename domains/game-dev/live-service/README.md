@@ -11,7 +11,10 @@ updated: 2026-03-11
 
 # ⏳ Live Service / GaaS
 
-> Mục tiêu: vận hành season/battle pass, sự kiện lặp, và kinh tế bền vững mà không phá cân bằng.
+> **Goal:** Vận hành season/battle pass, sự kiện lặp và nền kinh tế bền vững mà không phá cân bằng hay gây burnout.
+> **Deliverables:** Season playbook (cadence, XP curve), event config spec (backend flags, reward tables), economy sink/source map, LiveOps runbook + telemetry dashboard.
+> **Success Criteria:** Completion rate battle pass >70% (free track), ARPDAU không giảm khi rollout sự kiện, không có lạm phát currency (>10% tuần), rollback/killswitch <15 phút.
+> **Focus Areas:** Season pacing (catch-up, pity), backend-driven event architecture, economy guardrail, LiveOps safeguards/telemetry.
 
 ## 1) Season & Battle Pass
 - Track XP/Stars; free vs premium track; pity/guarantee.

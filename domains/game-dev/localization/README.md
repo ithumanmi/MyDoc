@@ -10,7 +10,10 @@ updated: 2026-03-11
 
 # 🌐 Localization
 
-> Mục tiêu: hỗ trợ đa ngôn ngữ (text + VO), LTR/RTL, font fallback, và pipeline build tài nguyên.
+> **Goal:** Hỗ trợ đa ngôn ngữ (text + VO), LTR/RTL, font fallback và pipeline asset ổn định cho mobile/console/PC.
+> **Deliverables:** String table & font fallback matrix, VO production checklist, asset bundle per locale, pseudo-localization QA report.
+> **Success Criteria:** 0 string missing/hardcode, text expansion <40% vẫn không vỡ UI, VO sync lệch <100ms, hotfix locale <50MB.
+> **Focus Areas:** Font systems (SDF/fallback), RTL mirroring/lip-sync, VO pipeline, localization QA automation.
 
 ## 1) Text & Fonts
 - Font fallback chain; subset font để giảm dung lượng.

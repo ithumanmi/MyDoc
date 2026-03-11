@@ -21,6 +21,11 @@ updated: 2026-03-11
 | [puzzle-scope-calculator.md](./puzzle-scope-calculator.md) | Công thức tính số level cho D1/D7/D14 build | Lập kế hoạch content trước production |
 | [puzzle-hidden-systems.md](./puzzle-hidden-systems.md) | 10 hệ thống vô hình giữ puzzle game sống | Khi audit cảm xúc & retention |
 | [game-designer-knowledge.md](./game-designer-knowledge.md) | Kiến thức & lộ trình năng lực Game Designer | Khi chuẩn bị vào nghề hoặc nâng cấp skill |
+| [player-psychology.md](./player-psychology.md) | Flow state, SDT, loss aversion | Khi cần map feature → nhu cầu cảm xúc |
+| [metagame-design.md](./metagame-design.md) | Progression, collection, social layer | Thiết kế meta giữ retention + monetization |
+| [balancing-methodology.md](./balancing-methodology.md) | Excel modeling, Monte Carlo, KPI | Balancing combat/economy có số liệu |
+| [live-ops-design.md](./live-ops-design.md) | Event cadence, limited-time content, ethics | Vận hành Live Service/GaaS |
+| [genre-deep-dives/](./genre-deep-dives/README.md) | Phân tích roguelike, idle, puzzle... | Khi cần chuẩn hóa pillar theo genre |
 
 **Workflow gợi ý:** Core Loop → Economy → Narrative → Playtest/Telemetry.
 

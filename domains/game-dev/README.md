@@ -63,6 +63,17 @@ updated: 2026-03-11
 | [unity-deep-dive/](./unity-deep-dive/) | Clean code, editor tooling, optimization | Áp dụng cho dự án production |
 | [game-design/](./game-design/README.md) | Core loop, economy, narrative, playtest | Đồng bộ designer ↔ gameplay engineer |
 | [game-server-guide.md](./game-server-guide.md) & [senior-game-server-roadmap.md](./senior-game-server-roadmap.md) | Multiplayer architecture, career ladder | Path Multiplayer/Server Engineer |
+| [rollback-netcode.md](./rollback-netcode.md) | GGPO, input delay vs rollback, deterministic sim | Khi tối ưu fighting game latency |
+| [mmo-architecture.md](./mmo-architecture.md) | Sharding, zone server, world state replication | Thiết kế world persistent lớn |
+| [social-features.md](./social-features.md) | Friend/guild service, chat infra, moderation | Build social layer + retention |
+| [anti-cheat-advanced.md](./anti-cheat-advanced.md) | Kernel driver, behavioral detection, ban waves | Đối phó cheater ở quy mô lớn |
+| [ai-for-game-dev.md](./ai-for-game-dev.md) | AI-assisted content creation, NPC LLM, workflow | Bắt trend GenAI trong studio |
+| [user-generated-content.md](./user-generated-content.md) | UGC pipeline, modding SDK, monetization | Creator economy & live engagement |
+| [cloud-gaming.md](./cloud-gaming.md) | Streaming stack, latency budget, adaptive quality | Deploy game qua cloud streaming |
+| [cross-platform-play.md](./cross-platform-play.md) | Account linking, progression sync, parity | Unified experience across devices |
+| [blockchain-gaming.md](./blockchain-gaming.md) | NFT integration, hybrid on/off-chain | Web3/ownership-driven design |
+| [cheatsheets/](./cheatsheets/) | Quick reference cards (shortcuts, shader math, netcode, perf) | Ôn nhanh trước sprint/review |
+| [case-studies/](./case-studies/) | Hollow Knight combat, Celeste movement, Hades procedural, Among Us netcode, Genshin gacha | Study best-in-class execution |
 | [metrics/](./metrics/) | Unity impact metrics, genre cheat sheet | LiveOps, pitch dự án, marketing |
 | [challenges/](./challenges/README.md) | Coding exercises, ECS/netcode tasks | Luyện tay trước/phỏng vấn |
 | [pcg/](./pcg/) | Procedural generation playbooks | Build world ngẫu nhiên, roguelike |
@@ -264,6 +275,12 @@ Bạn không thể giỏi tất cả. Hãy chọn 1 con đường:
 Multiplayer Game không chỉ là game có nhiều người chơi, mà là một **Hệ phân tán (Distributed System)** phức tạp.
 
 > 📘 **Tài liệu chi tiết:** Xem file **[Game Server & Multiplayer Guide](./game-server-guide.md)** để đọc bản phân tích chuyên sâu về Architecture, Code Concepts và DevOps.
+
+**Advanced Multiplayer Reads:**
+- [Rollback Netcode](./rollback-netcode.md)
+- [MMO Architecture](./mmo-architecture.md)
+- [Social Feature Architecture](./social-features.md)
+- [Advanced Anti-Cheat](./anti-cheat-advanced.md)
 
 ### Tóm tắt nội dung chính:
 

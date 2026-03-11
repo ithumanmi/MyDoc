@@ -11,7 +11,10 @@ updated: 2026-03-11
 
 # 📱 Mobile Game Optimization
 
-> Mục tiêu: giữ FPS ổn định, không nóng máy, tiết kiệm pin, và input touch chính xác.
+> **Goal:** Giữ FPS ổn định, không nóng máy, tiết kiệm pin và touch input chính xác.
+> **Deliverables:** Battery/thermal profiling doc, adaptive quality ladder, touch UX guideline, perf telemetry dashboard.
+> **Success Criteria:** 60fps ổn định (±3ms), nhiệt độ <45°C sau 30 phút, battery drain <15%/30 phút trên mid-tier, không có phàn nàn về ghost touch/input lag.
+> **Focus Areas:** Battery & thermal budget, memory footprint, touch latency/tap patterns, QA telemetry.
 
 ## 1) Performance & Thermal
 - **Frame budget:** 16.6ms @60fps, 33ms @30fps; theo dõi frame time histogram.

@@ -11,7 +11,10 @@ updated: 2026-03-11
 
 # 🎮 Console Development
 
-> Mục tiêu: vượt qua certification (TRC/TCR/XR), tận dụng feature platform (achievement, cloud save), và đảm bảo hiệu năng console.
+> **Goal:** Vượt qua certification (TRC/TCR/XR), tận dụng feature platform (achievement, cloud save, presence), bảo đảm hiệu năng và UX console.
+> **Deliverables:** TRC readiness checklist, suspend/resume matrix, platform feature integration plan, perf/PSO report.
+> **Success Criteria:** 0 critical TRC fail, resume/recover trong <2s, 60fps hoặc 30fps lock ổn định với frame pacing tốt, full platform feature compliance (achievements/cloud save/presence/haptics).
+> **Focus Areas:** Certification edge case, platform SDK integration, memory/perf budgets cố định, TV/HDR/Accessibility UX.
 
 ## 1) Certification Readiness
 - Đọc checklist TRC/TCR/XR theo platform (PS/Xbox/Switch).
