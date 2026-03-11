@@ -32,6 +32,10 @@ updated: 2026-03-10
 | File | Level | Giàu nội dung gì? | Khi nào nên đọc |
 | --- | --- | --- | --- |
 | [high-performance.md](./high-performance.md) | L2-L3 | Series về concurrency, caching, pooling, profiling | Sau khi ship API ổn định và muốn tối ưu độ trễ |
+| [ai-infrastructure.md](./ai-infrastructure.md) | L3 | Vector DB, embedding pipeline, LLM serving, RAG | Khi tích hợp AI sâu vào sản phẩm |
+| [edge-computing.md](./edge-computing.md) | L3 | Cloudflare Workers, edge caching, geo routing | Khi tối ưu latency toàn cầu |
+| [platform-engineering.md](./platform-engineering.md) | L3 | Internal Developer Platform, golden paths, self-service infra | Khi cần scale đội dev và giảm toil |
+| [zero-trust-architecture.md](./zero-trust-architecture.md) | L3-L4 | mTLS, identity proxy, least privilege | Khi nâng cấp bảo mật hạ tầng |
 | [microservices-patterns.md](./microservices-patterns.md) | L3 | Decomposition, integration, data consistency, observability | Khi chuẩn bị tách monolith hoặc thiết kế multi-service |
 | [microservices-patterns-deep-dive.md](./microservices-patterns-deep-dive.md) | L3-L4 | Circuit breaker, saga, sidecar, BFF | Khi đã hiểu microservices cơ bản và cần xử lý giao dịch phức tạp |
 | [scaling-strategy.md](./scaling-strategy.md) | L2-L3 | Scale up vs scale out, cost trade-offs | Khi quyết định nâng cấu hình hay thêm node |
@@ -54,3 +58,13 @@ updated: 2026-03-10
 4. **Level up architecture DNA:** áp dụng `hexagonal-architecture.md`, `advanced-algorithms.md` cho solutions phức tạp.
 
 > 📌 Tip: Sau mỗi file, thực hiện tối thiểu 1 bài tập trong phần “Apply it” để biến kiến thức thành kỹ năng thực tế.
+
+## ⚠️ Common Mistakes
+1. **Over-engineering quá sớm:** Tách microservice trong khi monolith còn đáp ứng, dẫn tới chi phí vận hành đội hình lớn.
+2. **Bỏ qua network latency:** Một request gọi đồng bộ 10 service khiến P95/P99 tăng vọt, khó debug.
+3. **Không có fallback strategy:** Circuit breaker mở nhưng thiếu kế hoạch degrade (cache, queue, default response).
+
+## 🏢 Real-world Examples
+- **Netflix:** Circuit breaker + bulkhead với Hystrix/Resilience4j giúp dịch vụ stream ổn định khi dependency lỗi.
+- **Uber:** Saga orchestration điều phối quy trình ride booking (matching → billing → notification) để đảm bảo consistency.
+- **Shopify:** Duy trì modular monolith, hạn chế microservices để giảm chi phí vận hành và giữ tốc độ phát triển.

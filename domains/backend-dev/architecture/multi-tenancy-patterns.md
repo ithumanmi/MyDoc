@@ -20,26 +20,38 @@ updated: 2026-03-11
 | **Shared DB, Schema per Tenant** | Chung instance DB nhưng schema riêng | Cân bằng giữa isolation và cost |
 | **Database per Tenant** | Mỗi tenant DB riêng, có thể multi-VM | Tenant enterprise, yêu cầu compliance |
 
+### Routing & provisioning
+- **Tenant resolver:** từ domain/header/token → tenant context; lưu tại middleware.
+- **Routing DB/cache:** dựa trên tenant context, chọn pool/connection đúng.
+- **Provisioning workflow:** idempotent; tạo schema/DB + user + seed data + quota.
+- **On-call safety:** flag đóng tenant tạm thời nếu vượt quota hoặc bị xâm nhập.
+
 ## 2. Tenant Isolation Checklist
 - **Auth**: JWT chứa tenant context, middleware kiểm tra quyền.
 - **Row-level security**: enforce `tenant_id` ở DB layer.
 - **Rate limiting per tenant**: tránh tenant xấu ảnh hưởng toàn hệ thống.
 - **Resource quota**: CPU/memory/queue limit tùy mức gói dịch vụ.
+- **Secret isolation:** mỗi tenant có key riêng nếu cần mã hóa dữ liệu at-rest.
+- **Noise isolation:** cách ly queue/topic hoặc prefix theo tenant để giảm noisy neighbor.
 
 ## 3. Data lifecycle per tenant
 - **Provisioning**: automation tạo schema/DB/video bucket.
 - **Backup & Restore**: backup theo tenant, hỗ trợ export hợp đồng.
 - **Deletion (GDPR)**: xóa dữ liệu tenant, audit log.
+- **Migration/plan change**: nâng/downgrade gói, có bước migrate schema/quota an toàn.
 
 ## 4. Customization model
 - **Configurable feature flags**: enable/disable module theo tenant.
 - **Extension point**: webhooks, workflow engine cho khách hàng lớn.
 - **Branding**: custom domain, theme.
+- **Data overrides:** cho phép một số field override theo tenant (pricing rules) nhưng giới hạn phạm vi để tránh fork code.
 
 ## 5. Monitoring/Billing
 - Metrics theo tenant: request count, storage usage.
 - Cost allocation: gắn tag tenant vào resource cloud.
 - Billing pipeline: thu phí theo usage hoặc seat.
+- Alert per tenant: error rate, latency, quota breach.
+- Audit log: hành động quản trị và truy cập dữ liệu theo tenant.
 
 ## ✅ Apply it
 - [ ] Chọn mô hình storage phù hợp (shared schema vs schema per tenant) dựa trên số tenant & compliance.

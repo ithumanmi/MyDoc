@@ -35,16 +35,22 @@ updated: 2026-03-11
 - **Consistent hashing** giúp thêm shard không phải move tất cả data.
 - **Dual write / cutover**: sync data sang shard mới trước khi chuyển traffic.
 - **Automation**: tooling (Vitess, Citus, Cockroach) hỗ trợ reshard.
+- **Online migration:** dùng change data capture (CDC) để đồng bộ trong khi migrate; validate bằng checksum per chunk.
+- **Hot shard relief:** tạm thời thêm **captive shard** cho tenant/user lớn, hoặc dùng **hierarchical sharding**.
 
 ## 4. Indexing & routing
 - Application cần `ShardResolver` để xác định shard trước khi query.
 - Kết hợp cache layer (Redis cluster) để giảm cross-shard query.
 - Query fan-out + merge: cẩn trọng latency.
+- **Global secondary index:** nếu cần tra cứu theo khóa khác, cân nhắc index toàn cục hoặc duplicate dữ liệu; lưu ý chi phí fan-out.
+- **Multi-region routing:** geo shard kết hợp latency-based routing; read local, write theo master hoặc per-region leader.
 
 ## 5. Observability
 - Metric per shard: storage size, QPS, latency.
 - Alert khi shard đầy hoặc lệch traffic.
 - Log routing decision để debug.
+- **Heatmap keys:** log top key/hash range gây hotspot.
+- **SLO per shard:** error/latency budget riêng cho shard quan trọng.
 
 ## ✅ Apply it
 - [ ] Đánh giá dữ liệu hiện tại: size mỗi bảng, tốc độ tăng trưởng, xác định ngưỡng shard.

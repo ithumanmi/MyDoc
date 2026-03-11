@@ -12,6 +12,7 @@ updated: 2026-03-11
 | File | Nội dung | Khi nào dùng |
 | --- | --- | --- |
 | [procedural-generation.md](./procedural-generation.md) | Noise, WFC, tilemap pipeline | Roguelike, endless runner, world builder |
+| [pcg-algorithms.md](./pcg-algorithms.md) | BSP, drunkard walk, Poisson Disk, Marching, mission graph | Thêm thuật toán cụ thể cho dungeon, spawn, terrain |
 
 **Notes:**
 - Bắt đầu từ noise 2D → tilemap → rule-based.

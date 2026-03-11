@@ -14,8 +14,8 @@ updated: 2026-03-11
 
 ## 1. Strategic Design
 - **Ubiquitous Language:** từ điển chung giữa dev/product. Tạo wiki cho terms (Order, Invoice, Shipment).
-- **Bounded Context:** phạm vi logic có schema & API riêng. Tránh domain model “God object”.
-- **Context Map:** mô tả quan hệ giữa context: Partnership, Customer-Supplier, Anti-corruption Layer.
+- **Bounded Context:** phạm vi logic có schema & API riêng. Tránh domain model “God object”. Luôn kèm **owner team** và **deployment boundary**.
+- **Context Map:** mô tả quan hệ giữa context: Partnership, Customer-Supplier, Anti-corruption Layer, Open Host Service, Published Language.
 - **Event Storming:** workshop dán note event/command để tìm aggregate và flow nhanh chóng.
 
 ### Context Map ví dụ
@@ -24,6 +24,9 @@ updated: 2026-03-11
        ^                                |
        | Partnership                     | Conformist
        +---------------------------------+
+
+[Catalog] --Published Language--> [Search]
+[Legacy ERP] --ACL--> [Billing]
 ```
 
 ## 2. Tactical Patterns
@@ -45,6 +48,12 @@ class Order extends AggregateRoot {
   }
 }
 ```
+
+### Aggregate design checklist
+- [ ] Mọi bất biến (invariant) nằm trong aggregate root; không phụ thuộc transaction bên ngoài.
+- [ ] Aggregate đủ nhỏ để load + validate trong 1 request; tránh “mega aggregate”.
+- [ ] Mọi command đi qua method của aggregate; không bypass bằng repository trực tiếp.
+- [ ] Event phát ra từ aggregate có đầy đủ metadata (tenant, correlation).
 
 ## 3. Anti-Corruption Layer (ACL)
 - Khi context A gọi B nhưng không muốn “đảo lộn” domain A.

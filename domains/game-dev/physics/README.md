@@ -12,6 +12,7 @@ updated: 2026-03-11
 | File | Nội dung | Khi nào dùng |
 | --- | --- | --- |
 | [simple-physics-engine.md](./simple-physics-engine.md) | Dùng lượng giác viết physics engine 3D mini | Khi cần hiểu sâu collision/constraint hoặc làm tool riêng |
+| [unity-physics-deep-dive.md](./unity-physics-deep-dive.md) | Rigidbody/Collider, layer matrix, CCD, tối ưu PhysX | Khi tối ưu gameplay va chạm, tránh xuyên vật, tối ưu CPU |
 
 **Checklist áp dụng:**
 - [ ] Benchmark delta time và precision trước khi thay physics mặc định.

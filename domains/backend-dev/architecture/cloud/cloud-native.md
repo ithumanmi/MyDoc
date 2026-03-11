@@ -85,12 +85,13 @@ If you implement this in code (e.g., in Java), you have to re-implement it for N
 ---
 
 ## ✅ Apply it
-- [ ] Kiểm tra lại dịch vụ của bạn có tuân thủ đủ 12-Factor App chưa, ghi chú module nào cần refactor.
-- [ ] Thử triển khai 1 flow serverless đơn giản (upload file -> Lambda resize -> S3) để hiểu mô hình event-driven.
-- [ ] Cấu hình service mesh (Istio/Linkerd) ở môi trường staging và đo metric latency/error trước-sau.
-- [ ] Với workload đang chạy Kubernetes, liệt kê các pod có thể áp dụng sidecar/ambassador/adaptor để tăng observability.
+1. **12-Factor Audit:** Tạo checklist 12 factor, đánh dấu module chưa compliant, lập kế hoạch refactor.
+2. **Serverless Migration:** Chọn 1 background job (email, resize image) chuyển sang Lambda/Cloud Functions và đo chi phí/latency.
+3. **Service Mesh Lab:** Deploy Istio/Linkerd với mTLS bật, so sánh latency trước-sau và log lại impact.
+4. **K8s Pattern Review:** Liệt kê pod nào cần sidecar/ambassador/adapter để cải thiện observability.
 
 ## 🔗 Cross-reference
-- [Deployment Guide](../deployment-guide.md) – CI/CD và chiến lược release cho cloud workloads.
-- [Monitoring & Observability](../monitoring-observability.md) – Thiết lập golden signals khi dùng service mesh/serverless.
-- [System Design Universe](../system-design/system-design-universe.md) – Liên kết 7 layer với kiến trúc cloud native.
+- [microservices-patterns-deep-dive.md](./microservices-patterns-deep-dive.md): Chi tiết sidecar pattern & resilience.
+- [devops-sre/kubernetes-patterns.md](../devops-sre/kubernetes-patterns.md): Chiến lược deployment, HPA, autoscaling.
+- [distributed-systems.md](./distributed-systems.md): Consensus/leader election cho control plane (etcd/Istio).
+- [Monitoring & Observability](../monitoring-observability.md): Golden signals khi triển khai mesh/serverless.

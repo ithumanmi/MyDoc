@@ -12,6 +12,7 @@ updated: 2026-03-11
 | File | Nội dung | Khi nào dùng |
 | --- | --- | --- |
 | [inverse-kinematics.md](./inverse-kinematics.md) | IK cơ bản → advanced, target foot/hand placement | Game third-person, combat, climbing |
+| [state-machine-blend-tree.md](./state-machine-blend-tree.md) | State machine, blend tree, root motion, turn-in-place | Giảm jitter/popping, tăng responsiveness, kiểm soát chân bám đất |
 
 **Quickstart:**
 1. Áp dụng IK chân để tránh trượt trên địa hình nghiêng.
