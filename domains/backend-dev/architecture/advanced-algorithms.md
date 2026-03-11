@@ -86,3 +86,17 @@ Not for security, but for speed and distribution.
 *   **Goal:** Speed + Uniform distribution (Not cryptographic security).
 *   **Performance:** 10x-100x faster than SHA-256/MD5.
 *   **Use Case:** Hash Maps, Bloom Filters, Load Balancing, Sharding Keys.
+
+---
+
+## ✅ Apply it
+- [ ] Tích hợp Bloom Filter hoặc Cuckoo Filter trước database query để giảm IO, đo tỷ lệ false positive.
+- [ ] Dùng HyperLogLog (Redis `PFADD`) để tính DAU/MAU và so sánh với số liệu từ warehouse.
+- [ ] Viết thử Count-Min Sketch trong service ghi log để suy đoán top URL truy cập mà không cần full aggregation.
+- [ ] Benchmark token bucket vs leaky bucket trong API Gateway với cùng traffic pattern.
+- [ ] Tạo PoC consistent hashing bằng 3 node Redis cache, đo thời gian rebalance khi thêm node thứ 4.
+
+## 🔗 Cross-reference
+- [Scaling Strategy](./scaling-strategy.md) – chiến thuật tổng thể khi cần cache/sharding.
+- [Monitoring & Observability](../monitoring-observability.md) – theo dõi tỉ lệ lỗi của probabilistic structure.
+- [System Design Universe](../system-design/system-design-universe.md) – layer Performance & Storage.

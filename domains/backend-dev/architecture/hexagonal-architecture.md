@@ -141,3 +141,10 @@ export class UserService {
     *   Code sẽ quá cồng kềnh (Over-engineering).
 
 > **Lời khuyên:** "Hiểu tất cả, nhưng chỉ dùng những gì bạn cần."
+
+---
+
+## 🔗 Cross-reference
+- [Architecture README](./README.md) – tổng quan các mô-đun và khi nào chọn Hexagonal.
+- [Microservices Patterns Deep Dive](./microservices-patterns-deep-dive.md) – kết hợp Ports & Adapters với saga/circuit breaker.
+- [Backend System Design Playbook](../system-design/README.md) – đặt Hexagonal trong bức tranh system design tổng thể.

@@ -74,3 +74,16 @@ Decoupling services using asynchronous messages.
 *   **CQRS (Command Query Responsibility Segregation):** Separate Read and Write models.
     *   Writes go to normalized DB (Postgres).
     *   Events update specialized Read DB (Elasticsearch/Redis).
+
+---
+
+## ✅ Apply it
+- [ ] Xác định rõ hệ thống của bạn ưu tiên CP hay AP khi xảy ra partition, cập nhật vào runbook.
+- [ ] Thiết lập test consistency: viết script mô phỏng write/read để quan sát eventual consistency latency.
+- [ ] Chạy PoC Saga cho một quy trình nhiều bước (đặt hàng → thanh toán → giao nhận) với cả choreography và orchestration để so sánh.
+- [ ] Lập dashboard theo dõi throughput và lag của event bus (Kafka/SQS) trong môi trường staging.
+
+## 🔗 Cross-reference
+- [System Design Glossary](../system-design/system-design-glossary.md) – tra cứu nhanh thuật ngữ CAP, quorum, consensus.
+- [Realtime Flash Sale Inventory](../system-design/realtime-flash-sale-inventory.md) – ví dụ áp dụng AP + eventual consistency trong flash sale.
+- [Monitoring & Observability](../monitoring-observability.md) – đo lường queue lag, latency để bảo vệ distributed system.
