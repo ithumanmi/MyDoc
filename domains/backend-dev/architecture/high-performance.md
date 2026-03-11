@@ -1,11 +1,11 @@
-# ⚡ High Performance Architecture
+# ⚡ High Performance Architecture _(Level 2-3)_
 
-> [← Back to Backend Development](../README.md)
+> [← Back to Backend Development](../README.md) · [Architecture Hub](./README.md)
 
-This module covers the core architectural patterns for building high-performance, scalable backend systems.
+Module này bao quát các pattern nền tảng để tăng throughput, giảm latency và chuẩn hoá SLO cho backend.
 
 ## 1. Concurrency Models
-How to handle multiple tasks simultaneously.
+> 🎯 **Khi cần:** xử lý nhiều request đồng thời mà không block server.
 
 ### **Thread-based Concurrency (Multithreading)**
 *   **Concept:** Each request spawns a new thread (or uses a thread pool).
@@ -26,7 +26,7 @@ How to handle multiple tasks simultaneously.
 ---
 
 ## 2. Caching Strategies
-Caching is the easiest way to improve read performance.
+> 🎯 **Khi cần:** giảm tải DB, cải thiện tốc độ đọc.
 
 ### **Where to Cache?**
 1.  **Browser/Client:** HTTP Headers (`Cache-Control`, `ETag`).
@@ -36,7 +36,7 @@ Caching is the easiest way to improve read performance.
 5.  **Database Cache:** DB Buffer Pool.
 
 ### **Caching Patterns**
-*   **Cache Aside (Lazy Loading):** App checks cache -> Miss -> App queries DB -> App writes to cache.
+**Cache Aside (Lazy Loading):** App checks cache -> Miss -> App queries DB -> App writes to cache.
     *   *Pros:* Only requested data is cached.
     *   *Cons:* First request is slow (cold start). Stale data potential.
 *   **Write-Through:** App writes to Cache and DB simultaneously.
@@ -49,7 +49,7 @@ Caching is the easiest way to improve read performance.
 ---
 
 ## 3. Load Balancing Algorithms
-Distributing traffic across multiple servers to ensure reliability and performance.
+> 🎯 **Khi cần:** phân phối tải, tăng tính sẵn sàng.
 
 ### **Layer 4 vs Layer 7**
 *   **Layer 4 (Transport):** Based on IP/Port. Fast, dumb (doesn't see content).
@@ -68,6 +68,7 @@ Distributing traffic across multiple servers to ensure reliability and performan
 ---
 
 ## 4. Scalability Patterns
+> 🎯 **Khi cần:** quyết định scale up/down hoặc scale out.
 
 ### **Vertical Scaling (Scale Up)**
 *   Add more RAM/CPU to a single server.
@@ -76,3 +77,26 @@ Distributing traffic across multiple servers to ensure reliability and performan
 ### **Horizontal Scaling (Scale Out)**
 *   Add more servers.
 *   *Requirement:* Stateless application (session stored in Redis/DB, not local memory).
+
+```mermaid
+flowchart LR
+    Client --> LB[Load Balancer]
+    LB --> API1[API Instance 1]
+    LB --> API2[API Instance 2]
+    API1 --> Redis[(Session Cache)]
+    API2 --> Redis
+    API1 --> DB[(Primary DB)]
+    API2 --> DB
+```
+
+---
+
+## 🛠️ Apply it
+1. **Latency Budget:** Đo P95 response time → đặt mục tiêu < 150ms, chọn pattern cần áp dụng (cache, concurrency).
+2. **Cache Drill:** Thêm Redis cache-aside cho endpoint ngốn DB nhiều nhất, đo chênh lệch CPU/latency trước-sau.
+3. **LB Simulation:** Cấu hình Nginx với least_conn và IP hash, log kết quả phân phối để chọn thuật toán phù hợp.
+
+## 🔗 Cross-reference
+- [scaling-strategy.md](./scaling-strategy.md): Chi phí & quyết định scale.
+- [monitoring-observability.md](../monitoring-observability.md): Thiết lập metric, alert cho SLO.
+- [devops-sre/devops-lab-pack.md](../devops-sre/devops-lab-pack.md): Lab load testing & autoscaling.

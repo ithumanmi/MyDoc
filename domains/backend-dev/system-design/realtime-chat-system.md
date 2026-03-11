@@ -1,5 +1,15 @@
 # 💬 Real-time Chat System Design: Facebook Messenger / WhatsApp
 
+---
+title: "Real-time Chat System"
+description: "Thiết kế chat app chịu tải cao với WebSocket, Redis Pub/Sub, Cassandra."
+tags:
+  - backend
+  - realtime
+  - system-design
+updated: 2026-03-11
+---
+
 > [← Back to Backend Roadmap](../README.md)
 
 Thiết kế một ứng dụng Chat là bài toán kinh điển để kiểm tra kiến thức về **Stateful Architecture**.
@@ -116,3 +126,11 @@ Hãy thử dùng **Node.js (Socket.io) + Redis** để viết một ứng dụng
 2.  Dùng **Redis Adapter** của Socket.io.
 3.  Mở 2 tab trình duyệt: Tab 1 kết nối cổng 3001, Tab 2 kết nối cổng 3002.
 4.  Chat thử xem 2 tab có nhận được tin nhắn không? (Nếu dùng Redis đúng, nó sẽ hoạt động!).
+
+## ✅ Checklist Audit
+- [ ] Mỗi WebSocket server publish/subscribe chuẩn trên Redis channel.
+- [ ] Luồng ghi lịch sử chat tách khỏi path realtime (queue → worker → DB).
+- [ ] Presence service có timeout rõ ràng và metric cảnh báo khi heartbeat rớt.
+- [ ] Media đi qua object storage, chỉ gửi URL qua WebSocket để giảm băng thông.
+- [ ] Benchmark p95/p99 send-receive latency và log khi vượt ngưỡng.
+- [ ] Script chaos gây rớt 1 Redis node để kiểm chứng failover.

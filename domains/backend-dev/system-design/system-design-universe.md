@@ -1,5 +1,15 @@
 # 🌌 The System Design Universe: Bản Đồ Toàn Cảnh
 
+---
+title: "System Design Universe"
+description: "Bản đồ layer từ scalability đến observability cho backend architect."
+tags:
+  - backend
+  - system-design
+  - roadmap
+updated: 2026-03-11
+---
+
 > [← Back to Backend Roadmap](../README.md)
 
 Chào mừng bạn đến với "Vũ Trụ System Design". Đây là bản đồ khái niệm giúp bạn định vị mình đang ở đâu và cần học gì tiếp theo để trở thành một Architect thực thụ.
@@ -115,3 +125,10 @@ Kiến thức được chia thành các lớp (Layers) từ lõi ra ngoài.
 ---
 
 > **Lời khuyên:** Đừng cố học hết cùng lúc. Hãy bắt đầu từ **Layer 1 & 2** (Core), sau đó mở rộng ra các lớp ngoài khi hệ thống của bạn lớn lên.
+
+## ✅ Apply it!
+- [ ] Chọn 1 dự án cá nhân hoặc hệ thống hiện tại → map vào 7 layer, đánh dấu layer yếu nhất.
+- [ ] Viết sơ đồ kiến trúc high-level (diagram) và highlight những pattern đang dùng (cache, load balancer, CQRS…).
+- [ ] Đặt mục tiêu 2 tuần học cho layer yếu nhất (ví dụ Distributed Systems) và log lại tài liệu/POC đã thực hiện.
+- [ ] Tạo bảng Glossary cá nhân: mỗi thuật ngữ phải có ví dụ thực tế trong dự án.
+- [ ] Cài dashboard observability (Grafana, ELK) cho ít nhất 1 service quan trọng.

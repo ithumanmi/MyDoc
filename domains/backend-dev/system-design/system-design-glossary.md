@@ -1,5 +1,15 @@
 # 📖 20 Khái Niệm System Design "Must-Know" 🚀
 
+---
+title: "System Design Glossary"
+description: "20 thuật ngữ nền tảng giúp developer tự tin bước vào phỏng vấn system design."
+tags:
+  - backend
+  - system-design
+  - glossary
+updated: 2026-03-11
+---
+
 > [← Back to Backend Roadmap](../README.md)
 
 Đây là tấm vé thông hành cho Developer muốn lên Senior.
@@ -125,3 +135,9 @@ Nắm vững 20 khái niệm này, bạn sẽ:
 *   ✅ Tự tin "chém gió" khi phỏng vấn System Design.
 *   ✅ Hiểu bản chất các hệ thống lớn (Facebook, Uber, Netflix).
 *   ✅ Có tư duy của một Senior Architect.
+
+## ✅ Apply it
+- [ ] Chọn 5 thuật ngữ ít quen thuộc, viết lại định nghĩa + ví dụ thực tế của sản phẩm bạn đang làm.
+- [ ] Tạo flashcard (Anki/Notion) cho toàn bộ 20 concepts và luyện trong 3 ngày liên tục.
+- [ ] Mô tả 1 hệ thống bạn từng xây, highlight rõ những thuật ngữ nào đã áp dụng (caching, sharding, rate limit...).
+- [ ] Dùng danh sách này làm checklist trước mỗi vòng phỏng vấn system design để không bỏ sót ý.

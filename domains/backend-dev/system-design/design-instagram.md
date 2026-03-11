@@ -1,5 +1,15 @@
 # 🏗️ System Design: Design Instagram (Deep Dive)
 
+---
+title: "Design Instagram"
+description: "Case study feed-based social network với hybrid fan-out, S3, Redis."
+tags:
+  - backend
+  - system-design
+  - case-study
+updated: 2026-03-11
+---
+
 > [← Back to Backend Roadmap](../README.md)
 
 Thiết kế một hệ thống chia sẻ ảnh như Instagram là một câu hỏi kinh điển trong phỏng vấn System Design.
@@ -113,3 +123,11 @@ Làm sao để user A thấy ảnh của B, C, D (những người A follow) the
 1.  Tách biệt lưu trữ ảnh (S3 + CDN) và metadata (SQL).
 2.  Xử lý bài toán Feed bằng mô hình **Hybrid (Push + Pull)**.
 3.  Sử dụng **Caching (Redis)** ở mọi nơi có thể.
+
+## ✅ Apply it
+- [ ] Ước tính traffic hiện tại của sản phẩm bạn làm và lấp vào bảng Capacity Estimation trong bài.
+- [ ] Vẽ lại sơ đồ feed pipeline của team, đánh dấu đang dùng push, pull hay hybrid.
+- [ ] Viết kế hoạch migration nếu muốn chuyển upload ảnh sang presigned URL.
+- [ ] Chuẩn bị 3 câu hỏi follow-up để luyện phỏng vấn (ví dụ: "Làm sao handle celebrity fan-out?").
+- [ ] Benchmark Redis feed read/write latency và note lúc cache miss.
+- [ ] Viết playbook xử lý khi một shard feed bị chậm (fallback sang SQL, invalidate cache).

@@ -1,5 +1,15 @@
 # 🏗️ System Design Case Studies
 
+---
+title: "System Design Case Studies"
+description: "Bộ đề bài thực tế: URL shortener, chat, rate limiter, streaming platform..."
+tags:
+  - backend
+  - system-design
+  - case-study
+updated: 2026-03-11
+---
+
 > [← Back to Backend Development](../README.md)
 
 Real-world architectural problems and their solutions.
@@ -61,7 +71,7 @@ Real-world architectural problems and their solutions.
 
 ---
 
-## 5. Design Netflix (Video Streaming)
+## 4. Design Netflix (Video Streaming)
 
 ### **Requirements**
 *   **Functional:** Browse movies, Play video, Save progress, Recommendations.
@@ -84,7 +94,7 @@ Real-world architectural problems and their solutions.
 
 ---
 
-## 6. Design Uber (Ride Sharing)
+## 5. Design Uber (Ride Sharing)
 
 ### **Requirements**
 *   **Functional:** Request ride, Match driver, Track location, Calculate ETA.
@@ -104,7 +114,14 @@ Real-world architectural problems and their solutions.
 
 ---
 
-## 7. Design Twitter/Facebook News Feed
+## 6. Design Twitter/Facebook News Feed
+
+## ✅ Apply it
+- [ ] Chọn một case study, vẽ lại kiến trúc với công nghệ bạn đang dùng tại công ty.
+- [ ] Ước tính sơ bộ traffic/storage của sản phẩm bạn đang làm, so sánh với các con số trong bài.
+- [ ] Dùng từng case study làm bài luyện tập phỏng vấn: 5 phút hỏi yêu cầu, 15 phút vẽ sơ đồ, 10 phút deep dive.
+- [ ] Submit kết quả (diagram + notes) vào repo nội bộ/Notion để mentor review.
+- [ ] Bổ sung metric checklist: QPS, p99 latency, storage growth để đảm bảo bài toán thực tế.
 
 ### **Requirements**
 *   **Functional:** Post tweet, Follow user, View timeline.

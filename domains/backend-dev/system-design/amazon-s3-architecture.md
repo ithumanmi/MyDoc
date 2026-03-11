@@ -1,5 +1,15 @@
 # ☁️ How Amazon S3 Works: Deep Dive Architecture
 
+---
+title: "Amazon S3 Architecture"
+description: "Phân tích cách S3 đạt 11 số 9 độ bền: metadata/data separation, erasure coding, LSM tree."
+tags:
+  - backend
+  - storage
+  - system-design
+updated: 2026-03-11
+---
+
 > [← Back to Backend Roadmap](../README.md)
 
 Bạn dùng S3 hàng ngày để lưu ảnh, video, log files. Nhưng bạn có bao giờ tự hỏi: *"Làm sao S3 có thể lưu trữ hàng nghìn tỷ object với độ bền 99.999999999% (11 số 9)?"*
@@ -71,3 +81,16 @@ S3 là một kiệt tác của System Design:
 1.  Dùng phần cứng rẻ tiền (HDD) nhưng đạt hiệu năng cao nhờ phần mềm thông minh (**LSM Tree, Parallelism**).
 2.  Đạt độ bền vô đối nhờ toán học (**Erasure Coding**) thay vì chỉ copy thô thiển.
 3.  Scale vô hạn nhờ tách biệt **Metadata** và **Data**.
+
+## ✅ Apply it
+- [ ] Đánh giá hệ thống lưu trữ nội bộ: phần nào nên tách metadata/data?
+- [ ] So sánh chi phí replication 3x vs erasure coding cho workload của bạn.
+- [ ] Thiết kế chỉ số quan trắc (durability, throughput) nếu phải vận hành object store nội bộ.
+- [ ] Chuẩn bị 3 câu hỏi phỏng vấn lấy cảm hứng từ kiến trúc S3 (ví dụ: “Vì sao S3 không chỉnh sửa partial object?”).
+- [ ] Tính toán recovery time khi mất 1 AZ và viết runbook khôi phục.
+- [ ] Đo throughput song song khi tải file lớn và note bottleneck (network vs disk).
+
+## 🔎 Self-Check Questions
+- Nếu 1 AZ mất toàn bộ, làm sao S3 vẫn thỏa SLAs?
+- Khi object được ghi đè, metadata và data update theo thứ tự nào để tránh race?
+- Vì sao S3 ưu tiên HDD + LSM thay vì SSD + B-Tree?

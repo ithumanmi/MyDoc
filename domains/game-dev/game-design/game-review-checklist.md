@@ -12,6 +12,13 @@ updated: 2026-03-11
 
 > Cùng Keewano bóc tách checklist 9 hạng mục để review build trước khi trình stakeholder hoặc soft-launch. Chấm 0-5 điểm cho từng mục, tổng tối đa 45.
 
+## Cách dùng checklist
+1. **Chọn build & phạm vi**: rõ ràng version, platform, feature lock.
+2. **Playtest 2 vòng**: lần 1 ghi chú tự do, lần 2 chấm điểm từng bullet.
+3. **Log chứng cứ**: clip, screenshot, dữ liệu KPI cho mỗi nhận định.
+4. **Tổng hợp điểm + insight**: bảng tổng hợp 9 hạng mục (Google Sheet / Notion).
+5. **Hành động**: highlight 3 mục điểm thấp nhất, gán owner + due date.
+
 ## 1. 🎮 General Game Feel
 - **Fun thực sự?** Cảm giác giải trí, catharsis, dopamine có xuất hiện tự nhiên?
 - **Ấn tượng phiên chơi đầu?** Phiên đầu tiên có khiến bạn muốn nhấn “Play again” ngay?

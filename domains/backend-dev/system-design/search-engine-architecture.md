@@ -1,5 +1,15 @@
 # 🔎 Search Engine Architecture for Developers
 
+---
+title: "Search Engine Architecture"
+description: "Pipeline crawl → index → vector retrieval dành cho đội backend xây vertical search."
+tags:
+  - backend
+  - search
+  - system-design
+updated: 2026-03-11
+---
+
 > [← Back to System Design](../README.md) | [Backend Roadmap](../README.md#-3-detailed-roadmap) | [Home](../../../README.md)
 >
 > **Difficulty:** 🟡 Intermediate → 🔴 Advanced (Systems + IR)
@@ -289,3 +299,11 @@ Tổng: 100 điểm. ≥80 điểm coi như đạt chuẩn Senior System Design 
 ---
 
 > **Last Updated:** March 2026
+
+## ✅ Apply it
+- [ ] Dựng MVP crawl + search nội bộ (Scrapy + Meilisearch) trong 1 tuần.
+- [ ] Tính toán dung lượng index và số shard cần thiết cho dataset của bạn.
+- [ ] Thiết kế dashboard quan sát (QPS, latency, CTR) và alert khi CTR giảm.
+- [ ] Viết playbook rollback khi model ranking mới tụt chất lượng.
+- [ ] Đặt SLA p95 latency và chạy load test 5k QPS để đo gap.
+- [ ] Lập bảng chi phí build vs buy (Elastic Cloud, Algolia) với số liệu hàng tháng.

@@ -1,10 +1,11 @@
-# 🧩 Microservices Design Patterns
+# 🧩 Microservices Design Patterns _(Level 3: Scalable Systems)_
 
-> [← Back to Backend Development](../README.md)
+> [← Back to Backend Development](../README.md) · [Architecture Hub](./README.md)
 
-Building distributed systems is hard. These patterns help you manage complexity, ensure reliability, and maintain consistency.
+Building distributed systems is hard. Những pattern dưới đây giúp bạn quản lý độ phức tạp, đảm bảo reliability và giữ consistency khi tách monolith.
 
 ## 1. Decomposition Patterns
+> 🎯 **Khi cần:** chuẩn bị tách monolith sang microservices.
 How to break a monolith into services.
 
 ### **Decompose by Business Capability**
@@ -26,6 +27,7 @@ How to break a monolith into services.
 ---
 
 ## 2. Integration Patterns
+> 🎯 **Khi cần:** tổ chức traffic flow giữa services và client.
 How services talk to each other.
 
 ### **API Gateway**
@@ -46,6 +48,7 @@ How services talk to each other.
 ---
 
 ## 3. Data Management Patterns
+> 🎯 **Khi cần:** giữ dữ liệu nhất quán trong hệ thống phân tán.
 The hardest part of microservices: Data consistency.
 
 ### **Database per Service**
@@ -54,12 +57,31 @@ The hardest part of microservices: Data consistency.
 *   **Cons:** Cross-service queries and transactions are hard.
 
 ### **Saga Pattern (Distributed Transactions)**
+```mermaid
+sequenceDiagram
+    participant Order
+    participant Inventory
+    participant Payment
+    Order->>Inventory: ReserveStock()
+    Inventory-->>Order: reserved
+    Order->>Payment: Charge()
+    Payment-->>Order: failed
+    Order->>Inventory: Compensate()
+```
 *   **Problem:** ACID transactions don't work across services.
 *   **Solution:** A sequence of local transactions. If one fails, execute **Compensating Transactions** to undo previous steps.
     *   **Choreography:** Services emit events. "Order Created" -> Inventory Service listens -> "Inventory Reserved". (Good for simple flows).
     *   **Orchestration:** A central coordinator (Orchestrator) tells services what to do. (Good for complex flows).
 
 ### **CQRS (Command Query Responsibility Segregation)**
+```mermaid
+flowchart LR
+    UI -->|Command| API
+    API -->|Write| CommandDB[(Write Store)]
+    CommandDB -- Events --> Projection
+    Projection -->|Update| QueryDB[(Read Store)]
+    QueryDB -->|Query| UI
+```
 *   **Strategy:** Split the application into two parts:
     *   **Command (Write):** Handles updates (INSERT/UPDATE). Optimized for consistency.
     *   **Query (Read):** Handles reads. Optimized for speed (can use denormalized views/Elasticsearch).
@@ -68,6 +90,7 @@ The hardest part of microservices: Data consistency.
 ---
 
 ## 4. Resiliency Patterns
+> 🎯 **Khi cần:** ngăn cascade failure, ổn định hệ thống.
 Preventing cascading failures.
 
 ### **Circuit Breaker**
@@ -89,6 +112,7 @@ Preventing cascading failures.
 ---
 
 ## 5. Observability Patterns
+> 🎯 **Khi cần:** debug flow request qua nhiều service.
 "Where did my request go?"
 
 ### **Log Aggregation**
@@ -103,3 +127,15 @@ Preventing cascading failures.
 *   **Endpoint:** `GET /health`.
 *   **Response:** `200 OK` (I'm alive) or `503 Service Unavailable`.
 *   **Use:** Load Balancer/Kubernetes checks this to kill/restart unhealthy instances.
+
+---
+
+## 🛠️ Apply it
+1. **Monolith Audit:** Vẽ lại các context hiện tại, phân loại Core/Supporting/Generic domain → đề xuất sơ đồ Strangler Fig trong 1 trang.
+2. **Gateway Sprint:** Prototype API Gateway + 1 BFF (Web) sử dụng Kong/Nginx. Mục tiêu: gom 3 API hiện tại thành 1 endpoint aggregate.
+3. **Saga POC:** Viết demo 3 service (Order, Inventory, Payment) với event choreography. Track trace ID qua từng event để chuẩn bị cho observability.
+
+## 🔗 Cross-reference
+- [microservices-patterns-deep-dive.md](./microservices-patterns-deep-dive.md): Circuit breaker/Saga code-level.
+- [distributed-systems.md](./distributed-systems.md): CAP, consistency, consensus lý thuyết.
+- [testing/advanced-strategies.md](../testing/advanced-strategies.md): Contract/chaos test cho microservices.

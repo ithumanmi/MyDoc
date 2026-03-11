@@ -1,6 +1,6 @@
-# 🧩 Microservices Patterns: Circuit Breaker & Saga
+# 🧩 Microservices Patterns: Circuit Breaker & Saga _(Level 3-4)_
 
-> [← Back to Backend Roadmap](../README.md)
+> [← Back to Backend Roadmap](../README.md) · [Architecture Hub](./README.md)
 
 Khi chia nhỏ hệ thống thành Microservices, bạn sẽ gặp phải 2 cơn ác mộng lớn nhất:
 1.  **Cascade Failure:** Một service chết kéo theo cả hệ thống chết.
@@ -11,6 +11,7 @@ Hướng dẫn này sẽ giúp bạn giải quyết chúng bằng các Patterns 
 ---
 
 ## 1. Circuit Breaker (Cầu Dao Điện) ⚡
+> 🎯 **Mục tiêu:** Bảo vệ upstream service khỏi external dependency lỗi.
 
 ### Vấn đề (The Problem):
 Tưởng tượng Service A gọi Service B. Nếu Service B bị treo (timeout), Service A sẽ chờ mãi -> Hết thread pool -> Service A cũng treo theo.
@@ -18,6 +19,15 @@ Nếu có 100 service gọi nhau, lỗi này sẽ lan truyền như domino (Casc
 
 ### Giải pháp (The Solution):
 Đặt một "Cầu dao" giữa A và B. Khi B lỗi quá nhiều, cầu dao sẽ **NHẢY (OPEN)** và ngắt kết nối ngay lập tức để bảo vệ A.
+
+```mermaid
+stateDiagram-v2
+    [*] --> Closed
+    Closed --> Open : Error Threshold Reached
+    Open --> HalfOpen : Timeout Expired
+    HalfOpen --> Closed : Success Probe
+    HalfOpen --> Open : Failure Probe
+```
 
 ### Trạng thái (States):
 1.  **CLOSED (Đóng - Bình thường):**
@@ -31,19 +41,24 @@ Nếu có 100 service gọi nhau, lỗi này sẽ lan truyền như domino (Casc
     *   Nếu thành công -> Chuyển về **CLOSED**.
     *   Nếu thất bại -> Quay lại **OPEN**.
 
-### Sơ đồ hoạt động (Mermaid):
-```mermaid
-stateDiagram-v2
-    [*] --> Closed
-    Closed --> Open : Error Threshold Reached
-    Open --> HalfOpen : Timeout Expired
-    HalfOpen --> Closed : Success Probe
-    HalfOpen --> Open : Failure Probe
+### Pseudo-code (Resilience4j)
+```java
+var circuitBreaker = CircuitBreaker.ofDefaults("inventory");
+
+Supplier<String> supplier = CircuitBreaker
+    .decorateSupplier(circuitBreaker, () -> inventoryClient.reserve());
+
+try {
+    return supplier.get();
+} catch (CallNotPermittedException ex) {
+    return fallback("Inventory busy");
+}
 ```
 
 ---
 
 ## 2. Saga Pattern (Giao Dịch Phân Tán) 🔄
+> 🎯 **Mục tiêu:** Rollback khi transaction trải dài nhiều service.
 
 ### Vấn đề (The Problem):
 Trong Monolith, bạn dùng `BEGIN TRANSACTION ... COMMIT/ROLLBACK` để đảm bảo tính toàn vẹn (ACID).
@@ -96,9 +111,22 @@ sequenceDiagram
     Orchestrator-->>User: Order Failed
 ```
 
+### Pseudo-code (Orchestrator)
+```typescript
+async function handleOrder(cmd: PlaceOrderCommand) {
+  await bus.send(new ReserveStock(cmd.orderId));
+  const payment = await bus.send(new ChargePayment(cmd.orderId));
+
+  if (!payment.success) {
+    await bus.send(new ReleaseStock(cmd.orderId));
+    throw new Error("Payment failed");
+  }
+}
+```
+
 ---
 
-## 3. Sidecar Pattern (Xe Sidecar) 🏍️
+## 3. Sidecar Pattern (Xe Sidecar) 🏍️ _(Level 3)_
 
 ### Vấn đề (The Problem):
 Bạn có 100 microservices viết bằng Node.js, Go, Java. Mỗi service đều cần Logging, Monitoring, SSL, Circuit Breaker.
@@ -112,7 +140,7 @@ Service chính chỉ lo Business Logic. Mọi traffic đi ra/vào đều qua Sid
 
 ---
 
-## 4. Backend for Frontend (BFF) 📱
+## 4. Backend for Frontend (BFF) 📱 _(Level 3)_
 
 ### Vấn đề (The Problem):
 Mobile App cần ít dữ liệu hơn Web App. Nếu dùng chung 1 API Gateway, Mobile sẽ phải tải dư thừa data.
@@ -131,3 +159,15 @@ Tạo Gateway riêng cho từng loại Client.
 | **Saga** | Distributed Transactions | Khi transaction trải dài nhiều service. |
 | **Sidecar** | Cross-cutting concerns | Khi dùng Kubernetes/Service Mesh. |
 | **BFF** | Client-specific needs | Khi UI Mobile và Web quá khác nhau. |
+
+---
+
+## 🛠️ Apply it
+1. **Circuit Breaker Drill:** Thêm Resilience4j/Polly vào service hiện tại, cấu hình threshold + metric export sang Prometheus.
+2. **Saga Simulator:** Viết test chaos: ép Payment fail 30% để đảm bảo compensating action release stock thành công.
+3. **Sidecar Rollout:** Triển khai service mesh (Istio/Linkerd) cho 1 namespace; đo latency trước và sau.
+
+## 🔗 Cross-reference
+- [microservices-patterns.md](./microservices-patterns.md): overview decomposition/integration patterns.
+- [cloud-native.md](./cloud-native.md): service mesh, sidecar details.
+- [devops-sre/devops-lab-pack.md](../devops-sre/devops-lab-pack.md): lab cho circuit breaker, chaos test.
