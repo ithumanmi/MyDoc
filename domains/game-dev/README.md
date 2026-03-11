@@ -49,6 +49,15 @@ updated: 2026-03-11
 | [core-mechanic-design-doc.md](./core-mechanic-design-doc.md) | Template + ví dụ viết GDD cơ chế chính | Kick-off dự án mới, sync với designer |
 | [ai/](./ai/) | Behavior Tree, GOAP, Steering | Level 3+ tập trung AI gameplay |
 | [animation/](./animation/) | IK, natural movement | Khi cần nâng chất lượng chuyển động |
+| [audio/](./audio/README.md) | Sound design, FMOD/Wwise, spatial audio | Khi cần hoàn thiện feedback âm thanh |
+| [level-design/](./level-design/README.md) | Layout, pacing, lighting phục vụ gameplay | Thiết kế flow và encounter |
+| [ux-ui/](./ux-ui/README.md) | HUD, accessibility, feedback systems | Giảm friction, tăng clarity |
+| [vr-ar-xr/](./vr-ar-xr/README.md) | VR/AR interaction, comfort, perf budgets | Làm sản phẩm immersive |
+| [testing/](./testing/README.md) | QA automation, playtest, telemetry | Đảm bảo chất lượng & dữ liệu |
+| [mobile-optimization/](./mobile-optimization/README.md) | Battery, thermal, touch input patterns | Tối ưu mobile build |
+| [console-dev/](./console-dev/README.md) | Certification, platform features | Ship lên console |
+| [live-service/](./live-service/README.md) | Season/Battle Pass, events, economy | Vận hành GaaS |
+| [localization/](./localization/README.md) | Font, LTR/RTL, VO pipeline | Đa ngôn ngữ & region |
 | [physics/](./physics/) | Physics engine, collision nâng cao | Build core mechanic dựa vào physics |
 | [graphics/](./graphics/) | Shader, VFX, lighting | Chọn Path Technical Artist |
 | [unity-deep-dive/](./unity-deep-dive/) | Clean code, editor tooling, optimization | Áp dụng cho dự án production |

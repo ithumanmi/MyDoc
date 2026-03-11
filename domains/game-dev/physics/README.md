@@ -12,7 +12,11 @@ updated: 2026-03-11
 | File | Nội dung | Khi nào dùng |
 | --- | --- | --- |
 | [simple-physics-engine.md](./simple-physics-engine.md) | Dùng lượng giác viết physics engine 3D mini | Khi cần hiểu sâu collision/constraint hoặc làm tool riêng |
-| [unity-physics-deep-dive.md](./unity-physics-deep-dive.md) | Rigidbody/Collider, layer matrix, CCD, tối ưu PhysX | Khi tối ưu gameplay va chạm, tránh xuyên vật, tối ưu CPU |
+| [unity-physics-deep-dive.md](./unity-physics-deep-dive.md) | Rigidbody/Collider, physics material, layer matrix, CCD | Khi tối ưu gameplay va chạm, tránh xuyên vật, tối ưu CPU |
+| [character-controller.md](./character-controller.md) | Built-in vs custom Rigidbody controller, slopes, stairs | Khi thiết kế movement nhân vật chuẩn, xử lý slope/step |
+| [vehicle-physics.md](./vehicle-physics.md) | Wheel Collider, arcade vs simulation, input smoothing | Game đua xe, vehicle traversal cần feel chuẩn |
+| [ragdoll-systems.md](./ragdoll-systems.md) | Active/partial ragdoll, blend với anim, recovery | Hit-react/death tự nhiên, kết hợp anim ↔ physics |
+| [physics-optimization.md](./physics-optimization.md) | Fixed timestep, layer matrix, sleep, profiling | Khi cần giữ Physics.Update < budget, scale hàng trăm collider |
 
 **Checklist áp dụng:**
 - [ ] Benchmark delta time và precision trước khi thay physics mặc định.

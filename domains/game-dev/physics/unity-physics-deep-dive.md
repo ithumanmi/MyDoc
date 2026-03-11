@@ -14,9 +14,15 @@ updated: 2026-03-11
 Mục tiêu: tránh jitter, xuyên vật (tunneling), tối ưu CPU khi số lượng collider lớn.
 
 ## 1) Rigidbody & Collider Setup
-- **Rigidbody:** Dynamic cho vật di động; Kinematic cho vật di chuyển bằng script/animation; Static không có Rigidbody.
-- **Interpolation:** bật cho nhân vật để mượt khi camera theo sau; tắt cho vật bị raycast nhiều (đỡ trễ). 
-- **Collision Detection:** Discrete (rẻ), Continuous (nhanh vừa), Continuous Dynamic (đắt nhưng tránh xuyên vật cho vật nhanh).
+- **Rigidbody:
+  - Mass/Drag:** mass thực tế (kg), drag thấp (0–0.5) cho nhân vật; angular drag 0.05–0.1.
+  - **Interpolation:** bật cho nhân vật để mượt khi camera theo sau; tắt cho vật bị raycast nhiều (đỡ trễ). 
+  - **Collision Detection:** Discrete (rẻ), Continuous (nhanh vừa), Continuous Dynamic (đắt nhưng tránh xuyên vật cho vật nhanh).
+- **Constraints:** Freeze rotation X/Z cho nhân vật dùng Rigidbody, lock scale = 1,1,1.
+- **Physics Materials:**
+  - Friction: high friction cho nhân vật, low/no friction cho sliding surface.
+  - Combine mode (Average, Multiply, Minimum) quyết định kết quả khi va chạm.
+  - Bounce: dùng bounce combine = Maximum cho bề mặt đàn hồi.
 - **Collider shape:** dùng primitive (Box/Sphere/Capsule) tối đa; Mesh Collider chỉ khi cần và nên là convex. 
 - **Layers:** thiết lập Matrix va chạm, tắt các cặp không cần (UI, VFX, projectiles đồng phe…).
 
@@ -45,6 +51,8 @@ Mục tiêu: tránh jitter, xuyên vật (tunneling), tối ưu CPU khi số lư
 - **Solver Iterations:** `Default Solver Iterations` / `Velocity Iterations`: tăng khi cần rigidbody stack ổn định; giảm nếu quá tốn CPU.
 - **Broadphase:** bật `Use Enhanced Determinism` nếu cần tính lặp lại (replay/netcode) nhưng tốn CPU.
 - **Sleeping:** bật `Sleep Threshold` hợp lý để vật tĩnh không tốn CPU.
+- **Layer Matrix:** audit định kỳ; projectiles đồng đội không cần va chạm nhau; ragdoll vs props nhỏ có thể tắt.
+- **Physics Debugger:** sử dụng để xem collider/layer; phát hiện collider scale sai hoặc layer đè nhau.
 
 ### Checklist perf
 - [ ] Profile `Physics.Update` trong Profiler ở worst-case (nhiều collider).

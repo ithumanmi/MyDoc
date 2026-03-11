@@ -1,22 +1,25 @@
 ---
-title: "Animation & IK Module"
-description: "Inverse kinematics, natural movement và checklist nâng chất lượng chuyển động."
+title: "Animation (Game Dev)"
+description: "Animator state machine, blend trees, root motion vs in-place, runtime rigging, facial animation."
 tags:
   - animation
   - unity
+  - game-dev
 updated: 2026-03-11
 ---
 
-# 🕺 Animation & IK Module
+# 🎞️ Animation (Unity-focused)
 
-| File | Nội dung | Khi nào dùng |
-| --- | --- | --- |
-| [inverse-kinematics.md](./inverse-kinematics.md) | IK cơ bản → advanced, target foot/hand placement | Game third-person, combat, climbing |
-| [state-machine-blend-tree.md](./state-machine-blend-tree.md) | State machine, blend tree, root motion, turn-in-place | Giảm jitter/popping, tăng responsiveness, kiểm soát chân bám đất |
+## Modules
+- [Animator State Machine](./animator-state-machine.md)
+- [Blend Trees](./blend-trees.md)
+- [Root Motion vs In-Place](./root-motion-vs-in-place.md)
+- [Animation Rigging](./animation-rigging.md)
+- [Facial Animation](./facial-animation.md)
 
-**Quickstart:**
-1. Áp dụng IK chân để tránh trượt trên địa hình nghiêng.
-2. Kết hợp animation event + IK để sync vũ khí, camera.
-3. Log motion sickness feedback theo checklist trong doc.
-
-> Bổ sung với [Unity Deep Dive / VFX & Lighting](../unity-deep-dive/vfx-lighting-mastery.md) để phối hợp animation + FX.
+## Checklist nhanh
+- [ ] Rõ ràng layer/sub-state machine; tách locomotion/combat/hit-react.
+- [ ] Blend tree 1D/2D cho locomotion; param debounced, normalized.
+- [ ] Chọn root motion hay in-place theo gameplay/netcode; sync tốc độ.
+- [ ] Runtime rigging: aim/IK/2-bone cho vũ khí/camera; order đúng.
+- [ ] Facial: blend shapes/lip sync; emotion library; test trên device mục tiêu.
