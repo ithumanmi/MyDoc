@@ -80,7 +80,7 @@ graph TD
 *   **[DAO Governance](./governance/dao-models.md):** Các mô hình quản trị phi tập trung và cơ chế bỏ phiếu.
 
 ### **8. MMO & Airdrop**
-*   **[Airdrop & Retroactive](./mmo/airdrop-retroactive.md):** Chiến lược săn Airdrop và cách tối ưu hóa cơ hội.
+*   **[MMO & Retroactive Playbook](./mmo/README.md):** Chiến lược săn Airdrop, MMO quest và tối ưu chiến dịch.
 
 ---
 

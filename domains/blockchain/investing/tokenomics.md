@@ -1,4 +1,4 @@
-# 💰 Tokenomics: Kinh tế học Token (Level 6)
+# 💰 Tokenomics & On-chain Investing Playbook (Level 6)
 
 > [← Back to Blockchain Roadmap](../README.md)
 
@@ -63,7 +63,75 @@ Token dùng để làm gì? (Nếu không có công dụng -> Shitcoin).
 ---
 
 ## 5. Case Study: Ponzi Tokenomics
+---
 
+## 6. On-chain Analysis (Đọc dữ liệu trực tiếp)
+
+### **Tools**
+*   **Nansen, Dune, Arkham:** wallet label, dashboard custom.
+*   **Glassnode, CryptoQuant:** on-chain indicators macro.
+*   **Dexscreener, GeckoTerminal:** realtime DEX liquidity + pair info.
+
+### **Metrics**
+1. **Active Addresses / New Addresses** → gauge adoption.
+2. **CEX/DEX Inflow-Outflow** → detect selling pressure.
+3. **Whale Movements:** track smart money accumulation/distribution.
+4. **Token Unlock Calendar:** TokenUnlocks, Messari.
+
+### **On-chain Ops**
+- Gọi `eth_call`/`eth_getLogs` để track event (transfer, staking).
+- Sử dụng The Graph/Substreams để query large dataset.
+
+---
+
+## 7. Trading Strategies
+
+### **A. Trend Following (Momentum)**
+*   Dùng MA, RSI, funding rate để xác định trend.
+*   On-chain confirm: TVL tăng, stablecoin inflow, stake ratio.
+
+### **B. Mean Reversion / Range Trading**
+*   Quan sát funding rate âm/quá cao → bet về mean.
+*   Liquidity pool depth (Uniswap v3) để xác định hỗ trợ/kháng cự.
+
+### **C. Event-driven**
+*   Catalyst: mainnet, token unlock, upgrade, airdrop.
+*   Playbook: mua trước rumor, bán trước sự kiện (buy rumor, sell news).
+
+### **D. Basis / Arbitrage**
+*   Chênh lệch giá giữa CEX/DEX, futures vs spot.
+*   Dụng cụ: perpetual swap, lending margin (Aave, Gearbox).
+
+### **E. Structured Strategies**
+*   Vault Delta-neutral (Ribbon, Friktion) → yield + hedge.
+*   Options selling (Dopex, Lyra) → yield nhưng rủi ro tail risk.
+
+---
+
+## 8. Risk Management
+
+1. **Position sizing:** Không quá 5-10% portfolio cho một token alt.
+2. **Stop-loss / Alerts:** TradingView + on-chain alert (Tenderly, Nansen).
+3. **Counterparty risk:** Check bridge, custodian, custodial risk.
+4. **Smart Contract risk:** audit status, TVL, time alive, admin key.
+5. **Macro:** USD liquidity (DXY), rates (Fed), regulatory crackdown.
+
+### **Portfolio Construction**
+| Bucket | % | Notes |
+| Core (BTC/ETH) | 40-60% | DCA, staking | 
+| Beta (L2, DeFi bluechip) | 20-30% | Monitor TVL |
+| Venture (early stage) | 10-20% | via SAFT/Launchpad |
+| Cash/Stable | 10-20% | dry powder |
+
+---
+
+## 9. Checklist
+
+- [ ] Đọc tokenomics: supply, vesting, utility, unlock schedule.
+- [ ] Theo dõi dữ liệu on-chain (Nansen/Dune, token unlock calendar).
+- [ ] Xác định chiến lược giao dịch (trend, event, arbitrage) + rule risk.
+- [ ] Thiết lập alert, quản lý vị thế, baseline portfolio allocation.
+- [ ] Review thesis mỗi quý: cập nhật narrative (AI, L2, RWA...).
 ### **Mô hình "In tiền trả lãi" (Luna/UST, Olympus DAO)**
 1.  Người dùng Staking token A lãi suất cao (100.000% APY).
 2.  Lãi trả bằng chính token A (được in thêm).

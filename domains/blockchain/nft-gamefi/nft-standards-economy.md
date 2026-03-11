@@ -1,4 +1,4 @@
-# 🎮 NFT, GameFi & Metaverse (Level 9)
+# 🎮 NFT, GameFi, Creator Economy & Metaverse (Level 9)
 
 > [← Back to Blockchain Roadmap](../README.md)
 
@@ -42,6 +42,37 @@ Làm sao để Game tồn tại lâu dài mà không lạm phát (Hyperinflation
 *   Tập trung vào trải nghiệm Game (Fun first). Kiếm tiền chỉ là phần thưởng phụ.
 *   Thu hút người chơi thật (Gamers), không chỉ là nhà đầu cơ (Speculators).
 *   **NFT Sink:** Cơ chế đốt NFT (Ghép thẻ, Nâng cấp rủi ro xịt) để giảm nguồn cung.
+
+### **C. Creator Economy & Royalties**
+*   **Primary Sale vs Secondary Royalties:** tuỳ sàn (OpenSea, Blur) → 0-10% royalty, enforce qua marketplace contract.
+*   **Fee Switch:** marketplace share fee 2-5% để duy trì treasury.
+*   **Creator Split:** smart contract hỗ trợ split payout (Manifold, Zora) → trả trực tiếp cho artist, dev, cộng tác viên.
+*   **Streaming payout:** sử dụng Superfluid/Sablier để chia doanh thu cho guild, streamer.
+
+### **D. Marketplace Architecture**
+1. **Orderbook (Seaport, Blur, sudoswap AMM):** hỗ trợ bulk listing, trait-based bidding.
+2. **Rentrable NFT:** ERC-4907 (dual-role) -> cho thuê vật phẩm.
+3. **Custodial vs Non-custodial marketplace:** gasless listing, signature order, execution relayer.
+
+### **E. Guild & UGC Platform**
+*   **Guild tooling:** Quest/Scholarship, automation payout.
+*   **UGC:** người chơi build map, skin → token grant + marketplace.
+
+---
+
+## 4. NFT Infrastructure & Tools
+
+- **Metadata:** on-chain (Arweave/IPFS) vs centralized. Dùng `Base64` + immutability.
+- **Dynamic NFTs:** Chainlink Functions, Hypercerts, game state update qua oracle.
+- **Marketplace SDK:** Reservoir, Seaport SDK, Zora API.
+- **Analytics:** flipside, NFTGo để theo dõi holder/staking.
+
+**Checklist:**
+- [ ] Thiết kế mô hình token/NFT sink, lạm phát < phát hành.
+- [ ] Định nghĩa royalty/creator split và marketplace target (Seaport/Blur/sudoswap).
+- [ ] Kế hoạch UGC/guild payout (streaming contract, split contract).
+- [ ] Lưu metadata + asset redundancy (IPFS/Arweave + gateway).
+- [ ] Theo dõi economy KPI (DAU, ARPU, sink/source, retention) và điều chỉnh.
 
 ---
 

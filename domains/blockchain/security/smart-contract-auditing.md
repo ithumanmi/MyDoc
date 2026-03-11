@@ -7,6 +7,13 @@ Auditor là người tìm ra lỗi trước khi Hacker tìm thấy.
 
 ---
 
+## 0. Practical Modules
+
+- [Wallet Security](wallet-security.md)
+- [Hack Post-Mortems](hack-post-mortems.md)
+- [Security Tools Workflow](security-tools-workflow.md)
+- [Bug Bounty Guide](bug-bounty-guide.md)
+
 ## 1. Reentrancy (Kinh điển) - Lỗi của The DAO
 
 ### **Mô hình tấn công:**

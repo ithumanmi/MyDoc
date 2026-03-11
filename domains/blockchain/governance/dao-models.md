@@ -1,4 +1,4 @@
-# 🏛️ DAO & Governance: Quản trị Phi tập trung (Level 11)
+# 🏛️ DAO & On-chain Governance (Level 11)
 
 > [← Back to Blockchain Roadmap](../README.md)
 
@@ -25,6 +25,11 @@ Làm sao để một tổ chức hoạt động mà không có CEO, không có v
 *   **Mục đích:** Tạo cộng đồng cùng sở thích (nghệ thuật, âm nhạc).
 *   **Quyền lợi:** Phải hold token mới được vào Discord, tham gia sự kiện độc quyền.
 
+### **D. Service DAO / Work DAO**
+*   **Ví dụ:** Raid Guild, dOrg.
+*   **Mục đích:** Tập hợp freelancer cung cấp dịch vụ (dev, marketing) cho Web3.
+*   **Quy trình:** Bounty + Reputation → trả lương bằng stablecoin/token.
+
 ---
 
 ## 2. Governance Mechanisms (Cơ chế Quản trị)
@@ -44,6 +49,17 @@ Một người = Một phiếu? Hay Một Token = Một phiếu?
 *   Nếu bạn không đồng ý với kết quả bỏ phiếu (Ví dụ: DAO quyết định đầu tư vào dự án rác), bạn có quyền **rút vốn ngay lập tức** trước khi quyết định đó được thực thi.
 *   Bảo vệ cổ đông thiểu số (Minority Protection).
 
+### **D. Delegated Voting / Liquid Democracy**
+*   Token holder ủy quyền (delegate) cho chuyên gia bỏ phiếu.
+*   Ví dụ: Uniswap, ENS có delegate list + forum pitch.
+*   **Ưu:** Người bận vẫn tham gia governance qua delegate.
+*   **Nhược:** Delegate capture, thiếu rotation.
+
+### **E. Snapshot vs On-chain Execution**
+*   **Snapshot**: off-chain vote (gas-free) → kết quả feed vào multisig.
+*   **On-chain**: Governor Bravo (Compound), OpenZeppelin Governor → vote = tx on-chain.
+*   **Hybrid**: Snapshot → Execution timelock contract.
+
 ---
 
 ## 3. Treasury Management (Quản lý ngân khố)
@@ -53,3 +69,43 @@ DAO thường có một quỹ chung khổng lồ (Treasury). Làm sao để tiê
 *   **Multi-sig Wallet (Ví đa chữ ký - Gnosis Safe):** Cần 3/5 người ký mới chuyển được tiền đi.
 *   **Diversification:** Đừng giữ 100% Treasury bằng token của dự án (vì giá dễ sập). Hãy đổi 1 phần sang Stablecoin (USDC, DAI) để trả lương dev, marketing.
 *   **Legal Wrapper (Vỏ bọc pháp lý):** Đăng ký DAO dưới dạng LLC (Wyoming DAO LLC) để đóng thuế, ký hợp đồng với thế giới thực và bảo vệ thành viên khỏi trách nhiệm pháp lý vô hạn.
+
+### **Treasury Tools**
+*   **Gnosis Safe + Zodiac:** module timelock, Reality.eth.
+*   **Tally, Boardroom:** interface vote + execute.
+*   **Karpatkey, Llama:** chuyên gia treasury quản lý cho DAO (yield, hedging).
+
+### **On-chain Treasury Strategies**
+1. **Yield Strategy:** Staking ETH (Lido), lending stable (Aave) để giữ runway.
+2. **Hedging:** Dùng perpetual futures (dYdX, GMX) để hedge token native.
+3. **Streaming Payroll:** Superfluid, Sablier, Hedgey.
+
+---
+
+## 4. Governance Process & Tooling
+
+1. **Forum Discussion:** Discourse / Commonwealth → RFC, temperature check.
+2. **Snapshot Poll:** off-chain signaling.
+3. **On-chain Proposal:** Governor contract, timelock, execution.
+4. **Ops:** Runbook cho emergency pause, exploit response.
+
+### **Voting Mechanism Matrix**
+| Mechanism | Ưu điểm | Nhược điểm | Tool |
+| Token-weight | Đơn giản, quen thuộc | Whale attack | Governor, Snapshot |
+| Quadratic | Giảm whale | Sybil attack | Gitcoin, JokeDAO (QF) |
+| Conviction Voting | Ưu tiên đề xuất có support lâu dài | Delay, phức tạp | 1Hive |
+| Futarchy | Vote bằng thị trường dự đoán | Thử nghiệm, khó hiểu | Gnosis + Conditional tokens |
+
+### **Compliance & Identity**
+*   **Soulbound / POAP:** track contribution.
+*   **KYC gating:** nếu DAO tương tác pháp lý (investment DAO) → cần whitelisting.
+
+---
+
+## 5. Checklist
+
+- [ ] Xác định mô hình DAO (protocol/investment/service) và token role.
+- [ ] Thiết kế voting flow (Snapshot, governor, delegate) + bảo vệ (quorum, timelock).
+- [ ] Thiết lập treasury stack (Safe multisig, diversification, payroll streaming).
+- [ ] Viết runbook incident + emergency multisig/quorum.
+- [ ] Đánh giá pháp lý (legal wrapper, compliance) cho hoạt động của DAO.

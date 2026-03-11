@@ -1,4 +1,4 @@
-# 📈 Layer 2 Scaling: Mở rộng quy mô Blockchain (Deep Dive)
+# 📈 Scaling Stack: Layer2, Sharding & Modular Blockchain (Deep Dive)
 
 > [← Back to Blockchain Roadmap](../README.md)
 
@@ -41,3 +41,67 @@ Cơ chế: Thực hiện hàng nghìn giao dịch ở ngoài chuỗi (Off-chain)
 Vấn đề lớn nhất của Scaling là chỗ chứa dữ liệu.
 *   **Ethereum Danksharding (EIP-4844):** Tạo ra một loại transaction mới (Blob) rẻ hơn để chứa dữ liệu Rollup -> Phí L2 giảm 10-100 lần.
 *   **Modular Blockchain (Celestia):** Tách lớp Data Availability ra khỏi lớp Execution.
+
+### **DA Layers nổi bật**
+| Layer | Vai trò | Dự án |
+| --- | --- | --- |
+| DA-only | Cung cấp blob storage + consensus | Celestia, Avail |
+| Validium DA | Lưu dữ liệu off-chain nhưng có committee | zkSync Validium, StarkEx |
+| EigenDA | Sử dụng EigenLayer restaked ETH để bảo mật DA | EigenDA |
+
+**Checklist:**
+- [ ] Chọn DA layer (Ethereum blob vs Celestia) dựa trên phí/throughput.
+- [ ] Plan fallback nếu DA unavailable (freeze rollup?).
+- [ ] Monitor blob fee market; auto adjust batch size.
+
+> Xem thêm:
+> - [Modular Blockchain](modular-blockchain.md)
+> - [Based Rollups](based-rollups.md)
+> - [Appchains](appchains.md)
+> - [Danksharding & EIP-4844](danksharding.md)
+
+---
+
+## 4. Sharding & Modular Execution
+
+### **A. Danksharding Roadmap**
+1. **Proto-danksharding (EIP-4844):** blob tx, giảm phí L2.
+2. **Full Danksharding:** 64 data availability shards, proposer-builder separation.
+
+### **B. Execution Sharding**
+*   **Near Nightshade:** shard state + dynamic reshard.
+*   **Aptos/Sui:** parallel execution (Block-STM) thay vì sharding state.
+
+### **C. Modular Stack Options**
+| Layer | Choices |
+| Execution | Rollup VM (EVM, zkEVM, zkVM, MoveVM) |
+| Settlement | Ethereum, Bitcoin (via rollups), Solana (future) |
+| DA | Ethereum blobs, Celestia, EigenDA, Avail |
+| Sequencer | Shared (Espresso, Radius) vs app-specific |
+
+---
+
+## 5. Modular Chains & Shared Sequencers
+
+### **Shared Sequencer**
+*   Espresso, Radius: cung cấp sequencing service chung → giảm MEV, chống reorg.
+*   App-rollup có thể sử dụng shared sequencer + proof post lên L1.
+
+### **Layer3 / App-specific Rollups**
+*   Starknet Appchains, Arbitrum Orbit, zkSync Hyperchains.
+*   Tùy chỉnh gas token, privacy, riêng tư.
+
+### **Bridging & Interop**
+*   **Canonical Bridge:** do rollup dev vận hành (trust-minimized).
+*   **General Bridge:** LayerZero, Wormhole → tiện nhưng trust assumptions khác.
+
+---
+
+## 6. Scaling Checklist
+
+- [ ] Xác định requirement (TPS, latency, finality, phí) → chọn stack (Optimistic vs ZK, DA layer).
+- [ ] Thiết kế sequencer (centralized → decentralized roadmap) + fallback.
+- [ ] Kế hoạch bridging (canonical, message relayer, proof window).
+- [ ] Monitoring: batch success rate, blob fee, proof verification time.
+- [ ] User experience: instant withdraw (liquidity providers) vs native bridging.
+
