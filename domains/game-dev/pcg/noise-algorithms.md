@@ -92,6 +92,172 @@ public static Texture2D GenerateNoiseTexture(int size, float scale)
 - `GenerateNoiseTexture` dùng preview trong editor để tune tham số.
 - Có thể convert sang Burst Job để generate chunk song song.
 
+### GPU Compute Shader Example
+
+**NoiseGenerator.compute**
+
+```hlsl
+#pragma kernel CSMain
+
+RWTexture2D<float> Result;
+int Size;
+float Scale;
+float2 Offset;
+
+float Noise(float2 uv)
+{
+    return frac(sin(dot(uv, float2(12.9898, 78.233))) * 43758.5453);
+}
+
+[numthreads(8,8,1)]
+void CSMain(uint3 id : SV_DispatchThreadID)
+{
+    if (id.x >= Size || id.y >= Size) return;
+    float2 uv = (float2(id.xy) + Offset) / Scale;
+    float value = 0;
+    float amp = 0.5;
+    float freq = 1;
+    for (int i = 0; i < 5; i++)
+    {
+        value += amp * Noise(uv * freq);
+        freq *= 2;
+        amp *= 0.5;
+    }
+    Result[id.xy] = value;
+}
+```
+
+**NoiseComputeDispatcher.cs**
+
+```csharp
+public class NoiseComputeDispatcher : MonoBehaviour
+{
+    [SerializeField] ComputeShader noiseCompute;
+    [SerializeField] int size = 512;
+    [SerializeField] float scale = 128f;
+    [SerializeField] Vector2 offset;
+
+    RenderTexture rt;
+
+    void Start()
+    {
+        rt = new RenderTexture(size, size, 0, RenderTextureFormat.RFloat)
+        {
+            enableRandomWrite = true
+        };
+        rt.Create();
+
+        int kernel = noiseCompute.FindKernel("CSMain");
+        noiseCompute.SetTexture(kernel, "Result", rt);
+        noiseCompute.SetInt("Size", size);
+        noiseCompute.SetFloat("Scale", scale);
+        noiseCompute.SetVector("Offset", offset);
+
+        int groups = Mathf.CeilToInt(size / 8f);
+        noiseCompute.Dispatch(kernel, groups, groups, 1);
+
+        Texture2D tex = new Texture2D(size, size, TextureFormat.RFloat, false);
+        RenderTexture.active = rt;
+        tex.ReadPixels(new Rect(0, 0, size, size), 0, 0);
+        tex.Apply();
+
+        // Debug: save PNG hoặc assign vào material
+        File.WriteAllBytes("Assets/noise.png", tex.EncodeToPNG());
+    }
+}
+```
+
+- Compute shader chạy song song 8×8 threads để tạo heightmap.
+- `Noise` function có thể thay bằng Perlin/Simplex HLSL hoặc domain warp GPU.
+- Dispatch theo chunk, stream kết quả vào terrain system mà không block main thread.
+
+### GPU Worley Noise Example
+
+**WorleyNoise.compute**
+
+```hlsl
+#pragma kernel CSMain
+
+RWTexture2D<float> Result;
+StructuredBuffer<float2> FeaturePoints; // precomputed points per chunk
+int Size;
+int PointCount;
+
+float Distance(float2 a, float2 b)
+{
+    return length(a - b);
+}
+
+[numthreads(8,8,1)]
+void CSMain(uint3 id : SV_DispatchThreadID)
+{
+    if (id.x >= Size || id.y >= Size) return;
+    float2 uv = float2(id.xy) / Size;
+    float minDist = 9999;
+    for (int i = 0; i < PointCount; i++)
+    {
+        float2 p = FeaturePoints[i];
+        float d = Distance(uv, p);
+        minDist = min(minDist, d);
+    }
+    Result[id.xy] = minDist;
+}
+```
+
+**WorleyComputeDispatcher.cs**
+
+```csharp
+public class WorleyComputeDispatcher : MonoBehaviour
+{
+    [SerializeField] ComputeShader worleyCompute;
+    [SerializeField] int size = 256;
+    [SerializeField] int pointCount = 32;
+
+    ComputeBuffer featureBuffer;
+    RenderTexture rt;
+
+    void Start()
+    {
+        Vector2[] featurePoints = GeneratePoissonPoints(pointCount);
+        featureBuffer = new ComputeBuffer(pointCount, sizeof(float) * 2);
+        featureBuffer.SetData(featurePoints);
+
+        rt = new RenderTexture(size, size, 0, RenderTextureFormat.RFloat)
+        {
+            enableRandomWrite = true
+        };
+        rt.Create();
+
+        int kernel = worleyCompute.FindKernel("CSMain");
+        worleyCompute.SetTexture(kernel, "Result", rt);
+        worleyCompute.SetBuffer(kernel, "FeaturePoints", featureBuffer);
+        worleyCompute.SetInt("Size", size);
+        worleyCompute.SetInt("PointCount", pointCount);
+
+        int groups = Mathf.CeilToInt(size / 8f);
+        worleyCompute.Dispatch(kernel, groups, groups, 1);
+    }
+
+    Vector2[] GeneratePoissonPoints(int count)
+    {
+        Vector2[] pts = new Vector2[count];
+        for (int i = 0; i < count; i++)
+            pts[i] = new Vector2(UnityEngine.Random.value, UnityEngine.Random.value);
+        return pts;
+    }
+
+    void OnDestroy()
+    {
+        featureBuffer?.Dispose();
+        rt?.Release();
+    }
+}
+```
+
+- Feature points có thể dùng Poisson disk để phân bố đều; truyền vào compute buffer.
+- Có thể lưu `Result` thành `RenderTexture` để dùng mask biome hoặc blend texture.
+- Kết hợp Perlin + Worley bằng shader graph hoặc compute pass tiếp theo.
+
 ## ✅ Apply it
 - [ ] Chọn loại noise phù hợp: Perlin (terrain), Simplex (volumetric), Worley (biome/cell).
 - [ ] Combine octaves (fBM), ridged, domain warp để tăng chi tiết.
