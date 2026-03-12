@@ -11,14 +11,14 @@
 | # | Giai đoạn | Trọng tâm | Liên kết nội dung |
 |:--|:----------|:----------|:------------------|
 | 1 | **Foundation** | Production-ready Python & APIs | [Python Data Stack](./fundamentals/python-data-stack.md) |
-| 2 | **Semantic Intelligence** | Embeddings & Vector Search | [Transformers & LLM](./nlp/transformers-llm.md), Vector DB / RAG cơ bản |
-| 3 | **RAG Systems** | Grounded AI, giảm hallucination | [Graph RAG](./agents/advanced/graph-rag.md) |
-| 4 | **Agents & Orchestration** | Multi-agent, Planning, Tool use | **[Agents](./agents/)** ⬅️ *Trọng tâm* |
-| 5 | **MLOps & Production** | CI/CD, Containerization, IaC | [Deployment](./mlops/deployment-pipeline.md), [CI/CD for AI](./mlops/cicd-for-ai.md) |
-| 6 | **Evaluation, Monitoring & Safety** | Metrics, Drift, Bias | [AI Monitoring](./mlops/ai-monitoring.md), [Evaluating Agents](./agents/advanced/evaluating-agents.md), [Responsible AI](./generative-ai/responsible-ai.md) |
-| 7 | **Advanced Inference & Cost** | Serving, Quantization, Caching | MLOps, Optimization *(mở rộng sau)* |
-| 8 | **Portfolio & Real Projects** | Dự án thực tế | [Agent Use Cases](./agents/agent-use-cases.md) |
-| 9 | **Continuous Learning** | Cập nhật, nghiên cứu, chọn domain (CV, NLP, RL) | Roadmap chuyên sâu từng nhánh |
+| 2 | **Classic ML Systems** | Supervised/Unsupervised, Feature & Ensemble workflow | [Supervised](./machine-learning/supervised-learning.md), [Unsupervised](./machine-learning/unsupervised-learning.md), [Ensemble](./machine-learning/ensemble-methods.md) |
+| 3 | **Semantic Intelligence** | Embeddings & Vector Search | [Transformers & LLM](./nlp/transformers-llm.md), Vector DB / RAG cơ bản |
+| 4 | **RAG Systems** | Grounded AI, giảm hallucination | [Graph RAG](./agents/advanced/graph-rag.md) |
+| 5 | **Agents & Orchestration** | Multi-agent, Planning, Tool use | **[Agents](./agents/)** ⬅️ *Trọng tâm* |
+| 6 | **MLOps & Production** | CI/CD, Containerization, IaC | [Deployment](./mlops/deployment-pipeline.md), [CI/CD for AI](./mlops/cicd-for-ai.md) |
+| 7 | **Evaluation, Monitoring & Safety** | Metrics, Drift, Bias | [AI Monitoring](./mlops/ai-monitoring.md), [Evaluating Agents](./agents/advanced/evaluating-agents.md), [Responsible AI](./generative-ai/responsible-ai.md) |
+| 8 | **Advanced Inference & Cost** | Serving, Quantization, Scaling | [Efficient Inference](./advanced/efficient-inference.md), [Cost Optimization](./machine-learning/cost-optimization.md), [Distributed Training](./advanced/distributed-training.md) |
+| 9 | **Portfolio & Continuous Learning** | Dự án thực tế + chọn domain (CV, NLP, RL) | [Agent Use Cases](./agents/agent-use-cases.md), [Labs & Projects](./labs/README.md), roadmap chuyên sâu |
 
 ---
 
@@ -31,7 +31,17 @@
 
 ---
 
-## 2. Semantic Intelligence: Embeddings & Vector Search
+## 2. Classic ML Systems: Supervised → Feature → Ensemble
+
+*Regression/classification, clustering, feature workflow, model selection.*
+
+- Xây nền tảng pipeline Machine Learning truyền thống trước khi sang LLM.
+- Thực hành đầy đủ từ feature engineering, selection đến ensemble & deployment template.
+- **Trong repo:** [Supervised Learning](./machine-learning/supervised-learning.md), [Unsupervised Learning](./machine-learning/unsupervised-learning.md), [Ensemble Methods](./machine-learning/ensemble-methods.md), [Feature Engineering](./machine-learning/feature-engineering.md), [Feature Selection](./machine-learning/feature-selection.md).
+
+---
+
+## 3. Semantic Intelligence: Embeddings & Vector Search
 
 *Vector DBs, Transformers.*
 
@@ -41,7 +51,7 @@
 
 ---
 
-## 3. RAG Systems: Grounded AI Outputs
+## 4. RAG Systems: Grounded AI Outputs
 
 *Reduce hallucinations, connect to external knowledge.*
 
@@ -50,7 +60,7 @@
 
 ---
 
-## 4. Agents & Orchestration: Autonomous Workflows
+## 5. Agents & Orchestration: Autonomous Workflows
 
 *Multi-agent systems, planning, tool use.*
 
@@ -66,7 +76,7 @@
 
 ---
 
-## 5. MLOps & Production Engineering
+## 6. MLOps & Production Engineering
 
 *CI/CD, Containerization, Infra as Code.*
 
@@ -75,7 +85,7 @@
 
 ---
 
-## 6. Evaluation, Monitoring & Safety
+## 7. Evaluation, Monitoring & Safety
 
 *Metrics, Drift detection, Bias auditing.*
 
@@ -84,28 +94,23 @@
 
 ---
 
-## 7. Advanced Inference & Cost Optimization
+## 8. Advanced Inference & Cost Optimization
 
 *Efficient serving, Quantization, Caching.*
 
-- Tối ưu latency và chi phí khi serve model (kể cả model trong Agent).
+- Tối ưu latency, throughput và chi phí khi serve model (kể cả Agent tools).
+- **Trong repo:** [Efficient Inference](./advanced/efficient-inference.md), [Distributed Training](./advanced/distributed-training.md), [Cost Optimization](./machine-learning/cost-optimization.md).
+- Mở rộng: [Continual Learning](./advanced/continual-learning.md) & [Synthetic Data](./advanced/synthetic-data.md) cho workflow scale.
 
 ---
 
-## 8. Portfolio & Real Projects
+## 9. Portfolio & Continuous Learning
 
-*Portfolio & real projects.*
+*Portfolio, real projects & chọn hướng chuyên sâu.*
 
-- Áp dụng toàn bộ lộ trình vào sản phẩm/dự án thật.
-- **Trong repo:** [Agent Use Cases](./agents/agent-use-cases.md).
-
----
-
-## 9. Continuous Learning & Specialization
-
-*Stay updated, explore research, pick a domain: CV, NLP, RL.*
-
-- Cập nhật nghiên cứu mới, chọn chuyên sâu: Computer Vision, NLP, Reinforcement Learning (và Agents).
+- Áp dụng toàn bộ lộ trình vào sản phẩm/dự án thật, sau đó duy trì nhịp cập nhật kiến thức.
+- **Trong repo:** [Agent Use Cases](./agents/agent-use-cases.md), [AI/ML Labs & Projects](./labs/README.md).
+- Chọn domain nâng cao: [Computer Vision](./computer-vision/cv-applications.md), [NLP](./nlp/nlp-labs.md), [Reinforcement Learning](./reinforcement-learning/README.md).
 
 ---
 
