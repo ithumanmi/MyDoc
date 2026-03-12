@@ -67,9 +67,11 @@ graph TD
 *   **[Smart Contract Auditing](./security/smart-contract-auditing.md):** Các lỗi bảo mật phổ biến (Reentrancy, Overflow) và cách phòng tránh.
 *   **[ZK-Proofs & Privacy](./security/zk-proofs-privacy.md):** Công nghệ Zero-Knowledge Proofs và giao dịch ẩn danh (Tornado Cash).
 
-### **5. Investing & Trading (Đầu tư)**
-*   **[Tokenomics](./investing/tokenomics.md):** Phân tích nguồn cung, lạm phát và lịch trả token.
-*   **On-chain Analysis:** Theo dõi dòng tiền của Cá voi (Whale) và Smart Money. *(Coming soon)*
+### **5. Investing & Trading (Đầu tư)
+*   **[Tokenomics Playbook](./investing/tokenomics.md):** Phân tích nguồn cung, lạm phát, chiến lược giao dịch.
+*   **[Case Study Portfolio](./investing/case-study-portfolio.md):** Ví dụ phân bổ đa bucket + log review.
+*   **[Valuation Models](./investing/valuation-models.md):** DCF, multiples, network metrics cho crypto.
+*   **[On-chain Analysis Guide](../blockchain/trends/on-chain-analysis.md):** Workflow Dune/Nansen, whale tracking.
 
 ### **6. Scaling & Infrastructure (Mở rộng & Hạ tầng)**
 *   **[Layer 2 Scaling](./scaling/layer2-deep-dive.md):** Optimistic Rollups vs ZK-Rollups.

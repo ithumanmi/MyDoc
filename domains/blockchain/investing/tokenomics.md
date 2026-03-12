@@ -132,6 +132,14 @@ Token dùng để làm gì? (Nếu không có công dụng -> Shitcoin).
 - [ ] Xác định chiến lược giao dịch (trend, event, arbitrage) + rule risk.
 - [ ] Thiết lập alert, quản lý vị thế, baseline portfolio allocation.
 - [ ] Review thesis mỗi quý: cập nhật narrative (AI, L2, RWA...).
+
+---
+
+## 10. Further Study
+
+- [Case Study Portfolio](./case-study-portfolio.md): ví dụ phân bổ đa bucket + log giao dịch.
+- [Valuation Models](./valuation-models.md): khung định giá DCF, multiples, network metrics.
+- [On-chain Analysis Guide](../trends/on-chain-analysis.md): workflow Dune/Nansen, whale tracking.
 ### **Mô hình "In tiền trả lãi" (Luna/UST, Olympus DAO)**
 1.  Người dùng Staking token A lãi suất cao (100.000% APY).
 2.  Lãi trả bằng chính token A (được in thêm).

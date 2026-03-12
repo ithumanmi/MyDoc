@@ -64,3 +64,31 @@ Ai chịu trách nhiệm khi bị hack?
     ```
     -> Nó sẽ xuất ra một báo cáo HTML chi tiết các lỗi cấu hình.
 3.  **CloudTrail:** Camera giám sát. Ghi lại mọi hành động API (Ai đã làm gì, lúc nào).
+4.  **Prowler / Steampipe Dashboards:** Kiểm tra compliance (CIS, NIST) tự động.
+
+---
+
+## 5. Advanced Topics & Next Steps
+
+### **Zero Trust & Network Segmentation**
+- Sử dụng AWS PrivateLink/VPC Endpoint để dịch vụ private không cần Internet.
+- Áp dụng Security Group + NACL như “defense-in-depth” (Lớp SG per workload, NACL per subnet).
+- Triển khai Zero Trust Access (ZTA) với AWS Verified Access hoặc Cloudflare Access.
+
+### **Container & Serverless Security**
+- **ECR Image Scanning:** Tự động quét CVE trước khi deploy.
+- **Lambda least privilege:** IAM role chỉ cấp quyền cần thiết, bật runtime monitoring (Lambda Inspector).
+- **Kubernetes (EKS/AKS):** Dùng OPA/Gatekeeper để enforce policy, bật audit logs, RBAC.
+
+### **Detection & Response**
+- Kết hợp CloudTrail + GuardDuty + Security Hub để có alert pipeline.
+- Thiết lập log centralization (S3 + Athena/CloudWatch Logs Insight) để truy vấn nhanh khi incident.
+- Run **chaos security drills**: simulate credential leak, S3 data exfil để test playbook.
+
+### **Practice Checklist**
+- [ ] Bật MFA + rotation cho tất cả IAM User/Admin.
+- [ ] Tạo Config Rules kiểm tra S3 public, SG mở quá mức.
+- [ ] Thiết lập CloudTrail multi-region + log integrity validation.
+- [ ] Chuẩn bị Incident Response Runbook cho Cloud (triage, isolation, forensics).
+
+**Next:** Làm lab tự động hóa compliance bằng Terraform + Prowler, và dựng môi trường detection với Security Hub + custom Lambda remediation.

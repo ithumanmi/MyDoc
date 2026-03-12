@@ -122,3 +122,8 @@ Bạn sẽ gặp Proxy ở đâu trong công việc?
 ### **GraphQL**
 *   **Đặc điểm:** Client chỉ lấy đúng dữ liệu mình cần (No Over-fetching).
 *   **Use case:** Mobile App, Frontend phức tạp cần lấy dữ liệu từ nhiều nguồn.
+
+### 🔗 Related Labs & Guides
+- **[SQL Injection Deep Dive](../labs/sql-injection-practice.md):** Áp dụng kiến thức HTTP request life-cycle & proxy debugging để khai thác và phòng thủ.
+- **[XSS & CSRF Practice](../labs/xss-csrf-practice.md):** Thực hành layer 7 attack vectors liên quan cookie/session.
+- **[Microsoft Sentinel Threat Hunting](../labs/azure-sentinel-threat-hunting.md):** Tập trung vào log ứng dụng/API, kết nối với kiến thức proxy/API gateway trong phần này.

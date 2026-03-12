@@ -17,13 +17,18 @@ updated: 2026-03-11
 | [Bitcoin Ecosystem](btc-ecosystem.md) | Ordinals, BitVM, Bitcoin L2s + bridging lab + Ordinals congestion case. |
 | [Prediction Markets](prediction-markets.md) | Polymarket, Azuro, oracle/dispute design + market launch lab + election study. |
 | [DePIN](depin.md) | Tokenized physical infrastructure (Helium, Hivemapper, Render) + node ops lab + Helium migration. |
+| [On-chain Analysis](on-chain-analysis.md) | Dune/Nansen workflow, whale tracking playbook, alert setup. |
+| [Airdrop Strategies](airdrop-strategies.md) | Sybil resistance, multi-protocol interaction plan, monitoring signals. |
+| [Portfolio Management](portfolio-management.md) | Risk frameworks, sizing, rebalancing, hedging, reporting. |
+| [Crypto Tax & Accounting](tax-accounting.md) | Cost basis methods, DeFi tax nuances, tooling workflow. |
 
 ## Usage
 
 - Theo dõi xu hướng mới để cập nhật roadmap và nội dung học.
 - Kết hợp với các module Scaling, MEV, Security để hiểu tác động toàn hệ sinh thái.
 - Sử dụng [Trend Module Templates](templates.md) để đảm bảo cấu trúc lab/case thống nhất.
-- Khám phá [chains/](chains/README.md) để so sánh Solana, Cosmos, Bitcoin theo kiến trúc - dev - hệ sinh thái.
+- Khám phá [chains/](chains/README.md) để so sánh Ethereum, Polygon, Solana, Cosmos, Bitcoin theo kiến trúc - dev - hệ sinh thái, kèm [tokenomics](chains/tokenomics.md).
+- Sử dụng bộ **Investing Guides**: [On-chain Analysis](on-chain-analysis.md), [Airdrop Strategies](airdrop-strategies.md), [Portfolio Management](portfolio-management.md), [Tax Accounting](tax-accounting.md).
 
 ## TODO Ideas
 

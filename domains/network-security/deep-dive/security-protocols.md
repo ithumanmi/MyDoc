@@ -54,3 +54,8 @@ Hệ thống niềm tin của Internet.
 ### **C. Downgrade Attack**
 *   Hacker lừa 2 bên dùng phiên bản TLS cũ (TLS 1.0) có lỗ hổng.
 *   **Phòng chống:** Server tắt hỗ trợ các phiên bản cũ.
+
+### 🔗 Related Labs & Guides
+- **[Advanced Detection Use Cases](../labs/advanced-detection-usecases.md#2-dns-beacon--ja3-ssl-fingerprinting):** Dùng JA3/JA3s fingerprint để săn tìm TLS bất thường hoặc downgrade attempt.
+- **[Microsoft Sentinel Threat Hunting](../labs/azure-sentinel-threat-hunting.md):** Viết KQL rule phát hiện TLS handshake lỗi, certificate lạ.
+- **[Chronicle Detection Engineering](../labs/chronicle-detection-lab.md):** Tích hợp log TLS vào Chronicle + Looker để monitor cipher suite, anomaly detection.

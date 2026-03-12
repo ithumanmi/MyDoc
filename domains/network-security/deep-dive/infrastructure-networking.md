@@ -51,3 +51,8 @@ Làm sao Netflix stream phim 4K cho bạn mượt mà dù Server gốc ở Mỹ?
 *   **Next-Gen Firewall (NGFW):**
     *   **Deep Packet Inspection (DPI):** Mổ xẻ nội dung gói tin (Layer 7) xem có chứa mã độc không.
     *   **Application Awareness:** Chặn Facebook Game nhưng cho phép Facebook Chat.
+
+### 🔗 Related Labs & Guides
+- **[Linux Hardening with UFW](../labs/linux-hardening-ufw.md):** Thực hành cấu hình firewall host-based và mapping tới concept NAT/ACL.
+- **[Virtual Lab Setup](../labs/virtual-lab-setup.md):** Dựng lab multi-network để test NAT, VPN, firewall rules.
+- **[IBM QRadar Use Case Engineering](../labs/qradar-detection-lab.md):** Kết nối log firewall/NAT đến SIEM để phát hiện DDoS/scan.
