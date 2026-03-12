@@ -62,3 +62,7 @@ Không, bạn gửi cả:
 *   **GPS Coordinates:** Tọa độ chính xác nơi chụp (Nhà bạn!).
 
 > **Giải pháp:** Dùng tool (như `exiftool`) để xóa Metadata trước khi upload ảnh.
+
+---
+
+**Cross-domain:** Tham khảo [MMO Browser Fingerprinting](../mmo-engineering/browser-fingerprinting.md) để áp dụng compartmentalization + anti-detect profile trong bối cảnh nuôi tài khoản và automation ở quy mô lớn.

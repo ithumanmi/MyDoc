@@ -50,3 +50,89 @@ Trình duyệt thường (Chrome/Firefox) không cho phép đổi các thông s�
 
 ### **C. Tránh "WebRTC Leak"**
 *   Luôn tắt WebRTC hoặc dùng extension chặn WebRTC để không bị lộ IP thật khi dùng VPN/Proxy.
+
+---
+
+## 4. Tự xây fingerprint (DIY Anti-detect)
+
+Khi không muốn phụ thuộc tool thương mại, bạn có thể tự patch Chromium/Playwright với fingerprint riêng.
+
+### 4.1 Navigator override
+```javascript
+// preload.js - inject vào mỗi tab
+Object.defineProperty(navigator, "platform", { get: () => "Win32" });
+Object.defineProperty(navigator, "hardwareConcurrency", { get: () => 8 });
+Object.defineProperty(navigator, "languages", { get: () => ["en-US", "vi-VN"] });
+navigator.permissions.query = (orig => (params) => {
+  if (params.name === "notifications") {
+    return Promise.resolve({ state: "denied" });
+  }
+  return orig(params);
+})(navigator.permissions.query);
+```
+
+### 4.2 Canvas/WebGL spoof
+```javascript
+const toDataURL = HTMLCanvasElement.prototype.toDataURL;
+HTMLCanvasElement.prototype.toDataURL = function() {
+  const ctx = this.getContext("2d");
+  ctx.globalAlpha = 0.99; // thêm noise nhỏ
+  return toDataURL.apply(this, arguments);
+};
+
+const getParameter = WebGLRenderingContext.prototype.getParameter;
+WebGLRenderingContext.prototype.getParameter = function(parameter) {
+  if (parameter === this.RENDERER) {
+    return "ANGLE (NVIDIA GeForce GTX 1660)";
+  }
+  if (parameter === this.VENDOR) {
+    return "Google Inc.";
+  }
+  return getParameter.apply(this, arguments);
+};
+```
+
+### 4.3 Playwright config mẫu
+```ts
+import { chromium } from "playwright";
+
+const context = await chromium.launchPersistentContext("./profiles/userA", {
+  headless: false,
+  viewport: { width: 1280, height: 720 },
+  userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0 Safari/537.36",
+  proxy: { server: "http://res-proxy:8000" },
+  args: [
+    "--disable-web-security",
+    "--disable-webrtc",
+    "--use-angle=gl",
+    "--lang=en-US"
+  ],
+  bypassCSP: true,
+});
+
+await context.addInitScript({ path: "preload.js" });
+const page = await context.newPage();
+```
+
+### 4.4 Fingerprint dataset
+- Tạo file JSON mô tả fingerprint (GPU, font list, screen size). Script đọc profile → inject vào init script.
+- Random hóa theo phân phối thực tế (thu thập từ [fingerprintjs.com](https://fingerprintjs.com/), [amiunique.org](https://amiunique.org/)).
+- Tham khảo [anti-detect/fingerprint-database.md](./anti-detect/fingerprint-database.md) để quản lý data chuẩn hóa.
+
+### 4.5 Testing
+- Sử dụng trang `https://audiofingerprint.openwpm.com/`, `https://browserleaks.com/` để đo uniqueness.
+- Log kết quả từng profile để tránh fingerprint trùng nhau.
+
+### 4.6 Deep Dive Resources
+- [fingerprint-components.md](./anti-detect/fingerprint-components.md)
+- [noise-injection-techniques.md](./anti-detect/noise-injection-techniques.md)
+- [chromium-patching-guide.md](./anti-detect/chromium-patching-guide.md)
+- [detection-bypass-research.md](./anti-detect/detection-bypass-research.md)
+
+---
+
+## 5. Checklist
+- [ ] Mỗi profile gắn cố định proxy + fingerprint.
+- [ ] Có script kiểm tra WebRTC leak.
+- [ ] Kiểm tra uniqueness score trước khi dùng cho tài khoản thật.
+- 🔗 **Cross-domain:** Đối chiếu với [Anonymity & OpSec](../network-security/anonymity-opsec.md) để xây mô hình compartmentalization + metadata hygiene song song với fingerprint randomization.

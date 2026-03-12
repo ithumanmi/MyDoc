@@ -99,3 +99,4 @@ OWASP Top 10 là danh sách 10 lỗ hổng web nguy hiểm nhất thế giới. 
 ## 10. Insufficient Logging & Monitoring
 
 *   **Là gì:** Không ghi log hoặc không theo dõi log, khiến hacker tấn công mà không ai biết trong thời gian dài.
+- **Cross-domain:** Tham khảo [MMO API Automation](../mmo-engineering/tool-dev/api-automation.md) để mô phỏng hành vi tấn công hợp lệ (captcha bypass, header spoof), từ đó xây playbook phòng thủ chủ động.

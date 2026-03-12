@@ -59,3 +59,7 @@ Khi có 1000 ví, bạn không thể dùng Metamask thông thường.
     *   Tốt nhất chạy trên máy Offline hoặc VPS riêng.
 
 > **Đạo đức nghề nghiệp:** Sybil Attack làm hỏng hệ sinh thái. Hãy cân nhắc kỹ. Nhiều dự án hiện nay yêu cầu KYC (xác thực khuôn mặt) để chống Sybil triệt để.
+
+---
+
+🔗 **Cross-domain:** So sánh tín hiệu phát hiện Sybil với [On-chain Analysis Guide](../network-security/blockchain/trends/on-chain-analysis.md) để hiểu cách các đội Security truy vết cluster, từ đó chuẩn hóa chiến lược random hóa và log evidence.

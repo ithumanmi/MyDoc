@@ -90,3 +90,7 @@ Khi dùng Proxy hoặc bắt gói tin (Sniffing) bằng Charles/Fiddler, bạn c
 requests.get("https://example.com", verify=False) # Tắt check chứng chỉ
 ```
 *Lưu ý: Chỉ dùng khi Debug hoặc khi Proxy yêu cầu. Dễ bị lộ data nếu dùng mạng public.*
+
+---
+
+🔗 **Cross-domain:** Đọc [Web Security OWASP Cheatsheet](../../network-security/web-security-owasp.md) để hiểu các defense (rate-limit, WAF, token binding) nhằm thiết kế automation logic tránh trigger, đồng thời xây tool “red team” mô phỏng tấn công hợp lệ.

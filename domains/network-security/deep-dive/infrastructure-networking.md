@@ -56,3 +56,4 @@ Làm sao Netflix stream phim 4K cho bạn mượt mà dù Server gốc ở Mỹ?
 - **[Linux Hardening with UFW](../labs/linux-hardening-ufw.md):** Thực hành cấu hình firewall host-based và mapping tới concept NAT/ACL.
 - **[Virtual Lab Setup](../labs/virtual-lab-setup.md):** Dựng lab multi-network để test NAT, VPN, firewall rules.
 - **[IBM QRadar Use Case Engineering](../labs/qradar-detection-lab.md):** Kết nối log firewall/NAT đến SIEM để phát hiện DDoS/scan.
+- **Cross-domain:** Xem [MMO Proxy Infrastructure](../../mmo-engineering/proxy-infrastructure.md) để thấy cách routing/NAT/Zero Trust được áp dụng vào farm 4G và hệ thống proxy rotation thực chiến.

@@ -18,6 +18,9 @@ updated: 2026-03-11
 
 ## 1) Certification Readiness
 - Đọc checklist TRC/TCR/XR theo platform (PS/Xbox/Switch).
+- **PlayStation ví dụ TRC:** NP-1150 (Sign-in handling), NP-2116 (Suspend/Resume state), TRC-2102 (Activity Cards metadata). Kiểm tra compliance bằng PS5 DevKit Certification Assistant.
+- **Xbox TCR:** X-103 (Storage device removal), X-332 (Quick Resume state), X-416 (Offline entitlement). Sử dụng XR-606 tool để import test logs.
+- **Switch XR:** xử lý Home Button suspend ngay lập tức, test Performance mode (Docked) vs Handheld.
 - Handle suspend/resume, network disconnect, storage full, account/sign-in flow.
 - Region/age rating; parental control; seizure warning.
 - Save/Resume matrix: verify save integrity trên suspend/resume, profile switch, storage gần đầy; test clock change/timezone.
@@ -27,6 +30,9 @@ updated: 2026-03-11
 
 ## 2) Platform Features
 - Achievements/Trophies API; cloud save; leaderboards.
+- **PS5:** Activity Cards + Game Help metadata (JSON), DualSense adaptive trigger/HD rumble, Tempest 3D audio object tagging.
+- **Xbox Series:** Presence + Rich Captures, Quick Resume resume points, Smart Delivery entitlements.
+- **Switch:** NSO cloud save (nếu được phép), Amiibo/NFP callback, controller gyro/HD Rumble.
 - Controller features: rumble, adaptive triggers (PS5), gyro (Switch).
 - Rich presence/activity cards; capture/stream compliance.
 - Cross-save/x-play: nếu hỗ trợ, kiểm tra format save và entitlement mapping.
@@ -37,6 +43,8 @@ updated: 2026-03-11
 ## 3) Performance & Build
 - Target 60fps (hoặc 30fps lock ổn định) với frame pacing tốt.
 - Memory budget cố định; async loading; asset bundle split theo mode/region.
+- **PSO cache pipeline:** prebake PSO/XSO (PS5/Xbox) bằng Build Tools; load cache trong first boot và validate CRC. Giảm hitch do runtime shader compile.
+- **Quick Resume / Suspend testing:** chạy matrix (launch → gameplay → suspend → resume → network drop) log memory delta, time-to-resume <2s.
 - Patch/DLC pipeline; delta patch size nhỏ; save compatibility.
 - Frame pacing: kiểm tra 16.6ms/33ms histogram; hạn chế shader compilation runtime (strip variant, prebake PSO/XSO).
 - I/O: dùng async I/O API đặc thù (PS5/Xbox Velocity); align block size để giảm seek.
@@ -45,6 +53,7 @@ updated: 2026-03-11
 
 ## 4) Compliance & UX
 - Safe area & overscan; text legibility trên TV.
+- TV HDR calibration: hiển thị pattern BT.2020, map metadata theo platform (PS5 HDR tone-mapper vs Xbox HDR Game Calibration).
 - Localization file per region; font fallback; profanity filter nếu có UGC.
 - Error code mapping & user-facing message theo guideline platform.
 - HDR/SDR: tone-map và calibration theo platform; đảm bảo UI text legible cả SDR/HDR.

@@ -20,8 +20,13 @@ updated: 2026-03-11
 - **Frame budget:** 16.6ms @60fps, 33ms @30fps; theo dõi frame time histogram.
 - **CPU/GPU:** giới hạn draw calls, batching, giảm overdraw UI; bật GPU instancing.
 - **Thermal:** test 20-30 phút trên thiết bị mục tiêu; giảm post-process, hạ refresh khi nóng.
+- **Thermal telemetry:** log `SurfaceTemp`, `ThermalState`, `ThermalHeadroom` (Android Perfetto/Samsung Perf SDK, iOS MetricKit). Map ra curve nhiệt độ → throttle level để trigger scaler trước khi OS cưỡng chế.
 - **Thermal throttling plan:** hạ dần refresh/FPS cap theo state (nominal → warm → hot), ưu tiên giảm effect/shadow rồi mới giảm resolution; tắt effect nền khi màn pause.
 - **Heatsink-aware design:** đo surface temp vs frame time; tránh burst CPU (job system) và GPU spikes (shader variant strip, simplify particle pass).
+- **Chipset-specific mitigations:** 
+  - *Snapdragon/Adreno:* giảm UB/SSBO update, ưu tiên tile-based render, tránh compute pass dài.
+  - *MediaTek Dimensity:* giới hạn threads CPU big-core, tránh Job burst >8ms; scale particle LOD.
+  - *Apple A-series:* dùng Metal Feature Set cụ thể, bật `MTLHeap` reuse để giảm allocation heat, avoid runtime shader compile.
 - **Unity:** dùng Application.targetFrameRate + QualitySettings.vSyncCount; theo dõi FrameTimingManager, Adaptive Performance (Samsung/Android) để hạ level; bật Dynamic Resolution (URP/HDRP) và Adaptive Performance scaler (CPU/GPU/cluster).
 
 ## 2) Memory & Assets
@@ -36,6 +41,7 @@ updated: 2026-03-11
 - Hạn chế vibration/haptics liên tục; batch network call.
 - Network batching: gom request theo nhịp (ví dụ 1-2s) thay vì liên tục; hạn chế wake-lock.
 - Sensor budget: tắt/giảm sampling gyro/accel khi không cần; giảm GPS polling.
+- **Battery drain modeling:** đo mAh/phút bằng Android Battery Historian + iOS Energy Log; lập bảng `Feature → Current Draw` (render, network, sensors) để quyết định ưu tiên cắt giảm. Tạo budget target (ví dụ 250mA mid-tier) và kiểm thử 30 phút trong lab 25°C, 35°C để thấy drift.
 - Background policy: dừng render khi app background; hạ update rate UI khi idle.
 - **Unity:** Application.runInBackground = false (mobile), giảm UI update với Canvas batching; sử dụng LateUpdate/FixedUpdate hợp lý; bật Multithreaded Rendering nếu ổn định thermal.
 
@@ -46,6 +52,8 @@ updated: 2026-03-11
 - Latency: giảm input latency bằng việc đọc touch ở đầu frame và áp dụng ngay frame đó; tránh heavy GC giữa input-read và simulation.
 - Palm rejection & edge swipe: phân biệt system gesture (Android nav, iOS home bar); safe margin cho gesture cạnh.
 - Touch heatmaps: log vị trí touch để chỉnh layout, safe zone theo thiết bị.
+- **Touch QA:** ghi log `TouchDown → Action` latency (ms) và `TouchDuration` để nhận biết gesture lỗi; dùng Replay/Record (Input System PlayerInputRecord) để tái hiện bug. Thực hiện soak test 5000 tap/gesture trên lab devices, capture per-device drift/ghost.
+- **Adaptive layouts:** dựa vào heatmap + finger reach (thumb zone) để thay đổi UI cluster (left/right-handed mode). Cho phép scale hitbox khi phát hiện thiết bị nhỏ hoặc người chơi chọn “comfort mode”.
 - **Unity:** ưu tiên Input System package (Events + EnhancedTouch); đọc input ở đầu Update, áp dụng ở FixedUpdate/Update kế tiếp; dùng EventSystem raycast nhẹ (GraphicRaycaster tối ưu). Kiểm tra Safe Area API (Screen.safeArea) cho notches.
 
 ## 5) QA & Telemetry
