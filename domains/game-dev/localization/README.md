@@ -25,6 +25,11 @@ updated: 2026-03-11
 - **Font atlas strategy:** SDF atlas riêng cho nhóm Latin/extended, CJK bitmap/SDF dynamic (multi-atlas) để tránh vượt texture limit. Lập bảng “locale → atlas set” và preload hot locale, lazy load khác.
 - **Dynamic font download:** cho mobile/consoles, cung cấp CDN font pack khi người chơi chọn locale hiếm để tránh phình build. Cache local và verify checksum.
 - **Unity:** dùng TextMeshPro với fallback asset; auto-size off để tránh layout thrash, dùng SDF atlas per locale; bật Right-to-Left support package cho TMP nếu cần. ScriptableObject giữ map locale → font asset. Sử dụng Addressables để tải font/atlas theo locale.
+- **Font QA matrix:** kiểm tra từng locale trên 3 nền tảng (mobile/console/PC) với screenshot automation, so sánh baseline (Latin) vs localized text. Track `kerning`, `line-height`, `diacritics clipping`. Nếu sai, log issue + attach glyph highlight.
+- **String linting:** script check ICU placeholder mismatch, plural rule missing, hardcoded string (regex `"[A-Za-z].*"` trong code). Kết hợp Pseudo-loc (accent + expansion) trong CI để fail build nếu UI overflow.
+- **Hyphenation & wrapping:** cho tiếng Đức/Pháp/CJK, set manual hyphenation dictionary. Định nghĩa `HardWrapWidth` per device (TV vs mobile). Dùng `TMP_Text.preferredWidth` để preview offline.
+- **Localization memory budget:** Document size/font/atlas per locale. Ví dụ: JP font pack 12MB, VO 200MB. Tạo `LocaleBudget.md` để PM cân nhắc shipping region.
+- **Glossary enforcement:** maintain `TermBase.csv` (Term, Locale, Approved Translation, Notes). Build validation tool highlight string sai gloss.
 
 ## 2) VO & Audio
 - VO pipeline: script → record → file naming/metadata → loudness match.
@@ -40,6 +45,11 @@ updated: 2026-03-11
   4. Integrate: convert format (WAV 48k/16b), normalize -16 LUFS console/-23 broadcast nếu yêu cầu, add metadata (speaker, emotion, context).
 - **Localization kit:** chuẩn hóa handoff template (spreadsheet + audio naming) để nhà thầu hiểu. Lưu ý lipsync (Rhubarb phoneme) → update Timeline clip.
 - **Unity:** dùng Addressables/AssetBundle cho audio bank per locale; AudioSource output group vào AudioMixer để level match; preload short SFX, stream dài (AudioClip load type Streaming). Nếu lip-sync, có thể dùng SALSA/Rhubarb hoặc marker trong Timeline.
+- **VO scheduling board:** Kanban (Script lock → Recording → QC → Integration → LQA). Track vendor SLA, actor availability, retake status.
+- **Lipsync variants:** cho cinematic, bake phoneme track per locale (Papagayo/Rhubarb) → export animation clip. Với gameplay bark, dùng runtime lipsync (Crunchtime). Document pipeline so animator biết reference.
+- **Audio file budget:** maintain `AudioManifest.json` (locale, bank, size, compression). Khi update VO patch, check delta size <50MB (mobile). Tách optional voice pack (downloadable) để user chọn.
+- **Subtitle pipeline:** subtitle file (SRT/JSON) share ID với VO line. Tools auto align by waveform (python `aeneas`). Include tags [whisper], [shout], [SFX]. LQA review ensures grammar/punctuation locale correct.
+- **QA automation:** loudness meter script (LUFS) + waveform diff to detect clipping. Use audio diff (SoX) to catch missing channel.
 
 ## 3) Assets & UI
 - Locale-aware images/icons (ví dụ văn bản trong texture → dùng sprite sheet per locale).
@@ -51,6 +61,11 @@ updated: 2026-03-11
 - **Culturalization:** design review với LQA partner để loại bỏ biểu tượng nhạy cảm, màu sắc cấm kỵ; follow rating board (GRAC, IARC, SAR) guideline.
 - Color/culture: tránh icon/biểu tượng nhạy cảm vùng; check rating guideline địa phương.
 - **Unity:** bật Localization package (String Tables, Asset Tables); dùng Smart String/Plural. Sprite font/icon theo locale qua Asset Table. Test Canvas Scaler + TMP auto-size boundary để tránh overflow. IME: dùng TMP InputField và test trên mobile/console soft keyboard; normalize (FormD/FormC) khi lưu.
+- **UI blueprint:** tạo `LocaleStressScene.unity` chứa mọi component (button, list, chat, scoreboard) → chạy pseudo-loc/RTL toggle để QA screenshot. Bất cứ regression UI fix trong scene này.
+- **Asset variant pipeline:** shot builder tool generate `Sprite_en`, `Sprite_ja`, `Sprite_ar`. Use Addressables label per locale, fallback chain (if missing use English). Track size per locale.
+- **Date/number service:** implement `LocalizationFormatter` wrapper (ICU4N/CLDR). Support ordinal, plural, currency symbol (VND, KRW). Add unit test per locale to avoid format bug.
+- **Name input QA:** test 64-char Unicode, emoji, ZWJ. Normalize + block disallowed script (per rating). Provide preview UI so user see name before confirm.
+- **Rating board compliance:** create matrix (ESRB, PEGI, CERO, GRAC, GCC) -> required disclaimer text/time display. Hook to localization to ensure correct language.
 
 ## 4) Build & Testing
 - Addressables/asset bundle per locale; hotfix patch nhỏ.
@@ -62,6 +77,11 @@ updated: 2026-03-11
 - **VO pipeline testing:** verify lip-sync alignment (±100ms), run audio loudness meter per locale, check subtitle timecode.
 - **Localization QA:** create checklist per locale (text expansion, grammar, cultural review). Dùng screenshot bot + OCR để so sánh output vs string table.
 - **Unity:** dùng Localization package pseudo-localization (accent/lengthen) để bắt overflow; Addressables groups per locale với Build Script Packed Mode; verify cold-load vs warm-load của Addressables font/atlas. CI: chạy localization lint (missing keys), chụp screenshot automation với Unity Test Framework + Graphics Compositor.
+- **Build automation:** pipeline tạo `LocaleBundle_xx` song song, upload CDN. Post-build script generate manifest (hash, size, dependency). QA download random locale pack để verify integrity.
+- **Test harness:** Unity playmode test load từng locale, iterate UI prefab, capture screenshot (RenderDoc/Graphics Test). Upload diff tool (Percy, Chromatic) highlight layout shift.
+- **LQA vendor kit:** export `LocalizationKit.zip` gồm string table, VO ref, glossary, screenshot, context video. Gửi vendor + template bug report (ID, scene, string key, issue type).
+- **Pseudo-loc variants:** 3 chế độ: `Lengthen +` (x1.3), `RTL switch`, `Fullwidth`. Run nightly to catch UI break. Logging which prefab fail → assign owner.
+- **Hotfix workflow:** ability to patch string/asset without app update: use Remote Config + Addressables CDN. Maintain rollback script `revert_locale_pack.sh` để quay lại phiên bản trước nếu crash.
 
 ## ✅ Apply it
 - [ ] Thiết lập string table + font fallback và pseudo-localization.

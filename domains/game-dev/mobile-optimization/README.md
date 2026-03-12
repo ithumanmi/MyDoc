@@ -28,6 +28,9 @@ updated: 2026-03-11
   - *MediaTek Dimensity:* giới hạn threads CPU big-core, tránh Job burst >8ms; scale particle LOD.
   - *Apple A-series:* dùng Metal Feature Set cụ thể, bật `MTLHeap` reuse để giảm allocation heat, avoid runtime shader compile.
 - **Unity:** dùng Application.targetFrameRate + QualitySettings.vSyncCount; theo dõi FrameTimingManager, Adaptive Performance (Samsung/Android) để hạ level; bật Dynamic Resolution (URP/HDRP) và Adaptive Performance scaler (CPU/GPU/cluster).
+- **Instrumentation stack:** tạo bảng heat budget cho mỗi SKU: `Device tier → Ambient Temp → Duration → Target FPS → Thermal Headroom`. Chạy Perfetto trace + Unity Profiler trong cùng session để correlate CPU/GPU timeline ↔ surface temp. Lưu checkpoint 5 phút/lần để xác định lúc nào throttle bắt đầu, đính kèm screenshot overlay để QA so sánh.
+- **Soak matrix:** ít nhất 3 ambient (22°C lab, 30°C phòng nóng, 35°C chamber) × 2 casing (open air vs ốp) × 2 profile (performance vs battery saver). Cần log `BatteryCurrent`, `SkinTemp`, `FPS` để build biểu đồ spider cho sản phẩm.
+- **Thermal escalation playbook:** define `State 0 (Nominal)` → `State 1 (Warm, Δtemp 5°C)` → `State 2 (Hot, Δtemp 8°C)` → `State 3 (Critical, Δtemp 10°C)`. Ứng với mỗi state map hành động: giảm shadow cascades, disable SSR, giảm particle spawn, giảm resolution scale 10%, chặn effect tự phát. Lưu config trong Remote Config để chỉnh mà không rebuild.
 
 ## 2) Memory & Assets
 - Texture compression (ASTC/ETC2); atlas UI; limit RTT size.
@@ -44,6 +47,14 @@ updated: 2026-03-11
 - **Battery drain modeling:** đo mAh/phút bằng Android Battery Historian + iOS Energy Log; lập bảng `Feature → Current Draw` (render, network, sensors) để quyết định ưu tiên cắt giảm. Tạo budget target (ví dụ 250mA mid-tier) và kiểm thử 30 phút trong lab 25°C, 35°C để thấy drift.
 - Background policy: dừng render khi app background; hạ update rate UI khi idle.
 - **Unity:** Application.runInBackground = false (mobile), giảm UI update với Canvas batching; sử dụng LateUpdate/FixedUpdate hợp lý; bật Multithreaded Rendering nếu ổn định thermal.
+- **Battery instrumentation checklist:**
+  | Metric | Android tool | iOS tool | Notes |
+  | --- | --- | --- | --- |
+  | mAh/phút & drain slope | Battery Historian, `dumpsys batterystats --history` | Xcode Energy Gauge | Export CSV, overlay với FPS để xác định spike |
+  | Wakelock duration | Android Studio Profiler Power view | Instruments Energy log | Đảm bảo background systems release lock <2s |
+  | Sensor cost | Perfetto counter `sensor.power` + Unity Profiler | Instruments Log | Giảm sampling hoặc unsubscribe khi không dùng |
+- **Feature gating:** thêm `PowerProfile.asset` (ScriptableObject) chứa mức tiêu thụ ước tính của từng hệ thống (VFX, net polling, analytics). Khi battery drain vượt budget, disable các tính năng có cost cao nhất trước.
+- **Lab automation:** Viết script ADB (`adb shell am start ...`) + Unity Cloud Build `perf-test` scene để chạy 5 loop: idle, gameplay, heavy FX, menu pause, background/resume. Sau mỗi loop log battery % và current draw => generate báo cáo auto bằng Python (matplotlib) cho QA review.
 
 ## 4) Touch Input Patterns
 - Deadzone & tap-slop hợp lý; tránh multi-touch ghost.
@@ -55,6 +66,9 @@ updated: 2026-03-11
 - **Touch QA:** ghi log `TouchDown → Action` latency (ms) và `TouchDuration` để nhận biết gesture lỗi; dùng Replay/Record (Input System PlayerInputRecord) để tái hiện bug. Thực hiện soak test 5000 tap/gesture trên lab devices, capture per-device drift/ghost.
 - **Adaptive layouts:** dựa vào heatmap + finger reach (thumb zone) để thay đổi UI cluster (left/right-handed mode). Cho phép scale hitbox khi phát hiện thiết bị nhỏ hoặc người chơi chọn “comfort mode”.
 - **Unity:** ưu tiên Input System package (Events + EnhancedTouch); đọc input ở đầu Update, áp dụng ở FixedUpdate/Update kế tiếp; dùng EventSystem raycast nhẹ (GraphicRaycaster tối ưu). Kiểm tra Safe Area API (Screen.safeArea) cho notches.
+- **Touch instrumentation:** lưu `touch_id`, `phase`, `position`, `device_model`, `latency_ms` và `action_id` vào ring buffer, upload batch 100 event. Từ log tạo heatmap + latency histogram (P50/P95), highlight thiết bị có tail latency >80ms.
+- **Gesture taxonomy:** chuẩn hóa 6 nhóm (tap, double tap, long press, drag, joystick, pinch). Với mỗi nhóm định nghĩa `min duration`, `max jitter`, `release threshold`. Viết unit test/PlayMode test cho InputAction map để tránh regression khi chỉnh binding.
+- **Haptics/touch sync:** map touch feedback (vibration, sound) vào Input System action callbacks với `LatencyBudget <= 30ms`. Nếu thermal state nóng, giảm tần suất haptics (Battery saver) để không tăng nhiệt.
 
 ## 5) QA & Telemetry
 - Log FPS, frame time P50/P95, thermal state, battery drain (%/10 phút).

@@ -27,6 +27,11 @@ updated: 2026-03-11
 - Error handling: map error code → thông điệp user theo guideline platform; không crash app khi mất network/peripheral disconnect.
 - Media compliance: capture/stream restriction, spoiler protection nếu platform yêu cầu.
 - **Unity:** dùng Platform SDK plugin (PS/Xbox/Switch) đúng version; test Application.pause/suspend/resume callback, OnApplicationFocus; serialize save với Application.persistentDataPath + versioning để tránh corruption khi resume.
+- **Certification tooling:** xây dashboard gom TRC/TCR test case → owner → status. Tích hợp kết quả từ PlayStation Certification Assistant, Xbox XR-606, Nintendo Lotcheck thành 1 bảng (Google Sheet/Notion) để track fail → fix → re-test. Lưu video chứng minh pass cho case khó (ví dụ suspend/resume + peripheral remove) để gửi khi platform yêu cầu.
+- **Compliance rehearsal:** chạy “mock submission” 2 tuần trước deadline: QA giả lập reviewer, follow full checklist (từ boot logo → crash report → console settings). Log thời gian step-by-step để biết build launch/resume mất bao lâu.
+- **Edge case matrix:** `Profile Switch`, `Network Drop`, `Peripheral Remove`, `Storage Full`, `System Update Prompt`, `Clock Drift`. Với mỗi case, mô tả expected behavior + telemetry event. Bắt buộc QA capture logcat/devkit trace và attach ID vào issue tracker.
+- **Security/Privacy:** verify telemetry consent, data wipe khi uninstall, respect parental PIN. Với PS/Xbox, tuân thủ `Privacy Guard` (PS) / `Data Collection & Privacy` (Xbox) policy: show prompt, allow opt-out, xóa log khi account delete.
+- **Submission package checklist:** Cover letter, change log, build hash, certification checklist, rating certificates (ESRB/PEGI/CERO), localization proof. Giữ template chung để tái sử dụng mùa patch tiếp theo.
 
 ## 2) Platform Features
 - Achievements/Trophies API; cloud save; leaderboards.
@@ -39,6 +44,11 @@ updated: 2026-03-11
 - Entitlement & commerce: ownership check, DLC entitlement refresh khi offline/online.
 - Voice/party chat compliance: tuân thủ policy platform; parental control respect.
 - **Unity:** dùng Services wrapper (Unity Gaming Services nếu cross-platform; native plugin nếu platform-specific); controller qua Input System với layout cho DualSense/XSX/Pro Controller; map haptics qua platform API (DualSense adaptive trigger via plugin). Presence/Activity Card cần metadata đúng schema của platform SDK.
+- **DualSense/DualShock playbook:** map adaptive trigger curve và haptics pattern trong ScriptableObject (`DualSenseProfile.asset`). Viết tool ánh xạ `GameEvent → TriggerEffect` để designer tự chỉnh. Test trong devkit để đảm bảo không vi phạm intensity limit.
+- **Xbox GDK integration:** implement Rich Presence string (Activity + Join in Progress) và capture card metadata (`GameDVR`) để user share clip. Quick Resume resume point: expose `CheckpointID` để Xbox shell hiển thị context.
+- **Switch specific:** handle Joy-Con detach, single Joy-Con mode, và Amiibo scanning fail/retry. Implement `PerformanceMode` API để user chuyển Docked ↔ Handheld, adjust resolution + UI scale.
+- **Cloud save conflict:** build resolver UI hiển thị timestamp/device, allow merge nếu possible. Server log mỗi lần sync để debug khi certification hỏi.
+- **Commerce flow:** integrate store overlay (PS Store, Microsoft Store) bằng Deep Link API; ensure disable input khi overlay active để tránh double purchase. Kểm tra parental purchase PIN.
 
 ## 3) Performance & Build
 - Target 60fps (hoặc 30fps lock ổn định) với frame pacing tốt.
@@ -50,6 +60,11 @@ updated: 2026-03-11
 - I/O: dùng async I/O API đặc thù (PS5/Xbox Velocity); align block size để giảm seek.
 - Build configs: dev/test/release flag rõ; capture perf overlay build cho QA (fps/mem/drawcall).
 - **Unity:** bật IL2CPP, strip engine code, bật Burst + Jobs nếu phù hợp; dùng Addressables + Scriptable Build Pipeline cho split package. Prewarm ShaderVariantCollection, bật Load/Build Player setting cho PSO cache. Async load bằng Addressables + SceneManager.LoadSceneAsync additive.
+- **SKU matrix:** định nghĩa target cho từng console (PS5 performance mode 60fps, quality mode 30fps + raytracing; Xbox Series S 1440p30, Series X 4K60; Switch docked 900p30, handheld 720p30). Mỗi SKU có sheet `Budget CPU/GPU/Memory/HDD` và QA tick nếu đạt.
+- **I/O profiling:** dùng PS5 I/O Profiler, Xbox PIX và Nintendo trace để log throughput. Nếu streaming >80% budget, reduce chunk size hoặc reorder asset. Document `IOBudget.md` để tech art biết giới hạn.
+- **Patch pipeline:** set up delta patch builder + smoke test automation (install base game → patch N → verify save compatibility). Track patch size vs platform requirement (Sony TRC < 2x free space). Lập `PatchManifest.json` (hash, dependencies) để server verify user download.
+- **Telemetry hooks:** embed `perf_overlay` toggled via devkit button hiển thị FPS, frame time, memory, streaming queue. QA quay video overlay để attach bug.
+- **Unity build automation:** Jenkins/Azure DevOps pipeline tạo build PS/Xbox/Switch song song, upload artifact + TRC checklist. Script auto run `np-check`, `xdp` tests, `nintendo lotcheck suite` nếu tool hỗ trợ command line.
 
 ## 4) Compliance & UX
 - Safe area & overscan; text legibility trên TV.
@@ -60,6 +75,11 @@ updated: 2026-03-11
 - Accessibility: remap input, subtitles/captions, color-blind filters theo yêu cầu platform.
 - Storage policy: thông báo dung lượng cần thiết, xử lý graceful khi full, không soft-lock.
 - **Unity:** hỗ trợ HDR trong Render Pipeline asset (URP/HDRP), test color buffer format; UI scale cho 1080p/4K với Canvas Scaler; font fallback per locale; profanity filter server-side + client regex lightweight. Kiểm tra TV overscan bằng safe zone (Platform SDK + in-game option).
+- **HDR pipeline:** cung cấp menu “HDR Calibration” map highlight/midpoint/shadow (PS5: 3 bước pattern, Xbox: 2 bước). Lưu giá trị per user profile, sync cloud save. Kiểm tra output bằng HDR analyzer (HDR10 metadata metadata) để pass certification (PS5 TRC 0195).
+- **TV overscan toolkit:** option bật grid safe-zone (90% width/height). QA test trên TV 1080p SDR, 4K HDR, monitor PC. Provide UI scale slider 80-120%.
+- **Accessibility checklist:** align với Xbox Accessibility Guideline (XAG) và PlayStation Accessibility. Bao gồm: full remap, subtitle size adjustable, color blind filter (protan/deutan/tritan), screen reader hints nếu UI text. Viết `Accessibility.md` link trong submission package.
+- **Error handling system:** centralize `PlatformErrorMapper` → hiển thị message localized + action (retry, re-login). Log telemetry event `platform_error_id` để correlate với support ticket.
+- **Localization compliance:** ensure all ESRB/PEGI text appears localized, trophy description per locale. Build script kiểm tra string missing (`loc-lint`).
 
 ## ✅ Apply it
 - [ ] Làm TRC/TCR pass list cho build; test suspend/resume + disconnect.
