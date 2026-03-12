@@ -48,3 +48,4 @@ Agents & Orchestration là bước nối **RAG (grounded outputs)** với **prod
 *   **Lộ trình 9 bước đầy đủ:** [AI Engineering Roadmap 2026](../ai-engineering-roadmap-2026.md).
 *   **RAG trước khi vào Agents:** [Graph RAG](./advanced/graph-rag.md), [Transformers & LLMs](../nlp/transformers-llm.md).
 *   **Sau Agents:** [MLOps](../mlops/deployment-pipeline.md), [Evaluating Agents](./advanced/evaluating-agents.md), [Responsible AI](../generative-ai/responsible-ai.md).
+*   **Automation patterns ngoài AI:** [MMO Engineering](../../mmo-engineering/README.md) — mô hình điều phối bot/fleet giúp học pattern tự động hoá quy mô lớn.

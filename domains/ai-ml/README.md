@@ -61,20 +61,58 @@ graph TD
 
 ### **2. Machine Learning (Classic ML)**
 *   **[Supervised Learning](./machine-learning/supervised-learning.md):** Hồi quy tuyến tính, Logistic Regression, Decision Trees và SVM.
-*   **Unsupervised Learning:** Phân cụm (K-Means) và Giảm chiều dữ liệu (PCA). *(Coming soon)*
+*   **[Unsupervised Learning](./machine-learning/unsupervised-learning.md):** Phân cụm (K-Means, Hierarchical, DBSCAN), giảm chiều (PCA, t-SNE/UMAP) và anomaly detection.
+*   **[Semi-Supervised Learning](./machine-learning/semi-supervised-learning.md):** Pseudo-labeling, consistency regularization, graph-based và workflow thực chiến.
+*   **[Feature Engineering](./machine-learning/feature-engineering.md):** Quy trình 5 bước, kỹ thuật numerical/categorical/text, automation và checklist triển khai.
+*   **[Feature Selection](./machine-learning/feature-selection.md):** Filter/Wrapper/Embedded methods, stability selection và chiến lược cho time-series.
+*   **[Model Selection & HPO](./machine-learning/model-selection.md):** Cross-validation, nested CV, Optuna/Ray Tune workflow và tiêu chí chọn model.
+*   **[Ensemble Methods](./machine-learning/ensemble-methods.md):** Bagging, Boosting, Stacking và các best practices triển khai.
+*   **[Practice Pack](./machine-learning/practice-exercises.md):** Bài tập regression, classification, clustering, anomaly và feature store mini project.
+*   **[Benchmark Datasets](./machine-learning/benchmark-datasets.md):** Bộ dữ liệu regression, classification, anomaly, time-series để luyện tập.
+*   **[Deployment Templates](./machine-learning/deployment-templates.md):** REST API, batch pipelines, CI/CD và monitoring checklist.
+*   **[Experiment Tracking](./machine-learning/experiment-tracking.md):** Template ghi chép thí nghiệm, MLflow/W&B snippets và checklist reproducibility.
+*   **[Cost Optimization](./machine-learning/cost-optimization.md):** Chiến lược tiết kiệm chi phí data, compute, inference và monitoring.
+*   **[Cloud Guides](./machine-learning/cloud-guides.md):** Cheat-sheet dịch vụ AWS/Azure/GCP cho training, deployment và multi-cloud tips.
+*   **[Hands-on Labs](./machine-learning/hands-on-labs.md):** Notebook template, project ideas và Kaggle competition playbook.
+*   **[AI/ML Labs & Projects](./labs/README.md):** Kaggle guide, end-to-end projects (classification, sentiment, recommender) và advanced builds (RAG chatbot, coding agent, Colab GPU tips).
 
 ### **3. Deep Learning (Mạng nơ-ron)**
 *   **[Neural Networks 101](./deep-learning/neural-networks-101.md):** Perceptron, Backpropagation và các hàm kích hoạt (ReLU, Sigmoid).
+*   **[Optimization Tricks](./deep-learning/optimization-tricks.md):** Chọn optimizer (SGD, AdamW), LR scheduling (Cosine, OneCycle), gradient clipping, AMP, BatchNorm/LayerNorm tips.
+*   **[Regularization](./deep-learning/regularization.md):** Dropout/DropConnect, early stopping, data augmentation đa domain, weight decay, label smoothing, stochastic depth checklist.
+*   **[Architectures Zoo](./deep-learning/architectures-zoo.md):** RNN → LSTM → GRU fundamentals, bidirectional/stacked cấu hình và checklist triển khai.
+*   **[Convolutional Tricks](./deep-learning/convolutional-tricks.md):** ResNet/DenseNet/MobileNet cheat-sheet, depthwise/dilated conv, SE blocks, training & deployment checklist.
+*   **[Transformers Fundamentals](./deep-learning/transformers-fundamentals.md):** Self-attention, positional encoding, encoder vs decoder, biến thể GPT/BERT/T5/ViT và training tips.
 
 ### **4. Computer Vision (Thị giác máy tính)**
 *   **[CNN Architectures](./computer-vision/cnn-architectures.md):** Mạng tích chập (CNN), ResNet, YOLO để nhận diện vật thể.
+*   **[Image Segmentation](./computer-vision/image-segmentation.md):** Semantic vs instance vs panoptic, U-Net, Mask R-CNN, DeepLab v3+, SAM.
+*   **[Vision Transformers](./computer-vision/vision-transformers.md):** ViT, CLIP, SAM, DINO v2, workflow fine-tune và ứng dụng zero-shot.
+*   **[Object Detection Guide](./computer-vision/object-detection-guide.md):** So sánh YOLO/Faster R-CNN/DETR, pipeline training → deployment.
+*   **[Video Understanding](./computer-vision/video-understanding.md):** Action recognition (SlowFast, TimeSformer), temporal modeling và deployment tips.
+*   **[3D Vision & Neural Rendering](./computer-vision/3d-vision.md):** Depth estimation, point cloud/mesh, NeRF & Gaussian Splatting workflows.
+*   **[CV Applications](./computer-vision/cv-applications.md):** OCR, face recognition, medical imaging, retail, surveillance và checklist triển khai.
+*   **[Segmentation & ViT Labs](./computer-vision/segmentation-vit-labs.md):** Hai lab thực hành (Brain Tumor UNet + Steel Defect ViT) với checklist triển khai.
+*   **[CV Repo Template](./computer-vision/cv-repo-template.md):** Cấu trúc repo end-to-end (data, configs, training, deployment, Triton).
+*   **[Realtime YOLOv8 + Triton](./computer-vision/realtime-yolov8-triton.md):** Camera stream → Triton inference → dashboard, kèm config & client code.
 
 ### **5. NLP (Xử lý ngôn ngữ tự nhiên)**
+*   **[NLP Foundations](./nlp/nlp-foundations.md):** Cleaning, tokenization, feature engineering và classical pipeline.
+*   **[Text Preprocessing](./nlp/text-preprocessing.md):** Tokenization strategies, normalization, stemming/lemmatization và pipeline template.
+*   **[Traditional NLP](./nlp/traditional-nlp.md):** POS tagging, NER, sentiment, topic modeling với pipeline tiền-Transformer.
+*   **[Embeddings Deep Dive](./nlp/embeddings-deep-dive.md):** Word2Vec, FastText, contextual & sentence embeddings.
+*   **[Classic NLP Tasks](./nlp/classic-nlp-tasks.md):** NER, sentiment, topic modeling với CRF/SVM/LDA.
 *   **[Transformers & LLMs](./nlp/transformers-llm.md):** Cơ chế Attention, BERT, GPT và cách Fine-tune mô hình ngôn ngữ lớn.
+*   **[LLM Fine-tuning](./nlp/llm-fine-tuning.md):** Full fine-tune vs PEFT, LoRA/QLoRA workflow và checklist deploy.
+*   **[LLM Inference Optimization](./nlp/llm-inference-optimization.md):** Quantization, vLLM/TensorRT-LLM, batching và cost control.
+*   **[NLP Labs](./nlp/nlp-labs.md):** Chuỗi lab truyền thống (tokenizer toolkit, CRF NER, sentiment logistic vs BERT, topic dashboard).
+*   **[Speech Processing](./nlp/speech-processing.md):** Workflow ASR/TTS, Wav2Vec2/Whisper, Tacotron/FastSpeech và deployment tips.
+*   **[Information Retrieval](./nlp/information-retrieval.md):** BM25, dense retrieval, hybrid reranking và đánh giá nDCG/MRR.
 
 ### **6. Generative AI (AI tạo sinh)**
 *   **[Diffusion Models](./generative-ai/diffusion-models.md):** Cách Stable Diffusion vẽ tranh từ văn bản.
 *   **[🛡️ Responsible AI](./generative-ai/responsible-ai.md):** Nguyên tắc, rủi ro và cách xây dựng AI an toàn, công bằng.
+*   **[PEFT & LoRA Guide](./nlp/peft-lora-guide.md):** Hướng dẫn hands-on fine-tuning LLM bằng PEFT/LoRA/QLoRA, script HuggingFace, evaluation và deployment tips.
 
 ### **7. AI Agents & Multi-Agent Systems (Trợ lý AI)** — *Bước 4 trong [AI Engineering Roadmap 2026](./ai-engineering-roadmap-2026.md)*
 *   **[Agents — Mục lục & Lộ trình](./agents/README.md):** ⭐ Tổng quan và thứ tự học (Architecture → Frameworks → RAG/Memory → Multi-Agent → Eval).
@@ -91,9 +129,33 @@ graph TD
 *   **[Evaluation](./agents/advanced/evaluating-agents.md):** Đánh giá Agent bằng RAGAS và AgentBench.
 *   **[Human-in-the-loop](./agents/advanced/human-in-the-loop.md):** Tương tác người máy, Streaming và UX.
 
-### **9. MLOps (Vận hành AI)**
+### **9. Reinforcement Learning**
+*   **[RL Roadmap](./reinforcement-learning/README.md):** Lộ trình học RL theo giai đoạn Fundamentals → Algorithms → Applications.
+*   **[RL Fundamentals](./reinforcement-learning/rl-fundamentals.md):** MDP, value/policy functions, exploration và workflow train PPO/DQN/SAC.
+*   **[Q-Learning & DQN](./reinforcement-learning/q-learning.md):** Q-table, DQN, Double/Dueling, Rainbow và best practices.
+*   **[Policy Gradient & Actor-Critic](./reinforcement-learning/policy-gradient.md):** REINFORCE, A2C/A3C, PPO, advantage/GAE và implementation notes.
+*   **[Multi-Agent RL](./reinforcement-learning/multi-agent-rl.md):** Cooperative/competitive settings, CTDE, MADDPG, QMIX, MAPPO.
+*   **[RL Applications](./reinforcement-learning/rl-applications.md):** Game AI, robotics, recommendation, finance và RLHF pipeline.
+*   **[Model-Based RL](./reinforcement-learning/model-based-rl.md):** Dynamics model, MBPO/Dreamer/MuZero, planning (MPC/CEM) và best practices.
+*   **[RL Labs & Playbook](./reinforcement-learning/rl-labs.md):** Chuỗi lab CartPole→PPO, SAC continuous control, multi-agent RLlib, offline RL, model-based MBPO/Dreamer, RLHF pipeline.
+*   **[RL Repo Template](./reinforcement-learning/rl-repo-template.md):** Cấu trúc repo RL end-to-end (configs, agents, dynamics model, scripts, deployment, monitoring).
+
+### **10. MLOps (Vận hành AI)**
 *   **[Deployment Pipeline](./mlops/deployment-pipeline.md):** Đưa mô hình từ Notebook ra Production bằng Docker và Kubernetes.
 *   **[CI/CD for AI](./mlops/cicd-for-ai.md):** Quy trình CI/CD chuyên biệt cho Machine Learning (CT & Model Registry).
+*   **[Feature Stores](./mlops/feature-stores.md):** Feast, Tecton, kiến trúc batch + streaming và governance feature.
+*   **[Experiment Tracking](./mlops/experiment-tracking.md):** MLflow, W&B, DVC và best practices reproducibility.
+*   **[Model Registry](./mlops/model-registry.md):** Versioning, stages (dev/staging/prod) và workflow promote/rollback.
+*   **[LLMOps](./mlops/llmops.md):** Quản lý prompt, eval RAG, guardrails, cost và A/B testing cho LLM.
+
+### **11. Advanced Topics (Scaling & Safety)**
+*   **[Module Overview](./advanced/README.md):** Lộ trình nâng cao để tối ưu và bảo vệ hệ thống AI production.
+*   **[Distributed Training](./advanced/distributed-training.md):** DeepSpeed, FSDP, tensor/pipeline parallel và checklist vận hành.
+*   **[Efficient Inference](./advanced/efficient-inference.md):** Quantization, pruning, distillation, vLLM/Triton serving patterns.
+*   **[Synthetic Data](./advanced/synthetic-data.md):** Kỹ thuật sinh dữ liệu (GAN, diffusion, CTGAN) và validation/privacy.
+*   **[Continual Learning](./advanced/continual-learning.md):** Chống catastrophic forgetting với replay, regularization, prompt adapters.
+*   **[Interpretability](./advanced/interpretability.md):** SHAP, LIME, attention visualization, governance checklist.
+*   **[AI Security](./advanced/ai-security.md):** Adversarial defense, model stealing protection, prompt injection guardrails.
 
 ---
 

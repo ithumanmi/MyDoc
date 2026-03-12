@@ -69,3 +69,19 @@ Do AI có tính xác suất, chiến lược deploy rất quan trọng:
 3.  **CT:** Trigger Training Pipeline trên GPU Runner.
 4.  **Eval:** Model mới đạt Accuracy > Model cũ?
 5.  **CD:** Deploy model vào Registry -> Deploy Shadow -> Deploy Canary -> Deploy Production.
+
+```mermaid
+flowchart TD
+    A[Push Code/Data] --> B[CI: Lint + Unit Test]
+    A --> C[Data Validation]
+    B --> D[Continuous Training Pipeline]
+    C --> D
+    D --> E[Model Evaluation]
+    E -->|Better| F[Register Model]
+    E -->|Worse| G[Fail + Notify]
+    F --> H[Shadow Deployment]
+    H --> I[Canary Deployment]
+    I --> J[Full Production]
+    J --> K[Monitoring & Feedback]
+    K -->|Data Drift| C
+```

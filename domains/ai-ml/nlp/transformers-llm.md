@@ -40,6 +40,7 @@ Mô hình ngôn ngữ lớn (Billions parameters) học từ hàng Terabyte dữ
 ### **C. Efficient Fine-tuning (PEFT/LoRA)**
 *   Thay vì train lại cả tỷ tham số (tốn tiền triệu đô), chỉ train một lớp nhỏ (Adapter) chèn vào giữa.
 *   Tốn ít VRAM, chạy được trên GPU cá nhân (RTX 3090/4090).
+*   👉 Xem chi tiết hands-on trong **[PEFT & LoRA Guide](./peft-lora-guide.md)** (chuẩn bị môi trường, code mẫu QLoRA, evaluation, deployment).
 
 ---
 
