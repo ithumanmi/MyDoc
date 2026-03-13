@@ -30,6 +30,7 @@ Lộ trình chi tiết 3 giai đoạn:
 
 ### 📖 **Reading**
 - **[Reading Mastery](./reading-mastery.md)** ⭐ **Complete Guide** - 14 Question Types, Strategies for Band 8.0+
+- **Reading Deep Dive**: [TFNG Strategy](./reading/true-false-notgiven.md) | [Matching Headings](./reading/matching-headings.md) | [Summary Completion](./reading/summary-completion.md) | [Speed Reading](./reading/speed-reading-techniques.md) | [Academic Vocabulary](./reading/academic-vocabulary-context.md)
 - **[Receptive Skills Hacks](./receptive-skills-hacks.md)** - Quick tips & techniques  
 - **Key Topics:** Skimming, Scanning, True/False/Not Given, Matching Headings, Time Management
 
@@ -37,6 +38,7 @@ Lộ trình chi tiết 3 giai đoạn:
 - **[Writing Task 1 Mastery](./writing-task-1.md)** - Biểu đồ, Bản đồ, Quy trình
 - **[Writing Task 2 Mastery](./writing-mastery.md)** - PEER Structure, 4 Essay Types, SHEEP Method
 - **[Idea Bank](./idea-bank.md)** - Kho ý tưởng sẵn cho Technology, Environment, Education...
+- **Writing Advanced Topics**: [Paraphrasing](./writing-advanced/paraphrasing-masterclass.md) | [Coherence & Cohesion](./writing-advanced/coherence-cohesion-deep.md) | [Academic Style](./writing-advanced/academic-style-guide.md) | [Error Log](./writing-advanced/error-correction-log.md) | [Examiner Comments](./writing-advanced/examiner-comments-analysis.md)
 
 **📝 [Writing Samples Library](./writing-samples/README.md)** ⭐ **COMPLETE** (Band 8.0-9.0)
 - **Task 2:** [Technology](./writing-samples/task2-opinion-technology.md) | [Environment](./writing-samples/task2-problem-environment.md) | [Education](./writing-samples/task2-discussion-education.md) | [Tourism](./writing-samples/task2-twopart-tourism.md)
@@ -52,6 +54,7 @@ Lộ trình chi tiết 3 giai đoạn:
 - **[Speaking Mastery](./speaking-mastery.md)** - Formulas cho Part 1, 2, 3
 - **[Fluency Drills](./speaking-fluency-drills.md)** - 4/3/2 Technique, Shadowing
 - **[AI Speaking Partner](./ai-speaking-partner.md)** - ChatGPT prompts để luyện 1-1
+- **Speaking Simulation Lab**: [Part 1 Generator](./speaking-simulation/part1-question-generator.md) | [Part 2 Cue Cards](./speaking-simulation/part2-cue-cards-bank.md) | [Part 3 Debates](./speaking-simulation/part3-debate-topics.md) | [Recording Self-Review](./speaking-simulation/recording-self-assessment.md) | [Examiner Feedback Samples](./speaking-simulation/examiner-feedback-samples.md)
 
 **Key Formulas:**
 - **Part 1:** Answer + Reason/Detail + Example
@@ -93,6 +96,20 @@ Organized by topic - Pick any topic and study the structure:
 - ❌ "Important" → ✅ "Crucial, Vital, Indispensable"
 - ❌ "Bad" → ✅ "Detrimental, Adverse"
 - ❌ "Good" → ✅ "Beneficial, Advantageous"
+
+### **[Vocabulary Flashcard Decks](./vocabulary/README.md)** ⭐ **New**
+- **Anki decks:** Academic Core 500, Speaking Topics, Writing Collocations.
+- **Topic wordlists:** 100 từ Environment, Technology, Education (định nghĩa + câu mẫu).
+- **Collocations by Band:** Bảng so sánh Band 6 vs 7 vs 8 để nâng cấp diễn đạt.
+
+### **[Grammar Module (Band 7.5+)](./grammar/README.md)** ⭐ **New**
+- **Tenses Masterclass:** 12 thì với ví dụ IELTS + checklist timeline.
+- **Complex Sentences Toolkit:** Relative clause, participle, conditional nâng cao.
+- **Common Errors (VN Learners):** 7 lỗi “quốc dân” và cách sửa nhanh.
+- **Grammar for Band 8:** Inversion, cleft sentence, concession structure để tăng “grammatical range & accuracy”.
+
+- **[Practice Tests Hub](./practice-tests/README.md)** ⭐ **New** – Mini tests (Listening/Reading/Writing), Mock Test 1, Score Tracker.
+- **[Pronunciation Deep Dive](./pronunciation/README.md)** ⭐ **New** – IPA cho người Việt, problem sounds, intonation, connected speech, minimal pairs.
 
 ---
 
