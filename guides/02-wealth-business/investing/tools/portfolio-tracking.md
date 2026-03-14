@@ -43,3 +43,15 @@ Khi danh mục bị lệch tỷ trọng, bạn cần biết bán cái nào, mua 
     2.  Nhập tỷ trọng mục tiêu (Target Allocation - VD: 70/30).
     3.  Tool sẽ tính toán: "Hãy dùng tiền mặt mua thêm Trái phiếu, đừng mua Cổ phiếu nữa vì nó đang vượt tỷ trọng".
 *   *Mẹo:* Bạn có thể tự code logic này đơn giản trên Google Sheets.
+
+### 3.1 Quy tắc rebalancing (gợi ý)
+- **Theo % lệch:** Ví dụ target 70/30, rebalance khi lệch >±5% mỗi asset class.
+- **Theo band:** Ví dụ Equity 60-80%, Bond 20-40%; nếu vượt band thì bán/mua để quay về midpoint.
+- **Lịch cố định + sự kiện:** 6 hoặc 12 tháng một lần; thêm điều kiện nếu biến động vượt ngưỡng (VIX, drawdown danh mục).
+
+### 3.2 Ví dụ Sheet/Excel đơn giản
+- Cột: Asset | Giá trị hiện tại | Tỷ trọng hiện tại | Tỷ trọng mục tiêu | Chênh lệch | Gợi ý hành động.
+- Công thức chênh lệch = (Tỷ trọng hiện tại - Tỷ trọng mục tiêu).
+- Dùng dòng tiền mới ưu tiên mua asset đang thiếu tỷ trọng; hạn chế bán nếu chưa cần tối ưu thuế/chi phí.
+
+Liên kết: [IPS Template](./ips-template.md) (đặt mục tiêu & biên rebalance), [Portfolio Construction](../strategy/portfolio-construction.md) nếu có.

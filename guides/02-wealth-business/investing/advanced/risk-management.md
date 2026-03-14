@@ -53,6 +53,8 @@ Rủi ro lớn nhất thường nằm ở chính nhà đầu tư:
 3.  [ ] Điểm cắt lỗ của tôi ở đâu? Nếu lỗ, tôi mất bao nhiêu tiền?
 4.  [ ] Tôi mua vì tin tức ngắn hạn hay vì giá trị doanh nghiệp dài hạn?
 
+> Ghi nhận giao dịch và đánh giá kỷ luật tại [Trading Journal Template](../tools/trading-journal-template.md); cập nhật watchlist tại [Watchlist Template](../tools/watchlist-template.md); lưu IPS tóm tắt tại [IPS One-Pager](../tools/ips-one-pager.md).
+
 ---
 
 ## 📚 Tài liệu bổ sung

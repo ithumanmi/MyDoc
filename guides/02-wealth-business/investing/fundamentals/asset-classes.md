@@ -11,6 +11,7 @@ Hiểu rõ "hàng hóa" bạn sắp mua. Mỗi loại tài sản có Rủi ro (R
 *   **Lợi nhuận:** Tăng giá vốn (Capital Gain) và Cổ tức (Dividend).
 *   **Kỳ vọng:** 8-12%/năm.
 *   👉 **[Xem chi tiết: Hướng dẫn đầu tư Cổ phiếu chuyên sâu](./stocks-deep-dive.md)**
+*   🌐 Nếu muốn tiếp cận cổ phiếu/ETF Mỹ từ Việt Nam: xem [Đầu tư quốc tế](../advanced/international-investing-from-vn.md).
 
 ## 2. Fixed Income (Trái phiếu / Gửi tiết kiệm)
 *   **Là gì:** Bạn cho Chính phủ hoặc Doanh nghiệp vay tiền.

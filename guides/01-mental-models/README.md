@@ -8,25 +8,27 @@
 3. Giúp bạn audit năng lực tư duy của chính mình để biết nên bồi đắp mảng nào.
 
 ## 📚 Module nhanh
-| Module | Mô tả 1 dòng | Link |
-| --- | --- | --- |
-| Mathematics | Logic, xác suất, hệ động lực, chaos | [mathematics/README.md](./mathematics/README.md) |
-| Physics | Entropy, mechanics, energy/force analogies | [physics/README.md](./physics/README.md) |
-| Chemistry | Catalysts, phase change, reaction kinetics | [chemistry/README.md](./chemistry/README.md) |
-| Biology | Evolution, ecology, carrying capacity | [biology/README.md](./biology/README.md) |
-| Psychology | Bias, decision razors, dark psych defense | [psychology/README.md](./psychology/README.md) |
-| Philosophy | Logic, ethics, worldview firmware | [philosophy/README.md](./philosophy/README.md) |
-| History | Chu kỳ, path dependence, Lindy | [history/README.md](./history/README.md) |
-| Global Intelligence | Systems thinking, feedback loops | [global-intelligence/README.md](./global-intelligence/README.md) |
-| Mysticism | Văn hoá/tín ngưỡng như framework nhận thức | [mysticism/README.md](./mysticism/README.md) |
-| Failure Management | Phòng thủ & phục hồi khi đổ vỡ | [failure-management-system.md](./failure-management-system.md) |
-| Metacog-OS | Hệ điều hành tự nhận thức 7 ngày khởi động | [metacognitive-operating-system.md](./metacognitive-operating-system.md) |
+| Module | Mô tả 1 dòng | Link | Ứng dụng Thực chiến |
+| --- | --- | --- | --- |
+| Mathematics | Logic, xác suất, hệ động lực, chaos | [mathematics/README.md](./mathematics/README.md) | ✅ Có (nhiều bài có anchor "Ứng dụng Thực chiến") |
+| Physics | Entropy, mechanics, energy/force analogies | [physics/README.md](./physics/README.md) | ✅ Có |
+| Chemistry | Catalysts, phase change, reaction kinetics | [chemistry/README.md](./chemistry/README.md) | ✅ Có |
+| Biology | Evolution, ecology, carrying capacity | [biology/README.md](./biology/README.md) | ✅ Có |
+| Psychology | Bias, decision razors, dark psych defense | [psychology/README.md](./psychology/README.md) | ✅ Có |
+| Philosophy | Logic, ethics, worldview firmware | [philosophy/README.md](./philosophy/README.md) | ⚠️ Chưa/ít (nên bổ sung mục Applications) |
+| History | Chu kỳ, path dependence, Lindy | [history/README.md](./history/README.md) | ✅ Có |
+| Engineering | Biên an toàn, dự phòng, trade-off, nợ kỹ thuật | [engineering/README.md](./engineering/README.md) | ⚠️ Một phần (cần bổ sung anchor Applications cho Systems/Control) |
+| Global Intelligence | Systems thinking, feedback loops | [global-intelligence/README.md](./global-intelligence/README.md) | ⚠️ Chưa/ít (cần thêm anchor Applications) |
+| Mysticism | Văn hoá/tín ngưỡng như framework nhận thức | [mysticism/README.md](./mysticism/README.md) | ⚠️ Ứng dụng chọn lọc |
+| Failure Management | Phòng thủ & phục hồi khi đổ vỡ | [failure-management-system.md](./failure-management-system.md) | ✅ Có |
+| Metacog-OS | Hệ điều hành tự nhận thức 7 ngày khởi động | [metacognitive-operating-system.md](./metacognitive-operating-system.md) | ✅ Có |
 
 ## 🗺️ Mental Model Roadmap (3 Layer)
 
 | Layer | Nội dung | Câu hỏi chính | Module tiêu biểu |
 | --- | --- | --- | --- |
-| **Layer 1 – Core Sciences** | Math, Physics, Chemistry, Biology | Luật nền của vũ trụ là gì? | [mathematics/](./mathematics/README.md), [physics/](./physics/README.md), [chemistry/](./chemistry/README.md), [biology/](./biology/README.md) |
+| **Layer 1 – Core Sciences** | Math, Physics, Chemistry, Biology | Luật nền & nguyên tắc thiết kế hệ thống? | [mathematics/](./mathematics/README.md), [physics/](./physics/README.md), [chemistry/](./chemistry/README.md), [biology/](./biology/README.md) |
+| **Layer 1.5 – Applied Systems** | Engineering (và sau này Economics nếu thêm) | Thiết kế & vận hành hệ thống bền vững, tối ưu trade-off | [engineering/](./engineering/README.md) |
 | **Layer 2 – Human Systems** | Psychology, Philosophy, History | Con người vận hành thế nào qua thời gian? | [psychology/](./psychology/README.md), [philosophy/](./philosophy/README.md), [history/](./history/README.md) |
 | **Layer 3 – Meta Intelligence** | Global Intelligence, Mysticism, Failure Systems | Làm sao kết nối dữ liệu, dự phóng tương lai, giữ vững hệ thống cá nhân? | [global-intelligence/](./global-intelligence/README.md), [mysticism/](./mysticism/README.md), [Failure Management System](./failure-management-system.md) |
 
@@ -51,11 +53,35 @@
 
 > Action: Viết lại 1 trục điểm thấp, chọn 1 bài tương ứng, triển khai experiment trong 7 ngày.
 
+## 🧭 Topic Map / INDEX nhanh
+- **Decision & Risk:** [decision-making-razors.md](./psychology/decision-making-razors.md), [logic-reasoning.md](./mathematics/logic-reasoning.md), [margin-of-safety.md](./engineering/margin-of-safety.md), [trade-offs.md](./engineering/trade-offs.md)
+- **Bias & Psychology:** [cognitive-biases.md](./psychology/cognitive-biases.md), [dark-psychology-defense.md](./psychology/dark-psychology-defense.md), [fast-correction-mindset.md](./fast-correction-mindset.md)
+- **Systems & Recursion:** [systems-chaos-theory.md](./mathematics/systems-chaos-theory.md), [feedback-loops-deep-dive.md](./global-intelligence/systems-thinking/feedback-loops-deep-dive.md), [recursion-consciousness.md](./recursion-consciousness.md), [recursive-thinking.md](./recursive-thinking.md), [recursion-in-psychology.md](./psychology/recursion-in-psychology.md)
+- **History & Cycles:** [history/README.md](./history/README.md), [path-dependence.md](./history/path-dependence.md), [lindy-effect.md](./history/lindy-effect.md)
+- **Stoicism & Philosophy:** [stoicism-101.md](./philosophy/schools-and-thinkers/stoicism-101.md), [logic-and-fallacies.md](./philosophy/fundamentals/logic-and-fallacies.md), [personal-philosophy-template.md](./philosophy/integration/personal-philosophy-template.md)
+- **Global Intelligence (I.P.O):** [global-intelligence/README.md](./global-intelligence/README.md), [world-order-cycles.md](./global-intelligence/geopolitics-macro/world-order-cycles.md), [future-trends (AI/demography)](./global-intelligence/future-trends/ai-singularity.md)
+- **Failure & Resilience:** [failure-management-system.md](./failure-management-system.md), [metacognitive-operating-system.md](./metacognitive-operating-system.md)
+
+> Full danh sách xem thêm [INDEX.md](./INDEX.md) (phân nhóm chi tiết theo discipline & chủ đề). Nếu bài nào có mục "Ứng dụng Thực chiến" sẽ ghi rõ trong bài; cột trên giúp biết module nào đã có ứng dụng.
+
+## 🧩 Orphan/Root highlights (đưa lên mặt tiền)
+- [core-competency-new-era.md](./core-competency-new-era.md) – năng lực cốt lõi thời AI.
+- [thuc-thoi-trang-tuan-kiet.md](./thuc-thoi-trang-tuan-kiet.md) – mô hình thực thời.
+- [recursive-thinking.md](./recursive-thinking.md) – entry ngắn về đệ quy/self-reference.
+- [recursion-consciousness.md](./recursion-consciousness.md) – góc nhìn toán/ý thức.
+
 ## 🔗 Cross-Domain Shortcuts
 - **History ↔ Wealth:** Khi nghiên cứu chu kỳ (Strauss-Howe, Lindy), mở thêm [investing/advanced/macroeconomics.md](../02-wealth-business/investing/advanced/macroeconomics.md) để nối với kinh tế.
 - **Biology ↔ Entrepreneurship:** Ecosystems, Carrying Capacity gợi ý chiến lược ngách → link [entrepreneurship/growth/sales-funnel-basics.md](../02-wealth-business/entrepreneurship/growth/sales-funnel-basics.md).
 - **Psychology ↔ Lifestyle:** Khi học bias hoặc dark psychology, đối chiếu [well-being/mental-resilience/](../04-lifestyle-os/well-being/mental-resilience/README.md) để có protocol giữ tâm vững.
 - **Global Intelligence ↔ Politics:** Module này kết nối trực tiếp với [politics/README.md](../04-lifestyle-os/politics/README.md) để đọc game quyền lực thế giới.
+- **Strategic Thinking ↔ Career Skills:** Sau khi học mental models, áp dụng vào [03-career-skills](../03-career-skills/README.md) (strategy, leadership, decision) để biến mô hình thành kỹ năng nghề nghiệp.
+
+## 🌟 Bài đặc biệt / Cross-cutting
+- **[recursive-thinking.md](./recursive-thinking.md):** Entry ngắn về đệ quy/self-reference, liên kết tới [recursion-consciousness](./recursion-consciousness.md) và các analogies ở Math.
+- **[recursion-consciousness.md](./recursion-consciousness.md):** Góc nhìn toán/ý thức về đệ quy; liên hệ [mathematics/logic-reasoning.md](./mathematics/logic-reasoning.md) nếu cần nền tảng logic.
+- **[core-competency-new-era.md](./core-competency-new-era.md):** Năng lực cốt lõi thời AI – khung năng lực meta cho kỷ nguyên mới.
+- **[thuc-thoi-trang-tuan-kiet.md](./thuc-thoi-trang-tuan-kiet.md):** Mô hình “thực thời” đặc trưng; gợi ý thực hành timing/attunement.
 
 ## 📚 Case Study Index
 | Mental Model | Case study | Hành động |

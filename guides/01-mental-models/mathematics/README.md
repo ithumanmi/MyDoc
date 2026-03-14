@@ -13,6 +13,7 @@ Module này không dạy bạn giải tích phức tạp để đi thi. Nó cung
 *   **[Tư duy Xác suất trong Đời sống](./probability-real-life.md):** Tại sao bạn sợ đi máy bay hơn đi xe máy? (Expected Value, Risk Assessment).
 *   **Bayesian Thinking:** Cập nhật niềm tin khi có dữ liệu mới.
 *   **[Ứng dụng Thực chiến](./probability-real-life.md#🛠️-ứng-dụng-thực-chiến-life-applications):** Secretary Problem (Hẹn hò/Hiring), Mua bảo hiểm, Dự báo thời tiết.
+*   **⭐ Black Swans & Fat Tails (Taleb):** Tránh lạm dụng phân phối chuẩn; ưu tiên margin of safety, dự phòng cực đoan. Xem thêm: [failure-management-system](../failure-management-system.md) & [antifragile mindset](../global-intelligence/systems-thinking/antifragile.md) nếu có.
 
 ### 📊 2. Thống kê & Dữ liệu (Statistics)
 *Không để những con số đánh lừa.*

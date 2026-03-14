@@ -59,6 +59,8 @@ Trước khi chọn cổ phiếu, bạn cần biết mình là ai:
 *   **VNM hoặc BWE (15%):** Đại diện nhóm Tiêu dùng/Tiện ích - Phòng thủ, cổ tức.
 *   **Tiền mặt (10%):** Chờ đợi cơ hội.
 
+> Nếu muốn thêm lớp phân bổ quốc tế (US ETF, global sector): xem [Đầu tư quốc tế từ VN](./international-investing-from-vn.md) và cân nhắc rủi ro tỷ giá. Nếu lo lạm phát/real rates, tham khảo [Inflation Hedging](./inflation-hedging.md) để pha vàng/commodities/TIPS hợp lý.
+
 ---
 
 ## 📚 Tài liệu bổ sung

@@ -57,5 +57,6 @@ Chu kỳ hàng hóa (Super-cycles) thường kéo dài hàng thập kỷ, đư�
 
 ## 📚 Tài liệu liên quan
 - [Macroeconomics (Vĩ mô & Lạm phát)](./macroeconomics.md)
+- [Inflation Hedging (Chống trượt giá)](./inflation-hedging.md)
 - [Industry Cycles (Chu kỳ ngành trong nước)](./industry-cycles-deep-dive.md)
 - [Vietnam Corporate Giants (Tác động từ bên ngoài)](./vietnam-corporate-giants.md)

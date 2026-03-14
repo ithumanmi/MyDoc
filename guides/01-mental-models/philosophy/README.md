@@ -35,6 +35,11 @@ Lộ trình này được thiết kế đi từ nền tảng tư duy đến các
 *   **[Logic & Argumentation](./fundamentals/logic-and-fallacies.md):** Ngụy biện (Fallacies) và Tam đoạn luận.
 *   **[Epistemology & Science](./fundamentals/epistemology-science.md):** Bản chất tri thức, Popper, Kuhn.
 *   **[Metaphysics & Ontology](./fundamentals/metaphysics-ontology.md):** Tự do ý chí, Thời gian, Bản sắc cá nhân.
+*   **🛠️ Applications (đề xuất):**
+    *   Audit thiên kiến nhận thức cá nhân, viết 3 ví dụ fallacy mình hay mắc.
+    *   Viết “thí nghiệm Popper” nhỏ: giả thuyết → thử phản chứng.
+    *   Nhật ký triết học 7 ngày: mỗi ngày 1 câu hỏi siêu hình/nhận thức luận và phản tư.
+*   **Trạng thái ứng dụng:** ⚠️ Chưa/ít (đã gợi ý Applications – cần anchor chi tiết nếu mở rộng)
 
 ### **🦉 Phase 2: Schools of Thought (Các trường phái lớn)**
 *Đứng trên vai người khổng lồ.*
@@ -53,6 +58,11 @@ Lộ trình này được thiết kế đi từ nền tảng tư duy đến các
 *   **[Postmodernism (Hậu hiện đại)](./schools-and-thinkers/postmodernism-deep-dive.md):** Derrida, Baudrillard, Sự sụp đổ của Chân lý.
 *   **[Political Philosophy (Chính trị)](./schools-and-thinkers/political-philosophy.md):** Tự do vs Bình đẳng, Công lý (Rawls).
     *   **[Advanced Political Philosophy](./schools-and-thinkers/political-advanced.md):** Machiavelli, Arendt, Foucault (Quyền lực).
+*   **🛠️ Applications (đề xuất):**
+    *   Chọn 1 trường phái (Stoicism/Existentialism/Daoism) → viết 3 nguyên tắc và 1 hành động áp dụng trong tuần.
+    *   So sánh 2 trường phái đối lập (ví dụ: Khắc kỷ vs Hiện sinh) về tự do/định mệnh → rút “protocol hành động”.
+    *   Chính trị: phác thảo “hiến pháp cá nhân” ngắn gọn (quyền, nghĩa vụ, checks & balances).
+*   **Trạng thái ứng dụng:** ⚠️ Chưa/ít (đã gợi ý Applications – cần anchor chi tiết nếu mở rộng)
 
 ### **🛠️ Phase 3: Practical Applications (Ứng dụng thực tế)**
 *Triết học không phải để nói, mà để sống.*
@@ -69,12 +79,14 @@ Lộ trình này được thiết kế đi từ nền tảng tư duy đến các
 *   **[Philosophy of AI](./practical-applications/philosophy-of-ai.md):** Turing Test, Chinese Room và vấn đề Ý thức.
 *   **[Aesthetics & Design](./practical-applications/aesthetics-design.md):** Triết học về cái đẹp, Wabi-Sabi, UX Design.
 *   **[Gia Phong – Family Ethos](./practical-applications/family-ethos-gia-phong.md):** Xây “nếp nhà” để cả gia đình có gốc tựa khi đời nghiêng ngả.
+*   **Trạng thái ứng dụng:** ✅ Có (nhiều bài đã có phần thực hành)
 
 ### **🔗 Phase 4: Integration (Kết nối)**
 *Liên kết triết học với các lĩnh vực khác.*
 
 *   [💰 Philosophy meets Economics](./integration/philosophy-meets-economics.md)
 *   [📝 Personal Philosophy Template](./integration/personal-philosophy-template.md) (Xây dựng hệ thống của riêng bạn)
+*   **Trạng thái ứng dụng:** ⚠️ Chưa/ít (nên thêm anchor "Applications" cho template & integration)
 
 ---
 

@@ -63,10 +63,10 @@
 ---
 
 ## 📝 Nhật ký đầu tư (Trading Journal)
-Sau mỗi thương vụ, hãy ghi lại:
-*   Tại sao tôi mua?
-*   Tôi đã làm đúng/sai bước nào trong 10 bước trên?
-*   Bài học rút ra là gì?
+Sau mỗi thương vụ, ghi log tại [Trading Journal Template](../tools/trading-journal-template.md):
+*   Tại sao tôi mua? (ghi trước khi vào lệnh)
+*   Tôi đã làm đúng/sai bước nào trong 10 bước trên? (cột "Bước nào trong 10 Steps")
+*   Bài học rút ra là gì? (cột "Bài học")
 
 ---
 

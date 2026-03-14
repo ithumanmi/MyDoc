@@ -10,6 +10,8 @@
 - Ví dụ: 60/30/10 (Equity/Bond/Alternatives) hoặc 80/20 cho tăng trưởng.
 - Biên độ rebalance: ±5% mỗi asset class.
 
+*Tham khảo thêm:* [Portfolio Construction](../strategy/portfolio-construction.md) và [Risk Management](../strategy/risk-management.md) nếu có trong thư mục strategy.
+
 ### 4) Sản phẩm được phép
 - Equity: VN30/ETF/US ETF; Fixed income: TPCP/TPDN xếp hạng; Alternatives: vàng, REIT, crypto (tỷ lệ trần).
 

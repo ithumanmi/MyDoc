@@ -44,6 +44,7 @@ Chào mừng bạn đến với **Psychology Domain**. Đây là bản đồ ki�
 *   **[Work & Money (Công việc)](./practical-applications/work-money.md):** Động lực, Burnout & Tâm lý học hành vi trong tài chính.
 *   **[Defense & Manipulation (Phòng vệ)](./practical-applications/defense-mechanisms.md):** Gaslighting, Thao túng & Cơ chế phòng vệ.
 *   **[Abnormal Psychology (Bất thường)](./practical-applications/abnormal-psych.md):** Trầm cảm, Lo âu & Rối loạn nhân cách.
+*   **[Negotiation & Influence (Đàm phán & Ảnh hưởng)](./practical-applications/negotiation-influence.md):** Cialdini, Anchoring, Reciprocity. (Link từ career/salary negotiation)
 
 ### **IV. Công cụ & Khung tư duy**
 *   **[🔑 Key Concepts (Từ điển khái niệm)](./key-concepts.md):** Dopamine, Flow, Trauma, Ego, Projection...
@@ -54,6 +55,14 @@ Chào mừng bạn đến với **Psychology Domain**. Đây là bản đồ ki�
 ---
 
 ## 🛠️ Ứng dụng Thực chiến (Life Applications)
+
+### 🔎 Psychology by Use Case (map nhanh)
+- **Quan hệ:** [relationships.md](./practical-applications/relationships.md), [quality-vs-quantity.md](./practical-applications/quality-vs-quantity.md), [art-of-reading-people.md](./practical-applications/art-of-reading-people.md)
+- **Công việc & tiền bạc:** [work-money.md](./practical-applications/work-money.md), [decision-making-razors.md](./decision-making-razors.md)
+- **Phòng vệ / thao túng:** [defense-mechanisms.md](./practical-applications/defense-mechanisms.md), [dark-psychology-defense.md](./dark-psychology-defense.md), [social-psychology.md](./practical-applications/social-psychology.md)
+- **Trưởng thành nội tâm:** [self-mastery.md](./practical-applications/self-mastery.md), [true-maturity.md](./practical-applications/true-maturity.md), [inclusive-quality.md](./practical-applications/inclusive-quality.md)
+- **Đọc người & ảnh hưởng:** [art-of-reading-people.md](./practical-applications/art-of-reading-people.md), [social-psychology.md](./practical-applications/social-psychology.md)
+- **Đệ quy / siêu nhận thức:** [recursion-in-psychology.md](./recursion-in-psychology.md), [three-levels-of-thinking.md](./practical-applications/three-levels-of-thinking.md)
 
 ### 1. [Làm chủ Ra quyết định](./cognitive-biases.md#🛠️-ứng-dụng-thực-chiến-life-applications)
 *   Kích hoạt Hệ thống 2, Chiến lược Mỏ neo trong đàm phán, Cắt lỗ bằng tư duy Zero-based.

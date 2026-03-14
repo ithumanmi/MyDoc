@@ -38,6 +38,7 @@ Chào mừng bạn đến với kho tàng kiến thức về Đầu tư và Kinh
 | Chủ đề | Nội dung |
 | --- | --- |
 | **Value Investing** | [Đầu tư giá trị (Warren Buffett style)](./advanced/value-investing.md) – định giá doanh nghiệp, margin of safety. |
+| **ESG / Bền vững** | [ESG & Sustainable Investing](./strategy/esg-sustainable-investing.md) – đọc ESG rating, ETF ESG, gợi ý doanh nghiệp VN có báo cáo ESG. |
 | **Portfolio Construction** | [All-Weather Portfolio Guide](./advanced/portfolio-construction.md) – xây danh mục đa lớp. |
 | **Sector Rotation** | [Chiến thuật Luân chuyển nhóm ngành](./advanced/sector-rotation-strategy.md) – đọc chu kỳ & dòng tiền. |
 | **Industry Cycles** | [Chu kỳ ngành chuyên sâu](./advanced/industry-cycles-deep-dive.md) – nhận diện phase. |
@@ -126,3 +127,6 @@ Xem **[Reading Path](./reading-path.md)** để đi theo thứ tự Level 1 → 
 2.  Nếu F0: đọc **[Behavioral Economics Primer](./advanced/behavioral-economics.md)** + **[Financial Health Guide](./fundamentals/financial-health.md)**.
 3.  Nếu Foundation: học **[Macroeconomics Guide](./advanced/macroeconomics.md)** + **[Portfolio Construction Framework](./advanced/portfolio-construction.md)**, áp dụng vào danh mục thật nhỏ và tham khảo [Investment Process 10 Steps](./advanced/investment-process-10-steps.md).
 4.  Nếu nâng cấp lên Sector Explorer/Capital Allocator: kết hợp dữ liệu từ [Vietnam Market Library](./vietnam-market/industry-analysis/), [Tax & Investing Compliance](../../../legal/finance-investing/tax-investing.md) và [Legal Templates](../../../legal/templates/) để tránh rủi ro sàn.
+
+## 📚 Lộ trình đọc (Learning Path)
+Xem chi tiết tại **[fundamentals/learning-path.md](./fundamentals/learning-path.md)**.
