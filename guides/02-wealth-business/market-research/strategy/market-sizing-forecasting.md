@@ -43,6 +43,25 @@ Khi không có số liệu chính xác, hãy dùng tư duy Fermi để phỏng �
 
 -> Con số này đủ hấp dẫn để làm không? Có.
 
+### Khi nào dùng Fermi vs cần số liệu thật?
+- **Dùng Fermi** khi: không có dữ liệu đáng tin, cần quyết định nhanh go/no-go, hoặc để đặt upper/lower bound trước khi tốn công crawl/survey.
+- **Dùng số liệu thật** khi: đã có kênh dữ liệu (report/traffic/conversion), cần thuyết phục investor, hoặc khi sai số 2-3x sẽ làm hỏng kế hoạch (CAPEX/OPEX lớn).
+- **Quy tắc:** Fermi để tạo giả định; sau đó thay dần bằng số liệu thật (search volume, CTR, CR, ARPPU) và ghi rõ nguồn/ngày.
+
+### Top-down vs Bottom-up (dùng cả hai để kiểm chéo)
+- **Top-down:** xuất phát từ số liệu ngành (industry report, total spend, #users). Ví dụ: thị trường email marketing $X Bn; bạn nhắm SME US 10% → share tiềm năng. Ưu: nhanh. Nhược: dễ ảo, không thấy ràng buộc kênh/CR.
+- **Bottom-up:** bắt đầu từ unit economics/kênh. Ví dụ SaaS: visits → signup → activation → pay → ARPPU → MRR; Game: impressions → CTR → installs → payer% → ARPPU. Ưu: sát thực tế, thấy đòn bẩy. Nhược: cần dữ liệu/giả định cụ thể.
+- **Best practice:** làm cả hai; nếu chênh >3-5x, rà lại giả định (traffic, CR, ARPPU, cap/geo). Investor sẽ hỏi: “Bạn lấy traffic ở đâu?” và “Giá/CR này dựa trên gì?”.
+
+### Assumptions log (template)
+| Giả định | Giá trị | Nguồn | Ngày | Ghi chú/cần cập nhật |
+| --- | --- | --- | --- | --- |
+| CTR landing | 2% | Test ads FB (n=500 clicks) | 2026-03-01 | Cập nhật sau 1 tuần test khác creative |
+| Payer% | 3% | Nội bộ game hyper-casual cũ | 2026-02-20 | Có thể thấp hơn nếu CPI cao/không hợp genre |
+| ARPPU tháng | $8 | Cohort Jan-2026 | 2026-02-28 | Check lại khi ra market mới |
+
+> Lời khuyên: duy trì assumptions log riêng, mỗi lần thay giả định phải ghi nguồn/ngày để tránh “trôi giả định”.
+
 ---
 
 ## 3. Revenue Modeling (Mô hình Doanh thu)

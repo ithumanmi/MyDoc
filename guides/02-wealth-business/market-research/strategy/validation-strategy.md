@@ -67,6 +67,18 @@ Bạn chưa cần game xong mới tạo trang Steam. Hãy tạo sớm để **"H
 *   Nếu **Click Rate > 20%**: Nhu cầu rất cao -> Nên ưu tiên làm ngay.
 *   Nếu **Click Rate < 5%**: Ít người quan tâm -> Bỏ qua hoặc làm sau.
 
+### Fake door vs Landing vs Smoke/Concierge (effort vs signal)
+| Phương án | Effort | Signal strength | Khi dùng |
+| --- | --- | --- | --- |
+| **Fake door** (nút/CTA trong sản phẩm) | Thấp | Trung bình (intent click) | Test tính năng mới với user hiện tại |
+| **Landing page** (waitlist/lead) | Thấp-vừa | Trung bình (email/lead) | Test định vị/USP, thu lead rẻ | 
+| **Smoke test** (quảng cáo + flow mua/đặt lịch, manual fulfill) | Vừa | Cao (willingness to pay / book) | Trước khi build sản phẩm, đo sẵn sàng trả |
+| **Concierge test** (người thật làm dịch vụ) | Cao | Rất cao (retention/pay) | Bắt đầu dịch vụ thủ công để học quy trình/đau thực |
+
+**Smoke test**: chạy ads/traffic vào flow thanh toán/đặt lịch (có thể thu tiền hoặc đặt cọc nhỏ); nếu chưa build, hoàn tiền và xin phỏng vấn. Đo CTR→signup→checkout/booking.
+
+**Concierge test**: bạn (hoặc team) làm thủ công như sản phẩm/dịch vụ hứa hẹn. Dùng khi cần chứng minh outcome và hiểu chi tiết quy trình trước khi tự động hóa. Đo: willingness to pay thực, thời gian/chi phí serve, churn sau 1-2 tuần.
+
 ---
 
 ## 🧪 MVP vs SLC

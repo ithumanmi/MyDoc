@@ -81,3 +81,12 @@ Khác với B2C (chạy ads), B2B có thể kiểm chứng bằng cách... đi b
 - Với **Feature Gap**: map sang backlog (P0/P1) và ghi rõ "loss count" để ưu tiên.
 - Với **Price**: xem lại packaging (đưa tính năng đắt vào add-on/tier cao), cạnh tranh theo ROI thay vì hạ giá chung.
 - Với **Security/Compliance**: chuẩn bị một-pager (SOC2/GDPR, SSO/SCIM, DPA, data residency) để giảm loss vì rủi ro.
+
+### Win/Loss interview checklist (5 câu hỏi + script mở)
+- **Mở đầu (script):** "Cảm ơn bạn đã dành thời gian. Mục tiêu là học hỏi để phục vụ tốt hơn, không phải bán lại. Chia sẻ của bạn được giữ kín. Mất khoảng 10 phút, ok chứ?"
+- Q1: Điều gì quan trọng nhất khiến bạn chọn / không chọn chúng tôi?
+- Q2: Nếu chọn đối thủ khác, họ hơn ở điểm nào (tính năng, giá, bảo mật, tích hợp, UX)?
+- Q3: Có điều gì khiến bạn do dự về chúng tôi (feature thiếu, bảo mật, onboarding, support)?
+- Q4: Khi so sánh, tiêu chí ra quyết định của bạn là gì? Ai tham gia quyết định?
+- Q5: Điều gì cần có để bạn cân nhắc chúng tôi trong 3-6 tháng tới?
+- **Kết thúc:** cảm ơn, hỏi thêm: "Có gì chúng tôi có thể cải thiện ngay ngắn hạn?" và xin phép follow-up khi tính năng/bảo mật hoàn thiện.
