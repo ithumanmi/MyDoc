@@ -26,6 +26,9 @@ updated: 2026-03-11
 | [Real-time Flash Sale Inventory](./realtime-flash-sale-inventory.md) | Redis counter, reservation window, anti-oversell | Flash sale, inventory realtime |
 | [Circuit Breaker vs Retry](./circuit-breaker-vs-retry.md) | Lý do cần circuit breaker, pattern triển khai | Reliability, dependency protection |
 | [Redis Durability Playbook](./redis-durability.md) | RDB/AOF persistence, replication, failover | Redis dùng làm state store an toàn |
+| [Realtime Payment Microservice](./realtime-payment-microservice.md) | 100k RPS, exactly-once, active-active multi-region, ledger/outbox | Hệ thống payment realtime cần đúng/sống sót đa vùng |
+| [Designing Data-Intensive Apps (cheatsheet)](./designing-data-intensive-applications.md) | Tóm tắt DDIA: mô hình dữ liệu, replication, partition, idempotency, streaming/batch, di trú | Khi cần ra quyết định kiến trúc dữ liệu
+| [Distributed Messaging & Coordination](./distributed-messaging-and-coordination.md) | Kafka/Pulsar/RabbitMQ, Paxos/Raft/ZooKeeper, EOS patterns, saga, 2PC, idempotent producer/consumer dedup | Thiết kế messaging + exactly-once + coordination
 
 ## 🗺️ Roadmap sắp tới
 - [ ] **Event Streaming Platform** – Kafka/Pulsar, schema registry, consumer scaling.
