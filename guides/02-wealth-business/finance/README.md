@@ -5,6 +5,7 @@ tags:
   - finance
   - overview
 updated: 2026-03-10
+updated: 2026-03-13
 ---
 
 # 💰 Finance Module Overview
@@ -17,19 +18,27 @@ updated: 2026-03-10
 
 | Chủ đề | Nội dung |
 | --- | --- |
-| **Economic Cycles** | [Economic Cycles Guide](economic-cycles.md) – khung theo dõi chu kỳ và tín hiệu chuyển pha. |
-| **Monetary System** | [Monetary System Handbook](monetary-system.md) – cấu trúc tiền tệ, ngân hàng trung ương, chính sách. |
-| **Geopolitics & Supply Chain** | [Geopolitics & Supply Chain Playbook](geopolitics-supply-chain.md) – tác động địa chính trị lên logistics & energy. |
-| **Money Flow Intelligence** | [Money Flow Intelligence](money-flow-intelligence.md) – cách map dòng tiền doanh nghiệp/đầu tư. |
+| **Economic Cycles** | [Economic Cycles Guide](macro/economic-cycles.md) – khung theo dõi chu kỳ và tín hiệu chuyển pha. |
+| **Monetary System** | [Monetary System Handbook](macro/monetary-system.md) – cấu trúc tiền tệ, ngân hàng trung ương, chính sách. |
+| **Inflation-Deflation Playbook** | [Inflation & Stagflation Scenarios](macro/inflation-deflation-playbook.md) – hành động cho từng regime. |
+| **Interest Rate Impact** | [Interest Rate Impact Playbook](macro/interest-rate-impact.md) – tác động hikes/cuts lên tài sản, ngân hàng. |
+| **Global Indicators** | [Global Macro Indicators Dashboard](macro/global-macro-indicators.md) – bảng điều khiển PMI, liquidity, credit. |
+| **Currency Dynamics** | [Currency Dynamics & FX Playbook](macro/currency-dynamics.md) – theo dõi USD regime và quản trị rủi ro FX. |
+| **Commodity Supercycles** | [Commodity Supercycle Tracker](macro/commodity-supercycles.md) – khung theo dõi energy/metals/agri chu kỳ dài. |
+| **Geopolitics & Supply Chain** | [Geopolitics & Supply Chain Playbook](macro/geopolitics-supply-chain.md) – tác động địa chính trị lên logistics & energy. |
+| **Money Flow Intelligence** | [Money Flow Intelligence](macro/money-flow-intelligence.md) – cách map dòng tiền doanh nghiệp/đầu tư. |
+| **Personal Finance Module** | [Personal Finance Module](personal-finance/README.md) – budgeting, quỹ khẩn cấp, trả nợ, bảo hiểm, hưu trí & tối ưu thuế (VN). |
+| **Vietnam Financial Markets** | [Vietnam Financial Markets Deep Dive](vietnam-financial-markets-deep-dive.md) – bức tranh hệ sinh thái tài chính & chỉ báo nội địa. |
 
 ## 2. Domain Playbooks
 
 | Playbook | Mục tiêu |
 | --- | --- |
-| **Finance Domain Playbook** | [Finance Domain Playbook](finance-domain-playbook.md) – hướng dẫn cho dev/BA khi xây hệ thống tài chính. |
-| **Core Banking Modernization** | [Core Banking Modernization Roadmap](core-banking-modernization.md) – roadmap chuyển đổi core banking. |
-| **Deposit / Lending / Payments** | [Deposit Platform](deposit-platform-playbook.md), [Lending Platform](lending-platform-playbook.md), [Payments Platform](payments-platform-playbook.md). |
+| **Finance Domain Playbook** | [Finance Domain Playbook](banking-domain/finance-domain-playbook.md) – hướng dẫn cho dev/BA khi xây hệ thống tài chính. |
+| **Core Banking Modernization** | [Core Banking Modernization Roadmap](banking-domain/core-banking-modernization.md) – roadmap chuyển đổi core banking. |
+| **Deposit / Lending / Payments** | [Deposit Platform](banking-domain/deposit-platform-playbook.md), [Lending Platform](banking-domain/lending-platform-playbook.md), [Payments Platform](payments-platform-playbook.md). |
 | **Insurance Policy Administration** | [Insurance Policy Administration Playbook](insurance-policy-admin-playbook.md) – kiến trúc vận hành bảo hiểm. |
+| **Insurance Product Deep Dive** | [Insurance Product Deep Dive](insurance-products-deep-dive.md) – phân tích product stack Life/Health/P&C/Embedded. |
 
 ## 3. Emotional Economy Series
 

@@ -74,7 +74,10 @@ graph TD
 *   **[Cost Optimization](./machine-learning/cost-optimization.md):** Chiến lược tiết kiệm chi phí data, compute, inference và monitoring.
 *   **[Cloud Guides](./machine-learning/cloud-guides.md):** Cheat-sheet dịch vụ AWS/Azure/GCP cho training, deployment và multi-cloud tips.
 *   **[Hands-on Labs](./machine-learning/hands-on-labs.md):** Notebook template, project ideas và Kaggle competition playbook.
-*   **[AI/ML Labs & Projects](./labs/README.md):** Kaggle guide, end-to-end projects (classification, sentiment, recommender) và advanced builds (RAG chatbot, coding agent, Colab GPU tips).
+*   **[AI/ML Labs & Projects](./labs/README.md):** Chuẩn hoá cách luyện tập qua hướng dẫn Kaggle, dự án end-to-end (classification, sentiment, recommender) và build nâng cao (RAG chatbot, coding agent, Colab GPU tips).
+    *   **[Kaggle Competition Guide](./labs/kaggle-competition-guide.md):** Checklist chuẩn bị dữ liệu, baseline, submit và tối ưu leaderboard.
+    *   **[Project RAG Chatbot](./labs/project-rag-chatbot.md):** Thiết kế kiến trúc RAG, chunking, retriever hybrid và UX chat.
+    *   **[Colab GPU Tips](./labs/colab-gpu-tips.md):** Tối ưu quota, mixed precision, profile GPU và mẹo tiết kiệm chi phí.
 
 ### **3. Deep Learning (Mạng nơ-ron)**
 *   **[Neural Networks 101](./deep-learning/neural-networks-101.md):** Perceptron, Backpropagation và các hàm kích hoạt (ReLU, Sigmoid).
@@ -110,9 +113,14 @@ graph TD
 *   **[Information Retrieval](./nlp/information-retrieval.md):** BM25, dense retrieval, hybrid reranking và đánh giá nDCG/MRR.
 
 ### **6. Generative AI (AI tạo sinh)**
-*   **[Diffusion Models](./generative-ai/diffusion-models.md):** Cách Stable Diffusion vẽ tranh từ văn bản.
-*   **[🛡️ Responsible AI](./generative-ai/responsible-ai.md):** Nguyên tắc, rủi ro và cách xây dựng AI an toàn, công bằng.
-*   **[PEFT & LoRA Guide](./nlp/peft-lora-guide.md):** Hướng dẫn hands-on fine-tuning LLM bằng PEFT/LoRA/QLoRA, script HuggingFace, evaluation và deployment tips.
+*   **[Diffusion Models](./generative-ai/diffusion-models.md):** Giải phẫu Stable Diffusion, sampling schedule và pipeline huấn luyện.
+*   **[Multimodal Models](./generative-ai/multimodal-models.md):** Mô hình text-image-audio, CLIP/ALIGN, Flamingo, Chameleon và chiến lược fine-tune.
+*   **[Text-to-Video](./generative-ai/text-to-video.md):** Workflow Sora/Gen-3/Runway, 3D Gaussian Splatting và quy trình render tối ưu.
+*   **[Audio Generation](./generative-ai/audio-generation.md):** MusicLM, AudioLM, voice cloning và mẹo kiểm soát nhạc/cảm xúc.
+*   **[3D Generation](./generative-ai/3d-generation.md):** NeRF, Gaussian Splatting, DreamFusion và ứng dụng XR/metaverse.
+*   **[Prompt Testing & Evaluation](./generative-ai/prompt-testing.md):** Thiết lập test harness, đánh giá quality/cost/latency và checklist reproducibility.
+*   **[Content Safety & Responsible AI](./generative-ai/content-safety.md):** Guardrails, watermarking, moderation pipelines.
+*   **[Responsible AI Strategy](./generative-ai/responsible-ai.md):** Framework quản trị, tuân thủ và quy trình phê duyệt mô hình.
 
 ### **7. AI Agents & Multi-Agent Systems (Trợ lý AI)** — *Bước 4 trong [AI Engineering Roadmap 2026](./ai-engineering-roadmap-2026.md)*
 *   **[Agents — Mục lục & Lộ trình](./agents/README.md):** ⭐ Tổng quan và thứ tự học (Architecture → Frameworks → RAG/Memory → Multi-Agent → Eval).

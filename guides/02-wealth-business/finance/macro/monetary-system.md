@@ -63,7 +63,65 @@ Trong một thế giới ngập tràn tiền in (Fiat), giữ tiền mặt là r
 *   **Quy tắc:** Đổi tiền giấy (Liability) sang Tài sản (Assets) càng sớm càng tốt.
 *   **Danh mục phòng vệ:** Bất động sản, Cổ phiếu (Sở hữu doanh nghiệp), Vàng, Bitcoin.
 
+## 🧱 Phần 5: Monetary Plumbing & Dollar Hierarchy
+
+### 5.1 Eurodollar System
+- USD offshore (Eurodollar) > onshore deposits; ngân hàng châu Âu phát hành USD liabilities không cần dự trữ Fed.
+- Fed không trực tiếp kiểm soát liquidity này, nên khi stress (ví dụ 2008, 2020) phải mở swap line.
+
+### 5.2 Hierarchy
+1. **Central bank reserves** – chỉ ngân hàng truy cập được.
+2. **Commercial bank money** – tiền gửi của doanh nghiệp/cá nhân.
+3. **Shadow money** – repo, money market funds.
+4. **Crypto/digital assets** – lớp mới, chưa tích hợp sâu.
+
+> Khi một lớp mất niềm tin (ví dụ shadow bank run 2008), lớp trên phải backstop → mở rộng bảng cân đối.
+
+## ⚙️ Phần 6: Monetary Policy Toolkit 2020s
+
+| Công cụ | Mô tả | Tình huống dùng |
+| --- | --- | --- |
+| **Policy Rate** | Lãi suất ngắn hạn (Fed Funds) | Chu kỳ kinh doanh thông thường |
+| **QE / QT** | Mua/bán trái phiếu dài hạn để bơm/hút thanh khoản | Khi lãi suất gần 0% vẫn cần kích thích |
+| **Yield Curve Control** | Neo lợi suất ở mức nhất định (BoJ) | Kiểm soát chi phí nợ công, hỗ trợ ngân hàng |
+| **Macroprudential** | Tỷ lệ dự trữ bắt buộc, hạn mức tăng trưởng tín dụng | Hướng dòng tín dụng vào/ra lĩnh vực rủi ro |
+| **FX intervention** | Bán USD, mua nội tệ hoặc ngược lại | Ổn định tỷ giá, chống dollar shortage |
+
+> Bối cảnh hiện nay: ngân hàng trung ương phải xử lý "triple mandate" – lạm phát, tăng trưởng, ổn định tài chính.
+
+## 🧮 Phần 7: Balance Sheet Lens
+
+| Actor | Asset | Liability | Ghi chú |
+| --- | --- | --- | --- |
+| Central Bank | Reserves, securities | Currency in circulation, bank reserves | Mở rộng khi QE, thu hẹp khi QT |
+| Commercial Bank | Loans, securities | Deposits | Chịu rủi ro duration (Silicon Valley Bank case) |
+| Non-bank (MMF) | Treasuries, reverse repo | Shares (NAV) | Di chuyển nhanh giữa RRP và T-bill |
+
+**Stress test:** theo dõi Unrealized losses vs capital, đặc biệt khi lãi suất tăng mạnh.
+
+## 🌐 Phần 8: CBDC vs Stablecoin
+
+- **CBDC retail**: có thể thay thế tiền mặt, nhưng lo ngại privacy.
+- **Stablecoin (USDC, USDT):** đóng vai trò cầu nối DeFi ↔ CeFi; phụ thuộc tài sản bảo chứng (T-bill, repo).
+- **Hybrid model:** CBDC dùng wholesale, stablecoin phục vụ retail, ngân hàng vẫn xử lý KYC.
+
+## 🧭 Phần 9: Strategy Notes for Builders
+
+1. **Banking stack:** chuẩn bị API để kết nối CBDC/instant payment rails.
+2. **Treasury management:** đa dạng hóa tiền gửi (nhiều ngân hàng, ladder T-bill) sau cú sốc SVB.
+3. **Startup fintech:** theo dõi sandbox quy định (ví dụ: NHNN Việt Nam, MAS Singapore) để tích hợp early.
+4. **Crypto teams:** tập trung chứng minh dự trữ (proof-of-reserves), hợp tác ngân hàng địa phương.
+
+## 📚 Appendix: Key Historical Milestones
+
+- 1944 Bretton Woods: USD trở thành reserve currency.
+- 1971 Nixon Shock: chấm dứt convertibility.
+- 2008 GFC: QE 1.0 + swap lines.
+- 2020 Pandemic: QE infinity + fiscal helicopter.
+- 2023 Banking mini-crisis: BTFP (Bank Term Funding Program) hỗ trợ duration losses.
+
 ---
 > **Đọc thêm:**
-> *   [Money Flow Intelligence](./money-flow-intelligence.md) - Cách theo dấu dòng tiền.
+> * [Money Flow Intelligence](../money-flow-intelligence.md)
+> * [Economic Cycles](./economic-cycles.md)
 > *   [Critical Thinking](../../../03-career-skills/productivity/core-skills/critical-thinking.md) - Tư duy độc lập về tài chính.

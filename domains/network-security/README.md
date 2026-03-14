@@ -66,20 +66,32 @@ graph TD
 
 ## 📚 3. Detailed Roadmap (Mục lục chi tiết)
 
-### **Module 1: Networking Foundations (Mạng căn bản)**
-*   **[Networking Fundamentals](./networking-fundamentals.md):** Mô hình OSI 7 lớp, TCP/IP, cách Internet vận hành.
-*   **Key Concepts:** IP Address, Subnet mask, Mac Address, Port, Protocol (TCP vs UDP).
+### **Foundations (Nền tảng bắt buộc)**
+*   **[Networking Fundamentals](./foundations/networking-fundamentals.md):** Mô hình OSI 7 lớp, TCP/IP, cách Internet vận hành.
+*   **[Security Fundamentals](./foundations/security-fundamentals.md):** CIA Triad, Cryptography (Mã hóa), Hashing (Băm), Digital Signature.
+*   **[Cryptography Deep Dive](./foundations/cryptography-deep-dive.md):** PKI, TLS, thực hành OpenSSL.
 
-### **Module 2: Security Foundations (Bảo mật căn bản)**
-*   **[Security Fundamentals](./security-fundamentals.md):** CIA Triad, Cryptography (Mã hóa), Hashing (Băm), Digital Signature.
-*   **Key Concepts:** Public/Private Key, SSL/TLS Handshake, Salt & Pepper.
+### **Defense Operations (Blue Team)**
+*   **[Network Defense & Operations](./defense-operations/network-defense.md):** Firewall, VPN, IDS/IPS, server hardening.
+*   **[Cloud Security Basics](./defense-operations/cloud-security-basics.md):** Shared responsibility, IAM, monitoring.
+*   **[Container Security](./defense-operations/container-security.md):** Runtime hardening, supply chain.
+*   **[Forensics & Incident Response](./defense-operations/forensics-incident-response.md):** DFIR workflow.
+*   **[Wireless Security](./defense-operations/wireless-hacking.md):** WPA2, Evil Twin, bảo vệ Wi-Fi.
 
-### **Module 3: Web Security (Dành cho Web Dev)**
-*   **[Web Security & OWASP Top 10](./web-security-owasp.md):** Các lỗ hổng web phổ biến nhất và cách phòng chống.
-*   **Attacks:** SQL Injection, XSS, CSRF, DDoS.
+### **Offensive Security (Red Team)**
+*   **[Web Security & OWASP Top 10](./offensive-security/web-security-owasp.md):** SQLi, XSS, CSRF, SSRF.
+*   **[Social Engineering](./offensive-security/social-engineering.md):** Phishing, OSINT, SET.
 
-### **Module 4: Network Defense (Phòng thủ)**
-*   **[Network Defense & Operations](./network-defense.md):** Firewall, VPN, IDS/IPS, Hardening Server.
+### **Governance & Strategy**
+*   **[Anonymity & OpSec](./governance-strategy/anonymity-opsec.md):** Tor, OPSEC mindset.
+*   **[Governance, Risk & Compliance](./governance-strategy/governance-risk-compliance.md):** ISO/NIST.
+*   **[Threat Intelligence](./governance-strategy/threat-intelligence.md):** Cyber Kill Chain, ATT&CK mapping.
+
+### **DevSecOps & Platform Security**
+*   **[AppSec & DevSecOps](./devsecops/appsec-devsecops.md):** Shift-left pipeline.
+*   **[API Security](./devsecops/api-security.md):** OWASP API Top 10.
+*   **[Supply Chain Attacks](./devsecops/supply-chain-attacks.md):** Sigstore, artifact signing.
+*   **[LLM Security](./devsecops/llm-security.md):** Prompt injection, jailbreak defense.
 
 ---
 
@@ -123,8 +135,8 @@ Học Security là phải thực chiến. Hãy làm các bài lab này (trên m�
 *   **[CTF Writeup Template](./labs/ctf-writeup-template.md):** Chuẩn hóa note/writeup, dễ chia sẻ và rút kinh nghiệm.
 
 ### **Advanced Topics (Nâng cao)**
-*   **[Wireless Security (Wi-Fi Hacking)](./wireless-hacking.md):** Tấn công WPA2 Handshake, Evil Twin và cách phòng thủ.
-*   **[Social Engineering (Hacking con người)](./social-engineering.md):** Phishing, OSINT và sử dụng SET (Social-Engineer Toolkit).
+*   **[Wireless Security (Wi-Fi Hacking)](./defense-operations/wireless-hacking.md):** Tấn công WPA2 Handshake, Evil Twin và cách phòng thủ.
+*   **[Social Engineering (Hacking con người)](./offensive-security/social-engineering.md):** Phishing, OSINT và sử dụng SET (Social-Engineer Toolkit).
 
 ### **Lab Progression Checklist**
 
@@ -145,28 +157,28 @@ Học Security là phải thực chiến. Hãy làm các bài lab này (trên m�
 | Advanced Threat Analytics | JA3, DNS beacon, cloud log | [Advanced Detection](./labs/advanced-detection-usecases.md), [Chronicle BigQuery Lab](./labs/chronicle-detection-lab.md#-chronicle-advanced-lab-bigquery--looker-exploration) |
 
 ### **Mastery & Specialized Fields (Chuyên sâu)**
-*   **[Cryptography Deep Dive](./cryptography-deep-dive.md):** Mã hóa đối xứng/bất đối xứng, Hashing, PKI và thực hành OpenSSL.
-*   **[Cloud Security](./cloud-security-basics.md):** Bảo mật AWS/Azure, Mô hình trách nhiệm chia sẻ, IAM và S3 Leaks.
-*   **[Digital Forensics & Incident Response](./forensics-incident-response.md):** Quy trình ứng cứu sự cố, phân tích Malware và điều tra số.
-*   **[Anonymity & OpSec](./anonymity-opsec.md):** Nghệ thuật ẩn danh, Tor, Dark Web và bảo vệ danh tính.
+*   **[Cryptography Deep Dive](./foundations/cryptography-deep-dive.md):** Mã hóa đối xứng/bất đối xứng, Hashing, PKI và thực hành OpenSSL.
+*   **[Cloud Security](./defense-operations/cloud-security-basics.md):** Bảo mật AWS/Azure, Mô hình trách nhiệm chia sẻ, IAM và S3 Leaks.
+*   **[Digital Forensics & Incident Response](./defense-operations/forensics-incident-response.md):** Quy trình ứng cứu sự cố, phân tích Malware và điều tra số.
+*   **[Anonymity & OpSec](./governance-strategy/anonymity-opsec.md):** Nghệ thuật ẩn danh, Tor, Dark Web và bảo vệ danh tính.
 
 #### Cloud Security ↔ Labs/Guides
 | Chủ đề | Nội dung | Tài liệu/Lab |
 | --- | --- | --- |
-| IAM & Least Privilege | Chính sách IAM, MFA, key rotation | [Cloud Security Basics](./cloud-security-basics.md#iam--identity-architecture), [Azure Sentinel Lab](./labs/azure-sentinel-threat-hunting.md) |
+| IAM & Least Privilege | Chính sách IAM, MFA, key rotation | [Cloud Security Basics](./defense-operations/cloud-security-basics.md#iam--identity-architecture), [Azure Sentinel Lab](./labs/azure-sentinel-threat-hunting.md) |
 | Logging & Detection | CloudTrail, Azure Monitor | [Chronicle Detection Lab](./labs/chronicle-detection-lab.md), [Advanced Detection](./labs/advanced-detection-usecases.md#5-cloudtrail-suspicious-console-login) |
-| Network Segmentation | VPC, Security Group, WAF | [Network Defense](./network-defense.md), [Virtual Lab Setup](./labs/virtual-lab-setup.md) |
+| Network Segmentation | VPC, Security Group, WAF | [Network Defense](./defense-operations/network-defense.md), [Virtual Lab Setup](./labs/virtual-lab-setup.md) |
 | Incident Response | Forensics, automation | [QRadar Offense Automation](./labs/qradar-offense-automation.md), [Chronicle BigQuery Lab](./labs/chronicle-detection-lab.md#-chronicle-advanced-lab-bigquery--looker-exploration) |
 
 ### **InfoSec Strategy & Management (Quản lý & Chiến lược)**
-*   **[Governance, Risk & Compliance (GRC)](./governance-risk-compliance.md):** ISO 27001, NIST Framework và quản lý rủi ro doanh nghiệp.
-*   **[AppSec & DevSecOps](./appsec-devsecops.md):** Bảo mật ứng dụng hiện đại (SAST/DAST) và tích hợp vào CI/CD.
-*   **[Threat Intelligence](./threat-intelligence.md):** Tình báo mối đe dọa, Cyber Kill Chain và MITRE ATT&CK.
+*   **[Governance, Risk & Compliance (GRC)](./governance-strategy/governance-risk-compliance.md):** ISO 27001, NIST Framework và quản lý rủi ro doanh nghiệp.
+*   **[AppSec & DevSecOps](./devsecops/appsec-devsecops.md):** Bảo mật ứng dụng hiện đại (SAST/DAST) và tích hợp vào CI/CD.
+*   **[Threat Intelligence](./governance-strategy/threat-intelligence.md):** Tình báo mối đe dọa, Cyber Kill Chain và MITRE ATT&CK.
 
 #### DevSecOps ↔ Toolchain Mapping
 | DevSecOps stage | Mục tiêu bảo mật | Tool/Resource |
 | --- | --- | --- |
-| Plan & Requirements | Threat modeling, policy-as-code | [AppSec & DevSecOps guide](./appsec-devsecops.md#1-threat-modeling), IriusRisk, Threat Dragon |
+| Plan & Requirements | Threat modeling, policy-as-code | [AppSec & DevSecOps guide](./devsecops/appsec-devsecops.md#1-threat-modeling), IriusRisk, Threat Dragon |
 | Code & Build | Static scan, dependency audit | SonarQube, Semgrep, GitHub Advanced Security |
 | Test & Validate | DAST, API scanning, IaC checks | OWASP ZAP, Burp CI, Checkov, tfsec |
 | Deploy & Release | Secrets management, supply chain | HashiCorp Vault, SOPS, Sigstore/Cosign |
