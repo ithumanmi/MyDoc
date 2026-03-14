@@ -11,6 +11,8 @@ Tài liệu hướng dẫn toàn diện về Nghiên cứu Thị trường & Ph�
 - **Game Dev:** xem nhanh [Game Market Research](./games/game-market-research.md), [Game Market Sizing Practice](./games/game-market-sizing-practice.md), và nếu MMO/tools thì [MMO Tools Research](./games/mmo-tools-market-research.md). Cross-link: roadmaps MMO/game trong `domains/game-dev/`, `domains/mmo-engineering/`.
 - **App / SaaS Builder:** bắt đầu từ [Mobile App Market Research](./apps-saas/mobile-app-market-research.md) hoặc [SaaS Market Research](./apps-saas/saas-market-research.md); xem thêm [B2B Sales Intelligence](./apps-saas/b2b-sales-intelligence.md), [PLG Research](./apps-saas/plg-research-framework.md). Cross-link: `domains/web-dev/`, `domains/backend-dev/`, `domains/ai-ml/` (LLM-based app), `domains/data-analytics/` (dashboard/BI), `domains/mmo-engineering/` nếu build automation.
 - **Indie hacker / Side-hustle:** đi theo [Validation Strategy](./strategy/validation-strategy.md) + [Trend Spotting](./strategy/trend-spotting-alpha.md); tham khảo `guides/03-career-skills/` (productivity) và `domains/ai-ml/agents/` nếu muốn build agentic tool.
+  - Nếu MMO/tools: xem [MMO Tools Research](./games/mmo-tools-market-research.md) (cross-link `guides/02-wealth-business/mmo-roadmap`).
+  - Nếu macro/industry góc đầu tư: xem [Market Sizing & Forecasting](./strategy/market-sizing-forecasting.md) và [Competitor Analysis](./core/competitor-analysis-framework.md).
 
 ### 🧭 Bắt đầu theo vai (bảng điều hướng nhanh)
 
@@ -38,7 +40,9 @@ Tài liệu hướng dẫn toàn diện về Nghiên cứu Thị trường & Ph�
 
 ### 🔗 Cross-links hữu ích
 - **Side-hustle & freelancing:** [Freelancer Framework](../../03-career-skills/productivity/side-hustle/freelancer-framework.md), [Freelancer Roadmap](../../03-career-skills/productivity/side-hustle/freelancer-roadmap.md), [Content Creation Blueprint](../../03-career-skills/productivity/side-hustle/content-creation-blueprint.md).
+  - Validation ý tưởng/niche: [Validation Strategy](./strategy/validation-strategy.md), [User Research & Persona](./core/user-research-persona.md).
 - **Investing / validation mindset:** xem `domains/data-analytics/` (phân tích dữ liệu), `guides/03-career-skills/career/indie-hacker-roadmap.md`, và nếu cần góc đầu tư thị trường rộng hơn: `domains/blockchain/` và `guides/03-career-skills/productivity/side-hustle/monetization-models.md`.
+  - Macro/industry sizing: [Market Sizing & Forecasting](./strategy/market-sizing-forecasting.md), [Competitor Analysis](./core/competitor-analysis-framework.md).
 - **Related guides:** [MMO Roadmap](../mmo-roadmap/README.md), macro/industry góc đầu tư (xem `domains/blockchain/`, `resources/vietnam-it-landscape.md`), và productivity/side-hustle cho validation ý tưởng (`guides/03-career-skills/productivity/README.md`).
 
 ## 🧰 Tools & Data Sources (tập trung)

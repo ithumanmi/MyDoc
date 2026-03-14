@@ -41,6 +41,13 @@ $$ Niche = \text{Sở thích} + \text{Kỹ năng} + \text{Nhu cầu thị trư�
     *   *Nhập hàng Trung Quốc:* Bán trên sàn TMĐT Việt Nam.
     *   *Chạy Ads:* Facebook Ads, Google Ads (Đốt tiền để ra đơn).
 
+### 2.1 Niche validation (test nhanh)
+* **Survey nhẹ:** hỏi 5-10 người trong nhóm mục tiêu (pain, ngân sách, kênh họ hay xem). Tránh hỏi chung chung, tập trung “đã thử gì, vướng gì”.
+* **MVP Landing/Fake door:** dựng landing đơn giản (Notion/Framer), chạy ads nhỏ hoặc share group để đo click/CTA (pre-order, waitlist, tải lead magnet).
+* **Spy đối thủ:** xem top page/ads/keywords (Ahrefs/Semrush, Ad Library), đánh giá offer/price/bonus; tìm khoảng trống (feature chưa có, ngách phụ, quốc gia khác).
+* **Nguyên tắc:** đặt ngưỡng quyết định (vd: 50-100 click, CTR >1-2%, CPC hợp lý, 5-10 lead quan tâm) trước khi commit thời gian/vốn lớn.
+* **Đọc thêm:** [Validation Strategy](../../market-research/strategy/validation-strategy.md)
+
 ---
 
 ## 3. Quy luật 80/20 trong MMO

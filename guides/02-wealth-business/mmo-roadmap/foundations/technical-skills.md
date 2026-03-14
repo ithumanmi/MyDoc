@@ -25,6 +25,7 @@ Dù làm mảng nào, bạn cũng cần một "căn cứ địa" (Website/Landin
 Làm MMO mà làm tay (Manual) thì chỉ kiếm tiền lẻ. Hãy dùng Tool.
 
 > **Xem thêm:** [MMO Automation Tools](../../../domains/network-security/mmo-engineering/automation-tools.md)
+> **Toàn bộ automation/proxy/anti-detect:** xem thêm [MMO Engineering](../../../domains/network-security/mmo-engineering/README.md)
 
 *   **Browser Automation:** Selenium, Puppeteer (NodeJS), Python.
 *   **Macro Recorder:** AutoIt, Macro Scheduler (Cho người không biết code).

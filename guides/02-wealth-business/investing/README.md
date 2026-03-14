@@ -5,6 +5,7 @@
 **🎯 Starting your investing journey?** See [Quick Start Guide - Entrepreneur Path](../../../QUICK-START.md#-path-4-entrepreneur--side-income-builder)  
 **🔍 Key terms:** Check [Glossary](../../../GLOSSARY.md) for Macroeconomics, Behavioral Economics, etc.  
 **🧭 Cần bối cảnh tổng thể?** Xem [Wealth & Business Hub](../README.md) – xác định bạn đang ở trụ Build/Protect/Multiply trước khi chọn lộ trình đầu tư.
+**📊 Industry & market sizing:** xem [Market Sizing & Forecasting](../market-research/strategy/market-sizing-forecasting.md) và [Competitor Analysis Framework](../market-research/core/competitor-analysis-framework.md) khi phân tích ngành/macro.
 
 ---
 
@@ -53,9 +54,15 @@ Chào mừng bạn đến với kho tàng kiến thức về Đầu tư và Kinh
 
 ---
 
+## 📚 Reading Path (Thứ tự đọc gợi ý)
+Xem **[Reading Path](./reading-path.md)** để đi theo thứ tự Level 1 → 5 và các nhánh Crypto/ETF quốc tế.
+
+---
+
 ## 🇻🇳 Vietnam Market Analysis (Phân Tích Thị Trường Việt Nam)
 *Phân tích sâu các ngành nghề và cơ hội tại thị trường Việt Nam.*
 
+*   **[📖 Vietnam Market Index](./vietnam-market/README.md):** Chỉ mục nhanh 30+ ngành, tra cứu theo chữ cái.
 *   **[📱 ICT Retail Industry (Ngành Bán Lẻ ICT)](./vietnam-market/industry-analysis/ict-retail.md):** Phân tích chuỗi giá trị và thị phần các ông lớn (MWG, FRT, DGW, PET).
 *   **[🛒 Retail Industry (Tổng Quan Ngành Bán Lẻ)](./vietnam-market/industry-analysis/retail-industry.md):** Phân tích bức tranh toàn cảnh ngành bán lẻ, từ mặt bằng (VRE), trang sức (PNJ), dược phẩm (Long Châu) đến bách hóa và TMĐT.
 *   **[🤖 AI Industry (Ngành Trí Tuệ Nhân Tạo)](./vietnam-market/industry-analysis/ai-industry.md):** Chuỗi giá trị toàn cầu và vị thế của Việt Nam trong hệ sinh thái bán dẫn & phần mềm.
@@ -92,6 +99,7 @@ Chào mừng bạn đến với kho tàng kiến thức về Đầu tư và Kinh
 ## 🚀 Crypto & Emerging Assets
 *Tìm hiểu về tương lai của tiền tệ và tài sản số.*
 
+| Chủ đề | Nội dung |
 | Chủ đề | Nội dung |
 | --- | --- |
 | **Crypto & DeFi Fundamentals** | [Crypto & DeFi Fundamentals](./advanced/crypto-defi.md): Bản chất BTC, các xu hướng AI + Crypto, RWA. |

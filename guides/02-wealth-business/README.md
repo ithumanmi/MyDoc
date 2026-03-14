@@ -37,6 +37,11 @@
 - [Finance Hub](finance/README.md): Kinh tế vĩ mô, dòng tiền, geopolitics, domain playbooks (Deposit, Lending, Payments, Insurance), bộ Emotional Economy và bộ Quant Trading (Blueprint, Risk & Mastery, Extended Playbook, Tech Stack).
 - [Market Research](market-research/README.md), [Logistics](logistics/README.md), [MMO Roadmap](mmo-roadmap/README.md): Bổ trợ chuyên sâu.
 
+### Industry & market sizing
+- [Market Sizing & Forecasting](market-research/strategy/market-sizing-forecasting.md)
+- [Competitor Analysis Framework](market-research/core/competitor-analysis-framework.md)
+- [Validation Strategy](market-research/strategy/validation-strategy.md)
+
 ## 🔗 Cross-link gợi ý
 - **Build ↔ Protect:** Trong mọi playbook Entrepreneurship, link sang legal/business + tax compliance để tránh “build xong bị phạt”.
 - **Protect ↔ Multiply:** Khi bước vào investing, phải xem [Tax & Investing Compliance](legal/finance-investing/tax-investing.md) để tối ưu thuế và tránh vi phạm.

@@ -9,6 +9,7 @@ Xây nguồn thu thứ hai để giảm rủi ro và mở rộng biên độ t�
 - [Freelancer Roadmap](freelancer-roadmap.md)
 - [Content Creation Blueprint](content-creation-blueprint.md)
 - [Monetization Models](monetization-models.md)
+- **Validation ý tưởng/niche:** [Validation Strategy](../../../02-wealth-business/market-research/strategy/validation-strategy.md), [User Research & Persona](../../../02-wealth-business/market-research/core/user-research-persona.md)
 
 ## Hướng dẫn sử dụng
 1. **Xác định lợi thế cá nhân:** kỹ năng chuyên môn, trải nghiệm ngành, câu chuyện cá nhân.
