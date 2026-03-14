@@ -79,6 +79,7 @@ Lộ trình này được thiết kế đi từ nền tảng tư duy đến các
 *   **[Philosophy of AI](./practical-applications/philosophy-of-ai.md):** Turing Test, Chinese Room và vấn đề Ý thức.
 *   **[Aesthetics & Design](./practical-applications/aesthetics-design.md):** Triết học về cái đẹp, Wabi-Sabi, UX Design.
 *   **[Gia Phong – Family Ethos](./practical-applications/family-ethos-gia-phong.md):** Xây “nếp nhà” để cả gia đình có gốc tựa khi đời nghiêng ngả.
+*   **Philosophy for Product/Tech:** Ethics in Tech, Philosophy of AI, Product ethics → liên kết 02-wealth-business (đạo đức kinh doanh) & 03-career (nguyên tắc nghề nghiệp).
 *   **Trạng thái ứng dụng:** ✅ Có (nhiều bài đã có phần thực hành)
 
 ### **🔗 Phase 4: Integration (Kết nối)**

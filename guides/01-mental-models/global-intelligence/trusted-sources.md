@@ -7,6 +7,13 @@
 Nguyên tắc vàng: **Garbage In, Garbage Out**. (Nạp rác vào đầu thì tư duy cũng là rác).
 Hãy ngừng đọc tin tức giật gân. Hãy đọc dữ liệu và phân tích sâu.
 
+**Information Diet & Source Hierarchy (tóm tắt hành động):**
+*   **Ưu tiên Level 1–2:** báo cáo gốc, dữ liệu thô, phân tích chuyên gia (think tank, quỹ đầu tư).
+*   **Kiểm soát Level 3:** long-form chất lượng, dùng khi cần bối cảnh.
+*   **Tiết chế Level 4–5:** mass media & mạng xã hội → chỉ dùng để phát hiện tín hiệu, không ra quyết định.
+*   **Chu kỳ kiểm tra:** mỗi quý audit lại danh sách nguồn, bỏ follow các kênh nhiễu.
+*   **Checklist trước khi tin:** nguồn gốc, tác giả, ngày tháng, động cơ, liên kết đến dữ liệu gốc.
+
 ---
 
 ## 1. Hierarchy of Information (Tháp thông tin)
