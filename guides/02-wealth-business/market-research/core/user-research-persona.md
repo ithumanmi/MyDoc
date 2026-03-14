@@ -105,8 +105,6 @@ Sử dụng kịch bản này khi bạn gặp một người chơi tiềm năng 
 
 ## Khảo sát (Surveys)
 
-## Khảo sát (Surveys)
-
 *   **Công cụ:** Google Forms, Typeform.
 *   **Lưu ý:**
     *   Giữ ngắn gọn (< 5 phút).

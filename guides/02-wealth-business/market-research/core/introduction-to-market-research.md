@@ -68,11 +68,12 @@ Nghiên cứu thị trường không chỉ là việc xem đối thủ làm gì.
 
 ---
 
-## ⚖️ Data Ethics (Đạo đức dữ liệu)
+## ⚖️ Data & Competitive Intelligence Ethics
 
-Khi nghiên cứu thị trường, hãy tuân thủ các nguyên tắc sau:
-
-1.  **Public Data Only:** Chỉ thu thập dữ liệu công khai (Publicly available). Không hack, không xâm nhập database nội bộ.
-2.  **Tôn trọng Privacy:** Khi phỏng vấn hoặc khảo sát, hãy che tên/thông tin cá nhân của người tham gia (Anonymize data).
-3.  **Scraping:** Nếu dùng tool cào dữ liệu (scraping), hãy tôn trọng `robots.txt` của website và không làm sập server của họ (Rate limit).
-4.  **Luật pháp:** Tuân thủ GDPR (Châu Âu) hoặc các luật bảo vệ dữ liệu sở tại nếu bạn lưu trữ thông tin người dùng.
+- **Public Data Only:** Chỉ thu thập dữ liệu công khai. Không hack, không xâm nhập, không bypass paywall/anti-bot.
+- **Privacy:** Khi phỏng vấn/khảo sát, che thông tin cá nhân; consent rõ mục đích dùng dữ liệu.
+- **Scraping:** Tôn trọng `robots.txt`, rate limit, tuân thủ ToS của nguồn.
+- **Competitive intelligence:**
+  - Hợp lý: đọc public page/changelog/pricing, job post, tài liệu public, tool tuân thủ ToS (Similarweb, BuiltWith).
+  - Rủi ro/cấm: fake account xâm nhập nhóm kín, scraping bypass paywall, reverse engineering binary có bản quyền, vi phạm NDA.
+- **Luật pháp:** GDPR/CCPA hoặc luật sở tại; lưu trữ/anonymize đúng mục đích đã thông báo.
