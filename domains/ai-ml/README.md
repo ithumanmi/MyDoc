@@ -30,9 +30,7 @@ Lộ trình này giúp bạn đi từ con số 0 đến việc xây dựng đư�
 - Tích hợp vào workflow quyết định: coi như bộ lăng kính để đánh giá chi phí cơ hội, động cơ, hiệu ứng lề (elasticity) trước khi chọn mô hình/giải pháp.
 
 ### 🧩 Integration Layer: Stacking models (1–2 trang)
-- **Vấn đề quyết định:** FMS + Razors (Occam/Hanlon + Prior) + Probability (EV, base rates) → chọn giải pháp tối giản đủ an toàn.
-- **Vấn đề con người:** Psychology + Behavioral Econ + Philosophy (Stoicism) → giảm bias/cảm xúc, định hình incentive rõ ràng.
-- **Vấn đề hệ thống:** Feedback loops + Biology/Entropy + Second-order effects → đảm bảo ổn định, tránh khuếch đại lỗi.
+- Xem chi tiết: [Integration Layer — Stacking Mental Models](./integration-layer.md).
 
 ### ✅ Mental model of the week
 - Gợi ý: mỗi tuần 1 model + 1 experiment nhỏ. Ví dụ Tuần 1: **Hanlon’s Razor** — khi bực, tự hỏi “có phải vô ý không?”.
