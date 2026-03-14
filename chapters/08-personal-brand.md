@@ -42,6 +42,18 @@ Trong thế giới hyper-connected, **Technical Skill là điều kiện cần, 
 3.  **Solution:** Cách giải quyết cuối cùng.
 4.  **Lesson:** Bài học rút ra cho người khác.
 
+**Content calendar đơn giản (gợi ý):**
+- **Blog:** 2 bài/tháng (1 case study / 1 TIL hoặc deep dive).
+- **Tweet/LinkedIn:** 3 bài/tuần (150-300 chars, 1 insight/1 số liệu/1 câu hỏi).
+- **Comment chất:** 3-5 comment/ngày trên bài của người khác (thêm ví dụ/số liệu hoặc hỏi mở).
+
+**Content pillars (xoay tua để không bí idea):**
+- **Learnings:** Tóm tắt bài học sau khi đọc/build/đi hội thảo.
+- **Project:** Behind-the-scenes, kiến trúc, trade-off, bài học sau launch.
+- **Opinion:** Góc nhìn cá nhân (có dữ liệu hoặc trải nghiệm).
+- **Curation:** Tổng hợp link/tài nguyên kèm note ngắn (để người đọc tiết kiệm thời gian).
+- **Debug/Failure:** Post về lỗi và cách fix (rất được cộng đồng thích).
+
 ---
 
 ### 📝 Các kênh xây dựng thương hiệu
@@ -50,6 +62,12 @@ Trong thế giới hyper-connected, **Technical Skill là điều kiện cần, 
 - Sở hữu domain riêng (VD: `tuannguyen.dev`).
 - Viết sâu (Deep dive technical).
 - SEO lâu dài.
+
+**SEO cơ bản cho dev blog (đủ xài):**
+- Title rõ, chứa từ khóa chính; meta description ngắn (~150-160 chars).
+- Internal link tới bài liên quan (đặc biệt series, case study).
+- 1 chủ đề chính/bài, heading rõ ràng (H2/H3), code block có mô tả.
+- Checklist “Document, don’t create”: log vấn đề → giải pháp → link repo/demo → bài liên quan.
 
 #### **2. LinkedIn / Twitter**
 - Chia sẻ ngắn gọn, tips & tricks.
@@ -60,6 +78,15 @@ Trong thế giới hyper-connected, **Technical Skill là điều kiện cần, 
 - Profile README đẹp, rõ ràng.
 - Pinned Repositories chất lượng.
 - Contribution graph xanh.
+
+**GitHub Profile README (sườn gợi ý):**
+- 1) **Who I am:** Vai trò, stack chính, lĩnh vực quan tâm.
+- 2) **What I do:** Công việc hiện tại hoặc lĩnh vực đang học.
+- 3) **Projects (3-4 links):** Repo + 1 dòng value/metric ("API Go, 50 req/s", "LLM RAG demo, latency 1.2s").
+- 4) **Contact:** Email/LinkedIn/Twitter.
+- (Optional) Badges (languages/tools), stats card nếu thích.
+
+> Ví dụ tham khảo: [GitHub Profile README Examples](https://github.com/abhisheknaiidu/awesome-github-profile-readme)
 
 #### **4. YouTube / Podcast (Optional but Powerful)**
 - Video tutorials.
@@ -130,6 +157,10 @@ Khi bạn đạt đến trình độ Senior/Expert, mục tiêu không chỉ là
     *   Không xào lại content của người khác. Tự thực hiện khảo sát, benchmark, phân tích dữ liệu sâu.
     *   Ví dụ: State of JS Survey.
 
+**Từ Visibility → Authority (khi nào chuyển mode):**
+- **Giai đoạn Visibility:** Post ngắn, đều đặn (tweet/LinkedIn), chia sẻ log học tập, tham gia thảo luận để có mặt ở khắp nơi.
+- **Giai đoạn Authority:** Giảm tần suất, tăng chiều sâu: long-form (2000+ words), talk/meetup, đóng góp open source, viết case study có số liệu. Chỉ cần 1-2 bài chất/tháng nhưng có insight/benchmark rõ.
+
 #### **3. Case Studies Thought Leaders:**
 *   **Dan Abramov (React):** Không chỉ dạy React, anh ấy định hình cách chúng ta nghĩ về UI là "Pure function of state".
 *   **Martin Fowler:** Cha đẻ của hàng loạt khái niệm: Dependency Injection, Refactoring, Microservices... Ông không code framework, ông tạo ra triết lý.
@@ -143,6 +174,11 @@ Khi bạn đạt đến trình độ Senior/Expert, mục tiêu không chỉ là
 - **Inconsistent:** Post 1 bài rồi lặn mất tăm 6 tháng.
 - **Too much noise:** Spam nội dung rác, copy-paste vô tội vạ.
 - **Ignore feedback:** Không tương tác với người đọc.
+
+### 🔗 Cross-links
+- [Ch4: Đo lường & Phản hồi](04-do-luong-phan-hoi.md#-hệ-thống-ghi-chép-và-reflection) — dùng daily/weekly log làm nguồn content “document, don’t create”.
+- [Ch7: Networking](07-networking.md#-chiến-lược-networking-cho-developer) — phân phối nội dung và follow-up để mở rộng reach.
+- [Communication](../guides/03-career-skills/productivity/README.md#communication) — viết ngắn gọn, CTA rõ, follow-up.
 
 > 💡 **Lời khuyên cuối:** Hãy chân thật (Authentic). Mọi người thích kết nối với con người thật, có điểm mạnh điểm yếu, hơn là một profile hoàn hảo nhưng giả tạo.
 

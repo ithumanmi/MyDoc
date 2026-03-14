@@ -179,4 +179,14 @@ Dành 30 phút chiều Chủ Nhật để:
 
 > 💡 **Tóm lại:** Quản lý thời gian thực chất là **Quản lý sự tập trung (Attention Management)** và **Quản lý năng lượng (Energy Management)**.
 
+### 🧾 Tóm tắt nhanh
+- Ưu tiên 20% việc tạo 80% giá trị; ở Q2 (quan trọng/không khẩn cấp) để giảm cháy nhà Q1.
+- Kỹ thuật nền: Pomodoro, Time Blocking, Deep Work, Eat the Frog, Batching, nói “No”.
+- Quản lý thời gian = quản lý sự tập trung + năng lượng; dùng review tuần để điều chỉnh.
+
+### 🚀 Next steps
+- Block lịch 1 tuần tới (Deep Work sáng, email/Slack theo batch), thử Pomodoro cho 1 task khó.
+- Chọn 1 việc “frog” và làm nó đầu ngày mai.
+- Tiếp tục với [Ch7: Networking](07-networking.md) để đầu tư thời gian đúng vào quan hệ chất lượng.
+
 > [← Chapter 5](05-ky-luat-thoi-quen.md) | [Home](../README.md) | [Next: Chapter 7 →](07-networking.md)

@@ -1,6 +1,6 @@
 # Chương 10: Action Plan - Lộ trình thực chiến từ Zero đến Hero
 
-> [← Chapter 9](09-systems-thinking.md) | [Home](../README.md)
+> [← Chapter 9](09-systems-thinking.md) | [Quick Start](00-quick-start.md) | [Home](../README.md)
 
 ---
 
@@ -61,6 +61,15 @@ Month 10-12: MASTERY (Tinh thông)
 - [ ] Plan Week 2
 
 **📝 Deliverable:** Document goals của bạn (Notion/Google Docs)
+
+### ✅ Week 1 Checklist (Copy-Paste để tick)
+- [ ] Đọc lại Chapter 1 và chọn 1 domain + 1 core skill
+- [ ] Viết 1 SMART goal cho 3 tháng
+- [ ] Viết "Why" cá nhân (1-2 đoạn)
+- [ ] Setup OKR draft (Objective + 3-5 KRs)
+- [ ] Review goals với 1 người (mentor/bạn) và nhận feedback
+- [ ] Setup workspace + GitHub repo
+- [ ] Kế hoạch Week 2
 
 ---
 
@@ -542,6 +551,30 @@ Top 3 priorities:
 
 ---
 
+### **Scenario 6: "12 tháng rồi vẫn chưa có job/offer"**
+
+**Checklist audit:**
+- [ ] CV: 1 trang, định lượng impact (metrics), job-fit từng JD.
+- [ ] Portfolio: 2-3 dự án live + README rõ (problem → solution → impact), case study ngắn.
+- [ ] Network: 2-3 coffee chat/tuần, follow-up 24h, nhờ warm intro, tham gia meetup/hackathon.
+- [ ] Interview practice: mock interview/weekly, hệ thống câu hỏi (behavioral + system/code/ML tùy domain), post-mortem từng vòng.
+
+**Playbook hồi sức (4-6 tuần):**
+1) **Tuần 1:** Audit CV/portfolio (nhờ mentor/peer review), refit 5 JD chuẩn.
+2) **Tuần 2-3:** Daily apply 3-5 job (targeted), 2 mock interview/tuần, 3 coffee chat/tuần.
+3) **Tuần 4:** Ship 1 cải tiến portfolio (demo video, perf metrics), viết case study 1k-1.5k chữ.
+4) **Tuần 5-6:** Retrospective: pass rate vòng phone screen/tech? Điều chỉnh CV/portfolio/answer bank.
+
+**Tài nguyên ôn tập (nếu có trong repo):**
+- Career/Interview guides: xem thư mục `guides/03-career-skills/` (productivity/communication/...).
+- Technical prep: ôn lại core domain (ai-ml/web/backend...), luyện bài theo mức độ job target.
+
+**Nếu thị trường chậm:**
+- Mở rộng bán kính: remote, contract/freelance ngắn hạn, startup early stage.
+- Tạm thời nhận gig để lấp gap, giữ nhịp code và stories cho phỏng vấn.
+
+---
+
 ## 🇻🇳 VIETNAM-SPECIFIC RESOURCES
 
 ### **🌐 Communities:**
@@ -602,6 +635,14 @@ Top 3 priorities:
 
 ### **💰 Funding/Support:**
 
+### ⚖️ Legal / Thuế / Hợp đồng
+- (Đang cập nhật) Tài nguyên về hợp đồng freelance, thuế TNCN/thuế khoán, lưu ý pháp lý khi ký NDA/contract.
+- Tham khảo thêm mục Legal/Tax nếu có tài liệu nội bộ hoặc từ cộng đồng luật sư.
+
+### 💰 Investing / Tài chính cá nhân
+- Gợi ý cho người muốn tối ưu tài chính dài hạn: lập quỹ khẩn cấp, phân bổ tài sản (cash/equity/bonds), tránh all-in crypto.
+- Ưu tiên học về phí, thuế, đa dạng hóa; tham khảo nguồn đáng tin cậy (chính thống, không FOMO).
+
 **For Startups:**
 - **Topica Founder Institute**
 - **Shark Tank Vietnam**
@@ -618,7 +659,7 @@ Top 3 priorities:
 
 Nếu bạn muốn kết quả nhanh trước khi commit vào 12 tháng:
 
-**Day 1: Clarity**
+**Day 1: Clarity** ([Quick Start](00-quick-start.md))
 - [ ] Choose 1 domain
 - [ ] Write down 1 specific goal (SMART)
 
@@ -654,6 +695,13 @@ Nếu bạn muốn kết quả nhanh trước khi commit vào 12 tháng:
 - 1 Community connection
 - Thói quen daily log
 - Momentum để tiếp tục!
+
+---
+
+## 🎯 Alternative Paths
+
+- **Nếu 12 tháng quá dài:** Focus 90 ngày theo **Phase 1** (Ch1-2-5, project #1, routine + deliberate practice), review rồi quyết định pivot/continue.
+- **Nếu đã senior:** Ưu tiên **Ch7–Ch9** (networking, personal brand, systems thinking) + nhảy thẳng vào **Phase 3–4** (brand, Tier 3 project, thought leadership, offer/clients).
 
 ---
 

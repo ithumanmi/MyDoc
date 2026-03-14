@@ -1,8 +1,11 @@
 # Challenge Template
 
 - **Tên challenge:** <điền>
+- **Loại:** <project | interview | kata>
 - **Mảng:** <ai-ml | backend | web-ui | security | dsa | data-analytics | devops-sre | mobile | product-pm>
 - **Mức:** <Beginner | Intermediate | Advanced>
+- **Ước lượng thời gian:** <2–4 giờ | 1 tuần | 2–4 tuần>
+- **Prerequisites / Related (tùy chọn):** Link tới domain/guide liên quan (vd: `../domains/backend-dev/README.md`, `../guides/03-career-skills/`...)
 - **Mục tiêu học tập (Learning objectives):**
   - Bullet 1
   - Bullet 2
@@ -14,6 +17,6 @@
   - Hiệu năng/độ trễ?
   - Code quality/docs?
 - **Gợi ý/Hint (tùy chọn):** Link tài liệu, thư viện, pattern.
-- **Mốc nộp (nếu có):** Deadline/ước lượng thời gian.
+- **Reference / Solution (tùy chọn):** Link repo hoặc doc “gợi ý giải” (xem sau khi tự làm).
 
 > Khi tạo challenge mới, copy file này và điền chi tiết; giữ cấu trúc bullet để dễ review.

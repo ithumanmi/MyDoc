@@ -525,4 +525,15 @@ Why expensive?
 
 > 🧠 **Khi bạn hiểu FRAMEWORK, bạn sẽ không còn phụ thuộc vào người khác.**
 
+### 🧾 Tóm tắt nhanh
+- Học từ người đi trước để rút ngắn thời gian, tránh sai lầm, mở rộng tầm nhìn.
+- Có nhiều dạng “mentor”: trực tiếp, gián tiếp, peer, anti-mentor, founders.
+- Tiếp cận đúng: research kỹ, cho đi trước, specific ask, tôn trọng thời gian, show progress.
+- Học tư duy (why, trade-off, framework), không chỉ copy công cụ hay câu trả lời.
+
+### 🚀 Next steps
+- Soạn 1 cold DM/email cụ thể và gửi cho 1 người (template đã có ở chương này).
+- Chọn 1 “distant mentor” (sách/blog/podcast) và tóm tắt 3-5 ý + 1 action áp dụng tuần này.
+- Tiếp tục với [Ch4: Đo lường & Phản hồi](04-do-luong-phan-hoi.md) để thiết lập hệ thống theo dõi tiến bộ.
+
 > [← Chapter 2](02-luyen-tap-co-chu-dich.md) | [Home](../README.md) | [Next: Chapter 4 →](04-do-luong-phan-hoi.md)
