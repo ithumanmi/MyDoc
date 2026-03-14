@@ -10,7 +10,9 @@ Tổng hợp và phân loại các liên kết tài nguyên hữu ích được 
     *   Tài nguyên làm game, AI cho game, engine và cheatsheets.
 3.  [🎨 Web, UI/UX & Design](./web-ui-ux.md)
     *   Công cụ thiết kế, thư viện Frontend (React, CSS) và tài nguyên UI/UX.
-4.  [💰 Finance & Quantitative Trading](./finance-trading.md)
+4.  [🌐 Web Development](./web-dev.md)
+    *   Lộ trình/frontend/fullstack, performance, auth, testing, deployment.
+5.  [💰 Finance & Quantitative Trading](./finance-trading.md)
     *   Công cụ phân tích tài chính, bot trading và định lượng (Quant).
 5.  [📝 Documentation & Diagrams](./diagram-docs.md)
     *   Công cụ vẽ sơ đồ, viết tài liệu tự động và kiến thức nền tảng.

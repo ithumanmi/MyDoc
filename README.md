@@ -133,33 +133,15 @@ Hiểu cấu trúc để navigate hiệu quả. Mỗi mục lớn hiển thị *
 ---
 
 ## 💡 Case Studies (Bài học thực tế)
+
+👉 **Xem trung tâm điều hướng:** [Case Studies Hub](case-studies/README.md) (liệt kê 4 nhóm: Knowledge Audits, Mental Models Analysis, Stories, Answer Templates).
+
+**Nổi bật:**
 *   📋 **[Kế hoạch 50 Case Study](case-studies/CASE-STUDY-50-PLAN.md):** (⭐ **New**) Lộ trình sưu tầm & phân loại 50 case — Mental Models, Vietnam, Global, Failure, Industry.
-*   🧩 **[Knowledge Audit (Self-Test)](case-studies/knowledge-audits/knowledge-audit-self-test.md):** Stress-test đo lường độ Hiểu sâu và Hiểu rộng của chính bạn.
-*   🎮 **[Game Dev Knowledge Audit](case-studies/knowledge-audits/game-dev-knowledge-audit.md):** (⭐ **New**) Thử thách làm game toàn diện (Technical, Design, Business).
-*   ⚙️ **[Backend Knowledge Audit](case-studies/knowledge-audits/backend-knowledge-audit.md):** (⭐ **New**) Thử thách thiết kế hệ thống Backend (Scalability, Security, Database).
-*   🤖 **[AI Knowledge Audit](case-studies/knowledge-audits/ai-knowledge-audit.md):** (⭐ **New**) Thử thách thiết kế giải pháp AI toàn diện (ML, CV, NLP, GenAI, MLOps).
-*   📱 **[Mobile App Knowledge Audit](case-studies/knowledge-audits/mobile-dev-knowledge-audit.md):** (⭐ **New**) Thử thách thiết kế ứng dụng di động toàn diện (UX, Performance, Monetization).
-*   🔗 **[Blockchain Knowledge Audit](case-studies/knowledge-audits/blockchain-knowledge-audit.md):** (⭐ **New**) Thử thách thiết kế hệ thống phi tập trung (Smart Contract, DeFi, Tokenomics).
-*   🛡️ **[Cyber Security Knowledge Audit](case-studies/knowledge-audits/security-knowledge-audit.md):** (⭐ **New**) Thử thách bảo mật hệ thống (Web Security, Network Forensics, Incident Response).
-*   📊 **[Data Analytics Knowledge Audit](case-studies/knowledge-audits/data-analytics-knowledge-audit.md):** (⭐ **New**) Thử thách phân tích dữ liệu thực chiến (SQL, Stats, Viz, Business Logic).
-*   🌐 **[Web Dev Knowledge Audit](case-studies/knowledge-audits/web-dev-knowledge-audit.md):** (⭐ **New**) Thử thách thiết kế ứng dụng web hiện đại (Performance, Security, Architecture).
-*   🏢 **[Entrepreneurship Audit](case-studies/knowledge-audits/entrepreneurship-knowledge-audit.md):** (⭐ **New**) Thử thách xây dựng Startup từ Zero to One (Product, Finance, Ops).
-*   🧠 **[Life OS Audit](case-studies/knowledge-audits/life-os-knowledge-audit.md):** (⭐ **New**) Thử thách tối ưu hóa hiệu suất cá nhân và khả năng tự học.
-*   🧮 **[DSA Knowledge Audit](case-studies/knowledge-audits/dsa-knowledge-audit.md):** (⭐ **New**) Thử thách tư duy logic và tối ưu hóa thuật toán (Complexity, Structures, DP).
-*   🇻🇳 **[Vietnam Success Stories](case-studies/stories/vietnam-success-stories.md):** Nguyễn Thành Trung (Axie), Hiếu PC...
-*   🌏 **[Global Tech Leaders](case-studies/stories/global-tech-leaders.md):** Elon Musk, Linus Torvalds...
-*   📉 **[Startup Failure (Perspective)](case-studies/mental-models-analysis/startup-failure-ancient-models.md):** Phân tích thất bại dưới lăng kính Mô hình Xã hội Cổ xưa.
-*   📊 **[Marketing Failure (Math)](case-studies/mental-models-analysis/mathematical-analysis-business-case.md):** Phân tích thất bại bằng Xác suất, Công thức Kelly và Lý thuyết Trò chơi.
-*   ⚛️ **[Corporate Stagnation (Physics)](case-studies/mental-models-analysis/physics-analysis-corporate-stagnation.md):** Phân tích sự trì trệ của tập đoàn bằng Entropy, Năng lượng kích hoạt và Quán tính.
-*   🌿 **[Retail Ecosystem (Biology)](case-studies/mental-models-analysis/biology-analysis-corporate-ecosystem.md):** Phân tích sự sinh tồn và tuyệt chủng của doanh nghiệp bằng Chọn lọc tự nhiên và Hiệu ứng Nữ hoàng Đỏ.
-*   🧪 **[Viral Growth (Chemistry)](case-studies/mental-models-analysis/chemistry-analysis-product-launch.md):** Phân tích sự bùng nổ và bão hòa của sản phẩm bằng Chất xúc tác, Phản ứng dây chuyền và Nguyên lý Le Chatelier.
-*   📜 **[The Fall of Nokia (History)](case-studies/mental-models-analysis/history-analysis-nokia-fall.md):** Phân tích sự sụp đổ của đế chế di động bằng Path Dependence, Hiệu ứng Lindy và Chu kỳ công nghệ.
-*   🧠 **[Fast Correction Mindset (Strategy)](guides/01-mental-models/fast-correction-mindset.md):** (⭐ **New**) Tư duy thoát sai nhanh và lợi thế sinh tồn trong môi trường bất định.
-*   ⚙️ **[Knight Capital Group (Engineering)](case-studies/mental-models-analysis/engineering-analysis-deployment-failure.md):** Phân tích sự sụp đổ trị giá 440 triệu USD bằng Biên an toàn, Dự phòng và Nợ kỹ thuật.
-*   💰 **[Food Delivery Platform (Economics)](case-studies/mental-models-analysis/economics-analysis-platform-failure.md):** Phân tích sự sụp đổ của nền tảng giao đồ ăn bằng Chi phí cơ hội, Ưu đãi sai lệch và Độ đàn hồi của cầu.
-*   ⚡ **[Amazon Blitzscaling (Growth)](case-studies/mental-models-analysis/amazon-blitzscaling-analysis.md):** Phân tích cách Amazon chấp nhận lỗ kế toán để xây dựng đế chế E-commerce qua lăng kính Bánh đà và Blitzscaling.
-*   ⚖️ **[Blitzscaling Comparison (Growth)](case-studies/mental-models-analysis/blitzscaling-comparison-amazon-uber-airbnb.md):** So sánh các kiểu "đốt tiền" của Amazon (Hạ tầng), Uber (Trợ giá) và Airbnb (Niềm tin).
-*   🛡️ **[Uber Legal Strategy (Risk)](case-studies/mental-models-analysis/uber-legal-strategy-analysis.md):** (⭐ **New**) Phân tích cách Uber khai thác lỗ hổng pháp lý và vận động chính trị để Blitzscale toàn cầu.
+*   🧩 **Knowledge Audits:** Stress-test năng lực theo domain/guide. Ví dụ: [AI](case-studies/knowledge-audits/ai-knowledge-audit.md), [Backend](case-studies/knowledge-audits/backend-knowledge-audit.md), [Web](case-studies/knowledge-audits/web-dev-knowledge-audit.md), [Life OS](case-studies/knowledge-audits/life-os-knowledge-audit.md). (Toàn bộ danh sách xem Hub)
+*   🧠 **Mental Models Analysis:** Phân tích case đa lăng kính (Math, Physics, Biology, Economics...). Ví dụ: [Knight Capital](case-studies/mental-models-analysis/engineering-analysis-deployment-failure.md), [Nokia](case-studies/mental-models-analysis/history-analysis-nokia-fall.md), [Amazon Blitzscaling](case-studies/mental-models-analysis/amazon-blitzscaling-analysis.md).
+*   🌟 **Stories:** [Vietnam Success Stories](case-studies/stories/vietnam-success-stories.md) · [Global Tech Leaders](case-studies/stories/global-tech-leaders.md).
+*   📝 **Answer Templates cho Audits:** `case-studies/answer-templates/` (phiếu trả lời, không phải templates chung của repo).
 
 ---
 

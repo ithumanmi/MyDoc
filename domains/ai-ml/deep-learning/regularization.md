@@ -1,90 +1,47 @@
-## 🛡️ Regularization trong Deep Learning
-
-> [← Back to Deep Learning](../README.md)
-
-Regularization giúp mô hình tổng quát tốt hơn, tránh thuộc lòng dữ liệu train. Bảng cheat-sheet dưới đây tổng hợp các kỹ thuật hay dùng.
-
+---
+title: Regularization for Deep Learning
+description: Các kỹ thuật giảm overfit, cải thiện generalization cho mô hình sâu.
 ---
 
-## 1. Dropout & Biến thể
+# 🛡️ Regularization
 
-* **Dropout:** Ngẫu nhiên “tắt” một tỷ lệ neuron trong training → ép mạng học các representation bền hơn. Tỷ lệ phổ biến 0.1–0.5.
-* **SpatialDropout:** Drop toàn bộ channel (CNN) → giảm co-adaptation features.
-* **DropConnect:** Drop các weight thay vì activation, dùng trong một số kiến trúc (e.g., RNN).
+## Mục tiêu
+- Giảm overfitting, cải thiện khả năng khái quát hóa.  
+- Ổn định training, tránh mô hình học nhiễu.
 
-> PyTorch: `nn.Dropout(p=0.3)` đặt sau tầng fully connected; với CNN dùng `nn.Dropout2d`.
+## Các kỹ thuật chính
+- **Weight Decay (L2):** giảm norm của weights; dùng AdamW thay cho Adam + L2 truyền thống.
+- **Dropout:** vô hiệu hóa ngẫu nhiên neuron; tốt cho fully-connected, cẩn trọng với BatchNorm.
+- **Label Smoothing:** làm mềm one-hot targets (e.g., 0.1/num_classes) để giảm confidence quá mức.
+- **Data Augmentation:**
+  - Vision: Flip/Crop/ColorJitter, Cutout, Mixup, CutMix, RandAugment.
+  - NLP: Back-translation, synonym replacement, dropout embedding.
+  - Audio: SpecAugment (mask time/freq).
+- **Early Stopping:** dừng khi val metric không cải thiện.
+- **Stochastic Depth / DropPath:** bỏ ngẫu nhiên các block trong ResNet/ViT để regularize sâu.
+- **BatchNorm/LayerNorm:** gián tiếp regularize bằng chuẩn hóa kích hoạt.
+- **Noise injection:** thêm nhiễu vào input/hidden, hoặc Gaussian noise vào weights.
 
----
+## Công thức thực dụng
+- **Label smoothing (PyTorch):** dùng `label_smoothing` trong `CrossEntropyLoss` hoặc tự triển khai.
+- **Mixup/CutMix:** áp dụng khi dữ liệu ít, model lớn; thường cải thiện robustness.
+- **Weight decay selective:** loại trừ bias/LayerNorm/Gain khỏi decay để tránh underfit.
 
-## 2. Early Stopping & Checkpointing
+## Kiểm tra & debug
+- Theo dõi khoảng cách train/val: nếu chênh lớn → tăng regularization; nếu cả hai kém → xem lại underfitting/learning rate.
+- Kiểm tra ảnh hưởng augmentation: tắt/bật Mixup/CutMix để xem metric val; quá mạnh có thể làm chậm hội tụ.
+- Với BatchNorm: batch nhỏ gây noise cao → xem xét GroupNorm/LayerNorm.
 
-1. Chia train/validation rõ ràng.
-2. Theo dõi metric (loss, accuracy) trên validation.
-3. Nếu metric không cải thiện sau `patience` epochs → dừng training, load lại checkpoint tốt nhất.
+## Checklist
+- [ ] Dùng weight decay hợp lý (AdamW).  
+- [ ] Label smoothing cho classification.  
+- [ ] Augmentation phù hợp domain.  
+- [ ] Early stopping/patience.  
+- [ ] Kiểm tra gap train/val định kỳ.  
+- [ ] Loại trừ tham số không nên decay.  
+- [ ] Test ảnh hưởng Mixup/CutMix/Dropout.
 
-```python
-if val_loss < best_loss:
-    best_loss = val_loss
-    torch.save(model.state_dict(), 'best.pt')
-    patience_counter = 0
-else:
-    patience_counter += 1
-    if patience_counter > patience:
-        break
-```
-
-**Ưu điểm:** Tiết kiệm tài nguyên, tránh overfit muộn. Cẩn thận với dữ liệu nhiều noise – nên kết hợp smoothing/EMA metric.
-
----
-
-## 3. Data Augmentation
-
-### 3.1 Computer Vision
-* **Geometric:** flip, rotation, crop, Cutout, MixUp, CutMix.
-* **Color:** brightness/contrast jitter, HSV shift.
-* **AutoAugment/RandAugment:** search policy augmentation tự động.
-
-### 3.2 NLP
-* **Back-translation:** dịch sang ngôn ngữ khác rồi dịch lại.
-* **EDA (Easy Data Augmentation):** synonym replacement, random insertion/deletion.
-* **Mixing embedding:** Interpolate latent space.
-
-### 3.3 Audio / Time-series
-* **Time Masking / Frequency Masking (SpecAugment).**
-* **Jittering, scaling, permutation.**
-
-> ⚠️ Ví dụ CV: dùng Albumentations hoặc torchvision.transforms; NLP dùng NLPAug.
-
----
-
-## 4. Weight Regularization
-
-| Kỹ thuật | Tác dụng |
-| --- | --- |
-| L2 / Weight Decay | Phạt weight lớn → mạng đơn giản hơn |
-| L1 | Sparse weight → useful khi muốn feature selection |
-| Max-Norm Constraint | Giới hạn norm của weight vector |
-| Label Smoothing | Phân phối nhãn “mềm” → giảm overconfidence |
-
-**Label Smoothing:** với softmax, thay `y_onehot` bằng `(1-ε)` cho class đúng, `ε/(K-1)` cho phần còn lại.
-
----
-
-## 5. Noise-based Regularization
-
-1. **Gaussian Noise Layer:** thêm noise vào input hoặc feature intermediate → robust hơn.
-2. **Stochastic Depth / DropPath:** random bỏ bớt layer (ResNet/Transformer) trong training.
-3. **ShakeDrop / Shake-Shake:** dùng trong kiến trúc ResNeXt.
-
----
-
-## 6. Checklist triển khai
-
-- [ ] Thử dropout 0.2–0.5 ở fully connected; 0.1 ở CNN.
-- [ ] Thiết lập early stopping + checkpoint theo metric business.
-- [ ] Áp dụng augmentation phù hợp domain (Albumentations, SpecAugment, NLPAug…).
-- [ ] Dùng weight decay chuẩn (AdamW với `weight_decay=0.01`).
-- [ ] Thử label smoothing (`epsilon=0.1`) với classification nhiều lớp.
-- [ ] Log rõ config regularization để reproducible.
-
-> 🎯 Tip: Chỉ thêm regularization khi model đã đủ capacity. Nếu model underfit, ưu tiên tăng model size/epoch trước rồi mới bật regularization mạnh.
+## Liên quan
+- [Optimization Tricks](./optimization-tricks.md)
+- [Architectures Zoo](./architectures-zoo.md)
+- [Transformers Fundamentals](./transformers-fundamentals.md)

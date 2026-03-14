@@ -1,7 +1,7 @@
 # 🏢 Entrepreneurship & Business Knowledge Audit: Thử thách "Zero-to-One Venture"
 
 > **Mục đích:** Đo lường năng lực xây dựng mô hình kinh doanh, kiểm chứng thị trường, quản trị vận hành và tư duy tài chính cho Founder/Solopreneur.
-> **Phiếu trả lời:** [Tải mẫu tại đây](../templates/entrepreneurship-answer-template.md)
+> **Phiếu trả lời:** [Tải mẫu tại đây](../answer-templates/entrepreneurship-answer-template.md)
 > 
 > **Kịch bản:** Bạn đang khởi nghiệp với "SaaSFlow" - một công cụ quản lý dự án dành riêng cho các team remote nhỏ. Bạn có 50.000 USD tiền tiết kiệm và mục tiêu là đưa sản phẩm đạt mốc 10.000 USD doanh thu hàng tháng (MRR) trong vòng 12 tháng.
 

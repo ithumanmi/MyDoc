@@ -1,7 +1,7 @@
 # 🔗 Blockchain & Web3 Knowledge Audit: Thử thách "DeFi Protocol Architect"
 
 > **Mục đích:** Đo lường năng lực thiết kế hệ thống phi tập trung, lập trình Smart Contract an toàn, tối ưu hóa kinh tế học token (Tokenomics) và giải quyết các bài toán mở rộng (Scaling).
-> **Phiếu trả lời:** [Tải mẫu tại đây](../templates/blockchain-answer-template.md)
+> **Phiếu trả lời:** [Tải mẫu tại đây](../answer-templates/blockchain-answer-template.md)
 > 
 > **Kịch bản:** Bạn là **Lead Blockchain Architect** cho "NexusFinance" - một giao thức DeFi đa chuỗi (Multi-chain) kết hợp giữa Sàn giao dịch phi tập trung (DEX), Giao thức cho vay (Lending) và Hệ thống quản trị DAO. Giao thức đang quản lý 1 tỷ USD (TVL) và vừa bị tấn công hụt bởi một hacker mũ trắng.
 

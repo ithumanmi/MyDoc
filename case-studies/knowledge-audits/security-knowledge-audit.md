@@ -1,7 +1,7 @@
 # 🛡️ Cyber Security Knowledge Audit: Thử thách "The Guardian of Nexus"
 
 > **Mục đích:** Đo lường năng lực thực chiến trong việc bảo vệ hệ thống, phát hiện xâm nhập, phản ứng sự cố và tư duy tấn công (Red Team) để củng cố phòng thủ (Blue Team).
-> **Phiếu trả lời:** [Tải mẫu tại đây](../templates/security-answer-template.md)
+> **Phiếu trả lời:** [Tải mẫu tại đây](../answer-templates/security-answer-template.md)
 > 
 > **Kịch bản:** Bạn là **Security Operations Center (SOC) Lead** của tập đoàn "NexusCloud" - một nhà cung cấp dịch vụ hạ tầng đám mây cho các ngân hàng lớn. Vào lúc 2:00 sáng Chủ Nhật, hệ thống giám sát SIEM của bạn đồng loạt báo động đỏ: Có dấu hiệu của một cuộc tấn công APT (Advanced Persistent Threat) đang nhắm vào máy chủ chứa dữ liệu nhạy cảm nhất.
 

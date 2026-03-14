@@ -15,6 +15,8 @@ Tổng hợp danh sách đường link curated theo từng domain chuyên môn, 
 - [Diagram & Docs Tools](diagram-docs.md)
 - [Tools & Utilities](tools-utils.md)
 
+> 🔄 Mới cập nhật: bổ sung loạt repository AI/ML (RL, NLP, Data Science, RAG, Agents, Prompting) trong mục [AI Development](ai-development.md).
+
 ## Cách sử dụng
 1. **Chọn domain:** Lọc theo nhu cầu (ví dụ đang xây sản phẩm AI → mở `ai-development.md`).
 2. **Bookmark nguồn hữu ích:** Lưu vào PKM hoặc browser bookmark của bạn.

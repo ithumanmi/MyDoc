@@ -9,6 +9,26 @@
 2. Nâng cấp sự nghiệp & thu nhập (Career, Sales, System Design, Innovation).
 3. Mở rộng cơ hội toàn cầu (IELTS, Remote, Mobile/Web Dev, Blockchain, Data).
 
+## 📚 Module nhanh
+| Module | Mô tả 1 dòng | Link |
+| --- | --- | --- |
+| Growth | Mindset, Life OS, hệ thống thói quen | [growth/README.md](./growth/README.md) |
+| Productivity | Workflow, core skills, career growth | [productivity/README.md](./productivity/README.md) |
+| Career | Remote job, indie hacker, thuế | [career/README.md](./career/README.md) |
+| Innovation | Design thinking, product strategy, micro-SaaS | [innovation/README.md](./innovation/README.md) |
+| Sales & Telesales | Kịch bản, negotiation, psychology | [sales-telesales/README.md](./sales-telesales/README.md) |
+| IELTS & Global Skills | Lộ trình 7.5+, routine, resources | [ielts/README.md](./ielts/README.md) |
+| System Design (career) | Lộ trình, top 10 bài luyện tập | [system-design/top-10-problems.md](./system-design/top-10-problems.md) |
+| Web Dev (career) | Lộ trình sự nghiệp & monetization | [web-dev/README.md](./web-dev/README.md) |
+| Game Dev (career) | Lộ trình sự nghiệp & monetization | [game-dev/README.md](./game-dev/README.md) |
+| Mobile Dev (career) | Lộ trình sự nghiệp & monetization | [mobile-dev/README.md](./mobile-dev/README.md) |
+| Blockchain (career) | Lộ trình sự nghiệp & monetization | [blockchain/README.md](./blockchain/README.md) |
+| Security (career) | Lộ trình sự nghiệp & monetization | [security/README.md](./security/README.md) |
+| Data Strategy (career) | Lộ trình sự nghiệp & monetization | [data-strategy/README.md](./data-strategy/README.md) |
+| Data Analytics (career) | Lộ trình sự nghiệp & monetization | [data-analytics/README.md](./data-analytics/README.md) |
+
+> Career theo domain = lộ trình sự nghiệp & monetization; technical how-to nằm ở `domains/` tương ứng.
+
 ## 🗺️ Career Skills Roadmap (4 Giai đoạn)
 
 | Giai đoạn | Tập trung chính | Tệp nổi bật |
@@ -36,13 +56,17 @@
 
 ## 📂 Mục lục chính
 
-- `career/`: Remote job, indie hacker, tax, templates.
+**Nền tảng (Foundations)**
 - `growth/`: Mindset, Life OS, systems thinking.
 - `productivity/`: Workflow, core skills, templates.
-- `sales-telesales/`: Kịch bản, psychology, training.
+- `career/`: Remote job, indie hacker, tax, templates.
 - `innovation/`: Design thinking, product strategy, templates, [micro-saas-research-roadmap.md](innovation/micro-saas-research-roadmap.md).
+- `sales-telesales/`: Kịch bản, psychology, training.
 - `ielts/`: Roadmaps, drills, samples.
-- `system-design/`, `mobile-dev/`, `web-dev/`, `blockchain/`, `data-analytics/`, `game-dev/`: Từng lĩnh vực chuyên sâu.
+
+**Career theo domain (lộ trình & monetization; technical how-to nằm ở `domains/` tương ứng):**
+- `system-design/`, `web-dev/`, `game-dev/`, `mobile-dev/`, `blockchain/`, `security/`, `data-strategy/`, `data-analytics/`.
+
 - `data-strategy/`, `security/`, `productivity/side-hustle/`: Nâng cấp thêm cho chuyên gia.
 - **Bài mới:** [cross-domain-guide.md](./cross-domain-guide.md) — Liên kết đa lĩnh vực (AI × Product × Business) cho dev/tech lead.
 - **Bài mới:** [thematic-interconnectedness.md](./thematic-interconnectedness.md) — Khung nối chủ đề (Thematic Interconnectedness) để học/làm xuyên ngành.

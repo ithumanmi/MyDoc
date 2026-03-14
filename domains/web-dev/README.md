@@ -22,6 +22,8 @@ Web Development là con đường phổ biến nhất để gia nhập ngành IT
 
 > **Verdict:** Web Dev là lựa chọn an toàn và linh hoạt nhất. Nhưng để nổi bật giữa đám đông, bạn không thể chỉ biết code, bạn phải biết **Build Product** và **Optimize Performance**.
 
+> **Sitemap:** Xem [INDEX.md](INDEX.md) để điều hướng nhanh.
+
 ---
 
 ## 🗺️ 2. Visual Roadmap (Modern Web Path)
@@ -45,64 +47,21 @@ graph TD
     D2 --> D3(Auth - NextAuth/Clerk)
     D3 --> D4(Project: Full SaaS App)
     
-    D4 --> E[👑 Level 4: Senior Architecture]
-    E --> E1{Choose Your Path}
-    E1 --> E2["Frontend Expert (Performance/Animations)"]
-    E1 --> E3["Backend Expert (System Design/Cloud)"]
-    E1 --> E4["DevOps (CI/CD/Docker/K8s)"]
-    
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style E fill:#bbf,stroke:#333,stroke-width:2px
-```
+## 🚀 3. Detailed Roadmap (Modular)
 
----
+Chi tiết từng level đã tách thành các thư mục/doc riêng:
+- **Level 1 – Foundations:** [foundations/README.md](foundations/README.md)
+- **Level 2 – Frontend:** [frontend/README.md](frontend/README.md)
+  - [Design Systems](frontend/design-systems/README.md) · [14-day Sprint](frontend/design-systems/14-day-sprint.md)
+  - [Testing Frontend](frontend/testing-frontend.md)
+- **Level 3 – Fullstack:** [fullstack/README.md](fullstack/README.md)
+  - [Data Fetching](fullstack/data-fetching.md)
+  - [Auth & Security](fullstack/auth-security.md)
+- **Level 4 – Senior Paths:** [senior-paths/README.md](senior-paths/README.md)
+- **Portfolio & Career:** [portfolio-career/README.md](portfolio-career/README.md)
+- **Resources:** [resources/README.md](resources/README.md)
 
-## 🚀 3. Detailed Roadmap
-
-### 🐣 Level 1: The Foundations (0 - 3 Tháng)
-*Tập trung: Nắm vững cốt lõi của Web, không nhảy vào Framework quá sớm.*
-
-*   **Core Concepts:**
-    *   **HTML:** Semantic tags (SEO), Forms, Validation.
-    *   **CSS:** Flexbox, Grid, Responsive (Media Queries), TailwindCSS (Industry standard).
-    *   **JavaScript (ES6+):** Variables, Functions, DOM manipulation, Events, Fetch API, Async/Await, Array methods (`map`, `filter`, `reduce`).
-    *   **Tools:** VS Code, Chrome DevTools, Git basics.
-*   **Actions:**
-    *   Build **Personal Portfolio Website** (Responsive).
-    *   Clone giao diện **Landing Page** của Apple/Tesla (Pixel perfect).
-    *   Làm **To-Do List** bằng Vanilla JS (CRUD: Create, Read, Update, Delete).
-*   **✅ Completion Criteria:**
-    *   [ ] Hiểu rõ `var`, `let`, `const` khác nhau thế nào.
-    *   [ ] Center một `div` bằng Flexbox và Grid trong 30s.
-    *   [ ] Code JS không bị Callback Hell (dùng Async/Await).
-
-### 🔨 Level 2: Modern Frontend (3 - 9 Tháng)
-*Tập trung: Xây dựng Single Page Application (SPA) chuyên nghiệp.*
-
-*   **Core Concepts:**
-    *   **Framework:** **React.js** (Thống trị thị trường).
-        *   Hooks: `useState`, `useEffect`, `useRef`, `useContext`.
-        *   Component Lifecycle.
-    *   **State Management:** Redux Toolkit (Enterprise) hoặc Zustand (Simple).
-    *   **Routing:** React Router.
-    *   **Form Handling:** React Hook Form + Zod (Validation).
-*   **Actions:**
-    *   Build **Weather App**: Gọi WeatherAPI, hiển thị dữ liệu động.
-    *   Build **E-commerce Cart**: Thêm/Xóa sản phẩm, tính tổng tiền (State Management).
-*   **✅ Completion Criteria:**
-    *   [ ] Hiểu tại sao không nên update State trực tiếp (`state.value = 5` ❌).
-    *   [ ] Xử lý được Loading state và Error state khi gọi API.
-    *   [ ] Build project chạy mượt, không re-render thừa thãi.
-
-### 🕸️ Level 3: Fullstack & Next.js (9 - 18 Tháng)
-*Tập trung: Trở thành Fullstack Developer có khả năng build trọn vẹn sản phẩm.*
-
-*   **Core Concepts:**
-    *   **Meta-Framework:** **Next.js** (Server Side Rendering - SSR, Static Site Generation - SSG).
-    *   **Language:** **TypeScript** (Bắt buộc phải học).
-    *   **Database:** PostgreSQL (SQL) hoặc MongoDB (NoSQL). Dùng Prisma ORM.
-    *   **Backend Logic:** Server Actions, API Routes.
-    *   **Auth:** Authentication vs Authorization. JWT, OAuth (Login with Google).
+Challenges: [challenges/web-ui](../../challenges/web-ui/README.md)
 *   **Actions:**
     *   Build **Blog Platform**: CMS, Markdown rendering, SEO.
     *   Build **Trello Clone (SaaS)**: Drag & Drop, Database real-time, Auth.
@@ -164,43 +123,14 @@ Bạn cần chọn chuyên sâu:
 
 ## 💼 4. Portfolio & Career Strategy
 
-Web Portfolio cần phải "Live". Đừng gửi file zip code.
-
-### Portfolio Checklist:
-1.  **Live Demo URL:** Mọi project phải được deploy (Vercel, Netlify, Render).
-2.  **Github Repo:** README.md phải đẹp, có screenshot, hướng dẫn cài đặt. Code phải có TypeScript.
-3.  **Performance:** Chạy Lighthouse Audit trên Chrome. Điểm Performance phải > 90 (xanh lá).
-4.  **Case Study:** Viết blog về "Thử thách khó nhất tôi gặp phải khi build project này và cách tôi giải quyết".
-
-### Interview Prep:
-*   **React:** "Virtual DOM là gì?", "React.memo dùng khi nào?", "Prop Drilling là gì?".
-*   **JS:** "Closure là gì?", "Event Loop hoạt động thế nào?", "Hoisting là gì?".
-*   **System Design (Senior):** "Thiết kế hệ thống rút gọn link (URL Shortener)", "Thiết kế News Feed Facebook".
-
----
+Xem chi tiết tại [portfolio-career/README.md](portfolio-career/README.md).
 
 ## 📚 5. Resources (Tài nguyên chọn lọc)
 
-### 📺 YouTube Channels
-*   **Traversy Media:** Tổng hợp mọi thứ về Web.
-*   **Web Dev Simplified:** Giải thích concept React cực dễ hiểu.
-*   **Fireship:** Video ngắn gọn về công nghệ mới (100 seconds).
-*   **Jack Herrington:** Advanced React & System Design.
-
-### 🎓 Courses
-*   **FreeCodeCamp:** Miễn phí và đầy đủ chứng chỉ.
-*   **Fullstack Open (University of Helsinki):** Khóa học Fullstack React/Node xịn nhất (Free).
-*   **EpicReact.Dev (Kent C. Dodds):** Advanced React (Paid).
-
-### 📖 Books
-*   *"You Don't Know JS"* - Kyle Simpson. (Hiểu sâu về JS engine).
-*   *"Designing Data-Intensive Applications"* - Martin Kleppmann. (Kinh thánh Backend).
+Xem [resources/README.md](resources/README.md).
 
 ---
 
 ## 💡 6. Core Skills Example (CV Keywords)
 
-*   ❌ **Chung chung:** "Biết React, Nodejs, SQL."
-*   ✅ **Specific (Frontend):** "Expert in React Performance Optimization (Code splitting, Memoization) and building accessible Design Systems with TailwindCSS."
-*   ✅ **Specific (Backend):** "Designed scalable RESTful APIs with Node.js/Express, handled 10k+ concurrent connections using Redis caching."
-*   ✅ **Specific (Fullstack):** "Built and deployed end-to-end SaaS application using Next.js 14, TypeScript, Prisma, and Stripe Payment integration."
+Giữ nguyên ví dụ súc tích. Tham khảo thêm ở [portfolio-career/README.md](portfolio-career/README.md).

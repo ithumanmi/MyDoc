@@ -1,82 +1,54 @@
-## ⚙️ Optimization Tricks cho Deep Learning
-
-> [← Back to Deep Learning](../README.md)
-
-Training mạng sâu không chỉ là chọn optimizer “auto”. Dưới đây là các kỹ thuật tối ưu hoá được áp dụng thực chiến để tăng tốc hội tụ và giảm overfitting.
-
+---
+title: Deep Learning Optimization Tricks
+description: Hướng dẫn thực dụng tối ưu training/inference cho mô hình deep learning.
 ---
 
-## 1. Optimizer Landscape
+# ⚡ Deep Learning Optimization Tricks
 
-| Optimizer | Khi nào dùng | Ưu / Nhược |
-| --- | --- | --- |
-| SGD + Momentum | Vision, khi cần generalization tốt | Đơn giản, ổn định nhưng cần tuning LR kỹ |
-| Nesterov Momentum | Giảm overshoot | Bias thấp hơn momentum truyền thống |
-| Adam / AdamW | NLP, Transformer, mô hình lớn | Tự động điều chỉnh LR từng tham số; AdamW tách weight decay chuẩn |
-| RMSProp | RNN, sequence | Điều chỉnh LR theo EMA gradient |
-| Adagrad | Sparse feature (NLP cổ điển) | LR giảm dần – cẩn trọng vì có thể “chết” LR sau vài nghìn step |
+## Setup & reproducibility
+- **Seed everything:** `torch.manual_seed`, `numpy`, `random`, `deterministic` flags nếu cần tái lập.
+- **Mixed Precision (AMP):** `torch.cuda.amp.autocast` + `GradScaler` để tăng tốc, giảm VRAM.
+- **cuDNN:** bật `benchmark=True` cho input size cố định; tắt nếu input biến thiên để tránh overhead.
 
-### Adam vs AdamW
-* **Adam**: weight decay được áp dụng như L2 trong loss → thực chất là L2 regularization → gây bias.
-* **AdamW**: tách hẳn weight decay và gradient update → giữ chuẩn hoá bước update, là mặc định trong hầu hết Transformer.
+## Optimizer & scheduler
+- **Optimizers phổ biến:** Adam/AdamW (ổn định), SGD + momentum (tổng quát tốt), Lion/Adafactor cho mô hình lớn.
+- **Weight decay:** dùng AdamW thay vì Adam + L2. Chú ý loại trừ bias/LayerNorm khỏi decay.
+- **Learning rate schedules:** Cosine decay + warmup; One-cycle policy cho vision; Step decay cho đơn giản.
+- **Gradient clipping:** `clip_grad_norm_` để tránh exploding gradients.
 
-> 🔧 PyTorch: `torch.optim.AdamW(model.parameters(), lr=3e-4, betas=(0.9, 0.95), weight_decay=0.01)`
+## Regularization
+- **Dropout:** hợp lý cho fully-connected; với CNN/ViT xem xét Stochastic Depth.
+- **Data Augmentation:** RandAugment/AutoAugment, Mixup/CutMix (vision), SpecAugment (audio), label smoothing.
+- **Early stopping:** theo dõi val metric, patience.
 
----
+## Batch size & accumulation
+- Tăng batch size nếu có VRAM; nếu không đủ, dùng **gradient accumulation** để giả lập batch lớn hơn.
+- Chú ý hiệu chỉnh learning rate khi batch size thay đổi (linear scaling rule).
 
-## 2. Learning Rate Scheduling
+## Initialization & normalization
+- **Init:** Kaiming/He cho ReLU, Xavier/Glorot cho tanh/sigmoid, `trunc_normal_` cho ViT.
+- **Normalization:** BatchNorm (phổ biến), LayerNorm (transformer), GroupNorm (nhỏ batch). Với micro-batch, ưu tiên LayerNorm/GroupNorm.
 
-| Scheduler | Ý tưởng | Use case |
-| --- | --- | --- |
-| Step / MultiStep | Giảm LR tại epoch cố định | Vision ResNet training |
-| Exponential | LR = lr0 * γ^epoch | Khi muốn decay mượt |
-| Cosine Annealing | LR giảm theo cos → có thể warm restarts | Transformers, diffusion |
-| OneCycle | LR tăng rồi giảm | Fast convergence (FastAI) |
-| Cyclical LR | Dao động giữa min-max | Khám phá landscape tốt hơn |
+## Training stability
+- Kiểm tra **loss nan/inf:** learning rate quá cao, AMP loss scale sai, input contains NaN.
+- Kiểm tra **label/target**: one-hot vs class index; đảm bảo không sai dtype/device.
+- **Gradient check:** log norm; nếu 0 → dead path, nếu quá lớn → exploding.
 
-**Warmup:** vài trăm đến vài nghìn step đầu tăng LR từ nhỏ → mục tiêu để optimizer ổn định (đặc biệt với batch norm/AdamW + Transformers).
+## Inference tối ưu
+- **ONNX/TensorRT/torch.compile:** chuyển mô hình để tối ưu graph.  
+- **Quantization:** PTQ (int8) hoặc QAT khi cần độ chính xác cao hơn.  
+- **Batching & caching:** ghép batch inference, cache encoder/kv-cache cho decoder.
 
-```python
-from torch.optim.lr_scheduler import CosineAnnealingLR
-optimizer = torch.optim.AdamW(model.parameters(), lr=5e-4)
-scheduler = CosineAnnealingLR(optimizer, T_max=100)
-for epoch in range(100):
-    train_one_epoch(...)
-    scheduler.step()
-```
+## Checklists nhanh
+- [ ] Đặt seed & log mọi config.  
+- [ ] Dùng AMP + grad scaler.  
+- [ ] Có scheduler (warmup + decay).  
+- [ ] Clipping gradient khi cần.  
+- [ ] Augmentation hợp lý, label smoothing nếu classification.  
+- [ ] Monitor gradient norm, learning rate, GPU util, throughput.  
+- [ ] Val metric theo epoch/steps với early stop.
 
----
-
-## 3. Gradient Tricks
-
-1. **Gradient Clipping:** hạn chế giá trị gradient để tránh exploding (`torch.nn.utils.clip_grad_norm_`).
-2. **Mixed Precision Training (AMP):** dùng float16/bfloat16 với scaler → tăng tốc 2-3x và giảm memory.
-3. **Gradient Accumulation:** mô phỏng batch lớn khi GPU nhỏ (`loss / accumulation_steps`).
-4. **Lookahead / SAM:** (Sharpness-Aware Minimization) giúp model tìm minima “phẳng” hơn → generalization tốt.
-
----
-
-## 4. Batch Normalization & Biến thể
-
-| Layer | Mục đích | Lưu ý |
-| --- | --- | --- |
-| BatchNorm | Chuẩn hoá mean/std trên batch | Phù hợp CNN, batch size ≥ 16 |
-| LayerNorm | Normalize theo feature | Transformers, batch size 1 vẫn ổn |
-| GroupNorm | Chia channels thành group nhỏ | Vision với batch bé |
-| RMSNorm | Normalize theo RMS, bỏ mean | Một số Transformer hiện đại |
-
-**Benefits:** ổn định gradient, cho phép LR lớn hơn, đóng vai trò regularizer nhẹ.
-
-> ⚠️ Khi inference nhớ bật `model.eval()` để sử dụng running mean/var.
-
----
-
-## 5. Checklist tối ưu hoá training loop
-
-- [ ] Dùng optimizer phù hợp domain (SGD+mom cho vision, AdamW cho Transformer).
-- [ ] Thiết lập warmup + scheduler rõ ràng, log LR trong training dashboard.
-- [ ] Theo dõi gradient norm (TensorBoard) để phát hiện exploding/vanishing.
-- [ ] Sử dụng AMP + gradient clipping để ổn định và tiết kiệm tài nguyên.
-- [ ] Khi huấn luyện dài, bật EMA weights (Exponential Moving Average) để tăng stability.
-
-> 📌 Tip: Khi tuning, bắt đầu với LR lớn (1e-3) + cosine scheduler, quan sát loss; nếu loss “nổ” → giảm LR hoặc tăng warmup steps.
+## Liên quan
+- [Regularization](./regularization.md)
+- [Architectures Zoo](./architectures-zoo.md)
+- [Transformers Fundamentals](./transformers-fundamentals.md)

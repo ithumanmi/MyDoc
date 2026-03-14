@@ -1,7 +1,7 @@
 # 🤖 AI & Machine Learning Knowledge Audit: Thử thách "Enterprise AI Transformation"
 
 > **Mục đích:** Đo lường năng lực thiết kế, triển khai và tối ưu hóa các giải pháp Trí tuệ nhân tạo từ cơ bản đến nâng cao.
-> **Phiếu trả lời:** [Tải mẫu tại đây](../templates/ai-answer-template.md)
+> **Phiếu trả lời:** [Tải mẫu tại đây](../answer-templates/ai-answer-template.md)
 > 
 > **Kịch bản:** Bạn là **AI Solutions Architect** cho tập đoàn "GlobalLogistics". Nhiệm vụ của bạn là xây dựng hệ thống AI toàn diện: từ dự báo nhu cầu vận chuyển, tự động hóa kho bãi bằng thị giác máy tính, đến hệ thống trợ lý ảo thông minh phục vụ khách hàng toàn cầu.
 

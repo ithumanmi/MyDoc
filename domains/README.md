@@ -21,17 +21,18 @@ Thư mục `domains/` tập hợp các lộ trình chuyên sâu theo từng lĩn
 
 ## 🌐 Danh sách domain
 
-| Domain | Mô tả ngắn | README |
-| --- | --- | --- |
-| 🤖 **AI / Machine Learning** | Roadmap 9 bước từ fundamentals đến MLOps & Agents. | [`ai-ml/README.md`](./ai-ml/README.md) |
-| 🔧 **Backend Development** | Lộ trình backend từ CRUD đến System Design & DevOps. | [`backend-dev/README.md`](./backend-dev/README.md) |
-| 🔗 **Blockchain** | Từ nền tảng, smart contract tới DeFi, security. | [`blockchain/README.md`](./blockchain/README.md) |
-| 📊 **Data Analytics** | 5 giai đoạn: Excel → SQL → BI → Python → Advanced. | [`data-analytics/README.md`](./data-analytics/README.md) |
-| 🧮 **Data Structures & Algorithms** | Phân tầng học DSA, patterns & knowledge audit. | [`dsa/README.md`](./dsa/README.md) |
-| 🎮 **Game Development** | Unity-centric roadmap, multiplayer & specialist paths. | [`game-dev/README.md`](./game-dev/README.md) |
-| 📱 **Mobile Development** | (Kiểm tra README để xem lộ trình iOS/Android/Flutter). | [`mobile-dev/README.md`](./mobile-dev/README.md) |
-| 🛡️ **Network Security** | Security fundamentals, appsec, cloud, labs. | [`network-security/README.md`](./network-security/README.md) |
-| 🌐 **Web Development** | Frontend + fullstack roadmap, templates và best practices. | [`web-dev/README.md`](./web-dev/README.md) |
+| Domain | Mô tả ngắn | README | Knowledge Audit |
+| --- | --- | --- | --- |
+| 🤖 **AI / Machine Learning** | Roadmap 9 bước từ fundamentals đến MLOps & Agents. | [`ai-ml/README.md`](./ai-ml/README.md) | [AI Knowledge Audit](../case-studies/knowledge-audits/ai-knowledge-audit.md) |
+| 🔧 **Backend Development** | Lộ trình backend từ CRUD đến System Design & DevOps. | [`backend-dev/README.md`](./backend-dev/README.md) | [Backend Audit](../case-studies/knowledge-audits/backend-knowledge-audit.md) |
+| 🔗 **Blockchain** | Từ nền tảng, smart contract tới DeFi, security. | [`blockchain/README.md`](./blockchain/README.md) | [Blockchain Audit](../case-studies/knowledge-audits/blockchain-knowledge-audit.md) |
+| 📊 **Data Analytics** | 5 giai đoạn: Excel → SQL → BI → Python → Advanced. | [`data-analytics/README.md`](./data-analytics/README.md) | [Data Analytics Audit](../case-studies/knowledge-audits/data-analytics-knowledge-audit.md) |
+| 🧮 **Data Structures & Algorithms** | Phân tầng học DSA, patterns & knowledge audit. | [`dsa/README.md`](./dsa/README.md) | [DSA Audit](../case-studies/knowledge-audits/dsa-knowledge-audit.md) |
+| 🎮 **Game Development** | Unity-centric roadmap, multiplayer & specialist paths. | [`game-dev/README.md`](./game-dev/README.md) | [Game Dev Audit](../case-studies/knowledge-audits/game-dev-knowledge-audit.md) |
+| 📱 **Mobile Development** | (Kiểm tra README để xem lộ trình iOS/Android/Flutter). | [`mobile-dev/README.md`](./mobile-dev/README.md) | [Mobile Dev Audit](../case-studies/knowledge-audits/mobile-dev-knowledge-audit.md) |
+| 🛡️ **Network Security** | Security fundamentals, appsec, cloud, labs. | [`network-security/README.md`](./network-security/README.md) | [Security Audit](../case-studies/knowledge-audits/security-knowledge-audit.md) |
+| 🛰️ **MMO Engineering** | Automation, proxy, anti-detect, tool dev cho MMO. | [`mmo-engineering/README.md`](./mmo-engineering/README.md) | — |
+| 🌐 **Web Development** | Frontend + fullstack roadmap, templates và best practices. | [`web-dev/README.md`](./web-dev/README.md) | [Web Dev Audit](../case-studies/knowledge-audits/web-dev-knowledge-audit.md) |
 
 ## 📌 Liên kết hữu ích
 

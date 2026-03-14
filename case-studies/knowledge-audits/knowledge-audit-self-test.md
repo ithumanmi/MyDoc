@@ -1,7 +1,7 @@
 # 🧩 Case Study: Stress-test Đo lường Năng lực Đa mô hình (Knowledge Audit)
 
 > **Mục đích:** Đây không phải là một bài phân tích lịch sử, mà là một **"Stress-test"** để bạn tự đo lường độ Hiểu sâu và Hiểu rộng của chính mình.
-> **Phiếu trả lời:** [Tải mẫu tại đây](../templates/general-audit-answer-template.md)
+> **Phiếu trả lời:** [Tải mẫu tại đây](../answer-templates/general-audit-answer-template.md)
 > 
 > **Cách dùng:** Đọc kịch bản bên dưới, tự đưa ra giải pháp, sau đó đối chiếu với thang đo ở cuối file.
 

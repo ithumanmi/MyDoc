@@ -1,7 +1,7 @@
 # 🧮 Data Structures & Algorithms Knowledge Audit: Thử thách "Algorithm Master"
 
 > **Mục đích:** Đo lường năng lực tư duy logic, khả năng chọn lựa cấu trúc dữ liệu phù hợp và tối ưu hóa hiệu năng thuật toán.
-> **Phiếu trả lời:** [Tải mẫu tại đây](../templates/dsa-answer-template.md)
+> **Phiếu trả lời:** [Tải mẫu tại đây](../answer-templates/dsa-answer-template.md)
 > 
 > **Kịch bản:** Bạn là **Optimization Engineer** cho "DataFlow" - một công cụ xử lý dữ liệu lớn thời gian thực. Hệ thống đang gặp nút thắt cổ chai về hiệu năng khi phải xử lý hàng tỷ bản ghi mỗi ngày. Bạn cần tái cấu trúc code để giảm chi phí vận hành server.
 

@@ -1,7 +1,7 @@
 # ⚙️ Backend Knowledge Audit: Thử thách "E-commerce Scale-up"
 
 > **Mục đích:** Đo lường năng lực thiết kế, vận hành và tối ưu hóa hệ thống Backend toàn diện.
-> **Phiếu trả lời:** [Tải mẫu tại đây](../templates/backend-answer-template.md)
+> **Phiếu trả lời:** [Tải mẫu tại đây](../answer-templates/backend-answer-template.md)
 > 
 > **Kịch bản:** Bạn là **Lead Backend Engineer** của "MegaStore" - một nền tảng thương mại điện tử đang tăng trưởng nóng. Hệ thống đang gặp khó khăn khi chuẩn bị cho sự kiện "Super Sale 11.11" với dự kiến traffic tăng gấp 20 lần ngày thường.
 

@@ -3,7 +3,8 @@
 > [← Back to Home](../README.md) | [🚀 Quick Start Guide](../QUICK-START.md) | [📖 Glossary](../GLOSSARY.md)
 
 **🎯 New to this repo?** Start with the [**Quick Start Guide**](../QUICK-START.md) to choose your learning path!  
-**🔍 Looking for a term?** Check the [**Master Glossary**](../GLOSSARY.md) for 70+ concepts.
+**🔍 Looking for a term?** Check the [**Master Glossary**](../GLOSSARY.md) for 70+ concepts.  
+**🧩 Case Studies & Knowledge Audits:** Xem [Case Studies Hub](../case-studies/README.md) để chọn self-test hoặc template trả lời.
 
 ---
 
@@ -49,7 +50,7 @@ Chào mừng đến với thư viện hướng dẫn chuyên sâu. Tại đây t
     *   Hiểu về Cổ phiếu, Bất động sản và các kênh tài sản.
     *   [Behavioral Economics](./02-wealth-business/investing/advanced/behavioral-economics.md) - Tâm lý học đầu tư.
 *   **[🏢 Entrepreneurship (Khởi nghiệp)](./02-wealth-business/entrepreneurship/README.md)**
-    *   **[Entrepreneurship Audit](../case-studies/knowledge-audits/entrepreneurship-knowledge-audit.md)** ⭐ **NEW** - Thử thách đo lường năng lực Founder.
+    *   **[Entrepreneurship Audit](../case-studies/knowledge-audits/entrepreneurship-knowledge-audit.md)** ⭐ **NEW** - Thử thách đo lường năng lực Founder. *(Answer template: `case-studies/answer-templates/entrepreneurship-answer-template.md`)*
     *   Vận hành SME và Solopreneur.
 *   **[🚚 Logistics & Supply Chain (Hậu cần)](./02-wealth-business/logistics/README.md)** ⭐ **NEW**
     *   Quản trị chuỗi cung ứng, kho vận và xuất nhập khẩu.
@@ -104,7 +105,7 @@ Chào mừng đến với thư viện hướng dẫn chuyên sâu. Tại đây t
     *   **6 Engines:** Decision, Growth, Risk, Strategy, Optimization, Alignment.
 *   **[🧘 Well-being (Sức khỏe & Tinh thần)](./04-lifestyle-os/well-being/README.md)**
 *   **[🧘 Well-being (Sức khỏe & Tinh thần)](./04-lifestyle-os/well-being/README.md)**
-    *   **[Life OS Audit](../case-studies/knowledge-audits/life-os-knowledge-audit.md)** ⭐ **NEW** - Thử thách đo lường hiệu suất cá nhân.
+    *   **[Life OS Audit](../case-studies/knowledge-audits/life-os-knowledge-audit.md)** ⭐ **NEW** - Thử thách đo lường hiệu suất cá nhân. *(Answer template: `case-studies/answer-templates/life-os-answer-template.md`)*
 *   **[🏛️ Politics (Chính trị)](./04-lifestyle-os/politics/README.md)** ⭐ **Vietnam Deep Dive!**
     *   Bản chất quyền lực, thể chế và địa chính trị Việt Nam.
 

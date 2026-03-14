@@ -21,6 +21,30 @@ Danh sách các công cụ, thư viện và tài nguyên liên quan đến phát
 *   [Open-WebUI](https://github.com/open-webui/open-webui) - Giao diện web cho LLMs (Ollama, OpenAI API), giống ChatGPT.
 *   [ChatGPT Next Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web) - Giao diện ChatGPT đa nền tảng, hỗ trợ deploy Vercel.
 
+### 📥 Repos mới bổ sung (theo yêu cầu)
+*   [Reinforcement-Learning-Algorithms-From-Scratch](https://github.com/KhashayarRahimi/Reinforcement-Learning-Algorithms-From-Scratch)
+*   [awesome-rl](https://github.com/aikorea/awesome-rl)
+*   [awesome-nlp](https://github.com/awesomelistsio/awesome-nlp)
+*   [awesome-datascience](https://github.com/academic/awesome-datascience)
+*   [GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents)
+*   [ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners)
+*   [RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques)
+*   [Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide)
+*   [Hands-On-Large-Language-Models](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models)
+*   [nn-zero-to-hero](https://github.com/karpathy/nn-zero-to-hero)
+*   [annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations)
+*   [Made-With-ML](https://github.com/GokuMohandas/Made-With-ML)
+*   [mml-book.github.io](https://github.com/mml-book/mml-book.github.io)
+*   [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python)
+*   [100-Days-Of-ML-Code](https://github.com/Avik-Jain/100-Days-Of-ML-Code)
+*   [ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners)
+*   [paperclip](https://github.com/paperclipai/paperclip)
+*   [OpenViking](https://github.com/volcengine/OpenViking)
+*   [GitNexus](https://github.com/abhigyanpatwari/GitNexus)
+*   [openrag](https://github.com/langflow-ai/openrag)
+*   [prompts.chat](https://github.com/f/prompts.chat)
+*   [MiroFish](https://github.com/666ghj/MiroFish)
+
 ---
 
 ## 🧠 LLM & Agents

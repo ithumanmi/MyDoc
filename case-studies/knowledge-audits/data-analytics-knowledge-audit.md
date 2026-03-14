@@ -1,7 +1,7 @@
 # 📊 Data Analytics & Business Intelligence Knowledge Audit: Thử thách "SwiftRetail Growth Lab"
 
 > **Mục đích:** Đo lường năng lực trích xuất ý nghĩa từ dữ liệu, tư duy thống kê, thiết kế chỉ số kinh doanh (KPIs) và kỹ năng kể chuyện bằng dữ liệu (Data Storytelling).
-> **Phiếu trả lời:** [Tải mẫu tại đây](../templates/data-analytics-answer-template.md)
+> **Phiếu trả lời:** [Tải mẫu tại đây](../answer-templates/data-analytics-answer-template.md)
 > 
 > **Kịch bản:** Bạn là **Senior Data Analyst** của "SwiftRetail" - một chuỗi cửa hàng bán lẻ đa kênh (Omnichannel). Doanh thu quý vừa qua sụt giảm 15% mà không rõ nguyên nhân. CEO yêu cầu bạn thực hiện một cuộc "kiểm toán dữ liệu" toàn diện để tìm ra "lỗ hổng" và đề xuất chiến lược tăng trưởng mới.
 

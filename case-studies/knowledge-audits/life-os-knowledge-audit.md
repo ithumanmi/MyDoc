@@ -1,7 +1,7 @@
 # 🧠 Life OS & Peak Performance Knowledge Audit: Thử thách "The High-Performance Engine"
 
 > **Mục đích:** Đo lường năng lực quản lý hệ điều hành cá nhân, tối ưu hóa hiệu suất làm việc, khả năng học tập siêu tốc và khả năng phục hồi (Resilience).
-> **Phiếu trả lời:** [Tải mẫu tại đây](../templates/life-os-answer-template.md)
+> **Phiếu trả lời:** [Tải mẫu tại đây](../answer-templates/life-os-answer-template.md)
 > 
 > **Kịch bản:** Bạn đang đảm nhận vai trò Lead cho một dự án quan trọng kéo dài 6 tháng. Bạn phải làm việc 10 tiếng mỗi ngày, đồng thời muốn duy trì việc học một ngôn ngữ mới và tập luyện để chạy Marathon. Nếu không có một hệ thống quản lý tốt, bạn sẽ sớm rơi vào tình trạng kiệt sức (Burnout).
 

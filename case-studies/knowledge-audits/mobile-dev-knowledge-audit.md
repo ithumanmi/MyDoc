@@ -1,7 +1,7 @@
 # 📱 Mobile App Development Knowledge Audit: Thử thách "SuperApp Evolution"
 
 > **Mục đích:** Đo lường năng lực thiết kế, phát triển và tối ưu hóa ứng dụng di động toàn diện, từ kỹ thuật Cross-platform đến trải nghiệm người dùng (UX) và chiến lược kinh doanh.
-> **Phiếu trả lời:** [Tải mẫu tại đây](../templates/mobile-answer-template.md)
+> **Phiếu trả lời:** [Tải mẫu tại đây](../answer-templates/mobile-answer-template.md)
 > 
 > **Kịch bản:** Bạn là **Mobile Tech Lead** của "EcoRide" - một ứng dụng đa dịch vụ (SuperApp) bao gồm gọi xe, giao đồ ăn và ví điện tử. Ứng dụng đang phục vụ 500.000 người dùng hàng ngày và chuẩn bị mở rộng ra thị trường Đông Nam Á.
 

@@ -19,6 +19,18 @@ Lộ trình này giúp bạn đi từ con số 0 đến việc xây dựng đư�
 
 ---
 
+## 📌 Mục lục nhanh (highlights)
+- Fundamentals: [math-for-ml](./fundamentals/math-for-ml.md), [python-data-stack](./fundamentals/python-data-stack.md) — Toán & Python nền tảng.
+- Machine Learning: [supervised-learning](./machine-learning/supervised-learning.md), [unsupervised-learning](./machine-learning/unsupervised-learning.md), [ensemble-methods](./machine-learning/ensemble-methods.md), [feature-engineering](./machine-learning/feature-engineering.md) — Thuật toán cổ điển & xử lý đặc trưng.
+- Deep Learning: [neural-networks-101](./deep-learning/neural-networks-101.md), [optimization-tricks](./deep-learning/optimization-tricks.md), [regularization](./deep-learning/regularization.md) — Mạng nơ-ron, tối ưu và chống overfit.
+- Computer Vision: [cnn-architectures](./computer-vision/cnn-architectures.md), [image-segmentation](./computer-vision/image-segmentation.md), [vision-transformers](./computer-vision/vision-transformers.md), [3d-vision](./computer-vision/3d-vision.md) — Nhận dạng, phân đoạn, ViT, 3D/NeRF.
+- NLP: [transformers-llm](./nlp/transformers-llm.md), [llm-fine-tuning](./nlp/llm-fine-tuning.md), [llm-inference-optimization](./nlp/llm-inference-optimization.md) — LLM, fine-tune, tối ưu suy luận.
+- Generative AI: [diffusion-models](./generative-ai/diffusion-models.md), [multimodal-models](./generative-ai/multimodal-models.md), [text-to-video](./generative-ai/text-to-video.md) — Sinh ảnh/âm thanh/video, mô hình đa phương thức.
+- Reinforcement Learning: [README](./reinforcement-learning/README.md), [rl-fundamentals](./reinforcement-learning/rl-fundamentals.md), [policy-gradient](./reinforcement-learning/policy-gradient.md) — Cơ bản RL, chính sách/giá trị, policy gradient.
+- MLOps: [deployment-pipeline](./mlops/deployment-pipeline.md), [llmops](./mlops/llmops.md), [experiment-tracking](./mlops/experiment-tracking.md) — Triển khai, vận hành, theo dõi thí nghiệm.
+- Labs: [labs/README](./labs/README.md) — Kaggle guide, dự án RAG chatbot, Colab GPU tips.
+- Advanced: [distributed-training](./advanced/distributed-training.md), [interpretability](./advanced/interpretability.md), [ai-security](./advanced/ai-security.md) — Scale, giải thích, an toàn.
+
 ## 🗺️ Visual Roadmap
 
 ```mermaid

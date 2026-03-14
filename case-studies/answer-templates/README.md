@@ -1,5 +1,7 @@
 # 📚 Case Study Templates – Hướng dẫn sử dụng
 
+> Chỉ dùng cho **knowledge audits** (phiếu trả lời), không phải templates chung của toàn repo.
+
 Thư mục này chứa các **phiếu trả lời (answer templates)** dùng kèm với các bộ **Knowledge Audit** trong `case-studies/knowledge-audits`. Mỗi template giúp bạn:
 
 1. Ghi lại câu trả lời cho từng “Thử thách” (challenge) theo định dạng thống nhất.

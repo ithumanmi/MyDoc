@@ -7,6 +7,21 @@
 2. Duy trì phần cứng sinh học & tinh thần (Well-being) để không cháy máy.
 3. Hiểu môi trường quyền lực (Politics) để định vị cá nhân/gia đình trong bối cảnh lớn.
 
+## 📚 Module nhanh
+| Module | Mô tả 1 dòng | Link |
+| --- | --- | --- |
+| Life OS (Brainware) | 6 engine: decision, risk, strategy, energy, growth, leverage | [life-os/README.md](life-os/README.md) |
+| Decision Engine | Khung ra quyết định, log, checklist | [life-os/decision-engine.md](life-os/decision-engine.md) |
+| Risk Engine | Nhận diện & phòng thủ rủi ro cá nhân/gia đình | [life-os/risk-engine.md](life-os/risk-engine.md) |
+| Strategy & Alignment | Vector sống, chiến lược dài hạn | [life-os/strategy-engine.md](life-os/strategy-engine.md), [life-os/alignment-engine.md](life-os/alignment-engine.md) |
+| Energy Management | Năng lượng, chú ý, hormone | [life-os/energy-management.md](life-os/energy-management.md) |
+| Well-being (Hardware) | Biohacking, resilience, health OS | [well-being/README.md](well-being/README.md) |
+| Sleep & Recovery | Protocol ngủ, phục hồi | [well-being/biohacking/sleep-optimization.md](well-being/biohacking/sleep-optimization.md) |
+| Mental Resilience | Burnout prevention, mindfulness, stoicism | [well-being/mental-resilience/burnout-prevention.md](well-being/mental-resilience/burnout-prevention.md) |
+| Politics (Environment) | Roadmap, VN system, geopolitics | [politics/README.md](politics/README.md) |
+| Vietnam System | Cấu trúc vận hành VN | [politics/vietnam-system.md](politics/vietnam-system.md) |
+| World Order | Bức tranh toàn cầu, trật tự quyền lực | [politics/geopolitics/world-order.md](politics/geopolitics/world-order.md) |
+
 ## 🗺️ Lifestyle OS Roadmap (3 lớp)
 
 | Lớp | Câu hỏi chính | Module | File nổi bật |

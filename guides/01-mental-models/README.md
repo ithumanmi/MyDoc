@@ -7,6 +7,21 @@
 2. Tạo cầu nối giữa mental models và hành động (Career, Wealth, Lifestyle OS).
 3. Giúp bạn audit năng lực tư duy của chính mình để biết nên bồi đắp mảng nào.
 
+## 📚 Module nhanh
+| Module | Mô tả 1 dòng | Link |
+| --- | --- | --- |
+| Mathematics | Logic, xác suất, hệ động lực, chaos | [mathematics/README.md](./mathematics/README.md) |
+| Physics | Entropy, mechanics, energy/force analogies | [physics/README.md](./physics/README.md) |
+| Chemistry | Catalysts, phase change, reaction kinetics | [chemistry/README.md](./chemistry/README.md) |
+| Biology | Evolution, ecology, carrying capacity | [biology/README.md](./biology/README.md) |
+| Psychology | Bias, decision razors, dark psych defense | [psychology/README.md](./psychology/README.md) |
+| Philosophy | Logic, ethics, worldview firmware | [philosophy/README.md](./philosophy/README.md) |
+| History | Chu kỳ, path dependence, Lindy | [history/README.md](./history/README.md) |
+| Global Intelligence | Systems thinking, feedback loops | [global-intelligence/README.md](./global-intelligence/README.md) |
+| Mysticism | Văn hoá/tín ngưỡng như framework nhận thức | [mysticism/README.md](./mysticism/README.md) |
+| Failure Management | Phòng thủ & phục hồi khi đổ vỡ | [failure-management-system.md](./failure-management-system.md) |
+| Metacog-OS | Hệ điều hành tự nhận thức 7 ngày khởi động | [metacognitive-operating-system.md](./metacognitive-operating-system.md) |
+
 ## 🗺️ Mental Model Roadmap (3 Layer)
 
 | Layer | Nội dung | Câu hỏi chính | Module tiêu biểu |

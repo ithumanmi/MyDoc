@@ -138,18 +138,18 @@
 
 | Template | Gắn với Audit | Đường dẫn |
 |:---------|:---------------|:----------|
-| **General Audit** | Knowledge Audit (Self-Test) tổng quát | [case-studies/templates/general-audit-answer-template.md](../case-studies/templates/general-audit-answer-template.md) |
-| **AI** | AI Knowledge Audit | [case-studies/templates/ai-answer-template.md](../case-studies/templates/ai-answer-template.md) |
-| **Backend** | Backend Knowledge Audit | [case-studies/templates/backend-answer-template.md](../case-studies/templates/backend-answer-template.md) |
-| **Blockchain** | Blockchain Knowledge Audit | [case-studies/templates/blockchain-answer-template.md](../case-studies/templates/blockchain-answer-template.md) |
-| **Data Analytics** | Data Analytics Knowledge Audit | [case-studies/templates/data-analytics-answer-template.md](../case-studies/templates/data-analytics-answer-template.md) |
-| **DSA** | DSA Knowledge Audit | [case-studies/templates/dsa-answer-template.md](../case-studies/templates/dsa-answer-template.md) |
-| **Entrepreneurship** | Entrepreneurship Audit | [case-studies/templates/entrepreneurship-answer-template.md](../case-studies/templates/entrepreneurship-answer-template.md) |
-| **Game Dev** | Game Dev Knowledge Audit | [case-studies/templates/game-dev-answer-template.md](../case-studies/templates/game-dev-answer-template.md) |
-| **Life OS** | Life OS Knowledge Audit | [case-studies/templates/life-os-answer-template.md](../case-studies/templates/life-os-answer-template.md) |
-| **Mobile** | Mobile App Knowledge Audit | [case-studies/templates/mobile-answer-template.md](../case-studies/templates/mobile-answer-template.md) |
-| **Security** | Cyber Security Knowledge Audit | [case-studies/templates/security-answer-template.md](../case-studies/templates/security-answer-template.md) |
-| **Web Dev** | Web Dev Knowledge Audit | [case-studies/templates/web-dev-answer-template.md](../case-studies/templates/web-dev-answer-template.md) |
+| **General Audit** | Knowledge Audit (Self-Test) tổng quát | [case-studies/answer-templates/general-audit-answer-template.md](../case-studies/answer-templates/general-audit-answer-template.md) |
+| **AI** | AI Knowledge Audit | [case-studies/answer-templates/ai-answer-template.md](../case-studies/answer-templates/ai-answer-template.md) |
+| **Backend** | Backend Knowledge Audit | [case-studies/answer-templates/backend-answer-template.md](../case-studies/answer-templates/backend-answer-template.md) |
+| **Blockchain** | Blockchain Knowledge Audit | [case-studies/answer-templates/blockchain-answer-template.md](../case-studies/answer-templates/blockchain-answer-template.md) |
+| **Data Analytics** | Data Analytics Knowledge Audit | [case-studies/answer-templates/data-analytics-answer-template.md](../case-studies/answer-templates/data-analytics-answer-template.md) |
+| **DSA** | DSA Knowledge Audit | [case-studies/answer-templates/dsa-answer-template.md](../case-studies/answer-templates/dsa-answer-template.md) |
+| **Entrepreneurship** | Entrepreneurship Audit | [case-studies/answer-templates/entrepreneurship-answer-template.md](../case-studies/answer-templates/entrepreneurship-answer-template.md) |
+| **Game Dev** | Game Dev Knowledge Audit | [case-studies/answer-templates/game-dev-answer-template.md](../case-studies/answer-templates/game-dev-answer-template.md) |
+| **Life OS** | Life OS Knowledge Audit | [case-studies/answer-templates/life-os-answer-template.md](../case-studies/answer-templates/life-os-answer-template.md) |
+| **Mobile** | Mobile App Knowledge Audit | [case-studies/answer-templates/mobile-answer-template.md](../case-studies/answer-templates/mobile-answer-template.md) |
+| **Security** | Cyber Security Knowledge Audit | [case-studies/answer-templates/security-answer-template.md](../case-studies/answer-templates/security-answer-template.md) |
+| **Web Dev** | Web Dev Knowledge Audit | [case-studies/answer-templates/web-dev-answer-template.md](../case-studies/answer-templates/web-dev-answer-template.md) |
 
 ---
 

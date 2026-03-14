@@ -1,116 +1,75 @@
-## 🧭 Unsupervised Learning: Học Không Giám sát
-
-> [← Back to Classic ML Hub](./README.md) | [← AI/ML Roadmap](../README.md)
-
-Khi không có nhãn, mô hình phải tự tìm cấu trúc ẩn trong dữ liệu. Đây là nền tảng cho customer segmentation, anomaly detection, recommendation, giảm chiều để chuẩn bị cho supervised.
-
+---
+title: Unsupervised Learning Cheatsheet
+description: Core methods, when to use, pitfalls, and quick-start recipes.
 ---
 
-## 0. TL;DR & Playbook
+# 🧭 Unsupervised Learning
 
-1. **Xác định mục tiêu:** clustering, giảm chiều, phát hiện bất thường hay tạo luật kết hợp?
-2. **Data Prep:** chuẩn hóa, xử lý thiếu, loại bỏ outlier thô (nếu không cần phát hiện outlier).
-3. **Chọn metric vô giám sát:** Silhouette, Davies-Bouldin, Reconstruction Error, Domain feedback.
-4. **Visualize mọi bước:** PCA/t-SNE/UMAP để hiểu cấu trúc; review cùng domain để đặt tên cụm.
-5. **Đóng gói pipeline:** lưu scaler + mô hình + logic gán label cụm để dùng downstream.
+## Khi nào dùng
+- Không có nhãn, cần khám phá cấu trúc/nhóm ẩn.
+- Giảm chiều dữ liệu để trực quan hóa, nén, tiền xử lý.
+- Phát hiện bất thường khi thiếu dữ liệu xấu có nhãn.
 
-> 📌 Checklist nhanh: scaling? số chiều quá cao? có dùng random seed để reproducible? đã map cụm sang insight kinh doanh?
+## Phổ thuật toán chính
+- **Clustering:** K-Means, Hierarchical (Ward/Complete/Single), DBSCAN/HDBSCAN, Gaussian Mixture Models (GMM), Spectral Clustering.
+- **Dimensionality Reduction:** PCA, t-SNE (trực quan), UMAP, Autoencoder (denoising/variational).
+- **Anomaly Detection:** Isolation Forest, One-Class SVM, Elliptic Envelope, Autoencoder reconstruction error.
+- **Association Rules:** Apriori, FP-Growth cho market-basket analysis.
 
----
+## Lựa chọn nhanh
+- **Dữ liệu lớn, cần tốc độ:** K-Means (mini-batch), PCA.
+- **Dữ liệu phi tuyến, hình dạng cụm phức tạp:** DBSCAN/HDBSCAN, Spectral, UMAP.
+- **Nhiều nhiễu/outlier:** DBSCAN/HDBSCAN, Isolation Forest.
+- **Trực quan hóa 2D/3D:** UMAP (nhanh, giữ cấu trúc cục bộ), t-SNE (giữ cấu trúc cục bộ tốt nhưng chậm).
 
-## 1. Clustering (Phân cụm)
+## Quy trình chuẩn
+1) Chuẩn hóa/scale dữ liệu (StandardScaler/RobustScaler).  
+2) Giảm chiều sơ bộ (PCA/UMAP) nếu feature nhiều hoặc nhiễu.  
+3) Chọn thuật toán cluster/anomaly phù hợp.  
+4) Đánh giá bằng metric không nhãn: Silhouette, Calinski-Harabasz, Davies-Bouldin, hoặc đánh giá định tính (visual).  
+5) Kiểm tra ổn định cụm (random seeds, bootstrap) và ý nghĩa business.
 
-Tách dữ liệu thành các nhóm tương đồng.
+## Công thức nhanh (code sketch, Python/Sklearn)
+- **K-Means + Silhouette:**
+```python
+from sklearn.cluster import KMeans
+from sklearn.metrics import silhouette_score
 
-### 1.1 K-Means / MiniBatch K-Means
-*   Chọn `k` tâm cụm, gán từng điểm vào cụm gần nhất rồi cập nhật tâm cho đến khi hội tụ.
-*   **Ưu:** nhanh, dễ triển khai, hỗ trợ streaming với MiniBatch.
-*   **Nhược:** nhạy cảm với điểm outlier, cần biết trước `k`.
-*   **Workflow:** scale feature → chạy nhiều giá trị `k` → Elbow/Silhouette + đánh giá domain → cố định `k` → gán label cụm.
+kmeans = KMeans(n_clusters=K, n_init='auto', random_state=42)
+labels = kmeans.fit_predict(X_scaled)
+score = silhouette_score(X_scaled, labels)
+```
+- **DBSCAN (epsilon tuning):**
+```python
+from sklearn.cluster import DBSCAN
+db = DBSCAN(eps=0.5, min_samples=10).fit(X_scaled)
+labels = db.labels_  # -1 là noise
+```
+- **UMAP để giảm chiều trước khi cluster:**
+```python
+import umap
+import numpy as np
+X_2d = umap.UMAP(n_neighbors=15, min_dist=0.1, metric='cosine', random_state=42).fit_transform(X)
+```
+- **Isolation Forest cho anomaly:**
+```python
+from sklearn.ensemble import IsolationForest
+iso = IsolationForest(contamination=0.02, random_state=42)
+pred = iso.fit_predict(X_scaled)  # -1 là anomaly
+```
 
-### 1.2 Hierarchical Clustering
-*   Xây dựng cây phân cụm (dendrogram): Agglomerative hoặc Divisive.
-*   Không cần chọn `k` ngay; dùng dendrogram để quyết định.
-*   Hữu ích khi muốn hiểu quan hệ giữa cụm (taxonomy sản phẩm, user segments).
+## Pitfalls & lưu ý
+- K-Means giả định cụm lồi và tương đương về kích thước → kém với cụm phi tuyến hoặc density khác nhau.
+- t-SNE không bảo toàn cấu trúc toàn cục; không dùng trực tiếp để cluster.
+- DBSCAN nhạy cảm tham số `eps` và `min_samples`; chuẩn hóa thang đo trước.
+- Anomaly detection cần hiệu chỉnh tỷ lệ contamination; luôn kiểm thử trên tập có nhãn mẫu nếu có.
 
-### 1.3 DBSCAN / HDBSCAN
-*   Dựa trên mật độ điểm dữ liệu, nên phát hiện được cụm có hình dạng bất kỳ.
-*   **Ưu:** tự động loại outlier, không cần `k`.
-*   **Nhược:** phải chọn `eps`/`min_samples`, nhạy với scale feature.
-*   **Ứng dụng:** fraud detection, GPS trajectory, sensor anomaly.
+## Đánh giá và trực quan
+- Dùng **Silhouette** để tìm K; kết hợp **Elbow** chỉ mang tính gợi ý.
+- Trực quan 2D/3D sau giảm chiều; kiểm tra tính nhất quán cụm với nhiều seed.
+- Với anomaly: Precision@k, PR curve nếu có nhãn hạn chế; nếu không, cần SME review.
 
----
-
-## 2. Dimensionality Reduction (Giảm chiều)
-
-Nén dữ liệu nhiều chiều thành ít chiều để trực quan, giảm nhiễu, tăng tốc model downstream.
-
-### 2.1 Principal Component Analysis (PCA)
-*   Tìm các trục mới (principal components) sao cho giữ được phương sai lớn nhất.
-*   Thích hợp cho dữ liệu tuyến tính, dễ giải thích.
-*   **Whitening:** scale các component để decorrelate.
-
-### 2.2 t-SNE / UMAP
-*   Giữ quan hệ cục bộ giữa các điểm.
-*   Phù hợp trực quan hóa dữ liệu cao chiều (embeddings, ảnh...)
-*   **t-SNE:** Chi tiết cao nhưng chậm, khó bảo toàn cấu trúc lớn.
-*   **UMAP:** Nhanh hơn, bảo toàn tốt hơn cấu trúc toàn cục, có thể dùng cho downstream clustering.
-*   **Param tips:**
-    * t-SNE: `perplexity` 30-50 cho dataset vừa, tăng nếu data dày.
-    * UMAP: `n_neighbors` kiểm soát local/global, `min_dist` kiểm soát độ chặt cụm.
-
-### 2.3 Autoencoders & Variational Autoencoders
-*   Dùng mạng neural compress rồi reconstruct dữ liệu đầu vào.
-*   VAE thêm phân phối xác suất → hữu ích cho generative modeling, anomaly detection.
-*   Thường kết hợp với CNN/RNN cho ảnh, audio, time-series.
-
-> 🎯 Tip: Chạy PCA → nén xuống 50 chiều → dùng UMAP visual → áp dụng clustering để có pipeline khám phá dữ liệu mượt mà.
-
-> 🧪 Notebook: [K-Means + UMAP Lab](./notebooks/kmeans-umap-lab.ipynb)
-
----
-
-## 3. Association Rule Learning (Luật kết hợp)
-
-Tìm các mẫu “hay đi cùng nhau” trong data (Market Basket Analysis).
-
-### **Apriori / FP-Growth**
-*   Ví dụ: Khách mua bia thường mua snack.
-*   Sử dụng các thước đo **Support**, **Confidence**, **Lift** để đánh giá.
-
----
-
-## 4. Anomaly Detection (Phát hiện bất thường)
-
-Áp dụng trong bảo mật, tài chính, IoT...
-
-| Phương pháp | Khi dùng | Lưu ý |
-|-------------|----------|-------|
-| **Isolation Forest** | Tabular, dữ liệu nhiều chiều, mix numeric/categorical | Scale không bắt buộc, tune `contamination` để cân bằng FP/FN. |
-| **One-Class SVM** | Dataset nhỏ/medium, boundary rõ | Cần scaling, nhạy với outlier nặng. |
-| **Autoencoder / VAE** | Dữ liệu phi tuyến, ảnh, chuỗi thời gian | Threshold dựa trên reconstruction error; cần validation dữ liệu sạch. |
-| **Statistical (Z-score/IQR)** | Bài toán đơn giản, dữ liệu Gaussian | Không bắt kịp pattern phi tuyến. |
-
----
-
-## 5. Quy trình thực chiến
-
-1. **Chuẩn hóa dữ liệu:** Scale các features để tránh cụm bị lệch.
-2. **Chọn metric phù hợp:** Silhouette Score, Davies-Bouldin...
-3. **Kết hợp Domain Knowledge:** Gán ý nghĩa cho cụm; không có nhãn nên con người phải vào cuộc.
-4. **Dùng Semi-supervised nếu có nhãn nhỏ:** Label spreading, active learning.
-
-> 🧑‍💼 Deliverable nên có: bảng mô tả cụm + insight, rule đặt tên cụm, script tái tạo pipeline, dashboard visualize (ví dụ Plotly/Bokeh).
-
----
-
-## 6. Ứng dụng tiêu biểu
-
-*   Phân cụm khách hàng cho marketing (Customer Segmentation)
-*   Gợi ý sản phẩm (Recommendation) dựa trên item similarity.
-*   Phát hiện giao dịch gian lận, sensor anomaly.
-*   Chuẩn hóa dữ liệu trước khi đưa vào Supervised Learning.
-
-> 🔁 Next Steps: sau Unsupervised, xem [Semi-supervised](./semi-supervised-learning.md) để kết hợp nhãn ít + nhãn giả, hoặc build pipeline ensemble với [Ensemble Methods](./ensemble-methods.md).
-
-> 📌 Tip: Luôn visualize kết quả phân cụm/giảm chiều để tránh diễn giải sai. Kết hợp với supervised labels nếu có để đánh giá thêm.
+## Liên quan
+- [Supervised Learning](./supervised-learning.md)
+- [Semi-supervised Learning](./semi-supervised-learning.md)
+- [Feature Engineering](./feature-engineering.md)

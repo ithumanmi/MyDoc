@@ -1,6 +1,6 @@
 # Chương 1: Xác định lĩnh vực và mục tiêu rõ ràng
 
-> [← Home](../README.md) | [Quick Start Guide →](00-quick-start.md) | [Next: Chapter 2 →](02-luyen-tap-co-chu-dich.md)
+> [← Home](../README.md) | [Quick Start Guide →](../QUICK-START.md) | [Next: Chapter 2 →](02-luyen-tap-co-chu-dich.md)
 
 ---
 
@@ -35,7 +35,7 @@ Mỗi lĩnh vực dưới đây đều có lộ trình (roadmap) chi tiết riê
 
 Đừng chọn theo trend, hãy chọn theo sự giao thoa giữa **Passion (Đam mê)**, **Skill (Kỹ năng)** và **Market (Thị trường)**.
 
-> **💡 Note:** Chi tiết về kỹ năng cần có và thực tế công việc của từng ngành, vui lòng xem trong các link [Game Dev](../domains/game-dev/README.md), [AI/ML](../domains/ai-ml/README.md), [App Dev](../domains/app-dev/README.md), [Web Dev](../domains/web-dev/README.md) ở trên.
+> **💡 Note:** Chi tiết về kỹ năng cần có và thực tế công việc của từng ngành, vui lòng xem trong các link [Game Dev](../domains/game-dev/README.md), [AI/ML](../domains/ai-ml/README.md), [Mobile App Development](../domains/mobile-dev/README.md), [Web Dev](../domains/web-dev/README.md), [Blockchain](../domains/blockchain/README.md), [Network & Security](../domains/network-security/README.md).
 
 ---
 
@@ -150,4 +150,4 @@ Bạn muốn trở thành **top 1%** trong thị trường Việt Nam hay vươn
 
 **Mục tiêu càng cụ thể, hành động càng dễ bám theo.**
 
-> [← Home](../README.md) | [Quick Start →](00-quick-start.md) | [Next: Chapter 2 →](02-luyen-tap-co-chu-dich.md) | [Action Plan →](10-action-plan.md)
+> [← Home](../README.md) | [Quick Start →](../QUICK-START.md) | [Next: Chapter 2 →](02-luyen-tap-co-chu-dich.md) | [Action Plan →](10-action-plan.md)

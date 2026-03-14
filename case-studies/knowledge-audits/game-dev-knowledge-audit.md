@@ -1,7 +1,7 @@
 # 🎮 Game Dev Knowledge Audit: Thử thách "Indie Hit"
 
 > **Mục đích:** Đo lường năng lực làm game toàn diện, từ Technical (Kỹ thuật) đến Design (Thiết kế) và Business (Kinh doanh).
-> **Phiếu trả lời:** [Tải mẫu tại đây](../templates/game-dev-answer-template.md)
+> **Phiếu trả lời:** [Tải mẫu tại đây](../answer-templates/game-dev-answer-template.md)
 > 
 > **Kịch bản:** Bạn đang phát triển một dự án game Indie tên là **"Project Nebula"** - một game Multiplayer RPG kết hợp yếu tố Procedural Generation (Sinh ngẫu nhiên). Sau 6 tháng phát triển, bạn chuẩn bị đưa game lên Steam và Mobile.
 
