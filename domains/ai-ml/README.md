@@ -16,17 +16,28 @@ Lộ trình này giúp bạn đi từ con số 0 đến việc xây dựng đư�
 ## 📑 Case Study Index (học từ thất bại & vận hành thực chiến)
 - **Engineering:** [Knight Capital deployment failure](../../case-studies/mental-models-analysis/engineering-analysis-deployment-failure.md) — 440M USD vì lỗi rollout, bài học margin of safety & rollback.
 - **Economics:** [Food Delivery Platform unit economics](../../case-studies/mental-models-analysis/economics-analysis-platform-failure.md) — Chi phí cơ hội, elasticity, trần lợi nhuận.
+- **Incentives / Opportunity Cost / Elasticity:** Lăng kính kinh tế để đánh giá động cơ, chi phí cơ hội và hiệu ứng lề trước khi ra quyết định.
 - **History:** [Nokia fall](../../case-studies/mental-models-analysis/history-analysis-nokia-fall.md) — Path dependence, Lindy, mistiming.
 - **Math (optional):** [Blitzscaling growth vs fragility](../../case-studies/mental-models-analysis/amazon-blitzscaling-analysis.md) — Trade-off tăng trưởng và độ bền hệ thống.
 
+---
 ### 🧭 Cách đọc & tính hành động
 - Bài có biểu tượng **✓** chứa mục **“Ứng dụng Thực chiến”** (checklist triển khai nhanh). Ví dụ: [AI Agent Use Cases](./agents/agent-use-cases.md).
 - Gợi ý template cho bài mới: 1) Định nghĩa / mô hình; 2) Ví dụ đời sống/kinh doanh; 3) Ứng dụng Thực chiến (3–5 bullet cụ thể); 4) Link case study (nếu có).
 
-- **Math (optional):** [Blitzscaling growth vs fragility](../../case-studies/mental-models-analysis/amazon-blitzscaling-analysis.md) — Trade-off tăng trưởng và độ bền hệ thống.
+### 📈 Economics as mental models (Layer 2.5)
+- Nếu muốn đào sâu incentives / opportunity cost / elasticity / game theory: đọc **[Behavioral Economics](../../guides/02-wealth-business/investing/advanced/behavioral-economics.md)** (đã có phần bias & quyết định), hoặc **[Macroeconomics](../../guides/02-wealth-business/investing/advanced/macroeconomics.md)** và **[Microeconomics](../../guides/02-wealth-business/investing/advanced/microeconomics.md)**.
+- Tích hợp vào workflow quyết định: coi như bộ lăng kính để đánh giá chi phí cơ hội, động cơ, hiệu ứng lề (elasticity) trước khi chọn mô hình/giải pháp.
 
+### 🧩 Integration Layer: Stacking models (1–2 trang)
+- **Vấn đề quyết định:** FMS + Razors (Occam/Hanlon + Prior) + Probability (EV, base rates) → chọn giải pháp tối giản đủ an toàn.
+- **Vấn đề con người:** Psychology + Behavioral Econ + Philosophy (Stoicism) → giảm bias/cảm xúc, định hình incentive rõ ràng.
+- **Vấn đề hệ thống:** Feedback loops + Biology/Entropy + Second-order effects → đảm bảo ổn định, tránh khuếch đại lỗi.
 
----
+### ✅ Mental model of the week
+- Gợi ý: mỗi tuần 1 model + 1 experiment nhỏ. Ví dụ Tuần 1: **Hanlon’s Razor** — khi bực, tự hỏi “có phải vô ý không?”.
+- Đặt lịch trong Metacog-OS hoặc todo cá nhân, gắn nhãn ✓ sau khi thử nghiệm 3–5 lần.
+
 
 ## 📌 Mục lục nhanh (highlights)
 - Fundamentals: [math-for-ml](./fundamentals/math-for-ml.md), [python-data-stack](./fundamentals/python-data-stack.md) — Toán & Python nền tảng.
