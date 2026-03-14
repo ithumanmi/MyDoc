@@ -71,7 +71,7 @@ Chào mừng bạn đến với **Psychology Domain**. Đây là bản đồ ki�
 *   Thuyết phục bằng Social Proof, Nguyên tắc Có đi có lại (Reciprocity), Cam kết & Nhất quán.
 
 ### 3. [Giải quyết Xung đột & Học tập](./decision-making-razors.md#🛠️-ứng-dụng-thực-chiến-life-applications)
-*   Dùng Hanlon's Razor giảm drama, Debug cuộc sống bằng Occam's Razor, Vượt qua Thung lũng thất vọng (Dunning-Kruger).
+---
 
 ---
 
