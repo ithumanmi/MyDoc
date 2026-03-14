@@ -110,3 +110,4 @@ Sử dụng kịch bản này khi bạn gặp một người chơi tiềm năng 
     *   Giữ ngắn gọn (< 5 phút).
     *   Tránh câu hỏi dẫn dắt (Leading questions).
     *   Tặng quà nhỏ (Gift card, Ebook) để khuyến khích điền form.
+

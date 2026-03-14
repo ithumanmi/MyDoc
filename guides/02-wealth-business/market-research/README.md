@@ -50,6 +50,10 @@ Tài liệu hướng dẫn toàn diện về Nghiên cứu Thị trường & Ph�
 - **Primary research tools:** Typeform/Google Forms, Lookback/Zoom for interviews, UserTesting/PlaytestCloud (paid), Airtable/Sheets cho mã hóa dữ liệu.
 - (Mỗi trang con vẫn có tools cụ thể; đây là bản tập trung để tra nhanh.)
 
+👉 **Bảng tra nhanh theo use case:** [Tools & Data Sources](./core/tools-and-data-sources.md)
+👉 **Cách báo cáo & kể chuyện:** [Research Reporting Playbook](./strategy/research-reporting-playbook.md)
+👉 **Chọn thị trường & localize:** [Geo & Localization Research](./strategy/geo-and-localization-research.md)
+
 ---
 
 ## 📚 Mục lục

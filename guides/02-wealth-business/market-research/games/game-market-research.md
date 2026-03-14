@@ -26,11 +26,13 @@
 
 ---
 
-## Phân tích thị trường Mobile
+## Phân tích thị trường Mobile (tóm tắt)
 
-*   **ASO (App Store Optimization):** Nghiên cứu keyword mà đối thủ đang rank top.
-*   **Top Charts:** Xem xu hướng game Hyper-casual hay Mid-core đang lên ngôi.
-*   **Creative Analysis:** Xem quảng cáo (Ads) của đối thủ trên Facebook Library/TikTok Creative Center để biết họ đánh vào tâm lý gì.
+- **ASO (App Store Optimization):** Nghiên cứu keyword mà đối thủ đang rank top.
+- **Top Charts:** Xem xu hướng game Hyper-casual hay Hybrid đang lên ngôi.
+- **Creative Analysis:** Xem quảng cáo của đối thủ (TikTok/Meta Ads Library) để biết họ đánh vào tâm lý gì.
+
+> Chi tiết: xem **[Mobile Game Market Research](./mobile-game-market-research.md)** (ASO cho game, creative analysis, genre lifecycle hyper vs hybrid, benchmark CPI/LTV, link sizing practice & ad monetization).
 
 ## Genre Analysis Framework (Khung Phân Tích Thể Loại)
 

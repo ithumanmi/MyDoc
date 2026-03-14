@@ -45,6 +45,8 @@ Dưới đây là một template markdown chi tiết hơn để bạn theo dõi 
 | **Marketing Channels** | TikTok, Reddit | Facebook Ads | Influencers | ... |
 | **Bài học rút ra** | Tránh làm game quá nặng | Copy mechanic gây nghiện | Giảm giá để cạnh tranh | ... |
 
+> Cách báo cáo gọn: xem [Research Reporting Playbook](../strategy/research-reporting-playbook.md) (one-pager, slide “so what”, dashboard competitor).
+
 ---
 
 ## 🕵️ Reverse Engineering Guide (Hướng dẫn "Mổ xẻ" Đối thủ)

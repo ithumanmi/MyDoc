@@ -20,6 +20,12 @@ Trong B2B, bạn không bán cho "doanh nghiệp", bạn bán cho **con người
 3.  **Revenue:** Doanh thu ước tính (để biết họ có ngân sách $500/tháng cho tool của bạn không).
 4.  **Growth Signal:** Họ có đang tuyển dụng không? (Tuyển nhiều Sales -> Cần CRM. Tuyển nhiều Dev -> Cần tool quản lý dự án).
 
+**Template ICP (copy/paste):**
+- Firmographic: Industry, employee size, geo, funding stage (bootstrapped/Series B), business model (B2B/B2C/PLG/field).
+- Technographic: Cloud (AWS/Azure/GCP), core app (Shopify/Magento/SFDC/HubSpot), data stack (Snowflake/BigQuery), comms (Slack/Teams), security (Okta/SAML).
+- Pain/trigger: Hiring spike in X role; tech migration (Monolith→Microservices); compliance deadline; ad spend > $Y; tool stack missing Z.
+- Budget proxy: Revenue band; headcount in buyer team; tooling spend ratio (e.g., MarTech % of revenue).
+
 ---
 
 ## 2. Technographics Tools (Công cụ soi công nghệ)
@@ -31,6 +37,7 @@ Làm sao biết khách hàng đang dùng tool gì?
     *   *Chiến thuật:* Tìm tất cả website dùng "WooCommerce" nhưng chưa dùng "Email Marketing Tool" nào -> Chào hàng tool của bạn.
 *   **LinkedIn Sales Navigator:**
     *   Tìm các công ty đang tuyển dụng "ReactJS Developer" -> Họ đang làm app React -> Chào hàng tool test React.
+*   **Apollo / Clearbit / G2 intent:** enrich domain -> tech stack, headcount; intent signals từ G2 nếu họ xem category/đối thủ.
 
 ---
 
@@ -46,6 +53,12 @@ Trong một công ty B2B, người dùng tool (User) và người ký séc (Buye
 | **Blocker (Kẻ cản trở)** | IT Manager, Legal. | Sợ rủi ro, sợ tool mới không tương thích. | Gửi tài liệu Compliance (SOC2, GDPR), Integration Docs. |
 
 -> **Chiến lược:** Tiếp cận **User** trước (Bottom-up) để tạo nhu cầu, sau đó tiếp cận **Buyer** (Top-down) để chốt deal.
+
+**Decision map (copy/paste bảng):**
+- Users: titles, daily pains, KPIs (time saved, error rate).
+- Champions: team leads/manager, KPI (team throughput, quality), what “win” looks like.
+- Economic buyer: VP/C-level/Founder/CFO, KPI (cost saving, risk/compliance), budget cycle.
+- Blockers: IT/Security/Legal/Procurement; checklist needed (SOC2, DPA, DPIA, SSO/SCIM, data residency).
 
 ---
 
@@ -80,6 +93,12 @@ Trong một công ty B2B, người dùng tool (User) và người ký séc (Buye
 >
 > Mình gửi bạn case study bên [Đối thủ cạnh tranh] đã dùng để tăng 30% sales nhé?
 
+**Flow đề xuất: Research → List → Outreach → Measure**
+1) **Research:** xác định ICP + trigger (funding, hiring, tech stack, intent G2); phân role (user/champion/buyer/blocker).
+2) **List:** build list qua LinkedIn/Apollo + enrich (email, role, tech stack); dedupe; note trigger.
+3) **Outreach:** 2-3 angles, 3-5 steps/sequence, đa kênh (email + LinkedIn touch). CTA nhẹ (yes/no, send asset, 10-min async loom).
+4) **Measure:** track open/reply/positive, book rate; iterate creative/angle; qualify với BANT/MEDDIC.
+
 ---
 
 ## 5. 🛠️ Modern B2B Sales Stack (Bộ công cụ)
@@ -93,10 +112,12 @@ Trong một công ty B2B, người dùng tool (User) và người ký séc (Buye
 ### **Intent Data (Ai đang muốn mua?)**
 *   **Bombora:** Cho biết công ty nào đang search từ khóa liên quan đến bạn.
 *   **G2 Buyer Intent:** Cho biết ai đang xem profile của... đối thủ bạn. -> *Cướp khách ngay!*
+*   **LinkedIn signals:** job post spike, role-specific hiring; content engagement với chủ đề bạn bán.
 
 ### **CRM & Outreach Automation**
 *   **Lemlist / Instantly:** Gửi cold email tự động, có tính năng "warm-up" để không vào spam.
 *   **HubSpot:** CRM miễn phí tốt nhất để quản lý deal.
+*   **Clay / Hex / Snowflake + SQL:** tự động enrich, chấm điểm lead (scoring) và cá nhân hóa nội dung.
 
 ---
 

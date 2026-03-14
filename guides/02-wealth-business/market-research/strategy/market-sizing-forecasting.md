@@ -24,6 +24,8 @@ Khi bạn pitching với nhà đầu tư hoặc tự mình quyết định có n
 
 > 👉 **Xem thực hành:** [Ví dụ tính toán TAM/SAM/SOM chi tiết cho Game](./game-market-sizing-practice.md)
 
+> 🌍 Cần phân chia theo geo/Tier và PPP? Xem thêm [Geo & Localization Research](./geo-and-localization-research.md) để chọn thị trường và giá phù hợp.
+
 ---
 
 ## 2. Fermi Estimation (Phép tính ước lượng)
