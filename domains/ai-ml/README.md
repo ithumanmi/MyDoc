@@ -10,12 +10,21 @@
 
 **🎯 New to AI/ML?** Start with [Quick Start Guide](../../QUICK-START.md) to find your path!  
 **🗺️ Structured 9-step path:** [AI Engineering Roadmap 2026](./ai-engineering-roadmap-2026.md) — Foundation → RAG → **Agents** → MLOps → Portfolio.  
-**🔍 AI terms:** See [Glossary](../../GLOSSARY.md) for Machine Learning, Neural Networks, LLM, etc.
-
----
-
 AI không còn là khoa học viễn tưởng. Nó đang viết code, vẽ tranh và lái xe.
 Lộ trình này giúp bạn đi từ con số 0 đến việc xây dựng được mô hình Generative AI của riêng mình.
+
+## 📑 Case Study Index (học từ thất bại & vận hành thực chiến)
+- **Engineering:** [Knight Capital deployment failure](../../case-studies/mental-models-analysis/engineering-analysis-deployment-failure.md) — 440M USD vì lỗi rollout, bài học margin of safety & rollback.
+- **Economics:** [Food Delivery Platform unit economics](../../case-studies/mental-models-analysis/economics-analysis-platform-failure.md) — Chi phí cơ hội, elasticity, trần lợi nhuận.
+- **History:** [Nokia fall](../../case-studies/mental-models-analysis/history-analysis-nokia-fall.md) — Path dependence, Lindy, mistiming.
+- **Math (optional):** [Blitzscaling growth vs fragility](../../case-studies/mental-models-analysis/amazon-blitzscaling-analysis.md) — Trade-off tăng trưởng và độ bền hệ thống.
+
+### 🧭 Cách đọc & tính hành động
+- Bài có biểu tượng **✓** chứa mục **“Ứng dụng Thực chiến”** (checklist triển khai nhanh). Ví dụ: [AI Agent Use Cases](./agents/agent-use-cases.md).
+- Gợi ý template cho bài mới: 1) Định nghĩa / mô hình; 2) Ví dụ đời sống/kinh doanh; 3) Ứng dụng Thực chiến (3–5 bullet cụ thể); 4) Link case study (nếu có).
+
+- **Math (optional):** [Blitzscaling growth vs fragility](../../case-studies/mental-models-analysis/amazon-blitzscaling-analysis.md) — Trade-off tăng trưởng và độ bền hệ thống.
+
 
 ---
 
@@ -184,6 +193,14 @@ graph TD
 *   **Environment:** Jupyter Notebook, Google Colab, Kaggle.
 *   **Tracking:** MLflow, Weights & Biases (W&B).
 *   **Hardware:** [AI Hardware Landscape](./ai-hardware-guide.md) – GPU/TPU/edge devices, checklist chọn hạ tầng AI.
+
+---
+
+## 🔗 Cross-Domain Shortcuts
+- **Strategic thinking / Mental models (Productivity):** [Productivity → Mental Models](../../guides/03-career-skills/productivity/mental-models/README.md)
+- **Decision & Prioritization:** [Deep Work & Time Management](../../guides/03-career-skills/productivity/core-skills/personal-work-framework.md) · [Failure Management System](../../guides/03-career-skills/productivity/core-skills/failure-management-system.md)
+- **Fast Correction Mindset (FMS):** [Tư duy sửa sai nhanh](../../guides/01-mental-models/fast-correction-mindset.md)
+- **Recursion / Self-reference:** [Recursion in Consciousness](../../guides/01-mental-models/recursion-consciousness.md) · [Recursion in Psychology](../../guides/01-mental-models/psychology/recursion-in-psychology.md) · [Recursive Thinking](../../guides/01-mental-models/recursive-thinking.md)
 
 ---
 
