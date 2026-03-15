@@ -63,7 +63,8 @@ Trong kỷ nguyên AI và tự động hóa, "làm việc chăm chỉ" (Hard wor
 | **Muốn làm freelance/side hustle** | [Freelancer Framework](./side-hustle/freelancer-framework.md) · [Freelancer Roadmap](./side-hustle/freelancer-roadmap.md) | Lộ trình kiếm khách đầu tiên, hệ thống vận hành dịch vụ.
 | **Muốn học nhanh hơn** | [Learning How to Learn](./meta-skills/learning-how-to-learn.md) · [PKM System](./meta-skills/pkm-system.md) | Nâng tốc độ hấp thụ và giữ kiến thức.
 | **Muốn reset mỗi tháng** | [Monthly Reset](./monthly-reset.md) | Giữ nhịp, dọn backlog, lên ưu tiên tháng.
-| **Cần chống kiệt sức (burnout)** | [Energy Management](./core-skills/energy-management.md) · [Burnout](./core-skills/burnout.md) | Nhận diện dấu hiệu, phục hồi năng lượng, phòng ngừa.
+| **Cần chống kiệt sức (burnout)** | [Energy Management](./core-skills/energy-management.md) · [Energy Journey Story](./stories/energy-management-story.md) · [Burnout](./core-skills/burnout.md) | Nhận diện dấu hiệu, hồi phục năng lượng và xem trải nghiệm thực tế.
+| **Muốn làm ít mà được nhiều (Pareto)** | [The 80/20 Career](./career-growth/80-20-career.md) · [80/20 Productivity Story](./stories/8020-rule-story.md) | Học 3 chữ D (Delete · Delegate · Double Down), bí quyết sống 80/20 & closing “Time is finite”.
 | **Muốn dùng AI để tăng năng suất** | [Working with AI](./meta-skills/working-with-ai.md) · [AI cho Productivity](#ai-cho-productivity) | Tận dụng tóm tắt, viết nháp, code assist.
 
 ### 1. Core Skills (Kỹ năng cốt lõi)
@@ -72,7 +73,7 @@ Xây dựng nền tảng cho một bộ não hiệu suất cao.
 *   **[Multi-domain Mental Models Hub](../../01-mental-models/README.md):** Thư viện mental models đa ngành, liên kết sang kinh doanh, công nghệ, đời sống.
 *   **[Strategic Thinking Playbook](./mental-models/strategic-thinking.md)** (⭐ **New**) - Mindset + toolkit + 30-60-90 plan để trở thành strategist.
 *   **[Strategic Thinking Frameworks](./mental-models/strategic-thinking-frameworks.md)** - SWOT, Second-Order Thinking, Impact/Effort Matrix.
-*   **[Life System Thinking (Tư Duy Hệ Thống)](./mental-models/life-system-thinking.md)** (⭐ **New**) - Thiết kế hệ thống vận hành thay vì dùng ý chí.
+*   **[Life System Thinking (Tư Duy Hệ Thống)](./mental-models/life-system-thinking.md)** (⭐ **New**) - Thiết kế hệ thống vận hành thay vì dùng ý chí. Đi kèm workshop [System Thinking Sprint](./mental-models/system-thinking-module.md) (4 block thiết kế OS đời bạn).
 *   **[Probabilistic Thinking (Tư Duy Xác Suất)](./mental-models/probabilistic-thinking.md)** (⭐ **New**) - Ứng dụng xác suất vào đời sống.
 *   **[Methodology Mindset (Phương Pháp Luận)](./mental-models/methodology-mindset.md)** (⭐ **New**) - Bộ não đứng sau mọi sự tiến bộ.
     *   **[Part 2: Từ Tư Duy Đến Kiến Tạo](./mental-models/methodology-mindset-p2.md)** - Lộ trình 3 bậc trưởng thành.
@@ -95,13 +96,14 @@ Xây dựng nền tảng cho một bộ não hiệu suất cao.
 *   **[Communication & Pedagogy](./core-skills/communication-mastery.md):** Kỹ năng sư phạm và diễn đạt - Đòn bẩy cho sự nghiệp (The Multiplier Skill).
 *   **[Time Management Systems](./core-skills/time-management-systems.md):** Các hệ thống quản lý thời gian (Pomodoro, Time Blocking, GTD). Liên kết sâu: [GTD Deep Dive](./core-skills/gtd-deep-dive.md), [Meeting & Calendar Hygiene](./core-skills/meeting-calendar-hygiene.md).
 *   **[Monthly Reset](./monthly-reset.md):** Nghi thức review & reset hàng tháng (5' setup · 20' review · 20' reset/realign · 15' recharge) + checklist copy/paste. Gợi ý mục tiêu tháng: 1) 3 Focus Goals; 2) Lead measures/tuần; 3) 1 ritual năng lượng.
-*   **[Energy Management](./core-skills/energy-management.md):** Quản trị năng lượng quan trọng hơn quản trị thời gian. (Ngủ, Dinh dưỡng, Dopamine Detox).
+*   **[Energy Management](./core-skills/energy-management.md):** Quản trị năng lượng quan trọng hơn quản trị thời gian. (Ngủ, Dinh dưỡng, Dopamine Detox). Thích góc kể chuyện? Đọc thêm [Energy Journey Story](./stories/energy-management-story.md).
+*   **[The 80/20 Career](./career-growth/80-20-career.md) + [80/20 Productivity Story](./stories/8020-rule-story.md):** Kết hợp lý thuyết Pareto và trải nghiệm thực tế để "làm ít nhưng được nhiều".
 *   **[Attention Mastery](./core-skills/attention-mastery.md):** Bảo vệ và huấn luyện chú tâm, giảm xao nhãng; kèm [Phone & Social Protocol](./core-skills/phone-social-protocol.md) cho digital minimalism.
 *   **[Burnout](./core-skills/burnout.md):** Dấu hiệu, recovery nhanh 1–2 tuần, phòng ngừa; link well-being.
 
 ### 2. Career Growth (Thăng tiến sự nghiệp)
 Tối ưu hóa nguồn thu nhập chính (Active Income).
-*   **[Salary Negotiation](./career-growth/salary-negotiation.md):** Nghệ thuật đàm phán lương và phúc lợi.
+*   **[Salary Negotiation](./career-growth/salary-negotiation.md):** Nghệ thuật đàm phán lương & phúc lợi (nhắc timing: sau chiến thắng lớn, sau performance review, đính kèm [Salary Negotiation Script](../02-wealth-business/influence-negotiation.md#salary-negotiation-script)).
 *   **[Managing Up & Personal Branding](./career-growth/managing-up.md):** Làm sao để sếp và đồng nghiệp thấy được giá trị của bạn.
 *   **[The 80/20 Career](./career-growth/80-20-career.md):** Tập trung vào 20% công việc tạo ra 80% giá trị thăng tiến.
 
@@ -114,6 +116,13 @@ Tối ưu hóa nguồn thu nhập chính (Active Income).
 *   **Liên kết nhanh:** Nghiên cứu thị trường & audience: [Market Research](../02-wealth-business/market-research.md); Tăng traffic/monetization: [MMO Roadmap](../02-wealth-business/mmo-roadmap.md).
 
 > **Side hustle ↔ Market Intelligence:** Chọn dịch vụ/ngách bằng [Market Research](../02-wealth-business/market-research/README.md) (persona, competitor map) rồi dùng [MMO Roadmap](../02-wealth-business/mmo-roadmap/README.md) để triển khai foundations (audience, traffic, payment) trước khi scale thu nhập.
+
+---
+
+## 📓 Productivity Stories
+
+* [Energy Journey: Quản lý năng lượng để hết “ớn”](./stories/energy-management-story.md)
+* [Hiểu quy tắc 80/20 để “LÀM ÍT” mà “ĐƯỢC NHIỀU”](./stories/8020-rule-story.md) – Updated với analogy slot machine, chiến lược 3D, tips sống 80/20, closing “Time is finite”.
 
 ---
 

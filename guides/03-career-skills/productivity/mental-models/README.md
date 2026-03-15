@@ -8,6 +8,8 @@ Các mental model trong thư mục này cung cấp lớp tư duy nền tảng đ
 - [Mental Models Library](mental-models-library.md)
 - [Strategic Thinking Frameworks](strategic-thinking-frameworks.md)
 - [Life System Thinking](life-system-thinking.md)
+- [System Thinking Sprint (Module 4 ngày)](system-thinking-module.md)
+- [System Principles – Gall's Law](system-thinking-module.md#-system-principles-before-you-build)
 - [Methodology Mindset](methodology-mindset.md)
   - [Methodology Mindset – Part 2](methodology-mindset-p2.md)
 - [Probabilistic Thinking](probabilistic-thinking.md)
