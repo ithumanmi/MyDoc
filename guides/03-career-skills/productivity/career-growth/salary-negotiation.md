@@ -7,6 +7,10 @@ Lương là giá trị thị trường của bạn. Nếu bạn không tự tin 
 > **Quy tắc vàng:** Không đàm phán = Mất tiền tỷ trong suốt sự nghiệp.
 > (Ví dụ: Chênh lệch 2 triệu/tháng sau 10 năm + lãi kép đầu tư = cả trăm triệu).
 
+> **Timing cheat sheet:** Đưa yêu cầu ngay khi bạn vừa **thắng lớn** (ra mắt dự án, cứu deal, nhận thư khen) hoặc **1–2 tuần sau performance review tích cực**. Đây là lúc dữ liệu & cảm xúc đang nghiêng về phía bạn, nên đừng đợi đến “kỳ review chính thức”.
+
+> **Script practice:** Luyện thoại trước bằng [Salary Negotiation Script](../../../../templates/productivity/salary-negotiation-script.md) và kỹ thuật framing trong [Influence & Negotiation Guide](../../01-mental-models/influence-negotiation.md) để neo giá, xử lý phản hồi.
+
 ---
 
 ## 1. Chuẩn bị (80% thành công nằm ở đây)
@@ -22,7 +26,7 @@ Lương là giá trị thị trường của bạn. Nếu bạn không tự tin 
 *   Liệt kê tất cả đóng góp trong 6-12 tháng, kèm số liệu (revenue, cost saving, SLA, NPS).
 *   **Định lượng (Quantify):** "Giảm 20% chi phí cloud", "Triển khai feature tăng 12% conversion".
 *   Chuẩn bị slide + Q&A script để kể lại chiến thắng đậm nét ngay trước khi xin tăng lương.
-*   Nhắc lại **thời điểm vàng để mở đàm phán:** vừa hoàn thành dự án lớn hoặc sau review tích cực 1-2 tuần — leverage cảm xúc & dữ liệu đang "nóng".
+*   **Timing nhắc lại:** mở đàm phán ngay sau big win hoặc follow-up review tích cực (≤14 ngày) để leverage đà hưng phấn + dữ liệu đang "nóng".
 
 ---
 
@@ -30,7 +34,7 @@ Lương là giá trị thị trường của bạn. Nếu bạn không tự tin 
 
 > **Timing hack:** Chủ động mở đàm phán ngay sau khi bạn hoàn thành một "big win" (ra mắt dự án thành công, nhận feedback 5⭐) hoặc 1-2 tuần sau buổi review tích cực – đây là lúc cảm xúc và dữ liệu đang ủng hộ bạn mạnh nhất.
 > 
-> **Template:** Dùng [Salary Negotiation Script](../../../../templates/productivity/salary-negotiation-script.md) để luyện thoại, điều chỉnh số liệu/brag sheet của bạn cho từng tình huống.
+> **Template:** Dùng [Salary Negotiation Script](../../../../templates/productivity/salary-negotiation-script.md) để luyện thoại, điều chỉnh số liệu/brag sheet của bạn cho từng tình huống; kết hợp kỹ thuật anchoring & xử lý phản đối trong [Influence & Negotiation Guide](../../01-mental-models/influence-negotiation.md).
 
 ### **A. Khi phỏng vấn xin việc mới** *(Timing: ngay sau bạn có project nổi bật hoặc feedback xuất sắc → leverage cảm xúc & dữ liệu nóng)*
 *   **Nhà tuyển dụng (NTD):** "Mức lương mong muốn của em là bao nhiêu?"

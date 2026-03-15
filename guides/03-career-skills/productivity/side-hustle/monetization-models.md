@@ -87,6 +87,6 @@ Khi bạn có lượng follow lớn (> 10.000), các nhãn hàng sẽ tìm đế
 3.  **Level 3 (Advanced):** Ra mắt Digital Product đầu tiên (Ebook/Template).
 4.  **Level 4 (Expert):** Xây dựng hệ sinh thái sản phẩm (Course + Coaching + Community).
 
-> **Audience & Positioning:** Xác định thị trường mục tiêu và "lời hứa" (promise) dựa vào dữ liệu khách hàng – dùng [Market Research Playbook](../../02-wealth-business/market-research.md) để map nhu cầu → giải pháp.
+> **Audience & Positioning:** Xác định thị trường mục tiêu và "lời hứa" (promise) dựa vào dữ liệu khách hàng – dùng [Market Research Playbook](../../02-wealth-business/market-research/README.md) để map nhu cầu → giải pháp.
 > 
-> **Traffic & Monetization Systems:** Dùng [MMO Roadmap](../../02-wealth-business/mmo-roadmap.md) để thiết kế stack nền tảng (traffic channel, funnel, cổng thanh toán) tương ứng từng mô hình ở trên.
+> **Traffic & Monetization Systems:** Dùng [MMO Roadmap](../../02-wealth-business/mmo-roadmap/README.md) để thiết kế stack nền tảng (traffic channel, funnel, cổng thanh toán) tương ứng từng mô hình ở trên.

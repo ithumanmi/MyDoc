@@ -98,4 +98,4 @@ Khi phân tích chính sách, hãy kiểm tra cả ba lớp: ngân sách nói g�
 - [Kinh tế Chính trị](geopolitics/political-economy.md)
 - [Risk Engine (Life OS)](../life-os/risk-engine.md)
 - [Market Research – Government Data Sources](../../resources/government-data-sources.md)
-- [Decision Journal Template](../../templates/decision-journal.md)
+- [Decision Journal Template](../../../templates/decision-journal.md)

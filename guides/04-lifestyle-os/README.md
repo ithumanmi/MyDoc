@@ -68,8 +68,8 @@
 
 | Artifact | Mục đích | File/Template |
 | --- | --- | --- |
-| **Lifestyle Audit Sheet** | Tự chấm Meaning/Risk/Energy | [templates/well-being/daily-performance-tracker.md](../../templates/well-being/daily-performance-tracker.md) + bảng checklist ở README này |
-| **Decision Log** | Ghi Assumption → Outcome để luyện Decision Engine | Gợi ý: tạo doc riêng hoặc dùng [templates/personal-metrics-dashboard.md](../../templates/personal-metrics-dashboard.md) |
+| **Lifestyle Audit Sheet** | Tự chấm Meaning/Risk/Energy | [templates/well-being/daily-performance-tracker.md](../../../templates/well-being/daily-performance-tracker.md) + bảng checklist ở README này |
+| **Decision Log** | Ghi Assumption → Outcome để luyện Decision Engine | Gợi ý: tạo doc riêng hoặc dùng [templates/personal-metrics-dashboard.md](../../../templates/personal-metrics-dashboard.md) |
 | **Risk Radar** | Liệt kê rủi ro Life/Wealth/Politics + trigger | Dùng khung trong [life-os/risk-engine.md](life-os/risk-engine.md) |
 | **Health OS Tracker** | Theo dõi ngủ/ăn/movement hàng ngày | [well-being/biohacking/health-os-overview.md](well-being/biohacking/health-os-overview.md) + template tracker |
 | **Geopolitical Brief** | Tóm tắt sự kiện chính trị, liên hệ sự nghiệp | Tự tạo note theo checklist Phase 3 (Politics README) |

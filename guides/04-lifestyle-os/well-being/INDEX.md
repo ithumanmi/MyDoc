@@ -44,4 +44,4 @@ Sử dụng file này để tìm nhanh các giao thức tối ưu hóa sức kh�
 ## 📝 Templates (Mẫu thực hành)
 *(Nằm trong thư mục `templates/`)*
 
-*   [📊 Daily Performance Tracker](../../../../templates/well-being/daily-performance-tracker.md): Bảng theo dõi năng lượng & sự tập trung.
+*   [📊 Daily Performance Tracker](../../../templates/well-being/daily-performance-tracker.md): Bảng theo dõi năng lượng & sự tập trung.

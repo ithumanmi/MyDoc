@@ -1,6 +1,6 @@
 # 🔥 Burnout Prevention & Recovery: Bảo vệ Năng lượng Dài hạn
 
-> [← Back to Well-being](../../../README.md) | [Mental Resilience Home](./README.md)
+> [← Back to Well-being](../../README.md) | [Mental Resilience Home](./README.md)
 
 **Burnout không phải là weakness. Đó là hệ quả tất yếu của working harder than you recover.**
 

@@ -1,6 +1,6 @@
 # 🧘 Mindfulness & Meditation: Gym cho Não bộ
 
-> [← Back to Well-being](../../../README.md) | [Mental Resilience Home](./README.md)
+> [← Back to Well-being](../../README.md) | [Mental Resilience Home](./README.md)
 
 Meditation không phải là tôn giáo. Đó là **công cụ tối ưu hóa não bộ** được khoa học chứng minh.
 Nếu bạn muốn tăng khả năng tập trung, giảm stress, và cải thiện decision-making → Meditation là skill bắt buộc.

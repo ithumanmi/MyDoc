@@ -46,7 +46,7 @@
 ---
 
 ## 📝 Templates (Công cụ theo dõi)
-*   **[📊 Daily Performance Tracker](../../../../templates/well-being/daily-performance-tracker.md):** Bảng theo dõi năng lượng & sự tập trung hàng ngày.
+*   **[📊 Daily Performance Tracker](../../../templates/well-being/daily-performance-tracker.md):** Bảng theo dõi năng lượng & sự tập trung hàng ngày.
 
 ---
 
@@ -54,3 +54,9 @@
 1.  Nếu bạn thấy mệt mỏi/stress: Đọc **[Cortisol & Melatonin](./biohacking/cortisol-melatonin-system.md)** và **[Sleep Optimization](./biohacking/sleep-optimization.md)**.
 2.  Nếu bạn mất động lực: Đọc **[Dopamine System](./biohacking/dopamine-system.md)**.
 3.  Nếu bạn muốn làm việc hiệu quả hơn: Đọc **[High Performance](./high-performance.md)**.
+
+---
+
+## 🚨 Khi mệt / stress / khủng hoảng
+*   **[🔥 Burnout Prevention](./mental-resilience/burnout-prevention.md):** Bộ kiểm tra & protocol cấp cứu khi bạn kiệt sức, mất động lực.
+*   **[Restore Tinh-Khi-Thần](./restore-tinh-khi-than.md):** Hồi phục năng lượng tinh-thần-thần khí sau những cú sốc cảm xúc hoặc khủng hoảng kéo dài.

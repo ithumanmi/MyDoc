@@ -12,6 +12,8 @@ Chiếc xe Ferrari (Life OS) không thể chạy nếu bình xăng cạn hoặc 
 *   **Dinh dưỡng (Fuel):** Glucose spike (đường huyết tăng vọt) dẫn đến Brain fog (sương mù não).
     *   *Protocol:* Ăn ít đường, nhiều protein/fat, ăn theo thứ tự (Rau -> Đạm -> Tinh bột).
 
+> **Phần cứng chi tiết:** Muốn cài đặt protocol cụ thể (Sleep, Cortisol, Dopamine, Testosterone...), chuyển sang module [Well-being](../well-being/README.md) — đó là nơi chứa “hardware manual” (ví dụ: [sleep-optimization.md](../well-being/biohacking/sleep-optimization.md), [cortisol-melatonin-system.md](../well-being/biohacking/cortisol-melatonin-system.md), [dopamine-system.md](../well-being/biohacking/dopamine-system.md)). Life OS tập trung vào **khi nào** và **vì sao kích hoạt năng lượng,** còn Well-being hướng dẫn chi tiết **làm thế nào.**
+
 ## 2. Hormones & Neurotransmitters
 *   **Testosterone:** Hormone của sự cạnh tranh, nỗ lực và chấp nhận rủi ro. Thấp T = Thiếu động lực (Risk Engine hỏng).
     *   *Tăng T:* Tập tạ nặng (Squat/Deadlift), ngủ đủ, thắng những chiến thắng nhỏ.
