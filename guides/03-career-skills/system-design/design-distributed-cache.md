@@ -39,6 +39,21 @@ Khi có 100 node cache, làm sao để biết `key "user_1"` nằm ở node nào
 *   Mỗi key sẽ được lưu tại node gần nhất theo chiều kim đồng hồ.
 *   **Virtual Nodes:** Mỗi node vật lý được ánh xạ thành nhiều node ảo trên vòng tròn để phân bổ dữ liệu đều hơn, tránh tình trạng một node bị quá tải (Hotspot).
 
+```mermaid
+flowchart LR
+    subgraph HashRing
+        A((Node A))
+        B((Node B))
+        C((Node C))
+    end
+    Key1{{Key: user_1}} --> A
+    Key2{{Key: user_27}} --> B
+    Key3{{Key: user_58}} --> C
+    A -->|Virtual nodes| HashRing
+```
+
+> Khi thêm node D, chỉ các key giữa C và D bị ảnh hưởng thay vì toàn bộ.
+
 ---
 
 ## 4. Deep Dive: Eviction Policies & Expiry
@@ -74,6 +89,18 @@ RAM có hạn, khi cache đầy, ta phải xóa bớt dữ liệu cũ.
 1.  **Hot Key Problem:** Nếu một key quá "hot" (ví dụ: thông tin Taylor Swift), một node sẽ bị quá tải.
     *   *Giải pháp:* Tạo bản sao của key đó sang nhiều node khác nhau.
 2.  **Consistency:** Cache không bao giờ đảm bảo nhất quán 100% với DB. Hãy thảo luận về **Eventual Consistency**.
+
+---
+
+## 7. Quick Estimation Template
+| Thông số | Ví dụ | Ghi chú |
+| --- | --- | --- |
+| Cache hit rate mong muốn | 90% | Giúp tính tải dồn về DB |
+| Kích thước key/value | 50 bytes key + 500 bytes value | -> ~550 bytes/entry |
+| Tổng entry cần lưu | 200 triệu | -> ~110GB RAM |
+| Số node | 8 máy × 32GB RAM | Chừa 30% overhead |
+
+**Logic:** Estimation này giúp justify vì sao phải sharding + replication.
 
 ---
 

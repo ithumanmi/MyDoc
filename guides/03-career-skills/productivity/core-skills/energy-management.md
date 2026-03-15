@@ -12,6 +12,7 @@ Bạn có thể quản lý thời gian hoàn hảo, nhưng nếu não bạn "h�
 
 *   Làm việc 1 tiếng với năng lượng 10/10 (High Focus) > Làm việc 4 tiếng với năng lượng 3/10 (Vừa làm vừa buồn ngủ).
 *   **Burnout (Kiệt sức):** Không phải do làm nhiều việc, mà do không nạp lại năng lượng đúng cách.
+    *   Nếu có dấu hiệu kiệt sức: xem [Burnout](./burnout.md) để nhận diện, recovery nhanh và phòng ngừa; giảm WIP, thêm buffer trước/sau họp.
 
 ---
 
@@ -72,3 +73,4 @@ Vì não bạn đã quen với **High Dopamine** (Kích thích mạnh, nhanh).
 - [Attention Mastery](attention-mastery.md): năng lượng ổn định giúp duy trì tập trung lâu dài.
 - [Time Management Systems](time-management-systems.md): phân bổ công việc phù hợp với nhịp năng lượng.
 - [Emotional Intensity](emotional-intensity.md): nền tảng thể chất vững giúp điều tiết cảm xúc tốt hơn.
+- [Burnout](burnout.md): dấu hiệu, phục hồi, phòng ngừa; liên kết well-being.

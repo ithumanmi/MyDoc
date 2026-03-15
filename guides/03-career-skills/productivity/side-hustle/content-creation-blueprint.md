@@ -82,4 +82,8 @@ Công thức **Ikigai** cho Content Creator:
 *   *Ví dụ:* Bạn thích chạy bộ + Bạn là bác sĩ + Thị trường cần tư vấn chấn thương.
     -> **Kênh TikTok chuyên tư vấn chạy bộ không chấn thương.** (Ngách cực hẹp và giá trị).
 
-> **Lời khuyên:** "Start narrow, go broad." (Bắt đầu hẹp, mở rộng sau). Đừng làm kênh "Lifestyle" chung chung ngay từ đầu.
+-> **Lời khuyên:** "Start narrow, go broad." (Bắt đầu hẹp, mở rộng sau). Đừng làm kênh "Lifestyle" chung chung ngay từ đầu.
+
+> **Audience & Positioning:** Xây chân dung khách lý tưởng, định vị thông điệp dựa trên nhu cầu thực tế – xem [Market Research Playbook](../../02-wealth-business/market-research.md) để làm khảo sát nhanh, phân tích ngách, đối thủ.
+> 
+> **Traffic & Monetization Stack:** Khi đã rõ audience, dùng blueprint trong [MMO Roadmap](../../02-wealth-business/mmo-roadmap.md) để thiết kế luồng traffic → funnel → mô hình thanh toán (foundations, traffic, payment infrastructure).

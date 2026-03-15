@@ -52,6 +52,21 @@ Hệ thống sử dụng các giao thức như **HLS (Apple)** hoặc **DASH (MP
 *   Máy nghe (Client) sẽ dựa trên tốc độ internet hiện tại để chủ động yêu cầu chunk video tiếp theo ở độ phân giải phù hợp.
 *   Nếu mạng yếu -> Client bốc chunk 360p. Nếu mạng mạnh -> Client bốc chunk 1080p.
 
+```mermaid
+flowchart LR
+    Uploader -->|HTTP Upload| WebAPI
+    WebAPI --> Queue[Encoding Queue]
+    Queue --> Transcoder[Transcoding Workers]
+    Transcoder --> Storage[Blob Storage (S3/GCS)]
+    Storage --> CDN[CDN Edge]
+    Viewer --> CDN
+    CDN -->|Manifest + Segments| Viewer
+    Analytics --> WebAPI
+    Viewer --> Analytics[Playback Analytics]
+```
+
+> Pipeline cơ bản: Upload -> Queue -> Transcode -> Lưu bản mã hóa -> CDN -> Client adaptive streaming.
+
 ---
 
 ## 5. Deep Dive: Content Delivery Network (CDN)
@@ -69,6 +84,22 @@ Streaming video mà không có CDN là không thể thực hiện được ở q
 1.  **Upload vs View:** Upload có thể chậm (Asynchronous), nhưng View phải nhanh (Real-time). Hãy tập trung vào việc tối ưu đường ra (Egress).
 2.  **Cost Optimization:** CDN rất đắt. Netflix tự xây dựng hệ thống CDN riêng gọi là **Open Connect** để tiết kiệm chi phí trả cho bên thứ 3 như Akamai hay Cloudflare.
 3.  **Blob Storage:** Video gốc (Original) nên được lưu ở "Cold Storage" (rẻ tiền) sau khi đã được encode xong để dự phòng.
+
+---
+
+## 7. Playback Flow & Observability
+1.  **Manifest** (`.m3u8` hoặc `.mpd`) chứa danh sách bitrate + URL chunk.
+2.  **Player** tải trước vài chunk (buffer) cùng với **DRM license** nếu nội dung được bảo vệ (Widevine/FairPlay/PlayReady).
+3.  **QoE Metrics:** Theo dõi `startup time`, `rebuffer count`, `average bitrate`, `watch time` để tinh chỉnh ABR.
+4.  **Error Budget:** Tách rõ lỗi CDN, player, network để tối ưu từng khâu.
+
+---
+
+## 8. Optimization Ideas
+- **Prefetch/Prewarm CDN:** Đẩy trước chunk đầu tiên của video trending sang edge nodes.
+- **Multi-CDN Strategy:** Chọn nhiều nhà cung cấp CDN để failover và tối ưu chi phí.
+- **Edge Computing:** Encode những bitrate phổ biến ngay tại edge khi cần (Just-in-time packaging).
+- **Ads Insertion:** Dùng server-side ad insertion (SSAI) để tránh ad blockers.
 
 ---
 

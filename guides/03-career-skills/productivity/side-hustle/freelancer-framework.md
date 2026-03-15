@@ -27,6 +27,8 @@
 *   **Sai lầm:** "Tôi nhận viết mọi thứ" → cạnh tranh với cả thế giới.
 *   **Đúng:** "Tôi viết bài SEO chuyên Bất động sản" → khách BĐS coi bạn là chuyên gia.
 
+> **Nghiên cứu thị trường & ngách:** Dùng [Market Research Playbook](../../02-wealth-business/market-research.md) để xác thực nhu cầu, quy mô thị trường, insight khách trước khi chọn dịch vụ.
+
 👉 **Chi tiết:** [Freelancer Roadmap — Chọn kỹ năng & Niching](./freelancer-roadmap.md#1-chọn-kỹ-năng-kiếm-tiền-monetizable-skill).
 
 ---

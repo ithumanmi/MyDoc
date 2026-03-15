@@ -56,10 +56,18 @@ Redis là bộ nhớ dùng chung cực nhanh, hỗ trợ các thao tác nguyên 
 ---
 
 ## 4. High-level Architecture
+```mermaid
+flowchart LR
+    Client --> Gateway[API Gateway / Rate Limiter]
+    Gateway --> Redis[(Redis Counter + Lua Script)]
+    Redis --> Gateway
+    Gateway -- allow --> Service[Backend Service]
+    Gateway -- 429 --> Client
+```
 
 1.  **Client** gửi request.
 2.  **Rate Limiter Middleware** (nằm ở API Gateway) bốc `user_id` hoặc `IP`.
-3.  Truy vấn **Redis** để kiểm tra giới hạn.
+3.  Thực hiện kiểm tra/tăng counter trong **Redis** bằng operation nguyên tử (Lua script).
 4.  Nếu OK -> Chuyển request đến **Backend Service**.
 5.  Nếu NO -> Trả về **HTTP 429** + Header `Retry-After`.
 
@@ -74,6 +82,18 @@ Redis là bộ nhớ dùng chung cực nhanh, hỗ trợ các thao tác nguyên 
     *   Hard: Chặn ngay lập tức.
     *   Soft: Cho phép vượt quá một chút trong thời gian ngắn (Burst).
 3.  **Global vs Per-user:** Thảo luận về việc chặn theo User ID (an toàn hơn) hay IP (dễ chặn robot).
+
+---
+
+## 6. Quick Estimation Template
+| Thông số | Ví dụ giả định | Ghi chú |
+| --- | --- | --- |
+| Người dùng hoạt động | 10 triệu DAU | Chọn order-of-magnitude |
+| QPS trung bình | 20k req/s | Peak có thể gấp 3-5 lần |
+| Giới hạn per user | 100 req/phút | -> Tạo key `user:minute` |
+| Bộ nhớ Redis | (100 bytes/key) × (DAU × windows) ≈ vài GB | Giúp tính số node |
+
+**Logic:** Ước lượng số counter cần lưu trong Redis để quyết định sharding/cluster size.
 
 ---
 

@@ -57,6 +57,8 @@ Hệ thống quản lý tối thượng cho người có quá nhiều việc, gi
 - **Next Action:** Mỗi việc/bộ việc phải có hành động vật lý kế tiếp, ví dụ “Gửi email hỏi lịch A” (không ghi “Project A”).
 - **Limit WIP:** Với @Laptop hoặc @Office, giữ 3–5 Next Actions ưu tiên.
 
+**Đào sâu GTD:** xem [GTD Deep Dive](./gtd-deep-dive.md) (contexts, Weekly Review, Inbox Zero, Next Action vs Project, khi nào dùng GTD vs Time Blocking).
+
 ### **Weekly Review (30–60 phút, checklist nhanh):**
 1) Làm sạch Inbox (email, app task, sổ tay). 
 2) Cập nhật dự án: mỗi dự án phải có ≥1 Next Action hoặc lịch hẹn. 
@@ -97,4 +99,6 @@ Giúp bạn phân biệt giữa "Quan trọng" (Important) và "Khẩn cấp" (U
 ### Related Skills
 - [Energy Management](energy-management.md): đồng bộ lịch làm việc với nhịp năng lượng cơ thể.
 - [Attention Mastery](attention-mastery.md): đảm bảo block thời gian chuyển thành output sâu.
+- [GTD Deep Dive](gtd-deep-dive.md): checklist ngữ cảnh, weekly review, inbox zero, kết hợp time blocking.
+- [Meeting & Calendar Hygiene](meeting-calendar-hygiene.md): agenda rõ, buffer, no-meeting blocks, review recurring.
 - [Personal Work Framework](personal-work-framework.md): biến lịch thành workflow lặp lại được.

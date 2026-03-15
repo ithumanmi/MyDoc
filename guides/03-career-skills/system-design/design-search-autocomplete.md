@@ -30,6 +30,23 @@ Làm sao để tìm nhanh các từ khóa có cùng tiền tố (prefix)?
 *   Tại mỗi node, ta lưu luôn danh sách **Top 5 từ khóa phổ biến nhất** của nhánh đó.
 *   *Kết quả:* Khi người dùng gõ "ap", ta chỉ việc truy cập node 'p', lấy ngay danh sách lưu sẵn -> Độ phức tạp $O(1)$.
 
+```mermaid
+flowchart TD
+    Root((⊙)) --> A[a]
+    A --> P[p]
+    P --> PL[p l]
+    P --> PP[p p]
+    PL --> PLE[p l e]
+    PLE --> PLEX[p l e x]
+    PLE --> PLET[p l e t]
+    P --> PR[p r]
+    PR --> PRE[p r e]
+    P --> PI[p i]
+    %% Top-k metadata notated at each node
+```
+
+> Mỗi node lưu kèm `top_queries`: ví dụ node `ap` chứa `["apple","app store","ap schedule"]`.
+
 ---
 
 ## 3. Deep Dive: Data Update Strategy

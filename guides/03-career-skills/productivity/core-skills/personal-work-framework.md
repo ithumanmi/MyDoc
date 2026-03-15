@@ -3,6 +3,8 @@
 > [← Back to Productivity](../README.md) | [Life System Thinking](../mental-models/life-system-thinking.md) | [Methodology Mindset](../mental-models/methodology-mindset.md) | [Time Management](./time-management-systems.md)
 >
 > *"Framework làm việc không phải là bảng kế hoạch cứng nhắc. Nó là bộ nguyên tắc + quy trình + thói quen giúp bạn vận hành ổn định mà không phụ thuộc vào cảm hứng hay ý chí."*
+>
+> **Meeting & Calendar hygiene:** xem [Meeting & Calendar Hygiene](./meeting-calendar-hygiene.md) để tránh lịch lỗ chỗ và họp không hiệu quả.
 
 ---
 

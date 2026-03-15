@@ -62,3 +62,17 @@ Phương pháp của Niklas Luhmann để liên kết các ý tưởng rời r�
 *   **Linking:** Quan trọng nhất là tạo liên kết (Backlink) giữa các note để tạo ra mạng lưới tri thức.
 
 👉 **[Mẫu thực hành: PARA Dashboard Template](../../../templates/para-dashboard.md)**
+
+---
+
+## 4. Tool Stack Gợi Ý Theo Giai Đoạn 🧰
+
+| Giai đoạn | Mục tiêu chính | Công cụ gợi ý | Ghi chú |
+| --- | --- | --- | --- |
+| **Capture nhanh** | Ghi chú tức thời, mọi nơi | Apple Notes / Google Keep · Drafts · Notion Mobile | Tập trung tốc độ, đồng bộ đa thiết bị |
+| **Highlight & Sync** | Gom highlight sách/web | Readwise · Readwise Reader · Matter | Tự động sync sang Notion/Obsidian |
+| **Thinking Workspace** | Viết, link, distill | Notion (PARA/Projects) · Obsidian (Zettelkasten) · Capacities | Chọn 1 công cụ làm “bộ não chính” |
+| **Automation** | Bơm dữ liệu giữa app | Zapier · Make · Readwise API | Dùng khi workload > 20 note/tuần |
+| **Resources** | Tra cứu thêm tool | [resources/tools.md](../../../resources/tools.md) | Danh sách app cập nhật theo từng nhu cầu |
+
+> **Tip:** Đừng ôm quá nhiều app. Chọn 1 Capture + 1 Workspace chính, còn lại dùng để hỗ trợ. Khi thay công cụ, đảm bảo dữ liệu export được (Markdown/CSV).

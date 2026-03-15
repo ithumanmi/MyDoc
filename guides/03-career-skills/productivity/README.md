@@ -3,6 +3,8 @@
 > [← Back to guides/03-career-skills](../README.md) | [Home](../../README.md) | **Last reviewed:** March 2026
 > [🚀 Quick Start](../../../QUICK-START.md) | [📖 Glossary](../../../GLOSSARY.md)
 
+> **Related foundational roadmap:** Nếu bạn cần củng cố mindset, deliberate practice, ritual nền trước khi tối ưu năng suất, xem [Roadmap nền tảng](../../../chapters/README.md).
+
 **🎯 New here?** Check [Quick Start Guide](../../../QUICK-START.md) for personalized learning paths!  
 **🔍 Key terms:** See [Glossary](../../../GLOSSARY.md) for Deep Work, Pomodoro, Time Blocking, etc.
 
@@ -50,6 +52,7 @@ Trong kỷ nguyên AI và tự động hóa, "làm việc chăm chỉ" (Hard wor
 - **Học nhanh & quản lý kiến thức**
   - Checklist: (1) Mỗi phiên học: 25–50p Feynman + Active Recall; (2) Note vào PKM: 3 ý chính + 2 liên kết tới note cũ; (3) Weekly review 60p: gom mảnh rời, tạo 1 synthesis note; (4) Lập “study project” với mục tiêu đo được (ví dụ: 3 bài tập/tuần, 1 bài viết tổng hợp/tháng).
   - Ví dụ: Học LLM: đọc 1 paper/ngày, viết note 3 bullet + liên kết sang “Transformers basics”, cuối tuần viết 1 note tổng hợp “Attention variants”.
+  - Liên quan: [GTD Deep Dive](./core-skills/gtd-deep-dive.md) để quản lý task phức tạp; [Phone & Social Protocol](./core-skills/phone-social-protocol.md) để giữ tập trung; [Burnout](./core-skills/burnout.md) nếu quá tải.
 
 ### 🎯 Bạn đang… → Đọc gì trước?
 | Tình huống | Ưu tiên đọc | Lý do |
@@ -60,12 +63,13 @@ Trong kỷ nguyên AI và tự động hóa, "làm việc chăm chỉ" (Hard wor
 | **Muốn làm freelance/side hustle** | [Freelancer Framework](./side-hustle/freelancer-framework.md) · [Freelancer Roadmap](./side-hustle/freelancer-roadmap.md) | Lộ trình kiếm khách đầu tiên, hệ thống vận hành dịch vụ.
 | **Muốn học nhanh hơn** | [Learning How to Learn](./meta-skills/learning-how-to-learn.md) · [PKM System](./meta-skills/pkm-system.md) | Nâng tốc độ hấp thụ và giữ kiến thức.
 | **Muốn reset mỗi tháng** | [Monthly Reset](./monthly-reset.md) | Giữ nhịp, dọn backlog, lên ưu tiên tháng.
-| **Cần chống kiệt sức (burnout)** | [Energy Management](./core-skills/energy-management.md) · [Burnout Recovery](../well-being/burnout.md) *(nếu có)* | Nhận diện dấu hiệu, phục hồi năng lượng.
+| **Cần chống kiệt sức (burnout)** | [Energy Management](./core-skills/energy-management.md) · [Burnout](./core-skills/burnout.md) | Nhận diện dấu hiệu, phục hồi năng lượng, phòng ngừa.
 | **Muốn dùng AI để tăng năng suất** | [Working with AI](./meta-skills/working-with-ai.md) · [AI cho Productivity](#ai-cho-productivity) | Tận dụng tóm tắt, viết nháp, code assist.
 
 ### 1. Core Skills (Kỹ năng cốt lõi)
 Xây dựng nền tảng cho một bộ não hiệu suất cao.
 *   **[Mental Models Library](./mental-models/mental-models-library.md):** Thư viện các mô hình tư duy cốt lõi (First Principles, Inversion, Pareto...).
+*   **[Multi-domain Mental Models Hub](../../01-mental-models/README.md):** Thư viện mental models đa ngành, liên kết sang kinh doanh, công nghệ, đời sống.
 *   **[Strategic Thinking Playbook](./mental-models/strategic-thinking.md)** (⭐ **New**) - Mindset + toolkit + 30-60-90 plan để trở thành strategist.
 *   **[Strategic Thinking Frameworks](./mental-models/strategic-thinking-frameworks.md)** - SWOT, Second-Order Thinking, Impact/Effort Matrix.
 *   **[Life System Thinking (Tư Duy Hệ Thống)](./mental-models/life-system-thinking.md)** (⭐ **New**) - Thiết kế hệ thống vận hành thay vì dùng ý chí.
@@ -89,10 +93,11 @@ Xây dựng nền tảng cho một bộ não hiệu suất cao.
 *   **[Study Project Management](./meta-skills/study-project-management.md):** Tối ưu lộ trình học khối lượng lớn bằng tư duy Project Manager.
 *   **[PKM System (Building a Second Brain)](./meta-skills/pkm-system.md):** Xây dựng bộ não thứ hai để quản lý tri thức (PARA, CODE, Zettelkasten).
 *   **[Communication & Pedagogy](./core-skills/communication-mastery.md):** Kỹ năng sư phạm và diễn đạt - Đòn bẩy cho sự nghiệp (The Multiplier Skill).
-*   **[Time Management Systems](./core-skills/time-management-systems.md):** Các hệ thống quản lý thời gian (Pomodoro, Time Blocking, GTD).
+*   **[Time Management Systems](./core-skills/time-management-systems.md):** Các hệ thống quản lý thời gian (Pomodoro, Time Blocking, GTD). Liên kết sâu: [GTD Deep Dive](./core-skills/gtd-deep-dive.md), [Meeting & Calendar Hygiene](./core-skills/meeting-calendar-hygiene.md).
 *   **[Monthly Reset](./monthly-reset.md):** Nghi thức review & reset hàng tháng (5' setup · 20' review · 20' reset/realign · 15' recharge) + checklist copy/paste. Gợi ý mục tiêu tháng: 1) 3 Focus Goals; 2) Lead measures/tuần; 3) 1 ritual năng lượng.
 *   **[Energy Management](./core-skills/energy-management.md):** Quản trị năng lượng quan trọng hơn quản trị thời gian. (Ngủ, Dinh dưỡng, Dopamine Detox).
-*   **[Attention Mastery](./core-skills/attention-mastery.md):** Bảo vệ và huấn luyện chú tâm, giảm xao nhãng (thêm digital minimalism/phone protocol).
+*   **[Attention Mastery](./core-skills/attention-mastery.md):** Bảo vệ và huấn luyện chú tâm, giảm xao nhãng; kèm [Phone & Social Protocol](./core-skills/phone-social-protocol.md) cho digital minimalism.
+*   **[Burnout](./core-skills/burnout.md):** Dấu hiệu, recovery nhanh 1–2 tuần, phòng ngừa; link well-being.
 
 ### 2. Career Growth (Thăng tiến sự nghiệp)
 Tối ưu hóa nguồn thu nhập chính (Active Income).

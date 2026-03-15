@@ -27,6 +27,10 @@ Lương là giá trị thị trường của bạn. Nếu bạn không tự tin 
 
 ## 2. Kịch bản Đàm phán (The Script)
 
+> **Timing hack:** Chủ động mở đàm phán ngay sau khi bạn hoàn thành một "big win" (ra mắt dự án thành công, nhận feedback 5⭐) hoặc 1-2 tuần sau buổi review tích cực – đây là lúc cảm xúc và dữ liệu đang ủng hộ bạn mạnh nhất.
+> 
+> **Template:** Dùng [Salary Negotiation Script](../../../../templates/productivity/salary-negotiation-script.md) để luyện thoại, điều chỉnh số liệu/brag sheet của bạn cho từng tình huống.
+
 ### **A. Khi phỏng vấn xin việc mới**
 *   **Nhà tuyển dụng (NTD):** "Mức lương mong muốn của em là bao nhiêu?"
 *   **Sai lầm:** Đưa ra con số cụ thể ngay lập tức.

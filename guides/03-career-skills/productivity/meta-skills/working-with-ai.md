@@ -83,3 +83,20 @@ Hãy cảnh giác nếu bạn thấy:
 
 > **Lời khuyên cuối cùng:**
 > Hãy coi AI là một **Thực tập sinh siêu thông minh nhưng hay nói phét**. Bạn phải luôn kiểm tra (Verify), hướng dẫn (Guide) và chịu trách nhiệm (Own) cho kết quả của nó.
+
+---
+
+## 6. AI for Daily Productivity ⚙️
+
+| Tác vụ | Cách dùng AI | Checklist an toàn | Liên kết sâu |
+| --- | --- | --- | --- |
+| **Tóm tắt & Research** | Dán transcript/tài liệu dài, yêu cầu TL;DR theo bullet hoặc so sánh ưu/nhược | Kiểm tra nguồn, quote chính xác; lưu lại link gốc | [domains/ai-ml/agents](../../../domains/ai-ml/agents/README.md) (workflow agent) |
+| **Draft email/report** | Prompt với mục tiêu, tone, key facts; yêu cầu 2–3 version | Luôn chỉnh giọng, kiểm tra số liệu, thêm CTA cụ thể | [domains/ai-ml/generative-ai](../../../domains/ai-ml/generative-ai/README.md) |
+| **Code assist** | Pair-programming cho scaffolding, test, refactor | Không paste code lạ khi chưa hiểu; chạy test + code review | [domains/ai-ml/ai-engineering-roadmap-2026.md](../../../domains/ai-ml/ai-engineering-roadmap-2026.md) |
+| **Review & QA** | Nhờ AI tìm bug, edge cases, cải thiện logic | Đối chiếu với spec; đừng bỏ qua manual test | [domains/ai-ml/llms](../../../domains/ai-ml/README.md#llm--application-stack) |
+
+### Nguyên tắc vận hành
+1.  **Fact-check 2 nguồn:** Dùng AI tổng hợp nhưng xác minh bằng tài liệu chính thống.
+2.  **Không giao quyền quyết định:** AI đề xuất, bạn quyết định.
+3.  **Log lại prompt thành workflow:** Khi tìm được prompt hiệu quả, lưu vào PKM/Notion để lặp lại.
+4.  **Đặt "red team" mặc định:** Hỏi AI tự phản biện đầu ra trước khi bạn dùng.
