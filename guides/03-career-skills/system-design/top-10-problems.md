@@ -103,4 +103,5 @@ Họ KHÔNG chấm bạn có nhớ kiến trúc giống production của họ ha
 ## 📚 Tài liệu liên quan
 *   [How Redis Works](./how-redis-works.md)
 *   [System Design Readme](./README.md)
+*   [Interview Flow & Checklist (45’)](./interview-flow-and-checklist.md)
 *   [Data Strategy](../data-strategy/README.md)

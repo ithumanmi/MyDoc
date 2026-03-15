@@ -10,21 +10,30 @@ Tại đây chúng ta sẽ đi sâu vào kiến trúc phần mềm, khả năng 
 ## 📚 Mục lục
 
 ### 0. Foundations
-*   **[System Design Fundamentals](./system-design-fundamentals.md):** CAP, consistency models, sharding vs replication, load balancing, CDN, microservices.
-*   **Prerequisites:** networking cơ bản, DB fundamentals, data structures (tham khảo [domains/backend-dev](../../domains/backend-dev/README.md)).
+*   **[System Design Fundamentals](./system-design-fundamentals.md):** Lộ trình đọc + microservices overview.
+*   **[⚖️ Scalability & Consistency](./fundamentals-scalability-consistency.md):** CAP, eventual vs strong, replication, quorum, sharding.
+*   **[🌐 Load Balancing & CDN](./fundamentals-load-balancing-cdn.md):** Layer 4/7, health check, sticky session, CDN edge cache.
+*   **[🌀 Event Sourcing & CQRS Fundamentals](./fundamentals-event-sourcing.md):** Khi nào dùng event store, snapshot, saga.
+*   **[📨 Messaging Patterns & Distributed Queues](./fundamentals-messaging-patterns.md):** Queue vs log, delivery semantics, reliability patterns.
+*   **Prerequisites:**
+    *   Hiểu HTTP/HTTPS, REST, load balancer cơ bản.
+    *   Nắm chắc cấu trúc dữ liệu & thuật toán phổ biến (hash map, heap, trie…)
+    *   Kiến thức database cơ bản (transaction, indexing, replication, CAP)
+    *   Trải nghiệm backend (API, microservices, message queue) giúp hấp thụ nhanh hơn.
 
 ### 1. Databases & Caching (Cơ sở dữ liệu & Bộ nhớ đệm)
 *   **[How Redis Works (Kiến trúc Redis)](./how-redis-works.md):** Giải mã sức mạnh của In-Memory Database phổ biến nhất thế giới.
 *   *(Coming Soon)*: SQL vs NoSQL Deep Dive.
 
 ### 2. High Scalability (Khả năng mở rộng cao)
-*   *(Coming Soon)*: Case study Load Balancing, CDN, Microservices implementation.
+*   **[🌐 Load Balancing & CDN](./fundamentals-load-balancing-cdn.md)** *(đang bổ sung ví dụ thực chiến)*
 
 ### 3. Distributed Systems (Hệ thống phân tán)
-*   *(Coming Soon)*: Consistency patterns, Event sourcing, Messaging.
+*   **[⚖️ Scalability & Consistency](./fundamentals-scalability-consistency.md)** *(đang bổ sung: event sourcing, messaging)*
 
 ### 4. Interview Preparation (Luyện phỏng vấn)
 *   **[45’ System Design Flow](./system-design-interview-flow.md):** Clarify → Estimate → High-level → Deep dive → Q&A checklist.
+*   **[Interview Flow & Checklist (45’)](./interview-flow-and-checklist.md):** Breakdown thời gian + checklist chi tiết cho từng pha.
 *   **[Top 10 System Design Problems](./top-10-problems.md):** 10 bài toán kinh điển tại các Big Tech.
 *   **[1. Design URL Shortener](./design-url-shortener.md):** Deep dive bài toán TinyURL.
 *   **[2. Design News Feed](./design-news-feed.md):** Deep dive bài toán Twitter/X.

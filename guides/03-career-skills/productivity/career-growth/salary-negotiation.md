@@ -14,14 +14,14 @@ Lương là giá trị thị trường của bạn. Nếu bạn không tự tin 
 Đừng bước vào phòng họp tay không. Hãy mang theo "vũ khí".
 
 ### **A. Nghiên cứu thị trường (Market Research)**
-*   Biết rõ vị trí của mình đáng giá bao nhiêu.
-*   *Nguồn:* VietnamWorks, Adecco Salary Guide, hỏi bạn bè cùng ngành, các group tuyển dụng.
-*   *Kết quả:* Xác định khoảng lương (Range). Ví dụ: 20tr - 30tr.
+*   Biết rõ vị trí của mình đáng giá bao nhiêu (range lương, bonus, ESOP theo cấp bậc).
+*   *Nguồn:* VietnamWorks, Adecco Salary Guide, StackOverflow survey, hỏi bạn bè, group tuyển dụng.
+*   *Kết quả:* Xác định khoảng lương (Range) + chuẩn bị anchor hợp lý.
 
 ### **B. Brag Sheet (Bảng thành tích)**
-*   Liệt kê tất cả đóng góp của bạn trong 6-12 tháng qua.
-*   **Định lượng (Quantify):** Đừng nói "Tôi làm việc chăm chỉ". Hãy nói "Tôi tăng doanh số 15%, tiết kiệm cho công ty 200 giờ làm việc/tháng".
-*   Chuẩn bị sẵn Portfolio/Slide báo cáo.
+*   Liệt kê tất cả đóng góp trong 6-12 tháng, kèm số liệu (revenue, cost saving, SLA, NPS).
+*   **Định lượng (Quantify):** "Giảm 20% chi phí cloud", "Triển khai feature tăng 12% conversion".
+*   Chuẩn bị slide + Q&A script để kể lại chiến thắng đậm nét ngay trước khi xin tăng lương.
 
 ---
 
@@ -31,15 +31,15 @@ Lương là giá trị thị trường của bạn. Nếu bạn không tự tin 
 > 
 > **Template:** Dùng [Salary Negotiation Script](../../../../templates/productivity/salary-negotiation-script.md) để luyện thoại, điều chỉnh số liệu/brag sheet của bạn cho từng tình huống.
 
-### **A. Khi phỏng vấn xin việc mới**
+### **A. Khi phỏng vấn xin việc mới** *(Timing: ngay sau bạn có project nổi bật hoặc feedback xuất sắc → leverage cảm xúc & dữ liệu nóng)*
 *   **Nhà tuyển dụng (NTD):** "Mức lương mong muốn của em là bao nhiêu?"
 *   **Sai lầm:** Đưa ra con số cụ thể ngay lập tức.
 *   **Trả lời khôn ngoan:**
     1.  *Hỏi ngược lại:* "Với ngân sách cho vị trí này và yêu cầu công việc như đã trao đổi, anh/chị có thể chia sẻ khoảng lương (range) công ty đang dự kiến không?"
     2.  *Nếu bị ép:* Đưa ra một khoảng (Range) dựa trên nghiên cứu, và nói rõ con số này linh hoạt tùy thuộc vào phúc lợi khác.
 
-### **B. Khi xin tăng lương (Review định kỳ)**
-*   **Thời điểm:** Đừng đợi đến kỳ Review. Hãy đề cập trước đó 1-2 tháng.
+### **B. Khi xin tăng lương (Review định kỳ)** *(Timing: follow-up 1-2 tuần sau performance review tích cực hoặc ngay khi hoàn thành "big win")*
+*   **Thời điểm:** Đừng đợi đến kỳ Review. Hãy đề cập trước đó 1-2 tháng và nhắc lại ngay sau khi vừa thắng lớn.
 *   **Mở lời:** "Em muốn trao đổi về lộ trình phát triển và đóng góp của em. Mục tiêu của em là đạt mức lương X trong năm tới. Em cần làm gì để đạt được điều đó?"
 *   **Trong buổi Review:** Trình bày Brag Sheet. Chứng minh bạn đã vượt KPI (Over-deliver).
 
@@ -63,4 +63,12 @@ Lương là giá trị thị trường của bạn. Nếu bạn không tự tin 
     *   Làm việc từ xa (Remote/Hybrid) -> Tiết kiệm thời gian đi lại.
     *   Ngân sách học tập/đào tạo.
     *   Cổ phiếu thưởng (ESOP).
-3.  **Chốt thời gian Review lại:** "Chúng ta có thể xem xét lại sau 3 tháng nữa khi dự án X hoàn thành không?"
+3.  **Chốt thời gian Review lại:** "Chúng ta có thể xem xét lại sau 3 tháng nữa khi dự án X hoàn thành không?" — set calendar reminder.
+
+---
+
+## 5. Script Template & Resources
+
+- [Salary Negotiation Script Template](../../../../templates/productivity/salary-negotiation-script.md): mẫu câu theo từng tình huống (phỏng vấn, raise nội bộ, counter-offer).
+- [Brag Sheet Log](../../../../templates/productivity/personal-metrics-dashboard.md): log impact hàng tuần để không quên dữ liệu quan trọng.
+- [Influence & Negotiation Guide](../../01-mental-models/influence-negotiation.md): kỹ thuật framing, anchoring và xử lý phản đối.
