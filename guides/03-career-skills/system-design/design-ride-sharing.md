@@ -60,9 +60,14 @@ flowchart TD
         Quad3[Cell B1]
         Quad4[Cell B2]
     end
-    Rider((Rider)) -->|Request ride| Dispatcher[Matching Service]
-    Dispatcher --> GeoIndex[Geo Index (S2/QuadTree)]
-    GeoIndex --> Drivers{Nearby Drivers}
+    Rider((Rider))
+    Dispatcher[Matching Service]
+    GeoIndex[Geo Index S2/QuadTree]
+    Drivers{Nearby Drivers}
+    Driver((Driver))
+    Rider -->|Request ride| Dispatcher
+    Dispatcher --> GeoIndex
+    GeoIndex --> Drivers
     Drivers --> Dispatcher
     Dispatcher -->|Assign| Driver
     Driver --> Rider
