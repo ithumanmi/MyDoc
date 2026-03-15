@@ -76,7 +76,7 @@ Trong hệ thống phân tán, không thể dùng `AUTO_INCREMENT` của SQL.
 
 ## 6. Interview Pro-tips (Trade-offs)
 
-1.  **Consistency vs Availability:** Trong Chat, tính khả dụng quan trọng hơn. Nếu DB chính chết, ta có thể ghi tạm vào một DB khác rồi sync sau. Người dùng thà nhận tin nhắn chậm vài giây còn hơn là không gửi được.
+1.  **Consistency vs Availability:** Trong Chat, tính khả dụng quan trọng hơn. Nếu DB chính chết, ta có thể ghi tạm vào một DB khác rồi sync sau. Người dùng thà nhận tin nhắn chậm vài giây còn hơn là không gửi được. Liên hệ [CAP trade-off](./fundamentals-scalability-consistency.md#cap-theorem--consistency-spectrum) để giải thích lựa chọn.
 2.  **End-to-End Encryption (E2EE):** Nếu được hỏi về bảo mật (như WhatsApp), hãy giải thích rằng Server chỉ đóng vai trò trung chuyển các gói tin đã mã hóa. Chỉ người nhận mới có Key để giải mã.
 
 ---

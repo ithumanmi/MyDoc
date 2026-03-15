@@ -57,7 +57,7 @@ Làm sao để tạo ra chuỗi ký tự (ví dụ 7 ký tự) duy nhất?
 ## 5. Caching & Scaling
 
 *   **Caching:** Vì tỷ lệ đọc rất cao (100:1), dùng **Redis** để lưu các URL ngắn "hot". Dùng thuật toán **LRU (Least Recently Used)** để đẩy các link cũ ra khỏi cache.
-*   **DB Sharding:** Mặc dù 6TB không quá lớn, nhưng để scale hàng tỷ request, ta nên sharding theo `short_url`.
+*   **DB [Sharding](./fundamentals-scalability-consistency.md#2-replication--sharding):** Mặc dù 6TB không quá lớn, nhưng để scale hàng tỷ request, ta nên sharding theo `short_url`.
 *   **Redirection:** Sử dụng mã **301 (Permanent Redirect)** để trình duyệt lưu cache, giảm tải cho server trong những lần click sau của cùng một user.
 
 ---

@@ -13,7 +13,7 @@
 *   **Quality Switching:** Tự động điều chỉnh chất lượng dựa trên tốc độ mạng.
 
 ### Non-Functional Requirements
-*   **Highly Reliable:** Không mất video đã upload.
+*   **Highly Reliable:** Không mất video đã upload (Replication đa vùng, xem thêm [Replication basics](./fundamentals-scalability-consistency.md#2-replication--sharding)).
 *   **High Scalability:** Phục vụ hàng tỷ lượt xem mỗi ngày.
 *   **Low Latency:** Thời gian "buffering" thấp nhất có thể.
 
@@ -91,7 +91,7 @@ Streaming video mà không có CDN là không thể thực hiện được ở q
 
 1.  **Upload vs View:** Upload có thể chậm (Asynchronous), nhưng View phải nhanh (Real-time). Hãy tập trung vào việc tối ưu đường ra (Egress).
 2.  **Cost Optimization:** CDN rất đắt. Netflix tự xây dựng hệ thống CDN riêng gọi là **Open Connect** để tiết kiệm chi phí trả cho bên thứ 3 như Akamai hay Cloudflare.
-3.  **Blob Storage:** Video gốc (Original) nên được lưu ở "Cold Storage" (rẻ tiền) sau khi đã được encode xong để dự phòng.
+*   **Blob Storage:** Video gốc (Original) nên được lưu ở "Cold Storage" (rẻ tiền) sau khi đã được encode xong để dự phòng, kết hợp [replication](./fundamentals-scalability-consistency.md#2-replication--sharding) đa vùng để tránh mất dữ liệu.
 
 ---
 

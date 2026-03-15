@@ -67,7 +67,7 @@ Nếu 1.000 người cùng upload một file giáo trình nặng 100MB, hệ th�
 *   **Giải pháp:** Hash từng chunk. Nếu chunk đó đã tồn tại trong Object Storage, Metadata chỉ việc trỏ link đến chunk cũ thay vì lưu mới.
 *   *Kết quả:* Tiết kiệm chi phí lưu trữ khổng lồ.
 
-### Metadata DB Sharding
+### Metadata DB [Sharding](./fundamentals-scalability-consistency.md#2-replication--sharding)
 Với hàng tỷ tệp tin, DB metadata sẽ trở nên rất lớn.
 *   **Sharding theo `user_id`:** Tất cả tệp của 1 user sẽ nằm cùng 1 node, giúp các thao tác duyệt thư mục và tìm kiếm của user đó nhanh hơn.
 
@@ -97,7 +97,7 @@ Khi 2 người cùng sửa 1 file lúc offline và cùng online cùng lúc:
 
 ## 8. Interview Pro-tips (Trade-offs)
 
-1.  **Strong vs Eventual Consistency:** Metadata cần **Strong Consistency** (không thể thấy file tồn tại nhưng click vào lại báo lỗi). Dữ liệu chunk có thể chấp nhận **Eventual Consistency** trong quá trình đồng bộ.
+1.  **Strong vs Eventual Consistency:** Metadata cần **[Strong Consistency](./fundamentals-scalability-consistency.md#cap-theorem--consistency-spectrum)** (không thể thấy file tồn tại nhưng click vào lại báo lỗi). Dữ liệu chunk có thể chấp nhận **[Eventual Consistency](./fundamentals-scalability-consistency.md#cap-theorem--consistency-spectrum)** trong quá trình đồng bộ.
 2.  **Storage Costs:** Đề cập đến chiến lược **Cold Storage** (lưu các version cũ hoặc file lâu không dùng vào loại đĩa rẻ tiền hơn).
 
 ---
@@ -143,7 +143,7 @@ flowchart LR
 Đảm bảo metadata và data luôn đồng bộ khi có nhiều client sửa file cùng lúc, tránh mất cập nhật hoặc xung đột.
 
 ### Metadata Consistency
-- **Primary-Secondary Replication:** Metadata DB sử dụng leader election (Raft) để đảm bảo ghi tuần tự. Client chỉ ghi vào leader để được Strong Consistency.
+- **Primary-Secondary [Replication](./fundamentals-scalability-consistency.md#2-replication--sharding):** Metadata DB sử dụng leader election (Raft) để đảm bảo ghi tuần tự. Client chỉ ghi vào leader để được Strong Consistency.
 - **Optimistic Locking:** Mỗi file version kèm `etag` hoặc `version_id`. Khi client cập nhật metadata, nó gửi `If-Match: etag`. Nếu mismatch → trả về `412 Precondition Failed`.
 
 ### Chunk Consistency

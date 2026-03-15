@@ -100,7 +100,7 @@ RAM có hạn, khi cache đầy, ta phải xóa bớt dữ liệu cũ.
 | Tổng entry cần lưu | 200 triệu | -> ~110GB RAM |
 | Số node | 8 máy × 32GB RAM | Chừa 30% overhead |
 
-**Logic:** Estimation này giúp justify vì sao phải sharding + replication.
+**Logic:** Estimation này giúp justify vì sao phải [sharding + replication](./fundamentals-scalability-consistency.md#2-replication--sharding).
 
 ---
 

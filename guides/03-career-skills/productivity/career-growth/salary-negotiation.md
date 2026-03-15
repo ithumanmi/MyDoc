@@ -22,6 +22,7 @@ Lương là giá trị thị trường của bạn. Nếu bạn không tự tin 
 *   Liệt kê tất cả đóng góp trong 6-12 tháng, kèm số liệu (revenue, cost saving, SLA, NPS).
 *   **Định lượng (Quantify):** "Giảm 20% chi phí cloud", "Triển khai feature tăng 12% conversion".
 *   Chuẩn bị slide + Q&A script để kể lại chiến thắng đậm nét ngay trước khi xin tăng lương.
+*   Nhắc lại **thời điểm vàng để mở đàm phán:** vừa hoàn thành dự án lớn hoặc sau review tích cực 1-2 tuần — leverage cảm xúc & dữ liệu đang "nóng".
 
 ---
 

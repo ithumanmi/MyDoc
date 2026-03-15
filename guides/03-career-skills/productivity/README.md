@@ -36,7 +36,7 @@ Trong kỷ nguyên AI và tự động hóa, "làm việc chăm chỉ" (Hard wor
 | --- | --- | --- |
 | Tập trung hơn, ít xao nhãng | [Deep Work System](./core-skills/deep-work-system.md) · [Attention Mastery](./core-skills/attention-mastery.md) | [Time Management Systems](./core-skills/time-management-systems.md) · [Personal Work Framework](./core-skills/personal-work-framework.md) |
 | Tăng lương / thăng tiến | [Salary Negotiation](./career-growth/salary-negotiation.md) · [Managing Up](./career-growth/managing-up.md) · [The 80/20 Career](./career-growth/80-20-career.md) | [Strategic Thinking Playbook](./mental-models/strategic-thinking.md) · [Communication & Pedagogy](./core-skills/communication-mastery.md) |
-| Bắt đầu freelance / side income | [Freelancer Framework](./side-hustle/freelancer-framework.md) · [Freelancer Roadmap](./side-hustle/freelancer-roadmap.md) | [Proposal & Contract](./side-hustle/freelancer-framework.md#proposal--pricing) · [Core Skills](./core-skills/INDEX.md) (time/energy) |
+| Bắt đầu freelance / side income | [Freelancer Framework](./side-hustle/freelancer-framework.md) · [Freelancer Roadmap](./side-hustle/freelancer-roadmap.md) | [Proposal & Contract](./side-hustle/freelancer-framework.md#proposal--pricing) · [Core Skills](./core-skills/INDEX.md) (time/energy) · [Market Research](../02-wealth-business/market-research.md) |
 | Học nhanh, quản lý kiến thức | [Learning How to Learn](./meta-skills/learning-how-to-learn.md) · [PKM System](./meta-skills/pkm-system.md) · [Personal Knowledge Base](./meta-skills/personal-knowledge-base.md) | [Study Project Management](./meta-skills/study-project-management.md) · [Working with AI](./meta-skills/working-with-ai.md) |
 
 **Chi tiết nhanh theo mục tiêu**
@@ -109,9 +109,9 @@ Tối ưu hóa nguồn thu nhập chính (Active Income).
 Đa dạng hóa thu nhập, giảm rủi ro phụ thuộc vào lương.
 *   **[Freelancer Framework](./side-hustle/freelancer-framework.md):** ⭐ **NEW** Hệ thống 6 trụ cột: Skill → Portfolio → Acquisition → Proposal & Pricing → Contract & Delivery → Operations & Scale.
 *   **[Freelancer Roadmap](./side-hustle/freelancer-roadmap.md):** Lộ trình từ Zero đến khách hàng đầu tiên.
-*   **[Content Creation Blueprint](./side-hustle/content-creation-blueprint.md):** Xây dựng thương hiệu cá nhân và kiếm tiền từ viết lách/video.
-*   **[Monetization Models](./side-hustle/monetization-models.md):** Affiliate, Digital Products, Coaching.
-*   **Liên kết nhanh:** Nghiên cứu thị trường & audience: [Market Research](../02-wealth-business/market-research.md) *(nếu có)*; Tăng traffic/monetization: [MMO Roadmap](../02-wealth-business/mmo-roadmap.md) *(nếu có)*.
+*   **[Content Creation Blueprint](./side-hustle/content-creation-blueprint.md):** Xây dựng thương hiệu cá nhân và kiếm tiền từ viết lách/video. (Bổ sung Audience & Positioning ↔ [Market Research](../02-wealth-business/market-research.md), Traffic & Monetization ↔ [MMO Roadmap](../02-wealth-business/mmo-roadmap.md)).
+*   **[Monetization Models](./side-hustle/monetization-models.md):** Affiliate, Digital Products, Coaching. (Liên kết trực tiếp tới [Market Research](../02-wealth-business/market-research.md) & [MMO Roadmap](../02-wealth-business/mmo-roadmap.md)).
+*   **Liên kết nhanh:** Nghiên cứu thị trường & audience: [Market Research](../02-wealth-business/market-research.md); Tăng traffic/monetization: [MMO Roadmap](../02-wealth-business/mmo-roadmap.md).
 
 ---
 

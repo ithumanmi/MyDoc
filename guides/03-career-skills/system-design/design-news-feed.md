@@ -13,7 +13,7 @@
 
 ### Non-Functional Requirements
 *   **Fast Feed Generation:** Tốc độ tải feed phải cực nhanh (< 200ms).
-*   **Consistency:** Chấp nhận "Eventual Consistency" (bạn đăng tweet, người khác có thể thấy chậm vài giây).
+*   **Consistency:** Chấp nhận "[Eventual Consistency](./fundamentals-scalability-consistency.md#cap-theorem--consistency-spectrum)" (bạn đăng tweet, người khác có thể thấy chậm vài giây).
 *   **High Availability:** Hệ thống phải luôn sẵn sàng phục vụ hàng triệu user đồng thời.
 
 ---
