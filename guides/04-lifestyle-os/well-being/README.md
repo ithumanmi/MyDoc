@@ -8,33 +8,33 @@
 ---
 
 ## 🧬 Biohacking (Tối ưu hóa sinh học)
-*(Hiểu và tối ưu "phần cứng" cơ thể của bạn)*
+*Mục tiêu: hiểu và tinh chỉnh “phần cứng” — hormone, giấc ngủ, vận động, dinh dưỡng.*
 
-### Hormones & Neurotransmitters
-*   **[⚙️ CNS Basics](./cns-basics.md):** (Mới) Hệ Thần Kinh Trung Ương - "CPU" của cơ thể.
-*   **[🧠 Dopamine System](./biohacking/dopamine-system.md):** Động lực, kỷ luật & cai nghiện MXH.
-*   **[🛡️ Cortisol & Melatonin](./biohacking/cortisol-melatonin-system.md):** Quản lý stress & tối ưu giấc ngủ.
-*   **[🩸 Glucose & Insulin](./biohacking/glucose-insulin-system.md):** Duy trì năng lượng ổn định cả ngày.
-*   **[⚡ Testosterone System](./biohacking/testosterone-system.md):** Sức mạnh & Drive (cho cả nam/nữ).
-*   **[🧪 Neurotransmitters Guide](./biohacking/neurotransmitters-guide.md):** Serotonin, Acetylcholine, GABA.
+### 1️⃣ Nền tảng thần kinh & hormone
+*   **[⚙️ CNS Basics](./cns-basics.md):** Khởi động bằng việc hiểu “CPU” (Hệ thần kinh trung ương).
+*   **[🧠 Dopamine System](./biohacking/dopamine-system.md):** Khi thiếu động lực, cần reset Dopamine.
+*   **[🛡️ Cortisol & Melatonin](./biohacking/cortisol-melatonin-system.md):** Khi stress, mất ngủ, nhịp sinh học vỡ.
+*   **[🩸 Glucose & Insulin](./biohacking/glucose-insulin-system.md):** Khi tụt năng lượng, brain fog.
+*   **[⚡ Testosterone System](./biohacking/testosterone-system.md):** Khi thiếu drive/khả năng push.
+*   **[🧪 Neurotransmitters Guide](./biohacking/neurotransmitters-guide.md):** Khi muốn chẩn đoán rộng (Serotonin, GABA...).
 
-### Protocols (Giao thức thực hành)
-*   **[🛌 Sleep Optimization](./biohacking/sleep-optimization.md):** Chiến lược để có giấc ngủ sâu hồi phục.
-*   **[🏃 Movement Protocols](./biohacking/movement-protocols.md):** Vận động khoa học (Zone 2, HIIT, Strength).
-*   **[🥗 Nutrition for Brain](./biohacking/nutrition-for-brain.md):** Thực phẩm thông minh cho não bộ.
-*   **[⚙️ Health OS Overview](./biohacking/health-os-overview.md):** Tổng quan về Hệ điều hành sức khỏe.
-*   **[📋 Health Optimization Protocols](./biohacking/health-optimization-protocols.md):** Các thói quen hàng ngày (Morning/Evening Routine).
+### 2️⃣ Protocols theo mục tiêu
+*   **[🛌 Sleep Optimization](./biohacking/sleep-optimization.md):** Khi cần ngủ sâu, hồi phục nhanh.
+*   **[🏃 Movement Protocols](./biohacking/movement-protocols.md):** Khi thiếu vận động hoặc cần bổ sung Zone 2/Strength.
+*   **[🥗 Nutrition for Brain](./biohacking/nutrition-for-brain.md):** Khi muốn tối ưu fuel cho não & hormone.
+*   **[⚙️ Health OS Overview](./biohacking/health-os-overview.md):** Khi cần lộ trình tổng thể.
+*   **[📋 Health Optimization Protocols](./biohacking/health-optimization-protocols.md):** Khi cần checklist ngày.
 
 ---
 
 ## 🧘 Mental Resilience (Sức mạnh tinh thần)
-*(Rèn luyện "phần mềm" tâm trí)*
+*Mục tiêu: ổn định “phần mềm” — cảm xúc, niềm tin, năng lượng vi tế.*
 
-*   **[🧘 Mindfulness Meditation](./mental-resilience/mindfulness-meditation.md):** Kỹ thuật thiền định & tỉnh thức.
-*   **[Restore Tinh-Khi-Than (Phục hồi Tinh Khí Thần)](./restore-tinh-khi-than.md):** ⭐ **NEW** Chữa lành rối loạn lo âu từ gốc rễ năng lượng.
-*   **[Cultivating Yang Energy (Nuôi Dưỡng Dương Khí)](./cultivating-yang-energy.md):** ⭐ **NEW** 5 trụ cột để tăng cường sức mạnh, uy lực và thần thái.
-*   **[🔥 Burnout Prevention](./mental-resilience/burnout-prevention.md):** Nhận diện, ngăn ngừa và phục hồi kiệt sức.
-*   **[🏛️ Stoicism for Modern Life](./mental-resilience/stoicism-for-modern-life.md):** Ứng dụng triết lý Khắc kỷ để vững vàng trước nghịch cảnh.
+1.  **[🧘 Mindfulness Meditation](./mental-resilience/mindfulness-meditation.md):** Khi bị phân tâm, cần reset tâm trí.
+2.  **[Restore Tinh-Khi-Than](./restore-tinh-khi-than.md):** Khi năng lượng tinh-thần-thần khí suy kiệt.
+3.  **[Cultivating Yang Energy](./cultivating-yang-energy.md):** Khi mất dương khí, khí chất yếu.
+4.  **[🔥 Burnout Prevention](./mental-resilience/burnout-prevention.md):** Khi cạn kiệt, hoài nghi bản thân.
+5.  **[🏛️ Stoicism for Modern Life](./mental-resilience/stoicism-for-modern-life.md):** Khi cần dựng “tường thành” tư duy.
 
 ---
 
@@ -50,10 +50,12 @@
 
 ---
 
-## Bắt đầu từ đâu?
-1.  Nếu bạn thấy mệt mỏi/stress: Đọc **[Cortisol & Melatonin](./biohacking/cortisol-melatonin-system.md)** và **[Sleep Optimization](./biohacking/sleep-optimization.md)**.
-2.  Nếu bạn mất động lực: Đọc **[Dopamine System](./biohacking/dopamine-system.md)**.
-3.  Nếu bạn muốn làm việc hiệu quả hơn: Đọc **[High Performance](./high-performance.md)**.
+## Bắt đầu từ đâu? (Flow đề xuất)
+1.  **Check hệ thống:** Làm [Well-being Lifestyle Audit](../README.md#well-being-audit) (nếu chưa) để biết thiếu phần cứng hay phần mềm.
+2.  **Nếu bạn stress/mất ngủ:** Bắt đầu với **[Cortisol & Melatonin](./biohacking/cortisol-melatonin-system.md)** → **[Sleep Optimization](./biohacking/sleep-optimization.md)**.
+3.  **Nếu bạn tụt động lực:** Chuyển sang **[Dopamine System](./biohacking/dopamine-system.md)** và log lại bằng **[Daily Tracker](../../../templates/well-being/daily-performance-tracker.md)**.
+4.  **Nếu bạn cần hiệu suất:** Dùng **[High Performance & Flow](./high-performance.md)** + ghép với **[Movement Protocols](./biohacking/movement-protocols.md)**.
+5.  **Nếu bạn suy kiệt tinh thần:** Kích hoạt cặp **[Burnout Prevention](./mental-resilience/burnout-prevention.md)** + **[Restore Tinh-Khi-Thần](./restore-tinh-khi-than.md)**.
 
 ---
 
