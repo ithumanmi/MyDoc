@@ -1,9 +1,16 @@
 # 🏗️ System Design & Architecture (Thiết kế Hệ thống)
 
-> [← Back to guides/03-career-skills](../README.md) | [Home](../../README.md) | **Last reviewed:** March 2026
+> [← Back to domains](../README.md) | [Home](../../README.md) | **Last reviewed:** March 2026
 
 Chào mừng bạn đến với hướng dẫn về **System Design**.
 Tại đây chúng ta sẽ đi sâu vào kiến trúc phần mềm, khả năng mở rộng (Scalability) và các công nghệ cốt lõi của backend hiện đại.
+
+---
+
+## 🆕 Cập nhật mới nhất (March 2026)
+*   **Design Notification System:** Multi-channel pipeline, idempotency, preference service.
+*   **Design API Gateway:** Routing, auth, rate limit, observability & canary.
+*   **Design Distributed ID Generator:** Snowflake, UUIDv7, KGS/Hi-Lo.
 
 ---
 
@@ -44,7 +51,10 @@ Tại đây chúng ta sẽ đi sâu vào kiến trúc phần mềm, khả năng 
 *   **[7. Design File Storage System](./design-file-storage.md):** Deep dive bài toán Google Drive.
 *   **[8. Design Rate Limiter](./design-rate-limiter.md):** Deep dive hệ thống chặn truy cập.
 *   **[9. Design Search Autocomplete](./design-search-autocomplete.md):** Deep dive bài toán Google Search.
-*   **[10. Design Logging / Monitoring](./design-logging-monitoring.md):** ⭐ **NEW** Deep dive hệ thống giám sát.
+*   **[10. Design Logging / Monitoring](./design-logging-monitoring.md):** Deep dive hệ thống giám sát.
+*   **[11. Design Notification System](./design-notification-system.md):** Push/email/in-app với queue, idempotency, user preferences.
+*   **[12. Design API Gateway](./design-api-gateway.md):** Routing, auth, rate limiting, observability.
+*   **[13. Design Distributed ID Generator](./design-distributed-id-generator.md):** Snowflake, UUID, KGS cho mọi dịch vụ cần ID.
 
 ---
 

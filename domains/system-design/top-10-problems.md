@@ -87,6 +87,30 @@ Hệ thống hóa 10 bài toán System Design phổ biến nhất cùng các đi
     *   Alerting & High write throughput.
 *   *Ý nghĩa:* Infra Engineer rất hay gặp bài này.
 
+## 11. Design Notification System (Email/Push/In-app)
+*   **Hỏi về:** User preference, idempotent delivery.
+*   **Core Discussion:**
+    *   Queue decouple, retry, DLQ.
+    *   Provider abstraction layer.
+    *   Scheduling, rate limit per user/campaign.
+*   *Ý nghĩa:* Rất phổ biến trong e-commerce, fintech, SaaS.
+
+## 12. Design API Gateway
+*   **Hỏi về:** Routing, auth, observability.
+*   **Core Discussion:**
+    *   Path/header-based routing.
+    *   JWT/API key validation, rate limiting.
+    *   Logging, tracing, canary rollout.
+*   *Ý nghĩa:* Mọi hệ thống microservices đều cần gateway chuẩn.
+
+## 13. Design Distributed ID Generator (Snowflake)
+*   **Hỏi về:** ID uniqueness, ordering.
+*   **Core Discussion:**
+    *   Snowflake bit layout, clock drift.
+    *   Worker ID assignment, multi-region.
+    *   Alternative: UUIDv7, KGS, Hi/Lo.
+*   *Ý nghĩa:* Liên quan đến mọi hệ thống cần ID tăng dần (URL shortener, order, message).
+
 ---
 
 ## 🎯 Bonus: Interviewer thật sự chấm điểm gì?
