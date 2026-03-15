@@ -15,6 +15,7 @@
 | Risk Engine | Nhận diện & phòng thủ rủi ro cá nhân/gia đình | [life-os/risk-engine.md](life-os/risk-engine.md) |
 | Strategy & Alignment | Vector sống, chiến lược dài hạn | [life-os/strategy-engine.md](life-os/strategy-engine.md), [life-os/alignment-engine.md](life-os/alignment-engine.md) |
 | Energy Management | Năng lượng, chú ý, hormone | [life-os/energy-management.md](life-os/energy-management.md) |
+| Relationships & Dating | Khung đọc tâm lý & tình huống giao tiếp | [psychology-reading-women.md](psychology-reading-women.md), [psychology-women-contexts.md](psychology-women-contexts.md) |
 | Well-being (Hardware) | Biohacking, resilience, health OS | [well-being/README.md](well-being/README.md) |
 | Sleep & Recovery | Protocol ngủ, phục hồi | [well-being/biohacking/sleep-optimization.md](well-being/biohacking/sleep-optimization.md) |
 | Mental Resilience | Burnout prevention, mindfulness, stoicism | [well-being/mental-resilience/burnout-prevention.md](well-being/mental-resilience/burnout-prevention.md) |

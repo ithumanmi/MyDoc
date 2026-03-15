@@ -485,6 +485,18 @@ Free up 20-30% capacity (breathing room)
 - What needs to change?
 - Consider: Job change, role change, or environment change
 
+### 🩺 Khi nào cần gặp therapist / chuyên gia?
+
+| Tín hiệu | Gợi ý hành động |
+| --- | --- |
+| Cảm giác trống rỗng, tuyệt vọng kéo dài >2 tuần; mất hứng với mọi thứ (anhedonia) | Tham khảo bác sĩ tâm thần/therapist để đánh giá trầm cảm. Burnout thường cải thiện khi nghỉ, trầm cảm thì không. |
+| Ý nghĩ tự làm tổn thương bản thân hoặc tự tử dù thoáng qua | Liên hệ hotline hỗ trợ khẩn cấp, nói chuyện với người tin tưởng, đặt lịch hẹn chuyên gia ngay (đây là tình trạng khẩn cấp). |
+| Panic attack, khó thở, tim đập nhanh, mất ngủ trắng nhiều đêm liên tục | Gặp bác sĩ để kiểm tra cortisol, tuyến giáp, rối loạn lo âu; therapist giúp xây protocol hạ căng thẳng. |
+| Không thể thực hiện hoạt động cơ bản (dậy đi làm, vệ sinh cá nhân) trong nhiều ngày | Cần đánh giá lâm sàng: có thể là trầm cảm nặng hoặc rối loạn khác; nghỉ làm + hỗ trợ y tế. |
+| Burnout tái phát dù đã nghỉ, thử mọi cách tự cứu nhưng vẫn kiệt quệ | Therapy giúp bóc tách niềm tin, mô hình làm việc độc hại; có thể cân nhắc thuốc (dưới giám sát bác sĩ). |
+
+> **Phân biệt nhanh:** Burnout liên quan đến bối cảnh công việc và giảm khi nghỉ ngơi có chủ đích. Trầm cảm ảnh hưởng toàn bộ đời sống, không biến mất kể cả khi nghỉ dài. Nếu không chắc chắn, hãy gặp chuyên gia để chẩn đoán chính xác.
+
 ---
 
 ### **Stage 4-5 Burnout: Professional Help Required**

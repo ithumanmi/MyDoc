@@ -30,3 +30,12 @@ Trước mỗi quyết định lớn (Đổi việc, Đầu tư, Mua nhà):
 2.  **Check Ruin:** Nếu kịch bản tệ nhất xảy ra, tôi có "chết" (phá sản, mất danh dự vĩnh viễn) không? Nếu có -> Bỏ qua ngay lập tức.
 3.  **Check Opportunity:** Tôi có đang bỏ lỡ cơ hội nào tốt hơn không?
 4.  **Pre-mortem:** Tưởng tượng 1 năm sau dự án này thất bại thảm hại. Lý do là gì? (Tìm ra điểm mù).
+
+### ⚙️ Ví dụ nhanh: EV + Pre-mortem
+
+| Quyết định | Các kịch bản (xác suất) | EV ước tính | Pre-mortem – Điều gì khiến thất bại? |
+| --- | --- | --- | --- |
+| **Đổi việc sang Big Tech** | `P_offer 60% × (Lương +30% + RSU 50k)` vs `P_fail 40% × (mất 2 tháng không lương)` | `EV ≈ 0.6 × 50k - 0.4 × 10k = +26k` (chấp nhận vì không phá sản) | Không luyện DSA hằng ngày, không network nội bộ, bị đóng băng headcount → Giải pháp: Study plan 30-60-90 + sponsor nội bộ. |
+| **Đầu tư dự án fintech Series A** | `Upside 25% × (10× vốn)` vs `Downside 75% × (mất 50% vốn)` | `EV ≈ 0.25 × 10 - 0.75 × 0.5 = +1.75×` nhưng Kelly chỉ cho phép 15-20% vốn | Founder bỏ cuộc, regulatory ban, không tìm được PMF → Thiết lập pre-mortem: yêu cầu runway ≥18 tháng, clause thoát vốn, theo sát product metric. |
+
+> **Cách dùng:** Đặt các giả định vào bảng, tính EV sơ bộ, rồi viết 3-5 tình huống dẫn tới thất bại để tạo hành động phòng ngừa (timeline, người chịu trách nhiệm, tín hiệu cảnh báo).

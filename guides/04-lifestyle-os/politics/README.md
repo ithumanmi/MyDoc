@@ -33,6 +33,7 @@ Chào mừng bạn đến với module **Politics**. Tại đây, chúng ta khô
 *   **[Trật tự thế giới](./geopolitics/world-order.md):** Đơn cực, song cực và đa cực.
 *   **[Ngoại giao Việt Nam](./geopolitics/vietnam-diplomacy.md):** "Ngoại giao cây tre" và chiến lược 2026-2031.
 *   **[Kinh tế Chính trị (Political Economy)](./geopolitics/political-economy.md):** Sự giao thoa giữa tiền bạc và quyền lực toàn cầu.
+*   **[Đọc báo chính trị Việt Nam](./vietnam/news-intelligence.md):** Bộ lọc nguồn, keyword theo dõi và cách đọc để không bị quá tải.
 
 **Checklist thực hành Phase 3-4:**
 1. **Tuần 1:** Đọc `politics/vietnam-system.md`, ghi chú cơ cấu Đảng + Nhà nước.
@@ -53,6 +54,7 @@ Chào mừng bạn đến với module **Politics**. Tại đây, chúng ta khô
 3. **Tuần 3:** Viết mini-briefing (500 chữ) về sự kiện geopolitics gần đây và impact đến nghề/công ty bạn.
 4. **Tuần 4:** Thiết kế "Risk radar" cá nhân (liên hệ [Risk Engine](../life-os/risk-engine.md)).
 5. **Tuần 5:** Đọc ít nhất 1 bài Digital Politics/tuần (Algorithms, Misinformation, Election tech…) và áp dụng fact-check checklist.
+6. **Tuần 6:** Luyện đọc báo chính trị Việt Nam với template `vietnam/news-intelligence.md`, cập nhật bảng keyword + nguồn theo nghề của bạn.
 
 ---
 

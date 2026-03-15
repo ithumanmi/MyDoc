@@ -339,6 +339,11 @@ Return to bed when sleepy
 
 **→ Strengthen bed-sleep association!**
 
+> **Nếu chỉ làm 3 việc (Minimum Viable Sleep):**
+> 1. **Giờ ngủ cố định** mỗi ngày (kể cả cuối tuần) → đồng bộ nhịp sinh học.
+> 2. **Tắt màn hình & ánh sáng xanh trước 60 phút** → melatonin không bị ức chế.
+> 3. **Phòng tối & mát (18-20°C)** → cơ thể hạ nhiệt, dễ vào deep sleep.
+
 ---
 
 ## ⏰ TIMING & CONSISTENCY

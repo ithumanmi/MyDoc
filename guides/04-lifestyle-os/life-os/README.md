@@ -24,7 +24,8 @@ Life OS là tập hợp các mô hình tư duy (Mental Models) được cấu tr
 1.  **Decision + Risk (Foundation):** Học cách chọn việc và không chết trước – xem `[decision-engine.md](./decision-engine.md)` rồi khóa bảo hiểm ở `[risk-engine.md](./risk-engine.md)`.
 2.  **Strategy + Alignment (Direction):** Khi đã phòng thủ ổn, chuyển sang thiết kế vector sống và chiến lược bằng `[strategy-engine.md](./strategy-engine.md)` + `[alignment-engine.md](./alignment-engine.md)`.
 3.  **Energy + Psychology of Self (Hardware & Firmware):** Dùng `[energy-management.md](./energy-management.md)` để kiểm soát năng lượng, kết hợp `[psychology-of-self.md](./psychology-of-self.md)` để debug thói quen & ego.
-4.  **Optimization + Growth (Performance Upgrade):** Tối ưu hệ thống hiện tại với `[optimization-engine.md](./optimization-engine.md)` trước khi tăng tốc cùng `[growth-engine.md](./growth-engine.md)`.
+4.  **Relationships & Contexts:** Khi tương tác xã hội bắt đầu ảnh hưởng mạnh đến quyết định, đọc `[../psychology-reading-women.md](../psychology-reading-women.md)` + `[../psychology-women-contexts.md](../psychology-women-contexts.md)` để hiểu các tình huống giao tiếp (thuộc Life OS – mục Quan hệ & Giao tiếp).
+5.  **Optimization + Growth (Performance Upgrade):** Tối ưu hệ thống hiện tại với `[optimization-engine.md](./optimization-engine.md)` trước khi tăng tốc cùng `[growth-engine.md](./growth-engine.md)`.
 5.  **Leverage (Multiplier Mode):** Khi nền tảng vững, mở rộng bằng `[leverage-theory.md](./leverage-theory.md)` để nhân hệ số (Code, Media, Capital, People).
 
 > **Tip:** Mỗi lần cài xong 1 bước, viết lại checklist ứng dụng và chạy thử trong 2-4 tuần. Nếu thấy hệ thống crash (mất năng lượng, mất vector), quay lại bước trước để patch.
