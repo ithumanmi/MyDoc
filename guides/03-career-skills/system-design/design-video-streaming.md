@@ -188,5 +188,49 @@ flowchart LR
 
 ---
 
+## 11. Case Study: DRM & Key Management
+
+### Mục tiêu
+Bảo vệ nội dung bản quyền, chỉ cho phép người dùng hợp lệ phát video thông qua DRM như Widevine, FairPlay, PlayReady.
+
+### Pipeline
+1.  **Packaging:** Trong quá trình transcoding, mỗi rendition được encrypt (AES-128 CTR/CBC hoặc SAMPLE-AES) theo chuẩn CMAF.
+2.  **Key Management Service:** Lưu key/iv, gán `key_id` (UUID). Hỗ trợ rotate key theo thời gian hoặc theo nội dung.
+3.  **License Server:** Khi player yêu cầu phát, nó gửi request chứa `challenge` lên server tương ứng (Widevine/FairPlay). Server kiểm tra entitlement rồi trả license chứa key đã mã hóa.
+4.  **Secure Playback:** Player giải mã key trong Trusted Execution Environment (TEE) và phát video.
+
+```mermaid
+sequenceDiagram
+    participant Player
+    participant AppServer
+    participant LicenseServer
+    participant KeyStore
+    Player->>AppServer: Request video manifest
+    AppServer->>Player: Manifest + DRM info (key_id)
+    Player->>LicenseServer: DRM challenge (signed)
+    LicenseServer->>KeyStore: Lookup key_id
+    KeyStore-->>LicenseServer: Content key
+    LicenseServer-->>Player: License (encrypted key)
+    Player->>Player: Decrypt inside TEE
+    Player->>CDN: Fetch encrypted segments
+    Player->>Player: Play content
+```
+
+### Multi-DRM Strategy
+- Cùng một video nhưng phải cung cấp chứng chỉ cho ba hệ sinh thái lớn: Google Widevine (Android/Chrome), Apple FairPlay (iOS/Safari), Microsoft PlayReady (Windows/Edge).
+- Dùng một abstraction layer để map policy → từng vendor API nhằm giảm duplications.
+
+### Policy Examples
+- **Output Control:** Cấm phát HD trên thiết bị chưa có HDCP.
+- **License Duration:** License chỉ sống 4 giờ sau khi cấp để giảm rủi ro bị leak.
+- **Offline Playback:** Cho phép download nhưng key phải được lưu trong secure storage và expire sau X giờ.
+
+### Thách thức
+- **Latency:** License acquisition phải dưới 300ms để không làm chậm start-up time.
+- **Security:** KeyStore cần HSM (Hardware Security Module) hoặc KMS (AWS/GCP) để tránh bị lộ khóa.
+- **Device Fragmentation:** Một số thiết bị Android cũ không hỗ trợ L1 Widevine → phải degrade chất lượng hoặc disable playback.
+
+---
+
 ## 📚 Bài tiếp theo
 *   [Design Distributed Cache (Redis Concept)](./design-distributed-cache.md)

@@ -137,5 +137,46 @@ flowchart LR
 
 ---
 
+## 10. Case Study: Consistency Protocols
+
+### Bài toán
+Đảm bảo metadata và data luôn đồng bộ khi có nhiều client sửa file cùng lúc, tránh mất cập nhật hoặc xung đột.
+
+### Metadata Consistency
+- **Primary-Secondary Replication:** Metadata DB sử dụng leader election (Raft) để đảm bảo ghi tuần tự. Client chỉ ghi vào leader để được Strong Consistency.
+- **Optimistic Locking:** Mỗi file version kèm `etag` hoặc `version_id`. Khi client cập nhật metadata, nó gửi `If-Match: etag`. Nếu mismatch → trả về `412 Precondition Failed`.
+
+### Chunk Consistency
+- **Content-addressable Storage:** Chunk ID dựa trên hash (SHA-256). Client gửi hash → server verify để tránh ghi trùng hoặc sai dữ liệu.
+- **2-phase Commit Light:** Block Server ghi chunk vào Object Storage, sau đó ghi metadata; chỉ khi cả hai thành công mới ack client.
+
+### Collaborative Editing
+- **CRDT/OT:** Với file văn bản (Google Docs), dùng Operational Transformations hoặc Conflict-free Replicated Data Types để merge các chỉnh sửa theo thời gian thực.
+- **Presence Service:** Broadcast cursor/selection để các client biết ai đang chỉnh đoạn nào, giảm nguy cơ xung đột.
+
+### Diagram
+
+```mermaid
+sequenceDiagram
+    participant ClientA
+    participant MetadataLeader
+    participant ChunkStore
+    ClientA->>MetadataLeader: Update metadata (etag=v10)
+    MetadataLeader-->>ClientA: 412 if stale
+    ClientA->>ChunkStore: Upload chunk (hash)
+    ChunkStore-->>ClientA: Stored + checksum OK
+    ClientA->>MetadataLeader: Commit new version (v11)
+    MetadataLeader->>Followers: Replicate log (Raft)
+    Followers-->>MetadataLeader: Ack
+    MetadataLeader-->>ClientA: Success
+```
+
+### Trade-offs
+- **Latency:** Strong consistency tăng độ trễ vì phải commit ở leader + chờ replication.
+- **Availability:** Khi leader down cần failover (few seconds). Đối với offline sync, CRDT giúp user tiếp tục chỉnh nhưng cần reconcile.
+- **Complexity:** CRDT/OT phức tạp hơn nhiều so với file locking truyền thống.
+
+---
+
 ## 📚 Bài tiếp theo
 *   [Design Rate Limiter](./design-rate-limiter.md)
