@@ -15,6 +15,8 @@ Sơ đồ rút gọn toàn bộ tài nguyên trong `guides/04-lifestyle-os/well-
 - **[🥗 Nutrition for Brain](./biohacking/nutrition-for-brain.md)** – Ăn uống hỗ trợ não bộ & hormone.
 - **[⚙️ Health OS Overview](./biohacking/health-os-overview.md)** – Lộ trình Health OS 12 tuần.
 - **[📋 Health Optimization Protocols](./biohacking/health-optimization-protocols.md)** – Checklist Morning/Evening Routine.
+- **[🏡 Environment & Workspace Setup](./environment-workspace.md)** – Ánh sáng, không khí, workspace ergonomics.
+- **[♾️ Longevity 101](./longevity-101.md)** – 5 trụ cột sleep/movement/stress/social/purpose.
 - **[🌙 Ngủ đúng & Năng lượng cả ngày](./ngu-dung-va-nang-luong-ca-ngay.md)** – Khóa “Sleep hygiene” bằng tiếng Việt.
 
 ## 🧘 Mental Resilience (Tinh thần & năng lượng vi tế)
@@ -24,6 +26,8 @@ Sơ đồ rút gọn toàn bộ tài nguyên trong `guides/04-lifestyle-os/well-
 - **[🏛️ Stoicism for Modern Life](./mental-resilience/stoicism-for-modern-life.md)** – Kích hoạt mindset Khắc kỷ ứng dụng.
 - **[Restore Tinh-Khi-Than](./restore-tinh-khi-than.md)** – Phục hồi năng lượng tinh-khí-thần khi suy kiệt.
 - **[Cultivating Yang Energy](./cultivating-yang-energy.md)** – Nuôi dưỡng dương khí, uy lực & thần thái.
+- **[⚖️ Women’s Health (Cycle & Hormones)](./special-populations/womens-health.md)** – Chu kỳ, hormone, liên kết Sleep/Cortisol/Glucose.
+- **[🌍 Shift Work & Travel Protocols](./special-populations/shift-travel-protocols.md)** – Jet lag, ca đêm, đồng bộ nhịp sinh học.
 
 ## 🚀 Hiệu suất & Công cụ
 

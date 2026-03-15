@@ -61,3 +61,16 @@ Mục tiêu: Giảm kích thích để ngủ sâu.
 3.  Tắm nước ấm (Giảm nhiệt độ cơ thể lõi).
 
 👉 **[Mẫu thực hành: Daily Performance Tracker](../../../templates/well-being/daily-performance-tracker.md)**
+
+---
+
+## 5. Khi nào **không** nên đẩy High Performance?
+
+High performance chỉ hiệu quả khi hệ thần kinh & hormone đủ khỏe. Các trường hợp nên **giảm tốc hoặc nghỉ**:
+
+1. **Burnout hoặc cạn kiệt cảm xúc:** Cơ thể báo động bằng chán việc, cáu gắt, không thấy ý nghĩa. Ưu tiên module [Burnout Prevention](./mental-resilience/burnout-prevention.md) và [Restore Tinh-Khi-Thần](./restore-tinh-khi-than.md) trước khi quay lại.
+2. **Thiếu ngủ hoặc rối loạn nhịp sinh học:** Thiếu ngủ nhiều ngày, jet lag, cortisol lệch → chuyển sang [Sleep Optimization](./biohacking/sleep-optimization.md) và [Cortisol & Melatonin System](./biohacking/cortisol-melatonin-system.md).
+3. **Sau bệnh/ốm, HRV giảm sâu:** Cần ưu tiên phục hồi (Rest day, Zone 2 nhẹ), xem thêm [Movement Protocols → Recovery & Overtraining](./biohacking/movement-protocols.md#%E2%99%BB%EF%B8%8F-recovery--overtraining).
+4. **Dấu hiệu y khoa bất thường:** Đau ngực, khó thở, chóng mặt, trầm cảm kéo dài… → tham khảo ngay [Khi nào cần gặp bác sĩ?](./when-to-seek-help.md) thay vì cố push thêm.
+
+> **Nguyên tắc:** High performance là chu kỳ (Push → Recovery). Nếu bỏ qua hồi phục, bạn chỉ đang gom nợ năng lượng và sẽ trả giá bằng burnout hoặc chấn thương.

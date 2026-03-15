@@ -9,7 +9,7 @@ Lương là giá trị thị trường của bạn. Nếu bạn không tự tin 
 
 > **Timing cheat sheet:** Đưa yêu cầu ngay khi bạn vừa **thắng lớn** (ra mắt dự án, cứu deal, nhận thư khen) hoặc **1–2 tuần sau performance review tích cực**. Đây là lúc dữ liệu & cảm xúc đang nghiêng về phía bạn, nên đừng đợi đến “kỳ review chính thức”. Nếu bị từ chối? Lập tức hỏi “cần điều kiện gì” và chốt lại mốc review tiếp theo (30-60-90 ngày) để giữ đà.
 
-> **Script practice:** Luyện thoại trước bằng [Salary Negotiation Script](../../../../templates/productivity/salary-negotiation-script.md) và kỹ thuật framing trong [Influence & Negotiation Guide](../../01-mental-models/influence-negotiation.md). Mang theo brag sheet + kịch bản “khi bị từ chối” để sẵn sàng counter bằng dữ liệu, hoặc chuyển sang phúc lợi khác.
+> **Script practice:** Luyện thoại trước bằng [Salary Negotiation Script](../../../../templates/productivity/salary-negotiation-script.md) và kỹ thuật framing trong [Influence & Negotiation Guide](../../../01-mental-models/influence-negotiation.md). Mang theo brag sheet + kịch bản “khi bị từ chối” để sẵn sàng counter bằng dữ liệu, hoặc chuyển sang phúc lợi khác.
 
 ---
 

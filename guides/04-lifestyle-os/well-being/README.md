@@ -24,6 +24,7 @@
 *   **[🥗 Nutrition for Brain](./biohacking/nutrition-for-brain.md):** Khi muốn tối ưu fuel cho não & hormone.
 *   **[⚙️ Health OS Overview](./biohacking/health-os-overview.md):** Khi cần lộ trình tổng thể.
 *   **[📋 Health Optimization Protocols](./biohacking/health-optimization-protocols.md):** Khi cần checklist ngày.
+*   **[💊 Supplements Fundamentals](./supplements-101.md):** Khi muốn hiểu nguyên tắc dùng supplement (ưu tiên lifestyle trước, khi nào nên xét nghiệm, thứ tự bổ sung).
 
 ---
 
@@ -50,15 +51,31 @@
 
 ---
 
+## 🩺 Well-being Lifestyle Audit & Self-check
+Đánh giá nhanh 1-5 điểm (1 = yếu, 5 = mạnh) để biết nên xử lý phần cứng (biohacking) hay phần mềm (mental resilience) trước. Nếu mục nào ≤3, ưu tiên module tương ứng.
+
+| Trục | Câu hỏi chẩn đoán | Module gợi ý |
+| --- | --- | --- |
+| **Sleep & Recovery** | Tôi có ngủ đủ 7-8h sâu, dậy tỉnh? | [Sleep Optimization](./biohacking/sleep-optimization.md), [Cortisol & Melatonin](./biohacking/cortisol-melatonin-system.md) |
+| **Stress & Burnout** | Tôi có dấu hiệu stress kéo dài, khó kiềm chế cảm xúc? | [Burnout Prevention](./mental-resilience/burnout-prevention.md), [Mindfulness Meditation](./mental-resilience/mindfulness-meditation.md) |
+| **Energy & Movement** | Tôi có lịch vận động đều (Zone 2/Strength) và không kiệt sức? | [Movement Protocols](./biohacking/movement-protocols.md), [High Performance & Flow](./high-performance.md) |
+| **Nutrition & Metabolism** | Tôi ăn uống ổn định, không sugar crash/brain fog? | [Nutrition for Brain](./biohacking/nutrition-for-brain.md), [Glucose & Insulin](./biohacking/glucose-insulin-system.md) |
+| **Hormones & Mood** | Tôi có dấu hiệu mất cân bằng hormone (drive thấp, mất động lực)? | [Testosterone System](./biohacking/testosterone-system.md), [Dopamine System](./biohacking/dopamine-system.md) |
+| **Emotional Grounding** | Tôi có cảm giác bình an, ít lo âu? | [Restore Tinh-Khi-Thần](./restore-tinh-khi-than.md), [Cultivating Yang Energy](./cultivating-yang-energy.md) |
+
 ## Bắt đầu từ đâu? (Flow đề xuất)
-1.  **Check hệ thống:** Làm [Well-being Lifestyle Audit](../README.md#well-being-audit) (nếu chưa) để biết thiếu phần cứng hay phần mềm.
+1.  **Check hệ thống:** Làm [Well-being Lifestyle Audit](#-well-being-lifestyle-audit) (nếu chưa) để biết thiếu phần cứng hay phần mềm.
 2.  **Nếu bạn stress/mất ngủ:** Bắt đầu với **[Cortisol & Melatonin](./biohacking/cortisol-melatonin-system.md)** → **[Sleep Optimization](./biohacking/sleep-optimization.md)**.
 3.  **Nếu bạn tụt động lực:** Chuyển sang **[Dopamine System](./biohacking/dopamine-system.md)** và log lại bằng **[Daily Tracker](../../../templates/well-being/daily-performance-tracker.md)**.
 4.  **Nếu bạn cần hiệu suất:** Dùng **[High Performance & Flow](./high-performance.md)** + ghép với **[Movement Protocols](./biohacking/movement-protocols.md)**.
-5.  **Nếu bạn suy kiệt tinh thần:** Kích hoạt cặp **[Burnout Prevention](./mental-resilience/burnout-prevention.md)** + **[Restore Tinh-Khi-Thần](./restore-tinh-khi-than.md)**.
+5.  **Nếu bạn suy kiệt tinh thần:** Kích hoạt cặp **[Burnout Prevention](./mental-resilience/burnout-prevention.md)** + **[Restore Tinh-Khi-Thần](./restore-tinh-khi-than.md)** (7-day ritual checklist ở cuối bài).
 
 ---
 
 ## 🚨 Khi mệt / stress / khủng hoảng
 *   **[🔥 Burnout Prevention](./mental-resilience/burnout-prevention.md):** Bộ kiểm tra & protocol cấp cứu khi bạn kiệt sức, mất động lực.
 *   **[Restore Tinh-Khi-Thần](./restore-tinh-khi-than.md):** Hồi phục năng lượng tinh-thần-thần khí sau những cú sốc cảm xúc hoặc khủng hoảng kéo dài.
+*   **[Cultivating Yang Energy](./cultivating-yang-energy.md):** 21-day ritual stack để xây lại dương khí, uy lực nội tại.
+*   **[🚨 Khi nào cần gặp bác sĩ?](./when-to-seek-help.md):** 1 trang hướng dẫn khi nào phải ưu tiên đi khám (tâm lý, giấc ngủ, hormone, tim mạch...) và cách chuẩn bị dữ liệu cho bác sĩ.
+
+> **Nhớ:** Lifestyle protocol giúp bạn khỏe hơn, nhưng không thay thế chẩn đoán. Khi có tín hiệu cảnh báo, hãy tham khảo tài liệu trên và đi khám sớm.

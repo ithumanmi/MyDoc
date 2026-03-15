@@ -39,9 +39,39 @@ Chỉ khi Khí ổn, Tinh mới dám tụ. Tinh không thể được "tạo ra"
 
 ---
 
+## 4. Thực Hành 7 Ngày
+
+| Ngày | Ritual chính | Liên kết |
+| --- | --- | --- |
+| 1 | Dọn dẹp không gian + 10 phút thở Đan điền | [Mindfulness Meditation](./mental-resilience/mindfulness-meditation.md) |
+| 2 | Tắm nước ấm + xoa bóp chân trước khi ngủ | [Sleep Optimization](./biohacking/sleep-optimization.md) |
+| 3 | Viết “Safety Signals” (5 điều làm mình thấy an toàn) | [Burnout Prevention](./mental-resilience/burnout-prevention.md) |
+| 4 | Đi bộ chân đất/thiền hành 20 phút | [Movement Protocols](./biohacking/movement-protocols.md) |
+| 5 | Digital sunset 21h + đọc sách giấy | [Cortisol & Melatonin](./biohacking/cortisol-melatonin-system.md) |
+| 6 | Nhịn nói 2h, chỉ quan sát hơi thở | [Mindfulness Meditation](./mental-resilience/mindfulness-meditation.md) |
+| 7 | Tổng kết cảm nhận → viết lại “Grounding Routine” cá nhân | [Daily Performance Tracker](../../../templates/well-being/daily-performance-tracker.md) |
+
+> **Tip:** Mỗi khi thấy lo âu tăng, quay lại bước 1-2 (An Thần, Điều Khí) trong checklist cá nhân trước khi tiếp tục làm việc nặng.
+
+---
+
 ## 3. Lời Kết: Sự Bình An Tự Nhiên
+### 🔄 Hộp thực hành nhanh (Grounding + Điều hòa thần kinh)
+1. **Grounding 60 giây:** Ngồi hoặc nằm chắc, cảm nhận 3 điểm tựa (chân, hông, lưng). Nhắc thầm "Mình đang an toàn".
+2. **Thở kéo dài:** Hít bằng mũi 4 nhịp, giữ 2 nhịp, thở ra bằng miệng 6-8 nhịp. Lặp lại 5 vòng.
+3. **Scan cơ thể:** Quét từ đỉnh đầu xuống bàn chân, thả lỏng vùng đang căng bằng cách thở hướng vào đó.
+4. **Giảm kích thích:** Tắt màn hình/ánh sáng mạnh 5 phút, nhìn xa 6m hoặc nhắm mắt.
+5. **Ghi nhận:** Hỏi "Thân mình cần gì lúc này?" và ghi lại 1 nhu cầu (ngủ, nước, nghỉ ngắn).
+
+> Dùng box này như một “công tắc reset” trước khi lao vào giải quyết vấn đề.
+
 
 Phục hồi Tinh – Khí – Thần là một tiến trình chậm, nhưng chắc.
 Khi ba tầng này tái lập trật tự, lo âu không cần bị "chữa", vì nền sinh lý tạo ra lo âu đã không còn.
+
+### ➡️ Bước tiếp theo nên làm gì?
+- **Cần ngủ sâu hơn:** sang [Sleep Optimization](./biohacking/sleep-optimization.md).
+- **Muốn củng cố thói quen thở/thiền:** xem [Mindfulness Meditation](./mental-resilience/mindfulness-meditation.md).
+- **Đang kiệt sức/burnout:** bật [Burnout Prevention](./mental-resilience/burnout-prevention.md) để có protocol dài hạn.
 
 > **"Sự bình an không phải là trạng thái phải tìm kiếm, mà là điều tự nhiên vốn có của sự sống khi Thân – Khí – Tâm trở lại đối thoại."**

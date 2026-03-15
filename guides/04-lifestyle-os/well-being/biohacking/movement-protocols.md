@@ -83,6 +83,22 @@ Lipoprotein lipase (enzyme đốt fat) giảm 90%
 Metabolism gần như ngừng
 ```
 
+## ♻️ Recovery & Overtraining
+
+### Dấu hiệu cơ thể báo động
+- **HRV giảm liên tục**, nhịp tim nghỉ tăng >5 bpm nhiều ngày.
+- **Đau nhức khớp/cơ kéo dài**, cảm giác "lead legs", không hứng thú tập.
+- **Ngủ kém hoặc dễ ốm** dù đã làm đủ sleep hygiene → xem lại [Cortisol & Melatonin System](./cortisol-melatonin-system.md).
+- **Burnout tinh thần**: cáu gắt, mất động lực → tham khảo [Burnout Prevention](../mental-resilience/burnout-prevention.md).
+
+### Protocol nghỉ – hồi phục
+- **Rest day chủ động (1-2x/tuần):** Đi bộ nhẹ, mobility, sauna, thở sâu. Không nằm ì với thiết bị.
+- **Deload week (mỗi 6-8 tuần):** Giảm volume/weights 30-40%, tăng ngủ, protein, hydration. Ghép ritual [Restore Tinh-Khi-Thần](../restore-tinh-khi-than.md) để giữ tinh thần.
+- **Sau bệnh/ốm:** Quay lại bằng Zone 2 nhẹ + bodyweight 1-2 tuần trước khi tăng cường độ.
+- **Nghi ngờ overtraining/chấn thương:** Nghỉ 3-5 ngày, nếu đau/sưng >2 tuần → xem [Khi nào cần gặp bác sĩ](../when-to-seek-help.md) và gặp bác sĩ thể thao.
+
+> **Nguyên tắc:** Recovery là một phần của chương trình. Càng push mạnh, càng phải bảo vệ hệ thần kinh–hormone để tránh cortisol cao, burnout và chấn thương.
+
 ---
 
 ## 🏋️ MOVEMENT HIERARCHY

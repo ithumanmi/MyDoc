@@ -84,6 +84,6 @@ Công thức **Ikigai** cho Content Creator:
 
 -> **Lời khuyên:** "Start narrow, go broad." (Bắt đầu hẹp, mở rộng sau). Đừng làm kênh "Lifestyle" chung chung ngay từ đầu.
 
-> **Audience & Positioning:** Xây chân dung khách lý tưởng, định vị thông điệp dựa trên nhu cầu thực tế – xem [Market Research Playbook](../../02-wealth-business/market-research/README.md) để làm khảo sát nhanh, phân tích ngách, đối thủ.
+> **Audience & Positioning:** Xây chân dung khách lý tưởng, định vị thông điệp dựa trên nhu cầu thực tế – xem [Market Research Playbook](../../02-wealth-business/market-research/README.md) để làm khảo sát nhanh, phân tích ngách, đối thủ (bao gồm hướng dẫn phỏng vấn, template bảng hỏi, checklist competitive positioning).
 > 
-> **Traffic & Monetization Stack:** Khi đã rõ audience, dùng blueprint trong [MMO Roadmap](../../02-wealth-business/mmo-roadmap/README.md) để thiết kế luồng traffic → funnel → mô hình thanh toán (foundations, traffic, payment infrastructure).
+> **Traffic & Monetization Stack:** Khi đã rõ audience, dùng blueprint trong [MMO Roadmap](../../02-wealth-business/mmo-roadmap/README.md) để thiết kế luồng traffic → funnel → mô hình thanh toán (foundations, traffic, payment infrastructure). Ưu tiên mapping: nội dung trụ cột → kênh kéo traffic → lead magnet/email → product ladder.

@@ -1,6 +1,6 @@
 # 🗿 Stoicism for Modern Life: Chủ nghĩa Khắc kỷ trong Đời sống Hiện đại
 
-> [← Back to Well-being](./README.md)
+> [← Back to Well-being](../../README.md) | [Mental Resilience Home](./README.md)
 
 Stoicism (Chủ nghĩa Khắc kỷ) không phải là sự kìm nén cảm xúc.
 Đó là **Hệ điều hành (Operating System) tối ưu nhất** giúp bạn giữ bình tĩnh trước mọi biến cố của cuộc đời (Thị trường sập, Sếp mắng, Chia tay).

@@ -10,7 +10,7 @@
 
 | # | Trụ cột | Câu hỏi then chốt | Tài liệu chi tiết |
 |:--|:--------|:-----------------|:------------------|
-| 1 | **Skill & Niche** | Kỹ năng gì bán được? Chọn ngách nào? | [Freelancer Roadmap §1](./freelancer-roadmap.md#1-chọn-kỹ-năng-kiếm-tiền-monetizable-skill) |
+| 1 | **Skill & Niche** | Kỹ năng gì bán được? Chọn ngách nào? | [Freelancer Roadmap §1](./freelancer-roadmap.md#1-chọn-kỹ-năng-kiếm-tiền-monetizable-skill) · [Market Research](../../02-wealth-business/market-research/README.md) (persona, ngách, cạnh tranh) |
 | 2 | **Portfolio & Proof** | Chưa có khách thì chứng minh năng lực thế nào? | [Freelancer Roadmap §2](./freelancer-roadmap.md#2-xây-dựng-portfolio-hồ-sơ-năng-lực) |
 | 3 | **Client Acquisition** | Tìm khách ở đâu? Outbound vs Inbound? | [Freelancer Roadmap §3](./freelancer-roadmap.md#3-tìm-kiếm-khách-hàng-đầu-tiên-client-acquisition) |
 | 4 | **Proposal & Pricing** | Viết proposal thế nào để được trả lời? Định giá ra sao? | [Proposal Template](../../career/templates/freelance-proposal-template.md), [Roadmap §4](./freelancer-roadmap.md#4-định-giá--chốt-deal) |

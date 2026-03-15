@@ -113,6 +113,8 @@ Tối ưu hóa nguồn thu nhập chính (Active Income).
 *   **[Monetization Models](./side-hustle/monetization-models.md):** Affiliate, Digital Products, Coaching. (Liên kết trực tiếp tới [Market Research](../02-wealth-business/market-research.md) & [MMO Roadmap](../02-wealth-business/mmo-roadmap.md)).
 *   **Liên kết nhanh:** Nghiên cứu thị trường & audience: [Market Research](../02-wealth-business/market-research.md); Tăng traffic/monetization: [MMO Roadmap](../02-wealth-business/mmo-roadmap.md).
 
+> **Side hustle ↔ Market Intelligence:** Chọn dịch vụ/ngách bằng [Market Research](../02-wealth-business/market-research/README.md) (persona, competitor map) rồi dùng [MMO Roadmap](../02-wealth-business/mmo-roadmap/README.md) để triển khai foundations (audience, traffic, payment) trước khi scale thu nhập.
+
 ---
 
 ## 🚀 Action Plan
