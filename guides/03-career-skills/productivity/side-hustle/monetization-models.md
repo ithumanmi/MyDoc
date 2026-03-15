@@ -7,9 +7,8 @@ Dưới đây là các mô hình đã được kiểm chứng (Proven Models) t�
 
 ---
 
-> **Audience & Positioning:** Trước khi chọn mô hình kiếm tiền, xác định rõ ai sẽ mua và vì sao họ tin bạn – dùng [Market Research Playbook](../../02-wealth-business/market-research/README.md) để dựng persona, pain point, willingness-to-pay cho từng tầng sản phẩm.
->
-> **Traffic & Monetization Architecture:** Mọi mô hình đều cần dòng khách ổn định. Tham chiếu [MMO Roadmap](../../02-wealth-business/mmo-roadmap/README.md) để thiết kế foundations (content hub, lead magnet), kênh traffic (SEO, short-form, cộng đồng) và payment (VN vs quốc tế) trước khi scale.
+- **Audience & Positioning:** Trước khi chọn mô hình kiếm tiền, xác định rõ ai sẽ mua và vì sao họ tin bạn – dùng [Market Research Playbook](../../02-wealth-business/market-research/README.md) (mục **Audience & Positioning**) để dựng persona, pain point, willingness-to-pay cho từng tầng sản phẩm.
+- **Traffic & Monetization Architecture:** Mọi mô hình đều cần dòng khách ổn định. Tham chiếu [MMO Roadmap](../../02-wealth-business/mmo-roadmap/README.md) (mục **Traffic & Monetization Stack**) để thiết kế foundations (content hub, lead magnet), kênh traffic (SEO, short-form, cộng đồng) và payment (VN vs quốc tế) trước khi scale.
 
 ## 1. Services (Dịch vụ) - Kiếm tiền nhanh nhất
 
@@ -91,6 +90,5 @@ Khi bạn có lượng follow lớn (> 10.000), các nhãn hàng sẽ tìm đế
 3.  **Level 3 (Advanced):** Ra mắt Digital Product đầu tiên (Ebook/Template) – đo lường nhu cầu bằng email waitlist + khảo sát ngắn trong Market Research file.
 4.  **Level 4 (Expert):** Xây dựng hệ sinh thái sản phẩm (Course + Coaching + Community) – vận hành traffic stack & payment stack từ MMO Roadmap để tối ưu conversion.
 
-> **Audience & Positioning:** Xác định người mua cốt lõi, pain point và lời hứa (promise) bằng [Market Research Playbook](../../02-wealth-business/market-research/README.md). Ưu tiên vertical mà bạn hiểu sâu (industry, job-to-be-done) trước khi scale rộng, kết hợp khảo sát nhanh + competitor matrix trong phần Strategy.
-> 
-> **Traffic & Monetization Systems:** Map “content → traffic → lead → đơn hàng” bằng [MMO Roadmap](../../02-wealth-business/mmo-roadmap/README.md): xây nền tảng foundations, channel traffic (SEO, short-form, email), và payment stack phù hợp tại Việt Nam/quốc tế. Kết nối với ladder sản phẩm/dịch vụ trong mục 6 để biết bán gì ở mỗi ngưỡng traffic.
+- **Audience & Positioning:** Xác định người mua cốt lõi, pain point và lời hứa (promise) bằng [Market Research Playbook](../../02-wealth-business/market-research/README.md) – ghi rõ insight, promise, proof để tránh trôi thông điệp. Ưu tiên vertical mà bạn hiểu sâu (industry, job-to-be-done) trước khi scale rộng, kết hợp khảo sát nhanh + competitor matrix trong phần Strategy.
+- **Traffic & Monetization Systems:** Map “content → traffic → lead → đơn hàng” bằng [MMO Roadmap](../../02-wealth-business/mmo-roadmap/README.md): xây nền tảng foundations, channel traffic (SEO, short-form, email), và payment stack phù hợp tại Việt Nam/quốc tế. Kết nối với ladder sản phẩm/dịch vụ trong mục 6 để biết bán gì ở mỗi ngưỡng traffic, tham chiếu sub-section **Traffic & Monetization** trong MMO để chọn kênh/stack phù hợp.

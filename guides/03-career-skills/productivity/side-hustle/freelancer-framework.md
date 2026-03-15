@@ -17,7 +17,7 @@
 | 5 | **Contract & Delivery** | Hợp đồng cần gì? Scope, thanh toán, IP, revision? | [Freelance Contracts](../../02-wealth-business/legal/tech-developers/freelance-contracts.md), [Service Agreement](../../02-wealth-business/legal/templates/service-agreement.md) |
 | 6 | **Operations & Scale** | Thuế, công cụ, và bước tiếp theo (Agency / Productize)? | [Freelance Contracts §8,11](../../02-wealth-business/legal/tech-developers/freelance-contracts.md), [Roadmap §5](./freelancer-roadmap.md#5-lộ-trình-phát-triển), [Monetization](./monetization-models.md) |
 
-> **Nghiên cứu thị trường & ngách:** Trước khi lao vào dịch vụ mới, mở [Market Research Playbook](../../02-wealth-business/market-research/README.md) để phỏng vấn nhanh, lập matrix ngách, kiểm tra mức chi trả – tránh “đổi nghề” mà không có nhu cầu thật.
+- **Nghiên cứu thị trường & ngách:** Trước khi lao vào dịch vụ mới, mở [Market Research Playbook](../../02-wealth-business/market-research/README.md) (module **Audience & Positioning**) để phỏng vấn nhanh, lập matrix ngách, kiểm tra mức chi trả – tránh “đổi nghề” mà không có nhu cầu thật.
 
 ---
 
@@ -29,7 +29,7 @@
 *   **Sai lầm:** "Tôi nhận viết mọi thứ" → cạnh tranh với cả thế giới.
 *   **Đúng:** "Tôi viết bài SEO chuyên Bất động sản" → khách BĐS coi bạn là chuyên gia.
 
-> **Nghiên cứu thị trường & ngách:** Dùng [Market Research Playbook](../../02-wealth-business/market-research/README.md) để xác thực nhu cầu, quy mô thị trường, insight khách trước khi chọn dịch vụ; ưu tiên “problem x audience” có ít cạnh tranh nhưng willingness-to-pay cao.
+- **Nghiên cứu thị trường & ngách:** Dùng [Market Research Playbook](../../02-wealth-business/market-research/README.md) để xác thực nhu cầu, quy mô thị trường, insight khách trước khi chọn dịch vụ; ưu tiên “problem x audience” có ít cạnh tranh nhưng willingness-to-pay cao. Nếu còn lăn tăn, mở thêm [MMO Roadmap](../../02-wealth-business/mmo-roadmap/README.md#foundations) để xem lại foundations (audience, traffic, payment) trước khi mở dịch vụ mới.
 
 👉 **Chi tiết:** [Freelancer Roadmap — Chọn kỹ năng & Niching](./freelancer-roadmap.md#1-chọn-kỹ-năng-kiếm-tiền-monetizable-skill).
 
