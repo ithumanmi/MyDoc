@@ -120,5 +120,80 @@ sequenceDiagram
 
 ---
 
+## 8. Case Study: Dispatch ML Platform
+
+### Bài toán
+Tối ưu việc lựa chọn tài xế để giảm thời gian đón (pickup time) và tăng tỷ lệ hoàn thành chuyến (completion rate).
+
+### Feature Store
+- **Real-time Features:** `driver_eta`, `driver_utilization`, `surge_multiplier`, `weather`, `traffic_congestion`.
+- **Historical Features:** `driver_accept_rate`, `rider_cancel_rate`, `city_level_supply_gap`.
+
+### Kiến trúc
+
+```mermaid
+flowchart LR
+    Subgraph1[Feature Store]
+    RT[Real-time stream] --> Subgraph1
+    Batch[Batch ETL] --> Subgraph1
+    Subgraph1 --> ModelServing[(Dispatch Model Serving)]
+    Matching --> ModelServing
+    ModelServing --> Matching
+```
+
+> Matching Service gửi candidate drivers + rider context vào Model Serving; output là score/priority để chọn tài xế tối ưu.
+
+### Triển khai
+1.  **Offline Training:** Sử dụng Spark/Beam + dữ liệu lịch sử để huấn luyện mô hình (Gradient Boosted Trees hoặc Deep Neural Nets).
+2.  **Online Inference:** Model được export sang TensorFlow Serving / TorchServe để inference <50ms.
+3.  **Feedback Loop:** Kết quả chuyến đi (completed/canceled, actual pickup time) được ghi lại để retrain.
+
+### Trade-offs
+- **Exploration vs Exploitation:** Cần cơ chế thăm dò (epsilon-greedy hoặc contextual bandits) để tránh bias vào tài xế quen thuộc.
+- **Fairness:** Ràng buộc để tránh việc hệ thống luôn chọn tài xế ở khu vực thu nhập cao, gây bất công cho tài xế khác.
+- **Observability:** Theo dõi `prediction latency`, `model drift`, `dispatch success rate`.
+
+---
+
+## 9. Case Study: Ride Pooling Flow
+
+### Mục tiêu
+Ghép nhiều hành khách có tuyến đường trùng nhau vào cùng một xe để giảm giá thành và tăng hiệu suất.
+
+### Constraints
+- **Max Detour:** Không quá X phút/ km so với hành trình tối ưu của từng rider.
+- **Max Riders/Car:** Ví dụ 2-3 hành khách tùy loại xe.
+- **Realtime Update:** Khi có rider mới, phải kiểm tra khả năng ghép vào các chuyến đang chạy.
+
+### Thuật toán đề xuất
+1.  **Candidate Generation:** Dùng Geo Index tìm các chuyến đang chạy trong bán kính nhất định.
+2.  **Route Re-computation:** Sử dụng thuật toán `Insertion Heuristic` hoặc `Branch and Bound` để thử đưa điểm đón/trả mới vào route hiện tại.
+3.  **Cost Function:** `total_delay_weighted + surge_penalty + driver_utilization`.
+4.  **Selection:** Chọn phương án có chi phí thấp nhất nhưng vẫn thỏa constraint.
+
+```mermaid
+flowchart LR
+    RiderNew((Rider Mới)) --> PoolingSvc[Pooling Service]
+    PoolingSvc --> Candidates[Active Trips]
+    Candidates --> RouteEngine[Route Evaluator]
+    RouteEngine --> Decision{Feasible?}
+    Decision -- Yes --> Assign[Assign to trip]
+    Decision -- No --> NewTrip[Create new trip]
+```
+
+> Pooling Service liên tục đánh giá các chuyến đang chạy, thử chèn rider mới và ra quyết định giữ nguyên hay tạo chuyến mới.
+
+### Realtime Data
+- **Driver Telemetry:** Vị trí hiện tại, số seat trống.
+- **Rider ETA:** Thời gian cần được đón/trả.
+- **Traffic Feed:** Giúp ước lượng detour chính xác.
+
+### Thách thức
+- **UX:** Rider phải biết trước khi đặt và trong chuyến về việc dừng đón thêm khách.
+- **Cancellation:** Nếu rider hủy giữa chừng, hệ thống phải re-evaluate route ngay.
+- **Pricing:** Tính giá linh hoạt (giảm giá cho pooling) nhưng vẫn đảm bảo thu nhập tài xế.
+
+---
+
 ## 📚 Bài tiếp theo
 *   [Design File Storage System (Google Drive)](./design-file-storage.md)

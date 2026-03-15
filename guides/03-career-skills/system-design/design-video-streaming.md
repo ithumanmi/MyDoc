@@ -103,5 +103,90 @@ Streaming video mà không có CDN là không thể thực hiện được ở q
 
 ---
 
+## 9. Ads Pipeline (Server-side Ad Insertion)
+
+### Goal
+Chèn quảng cáo cá nhân hóa vào video mà không bị client chặn, đảm bảo trải nghiệm xem liền mạch.
+
+```mermaid
+sequenceDiagram
+    participant Player
+    participant VideoService as Playback Service
+    participant AdDecision as Ad Decision Engine
+    participant AdCDN as Ad CDN
+    participant VideoCDN as Video CDN
+    Player->>VideoService: Request manifest (video ID)
+    VideoService->>AdDecision: Context (user, device, position)
+    AdDecision-->>VideoService: Ad slate + tracking URLs
+    VideoService->>AdCDN: Prefetch ad segments
+    VideoService->>VideoCDN: Prefetch content segments
+    VideoService-->>Player: Combined manifest (content + ad markers)
+    Player->>VideoCDN: Stream content segments
+    Player->>AdCDN: Stream ad segments
+    Player-->>AdDecision: Tracking beacons (impression, quartile)
+```
+
+### Key Components
+- **Ad Decision Engine:** Kết nối DSP/Ad server, trả về danh sách quảng cáo phù hợp (bỏ qua quảng cáo đã xem hoặc không hợp lệ theo policy).
+- **Stitching Layer:** Ghép manifest HLS/DASH để client nhận một stream duy nhất, tránh mất buffer khi chuyển từ content sang ad.
+- **Measurement/Tracking:** Gửi ping ở các mốc 0%, 25%, 50%, 75%, 100% để tính doanh thu và phát hiện ad fraud.
+
+### Trade-offs
+- **Latency:** Ad decision phải trả lời trong <200ms để không làm chậm playback start.
+- **Ad Podding:** Cần logic tối ưu số lượng ad liên tục (không quá dài, giảm churn).
+- **Privacy:** Tuân thủ GDPR/CCPA khi sử dụng dữ liệu user cho target.
+
+---
+
+## 10. Case Study: QoE Optimization with ML
+
+### Mục tiêu
+Tự động điều chỉnh tham số streaming để giảm `rebuffer ratio` và tăng `watch time`.
+
+### Data Pipeline
+- **Client Telemetry:** Player gửi event `startup_time`, `bitrate`, `buffer_level`, `errors` mỗi vài giây.
+- **Edge Logs:** CDN ghi lại latency, cache hit/miss, throughput.
+- **Context:** Thông tin thiết bị, OS, ISP, vùng địa lý.
+
+### Feature Engineering
+| Feature | Mô tả |
+| --- | --- |
+| `avg_buffer_ms` | Độ dài buffer trung bình 60s gần nhất |
+| `recent_rebuffer_count` | Số lần rebuffer trong 5 phút |
+| `cdn_latency_p95` | Độ trễ CDN tương ứng ISP |
+| `bitrate_switch_volatility` | Mức dao động bitrate |
+| `device_cpu_load` | CPU usage (mobile) |
+
+### Kiến trúc
+
+```mermaid
+flowchart LR
+    Telemetry --> Stream[Streaming Ingestion]
+    Stream --> FeatureStore
+    FeatureStore --> Trainer[Model Trainer]
+    Trainer --> Serving[Online Model Serving]
+    Serving --> ABR[ABR Controller]
+    ABR --> Player
+    Serving --> Experiment[Experimentation Platform]
+```
+
+> Model dự đoán QoE score cho mỗi cấu hình bitrate/chunk size. ABR Controller chọn profile tối ưu dựa trên score.
+
+### Loại mô hình
+- **Gradient Boosted Trees** cho việc dự đoán `rebuffer probability` theo từng profile.
+- **Contextual Multi-armed Bandits** để explore/exploit các cấu hình mới.
+
+### Feedback Loop
+1.  ABR áp dụng cấu hình đề xuất.
+2.  Player gửi telemetry → Feature Store cập nhật.
+3.  Hệ thống so sánh QoE trước/sau → A/B testing để xác minh.
+
+### Thách thức
+- **Data Quality:** Telemetry có thể bị thiếu (người dùng offline). Cần cơ chế retry/aggregation.
+- **User Privacy:** Thu thập dữ liệu theo chuẩn consent, ẩn danh thông tin nhạy cảm.
+- **Model Drift:** ISP/vùng địa lý thay đổi → cần retrain định kỳ.
+
+---
+
 ## 📚 Bài tiếp theo
 *   [Design Distributed Cache (Redis Concept)](./design-distributed-cache.md)
