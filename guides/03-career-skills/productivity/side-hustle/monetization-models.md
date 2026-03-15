@@ -7,6 +7,10 @@ Dưới đây là các mô hình đã được kiểm chứng (Proven Models) t�
 
 ---
 
+> **Audience & Positioning:** Trước khi chọn mô hình kiếm tiền, xác định rõ ai sẽ mua và vì sao họ tin bạn – dùng [Market Research Playbook](../../02-wealth-business/market-research/README.md) để dựng persona, pain point, willingness-to-pay cho từng tầng sản phẩm.
+>
+> **Traffic & Monetization Architecture:** Mọi mô hình đều cần dòng khách ổn định. Tham chiếu [MMO Roadmap](../../02-wealth-business/mmo-roadmap/README.md) để thiết kế foundations (content hub, lead magnet), kênh traffic (SEO, short-form, cộng đồng) và payment (VN vs quốc tế) trước khi scale.
+
 ## 1. Services (Dịch vụ) - Kiếm tiền nhanh nhất
 
 Khi bạn chưa có nhiều follower (0 - 1.000), cách tốt nhất là bán kỹ năng của mình.
@@ -82,10 +86,10 @@ Khi bạn có lượng follow lớn (> 10.000), các nhãn hàng sẽ tìm đế
 
 ## 6. Lộ trình tối ưu (The Ladder of Wealth)
 
-1.  **Level 1 (Beginner):** Làm Service để sống sót và rèn nghề.
-2.  **Level 2 (Intermediate):** Làm Affiliate để có thêm thu nhập thụ động nhỏ.
-3.  **Level 3 (Advanced):** Ra mắt Digital Product đầu tiên (Ebook/Template).
-4.  **Level 4 (Expert):** Xây dựng hệ sinh thái sản phẩm (Course + Coaching + Community).
+1.  **Level 1 (Beginner):** Làm Service để sống sót và rèn nghề – dùng Market Research doc để test nhanh 3 ngách, chọn 1 dịch vụ mũi nhọn.
+2.  **Level 2 (Intermediate):** Làm Affiliate để có thêm thu nhập thụ động nhỏ – map traffic mini funnel theo MMO foundations.
+3.  **Level 3 (Advanced):** Ra mắt Digital Product đầu tiên (Ebook/Template) – đo lường nhu cầu bằng email waitlist + khảo sát ngắn trong Market Research file.
+4.  **Level 4 (Expert):** Xây dựng hệ sinh thái sản phẩm (Course + Coaching + Community) – vận hành traffic stack & payment stack từ MMO Roadmap để tối ưu conversion.
 
 > **Audience & Positioning:** Xác định người mua cốt lõi, pain point và lời hứa (promise) bằng [Market Research Playbook](../../02-wealth-business/market-research/README.md). Ưu tiên vertical mà bạn hiểu sâu (industry, job-to-be-done) trước khi scale rộng, kết hợp khảo sát nhanh + competitor matrix trong phần Strategy.
 > 

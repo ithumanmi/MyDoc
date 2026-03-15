@@ -42,3 +42,9 @@
 | **Rủi ro thanh khoản cá nhân** | - Chi tiêu >80% thu nhập<br>- Không còn hạn mức tín dụng<br>- Nợ xấu tăng | - Thiết lập budget 50/30/20<br>- Giữ cash ≥12 tháng chi phí<br>- Tái cấu trúc nợ, đàm phán lãi suất |
 
 > **Tip:** Cập nhật Risk Radar mỗi quý. Khi trigger xảy ra, lập tức kích hoạt Plan B thay vì phản ứng trong hoảng loạn.
+
+---
+
+### 🔗 Related Engines
+- **Decision Engine:** Khi EV dương nhưng rủi ro cao, quay lại bảng `EV + Check Ruin` để tính Expected Value có xét tới tail risk → [Decision Engine](./decision-engine.md#🛠️-quy-trình-ra-quyết-định-checklist).
+- **Strategy Engine:** Use risk radar để quyết định chọn “game” nào ít tail risk hoặc có payoff bất đối xứng → [Strategy Engine](./strategy-engine.md#🎮-playbook-chọn-cuộc-chơi).

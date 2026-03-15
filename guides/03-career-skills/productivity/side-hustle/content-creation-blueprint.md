@@ -14,6 +14,10 @@ Bạn viết 1 bài blog, 5 năm sau vẫn có người đọc và trả tiền 
 
 Đừng coi việc đăng bài là "giải trí" hay "khoe khoang". Hãy coi mỗi bài viết/video là một **Nhân viên Sales cần mẫn 24/7**.
 
+> **Audience & Positioning:** Trước khi viết, thiết kế chân dung khách lý tưởng và định vị lời hứa của bạn bằng [Market Research Playbook](../../02-wealth-business/market-research/README.md) – dùng ngay các template khảo sát, bảng đối thủ và job-to-be-done để chọn ngách đúng, tránh “nói với mọi người mà chẳng ai thấy liên quan”.
+>
+> **Traffic & Monetization Stack:** Sau khi rõ audience, bật blueprint trong [MMO Roadmap](../../02-wealth-business/mmo-roadmap/README.md) để map nội dung trụ cột → kênh traffic (short-form, SEO, email) → asset thu lead → hệ thống thanh toán (foundations, traffic, payment). Luôn vẽ luồng end-to-end trước khi “làm content cho vui”.
+
 ### **Chiến lược Đa nền tảng (Platform Agnostic):**
 Đừng phụ thuộc vào thuật toán của TikTok hay Facebook. Hãy sở hữu nội dung của bạn.
 *   **Owned Media (Sân nhà):** Website, Blog, Email List (Newsletter). *Đây là quan trọng nhất.*
@@ -41,6 +45,7 @@ Làm sao để sản xuất nội dung đều đặn mà không kiệt sức (Bu
 ### **Tầng 3: Community (Cộng đồng)**
 *   **Là gì:** Tương tác với khán giả.
 *   **Cách làm:** Trả lời bình luận, đặt câu hỏi, tạo poll.
+*   **Positioning loop:** Mỗi tuần xem lại phản hồi cộng đồng → cập nhật chân dung audience & câu chuyện định vị trong doc Market Research để nội dung tuần sau sắc bén hơn.
 
 ---
 

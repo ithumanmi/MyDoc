@@ -39,3 +39,9 @@ Trước mỗi quyết định lớn (Đổi việc, Đầu tư, Mua nhà):
 | **Đầu tư dự án fintech Series A** | `Upside 25% × (10× vốn)` vs `Downside 75% × (mất 50% vốn)` | `EV ≈ 0.25 × 10 - 0.75 × 0.5 = +1.75×` nhưng Kelly chỉ cho phép 15-20% vốn | Founder bỏ cuộc, regulatory ban, không tìm được PMF → Thiết lập pre-mortem: yêu cầu runway ≥18 tháng, clause thoát vốn, theo sát product metric. |
 
 > **Cách dùng:** Đặt các giả định vào bảng, tính EV sơ bộ, rồi viết 3-5 tình huống dẫn tới thất bại để tạo hành động phòng ngừa (timeline, người chịu trách nhiệm, tín hiệu cảnh báo).
+
+---
+
+### 🔗 Related Engines
+- **Risk Engine:** Dùng checklist `SPOF / Margin of Safety` để đo xác suất "chết" trước khi all-in EV cao → [Risk Engine](./risk-engine.md#🛠️-quy-trình-quản-trị-rủi-ro-checklist).
+- **Alignment Engine:** Khi phân vân giữa 2 offer gần nhau về EV, dùng kỹ thuật `vector dài hạn + regret minimization` để xem quyết định nào giữ bạn trên hướng đi đã chọn → [Alignment Engine](./alignment-engine.md#🧭-framework-vector-pca).

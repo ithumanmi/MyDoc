@@ -17,6 +17,8 @@
 | 5 | **Contract & Delivery** | Hợp đồng cần gì? Scope, thanh toán, IP, revision? | [Freelance Contracts](../../02-wealth-business/legal/tech-developers/freelance-contracts.md), [Service Agreement](../../02-wealth-business/legal/templates/service-agreement.md) |
 | 6 | **Operations & Scale** | Thuế, công cụ, và bước tiếp theo (Agency / Productize)? | [Freelance Contracts §8,11](../../02-wealth-business/legal/tech-developers/freelance-contracts.md), [Roadmap §5](./freelancer-roadmap.md#5-lộ-trình-phát-triển), [Monetization](./monetization-models.md) |
 
+> **Nghiên cứu thị trường & ngách:** Trước khi lao vào dịch vụ mới, mở [Market Research Playbook](../../02-wealth-business/market-research/README.md) để phỏng vấn nhanh, lập matrix ngách, kiểm tra mức chi trả – tránh “đổi nghề” mà không có nhu cầu thật.
+
 ---
 
 ## 1. Skill & Niche (Kỹ năng & Ngách)

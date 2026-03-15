@@ -16,6 +16,26 @@ Life OS là tập hợp các mô hình tư duy (Mental Models) được cấu tr
 5.  **[Optimization Engine (Tối ưu)](./optimization-engine.md):** Gradient Descent, Pareto, Marginal Utility. *Hiệu quả nhất.*
 6.  **[Alignment Engine (Định hướng)](./alignment-engine.md):** Vectors, PCA, Regret Minimization. *Đi đúng hướng.*
 
+> **Quick anchors:** [Decision](./decision-engine.md#-decision-engine-động-cơ-ra-quyết-định) · [Risk](./risk-engine.md#-risk-engine-động-cơ-phòng-thủ) · [Strategy](./strategy-engine.md#-strategy-engine-động-cơ-chiến-lược) · [Alignment](./alignment-engine.md#-alignment-engine-động-cơ-định-hướng) · [Growth](./growth-engine.md#-growth-engine-động-cơ-tăng-trưởng) · [Optimization](./optimization-engine.md#-optimization-engine-động-cơ-tối-ưu) · [Leverage](./leverage-theory.md#-leverage-theory-lý-thuyết-đòn-bẩy) · [Psychology](./psychology-of-self.md#-psychology-of-self-tâm-lý-bản-thân) · [Energy](./energy-management.md#-energy-management-quản-trị-năng-lượng)
+
+### 🔭 Visual Map: Life OS Flow
+
+```
+Psychology of Self ──┐
+                     ├─→ Energy Management ─────────────┐
+                     │                                   │
+                     │                                   ▼
+Decision Engine ─→ Risk Engine ─→ Strategy Engine ─→ Alignment Engine
+      │                │                │                    │
+      ▼                ▼                ▼                    ▼
+   Optimization ←── Growth Engine ←── Leverage Theory   (Vector validation)
+                     │
+                     ▼
+           Politics / Context Modules
+```
+
+> **Cách đọc bản đồ:** Bất cứ khi nào hệ thống crash (thiếu năng lượng, lệch vector), quay lại nhánh Psychology/Energy. Khi đã ổn định foundation (Decision + Risk), chuyển sang Strategy/Alignment để chọn game phù hợp rồi bật Growth → Optimization → Leverage. Các module Relationships, Politics, Well-being được cắm vào các nút tương ứng khi cần.
+
 ---
 
 ## 🧩 Thứ tự Cài đặt / Learning Path

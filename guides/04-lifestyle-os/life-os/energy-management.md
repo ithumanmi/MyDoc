@@ -34,3 +34,9 @@ Chiếc xe Ferrari (Life OS) không thể chạy nếu bình xăng cạn hoặc 
 1.  Mức năng lượng của tôi (1-10) đang là bao nhiêu?
 2.  Tôi có đang lạm dụng Caffeine/Sugar để vay mượn năng lượng không? (Vay lãi ngày).
 3.  Lần cuối cùng tôi thực sự nghỉ ngơi (Active Recovery) là khi nào?
+
+---
+
+### 🔗 Related Engines
+- **Psychology of Self:** Khi dopamine regulation kém, quay lại module tâm lý để sửa tận gốc động lực → [Psychology of Self](./psychology-of-self.md#🧠-câu-hỏi-check-in-self-audit).
+- **Well-being (Burnout):** Có dấu hiệu kiệt sức? Bật [Burnout Prevention](../well-being/mental-resilience/burnout-prevention.md) và [Dopamine System](../well-being/biohacking/dopamine-system.md) để reset hệ thần kinh.

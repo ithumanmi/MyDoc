@@ -35,3 +35,9 @@
 1.  Tôi đang ở Local Maxima chưa? Tôi có dám đi xuống thung lũng để tìm đỉnh cao hơn không?
 2.  Lợi ích cận biên của giờ làm việc thêm này có dương không? Hay tôi chỉ đang bận rộn giả tạo?
 3.  Tôi có đang tối ưu hóa một thứ không nên tồn tại không? (Peter Drucker: "Nothing is less productive than to make more efficient what should not be done at all.")
+
+---
+
+### 🔗 Related Engines
+- **Growth Engine:** Khi tối ưu xong unit economics, quay lại Growth để đẩy flywheel và compound → [Growth Engine](./growth-engine.md#🛠️-quy-trình-tăng-trưởng-checklist).
+- **Alignment Engine:** PCA + vector audit giúp tránh tối ưu thứ sai hướng hoặc không còn phù hợp → [Alignment Engine](./alignment-engine.md#🧭-framework-vector-pca).

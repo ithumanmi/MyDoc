@@ -37,3 +37,10 @@ Hệ thống Life OS mạnh đến đâu cũng sẽ sụp đổ nếu phần c�
 1.  Hành động này là do Dopamine rẻ tiền điều khiển hay do ý chí của tôi?
 2.  Tôi đang chọn 1 cái kẹo bây giờ hay 2 cái kẹo ngày mai?
 3.  Cái Tôi (Ego) có đang ngăn cản tôi nhìn thấy sự thật không?
+
+---
+
+### 🔗 Related Engines
+- **Energy Management:** Debug dopamine xong thì quay sang reset cơ thể (sleep/cortisol) để hệ thần kinh run ổn định → [Energy Management](./energy-management.md#4-burnout--recovery).
+- **Well-being Modules:** Khi dấu hiệu burnout hoặc dopamine crash kéo dài, mở [Dopamine System](../well-being/biohacking/dopamine-system.md) & [Burnout Prevention](../well-being/mental-resilience/burnout-prevention.md).
+- **Chapters:** Ghép với [05-ky-luat-thoi-quen](../../chapters/05-ky-luat-thoi-quen.md) & [02-luyen-tap-co-chu-dich](../../chapters/02-luyen-tap-co-chu-dich.md) để luyện deliberate practice + habit loops.

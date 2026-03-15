@@ -29,3 +29,9 @@
 1.  **Flywheel Check:** Việc tôi đang làm có tạo đà cho ngày mai không? Hay ngày mai tôi phải bắt đầu lại từ số 0?
 2.  **Scalability Check:** Nếu có 1000 khách hàng (thay vì 10), hệ thống có vỡ không? Hay nó càng mạnh hơn?
 3.  **Logarithmic vs Linear:** Tôi đang tăng trưởng theo hàm mũ (Log/Exp) hay hàm tuyến tính (Linear)? (Làm thuê theo giờ là tuyến tính).
+
+---
+
+### 🔗 Related Engines
+- **Leverage Theory:** Muốn compound nhanh phải bật các dòng đòn bẩy (Code/Media/Capital/People) để tách thời gian khỏi hiệu quả → [Leverage Theory](./leverage-theory.md#⚙️-4-dòng-đòn-bẩy).
+- **Optimization Engine:** Dừng lại tối ưu feed/ops trước khi scale để flywheel không nổ → [Optimization Engine](./optimization-engine.md#🛠️-quy-trình-tối-ưu).

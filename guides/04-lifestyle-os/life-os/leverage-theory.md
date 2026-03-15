@@ -47,3 +47,9 @@ Khi bạn có đòn bẩy lớn, một quyết định sai lầm sẽ gây hậu
 1.  Tôi đang dùng loại đòn bẩy nào? Hay tôi đang bán thời gian (Zero leverage)?
 2.  Công việc của tôi có thể scale được không? (Nếu tôi ngủ, tiền có về không?)
 3.  Tôi có thể chuyển hóa kỹ năng của mình thành Code hoặc Media không?
+
+---
+
+### 🔗 Related Engines
+- **Growth Engine:** Đòn bẩy giúp vòng compound chạy mũ – xem cách thiết kế flywheel để leverage tạo tốc độ → [Growth Engine](./growth-engine.md#🛠️-quy-trình-tăng-trưởng-checklist).
+- **Strategy Engine:** Chọn đúng game và vị thế trước rồi mới nhân đòn bẩy lên để tránh scale sai cuộc chơi → [Strategy Engine](./strategy-engine.md#🛠️-quy-trình-chiến-lược-checklist).

@@ -29,3 +29,9 @@
 1.  **Game Selection:** Tôi đang chơi game gì? Tôi có thể thắng không? Nếu không, tôi có thể đổi game (tạo ngách mới) không?
 2.  **Win-Win Check:** Trong mối quan hệ này, cả hai bên có cùng thắng không? Nếu một bên thua, mối quan hệ sẽ không bền.
 3.  **Positioning:** Tôi có đang đứng ở vị trí "Hub" (trung tâm kết nối) không?
+
+---
+
+### 🔗 Related Engines
+- **Alignment Engine:** Chiến lược chỉ bền nếu game phù hợp vector sống dài hạn → dùng PCA + Regret test trong [Alignment Engine](./alignment-engine.md#🧭-framework-vector-pca) để lọc game độc hại.
+- **Leverage Theory:** Khi đã chọn game đúng, kích hoạt đòn bẩy (Code, Media, Capital, People) để giành ưu thế → [Leverage Theory](./leverage-theory.md#⚙️-4-dòng-đòn-bẩy).

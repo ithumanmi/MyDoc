@@ -21,6 +21,8 @@ Làm Freelancer = Bạn có nhiều khách hàng. (Đa dạng hóa rủi ro).
 *   **Sai lầm:** "Tôi nhận viết mọi thứ." -> Bạn cạnh tranh với cả thế giới.
 *   **Đúng:** "Tôi viết bài SEO chuyên ngành Bất động sản." -> Bạn trở thành chuyên gia trong mắt khách hàng BĐS.
 
+> **Nghiên cứu thị trường:** Tránh chọn ngách theo cảm tính. Lật [Market Research Playbook](../../02-wealth-business/market-research/README.md) để chạy khảo sát mini, phỏng vấn 3–5 khách hàng mẫu và lập bảng cạnh tranh trước khi đầu tư thời gian học kỹ năng mới.
+
 ---
 
 ## 2. Xây dựng Portfolio (Hồ sơ năng lực)
