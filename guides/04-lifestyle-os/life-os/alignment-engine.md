@@ -38,3 +38,12 @@
 1.  Vector nỗ lực của tôi hôm nay có cùng hướng với mục tiêu 10 năm không? ($\cos \theta \approx 1$?)
 2.  Tôi có đang giải quyết vấn đề sai hệ quy chiếu không?
 3.  3 trục chính (PCA) của cuộc đời tôi lúc này là gì? Tôi có đang bị xao nhãng bởi các biến số rác không?
+
+---
+
+### 🔗 Related Engines
+- **Decision Engine:** Khi chọn dự án/offer, dùng regret minimization + EV để xem lựa chọn nào giữ vector dài hạn → [Decision Engine](./decision-engine.md#🛠️-quy-trình-ra-quyết-định-checklist).
+- **Strategy Engine:** Vector đã rõ, chuyển sang chọn cuộc chơi (positive-sum, moat) để compounding đúng hướng → [Strategy Engine](./strategy-engine.md#🎮-playbook-chọn-cuộc-chơi).
+
+### 📝 Templates & Tools
+- **Life Strategy One-Pager (coming soon):** bản tóm tắt vector + PCA + nguyên tắc ra quyết định (placeholder cho template sắp tạo).

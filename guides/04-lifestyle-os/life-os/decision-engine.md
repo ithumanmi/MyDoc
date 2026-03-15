@@ -45,3 +45,6 @@ Trước mỗi quyết định lớn (Đổi việc, Đầu tư, Mua nhà):
 ### 🔗 Related Engines
 - **Risk Engine:** Dùng checklist `SPOF / Margin of Safety` để đo xác suất "chết" trước khi all-in EV cao → [Risk Engine](./risk-engine.md#🛠️-quy-trình-quản-trị-rủi-ro-checklist).
 - **Alignment Engine:** Khi phân vân giữa 2 offer gần nhau về EV, dùng kỹ thuật `vector dài hạn + regret minimization` để xem quyết định nào giữ bạn trên hướng đi đã chọn → [Alignment Engine](./alignment-engine.md#🧭-framework-vector-pca).
+
+### 📝 Templates & Tools
+- **Decision Log:** Lưu lại giả định, EV, pre-mortem để học từ feedback loop → [Decision Journal Template](../../templates/decision-journal.md)

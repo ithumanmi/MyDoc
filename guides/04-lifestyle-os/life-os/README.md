@@ -18,23 +18,19 @@ Life OS là tập hợp các mô hình tư duy (Mental Models) được cấu tr
 
 > **Quick anchors:** [Decision](./decision-engine.md#-decision-engine-động-cơ-ra-quyết-định) · [Risk](./risk-engine.md#-risk-engine-động-cơ-phòng-thủ) · [Strategy](./strategy-engine.md#-strategy-engine-động-cơ-chiến-lược) · [Alignment](./alignment-engine.md#-alignment-engine-động-cơ-định-hướng) · [Growth](./growth-engine.md#-growth-engine-động-cơ-tăng-trưởng) · [Optimization](./optimization-engine.md#-optimization-engine-động-cơ-tối-ưu) · [Leverage](./leverage-theory.md#-leverage-theory-lý-thuyết-đòn-bẩy) · [Psychology](./psychology-of-self.md#-psychology-of-self-tâm-lý-bản-thân) · [Energy](./energy-management.md#-energy-management-quản-trị-năng-lượng)
 
+> **Ôn nhanh:** Cần nhớ thứ tự cài đặt và template chính? Mở [Life OS One-Pager](./one-pager.md).
+
 ### 🔭 Visual Map: Life OS Flow
 
-```
-Psychology of Self ──┐
-                     ├─→ Energy Management ─────────────┐
-                     │                                   │
-                     │                                   ▼
-Decision Engine ─→ Risk Engine ─→ Strategy Engine ─→ Alignment Engine
-      │                │                │                    │
-      ▼                ▼                ▼                    ▼
-   Optimization ←── Growth Engine ←── Leverage Theory   (Vector validation)
-                     │
-                     ▼
-           Politics / Context Modules
-```
+![Life OS Flow](./life-os-flow.svg)
 
 > **Cách đọc bản đồ:** Bất cứ khi nào hệ thống crash (thiếu năng lượng, lệch vector), quay lại nhánh Psychology/Energy. Khi đã ổn định foundation (Decision + Risk), chuyển sang Strategy/Alignment để chọn game phù hợp rồi bật Growth → Optimization → Leverage. Các module Relationships, Politics, Well-being được cắm vào các nút tương ứng khi cần.
+
+### 📚 Đào sâu / Nền tảng
+- **Toán & Xác suất:** Học gốc cho EV, Bayes tại [01-Mental Models / Mathematics](../01-mental-models/probability-calculus.md) *(nếu cần file cụ thể, link placeholder)*
+- **Psychology & Biases:** Debug thói quen và nhận bias tại [01-Mental Models / Psychology](../01-mental-models/influence-negotiation.md)
+- **Philosophy & Meaning:** Khung ethics, meaning, antifragile tại [01-Mental Models / Philosophy](../01-mental-models/README.md)
+- **Template Library:** Ghi log/decision/risk radar tại [Templates](../../templates/README.md)
 
 ---
 

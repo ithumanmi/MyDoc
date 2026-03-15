@@ -1,0 +1,76 @@
+<svg width="920" height="420" viewBox="0 0 920 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Life OS Flow</title>
+  <desc id="desc">Visual map showing Decision to Risk to Strategy to Alignment to Growth to Optimization with support modules Psychology, Energy, Leverage.</desc>
+  <style>
+    .node { fill:#f9fafb; stroke:#0f172a; stroke-width:2; rx:12; ry:12; }
+    .label { font-family:'Inter', 'Segoe UI', sans-serif; font-size:16px; fill:#0f172a; font-weight:600; }
+    .sublabel { font-family:'Inter', 'Segoe UI', sans-serif; font-size:13px; fill:#475569; }
+    .arrow { stroke:#0f172a; stroke-width:2; marker-end:url(#arrowhead); }
+    .note { font-size:12px; fill:#64748b; font-family:'Inter', 'Segoe UI', sans-serif; }
+    .group-label { font-size:14px; fill:#334155; font-family:'Inter', 'Segoe UI', sans-serif; font-weight:500; }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#0f172a" />
+    </marker>
+  </defs>
+
+  <!-- Core line -->
+  <rect class="node" x="120" y="60" width="140" height="64" />
+  <text class="label" x="190" y="88" text-anchor="middle">Decision</text>
+  <text class="sublabel" x="190" y="108" text-anchor="middle">EV / Bayes</text>
+
+  <rect class="node" x="300" y="60" width="140" height="64" />
+  <text class="label" x="370" y="88" text-anchor="middle">Risk</text>
+  <text class="sublabel" x="370" y="108" text-anchor="middle">Black Swan</text>
+
+  <rect class="node" x="480" y="60" width="140" height="64" />
+  <text class="label" x="550" y="88" text-anchor="middle">Strategy</text>
+  <text class="sublabel" x="550" y="108" text-anchor="middle">Game selection</text>
+
+  <rect class="node" x="660" y="60" width="140" height="64" />
+  <text class="label" x="730" y="88" text-anchor="middle">Alignment</text>
+  <text class="sublabel" x="730" y="108" text-anchor="middle">Vectors / PCA</text>
+
+  <rect class="node" x="480" y="170" width="140" height="64" />
+  <text class="label" x="550" y="198" text-anchor="middle">Growth</text>
+  <text class="sublabel" x="550" y="218" text-anchor="middle">Compound</text>
+
+  <rect class="node" x="300" y="170" width="140" height="64" />
+  <text class="label" x="370" y="198" text-anchor="middle">Optimization</text>
+  <text class="sublabel" x="370" y="218" text-anchor="middle">Gradient / Pareto</text>
+
+  <rect class="node" x="660" y="170" width="140" height="64" />
+  <text class="label" x="730" y="198" text-anchor="middle">Leverage</text>
+  <text class="sublabel" x="730" y="218" text-anchor="middle">Code / Media</text>
+
+  <!-- Support nodes -->
+  <rect class="node" x="40" y="260" width="160" height="68" />
+  <text class="label" x="120" y="290" text-anchor="middle">Psychology</text>
+  <text class="sublabel" x="120" y="310" text-anchor="middle">Dopamine / Ego</text>
+
+  <rect class="node" x="240" y="260" width="160" height="68" />
+  <text class="label" x="320" y="290" text-anchor="middle">Energy</text>
+  <text class="sublabel" x="320" y="310" text-anchor="middle">Sleep / Hormones</text>
+
+  <rect class="node" x="640" y="260" width="200" height="68" />
+  <text class="label" x="740" y="290" text-anchor="middle">Context Modules</text>
+  <text class="sublabel" x="740" y="310" text-anchor="middle">Politics / Relationships</text>
+
+  <!-- Arrows -->
+  <line class="arrow" x1="260" y1="92" x2="300" y2="92" />
+  <line class="arrow" x1="440" y1="92" x2="480" y2="92" />
+  <line class="arrow" x1="620" y1="92" x2="660" y2="92" />
+  <polyline class="arrow" points="730,124 730,170" />
+  <polyline class="arrow" points="550,234 550,170" marker-end="url(#arrowhead)" />
+  <polyline class="arrow" points="440,202 300,202" />
+  <polyline class="arrow" points="300,202 260,202" />
+  <polyline class="arrow" points="800,92 840,92 840,202 800,202" />
+  <polyline class="arrow" points="120,260 120,140 120,92 120,92 120,92" />
+  <polyline class="arrow" points="320,260 320,170" />
+
+  <!-- Notes -->
+  <text class="note" x="120" y="340" text-anchor="middle">Crash? Roll back 1 step.</text>
+  <text class="note" x="320" y="340" text-anchor="middle">Low energy → Well-being.</text>
+  <text class="note" x="740" y="340" text-anchor="middle">Plug-in when context changes.</text>
+</svg>

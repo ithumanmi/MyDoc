@@ -48,3 +48,6 @@
 ### 🔗 Related Engines
 - **Decision Engine:** Khi EV dương nhưng rủi ro cao, quay lại bảng `EV + Check Ruin` để tính Expected Value có xét tới tail risk → [Decision Engine](./decision-engine.md#🛠️-quy-trình-ra-quyết-định-checklist).
 - **Strategy Engine:** Use risk radar để quyết định chọn “game” nào ít tail risk hoặc có payoff bất đối xứng → [Strategy Engine](./strategy-engine.md#🎮-playbook-chọn-cuộc-chơi).
+
+### 📝 Templates & Tools
+- **Risk Radar:** Clone bảng Radar + trigger để theo dõi rủi ro cá nhân/doanh nghiệp → [Risk Radar Template](../../templates/productivity/risk-radar.md)
