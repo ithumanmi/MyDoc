@@ -29,10 +29,11 @@
 *   **WebSocket:** Kết nối 2 chiều (Bidirectional) và duy trì (Persistent). Phù hợp nhất cho Chat vì giảm thiểu overhead của HTTP header và cho phép Real-time.
 
 ### Components
-*   **Chat Service:** Quản lý việc gửi/nhận tin nhắn qua WebSocket.
+*   **Chat Service:** Quản lý việc gửi/nhận tin nhắn qua WebSocket (đảm bảo order bằng sequence number / Lamport clock).
 *   **Presence Service:** Quản lý trạng thái online/offline.
 *   **KV Store (NoSQL):** Lưu trữ lịch sử tin nhắn (Message History).
 *   **Push Notification:** Gửi thông báo khi người dùng offline.
+*   **Delivery Tracker:** Lưu trạng thái sent/delivered/read và sequence để client có thể idempotent replays.
 
 ---
 
@@ -59,11 +60,17 @@ Hệ thống chat có đặc thù là **Write-heavy** và truy vấn theo thời
 ### Group Chat (Fan-out)
 *   Khi A gửi tin nhắn vào nhóm có 100 người, hệ thống phải copy tin nhắn đó vào "Message Sync Queue" của 100 người đó.
 *   Với nhóm quá lớn (ví dụ Telegram 200k người), ta không thể dùng Push model cho tất cả. Ta chỉ lưu 1 bản duy nhất của tin nhắn và mỗi user sẽ Pull về khi mở app.
+*   **Ordering:** Sử dụng `message_seq` per chat để đảm bảo client render đúng thứ tự. Server chỉ cần đảm bảo `seq` tăng dần; client nếu phát hiện mất `seq` (ví dụ nhận 102 nhưng chưa nhận 101) sẽ gửi request sync.
 
 ### Presence Service (Trạng thái Online)
 *   Làm sao biết user online? Duy trì một kết nối WebSocket là dấu hiệu tốt nhất.
 *   **Heartbeat mechanism:** Client gửi một tín hiệu nhỏ (heartbeat) sau mỗi 5-10 giây. Nếu Server không nhận được sau 30 giây -> Đánh dấu offline.
 *   *Optimization:* Chỉ cập nhật trạng thái online cho bạn bè khi người dùng thực sự mở app (để tiết kiệm tài nguyên).
+
+### Delivery Guarantees (At-least-once vs Exactly-once)
+*   **At-least-once:** Dễ triển khai với retry. Client phải idempotent (sử dụng `message_id` hoặc `client_msg_id`) để không hiển thị đúp.
+*   **Exactly-once (gần đúng):** Server lưu `ack_state` và chỉ gửi mỗi tin nhắn một lần cho mỗi device; client ACK kèm `last_read_seq`. Khi reconnect, server chỉ sync những message có `seq > last_ack_seq`. Điều này cho cảm giác "exactly-once" dù thực tế vẫn dựa trên idempotent + retry.
+*   **Out-of-order handling:** Mỗi message có `server_timestamp` + `seq`. Client luôn hiển thị theo `seq` để tránh lệch đồng hồ.
 
 ---
 
@@ -71,6 +78,7 @@ Hệ thống chat có đặc thù là **Write-heavy** và truy vấn theo thời
 Trong hệ thống phân tán, không thể dùng `AUTO_INCREMENT` của SQL.
 *   **Snowflake (Twitter):** Tạo ID 64-bit dựa trên timestamp + worker_id + sequence.
 *   ID phải duy nhất và có tính sắp xếp theo thời gian (Sortable).
+*   **Sequence vs Timestamp:** Sequence giúp ordering trong từng chat, còn timestamp chỉ dùng để hiển thị "time sent". Khi replication cross-region, sequence nên được gắn với `chat_id` để tránh xung đột.
 
 ---
 
@@ -78,6 +86,7 @@ Trong hệ thống phân tán, không thể dùng `AUTO_INCREMENT` của SQL.
 
 1.  **Consistency vs Availability:** Trong Chat, tính khả dụng quan trọng hơn. Nếu DB chính chết, ta có thể ghi tạm vào một DB khác rồi sync sau. Người dùng thà nhận tin nhắn chậm vài giây còn hơn là không gửi được. Liên hệ [CAP trade-off](./fundamentals-scalability-consistency.md#cap-theorem--consistency-spectrum) để giải thích lựa chọn.
 2.  **End-to-End Encryption (E2EE):** Nếu được hỏi về bảo mật (như WhatsApp), hãy giải thích rằng Server chỉ đóng vai trò trung chuyển các gói tin đã mã hóa. Chỉ người nhận mới có Key để giải mã.
+3.  **Idempotency:** Client nên gửi `client_msg_id` để server có thể bỏ qua bản gửi lại khi mạng kém. Điều này cũng hỗ trợ offline resend nhưng vẫn giữ đúng thứ tự.
 
 ---
 

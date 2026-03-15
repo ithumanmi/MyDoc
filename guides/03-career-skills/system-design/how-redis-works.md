@@ -93,3 +93,5 @@ Kỹ thuật **Sharding** để mở rộng khả năng lưu trữ và xử lý 
 ---
 
 > *Nguồn hình ảnh và concept: AlgoMaster.io*
+
+**Dùng trong:** [Design Distributed Cache](./design-distributed-cache.md), [Design Rate Limiter](./design-rate-limiter.md)

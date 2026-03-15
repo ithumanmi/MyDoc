@@ -46,11 +46,17 @@ Khi một video 4K được upload, ta không thể gửi file 4K đó cho ngư�
 1.  **Chipping:** Chia video thành các đoạn nhỏ (chunks) - ví dụ 2-5 giây mỗi chunk.
 2.  **Parallel Processing:** Dùng các worker để encode song song các chunk sang nhiều độ phân giải khác nhau.
 3.  **DAG (Directed Acyclic Graph):** Quy trình xử lý phức tạp (watermarking, thumbnail extraction, encoding) được quản lý bởi một DAG để đảm bảo thứ tự và khả năng retry.
+4.  **Packaging:** Sau khi encode, hệ thống đóng gói thành manifest HLS/DASH (playlist `.m3u8` / `.mpd`) và tạo thumbnail, preview sprite sheet để dùng cho UI.
+
+> **Chunk duration trade-off:** 2–4 giây cho VOD giúp giảm latency và không tạo quá nhiều HTTP request. Live streaming thường dùng 1–2 giây hoặc Low-Latency HLS (LL-HLS) nhưng phải đánh đổi số lần request và khả năng cache.
+
+> **Encoding pipeline:** Ingest file → Normalize (demux, audio leveling) → Transcode (x264/x265/AV1) → Package thành profile (240p…4K) → Generate thumbnail/keyframe → QA (checksum, black frame detection) → Publish lên CDN.
 
 ### Adaptive Bitrate Streaming (ABR)
 Hệ thống sử dụng các giao thức như **HLS (Apple)** hoặc **DASH (MPEG)**.
 *   Máy nghe (Client) sẽ dựa trên tốc độ internet hiện tại để chủ động yêu cầu chunk video tiếp theo ở độ phân giải phù hợp.
 *   Nếu mạng yếu -> Client bốc chunk 360p. Nếu mạng mạnh -> Client bốc chunk 1080p.
+*   Manifest chứa danh sách `Variant Streams` hoặc `Representations` với bitrate khác nhau; client download các chunk liên tiếp (`segment_001.ts`, `segment_002.ts`...), mỗi chunk được đánh số và timestamp để đồng bộ audio/video.
 
 ```mermaid
 flowchart LR
@@ -83,6 +89,8 @@ Streaming video mà không có CDN là không thể thực hiện được ở q
 *   **Edge Servers:** Video được lưu tại các máy chủ đặt tại ISP (Viettel, VNPT, FPT) để người dùng tải dữ liệu ngay trong nước thay vì đi qua cáp quang biển.
 *   **Caching Strategy:** 
     *   Video phổ biến (Trending): Lưu ở tất cả các Edge nodes.
+*   **Multi-bitrate strategy:** CDN lưu từng rendition (360p/720p/1080p) như các object riêng biệt; cần đồng bộ cache invalidation khi cập nhật metadata/thumbnails.
+*   **Log streaming:** Edge nodes đẩy log (hit/miss, latency) về hệ thống analytics để tối ưu routing và áp dụng multi-CDN (Route53/GSLB) dựa trên chất lượng thực tế.
     *   Video cũ/ít người xem: Lưu ở Origin Storage, chỉ đẩy lên CDN khi có yêu cầu.
 
 ---
