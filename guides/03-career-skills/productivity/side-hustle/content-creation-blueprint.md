@@ -14,9 +14,8 @@ Bạn viết 1 bài blog, 5 năm sau vẫn có người đọc và trả tiền 
 
 Đừng coi việc đăng bài là "giải trí" hay "khoe khoang". Hãy coi mỗi bài viết/video là một **Nhân viên Sales cần mẫn 24/7**.
 
-> **Audience & Positioning:** Trước khi viết, thiết kế chân dung khách lý tưởng và định vị lời hứa của bạn bằng [Market Research Playbook](../../02-wealth-business/market-research/README.md) – dùng ngay các template khảo sát, bảng đối thủ và job-to-be-done để chọn ngách đúng, tránh “nói với mọi người mà chẳng ai thấy liên quan”.
->
-> **Traffic & Monetization Stack:** Sau khi rõ audience, bật blueprint trong [MMO Roadmap](../../02-wealth-business/mmo-roadmap/README.md) để map nội dung trụ cột → kênh traffic (short-form, SEO, email) → asset thu lead → hệ thống thanh toán (foundations, traffic, payment). Luôn vẽ luồng end-to-end trước khi “làm content cho vui”.
+- **Audience & Positioning:** Trước khi viết, thiết kế chân dung khách lý tưởng và định vị lời hứa của bạn bằng [Market Research Playbook](../../02-wealth-business/market-research/README.md) – dùng ngay các template khảo sát, bảng đối thủ và job-to-be-done để chọn ngách đúng, tránh “nói với mọi người mà chẳng ai thấy liên quan”. Đồng thời cập nhật "positioning doc" sau mỗi vòng phản hồi để khóa lời hứa giá trị (value promise) sắc bén hơn.
+- **Traffic & Monetization Stack:** Sau khi rõ audience, bật blueprint trong [MMO Roadmap](../../02-wealth-business/mmo-roadmap/README.md) để map nội dung trụ cột → kênh traffic (short-form, SEO, email) → asset thu lead → hệ thống thanh toán (foundations, traffic, payment). Ưu tiên vẽ luồng end-to-end (topic → platform → funnel → payment) trước khi sản xuất để tránh "content mồ côi".
 
 ### **Chiến lược Đa nền tảng (Platform Agnostic):**
 Đừng phụ thuộc vào thuật toán của TikTok hay Facebook. Hãy sở hữu nội dung của bạn.
@@ -89,6 +88,5 @@ Công thức **Ikigai** cho Content Creator:
 
 -> **Lời khuyên:** "Start narrow, go broad." (Bắt đầu hẹp, mở rộng sau). Đừng làm kênh "Lifestyle" chung chung ngay từ đầu.
 
-> **Audience & Positioning:** Xây chân dung khách lý tưởng, định vị thông điệp dựa trên nhu cầu thực tế – xem [Market Research Playbook](../../02-wealth-business/market-research/README.md) để làm khảo sát nhanh, phân tích ngách, đối thủ (bao gồm hướng dẫn phỏng vấn, template bảng hỏi, checklist competitive positioning).
-> 
-> **Traffic & Monetization Stack:** Khi đã rõ audience, dùng blueprint trong [MMO Roadmap](../../02-wealth-business/mmo-roadmap/README.md) để thiết kế luồng traffic → funnel → mô hình thanh toán (foundations, traffic, payment infrastructure). Ưu tiên mapping: nội dung trụ cột → kênh kéo traffic → lead magnet/email → product ladder.
+- **Audience & Positioning:** Xây chân dung khách lý tưởng, định vị thông điệp dựa trên nhu cầu thực tế – xem [Market Research Playbook](../../02-wealth-business/market-research/README.md) để làm khảo sát nhanh, phân tích ngách, đối thủ (bao gồm hướng dẫn phỏng vấn, template bảng hỏi, checklist competitive positioning). Đặc biệt chú ý module **Audience & Positioning** trong Market Research để ghi rõ: insight, promise, proof.
+- **Traffic & Monetization Stack:** Khi đã rõ audience, dùng blueprint trong [MMO Roadmap](../../02-wealth-business/mmo-roadmap/README.md) để thiết kế luồng traffic → funnel → mô hình thanh toán (foundations, traffic, payment infrastructure). Ưu tiên mapping: nội dung trụ cột → kênh kéo traffic → lead magnet/email → product ladder; tham chiếu mục **Traffic & Monetization** trong MMO để chọn kênh phù hợp.

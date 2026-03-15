@@ -63,6 +63,16 @@ Khi bạn đồng bộ được 4 mạch này, bạn rơi vào trạng thái **F
 *   Đôi khi, điểm nút không phải là "làm việc nhiều hơn", mà là **"ngừng làm một việc gì đó"**. 
 *   *Ví dụ:* Ngừng kiểm tra điện thoại ngay khi ngủ dậy. Chỉ một nút thắt này được tháo gỡ, hệ thống Amygdala sẽ không bị kích hoạt chế độ "phản ứng" ngay đầu ngày, từ đó bảo toàn Dopamine cho công việc quan trọng.
 
+## 🔧 5. Các Chiến Lược Cụ Thể
+
+1. **Xác định "Điểm Nút" (The Bottleneck):** Hạ thủ tại 1 điểm để giải quyết 10 vấn đề. Hãy tự hỏi: Cái gì khiến mình mệt nhất? Nếu sửa 1 thứ mà đời tốt lên 50%, đó là gì?
+2. **Tạo Vòng Lặp Phản Hồi Mới:** Viết lại kịch bản cho não bộ. Ví dụ: 10p vận động → Dopamine tăng → Hoàn thành việc khó → Muốn vận động tiếp.
+3. **Xóa Bỏ Xung Đột Thần Kinh:** 
+    *   **Thay đổi môi trường:** Não ưu tiên ngữ cảnh hơn ý chí. 
+    *   **Thay đổi trigger (Tín hiệu):** Đổi công tắc chính là đổi cả vòng lặp.
+    *   **Thay đổi kỳ vọng:** Hạ chuẩn để tránh kích hoạt Amygdala.
+    *   **Bỏ bớt tasks:** Giải phóng năng lực xử lý cho não.
+
 ## 🔄 6. Tự Động Hóa: Đích Đến Cuối Cùng
 
 Tự do thực sự không đến từ việc muốn làm gì thì làm, mà đến khi cuộc sống không còn bị cảm xúc dắt mũi.
@@ -74,27 +84,9 @@ Tự do thực sự không đến từ việc muốn làm gì thì làm, mà đ�
 
 *Tham khảo: Neuroscience & Systems Thinking Applied.*
 
-### C. Các Chiến Lược Cụ Thể
-
-1. **Xác định "Điểm Nút" (The Bottleneck):** Hạ thủ tại 1 điểm để giải quyết 10 vấn đề. Hãy tự hỏi: Cái gì khiến mình mệt nhất? Nếu sửa 1 thứ mà đời tốt lên 50%, đó là gì?
-2. **Tạo Vòng Lặp Phản Hồi Mới:** Viết lại kịch bản cho não bộ. Ví dụ: 10p vận động → Dopamine tăng → Hoàn thành việc khó → Muốn vận động tiếp.
-3. **Xóa Bỏ Xung Đột Thần Kinh:** 
-    *   **Thay đổi môi trường:** Não ưu tiên ngữ cảnh hơn ý chí. 
-    *   **Thay đổi trigger (Tín hiệu):** Đổi công tắc chính là đổi cả vòng lặp.
-    *   **Thay đổi kỳ vọng:** Hạ chuẩn để tránh kích hoạt Amygdala.
-    *   **Bỏ bớt tasks:** Giải phóng năng lực xử lý cho não.
-
-1. **Xác định "Điểm Nút" (The Bottleneck):** Hạ thủ tại 1 điểm để giải quyết 10 vấn đề. Hãy tự hỏi: Cái gì khiến mình mệt nhất? Nếu sửa 1 thứ mà đời tốt lên 50%, đó là gì?
-2. **Tạo Vòng Lặp Phản Hồi Mới:** Viết lại kịch bản cho não bộ. Ví dụ: 10p vận động → Dopamine tăng → Hoàn thành việc khó → Muốn vận động tiếp.
-3. **Xóa Bỏ Xung Đột Thần Kinh:** 
-    *   **Thay đổi môi trường:** Não ưu tiên ngữ cảnh hơn ý chí. 
-    *   **Thay đổi trigger (Tín hiệu):** Đổi công tắc chính là đổi cả vòng lặp.
-    *   **Thay đổi kỳ vọng:** Hạ chuẩn để tránh kích hoạt Amygdala.
-    *   **Bỏ bớt tasks:** Giải phóng năng lực xử lý cho não.
-
 ---
 
-## 🏛️ 5. Kiến Trúc Lại 5 Hệ Thống Đời Sống (Life Systems)
+## 🏛️ 7. Kiến Trúc Lại 5 Hệ Thống Đời Sống (Life Systems)
 
 1.  **Hệ thống Năng lượng:** Tối ưu giấc ngủ, dinh dưỡng, ánh sáng và vận động.
 2.  **Hệ thống Cảm xúc:** Sử dụng Journaling, đặt tên cảm xúc để kích hoạt logic.

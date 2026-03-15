@@ -105,6 +105,7 @@ Khi thiết kế blueprint, luôn hỏi:
 ### Leverage Points – Điểm tác động nhỏ tạo thay đổi lớn
 
 - Donella Meadows gọi đây là “điểm bẩy” trong hệ thống: can thiệp rất nhỏ nhưng khuếch đại qua loop.
+- Game design: tweak tỉ lệ spawn → economy, meta thay đổi; business: thay incentive KPI → doanh số shift; system architecture: thêm circuit breaker ở 1 gateway cứu cả cluster.
 - Ví dụ dev: thay đổi “definition of done” + CI automation → giảm 50% bug mà không cần tăng headcount.
 - Productivity: chuyển meeting update sang async Loom → tiết kiệm 4h/tuần cho cả team.
 
@@ -113,6 +114,7 @@ Khi thiết kế blueprint, luôn hỏi:
 ### Bottleneck Theory – Tốc độ hệ thống = nút thắt chậm nhất
 
 - Dây chuyền chỉ nhanh bằng công đoạn chậm nhất (Theory of Constraints).
+- Game production: asset pipeline chậm làm cả build release delay. Business: khâu sales ops thiếu CRM giữ khách. System architecture: DB write lock saturate khiến microservice khác cũng chết.
 - Ví dụ dev: code review queue backlog 3 ngày làm cả release trễ dù dev code rất nhanh.
 - Productivity cá nhân: inbox/communication backlog khiến dự án kẹt dù bạn làm Deep Work tốt.
 
@@ -123,6 +125,7 @@ Khi thiết kế blueprint, luôn hỏi:
 ### Second-Order Thinking – Nghĩ về hệ quả cấp 2
 
 - Quyết định hôm nay tạo hệ quả cấp 1 (trực tiếp) và cấp 2 (gian tiếp). Người thiếu hệ thống chỉ nhìn cấp 1.
+- Game: buff 1 hero để chiều lòng cộng đồng (cấp 1), nhưng meta gãy, esports mất cân bằng (cấp 2). Business: free trial quá dài kéo user “zombie”, server cost tăng.
 - Ví dụ: Tăng overtime để ship nhanh (cấp 1: deadline đạt). Cấp 2: team burnout, bug tăng, khách hàng mất niềm tin.
 - Ví dụ tích cực: Giảm khách hàng hạng C (cấp 1: revenue giảm nhẹ). Cấp 2: team rảnh chăm khách A+, upsell mạnh hơn.
 
@@ -250,11 +253,11 @@ Trigger → Action → Reward → Evidence → Identity
 
 | Asset | Description | Link |
 | --- | --- | --- |
-| System Brief (Day 0) | 1 trang mô tả scope, KPI, constraint | [Template](../../../templates/productivity/system-brief.md) *(create nếu chưa tồn tại)* |
-| System Map Canvas | Input → Process → Output + Entropy checklist | [Figma/Printable](../../../templates/productivity/system-map-canvas.md) |
-| System Blueprint | Loop + pyramid + scorecard | [Notion dup link](../../../templates/productivity/system-blueprint.md) |
-| Operating Manual | Ritual stack + automation | [Notion template](../../../templates/productivity/operating-manual.md) |
-| Retro Log | Day 4 review + backlog | [Template](../../../templates/productivity/system-retro.md) |
+| System Brief (Day 0) | 1 trang mô tả scope, KPI, constraint | Dùng bảng tại Day 0 trong bài để tạo doc riêng (Notion/Docs). |
+| System Map Canvas | Input → Process → Output + Entropy checklist | In/duplikate bảng Day 1 → tùy chỉnh. |
+| System Blueprint | Loop + pyramid + scorecard | Copy Leverage Loop + Structure Pyramid + Scorecard ở Day 2 để dựng template cá nhân. |
+| Operating Manual | Ritual stack + automation | Dựa vào bảng Day 3 (Ritual Stack + Automation + Failsafe) để build Notion page. |
+| Retro Log | Day 4 review + backlog | Lấy mục Day 4 (retro + backlog) làm blueprint, tự tạo doc. |
 
 > Nếu chưa có template tương ứng, dùng bảng ở trên như blueprint để tạo nhanh trong Notion/Docs riêng của bạn.
 

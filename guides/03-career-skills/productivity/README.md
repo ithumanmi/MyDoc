@@ -103,7 +103,7 @@ Xây dựng nền tảng cho một bộ não hiệu suất cao.
 
 ### 2. Career Growth (Thăng tiến sự nghiệp)
 Tối ưu hóa nguồn thu nhập chính (Active Income).
-*   **[Salary Negotiation](./career-growth/salary-negotiation.md):** Nghệ thuật đàm phán lương & phúc lợi (nhắc timing: sau chiến thắng lớn, sau performance review, đính kèm [Salary Negotiation Script](../02-wealth-business/influence-negotiation.md#salary-negotiation-script)).
+*   **[Salary Negotiation](./career-growth/salary-negotiation.md):** Nghệ thuật đàm phán lương & phúc lợi. Chủ động mở đàm phán ngay sau một "big win" (launch thành công, được shout-out) hoặc trong vòng 1–2 tuần sau performance review tích cực để tận dụng đà cảm xúc + dữ liệu nóng. Luyện thoại trước bằng [Salary Negotiation Script](../../templates/productivity/salary-negotiation-script.md) (đính kèm trong [Influence & Negotiation Guide](./core-skills/influence-negotiation.md)).
 *   **[Managing Up & Personal Branding](./career-growth/managing-up.md):** Làm sao để sếp và đồng nghiệp thấy được giá trị của bạn.
 *   **[The 80/20 Career](./career-growth/80-20-career.md):** Tập trung vào 20% công việc tạo ra 80% giá trị thăng tiến.
 

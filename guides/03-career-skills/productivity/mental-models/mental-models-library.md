@@ -62,4 +62,4 @@ Mental Model (Mô hình tư duy) là những khung nhận thức giúp chúng ta
 *   **Định nghĩa:** Những hành động nhỏ, lặp đi lặp lại đều đặn sẽ tạo ra kết quả khổng lồ theo thời gian.
 *   **Ứng dụng:** Tốt hơn 1% mỗi ngày -> Sau 1 năm tốt hơn 37 lần.
 
-👉 **[Mẫu thực hành: Decision Journal (Nhật ký quyết định)](../../../templates/decision-journal.md)**
+👉 **[Mẫu thực hành: Decision Journal (Nhật ký quyết định)](../../../../templates/decision-journal.md)**
