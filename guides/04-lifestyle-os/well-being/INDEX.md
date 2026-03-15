@@ -15,6 +15,7 @@ Sơ đồ rút gọn toàn bộ tài nguyên trong `guides/04-lifestyle-os/well-
 - **[🥗 Nutrition for Brain](./biohacking/nutrition-for-brain.md)** – Ăn uống hỗ trợ não bộ & hormone.
 - **[⚙️ Health OS Overview](./biohacking/health-os-overview.md)** – Lộ trình Health OS 12 tuần.
 - **[📋 Health Optimization Protocols](./biohacking/health-optimization-protocols.md)** – Checklist Morning/Evening Routine.
+- **[💊 Supplements 101](./biohacking/supplements-101.md)** – Framework labs → supplement → safety.
 - **[🏡 Environment & Workspace Setup](./environment-workspace.md)** – Ánh sáng, không khí, workspace ergonomics.
 - **[♾️ Longevity 101](./longevity-101.md)** – 5 trụ cột sleep/movement/stress/social/purpose.
 - **[🌙 Ngủ đúng & Năng lượng cả ngày](./ngu-dung-va-nang-luong-ca-ngay.md)** – Khóa “Sleep hygiene” bằng tiếng Việt.
@@ -28,6 +29,15 @@ Sơ đồ rút gọn toàn bộ tài nguyên trong `guides/04-lifestyle-os/well-
 - **[Cultivating Yang Energy](./cultivating-yang-energy.md)** – Nuôi dưỡng dương khí, uy lực & thần thái.
 - **[⚖️ Women’s Health (Cycle & Hormones)](./special-populations/womens-health.md)** – Chu kỳ, hormone, liên kết Sleep/Cortisol/Glucose.
 - **[🌍 Shift Work & Travel Protocols](./special-populations/shift-travel-protocols.md)** – Jet lag, ca đêm, đồng bộ nhịp sinh học.
+
+## 🛡️ Công cụ & An toàn
+
+- **[🚨 Khi nào cần gặp bác sĩ?](./when-to-seek-help.md)** – Dấu hiệu đỏ & checklist chuẩn bị khi đi khám.
+- **[Mental Health Hotline VN](./when-to-seek-help.md#4-mental-health-hotline--ho-tro-khan-cap-viet-nam)** – Danh bạ 115/1900 6233/111 & kênh cộng đồng.
+- **[Emergency Backpack Checklist](./when-to-seek-help.md#5-emergency-backpack-checklist)** – Go-bag gồm giấy tờ, thuốc, comfort kit & mental health pack.
+- **[Mindfulness Emergency Protocol](./mental-resilience/mindfulness-meditation.md#protocol-3-stressanxiety-emergency)** – Bộ hít thở/grounding 5 phút khi lên cơn lo âu.
+- **[Burnout Emergency Stabilization](./mental-resilience/burnout-prevention.md#week-1-2-emergency-stabilization)** – Kế hoạch 14 ngày để ngắt vòng xoáy kiệt sức.
+
 
 ## 🚀 Hiệu suất & Công cụ
 

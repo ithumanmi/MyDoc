@@ -78,4 +78,6 @@
 *   **[Cultivating Yang Energy](./cultivating-yang-energy.md):** 21-day ritual stack để xây lại dương khí, uy lực nội tại.
 *   **[🚨 Khi nào cần gặp bác sĩ?](./when-to-seek-help.md):** 1 trang hướng dẫn khi nào phải ưu tiên đi khám (tâm lý, giấc ngủ, hormone, tim mạch...) và cách chuẩn bị dữ liệu cho bác sĩ.
 
+> Không chắc có cần gặp chuyên gia y tế/therapist không? → Xem ngay **[Khi nào cần bác sĩ/chuyên gia](./when-to-seek-help.md)** để ra quyết định trong 5 phút.
+
 > **Nhớ:** Lifestyle protocol giúp bạn khỏe hơn, nhưng không thay thế chẩn đoán. Khi có tín hiệu cảnh báo, hãy tham khảo tài liệu trên và đi khám sớm.

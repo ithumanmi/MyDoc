@@ -25,3 +25,27 @@
 - Chia sẻ kết quả cho coach/mentor (nếu có) để họ điều chỉnh workload phù hợp.
 
 > **Nhớ:** Sức khỏe tinh thần & thể chất là nền cho mọi mục tiêu khác. Khi nghi ngờ, hãy ưu tiên thăm khám chuyên môn trước.
+
+## 4. Mental health hotline & hỗ trợ khẩn cấp (Việt Nam)
+
+| Tình huống | Hotline / Kênh liên hệ | Ghi chú |
+| --- | --- | --- |
+| Nguy hiểm tính mạng, tai nạn, đau ngực dữ dội | **115** (cấp cứu y tế) | Gọi ngay, cung cấp địa chỉ chính xác. |
+| Ý nghĩ tự sát, khủng hoảng tinh thần | **1900 6233** – Trung tâm tư vấn tâm lý 24/7 | Nói rõ bạn đang nghĩ gì, ở đâu, có người nào hỗ trợ bên cạnh. |
+| Trẻ vị thành niên cần bảo vệ khẩn cấp | **111** – Tổng đài bảo vệ trẻ em | Nhấn phím 0 để gặp trực tiếp tư vấn viên. |
+| Hỗ trợ tâm lý cộng đồng (phi lợi nhuận) | **SOS – Sống một Sống** (Facebook), **Blue Blue Hotline 1900 3300** | Phù hợp khi cần lắng nghe, hướng dẫn thở, kết nối therapist. |
+| Khủng hoảng cảm xúc nhưng chưa nguy hiểm tính mạng | Liên hệ therapist/coach cá nhân, hoặc đặt lịch với bác sĩ tâm thần qua app (Jio, Doctor Anywhere, eDoctor) | Ghi sẵn lịch free slot, kiểm tra bảo hiểm/chi phí. |
+
+> **Tip:** Lưu sẵn hotline vào điện thoại + dán note tại bàn làm việc để người thân biết khi hỗ trợ bạn.
+
+## 5. Emergency backpack checklist
+
+Giữ một “go-bag” giúp bạn rời nhà nhanh chóng khi cần đi viện hoặc nghỉ khẩn cấp (burnout, khủng hoảng gia đình, thiên tai nhỏ).
+
+- **Giấy tờ:** CCCD/Hộ chiếu, thẻ BHYT, danh sách thuốc đang dùng, sổ khám bệnh gần nhất.
+- **Thiết bị & tiền:** Sạc dự phòng, dây sạc đa đầu, tiền mặt 1-2 triệu, thẻ ATM/phòng thân.
+- **Thuốc & y tế:** Bộ sơ cứu mini, thuốc đang uống, magnesium/glycine, gói điện giải, khẩu trang.
+- **Comfort kit:** Earplugs, eye mask, áo ấm nhẹ, quần áo 1 ngày, bộ vệ sinh cá nhân travel size.
+- **Mental health pack:** Notebook + bút, danh sách hotline, bài thở 4-7-8 in giấy, link QR đến [Mindfulness Emergency Protocol](./mental-resilience/mindfulness-meditation.md#protocol-3-stressanxiety-emergency).
+
+> Đặt go-bag tại cửa ra vào hoặc dưới bàn làm việc, kiểm tra & bổ sung mỗi 3 tháng.
