@@ -64,6 +64,44 @@ Facebook, Amazon, Netflix đều lớn lên từ kiến trúc đơn giản rồi
 
 Gall’s Law = tiến hóa từng lớp, không phải dựng kim tự tháp trong 1 đêm.
 
+### Law of Unintended Consequences
+
+Khi tác động vào hệ thống, bạn luôn kéo theo side-effect không đoán trước:
+
+- Ví dụ game: buff tỷ lệ **item drop** để người chơi “vui”, nhưng kết quả = lạm phát economy → item mất giá → người chơi bỏ game.
+- Ví dụ công việc: thêm ritual “daily standup 60p” để tăng thông tin, nhưng team mất 1h mỗi ngày, giảm Deep Work, output giảm.
+
+**Mindset:**
+1. Trước khi thêm feature/ritual, hỏi “Side effect xấu nhất là gì? Chúng ta có guardrail chưa?”
+2. Thiết kế trial nhỏ / thời gian ngắn để đo tác dụng phụ rồi mới rollout toàn hệ thống.
+
+→ Luôn gắn Day 4 Retro với câu hỏi “Có unintended consequence nào xuất hiện? Chúng ta xử lý ra sao?”
+
+### Feedback Loops (Negative vs Positive)
+
+Mọi hệ thống đều chạy nhờ vòng phản hồi:
+
+- **Negative feedback** = cân bằng, giữ hệ thống ổn định.
+  - Ví dụ: Nhiệt độ ↑ → máy lạnh hoạt động mạnh hơn → nhiệt độ ↓. Trong productivity: workload tăng → block `System Day` để dọn backlog → workload về mức kiểm soát.
+- **Positive feedback** = tự khuếch đại. Nếu không kiểm soát sẽ “nổ”, nếu harness đúng sẽ scale cực nhanh.
+  - Ví dụ: Video viral → view tăng → thuật toán boost → view tăng mạnh hơn. Trong side hustle: post giá trị → nhiều share → follower tăng → email list lớn → launch thành công.
+
+Khi thiết kế blueprint, luôn hỏi:
+1. Loop này là negative hay positive?
+2. Nếu positive loop chạy quá mạnh, guardrail gì để tránh burnout?
+3. Nếu negative loop quá mạnh, cần leverage để break inertia?
+
+### Emergence – Khi hệ thống tạo ra hành vi mới
+
+- Khi nhiều phần tử đơn giản tương tác, sẽ sinh ra hành vi không thấy ở từng phần tử.
+  - Ví dụ game dev: AI đơn giản + bản đồ + player → tạo gameplay phức tạp, vô số chiến thuật mà designer không script.
+  - Ví dụ công việc: Một ritual ghi log KPI + weekly review + dashboard → tự nhiên nảy sinh thói quen ra quyết định dựa trên dữ liệu.
+
+**Ứng dụng:**
+1. Thiết kế môi trường (rules, incentives) hơn là cố gắng điều khiển từng hành vi vi mô.
+2. Khi hệ thống cho ra kết quả bất ngờ, đừng vội phá; hãy hỏi “Emergent behavior này có hữu ích không? Có nên amplify hay dampen?”.
+3. Đối với team: kết hợp “simple rule” + autonomy → tạo emergent solution sáng tạo hơn áp KPI cứng nhắc.
+
 ---
 
 ## 🧾 Day 0 – System Brief
