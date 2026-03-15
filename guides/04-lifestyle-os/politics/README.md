@@ -44,6 +44,15 @@ Chào mừng bạn đến với module **Politics**. Tại đây, chúng ta khô
 *Công nghệ đang thay đổi luật chơi như thế nào?*
 *   **[Thuật toán & Dân chủ](./digital/algorithms-democracy.md):** Sự thao túng thông tin và Echo Chambers.
 *   **[Cyberwarfare & Digital Sovereignty](./digital/digital-sovereignty.md):** Chủ quyền số và chiến tranh mạng.
+*   **[Misinformation & Fact-checking](./digital/misinformation-fact-checking.md):** Xây hệ miễn dịch trước tin giả, toolkit SIFT/OSINT cá nhân.
+*   **[Election Tech & Integrity](./digital/election-tech-integrity.md):** Machine voting, e-voting và checklist bảo vệ bầu cử.
+
+**Checklist thực hành Phase 3-4 (cập nhật):**
+1. **Tuần 1:** Đọc `politics/vietnam-system.md`, ghi chú cơ cấu Đảng + Nhà nước.
+2. **Tuần 2:** So sánh Việt Nam với 1 nước khác qua `world-order.md` + `political-economy.md`.
+3. **Tuần 3:** Viết mini-briefing (500 chữ) về sự kiện geopolitics gần đây và impact đến nghề/công ty bạn.
+4. **Tuần 4:** Thiết kế "Risk radar" cá nhân (liên hệ [Risk Engine](../life-os/risk-engine.md)).
+5. **Tuần 5:** Đọc ít nhất 1 bài Digital Politics/tuần (Algorithms, Misinformation, Election tech…) và áp dụng fact-check checklist.
 
 ---
 
