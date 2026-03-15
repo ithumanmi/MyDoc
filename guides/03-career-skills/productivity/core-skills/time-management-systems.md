@@ -52,6 +52,27 @@ Hệ thống quản lý tối thượng cho người có quá nhiều việc, gi
 4.  **Reflect (Review):** Xem lại danh sách mỗi tuần để không bị sót việc.
 5.  **Engage (Thực hiện):** Chọn việc cần làm dựa trên bối cảnh (Context) và năng lượng hiện tại.
 
+### **Contexts & Next Actions (chi tiết):**
+- **Context gợi ý:** @Home, @Office, @Laptop, @Phone, @Errand, @WaitingFor. Khi rảnh điện thoại 10 phút, mở @Phone → gọi/nhắn; đang ra ngoài, mở @Errand.
+- **Next Action:** Mỗi việc/bộ việc phải có hành động vật lý kế tiếp, ví dụ “Gửi email hỏi lịch A” (không ghi “Project A”).
+- **Limit WIP:** Với @Laptop hoặc @Office, giữ 3–5 Next Actions ưu tiên.
+
+### **Weekly Review (30–60 phút, checklist nhanh):**
+1) Làm sạch Inbox (email, app task, sổ tay). 
+2) Cập nhật dự án: mỗi dự án phải có ≥1 Next Action hoặc lịch hẹn. 
+3) Lịch tuần tới: block deep work, họp, deadline. 
+4) Chọn 3 ưu tiên tuần (Outcomes). 
+5) Dọn “Someday/Maybe”: kill/keep vài mục để nhẹ đầu.
+
+### **Inbox Zero (daily/2–3 lần tuần):**
+- Email/Slack/Notes → dồn vào 1–2 khung giờ xử lý. 
+- Quy tắc 2 phút; nếu >2 phút, tạo task với context + deadline nếu có.
+
+### **Template setup (gợi ý tool-agnostic):**
+- List: Inbox / Next Actions / Projects / Waiting For / Someday-Maybe.
+- Context tags: @Home, @Office, @Laptop, @Phone, @Errand.
+- Review: Lịch recurring “Weekly Review” 45’ Chủ nhật/Thứ Hai.
+
 ---
 
 ## 4. Eisenhower Matrix (Ma trận Eisenhower)

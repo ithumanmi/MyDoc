@@ -40,6 +40,10 @@ Nếu Energy là nhiên liệu, Attention chính là tia laser định hướng.
 *   **Digital fasting:** Giới hạn số app có notification xuống ≤3.
 *   **Asynchronous-first:** Tập dần văn hóa phản hồi chậm (batch email 2 lần/ngày).
 *   **Information diet:** Đặt “Topic quota” – mỗi tuần chỉ đào sâu 1-2 chủ đề lớn.
+*   **Digital minimalism / Phone & social protocol:**
+    * Gỡ bớt app gây nghiện, để phone ở phòng khác trong block sâu.
+    * Đặt “khung giờ có thiết bị” (ví dụ 2 khung 30’/ngày) và “khung giờ không thiết bị” (sáng sớm, pre-sleep 60’).
+    * Tắt toàn bộ push không khẩn; chỉ giữ 1 kênh khẩn (family/manager) với ringtone khác biệt.
 
 ### 3.2. Attention Protection (Khi đang làm việc)
 1.  **Attention Contracts:** Block 60-90 phút và báo cho team “Không disturb”.

@@ -29,6 +29,18 @@ Trong kỷ nguyên AI và tự động hóa, "làm việc chăm chỉ" (Hard wor
 
 ## 📚 Mục lục
 
+### 🎯 Bạn đang… → Đọc gì trước?
+| Tình huống | Ưu tiên đọc | Lý do |
+| --- | --- | --- |
+| **Muốn tập trung hơn / giảm xao nhãng** | [Attention Mastery](./core-skills/attention-mastery.md) · [Deep Work System](./core-skills/deep-work-system.md) | Thiết lập block sâu, bảo vệ chú tâm.
+| **Muốn quản lý thời gian tốt hơn** | [Time Management Systems](./core-skills/time-management-systems.md) | Chọn khung Pomodoro/Time Blocking/GTD; sẽ có thêm GTD chi tiết.
+| **Muốn tăng lương / thăng tiến** | [Salary Negotiation](./career-growth/salary-negotiation.md) · [Managing Up](./career-growth/managing-up.md) | Đòn bẩy thu nhập từ công việc chính.
+| **Muốn làm freelance/side hustle** | [Freelancer Framework](./side-hustle/freelancer-framework.md) · [Freelancer Roadmap](./side-hustle/freelancer-roadmap.md) | Lộ trình kiếm khách đầu tiên, hệ thống vận hành dịch vụ.
+| **Muốn học nhanh hơn** | [Learning How to Learn](./meta-skills/learning-how-to-learn.md) · [PKM System](./meta-skills/pkm-system.md) | Nâng tốc độ hấp thụ và giữ kiến thức.
+| **Muốn reset mỗi tháng** | [Monthly Reset](./monthly-reset.md) | Giữ nhịp, dọn backlog, lên ưu tiên tháng.
+| **Cần chống kiệt sức (burnout)** | [Energy Management](./core-skills/energy-management.md) · [Burnout Recovery](../well-being/burnout.md) *(nếu có)* | Nhận diện dấu hiệu, phục hồi năng lượng.
+| **Muốn dùng AI để tăng năng suất** | [Working with AI](./meta-skills/working-with-ai.md) · [AI cho Productivity](#ai-cho-productivity) | Tận dụng tóm tắt, viết nháp, code assist.
+
 ### 1. Core Skills (Kỹ năng cốt lõi)
 Xây dựng nền tảng cho một bộ não hiệu suất cao.
 *   **[Mental Models Library](./mental-models/mental-models-library.md):** Thư viện các mô hình tư duy cốt lõi (First Principles, Inversion, Pareto...).
@@ -57,6 +69,7 @@ Xây dựng nền tảng cho một bộ não hiệu suất cao.
 *   **[Communication & Pedagogy](./core-skills/communication-mastery.md):** Kỹ năng sư phạm và diễn đạt - Đòn bẩy cho sự nghiệp (The Multiplier Skill).
 *   **[Time Management Systems](./core-skills/time-management-systems.md):** Các hệ thống quản lý thời gian (Pomodoro, Time Blocking, GTD).
 *   **[Energy Management](./core-skills/energy-management.md):** Quản trị năng lượng quan trọng hơn quản trị thời gian. (Ngủ, Dinh dưỡng, Dopamine Detox).
+*   **[Attention Mastery](./core-skills/attention-mastery.md):** Bảo vệ và huấn luyện chú tâm, giảm xao nhãng (thêm digital minimalism/phone protocol).
 
 ### 2. Career Growth (Thăng tiến sự nghiệp)
 Tối ưu hóa nguồn thu nhập chính (Active Income).
@@ -70,6 +83,7 @@ Tối ưu hóa nguồn thu nhập chính (Active Income).
 *   **[Freelancer Roadmap](./side-hustle/freelancer-roadmap.md):** Lộ trình từ Zero đến khách hàng đầu tiên.
 *   **[Content Creation Blueprint](./side-hustle/content-creation-blueprint.md):** Xây dựng thương hiệu cá nhân và kiếm tiền từ viết lách/video.
 *   **[Monetization Models](./side-hustle/monetization-models.md):** Affiliate, Digital Products, Coaching.
+*   **Liên kết nhanh:** Nghiên cứu thị trường & audience: [Market Research](../02-wealth-business/market-research.md) *(nếu có)*; Tăng traffic/monetization: [MMO Roadmap](../02-wealth-business/mmo-roadmap.md) *(nếu có)*.
 
 ---
 
@@ -78,3 +92,8 @@ Tối ưu hóa nguồn thu nhập chính (Active Income).
 1.  **Audit:** Theo dõi thời gian của bạn trong 3 ngày. Bạn đang lãng phí bao nhiêu tiếng cho MXH?
 2.  **Optimize:** Áp dụng Deep Work vào 4 giờ làm việc quan trọng nhất mỗi ngày.
 3.  **Monetize:** Đàm phán tăng lương hoặc bắt đầu dự án Side Hustle đầu tiên.
+
+## 🤖 AI cho Productivity
+- **Tóm tắt & research nhanh:** dùng LLM để tóm tắt tài liệu dài, tạo dàn ý; tham khảo [Working with AI](./meta-skills/working-with-ai.md) và [AI/ML roadmap](../../domains/ai-ml/README.md).
+- **Draft & viết:** dùng AI để viết nháp email, proposal, nội dung; bạn chỉnh sửa để giữ giọng.
+- **Code assist:** pair-programming với AI để tăng tốc, nhưng luôn review và viết test.

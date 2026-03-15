@@ -46,7 +46,7 @@ Nghe đơn giản, nhưng **đa số không làm**. Hai kiểu thất bại ph�
 - Cố xây “hệ thống hoàn hảo” ngay từ đầu → sa đà tìm tool, phần mềm, phương pháp → **không bao giờ bắt tay vào**.
 - **Bắt đầu quan trọng hơn hoàn hảo.** Hệ thống đơn giản (notes + thư mục/tag) đủ để khởi động; tinh chỉnh dần sau.
 
-👉 **Tư duy tương thích:** [Fast Correction / FMS](../../01-mental-models/fast-correction-mindset.md) — tốc độ sửa sai, bắt đầu nhỏ, lặp nhanh.
+👉 **Tư duy tương thích:** [Fast Correction / FMS](../../../01-mental-models/fast-correction-mindset.md) — tốc độ sửa sai, bắt đầu nhỏ, lặp nhanh.
 
 ---
 
@@ -100,4 +100,4 @@ Khi coi việc ôn thi như **một dự án** (xem [Study Project Management](.
 *   **[PKM System (Bộ não thứ hai)](./pkm-system.md):** PARA, CODE, Zettelkasten — cách tổ chức CSDL.
 *   **[Learning How to Learn](./learning-how-to-learn.md):** Feynman, Active Recall, Spaced Repetition — cách học để “vào” CSDL.
 *   **[Study Project Management](./study-project-management.md):** Lộ trình và KPI cho dự án học (mindmap, EOC, mock).
-*   **[Fast Correction / FMS](../../01-mental-models/failure-management-system.md):** Bắt đầu đơn giản, sửa nhanh, tránh bẫy hoàn hảo hóa.
+*   **[Fast Correction / FMS](../../../01-mental-models/failure-management-system.md):** Bắt đầu đơn giản, sửa nhanh, tránh bẫy hoàn hảo hóa.
