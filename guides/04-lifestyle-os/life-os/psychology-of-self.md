@@ -31,6 +31,14 @@ Hệ thống Life OS mạnh đến đâu cũng sẽ sụp đổ nếu phần c�
     *   **Kill your darlings:** Sẵn sàng vứt bỏ ý tưởng tâm đắc nhất nếu dữ liệu chứng minh nó sai.
     *   **Strong opinions, loosely held:** Có quan điểm mạnh mẽ để hành động, nhưng sẵn sàng buông bỏ ngay khi có bằng chứng mới.
 
+## 5. Attention & Willpower Management
+*   **Giới hạn sinh học:** Ý chí (Willpower) và Attention là nguồn hữu hạn; càng quyết định nhỏ lẻ càng nhanh kiệt sức (Decision fatigue).
+*   **Chiến lược:**
+    *   Thiết kế ritual & environment để việc tốt diễn ra tự động (automation > kỷ luật).
+    *   Block thời gian deep work buổi sáng khi ý chí mạnh nhất → tham khảo [Attention Mastery](../../03-career-skills/productivity/core-skills/attention-mastery.md).
+    *   Duy trì năng lượng sinh học (sleep, nutrition) để refill willpower → xem [Energy Management](./energy-management.md) và [Life OS Productivity](../../03-career-skills/productivity/README.md).
+*   **Kết luận:** Bảo vệ attention giống như bảo vệ dòng tiền – nếu để rò rỉ bởi thông báo, cuộc trò chuyện vô nghĩa, bạn không còn năng lượng cho quyết định quan trọng.
+
 ---
 
 ## 🧠 Câu hỏi Check-in (Self Audit)

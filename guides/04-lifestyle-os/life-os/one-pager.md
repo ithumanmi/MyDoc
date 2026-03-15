@@ -28,9 +28,9 @@
 > **Reminder:** Khi thấy hiệu suất tụt vì cơ thể/động lực → quay lại Psychology + Energy. Khi muốn scale lớn → bật Leverage sau khi Growth/Optimization ổn định.
 
 ## 🔧 Templates cần nhớ
-- [Decision Journal](../../templates/decision-journal.md) – log giả định, EV, hậu kiểm.
-- [Risk Radar](../../templates/productivity/risk-radar.md) – tracking trigger & Plan B.
-- *Life Strategy One-pager (coming soon)* – tóm vector + PCA + nguyên tắc sống.
+- [Decision Journal](../../../templates/decision-journal.md) – log giả định, EV, hậu kiểm.
+- [Risk Radar](../../../templates/productivity/risk-radar.md) – tracking trigger & Plan B.
+- [Life Strategy One-Pager](../../../templates/life-strategy-one-pager.md) – vector/PCA/guardrails 1 trang.
 
 ## 🚦 Crash Protocol
 1. **Xác định bước đang lỗi** (Decision/Risk/Strategy/Alignment/Optimization/Growth).

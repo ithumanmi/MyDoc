@@ -30,6 +30,9 @@
 2.  **Scalability Check:** Nếu có 1000 khách hàng (thay vì 10), hệ thống có vỡ không? Hay nó càng mạnh hơn?
 3.  **Logarithmic vs Linear:** Tôi đang tăng trưởng theo hàm mũ (Log/Exp) hay hàm tuyến tính (Linear)? (Làm thuê theo giờ là tuyến tính).
 
+### 📦 Ví dụ Flywheel
+- **Content → Audience → Trust → Offers → Revenue → Better Content:** Viết blog mỗi tuần, xây cộng đồng, mở coaching/cohort, reinvest vào sản phẩm nội dung chất lượng hơn → mỗi vòng đẩy nhau nhanh hơn.
+
 ---
 
 ### 🔗 Related Engines

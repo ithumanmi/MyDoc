@@ -34,7 +34,10 @@
 ## 3. Productize Yourself (Sản phẩm hóa bản thân)
 *   Tìm ra cái bạn giỏi nhất + Cái xã hội cần + Cái người khác khó copy.
 *   Dùng Đòn bẩy (Code/Media) để đóng gói nó thành sản phẩm/dịch vụ có thể bán quy mô lớn.
-*   **Ví dụ:** Bạn giỏi dạy tiếng Anh -> Đừng chỉ dạy kèm (Labor - O(n)). Hãy quay khóa học online (Media - O(1)) hoặc viết App học từ vựng (Code - O(1)).
+*   **Ví dụ:** Bạn giỏi dạy tiếng Anh -> Đừng chỉ dạy kèm (Labor - O(n)). Hãy quay khóa học online (Media - O(1)) hoặc viết App học từ vựng (Code - O(1)). Từ consulting 1-1 → biến thành course/cohort → đóng gói thành product giúp ngủ cũng bán được.
+
+### 📦 Ví dụ Leverage Stack
+- **Consulting → Course → Product:** Năm 1 nhận tư vấn chiến lược (bán thời gian). Từ insight, build khóa học 6 tuần (Media). Khi curriculum chín, đóng gói thành SaaS/product toolkit (Code). Một quyết định giờ ảnh hưởng 1000 khách hàng thay vì 10.
 
 ## 4. Judgement (Sự phán đoán)
 Khi bạn có đòn bẩy lớn, một quyết định sai lầm sẽ gây hậu quả khổng lồ (và ngược lại).

@@ -39,6 +39,10 @@
 2.  Tôi có đang giải quyết vấn đề sai hệ quy chiếu không?
 3.  3 trục chính (PCA) của cuộc đời tôi lúc này là gì? Tôi có đang bị xao nhãng bởi các biến số rác không?
 
+### 📦 Ví dụ PCA
+- **Sức khỏe:** Vector = Ngủ + Ăn + Tập. Nếu ngủ 5h thì dù ăn/tập tốt vẫn lệch vector.
+- **Sự nghiệp:** Vector = Skill (tăng competence) + Network (đòn bẩy con người) + Brand (đòn bẩy media). Thiếu 1 trục → output không compound.
+
 ---
 
 ### 🔗 Related Engines
@@ -46,4 +50,4 @@
 - **Strategy Engine:** Vector đã rõ, chuyển sang chọn cuộc chơi (positive-sum, moat) để compounding đúng hướng → [Strategy Engine](./strategy-engine.md#🎮-playbook-chọn-cuộc-chơi).
 
 ### 📝 Templates & Tools
-- **Life Strategy One-Pager (coming soon):** bản tóm tắt vector + PCA + nguyên tắc ra quyết định (placeholder cho template sắp tạo).
+- **Life Strategy One-Pager:** Tải template 1 trang để khóa North Star, PCA và guardrails → [Template](../../templates/life-strategy-one-pager.md).

@@ -20,6 +20,15 @@ Life OS là tập hợp các mô hình tư duy (Mental Models) được cấu tr
 
 > **Ôn nhanh:** Cần nhớ thứ tự cài đặt và template chính? Mở [Life OS One-Pager](./one-pager.md).
 
+### 🧭 Khi nào dùng engine nào?
+| Tình huống | Engine cần mở | Kết quả mong đợi |
+| --- | --- | --- |
+| Quyết định lớn (đổi việc, đầu tư, chọn đối tác) | [Decision](./decision-engine.md) + [Risk](./risk-engine.md) | Tính EV, check ruin, thiết kế Plan B trước khi commit. |
+| Mất phương hướng, thấy nỗ lực triệt tiêu nhau | [Alignment](./alignment-engine.md) + [Strategy](./strategy-engine.md) | Chuẩn hóa vector sống, chọn đúng game/ngách để tập trung. |
+| Muốn tăng thu nhập bền vững / scale business | [Growth](./growth-engine.md) + [Leverage](./leverage-theory.md) | Thiết kế flywheel, bật đòn bẩy Code/Media/Capital để compound. |
+| Hệ thống bắt đầu vỡ vì quá tải (ops, daily work) | [Optimization](./optimization-engine.md) + [Energy Management](./energy-management.md) | Fix unit economics, dừng local maxima, refill năng lượng. |
+| Burnout, mất động lực/attention | [Psychology of Self](./psychology-of-self.md) + [Energy Management](./energy-management.md) | Reset dopamine, bảo vệ willpower, dựng lại ritual & sleep. |
+
 ### 🔭 Visual Map: Life OS Flow
 
 ![Life OS Flow](./life-os-flow.svg)

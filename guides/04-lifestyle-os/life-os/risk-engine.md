@@ -23,6 +23,11 @@
 *   **Tư duy:** Mọi thứ tự nhiên sẽ hỏng hóc.
 *   **Hành động:** Chủ động bảo trì (Maintenance). Sức khỏe, Mối quan hệ, Kiến thức cần được chăm sóc định kỳ, không đợi hỏng mới sửa.
 
+### 5. Tail Risk vs Routine Risk
+*   **Routine risk:** Tai nạn nhỏ lặp lại hằng ngày (bug production, khách hủy hẹn) → xử lý bằng quy trình, checklist.
+*   **Tail risk:** Sự kiện hiếm nhưng hủy diệt (Black Swan: layoff đột ngột, chiến tranh, sàn sập). Tail risk cần dự phòng lớn (cash, diversification, relocation plan) và không được bỏ qua chỉ vì xác suất thấp.
+*   **Nguyên tắc:** Routine risk = tối ưu hóa & automation. Tail risk = xây Margin of Safety, bảo hiểm, optionality.
+
 ---
 
 ## 🛠️ Quy trình Quản trị Rủi ro (Checklist)

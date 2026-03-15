@@ -20,6 +20,11 @@
 *   **Tư duy:** Mọi sự lựa chọn đều có giá. Giá của A là việc không được chọn B.
 *   **Hành động:** "Nếu tôi làm việc này, tôi sẽ KHÔNG làm được việc gì khác?"
 
+### 5. Second-order Effects (Hệ quả bậc 2)
+*   **Tư duy:** Quyết định tốt không chỉ xét kết quả trực tiếp mà còn chuỗi phản ứng phía sau (Systems Thinking).
+*   **Ví dụ:** Nhận freelance thêm giờ = tiền tăng (bậc 1) nhưng ngủ ít → hiệu suất ngày mai giảm, mất cơ hội thăng tiến (bậc 2). Luôn hỏi “Điều này kéo theo phản ứng dây chuyền nào?”
+*   **Đọc thêm:** [Systems Thinking](../01-mental-models/systems-thinking.md) *(cập nhật link chính xác nếu khác).* 
+
 ---
 
 ## 🛠️ Quy trình Ra quyết định (Checklist)

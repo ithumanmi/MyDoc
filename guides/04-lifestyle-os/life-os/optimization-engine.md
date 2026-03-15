@@ -36,6 +36,9 @@
 2.  Lợi ích cận biên của giờ làm việc thêm này có dương không? Hay tôi chỉ đang bận rộn giả tạo?
 3.  Tôi có đang tối ưu hóa một thứ không nên tồn tại không? (Peter Drucker: "Nothing is less productive than to make more efficient what should not be done at all.")
 
+### 📦 Ví dụ Local vs Global
+- **Công ty an toàn vs Startup:** Ở lại BigCo lương cao nhưng học chậm = local maxima. Dám nhảy sang startup, chịu giảm lương 6 tháng để học shipping/product/PMF = bước xuống thung lũng để leo đỉnh cao hơn.
+
 ---
 
 ### 🔗 Related Engines

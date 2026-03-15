@@ -30,6 +30,10 @@
 2.  **Win-Win Check:** Trong mối quan hệ này, cả hai bên có cùng thắng không? Nếu một bên thua, mối quan hệ sẽ không bền.
 3.  **Positioning:** Tôi có đang đứng ở vị trí "Hub" (trung tâm kết nối) không?
 
+### 📦 Ví dụ nhanh
+- **Positive-sum vs Zero-sum:** Thay vì tranh credit trong phòng họp (zero-sum), bạn đề xuất quy trình giúp cả team ship nhanh hơn, biến đồng nghiệp thành ally.
+- **Đổi game bằng ngách:** Từ dev generic, bạn build newsletter chuyên sâu về Fintech Vietnam → thành người số 1 trong niche hẹp, được headhunt & mở consulting.
+
 ---
 
 ### 🔗 Related Engines
