@@ -178,5 +178,77 @@ sequenceDiagram
 
 ---
 
+## 11. Case Study: Metadata Search & Query Engine
+
+### Bài toán
+Mỗi user có hàng triệu file, cần tìm kiếm theo tên, tag, người chỉnh sửa, thời gian cập nhật chỉ trong vài trăm mili-giây.
+
+### Kiến trúc
+
+```mermaid
+flowchart LR
+    MetadataDB[(Metadata DB)] --> CDC[Change Data Capture]
+    CDC --> Indexer[Indexer Pipeline]
+    Indexer --> SearchIndex[(Search Index - Elastic/OpenSearch)]
+    Client --> SearchAPI[Search API]
+    SearchAPI --> SearchIndex
+    SearchAPI --> MetadataDB
+```
+
+1. **Change Data Capture (CDC):** Stream binlog hoặc sử dụng Debezium để gửi mọi thay đổi metadata sang Kafka.
+2. **Indexer Pipeline:** Workers chuẩn hóa dữ liệu (tokenize, n-gram, permission filtering) rồi ghi vào Elastic/OpenSearch.
+3. **Search API:** Truy vấn index trước (full-text), sau đó gọi Metadata DB để lấy metadata chi tiết và kiểm tra ACL.
+
+### Permission-aware Search
+- Index lưu `doc_id` + `visibility bitmap` (owner, shared users, nhóm).
+- Khi query, Search API tính `allowed_principals` từ access token → thêm filter trên bitmap hoặc `join table` cache.
+- Với file share public link, TTL được nhúng vào index để tự động expire.
+
+### Tối ưu
+- **Hybrid Query:** Kết hợp vector search (semantic) với keyword search truyền thống.
+- **Prefix Index:** Dùng Edge N-gram để hỗ trợ autocomplete tên file.
+- **Query Federation:** Nếu user có workspace riêng, giữ shard nóng trong memory để tránh fan-out.
+
+### Trade-offs
+- Duplicated storage giữa Metadata DB và Search Index (eventual consistency ~seconds).
+- CDC lag có thể gây chậm cập nhật quyền truy cập → cần audit job để sync định kỳ.
+- Elastic cluster tốn chi phí, nên thiết lập ILM (Index Lifecycle Management) với snapshot S3 để giảm cost.
+
+---
+
+## 12. Case Study: Backup & Cross-region Restore
+
+### Bài toán
+Đảm bảo không mất dữ liệu khi datacenter gặp sự cố, đồng thời cung cấp khả năng khôi phục file/lịch sử phiên bản khi user xóa nhầm.
+
+### Kiến trúc
+
+```mermaid
+flowchart LR
+    MetadataPrimary[(Metadata Cluster - Region A)] --> WAL[Write-ahead Log]
+    WAL --> CDC[Change Streams]
+    CDC --> BackupJobs[Backup Orchestrator]
+    BackupJobs --> SnapshotStore[(Snapshot Storage - S3/Glacier)]
+    SnapshotStore --> RestoreSvc[Restore Service]
+    RestoreSvc --> RegionB[(Replica Region B)]
+    RestoreSvc --> UserRequest
+```
+
+1. **Incremental Snapshot:** Metadata DB tạo snapshot mỗi đêm (full) + incremental theo block-level, lưu vào S3 với versioning.
+2. **Chunk Backup:** Object Storage dùng Cross-Region Replication (CRR) async, đồng thời tạo checksum manifest để đảm bảo toàn vẹn.
+3. **Backup Orchestrator:** Theo dõi job status, giữ catalog (snapshot_id, timestamp, region).
+4. **Restore Workflows:**
+   - **Disaster Recovery:** Promote Region B thành primary, rehydrate metadata từ snapshot mới nhất + apply change stream.
+   - **Per-file Restore:** User chọn file → Restore Service lấy chunk + metadata pointer từ snapshot tương ứng, ghi về Region A.
+
+### RPO/RTO
+- **RPO:** Metadata 5 phút (nhờ change stream), chunk data vài phút do CRR latency.
+- **RTO:** DR < 30 phút bằng cách giữ cluster warm-standby ở Region B.
+
+### Trade-offs
+- Chi phí nhân đôi storage + băng thông replication.
+- Snapshot lớn → cần dedup/compression và lifecycle policy (giữ 7 daily, 4 weekly, 12 monthly).
+- Restore per-file phải kiểm tra ACL để tránh khôi phục file mà user không còn quyền.
+
 ## 📚 Bài tiếp theo
 *   [Design Rate Limiter](./design-rate-limiter.md)

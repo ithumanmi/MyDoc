@@ -85,6 +85,78 @@ flowchart LR
 
 ---
 
+## 6. Case Study: Anti-abuse Firewall (DoS + Credential Stuffing)
+
+### Bài toán
+Các endpoint login/signup bị bot tấn công credential stuffing, khiến backend quá tải và gia tăng nguy cơ lock account.
+
+### Kiến trúc
+
+```mermaid
+flowchart LR
+    Client --> Edge[Edge Proxy]
+    Edge --> WAF[WAF + Bot Signals]
+    WAF --> RateLimiter[Global Rate Limiter]
+    RateLimiter --> TokenBuckets[Token Buckets per IP/User]
+    TokenBuckets --> AuthSvc[Auth Service]
+    WAF --> SIEM[Security Analytics]
+```
+
+1. **Edge Proxy/CDN** terminate TLS và thêm header device fingerprint.
+2. **WAF** gắn nhãn traffic (bot score, ASN reputation) → gửi metadata kèm request.
+3. **Global Rate Limiter** đánh chỉ số per tenant, per API key, per IP /24.
+4. **Token Buckets** trong Redis/LFU cache: bucket nghi ngờ bị shrink capacity.
+5. **Security Analytics (SIEM)** ghi nhận IP bị chặn để hỗ trợ threat intel.
+
+### Chiến lược hạn chế lạm dụng
+- **Dynamic Penalty:** Nếu bot score cao hoặc liên tục 429 → giảm tốc độ refill token.
+- **Multi-dimensional Keys:** `limit:{user}:{ip}:{device}` tránh bot xoay IP.
+- **Shadow Mode:** Trước khi bật luật mới, chạy ở chế độ giám sát để tránh chặn nhầm user thật.
+
+### Trade-offs
+- Penalty quá mạnh gây false positive, nhất là Wi-Fi công cộng (nhiều người chung IP).
+- WAF + rate limiter cần latency <5ms để không ảnh hưởng login.
+- Bảo trì blacklist lớn tốn chi phí; nên kết hợp threat intel feed tự động.
+
+---
+
+## 7. Case Study: Behavioral Analytics & Auto-Mitigation
+
+### Bài toán
+Các API công khai (search, pricing) bị abuse bởi script phân tán, traffic hợp lệ trộn lẫn khiến việc chặn theo IP không hiệu quả.
+
+### Kiến trúc
+
+```mermaid
+flowchart LR
+    Requests --> Stream[Kafka Stream]
+    Stream --> FeatureETL[Real-time Feature ETL]
+    FeatureETL --> FeatureStore[(Feature Store)]
+    FeatureStore --> AnomalyModel[Anomaly Service]
+    AnomalyModel --> Mitigation[Auto-Mitigation Engine]
+    Mitigation --> PolicyDB[(Policy Store)]
+    PolicyDB --> EdgeGateway
+    EdgeGateway --> RateLimiter
+```
+
+1. **Streaming ETL:** Mọi request được publish lên Kafka với metadata (tenant, path, device, latency).
+2. **Feature Store:** Tính sliding metrics (`req_per_minute`, `error_ratio`, `token_miss_rate`) cho từng dimension.
+3. **Anomaly Service:** Dùng models (Isolation Forest/Prophet) phát hiện spike bất thường.
+4. **Auto-Mitigation Engine:** Khi score vượt ngưỡng, tạo rule tạm thời (ví dụ giảm quota 90%, yêu cầu captcha) lưu vào Policy Store.
+5. **Edge Gateway:** Pull rule mới mỗi vài giây, áp dụng ngay tại ingress trước khi vào Rate Limiter truyền thống.
+
+### Điều phối vận hành
+- **Human-in-the-loop:** SOC nhận alert có thể override rule hoặc promote thành permanent policy.
+- **Decay policy:** Rule tự hết hạn sau 30 phút nếu không còn anomalous traffic.
+- **Safe-list:** Các partner quan trọng được safe-list nhưng vẫn theo dõi metrics để cảnh báo mềm.
+
+### Trade-offs
+- Hệ thống ML phức tạp, cần dữ liệu chất lượng và pipeline observability.
+- Rule tự động có thể chặn nhầm chiến dịch marketing legit; phải thiết kế UI kiểm duyệt nhanh.
+- Latency của pipeline analytics (5-10s) → cần buffer ở rate limiter hiện có để chịu đựng spike trong khoảng thời gian đó.
+
+---
+
 ## 6. Quick Estimation Template
 | Thông số | Ví dụ giả định | Ghi chú |
 | --- | --- | --- |
