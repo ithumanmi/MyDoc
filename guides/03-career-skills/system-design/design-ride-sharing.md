@@ -52,6 +52,24 @@ Làm sao để tìm tài xế "gần nhất" trong hàng triệu người một 
     *   Mỗi vùng đất được gán một ID duy nhất. Các ID gần nhau trên dãy số cũng gần nhau trên bản đồ.
     *   *Ưu điểm:* Query cực nhanh bằng cách so sánh dãy số ID.
 
+```mermaid
+flowchart TD
+    subgraph City Map
+        Quad1[Cell A1]
+        Quad2[Cell A2]
+        Quad3[Cell B1]
+        Quad4[Cell B2]
+    end
+    Rider((Rider)) -->|Request ride| Dispatcher[Matching Service]
+    Dispatcher --> GeoIndex[Geo Index (S2/QuadTree)]
+    GeoIndex --> Drivers{Nearby Drivers}
+    Drivers --> Dispatcher
+    Dispatcher -->|Assign| Driver
+    Driver --> Rider
+```
+
+> Matching Service truy vấn Geo Index để lấy danh sách tài xế trong các cell lân cận, sau đó tính ETA và chọn tài xế tốt nhất.
+
 ---
 
 ## 5. Deep Dive: Matching & Surge Pricing
@@ -66,12 +84,39 @@ Làm sao để tìm tài xế "gần nhất" trong hàng triệu người một 
 *   Nếu số lượng hành khách > số tài xế trống trong một ô (Cell) -> Kích hoạt hệ số nhân giá.
 *   *Mục tiêu:* Khuyến khích tài xế di chuyển từ vùng vắng khách sang vùng đang có Surge.
 
+```mermaid
+sequenceDiagram
+    participant Rider
+    participant Gateway
+    participant Matching
+    participant LocationDB
+    participant Driver
+    Rider->>Gateway: Yêu cầu chuyến đi
+    Gateway->>Matching: Request + vị trí rider
+    Matching->>LocationDB: Query drivers trong Cell
+    LocationDB-->>Matching: Danh sách driver + ETA
+    Matching->>Driver: Push đề xuất chuyến (websocket)
+    Driver-->>Matching: Accept / Reject
+    Matching-->>Gateway: Driver được ghép + Surge price
+    Gateway-->>Rider: Xác nhận chuyến + ETA
+```
+
+> Sequence cho thấy flow thời gian thực: rider request → matching → thông báo driver → chấp nhận → phản hồi rider.
+
 ---
 
 ## 6. Interview Pro-tips (Trade-offs)
 
 1.  **Consistency vs Availability:** Vị trí tài xế không cần chính xác 100% từng mili-giây (Eventual Consistency). Tuy nhiên, khâu thanh toán và khớp lệnh phải đảm bảo tính nhất quán (Strong Consistency).
 2.  **Database:** Dùng **Redis (with Geospatial indexes)** để lưu vị trí tài xế vì tốc độ đọc/ghi cực nhanh. Dùng **PostgreSQL (PostGIS)** để lưu dữ liệu hạ tầng bản đồ cố định.
+
+---
+
+## 7. Optimization Ideas
+- **Cold Start:** Preload tài xế trên route phổ biến dựa vào lịch sử demand.
+- **Pooling / Shared Rides:** Matching service cần hỗ trợ ghép nhiều rider trên cùng một xe (điều chỉnh cost function).
+- **Driver Incentive Engine:** Dùng ML dự đoán nhu cầu để push khuyến mãi cho tài xế di chuyển đến cell đang thiếu.
+- **Fraud Detection:** Giám sát hành vi giả lập vị trí hoặc hủy chuyến liên tục.
 
 ---
 
