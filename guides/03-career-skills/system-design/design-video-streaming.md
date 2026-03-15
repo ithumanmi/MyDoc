@@ -54,15 +54,23 @@ Hệ thống sử dụng các giao thức như **HLS (Apple)** hoặc **DASH (MP
 
 ```mermaid
 flowchart LR
+    Uploader((Uploader))
+    WebAPI[Web API]
+    Queue[(Encoding Queue)]
+    Transcoder[Transcoding Workers]
+    Storage[(Blob Storage)]
+    CDN[[CDN Edge]]
+    Viewer((Viewer))
+    Analytics[(Playback Analytics)]
     Uploader -->|HTTP Upload| WebAPI
-    WebAPI --> Queue[Encoding Queue]
-    Queue --> Transcoder[Transcoding Workers]
-    Transcoder --> Storage[Blob Storage (S3/GCS)]
-    Storage --> CDN[CDN Edge]
+    WebAPI --> Queue
+    Queue --> Transcoder
+    Transcoder --> Storage
+    Storage --> CDN
     Viewer --> CDN
     CDN -->|Manifest + Segments| Viewer
     Analytics --> WebAPI
-    Viewer --> Analytics[Playback Analytics]
+    Viewer --> Analytics
 ```
 
 > Pipeline cơ bản: Upload -> Queue -> Transcode -> Lưu bản mã hóa -> CDN -> Client adaptive streaming.
