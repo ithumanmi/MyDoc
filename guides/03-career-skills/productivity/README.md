@@ -29,6 +29,28 @@ Trong kỷ nguyên AI và tự động hóa, "làm việc chăm chỉ" (Hard wor
 
 ## 📚 Mục lục
 
+### 🎯 Bắt đầu theo mục tiêu
+| Bạn muốn… | Đọc trước | Rồi tới |
+| --- | --- | --- |
+| Tập trung hơn, ít xao nhãng | [Deep Work System](./core-skills/deep-work-system.md) · [Attention Mastery](./core-skills/attention-mastery.md) | [Time Management Systems](./core-skills/time-management-systems.md) · [Personal Work Framework](./core-skills/personal-work-framework.md) |
+| Tăng lương / thăng tiến | [Salary Negotiation](./career-growth/salary-negotiation.md) · [Managing Up](./career-growth/managing-up.md) · [The 80/20 Career](./career-growth/80-20-career.md) | [Strategic Thinking Playbook](./mental-models/strategic-thinking.md) · [Communication & Pedagogy](./core-skills/communication-mastery.md) |
+| Bắt đầu freelance / side income | [Freelancer Framework](./side-hustle/freelancer-framework.md) · [Freelancer Roadmap](./side-hustle/freelancer-roadmap.md) | [Proposal & Contract](./side-hustle/freelancer-framework.md#proposal--pricing) · [Core Skills](./core-skills/INDEX.md) (time/energy) |
+| Học nhanh, quản lý kiến thức | [Learning How to Learn](./meta-skills/learning-how-to-learn.md) · [PKM System](./meta-skills/pkm-system.md) · [Personal Knowledge Base](./meta-skills/personal-knowledge-base.md) | [Study Project Management](./meta-skills/study-project-management.md) · [Working with AI](./meta-skills/working-with-ai.md) |
+
+**Chi tiết nhanh theo mục tiêu**
+- **Tập trung hơn**
+  - Checklist: (1) Phone protocol: tắt thông báo, đặt xa bàn; (2) Website block: block 3–5 site gây xao nhãng; (3) 2–4 block Deep Work/ngày (90–120p, 1–2 task quan trọng/block); (4) Cuối ngày: nhật ký “what’s stuck” + Next Actions cho mai.
+  - Ví dụ: 09:00–11:00 viết proposal, 14:00–15:30 review code; cuối ngày ghi 3 việc mai cần làm.
+- **Tăng lương/thăng tiến**
+  - Checklist: (1) Ghi log impact/metrics hàng tuần (doanh thu, tiết kiệm chi phí, SLA); (2) Chuẩn bị script/anchor cho đàm phán; (3) Weekly update cho quản lý: 3 bullet (Done, Doing, Risks/Needs); (4) Xin feedback sớm, kèm kế hoạch chỉnh.
+  - Ví dụ: Báo cáo “tối ưu pipeline giảm 20% chi phí compute”, đính kèm số liệu trước/sau; gửi update thứ Sáu 5 phút đọc.
+- **Freelance/side income**
+  - Checklist: (1) Chọn dịch vụ mũi nhọn (niche + outcome); (2) Làm 1–2 case study demo (trước/sau, quy trình); (3) 5 outreach/ngày (Upwork/LinkedIn/email); (4) Proposal template + hợp đồng mẫu; (5) Onboarding checklist cho client.
+  - Ví dụ: Dịch vụ “Landing page tối ưu chuyển đổi cho SaaS”; outreach 5 founder/ngày; gửi proposal kèm case study tăng CR 12%.
+- **Học nhanh & quản lý kiến thức**
+  - Checklist: (1) Mỗi phiên học: 25–50p Feynman + Active Recall; (2) Note vào PKM: 3 ý chính + 2 liên kết tới note cũ; (3) Weekly review 60p: gom mảnh rời, tạo 1 synthesis note; (4) Lập “study project” với mục tiêu đo được (ví dụ: 3 bài tập/tuần, 1 bài viết tổng hợp/tháng).
+  - Ví dụ: Học LLM: đọc 1 paper/ngày, viết note 3 bullet + liên kết sang “Transformers basics”, cuối tuần viết 1 note tổng hợp “Attention variants”.
+
 ### 🎯 Bạn đang… → Đọc gì trước?
 | Tình huống | Ưu tiên đọc | Lý do |
 | --- | --- | --- |
@@ -68,6 +90,7 @@ Xây dựng nền tảng cho một bộ não hiệu suất cao.
 *   **[PKM System (Building a Second Brain)](./meta-skills/pkm-system.md):** Xây dựng bộ não thứ hai để quản lý tri thức (PARA, CODE, Zettelkasten).
 *   **[Communication & Pedagogy](./core-skills/communication-mastery.md):** Kỹ năng sư phạm và diễn đạt - Đòn bẩy cho sự nghiệp (The Multiplier Skill).
 *   **[Time Management Systems](./core-skills/time-management-systems.md):** Các hệ thống quản lý thời gian (Pomodoro, Time Blocking, GTD).
+*   **[Monthly Reset](./monthly-reset.md):** Nghi thức review & reset hàng tháng (5' setup · 20' review · 20' reset/realign · 15' recharge) + checklist copy/paste. Gợi ý mục tiêu tháng: 1) 3 Focus Goals; 2) Lead measures/tuần; 3) 1 ritual năng lượng.
 *   **[Energy Management](./core-skills/energy-management.md):** Quản trị năng lượng quan trọng hơn quản trị thời gian. (Ngủ, Dinh dưỡng, Dopamine Detox).
 *   **[Attention Mastery](./core-skills/attention-mastery.md):** Bảo vệ và huấn luyện chú tâm, giảm xao nhãng (thêm digital minimalism/phone protocol).
 
