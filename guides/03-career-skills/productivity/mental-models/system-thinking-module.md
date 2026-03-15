@@ -102,6 +102,36 @@ Khi thiết kế blueprint, luôn hỏi:
 2. Khi hệ thống cho ra kết quả bất ngờ, đừng vội phá; hãy hỏi “Emergent behavior này có hữu ích không? Có nên amplify hay dampen?”.
 3. Đối với team: kết hợp “simple rule” + autonomy → tạo emergent solution sáng tạo hơn áp KPI cứng nhắc.
 
+### Leverage Points – Điểm tác động nhỏ tạo thay đổi lớn
+
+- Donella Meadows gọi đây là “điểm bẩy” trong hệ thống: can thiệp rất nhỏ nhưng khuếch đại qua loop.
+- Ví dụ dev: thay đổi “definition of done” + CI automation → giảm 50% bug mà không cần tăng headcount.
+- Productivity: chuyển meeting update sang async Loom → tiết kiệm 4h/tuần cho cả team.
+
+**Ứng dụng:** Liệt kê toàn bộ thành phần hệ thống, hỏi “Nếu tweak 1% ở đâu sẽ tạo ripple lớn nhất?” → ưu tiên thử nghiệm leverage trước khi đổ effort brute force.
+
+### Bottleneck Theory – Tốc độ hệ thống = nút thắt chậm nhất
+
+- Dây chuyền chỉ nhanh bằng công đoạn chậm nhất (Theory of Constraints).
+- Ví dụ dev: code review queue backlog 3 ngày làm cả release trễ dù dev code rất nhanh.
+- Productivity cá nhân: inbox/communication backlog khiến dự án kẹt dù bạn làm Deep Work tốt.
+
+**Ứng dụng:**
+1. Mỗi tuần xác định bottleneck duy nhất.
+2. Giải bottleneck → đo hiệu ứng → chỉ khi bottleneck mới xuất hiện ở chỗ khác mới chuyển mục tiêu.
+
+### Second-Order Thinking – Nghĩ về hệ quả cấp 2
+
+- Quyết định hôm nay tạo hệ quả cấp 1 (trực tiếp) và cấp 2 (gian tiếp). Người thiếu hệ thống chỉ nhìn cấp 1.
+- Ví dụ: Tăng overtime để ship nhanh (cấp 1: deadline đạt). Cấp 2: team burnout, bug tăng, khách hàng mất niềm tin.
+- Ví dụ tích cực: Giảm khách hàng hạng C (cấp 1: revenue giảm nhẹ). Cấp 2: team rảnh chăm khách A+, upsell mạnh hơn.
+
+**Checklist:**
+1. Nếu làm X, điều gì xảy ra ngay lập tức?
+2. Điều gì xảy ra sau 3 tuần/3 tháng?
+3. Có cách nào đạt lợi ích cấp 1 mà tránh hại cấp 2 (guardrail)?
+
+
 ---
 
 ## 🧾 Day 0 – System Brief
