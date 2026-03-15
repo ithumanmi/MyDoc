@@ -54,14 +54,14 @@
 
 | Thời gian | Life OS (Brainware) | Well-being (Hardware) | Politics (Environment) |
 | --- | --- | --- | --- |
-| **Day 0-30** | Cài **Decision Engine** + tạo Decision Log (10 quyết định gần nhất). | Thiết lập **Sleep & Cortisol Protocol** (ngủ 23h, no screen 60’). | Đọc `politics/README.md` + ghi chú 5 thuật ngữ mới. |
-| **Day 31-60** | Xây **Risk Engine**: lập Risk Radar cá nhân + trigger. | Hoàn thiện **Health OS Tracker** (Nutrition + Movement). | Deep dive `politics/vietnam-system.md`, vẽ sơ đồ cơ cấu. |
+| **Day 0-30** | Cài **Decision Engine** + tạo Decision Log (10 quyết định gần nhất) bằng [Decision Journal Template](../../templates/productivity/decision-journal.md). | Thiết lập **Sleep & Cortisol Protocol** (ngủ 23h, no screen 60’). | Đọc [politics/README.md](politics/README.md) + ghi chú 5 thuật ngữ mới. |
+| **Day 31-60** | Xây **Risk Engine**: lập Risk Radar cá nhân + trigger. | Hoàn thiện **Health OS Tracker** (Nutrition + Movement). | Deep dive [politics/vietnam-system.md](politics/vietnam-system.md), vẽ sơ đồ cơ cấu. |
 | **Day 61-90** | Tổng hợp **Strategy/Alignment Engine** thành Life Strategy One-Pager. | Chạy **Mental Resilience Sprint** (Thiền + Stoicism checklist). | Viết mini-briefing 500 chữ về 1 sự kiện geopolitics + tác động tới bạn.
 
 > **Starter Pack:**
-> - Life OS: `decision-engine.md`, `risk-engine.md`, `strategy-engine.md`, template Decision Log.
-> - Well-being: `health-os-overview.md`, `sleep-optimization.md`, `mental-resilience/burnout-prevention.md`.
-> - Politics: `politics/README.md`, `vietnam-system.md`, `geopolitics/world-order.md`.
+> - Life OS: [decision-engine.md](life-os/decision-engine.md), [risk-engine.md](life-os/risk-engine.md), [strategy-engine.md](life-os/strategy-engine.md), template Decision Log.
+> - Well-being: [health-os-overview.md](well-being/biohacking/health-os-overview.md), [sleep-optimization.md](well-being/biohacking/sleep-optimization.md), [mental-resilience/burnout-prevention.md](well-being/mental-resilience/burnout-prevention.md).
+> - Politics: [politics/README.md](politics/README.md), [vietnam-system.md](politics/vietnam-system.md), [geopolitics/world-order.md](politics/geopolitics/world-order.md).
 
 ---
 
@@ -70,8 +70,8 @@
 | Artifact | Mục đích | File/Template |
 | --- | --- | --- |
 | **Lifestyle Audit Sheet** | Tự chấm Meaning/Risk/Energy | [templates/well-being/daily-performance-tracker.md](../../../templates/well-being/daily-performance-tracker.md) + bảng checklist ở README này |
-| **Decision Log** | Ghi Assumption → Outcome để luyện Decision Engine | Gợi ý: tạo doc riêng hoặc dùng [templates/personal-metrics-dashboard.md](../../../templates/personal-metrics-dashboard.md) |
-| **Risk Radar** | Liệt kê rủi ro Life/Wealth/Politics + trigger | Dùng khung trong [life-os/risk-engine.md](life-os/risk-engine.md) |
+| **Decision Log** | Ghi Assumption → Outcome để luyện Decision Engine | [Decision Journal Template](../../templates/productivity/decision-journal.md) hoặc [Personal Metrics Dashboard](../../templates/personal-metrics-dashboard.md) |
+| **Risk Radar** | Liệt kê rủi ro Life/Wealth/Politics + trigger | [Risk Radar Template](../../templates/productivity/risk-radar.md) + khung trong [life-os/risk-engine.md](life-os/risk-engine.md) |
 | **Health OS Tracker** | Theo dõi ngủ/ăn/movement hàng ngày | [well-being/biohacking/health-os-overview.md](well-being/biohacking/health-os-overview.md) + template tracker |
 | **Geopolitical Brief** | Tóm tắt sự kiện chính trị, liên hệ sự nghiệp | Tự tạo note theo checklist Phase 3 (Politics README) |
 
@@ -87,8 +87,8 @@
 - **Life OS ↔ Philosophy:** Cài đặt worldview bằng [philosophy/README.md](../01-mental-models/philosophy/README.md); dùng [practical-applications/stoicism-daily.md](../01-mental-models/philosophy/practical-applications/stoicism-daily.md) làm “mềm” cho Decision Engine.
 - **Life OS ↔ Politics:** [strategy-engine.md](life-os/strategy-engine.md) và [risk-engine.md](life-os/risk-engine.md) áp dụng trực tiếp vào việc hiểu trật tự thế giới, phòng thủ trước biến động.
 - **Well-being ↔ Politics:** Khi nghiên cứu chính trị/căng thẳng, kích hoạt [mental-resilience/stoicism-for-modern-life.md](well-being/mental-resilience/stoicism-for-modern-life.md) để giữ tâm ổn định.
-- **Life OS ↔ Wealth Guides:** Nếu mục tiêu là chuẩn bị di cư/đầu tư quốc tế, kết hợp `life-os/strategy-engine.md` + `life-os/risk-engine.md` với **Wealth Business / Legal Resources**.
-- **Well-being ↔ Career Skills:** Khi bước vào giai đoạn high-output (ví dụ Principal Engineer roadmap), sync ritual ở `well-being/high-performance.md` với [guides/03-career-skills/productivity](../03-career-skills/productivity/README.md).
+- **Life OS ↔ Wealth Guides:** Nếu mục tiêu là chuẩn bị di cư/đầu tư quốc tế, kết hợp [life-os/strategy-engine.md](life-os/strategy-engine.md) + [life-os/risk-engine.md](life-os/risk-engine.md) với **Wealth Business / Legal Resources**.
+- **Well-being ↔ Career Skills:** Khi bước vào giai đoạn high-output (ví dụ Principal Engineer roadmap), sync ritual ở [well-being/high-performance.md](well-being/high-performance.md) với [guides/03-career-skills/productivity](../03-career-skills/productivity/README.md).
 - **Politics ↔ Decision Engine:** Viết Risk Radar theo politics phase rồi convert thành Decision Playbook cho gia đình/sự nghiệp.
 
 ## 🧭 Cách dùng Hub
