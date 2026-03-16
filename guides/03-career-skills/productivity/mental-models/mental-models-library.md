@@ -14,6 +14,7 @@ Mental Model (Mô hình tư duy) là những khung nhận thức giúp chúng ta
 *   **Định nghĩa:** Phá vỡ vấn đề thành những sự thật cơ bản nhất (không thể chia nhỏ hơn nữa) rồi xây dựng lại từ đầu.
 *   **Ứng dụng:** Elon Musk dùng nó để tạo ra SpaceX. Thay vì mua tên lửa giá 65tr USD, ông tính giá nguyên vật liệu chỉ 2% số đó và tự chế tạo.
 *   **Cách dùng:** Đừng hỏi "Người khác làm thế nào?" (Analogy), hãy hỏi "Về mặt vật lý/cơ bản, điều này có khả thi không?".
+*   **Dùng chung với:** [Life System Thinking](life-system-thinking.md) (phân rã hệ thống), [Strategic Thinking Playbook](strategic-thinking.md) để biến nguyên lý thành chiến lược hành động.
 
 ### 1.2. Second-Order Thinking (Tư duy Bậc hai)
 *   **Định nghĩa:** Suy nghĩ về hậu quả của hậu quả.
@@ -21,20 +22,25 @@ Mental Model (Mô hình tư duy) là những khung nhận thức giúp chúng ta
     *   *Cấp 1:* Mình đói -> Ăn chocolate (Ngon).
     *   *Cấp 2:* Ăn nhiều đường -> Mệt mỏi sau 30p + Tăng cân (Hại).
 *   **Cách dùng:** Luôn hỏi **"Và sau đó thì sao?" (And then what?)**.
+*   **Dùng chung với:** [Probabilistic Thinking](probabilistic-thinking.md) (ước lượng xác suất cho từng hệ quả) và [System Thinking Module](system-thinking-module.md) để map chuỗi tác động trong workshop 4 ngày.
 
 ### 1.3. Inversion (Tư duy Ngược)
 *   **Định nghĩa:** Thay vì nghĩ cách đạt thành công, hãy nghĩ cách tránh thất bại.
 *   **Ứng dụng:** Thay vì "Làm sao để giàu?", hãy hỏi "Làm sao để nghèo bền vững?" (Lười biếng, tiêu xài hoang phí, không học hỏi) -> Tránh làm những việc đó.
 *   **Cách dùng:** Đảo ngược bài toán.
+*   **Dùng chung với:** [Probabilistic Thinking](probabilistic-thinking.md#iv-c%E1%BA%A5p-%C4%91%E1%BB%99-4-s%E1%BB%B1-th%E1%BA%ADt-v%E1%BB%81-may-m%E1%BA%AFn-the-physics-of-luck) để đánh giá rủi ro đuôi béo và [Life OS – Risk Engine](../../04-lifestyle-os/life-os/risk-engine.md) để thiết kế biện pháp tránh “chết vì ngu ngốc”.
 
 ### 1.4. Pareto Principle (Quy luật 80/20)
 *   **Định nghĩa:** 80% kết quả đến từ 20% nguyên nhân.
 *   **Ứng dụng:** 20% khách hàng mang lại 80% lợi nhuận. 20% code gây ra 80% lỗi.
 *   **Cách dùng:** Tập trung nguồn lực vào top 20% quan trọng nhất.
+*   **Dùng chung với:** [Life System Thinking](life-system-thinking.md#3-life-operating-system-los) (Energy/Focus stack) và [Probabilistic Thinking](probabilistic-thinking.md#iii-c%E1%BA%A5p-%C4%91%E1%BB%99-3-chi%E1%BA%BFn-l%C6%B0%E1%BB%A3c-%C4%91%E1%BA%B7t-c%E1%BA%B7c-betting-strategy) để ưu tiên các cược bất đối xứng.
 
 ---
 
 ## 2. Decision Making Models (Mô hình Ra quyết định) ⚖️
+
+> 🔁 **Xem thêm:** [Probabilistic Thinking](probabilistic-thinking.md) (EV, Bayes, Kelly) · [Life OS – Decision Engine](../../04-lifestyle-os/life-os/decision-engine.md)
 
 ### 2.1. Regret Minimization Framework (Giảm thiểu hối tiếc)
 *   **Tác giả:** Jeff Bezos.
@@ -53,6 +59,8 @@ Mental Model (Mô hình tư duy) là những khung nhận thức giúp chúng ta
 ---
 
 ## 3. Productivity Models (Mô hình Năng suất) 🚀
+
+> 🔁 **Xem thêm:** [Probabilistic Thinking](probabilistic-thinking.md#v-cap-%C4%91%E1%BB%99-5-l%C3%A0m-ch%E1%BB%A7-v%E1%BA%ADn-m%E1%BB%87nh-mastery) · [Life OS – Decision & Risk Engine](../../04-lifestyle-os/life-os/README.md#core-engines) để gắn năng suất với quyết định/dòng đời rủi ro.
 
 ### 3.1. Parkinson’s Law (Định luật Parkinson)
 *   **Định nghĩa:** Công việc sẽ tự mở rộng ra để chiếm hết thời gian được ấn định cho nó.

@@ -2,6 +2,13 @@
 
 > Ghi lại các quyết định quan trọng để học từ kết quả và cải thiện tư duy.
 
+**Cấu trúc nhanh (align với Probabilistic Thinking):**
+1. Context & Stakeholders.
+2. Options + Expected Value / Probability ước lượng.
+3. Assumptions + Pre-mortem (nếu thất bại thì vì đâu?).
+4. Risk Mitigation & Experiment plan.
+5. Review date (đặt lịch cụ thể để đánh giá kết quả).
+
 ## 1. Metadata
 
 - **Ngày/Giờ:**
@@ -46,6 +53,7 @@
 - **Điều bất ngờ:**
 - **Giả định đúng/sai:**
 - **Bài học áp dụng cho quyết định sau:**
+- **Ngày review kế tiếp:**
 
 ## 7. Feedback Loop & Review Ritual
 

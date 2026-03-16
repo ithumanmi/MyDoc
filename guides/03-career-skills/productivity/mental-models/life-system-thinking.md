@@ -88,7 +88,7 @@ Tự do thực sự không đến từ việc muốn làm gì thì làm, mà đ�
 
 ## 🏛️ 7. Kiến Trúc Lại 5 Hệ Thống Đời Sống (Life Systems)
 
-1.  **Hệ thống Năng lượng:** Tối ưu giấc ngủ, dinh dưỡng, ánh sáng và vận động.
+1.  **Hệ thống Năng lượng:** Tối ưu giấc ngủ, dinh dưỡng, ánh sáng và vận động. → Muốn đào sâu hơn? Xem [Well-being: Energy Lab](../../04-lifestyle-os/well-being/energy-lab.md) và [Sleep Recovery Playbook](../../04-lifestyle-os/well-being/sleep-architecture.md).
 2.  **Hệ thống Cảm xúc:** Sử dụng Journaling, đặt tên cảm xúc để kích hoạt logic.
 3.  **Hệ thống Môi trường:** Thiết kế khu vực kích hoạt trạng thái Dòng chảy (Flow).
 4.  **Hệ thống Thời gian:** Chia 3 khối (Deep - Shallow - Admin), giới hạn 2 ưu tiên/ngày.
@@ -97,4 +97,7 @@ Tự do thực sự không đến từ việc muốn làm gì thì làm, mà đ�
 ---
 
 ---
+
+> **Bước tiếp theo:** Khi hệ điều hành đã rõ, chuyển sang [System Thinking Module (4 ngày)](system-thinking-module.md) để chạy workshop dựng blueprint chi tiết cho công việc/đời sống.
+
 **Lời kết:** Đời bạn không cần thêm kỷ luật. Đời bạn cần một hệ thống. Khi hệ thống đúng, mọi thứ tự động đúng.

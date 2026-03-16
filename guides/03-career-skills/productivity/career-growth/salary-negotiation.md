@@ -7,13 +7,13 @@ Lương là giá trị thị trường của bạn. Nếu bạn không tự tin 
 > **Quy tắc vàng:** Không đàm phán = Mất tiền tỷ trong suốt sự nghiệp.
 > (Ví dụ: Chênh lệch 2 triệu/tháng sau 10 năm + lãi kép đầu tư = cả trăm triệu).
 
-> **Timing cheat sheet:** Đưa yêu cầu ngay khi bạn vừa **thắng lớn** (ra mắt dự án, cứu deal, nhận thư khen) hoặc **1–2 tuần sau performance review tích cực**. Đây là lúc dữ liệu & cảm xúc đang nghiêng về phía bạn, nên đừng đợi đến “kỳ review chính thức”. Nếu bị từ chối? Lập tức hỏi “cần điều kiện gì” và chốt lại mốc review tiếp theo (30-60-90 ngày) để giữ đà.
+> **Timing cheat sheet:** Đưa yêu cầu ngay khi bạn vừa **thắng lớn** (ra mắt dự án, cứu deal, nhận thư khen) hoặc **1–2 tuần sau performance review tích cực**. Đây là lúc dữ liệu & cảm xúc đang nghiêng về phía bạn, nên đừng đợi đến “kỳ review chính thức”. Nếu bị từ chối? Lập tức hỏi “cần điều kiện gì” và chốt lại mốc review tiếp theo (30-60-90 ngày) để giữ đà. Coi mỗi “win” như một **cửa sổ thời gian 48–72h** để bạn kể lại kết quả + đề xuất anchor mới khi mọi người còn nhớ rõ thành tích của bạn.
 >
 > **Timing windows:**
 > - **Sau “big win”** (launch thành công, được nhắc tên trong townhall): mở cuộc hẹn trong 48h để tận dụng cảm xúc tích cực + số liệu “đang nóng”.
 > - **Ngay sau review tích cực** (≤14 ngày): follow-up với câu “em muốn chuyển thành action plan cụ thể để đạt mức X” trước khi nhiệt bị nguội.
 >
-> **Script & template:** Sử dụng [Salary Negotiation Script](../../../../templates/productivity/salary-negotiation-script.md) (cũng được trích trong [Influence & Negotiation Guide](../../01-mental-models/influence-negotiation.md)) để luyện thoại cho từng tình huống, chuẩn bị sẵn đường lui khi bị từ chối và nhắc lại brag sheet.
+> **Script & template:** Sử dụng [Salary Negotiation Script](../../../../templates/productivity/salary-negotiation-script.md) (cũng được trích trong [Influence & Negotiation Guide](../../01-mental-models/influence-negotiation.md)) để luyện thoại cho từng tình huống, chuẩn bị sẵn đường lui khi bị từ chối và nhắc lại brag sheet. In sẵn bản template này và highlight các đoạn “counter” yêu thích để chỉ mất 5 phút rà lại trước mỗi buổi nói chuyện.
 
 > **Script practice:** Luyện thoại trước bằng [Salary Negotiation Script](../../../../templates/productivity/salary-negotiation-script.md) và kỹ thuật framing trong [Influence & Negotiation Guide](../../../01-mental-models/influence-negotiation.md). Mang theo brag sheet + kịch bản “khi bị từ chối” để sẵn sàng counter bằng dữ liệu, hoặc chuyển sang phúc lợi khác.
 

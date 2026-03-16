@@ -4,7 +4,7 @@
 
 Nếu kiến thức là nguyên liệu, kỹ năng là công cụ, thì Phương pháp luận (Methodology) là bộ quy tắc vận hành trí tuệ – thứ quyết định một người làm việc sâu hơn, nhanh hơn và thông minh hơn tất cả.
 
-Dưới đây là bản giải mã tinh gọn về "bộ não đứng sau mọi sự tiến bộ".
+> Dưới đây là bản giải mã tinh gọn về "bộ não đứng sau mọi sự tiến bộ". Muốn nối kết sang tư duy hệ thống hay chiến lược cụ thể? Xem thêm [Life System Thinking](life-system-thinking.md), [System Thinking Module](system-thinking-module.md) và [Strategic Thinking Playbook](strategic-thinking.md) để gắn phương pháp luận với hệ thống vận hành thực tế.
 
 ---
 

@@ -1,72 +1,54 @@
 ---
 title: "Solidity Deep Dive"
-description: "Advanced patterns, gas optimization, assembly, security pitfalls."
+description: "Storage layout, gas optimization, patterns cho senior smart contract engineer."
 tags:
   - solidity
-  - evm
   - smart-contracts
-updated: 2026-03-11
+updated: 2026-03-16
 ---
 
 # 🧠 Solidity Deep Dive
 
-## 1. Advanced Patterns
+> **Scope:** Từ kiến trúc contract production đến tối ưu gas, tránh lỗi thường gặp và pattern nâng cao.
 
-- **Access Control:** `Ownable`, `AccessControl`, role-based guards.
-- **Pull payments:** tránh reentrancy bằng withdraw pattern.
-- **Pausable + Circuit Breaker:** emergency stop.
-- **Upgradeable Storage:** `StorageSlot`, `ERC-7201` namespace.
-- **Meta-transactions:** ERC-2771 trusted forwarder.
+## 1. Storage Layout & Memory
+- Slot = 32 bytes, packing variables giúp tiết kiệm gas.
+- `mapping` hash slot = `keccak256(key . slot)`.
+- Struct trong storage vs memory: `storage` giữ tham chiếu, `memory` copy.
+- **Tooling:** `forge inspect`, `slither-check-upgradeability`.
 
-## 2. Gas Optimization
+## 2. Upgradeable Contracts
+- **Proxy Patterns:**
+  - Transparent Proxy (OpenZeppelin) – admin can't call implementation.
+  - UUPS – implementation chịu trách nhiệm upgrade.
+  - Beacon Proxy – share logic cho nhiều instance.
+- **Pitfalls:** Storage collision, initializer không guard, delegatecall reentrancy.
 
-- Use `unchecked` for overflow when safe.
-- Prefer `uint256` packing, short-circuit `if`.
-- Cache storage into memory.
-- `immutable`/`constant` to avoid SLOAD.
-- Emit fewer events; avoid dynamic arrays in events.
+## 3. Gas Optimization Checklist
+- [ ] Sử dụng `immutable` cho constant address/value.
+- [ ] `unchecked` cho arithmetic nếu chắc chắn không overflow.
+- [ ] `calldata` thay vì `memory` cho parameters không mutate.
+- [ ] Event index tối đa 3 topics.
+- [ ] Dùng custom errors `error Unauthorized(address caller);`.
 
-## 3. Low-level & Assembly
+## 4. Patterns & Architecture
+- **Diamond Pattern (EIP-2535):** Modular hóa contract lớn.
+- **Facet Cut:** Add/replace/remove function selectors động.
+- **Registry Pattern:** Tách config vào contract riêng (AddressProvider).
+- **Access Control:** Role-Based (OpenZeppelin) vs capability-based (Auth từ Solmate).
 
-```solidity
-assembly {
-  let ptr := mload(0x40)
-  mstore(ptr, 0x20)
-  mstore(add(ptr, 0x20), 0x2a)
-  return(ptr, 0x40)
-}
-```
+## 5. Security Gotchas
+- **Reentrancy:** Dùng `checks-effects-interactions` + reentrancy guard.
+- **Delegatecall:** validate target, no storage collision.
+- **tx.origin:** Không dùng cho auth.
+- **Unbounded loops:** Gas griefing.
+- **Phantom function selectors:** Lưu ý fallback/receive.
 
-- Use for custom `abi.encodePacked`, calldata parsing.
-- Beware of memory clobbering, free memory pointer.
+## 6. Testing Focus
+- Fuzz (Foundry `vm.assume`) để bắt edge-case.
+- Fork testing trên mainnet state.
+- Snapshot invariant: `handler` pattern.
 
-## 4. Security Pitfalls
-
-- Reentrancy (use checks-effects-interactions).
-- Delegatecall storage collision.
-- Signature replay (domain separator).
-- Oracle manipulation (TWAP, circuit breaker).
-
-## 5. Tooling
-
-- **Static analysis:** Slither, MythX.
-- **Invariant testing:** Foundry, Echidna.
-- **Formal verification:** Certora, Scribble.
-
-## 6. Checklist
-
-- [ ] Storage layout documented for upgrades.
-- [ ] Gas benchmark by function.
-- [ ] Assembly reviewed + fuzz tested.
-- [ ] Critical invariants enforced.
-
-## 🧪 Lab: Gas & Security Hardening
-
-**Goal:** tối ưu một contract ERC-20 + test reentrancy guard.
-
-1. Implement ERC-20 with `mint` and `burn`.
-2. Add `Pausable` + `AccessControl`.
-3. Run gas snapshot before/after optimizations.
-4. Add Foundry fuzz test for `transfer` + `approve` invariants.
-
-**Deliverables:** gas report (table), test logs, summary improvements.
+## Resources
+- Solidity docs, Secureum RACE, Solidity by Example advanced.
+- [security/smart-contract-auditing.md](../security/smart-contract-auditing.md)

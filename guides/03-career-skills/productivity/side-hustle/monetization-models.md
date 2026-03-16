@@ -7,8 +7,9 @@ Dưới đây là các mô hình đã được kiểm chứng (Proven Models) t�
 
 ---
 
-- **Audience & Positioning:** Trước khi chọn mô hình kiếm tiền, xác định rõ ai sẽ mua và vì sao họ tin bạn – dùng [Market Research Playbook](../../02-wealth-business/market-research/README.md) (mục **Audience & Positioning**) để dựng persona, pain point, willingness-to-pay cho từng tầng sản phẩm.
-- **Traffic & Monetization Architecture:** Mọi mô hình đều cần dòng khách ổn định. Tham chiếu [MMO Roadmap](../../02-wealth-business/mmo-roadmap/README.md) (mục **Traffic & Monetization Stack**) để thiết kế foundations (content hub, lead magnet), kênh traffic (SEO, short-form, cộng đồng) và payment (VN vs quốc tế) trước khi scale.
+> **Audience & positioning:** Trước khi chọn mô hình kiếm tiền, xác định rõ ai sẽ mua và vì sao họ tin bạn – dùng [Market Research Playbook](../../../02-wealth-business/market-research/README.md) (mục **Audience & Positioning**) để dựng persona, pain point, willingness-to-pay cho từng tầng sản phẩm.
+> 
+> **Traffic & monetization architecture:** Mọi mô hình đều cần dòng khách ổn định. Tham chiếu [MMO Roadmap](../../../02-wealth-business/mmo-roadmap/README.md) (mục **Traffic & Monetization Stack**) để thiết kế foundations (content hub, lead magnet), kênh traffic (SEO, short-form, cộng đồng) và payment (VN vs quốc tế) trước khi scale.
 
 ## 1. Services (Dịch vụ) - Kiếm tiền nhanh nhất
 

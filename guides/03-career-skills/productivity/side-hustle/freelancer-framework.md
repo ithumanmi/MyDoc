@@ -2,7 +2,7 @@
 
 > [← Back to Productivity](../README.md) | [Freelancer Roadmap](./freelancer-roadmap.md) | [Freelance Contracts](../../02-wealth-business/legal/tech-developers/freelance-contracts.md)
 >
-> **Framework** = bộ nguyên tắc + quy trình + checklist giúp bạn vận hành freelancer ổn định, từ chọn kỹ năng đến chốt hợp đồng và scale.
+> **Framework** = bộ nguyên tắc + quy trình + checklist giúp bạn vận hành freelancer ổn định, từ chọn kỹ năng đến chốt hợp đồng và scale. Trước khi đổi ngách mới, dành 1–2 buổi mở [Market Research Playbook](../../02-wealth-business/market-research/README.md) để kiểm chứng persona, nhu cầu, willingness-to-pay; kết hợp [MMO Roadmap](../../02-wealth-business/mmo-roadmap/README.md#foundations) để đảm bảo audience/traffic/payment rõ ràng.
 
 ---
 

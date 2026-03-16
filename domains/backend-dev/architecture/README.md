@@ -16,11 +16,11 @@ updated: 2026-03-10
 
 | Level | Mô tả | Tài liệu gợi ý |
 | --- | --- | --- |
-| **Level 2 – Professional API** | Chuẩn hoá service, tách layer, tối ưu performance ở mức đơn service | [high-performance.md](./high-performance.md) · [clean-architecture.md](./clean-architecture.md) |
-| **Level 2.5 – Modular Foundation** | Chuẩn bị cấu trúc module rõ ràng trước khi tách microservice | [modular-monolith.md](./modular-monolith.md) · [hexagonal-architecture.md](./hexagonal-architecture.md) |
-| **Level 3 – Scalable Systems** | Microservices, distributed data, cloud-native | [microservices-patterns.md](./microservices-patterns.md) · [microservices-patterns-deep-dive.md](./microservices-patterns-deep-dive.md) · [scaling-strategy.md](./scaling-strategy.md) · [domain-driven-design.md](./domain-driven-design.md) |
-| **Level 3.5 – Data & SaaS Specialization** | Tập trung vào consistency, multi-tenant, event log | [event-sourcing.md](./event-sourcing.md) · [multi-tenancy-patterns.md](./multi-tenancy-patterns.md) · [data-partitioning.md](./data-partitioning.md) |
-| **Level 4 – Architect/SRE** | Hệ thống phân tán, thuật toán nâng cao, service mesh, design review | [distributed-systems.md](./distributed-systems.md) · [cloud-native.md](./cloud-native.md) · [advanced-algorithms.md](./advanced-algorithms.md) |
+| **Level 2 – Professional API** | Chuẩn hoá service, tách layer, tối ưu performance ở mức đơn service | [foundations/high-performance.md](./foundations/high-performance.md) · [foundations/clean-architecture.md](./foundations/clean-architecture.md) |
+| **Level 2.5 – Modular Foundation** | Chuẩn bị cấu trúc module rõ ràng trước khi tách microservice | [foundations/scaling-strategy.md](./foundations/scaling-strategy.md) · [foundations/hexagonal-architecture.md](./foundations/hexagonal-architecture.md) |
+| **Level 3 – Scalable Systems** | Microservices, distributed data, cloud-native | [distributed/microservices-patterns.md](./distributed/microservices-patterns.md) · [distributed/microservices-patterns-deep-dive.md](./distributed/microservices-patterns-deep-dive.md) |
+| **Level 3.5 – Data & SaaS Specialization** | Tập trung vào consistency, multi-tenant, event log | [distributed/event-sourcing-cqrs.md](./distributed/event-sourcing-cqrs.md) · [distributed/data-partitioning.md](./distributed/data-partitioning.md) · [multi-tenancy-patterns.md](./multi-tenancy-patterns.md) |
+| **Level 4 – Architect/SRE** | Hệ thống phân tán, cloud-native đa vùng, kiến trúc nâng cao | [distributed/distributed-systems.md](./distributed/distributed-systems.md) · [cloud/cloud-native.md](./cloud/cloud-native.md) · [advanced/advanced-algorithms.md](./advanced/advanced-algorithms.md) |
 
 **Cách sử dụng:**
 1. Xác định mình đang ở level nào trong [backend-master-checklist.md](../backend-master-checklist.md).
@@ -31,24 +31,22 @@ updated: 2026-03-10
 
 | File | Level | Giàu nội dung gì? | Khi nào nên đọc |
 | --- | --- | --- | --- |
-| [high-performance.md](./high-performance.md) | L2-L3 | Series về concurrency, caching, pooling, profiling | Sau khi ship API ổn định và muốn tối ưu độ trễ |
-| [ai-infrastructure.md](./ai-infrastructure.md) | L3 | Vector DB, embedding pipeline, LLM serving, RAG | Khi tích hợp AI sâu vào sản phẩm |
-| [edge-computing.md](./edge-computing.md) | L3 | Cloudflare Workers, edge caching, geo routing | Khi tối ưu latency toàn cầu |
-| [platform-engineering.md](./platform-engineering.md) | L3 | Internal Developer Platform, golden paths, self-service infra | Khi cần scale đội dev và giảm toil |
-| [zero-trust-architecture.md](./zero-trust-architecture.md) | L3-L4 | mTLS, identity proxy, least privilege | Khi nâng cấp bảo mật hạ tầng |
-| [microservices-patterns.md](./microservices-patterns.md) | L3 | Decomposition, integration, data consistency, observability | Khi chuẩn bị tách monolith hoặc thiết kế multi-service |
-| [microservices-patterns-deep-dive.md](./microservices-patterns-deep-dive.md) | L3-L4 | Circuit breaker, saga, sidecar, BFF | Khi đã hiểu microservices cơ bản và cần xử lý giao dịch phức tạp |
-| [scaling-strategy.md](./scaling-strategy.md) | L2-L3 | Scale up vs scale out, cost trade-offs | Khi quyết định nâng cấu hình hay thêm node |
-| [cloud-native.md](./cloud-native.md) | L3-L4 | 12-factor, serverless, service mesh, K8s patterns | Khi đưa workload lên cloud hoặc adopt GitOps/mesh |
-| [distributed-systems.md](./distributed-systems.md) | L4 | CAP/PACELC, consistency, consensus, EDA | Khi thiết kế hệ thống đa region, yêu cầu HA cao |
-| [hexagonal-architecture.md](./hexagonal-architecture.md) | L2-L3 | Ports & adapters, adapter layering, sample code | Khi refactor monolith để dễ test, dễ swap adapters |
-| [advanced-algorithms.md](./advanced-algorithms.md) | L4 | Bloom filter, HyperLogLog, rate limiting, consistent hashing | Khi giải quyết bài toán data massive, cần tối ưu memory |
-| [clean-architecture.md](./clean-architecture.md) | L2-L3 | So sánh layered/clean/hexagonal, dependency rule | Khi cần tổ chức lại service cho dễ test |
-| [domain-driven-design.md](./domain-driven-design.md) | L3-L4 | Context map, aggregate, ACL, event storming | Khi chuẩn bị tách domain phức tạp |
-| [modular-monolith.md](./modular-monolith.md) | L2-L3 | Module boundaries, internal API, roadmap tách service | Khi muốn bước đệm trước microservices |
-| [event-sourcing.md](./event-sourcing.md) | L3-L4 | CQRS, event store, projector, replay | Khi cần audit/time-travel và tích hợp downstream |
-| [multi-tenancy-patterns.md](./multi-tenancy-patterns.md) | L3-L4 | Tenant isolation, provisioning, billing | Khi xây SaaS nhiều khách hàng |
-| [data-partitioning.md](./data-partitioning.md) | L3-L4 | Sharding strategy, resharding, observability | Khi data vượt 1 node, cần partition |
+| [foundations/high-performance.md](./foundations/high-performance.md) | L2-L3 | Concurrency, caching, pooling, profiling | Sau khi ship API ổn định và muốn tối ưu độ trễ |
+| [foundations/clean-architecture.md](./foundations/clean-architecture.md) | L2-L3 | Layered vs clean vs hexagonal, dependency rule | Khi cần tổ chức lại service cho dễ test |
+| [foundations/hexagonal-architecture.md](./foundations/hexagonal-architecture.md) | L2-L3 | Ports & adapters, adapter layering, sample code | Khi refactor monolith để dễ swap adapters |
+| [foundations/scaling-strategy.md](./foundations/scaling-strategy.md) | L2-L3 | Scale up vs scale out, cost trade-offs | Khi quyết định nâng cấu hình hay thêm node |
+| [distributed/microservices-patterns.md](./distributed/microservices-patterns.md) | L3 | Decomposition, integration, data consistency, observability | Khi chuẩn bị tách monolith hoặc thiết kế multi-service |
+| [distributed/microservices-patterns-deep-dive.md](./distributed/microservices-patterns-deep-dive.md) | L3-L4 | Circuit breaker, saga, sidecar, BFF | Khi đã hiểu microservices cơ bản và cần xử lý giao dịch phức tạp |
+| [distributed/distributed-systems.md](./distributed/distributed-systems.md) | L4 | CAP/PACELC, consistency, consensus, EDA | Khi thiết kế hệ thống đa region, yêu cầu HA cao |
+| [distributed/event-sourcing-cqrs.md](./distributed/event-sourcing-cqrs.md) | L3-L4 | CQRS, event store, projector, replay | Khi cần audit/time-travel và tích hợp downstream |
+| [distributed/data-partitioning.md](./distributed/data-partitioning.md) | L3-L4 | Sharding strategy, resharding, observability | Khi data vượt 1 node |
+| [cloud/cloud-native.md](./cloud/cloud-native.md) | L3-L4 | 12-factor, serverless, service mesh, K8s patterns | Khi đưa workload lên cloud |
+| [cloud/serverless-patterns.md](./cloud/serverless-patterns.md) | L3 | Event-driven FaaS patterns tách từ cloud-native |
+| [cloud/multi-region.md](./cloud/multi-region.md) | L4 | Active-active, failover, control plane | Khi phục vụ khách hàng đa châu lục |
+| [cloud/edge-computing.md](./cloud/edge-computing.md) | L3 | Cloudflare Workers, edge caching, geo routing | Khi tối ưu latency toàn cầu |
+| [advanced/domain-driven-design.md](./advanced/domain-driven-design.md) | L3-L4 | Context map, aggregate, ACL, event storming | Khi chuẩn bị tách domain phức tạp |
+| [advanced/advanced-algorithms.md](./advanced/advanced-algorithms.md) | L4 | Bloom filter, HyperLogLog, rate limiting, consistent hashing | Khi giải quyết bài toán data massive |
+| [advanced/ai-infrastructure.md](./advanced/ai-infrastructure.md) | L3-L4 | Vector DB, embedding pipeline, LLM serving, RAG | Khi tích hợp AI sâu vào sản phẩm |
 
 ## 🧩 Recommended Progression
 

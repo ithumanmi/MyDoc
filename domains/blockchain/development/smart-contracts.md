@@ -11,6 +11,7 @@ Smart Contract là trái tim của DeFi, NFT và DApps.
 - [Solidity Deep Dive](solidity-deep-dive.md)
 - [Web3 Frontend](web3-frontend.md)
 - [Smart Contract Testing](smart-contract-testing.md)
+- [Testing Strategies](testing-strategies.md)
 - [Deployment Patterns](deployment-patterns.md)
 - [Solana Development](solana-development.md)
 - [Move Development](move-development.md)
@@ -115,8 +116,7 @@ Không cần phát minh lại bánh xe. Hãy theo chuẩn.
 
 | Layer | Tool | Notes |
 | --- | --- | --- |
-| Unit | Hardhat + Mocha/Chai, Foundry
-| Cover logic, revert, events |
+| Unit | Hardhat + Mocha/Chai, Foundry | Cover logic, revert, events |
 | Property/Fuzz | Foundry `forge test --fuzz-runs`, Echidna | Tìm edge case (overflow, invariant) |
 | Integration | Hardhat Network fork mainnet, Anvil | Simulate DeFi state, mainnet forking |
 | UI/E2E | Cypress/Playwright + viem/mocked RPC | Fake wallet provider, test connect/sign flow |

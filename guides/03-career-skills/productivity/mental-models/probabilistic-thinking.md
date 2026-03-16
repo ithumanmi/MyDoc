@@ -150,4 +150,11 @@ Sai lầm lớn nhất: Đánh giá chất lượng quyết định dựa trên 
     *   Review lại sau 6 tháng để xem mình sai ở đâu.
 3.  **Nói "Tôi không biết":** Chấp nhận sự thiếu hụt thông tin là bước đầu tiên của trí tuệ.
 
+> 🆘 **Khi nào cần chuyên gia?** Nếu bạn cảm thấy lo âu, mất ngủ, hoảng loạn hoặc burnout kéo dài dù đã áp dụng các chiến lược xác suất, hãy tách biệt hai việc: 1) Quyết định dưới bất định (dùng EV, Bayes) và 2) Trạng thái thần kinh. Khi hệ thần kinh quá tải, hãy gặp therapist / bác sĩ tâm lý, hoặc chuyển sang [Well-being: Burnout Recovery](../../04-lifestyle-os/well-being/burnout-protocol.md) & [Energy Lab](../../04-lifestyle-os/well-being/energy-lab.md) để ổn định nền tảng sinh học trước. Xử lý Anxiety là điều kiện cần trước khi bạn phân tích xác suất đúng.
+
+
+---
+
+**Related:** [Mental Models Library](mental-models-library.md#2-decision-making-models-m%C3%B4-h%C3%ACnh-ra-quy%E1%BA%BFt-%C4%91%E1%BB%8Bnh-%EF%B8%8F) · [Life OS – Decision Engine](../../04-lifestyle-os/life-os/decision-engine.md) · [Life OS – Risk Engine](../../04-lifestyle-os/life-os/risk-engine.md) (Antifragile, Fat Tails).
+
 > **"Mục tiêu không phải là luôn đúng. Mục tiêu là ít sai hơn theo thời gian."**

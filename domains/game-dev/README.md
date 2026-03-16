@@ -46,38 +46,44 @@ updated: 2026-03-11
 
 | Module | Nội dung chính | Khi nào dùng |
 | --- | --- | --- |
-| [core-mechanic-design-doc.md](./core-mechanic-design-doc.md) | Template + ví dụ viết GDD cơ chế chính | Kick-off dự án mới, sync với designer |
-| [ai/](./ai/) | Behavior Tree, GOAP, Steering | Level 3+ tập trung AI gameplay |
-| [animation/](./animation/) | IK, natural movement | Khi cần nâng chất lượng chuyển động |
-| [audio/](./audio/README.md) | Sound design, FMOD/Wwise, spatial audio | Khi cần hoàn thiện feedback âm thanh |
-| [level-design/](./level-design/README.md) | Layout, pacing, lighting phục vụ gameplay | Thiết kế flow và encounter |
-| [ux-ui/](./ux-ui/README.md) | HUD, accessibility, feedback systems | Giảm friction, tăng clarity |
-| [vr-ar-xr/](./vr-ar-xr/README.md) | VR/AR interaction, comfort, perf budgets | Làm sản phẩm immersive |
-| [testing/](./testing/README.md) | QA automation, playtest, telemetry | Đảm bảo chất lượng & dữ liệu |
+| **Fundamentals** |
+| [fundamentals/unity-fundamentals.md](./fundamentals/unity-fundamentals.md) | Editor setup, lifecycle, build checklist | Onboard member mới hoặc reset kiến thức |
+| [fundamentals/csharp-for-unity.md](./fundamentals/csharp-for-unity.md) | C# essentials, patterns, testing mindset | Người học chuyển ngành hoặc cần ôn nhanh |
+| **Game Design** |
+| [game-design/README.md](./game-design/README.md) | Core loop, economy, narrative, telemetry | Đồng bộ designer ↔ gameplay engineer |
+| [game-design/player-psychology.md](./game-design/player-psychology.md) | Flow, SDT, emotional mapping | Map feature → nhu cầu cảm xúc |
+| [game-design/balancing-methodology.md](./game-design/balancing-methodology.md) | Excel modeling, Monte Carlo, KPI | Chốt chỉ số combat/economy trước patch |
+| [game-design/genre-deep-dives/](./game-design/genre-deep-dives/README.md) | Genre pillar templates + case studies | Chuẩn hóa pillar theo thể loại |
+| **Programming** |
+| [programming/ai/](./programming/ai/README.md) | Behavior Tree, GOAP, steering | Level 3+ tập trung AI gameplay |
+| [programming/animation/](./programming/animation/README.md) | IK, rigging, state machine | Khi nâng chất lượng chuyển động |
+| [programming/physics/](./programming/physics/README.md) | Physics engine, vehicle, optimization | Build core mechanic dựa vào physics |
+| [programming/networking/game-server-guide.md](./programming/networking/game-server-guide.md) <br> [programming/networking/senior-game-server-roadmap.md](./programming/networking/senior-game-server-roadmap.md) | Multiplayer architecture, career ladder | Path Multiplayer/Server Engineer |
+| [rollback-netcode.md](./rollback-netcode.md), [mmo-architecture.md](./mmo-architecture.md), [social-features.md](./social-features.md) | Specialized networking topics | Fighting game, MMO, social layer |
+| **Art Tech** |
+| [art-tech/graphics/](./art-tech/graphics/README.md) | Shaders, lighting, render pipeline | Technical Artist track |
+| [art-tech/vfx/](./art-tech/vfx/README.md) | VFX breakdowns, shader graph recipes | Khi cần tách VFX khỏi graphics tổng |
+| [art-tech/audio/](./art-tech/audio/README.md) | Sound design, middleware, spatial audio | Hoàn thiện feedback âm thanh |
+| [art-tech/ui-ux/](./art-tech/ui-ux/README.md) | HUD, accessibility, feedback systems | Giảm friction, tăng clarity |
+| **World Building** |
+| [world-building/level-design/](./world-building/level-design/README.md) | Layout, pacing, encounter flow | Thiết kế level nhanh có logic |
+| [world-building/pcg/](./world-building/pcg/README.md) | Procedural generation playbooks | Build roguelike, sandbox systems |
+| **Production & Ops** |
+| [production/unity-deep-dive/](./production/unity-deep-dive/README.md) | Clean code, editor tooling, optimization | Áp dụng dự án production |
+| [production/engines/](./production/engines/README.md) | Unity DOTS, Unreal comparisons | Đánh giá engine & tối ưu |
+| [production/metrics/](./production/metrics/README.md) | Unity Impact Metrics, genre cheat sheet | LiveOps, pitch dự án, marketing |
+| [production/qa-testing/](./production/qa-testing/) | QA workflow, automation, test plans | Thiết lập quy trình QA nội bộ |
+| **Special Topics & Resources** |
+| [live-service/](./live-service/README.md) | Battle Pass, events, economy cadence | Vận hành GaaS |
+| [localization/](./localization/README.md) | Font, LTR/RTL, VO pipeline | Đa ngôn ngữ & region |
 | [mobile-optimization/](./mobile-optimization/README.md) | Battery, thermal, touch input patterns | Tối ưu mobile build |
 | [console-dev/](./console-dev/README.md) | Certification, platform features | Ship lên console |
-| [live-service/](./live-service/README.md) | Season/Battle Pass, events, economy | Vận hành GaaS |
-| [localization/](./localization/README.md) | Font, LTR/RTL, VO pipeline | Đa ngôn ngữ & region |
-| [physics/](./physics/) | Physics engine, collision nâng cao | Build core mechanic dựa vào physics |
-| [graphics/](./graphics/) | Shader, VFX, lighting | Chọn Path Technical Artist |
-| [unity-deep-dive/](./unity-deep-dive/) | Clean code, editor tooling, optimization | Áp dụng cho dự án production |
-| [game-design/](./game-design/README.md) | Core loop, economy, narrative, playtest | Đồng bộ designer ↔ gameplay engineer |
-| [game-server-guide.md](./game-server-guide.md) & [senior-game-server-roadmap.md](./senior-game-server-roadmap.md) | Multiplayer architecture, career ladder | Path Multiplayer/Server Engineer |
-| [rollback-netcode.md](./rollback-netcode.md) | GGPO, input delay vs rollback, deterministic sim | Khi tối ưu fighting game latency |
-| [mmo-architecture.md](./mmo-architecture.md) | Sharding, zone server, world state replication | Thiết kế world persistent lớn |
-| [social-features.md](./social-features.md) | Friend/guild service, chat infra, moderation | Build social layer + retention |
-| [anti-cheat-advanced.md](./anti-cheat-advanced.md) | Kernel driver, behavioral detection, ban waves | Đối phó cheater ở quy mô lớn |
-| [ai-for-game-dev.md](./ai-for-game-dev.md) | AI-assisted content creation, NPC LLM, workflow | Bắt trend GenAI trong studio |
-| [user-generated-content.md](./user-generated-content.md) | UGC pipeline, modding SDK, monetization | Creator economy & live engagement |
-| [cloud-gaming.md](./cloud-gaming.md) | Streaming stack, latency budget, adaptive quality | Deploy game qua cloud streaming |
-| [cross-platform-play.md](./cross-platform-play.md) | Account linking, progression sync, parity | Unified experience across devices |
-| [blockchain-gaming.md](./blockchain-gaming.md) | NFT integration, hybrid on/off-chain | Web3/ownership-driven design |
-| [cheatsheets/](./cheatsheets/) | Quick reference cards (shortcuts, shader math, netcode, perf) | Ôn nhanh trước sprint/review |
+| [vr-ar-xr/](./vr-ar-xr/README.md) | VR/AR interaction, comfort, perf budgets | Làm sản phẩm immersive |
+| [testing/](./testing/README.md) | QA automation, playtest, telemetry | Đảm bảo chất lượng & dữ liệu |
+| [cheatsheets/](./cheatsheets/) | Quick reference (shortcuts, shader math, netcode) | Ôn nhanh trước sprint/review |
 | [case-studies/](./case-studies/) | Hollow Knight combat, Celeste movement, Hades procedural, Among Us netcode, Genshin gacha | Study best-in-class execution |
-| [metrics/](./metrics/) | Unity impact metrics, genre cheat sheet | LiveOps, pitch dự án, marketing |
 | [challenges/](./challenges/README.md) | Coding exercises, ECS/netcode tasks | Luyện tay trước/phỏng vấn |
-| [pcg/](./pcg/) | Procedural generation playbooks | Build world ngẫu nhiên, roguelike |
-| [engines/](./engines/) | Unity DOTS, Unreal comparisons | Đánh giá engine & tối ưu |
+| [ai-for-game-dev.md](./ai-for-game-dev.md), [user-generated-content.md](./user-generated-content.md), [cloud-gaming.md](./cloud-gaming.md), [cross-platform-play.md](./cross-platform-play.md), [blockchain-gaming.md](./blockchain-gaming.md), [anti-cheat-advanced.md](./anti-cheat-advanced.md) | Emerging/advanced topics | Khi cần mở rộng tầm nhìn |
 
 ---
 

@@ -82,4 +82,4 @@ class Order extends AggregateRoot {
 - [Modular Monolith](./modular-monolith.md) – cách map bounded context vào monolith.
 - [Hexagonal Architecture](./hexagonal-architecture.md) – tách core domain khỏi adapters.
 - [Microservices Patterns](./microservices-patterns.md) – decomposition dựa trên context map.
-- [Event Sourcing](./event-sourcing.md) – khi aggregate cần emit domain event.
+- [Event Sourcing & CQRS](../distributed/event-sourcing-cqrs.md) – khi aggregate cần emit domain event.

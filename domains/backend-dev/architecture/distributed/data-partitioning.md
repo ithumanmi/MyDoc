@@ -62,5 +62,5 @@ updated: 2026-03-11
 ## 🔗 Cross-reference
 - [Scaling Strategy](./scaling-strategy.md) – ra quyết định scale up vs shard.
 - [Advanced Algorithms](./advanced-algorithms.md) – consistent hashing chi tiết.
-- [Event Sourcing](./event-sourcing.md) – partition event store/read model.
+- [Event Sourcing & CQRS](./event-sourcing-cqrs.md) – partition event store/read model.
 - [Multi-Tenancy Patterns](./multi-tenancy-patterns.md) – shard theo tenant.
