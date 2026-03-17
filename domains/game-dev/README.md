@@ -5,7 +5,7 @@ tags:
   - unity
   - game-dev
   - roadmap
-updated: 2026-03-11
+updated: 2026-03-16
 ---
 
 # 🎮 Game Development Roadmap (Unity Focus)
@@ -19,11 +19,11 @@ updated: 2026-03-11
 > - **This folder (domains/game-dev/):** Technical skills - Unity, C#, Game Architecture, Shaders, Multiplayer  
 > - **Career & Business guide:** See [guides/03-career-skills/game-dev/](../../guides/03-career-skills/game-dev/README.md) for freelancing, publisher deals, monetization strategies
 
-> 🧭 **How to use:**  
-> 1. **Reality Check → Visual Roadmap:** xác định level hiện tại.  
-> 2. **Chọn Sprint 14 ngày** để củng cố nền tảng hoặc nhảy thẳng vào module chuyên sâu.  
-> 3. **Mapping Deliverables ↔ Career playbook:** kết hợp [Game Dev 10k Roadmap](../../guides/03-career-skills/game-dev/game-dev-10k-roadmap.md) + portfolio checklist.  
-> 4. **Liên kết Meta:** trong mỗi project, log telemetry vào [Unity Impact Metrics](./metrics/unity-impact-metrics.md) và audit skill bằng [Game Dev Knowledge Audit](../../case-studies/knowledge-audits/game-dev-knowledge-audit.md).
+> 🧭 **How to use:**
+> 1. **Reality Check → Visual Roadmap:** xác định level hiện tại.
+> 2. **Chọn Sprint 14 ngày** để củng cố nền tảng hoặc nhảy thẳng vào module chuyên sâu.
+> 3. **Mapping Deliverables ↔ Career playbook:** kết hợp [Game Dev 10k Roadmap](../../guides/03-career-skills/game-dev/game-dev-10k-roadmap.md) + portfolio checklist.
+> 4. **Liên kết Meta:** trong mỗi project, log telemetry vào [Unity Impact Metrics](./production/metrics/unity-impact-metrics.md) và audit skill bằng [Game Dev Knowledge Audit](../../case-studies/knowledge-audits/game-dev-knowledge-audit.md).
 
 > [← Back to Chapter 1](../../chapters/01-xac-dinh-linh-vuc.md) | [Home](../../README.md) | [🚀 Quick Start](../../QUICK-START.md) | [📖 Glossary](../../GLOSSARY.md)
 >
@@ -69,10 +69,11 @@ updated: 2026-03-11
 | [world-building/level-design/](./world-building/level-design/README.md) | Layout, pacing, encounter flow | Thiết kế level nhanh có logic |
 | [world-building/pcg/](./world-building/pcg/README.md) | Procedural generation playbooks | Build roguelike, sandbox systems |
 | **Production & Ops** |
+| [production/README.md](./production/README.md) | Hub: deep dive, engines, metrics, QA | Điều phối production & ops |
 | [production/unity-deep-dive/](./production/unity-deep-dive/README.md) | Clean code, editor tooling, optimization | Áp dụng dự án production |
 | [production/engines/](./production/engines/README.md) | Unity DOTS, Unreal comparisons | Đánh giá engine & tối ưu |
 | [production/metrics/](./production/metrics/README.md) | Unity Impact Metrics, genre cheat sheet | LiveOps, pitch dự án, marketing |
-| [production/qa-testing/](./production/qa-testing/) | QA workflow, automation, test plans | Thiết lập quy trình QA nội bộ |
+| [production/qa-testing/](./production/qa-testing/README.md) | QA workflow, automation, test plans | Thiết lập quy trình QA nội bộ |
 | **Special Topics & Resources** |
 | [live-service/](./live-service/README.md) | Battle Pass, events, economy cadence | Vận hành GaaS |
 | [localization/](./localization/README.md) | Font, LTR/RTL, VO pipeline | Đa ngôn ngữ & region |
@@ -159,7 +160,7 @@ graph TD
 
 *   **Core Concepts:**
     *   **Physics 2D:** Forces, Gravity, Material (Friction/Bounciness).
-    *   👉 **Advanced Physics:** [**Building a Simple 3D Physics Engine with Trigonometry**](./physics/simple-physics-engine.md) (⭐ **New**)
+    *   👉 **Advanced Physics:** [**Building a Simple 3D Physics Engine with Trigonometry**](./programming/physics/simple-physics-engine.md) (⭐ **New**)
     *   **UI (uGUI/Toolkit):** Canvas, Anchors, Buttons, Sliders.
     *   **Animation:** Animator Controller, States, Transitions, Blend Trees.
     *   **Audio:** AudioSource, AudioListener, AudioMixer.
@@ -178,8 +179,8 @@ graph TD
 *   **Core Concepts:**
     *   **Design Patterns:** Singleton (GameManager), Observer (Event System), Object Pooling.
     *   **3D World:** Mesh, Texture, Material, Lighting.
-    *   **Animation Advanced:** [**Inverse Kinematics (IK) & Natural Movement**](./animation/inverse-kinematics.md) (⭐ **New**)
-    *   **AI:** NavMesh (Tìm đường), [**Steering Behaviors**](./ai/steering-behaviors.md) (⭐ **New**), Finite State Machine.
+    *   **Animation Advanced:** [**Inverse Kinematics (IK) & Natural Movement**](./programming/animation/inverse-kinematics.md) (⭐ **New**)
+    *   **AI:** NavMesh (Tìm đường), [**Steering Behaviors**](./programming/ai/steering-behaviors.md) (⭐ **New**), Finite State Machine.
     *   **Data Persistence:** JSON / ScriptableObjects.
 *   **Actions:**
     *   Build **3D Shooter (FPS/TPS)** hoặc **Top-down RPG**.
@@ -196,7 +197,7 @@ Bạn không thể giỏi tất cả. Hãy chọn 1 con đường:
 
 #### **🅰️ Path A: Technical Artist (Graphics)**
 *   **Học:** Shader Graph, HLSL, VFX Graph, Post-processing, URP/HDRP Pipelines.
-*   👉 **Advanced Shaders:** [**Mastering Shaders with Trigonometry: Water & Fire**](./graphics/trig-shaders.md) (⭐ **New**)
+*   👉 **Advanced Shaders:** [**Mastering Shaders with Trigonometry: Water & Fire**](./art-tech/vfx/trig-shaders.md) (⭐ **New**)
 *   **Job:** Cầu nối giữa Artist và Coder. Lương rất cao và khan hiếm.
 
 #### **🅱️ Path B: Multiplayer Engineer (Networking)**
@@ -243,19 +244,19 @@ Bạn không thể giỏi tất cả. Hãy chọn 1 con đường:
 ---
 
 ### **Advanced Topics (Chuyên sâu)**
-*   **[Advanced Physics Engine](./physics/simple-physics-engine.md):** 🎡 Ứng dụng lượng giác xây dựng Physics Engine 3D. (⭐ **New**)
-*   **[Trig Shaders (Water/Fire)](./graphics/trig-shaders.md):** 🔥🌊 Tạo hiệu ứng nước và lửa bằng lượng giác. (⭐ **New**)
-*   **[Inverse Kinematics (IK)](./animation/inverse-kinematics.md):** 🦶 Toán học giúp tay chân nhân vật bám sát địa hình. (⭐ **New**)
-*   **[Steering Behaviors](./ai/steering-behaviors.md):** 🤖 Hệ thống di chuyển AI thông minh dựa trên lực và lượng giác. (⭐ **New**)
-*   **[Unity Impact Metrics Playbook](./metrics/unity-impact-metrics.md):** 📊 Crash rate, FPS, load time, concurrency và các KPI LiveOps. (⭐ **New**)
-*   **[Hybrid Casual vs Casual vs Midcore Cheat Sheet](./metrics/mobile-genre-impact.md):** 🕹️ So sánh core loop, audience, cost & team theo infographic AppMagic. (⭐ **New**)
+*   **[Advanced Physics Engine](./programming/physics/simple-physics-engine.md):** 🎡 Ứng dụng lượng giác xây dựng Physics Engine 3D. (⭐ **New**)
+*   **[Trig Shaders (Water/Fire)](./art-tech/vfx/trig-shaders.md):** 🔥🌊 Tạo hiệu ứng nước và lửa bằng lượng giác. (⭐ **New**)
+*   **[Inverse Kinematics (IK)](./programming/animation/inverse-kinematics.md):** 🦶 Toán học giúp tay chân nhân vật bám sát địa hình. (⭐ **New**)
+*   **[Steering Behaviors](./programming/ai/steering-behaviors.md):** 🤖 Hệ thống di chuyển AI thông minh dựa trên lực và lượng giác. (⭐ **New**)
+*   **[Unity Impact Metrics Playbook](./production/metrics/unity-impact-metrics.md):** 📊 Crash rate, FPS, load time, concurrency và các KPI LiveOps. (⭐ **New**)
+*   **[Hybrid Casual vs Casual vs Midcore Cheat Sheet](./production/metrics/mobile-genre-impact.md):** 🕹️ So sánh core loop, audience, cost & team theo infographic AppMagic. (⭐ **New**)
 *   **[Core Mechanic Game Design Doc](./core-mechanic-design-doc.md):** ✍️ Template viết GDD cho cơ chế cốt lõi + ví dụ Aether Dash.
 *   **[Unity Coding Challenges](./challenges/README.md):** Tập các bài tập thực chiến (spawn balancing, netcode, ECS performance). (⭐ **New**)
-*   **[Game Engines Deep Dive](./engines/unity-advanced.md):** Unity DOTS/ECS tối ưu hiệu năng và Unreal Engine 5 Nanite/Lumen.
-*   **[Graphics & Shaders](./graphics/shader-programming.md):** Viết Shader (HLSL/GLSL) và hiệu ứng VFX Graph.
-*   **[Game AI Patterns](./ai/game-ai-patterns.md):** Thiết kế trí tuệ nhân tạo cho NPC (FSM, Behavior Trees, GOAP).
-*   **[Behavior Tree Guide](./ai/behavior-tree/core-concepts.md):** Hướng dẫn toàn diện về Behavior Tree (Lý thuyết, Tự code, GraphView Editor).
-*   **[Procedural Generation](./pcg/procedural-generation.md):** Thuật toán tạo thế giới ngẫu nhiên (Perlin Noise, Wave Function Collapse).
+*   **[Game Engines Deep Dive](./production/engines/unity-advanced.md):** Unity DOTS/ECS tối ưu hiệu năng và Unreal Engine 5 Nanite/Lumen.
+*   **[Graphics & Shaders](./art-tech/graphics/shader-programming.md):** Viết Shader (HLSL/GLSL) và hiệu ứng VFX Graph.
+*   **[Game AI Patterns](./programming/ai/game-ai-patterns.md):** Thiết kế trí tuệ nhân tạo cho NPC (FSM, Behavior Trees, GOAP).
+*   **[Behavior Tree Guide](./programming/ai/behavior-tree/core-concepts.md):** Hướng dẫn toàn diện về Behavior Tree (Lý thuyết, Tự code, GraphView Editor).
+*   **[Procedural Generation](./world-building/pcg/procedural-generation.md):** Thuật toán tạo thế giới ngẫu nhiên (Perlin Noise, Wave Function Collapse).
 
 ### 🔍 Advanced Research List (Kỹ thuật chuyên sâu cần nghiên cứu thêm)
 *Đây là danh sách các kỹ thuật "khó" để bạn tra cứu và mở rộng sau này, không nhất thiết phải học ngay:*
@@ -270,17 +271,17 @@ Bạn không thể giỏi tất cả. Hãy chọn 1 con đường:
 *   **Spatial Audio & Ray-traced Sound:** Mô phỏng cách âm thanh phản xạ trong môi trường 3D.
 
 ### **Unity Deep Dive (Làm chủ Unity)**
-*   **[Advanced Architecture](./unity-deep-dive/architecture-patterns.md):** ScriptableObjects, Dependency Injection (Zenject) và Design Patterns.
-*   **[Clean Code & SOLID cho Unity](./unity-deep-dive/unity-clean-code-solid.md):** Áp dụng nguyên tắc lập trình sạch vào MonoBehaviour, ScriptableObject, event channel.
-*   **[Performance Optimization](./unity-deep-dive/optimization-techniques.md):** Quản lý bộ nhớ, Profiling và Draw Call Batching.
-*   **[Editor Scripting](./unity-deep-dive/editor-scripting.md):** Tự viết công cụ (Tools) và tùy biến Inspector.
-*   **[VFX & Lighting](./unity-deep-dive/vfx-lighting-mastery.md):** Nghệ thuật ánh sáng (Lightmapping) và hiệu ứng hạt (VFX Graph).
+*   **[Advanced Architecture](./production/unity-deep-dive/architecture-patterns.md):** ScriptableObjects, Dependency Injection (Zenject) và Design Patterns.
+*   **[Clean Code & SOLID cho Unity](./production/unity-deep-dive/unity-clean-code-solid.md):** Áp dụng nguyên tắc lập trình sạch vào MonoBehaviour, ScriptableObject, event channel.
+*   **[Performance Optimization](./production/unity-deep-dive/optimization-techniques.md):** Quản lý bộ nhớ, Profiling và Draw Call Batching.
+*   **[Editor Scripting](./production/unity-deep-dive/editor-scripting.md):** Tự viết công cụ (Tools) và tùy biến Inspector.
+*   **[VFX & Lighting](./production/unity-deep-dive/vfx-lighting-mastery.md):** Nghệ thuật ánh sáng (Lightmapping) và hiệu ứng hạt (VFX Graph).
 
 ## 🌐 4. Game Server & Multiplayer Deep Dive
 
 Multiplayer Game không chỉ là game có nhiều người chơi, mà là một **Hệ phân tán (Distributed System)** phức tạp.
 
-> 📘 **Tài liệu chi tiết:** Xem file **[Game Server & Multiplayer Guide](./game-server-guide.md)** để đọc bản phân tích chuyên sâu về Architecture, Code Concepts và DevOps.
+> 📘 **Tài liệu chi tiết:** Xem file **[Game Server & Multiplayer Guide](./programming/networking/game-server-guide.md)** để đọc bản phân tích chuyên sâu về Architecture, Code Concepts và DevOps.
 
 **Advanced Multiplayer Reads:**
 - [Rollback Netcode](./rollback-netcode.md)

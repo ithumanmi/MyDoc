@@ -26,14 +26,20 @@ Stoicism (Chủ nghĩa Khắc kỷ) không phải là sự kìm nén cảm xúc.
 
 ---
 
-## 2. Negative Visualization (Tưởng tượng tiêu cực)
+## 2. Premeditatio Malorum (Tiên liệu điều tồi tệ)
 
-Thay vì "Think Positive" (Nghĩ tích cực) một cách sáo rỗng, hãy thử "Think Negative" một cách chủ động.
+Thay vì "Think Positive" (Nghĩ tích cực) một cách sáo rỗng, hãy thử "Think Negative" một cách chủ động để rèn luyện tinh thần thép chống lại Sự lo âu (Anxiety) và Overthinking.
 
-*   **Bài tập:** Mỗi sáng, hãy dành 5 phút tưởng tượng về kịch bản tồi tệ nhất có thể xảy ra hôm nay. (Mất ví, xe hỏng, dự án thất bại).
-*   **Mục đích:**
-    1.  Nếu nó xảy ra thật -> Bạn không bị sốc (Vì đã chuẩn bị tâm lý).
-    2.  Nếu nó không xảy ra -> Bạn cảm thấy biết ơn và hạnh phúc vì một ngày bình yên.
+**Bài tập Premeditatio Malorum:**
+Mỗi sáng, hãy dành 5 phút thực hành quy trình 3 bước sau:
+1. **Tưởng tượng kịch bản tồi tệ nhất:** Điều gì khiến bạn lo lắng nhất hôm nay? (Ví dụ: Dự án bị huỷ, mất việc). Hãy nhắm mắt và hình dung nó KHÔNG THỂ CỨU VÃN, nó ĐÃ XẢY RA thực sự. Đẩy cảm xúc lên mức cao nhất.
+2. **Kích hoạt Plan B (Giải pháp sinh tồn):** Ngay lập tức, hỏi não bộ: *"Ok, nếu chuyện này xảy ra, tôi sẽ làm gì tiếp theo để sống sót?"* -> "Tôi có khoản dự phòng 6 tháng, tôi sẽ cập nhật CV, tôi nhờ bạn bè giới thiệu".
+3. **Thoát ra và Biết ơn:** Mở mắt ra. Bạn nhận ra điều tồi tệ đó CHƯA hề xảy ra. Cơ thể bạn vẫn an toàn, bạn vẫn đang uống cà phê yên bình.
+
+**Mục đích thực dụng:**
+*   Sự lo âu (Anxiety) thường đến từ những **nỗi sợ mơ hồ**. Khi bạn dũng cảm nhìn thẳng vào tình huống xấu nhất và vạch ra giải pháp, não bộ sẽ nhận ra "À, hóa ra dù có mất việc mình cũng không chết đói". Nỗi sợ tan biến.
+*   Nếu điều tồi tệ xảy ra thật -> Bạn không bị sốc vì não đã "diễn tập" (Rehearsal) từ trước.
+*   Nếu điều tồi tệ không xảy ra -> Bạn cảm nhận được một luồng năng lượng Biết Ơn cực mạnh mẽ.
 
 ---
 

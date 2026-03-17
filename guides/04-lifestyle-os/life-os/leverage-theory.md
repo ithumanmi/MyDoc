@@ -23,13 +23,18 @@
 4.  **Media:** Tạo nội dung 1 lần, triệu người xem (Youtube, Blog, Podcast, Book).
     *   *Đặc điểm:* Scale vô hạn. Xây dựng thương hiệu cá nhân.
     *   *Rào cản:* Cần kỹ năng sáng tạo/giao tiếp.
+    
+### C. Đòn bẩy kỷ nguyên mới (AI & Agents)
+5. **Trí tuệ Nhân tạo (AI & Agents):** Máy móc tự suy nghĩ và thực thi thay vì chỉ làm theo lệnh logic cố định như Code.
+    *   *Đặc điểm:* Nằm giữa Code và Labor. Bạn "thuê" một nhân viên thông minh vô hạn (Labor) nhưng không phải trả lương, không cần quản trị cảm xúc, và scale 24/7 (Code).
+    *   *Rào cản:* Khả năng phân chia công việc (Delegation), đóng khung vấn đề (Prompting) và kỹ năng quản lý dự án cấp cao.
 
 ## 2. Kỷ nguyên của Đòn bẩy vô hạn
-*   Chúng ta đang sống trong thời đại mà **Code** và **Media** là đòn bẩy miễn phí.
-*   **Chiến lược:** Kết hợp 3 loại đòn bẩy tốt nhất:
-    *   Dùng **Code/Media** để tạo sản phẩm/thương hiệu (Permissionless).
+*   Chúng ta đang sống trong thời đại mà **Code**, **Media** và **AI** là đòn bẩy miễn phí hoặc siêu rẻ.
+*   **Chiến lược:** Kết hợp các loại đòn bẩy tốt nhất:
+    *   Dùng **Code/Media/AI** để tạo sản phẩm/thương hiệu (Permissionless). Một cá nhân có thể vận hành như một team 10 người.
     *   Dùng **Capital** để khuếch đại nó (Ads, Infrastructure).
-    *   Hạn chế dùng **Labor** (Automation first, Hire last).
+    *   Hạn chế dùng **Labor** (Automation/AI first, Hire human last).
 
 ## 3. Productize Yourself (Sản phẩm hóa bản thân)
 *   Tìm ra cái bạn giỏi nhất + Cái xã hội cần + Cái người khác khó copy.

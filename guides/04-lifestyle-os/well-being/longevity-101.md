@@ -13,14 +13,17 @@
   - Không caffeine sau 14h.
 - **Tài liệu:** [Sleep Optimization](./biohacking/sleep-optimization.md), [Cortisol & Melatonin System](./biohacking/cortisol-melatonin-system.md).
 
-## 2. Movement – giữ cơ, giữ đời
+## 2. Movement & Cellular Renewal (Vận động & Tái tạo tế bào)
 - **Tác động:** Muscle mass & VO₂ max cao → giảm 30-40% mortality. Sarcopenia (mất cơ) là kẻ thù của tuổi già.
-- **Protocol chính:** Strength 2-3 buổi/tuần, Zone 2 150-180 phút/tuần, NEAT 8-12k bước/ngày.
+- **Cơ chế Autophagy (Dọn rác tế bào):** Khi cơ thể thiếu hụt năng lượng tạm thời (thông qua tập luyện hoặc nhịn ăn), nó sẽ tự động kích hoạt quá trình "ăn (phagy) chính mình (auto)". Các tế bào hỏng, protein gập sai (nguyên nhân gây Alzheimer) sẽ bị tái chế thành nguyên liệu mới.
+- **Protocol chính:** 
+  - Vận động: Strength 2-3 buổi/tuần, Zone 2 150-180 phút/tuần.
+  - Tái tạo: Kích hoạt mTor (bằng Whey Protein sau tập) để xây cơ, và kích hoạt AMPK/Autophagy (bằng Intermittent Fasting 16:8) để dọn rác cơ thể.
 - **Quick wins:**
-  - Post-meal walk 10 phút.
+  - Fasting (Nhịn ăn gián đoạn): Ăn xong bữa tối lúc 8PM, bỏ qua bữa sáng hôm sau, ăn trưa lúc 12PM (16 tiếng không nạp calo).
   - Kết hợp micro-workout (push-up, squat) mỗi 2h.
-  - Deload + recovery chuẩn để tránh overtraining.
-- **Tài liệu:** [Movement Protocols](./biohacking/movement-protocols.md), [Health Optimization Protocols](./biohacking/health-optimization-protocols.md).
+  - Trì hoãn việc bổ sung NAD+/NMN nếu chưa làm tốt nền tảng trên (NAD+ có tăng nhờ Fasting tự nhiên).
+- **Tài liệu:** [Movement Protocols](./biohacking/movement-protocols.md), [Health Optimization Protocols](./biohacking/health-optimization-protocols.md), [Glucose & Insulin](./biohacking/glucose-insulin-system.md).
 
 ## 3. Stress & Nervous System
 - **Tác động:** Cortisol cao mãn tính → viêm, lão hóa tế bào nhanh, rối loạn hormone.

@@ -30,8 +30,9 @@
 2.  **Scalability Check:** Nếu có 1000 khách hàng (thay vì 10), hệ thống có vỡ không? Hay nó càng mạnh hơn?
 3.  **Logarithmic vs Linear:** Tôi đang tăng trưởng theo hàm mũ (Log/Exp) hay hàm tuyến tính (Linear)? (Làm thuê theo giờ là tuyến tính).
 
-### 📦 Ví dụ Flywheel
-- **Content → Audience → Trust → Offers → Revenue → Better Content:** Viết blog mỗi tuần, xây cộng đồng, mở coaching/cohort, reinvest vào sản phẩm nội dung chất lượng hơn → mỗi vòng đẩy nhau nhanh hơn.
+### 📦 Ví dụ Personal Flywheel (Hiệu ứng bánh đà cá nhân)
+- Vòng lặp chuẩn: **Học kỹ năng sâu → Chia sẻ ra Insight (Media) → Thu hút Network/Cơ hội (Audience) → Tăng thu nhập (Capital) → Lấy thời gian rảnh học kỹ năng sâu hơn (Re-invest).**
+- Bằng cách này, mỗi vòng lặp giúp bạn đi nhanh hơn vòng trước. Viết blog mỗi tuần, xây cộng đồng, mở coaching/cohort, reinvest vào sản phẩm nội dung chất lượng hơn → hệ thống tự động compound.
 
 ---
 

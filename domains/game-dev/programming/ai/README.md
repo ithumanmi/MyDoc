@@ -1,23 +1,28 @@
 ---
-title: "Game AI Module"
-description: "Behavior Tree, steering, GOAP và các mẫu AI cho gameplay."
-tags:
-  - game-ai
-  - unity
-updated: 2026-03-11
+title: "Programming / AI"
+description: "Hub: AI gameplay (Steering, Behavior Tree, GOAP) cho NPC."
+tags: [game-ai, unity, steering, behavior-tree, goap]
+updated: 2026-03-17
 ---
 
-# 🤖 Game AI Module
+# 🤖 Programming / AI Hub
 
+Tóm tắt: Thiết kế AI NPC có di chuyển mượt (steering) và ra quyết định rõ ràng (BT/GOAP), tránh if-else spaghetti, dễ debug/log.
+
+## Nội dung chính
 | File | Nội dung | Khi nào dùng |
 | --- | --- | --- |
-| [game-ai-patterns.md](./game-ai-patterns.md) | FSM, Behavior Tree, GOAP overview | Build hệ AI đa dạng cho NPC |
-| [steering-behaviors.md](./steering-behaviors.md) | Seek/Flee/Arrive/Formation bằng lực | Làm AI di chuyển tự nhiên, tránh chướng ngại |
-| [behavior-tree/](./behavior-tree/) | Core concepts + editor GraphView | Khi cần flow AI phức tạp, dễ debug |
+| [game-ai-patterns.md](./game-ai-patterns.md) | FSM, Behavior Tree, GOAP overview | Chọn kiến trúc AI phù hợp scope dự án |
+| [steering-behaviors.md](./steering-behaviors.md) | Seek/Flee/Arrive/Formation, obstacle avoidance | Làm chuyển động tự nhiên, tránh va chạm |
+| [behavior-tree/](./behavior-tree/) | Core concepts + GraphView editor | NPC nhiều mục tiêu, cần debug luồng hành vi |
 
-**Gợi ý workflow:**
-1. Đọc `game-ai-patterns.md` để chọn mô hình phù hợp.
-2. Prototype với Steering Behaviors để có chuyển động mượt.
-3. Nâng cấp sang Behavior Tree khi NPC cần nhiều mục tiêu & trạng thái.
+## Khi nào dùng
+- NPC patrol/chase/flee/combat cần mở rộng nhanh.
+- Boss/companion/crowd AI vượt quá if-else.
+- Muốn log, quan sát tick và tối ưu hiệu năng AI.
 
-> Tham khảo thêm: [Unity AI Toolkit](../unity-deep-dive/architecture-patterns.md) để tích hợp event system & telemetry.
+## Workflow gợi ý
+1) Chọn kiến trúc trong `game-ai-patterns.md` (FSM/BT/GOAP).  
+2) Prototype steering để đạt feel mượt.  
+3) Nâng cấp sang BT/GOAP, thêm telemetry (state transitions, tick time).  
+4) Review perf & hành vi với designer trước khi ship.

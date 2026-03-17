@@ -11,11 +11,13 @@ Sơ đồ rút gọn toàn bộ tài nguyên trong `guides/04-lifestyle-os/well-
 - **[⚡ Testosterone System](./biohacking/testosterone-system.md)** – Kích hoạt drive, sức mạnh và sự quyết đoán.
 - **[🧪 Neurotransmitters Guide](./biohacking/neurotransmitters-guide.md)** – Tổng hợp Serotonin, GABA, Acetylcholine.
 - **[🛌 Sleep Optimization](./biohacking/sleep-optimization.md)** – Protocol ngủ sâu, phục hồi tế bào.
+- **[🫀 HRV Tracking](./biohacking/hrv-tracking.md)** – Đo lường điểm số sinh tồn (Stress & Khả năng hồi phục) bằng công nghệ HRV.
 - **[🏃 Movement Protocols](./biohacking/movement-protocols.md)** – Zone 2, HIIT, Strength để tối ưu circulation.
 - **[🥗 Nutrition for Brain](./biohacking/nutrition-for-brain.md)** – Ăn uống hỗ trợ não bộ & hormone.
 - **[⚙️ Health OS Overview](./biohacking/health-os-overview.md)** – Lộ trình Health OS 12 tuần.
 - **[📋 Health Optimization Protocols](./biohacking/health-optimization-protocols.md)** – Checklist Morning/Evening Routine.
 - **[💊 Supplements 101](./biohacking/supplements-101.md)** – Framework labs → supplement → safety.
+- **[☣️ Environmental Toxins](./biohacking/environmental-toxins.md)** – Bộ lọc chất phá rối nội tiết, vi nhựa và CO2 cực độc.
 - **[🏡 Environment & Workspace Setup](./environment-workspace.md)** – Ánh sáng, không khí, workspace ergonomics.
 - **[♾️ Longevity 101](./longevity-101.md)** – 5 trụ cột sleep/movement/stress/social/purpose.
 - **[🌙 Ngủ đúng & Năng lượng cả ngày](./ngu-dung-va-nang-luong-ca-ngay.md)** – Khóa “Sleep hygiene” bằng tiếng Việt.
@@ -25,6 +27,7 @@ Sơ đồ rút gọn toàn bộ tài nguyên trong `guides/04-lifestyle-os/well-
 - **[🧘 Mindfulness Meditation](./mental-resilience/mindfulness-meditation.md)** – Thiền & tỉnh thức chống phân tâm.
 - **[🔥 Burnout Prevention](./mental-resilience/burnout-prevention.md)** – Nhận diện và xử lý kiệt sức.
 - **[🏛️ Stoicism for Modern Life](./mental-resilience/stoicism-for-modern-life.md)** – Kích hoạt mindset Khắc kỷ ứng dụng.
+- **[🏝️ High-Quality Leisure](./mental-resilience/high-quality-leisure.md)** – Xây dựng hệ thống nghỉ ngơi (Downtime) và giải trí chủ động.
 - **[Restore Tinh-Khi-Than](./restore-tinh-khi-than.md)** – Phục hồi năng lượng tinh-khí-thần khi suy kiệt.
 - **[Cultivating Yang Energy](./cultivating-yang-energy.md)** – Nuôi dưỡng dương khí, uy lực & thần thái.
 - **[⚖️ Women’s Health (Cycle & Hormones)](./special-populations/womens-health.md)** – Chu kỳ, hormone, liên kết Sleep/Cortisol/Glucose.

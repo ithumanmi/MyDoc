@@ -20,10 +20,15 @@
 - **Optimization:** Check gradient, marginal utility, dừng tối ưu thứ không nên tồn tại → [Optimization Engine](./optimization-engine.md).
 - **Growth:** Compound loop, network effects, viral coefficient → [Growth Engine](./growth-engine.md).
 
+## 🛠️ Sub-Engines (Operating Layer)
+- **Focus:** Xây Second Brain, bảo vệ block Deep Work trăm đô của bạn → [Focus Engine](./focus-engine.md).
+- **Network & Politics:** Biến mình thành Hub, chơi trò chơi quyền lực để tạo liên minh Positive-sum → [Network & Politics Engine](./network-politics-engine.md).
+- **Resource Allocation:** Tiêu dùng Thời gian/Năng lượng như quản lý Quỹ đầu tư, chạy thuật toán 37% → [Resource Allocation Engine](./resource-allocation-engine.md).
+
 ## 🔋 Support Modules (Always On)
 - **Psychology of Self:** Debug dopamine, ego, identity habits → [Psychology of Self](./psychology-of-self.md).
 - **Energy Management:** Sleep, hormones, burnout recovery → [Energy Management](./energy-management.md).
-- **Leverage Theory:** Code/Media/Capital/Labor để tách thời gian khỏi thu nhập → [Leverage Theory](./leverage-theory.md).
+- **Leverage Theory:** Kết hợp AI, Code, Media, Capital để tách thời gian khỏi thu nhập → [Leverage Theory](./leverage-theory.md).
 
 > **Reminder:** Khi thấy hiệu suất tụt vì cơ thể/động lực → quay lại Psychology + Energy. Khi muốn scale lớn → bật Leverage sau khi Growth/Optimization ổn định.
 

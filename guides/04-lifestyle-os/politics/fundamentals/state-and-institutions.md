@@ -61,4 +61,4 @@ Trong một nhà nước pháp quyền:
 ---
 > **Suy ngẫm:** Tại sao việc chia nhỏ quyền lực (Tam quyền phân lập) lại quan trọng đối với sự tự do của cá nhân? Điều gì xảy ra nếu một người nắm cả quyền làm luật và quyền xét xử?
 
-**Bước tiếp theo:** [Phase 2: Triết học Chính trị - Khế ước xã hội](../../../01-mental-models/philosophy/social-contract.md)
+**Bước tiếp theo:** [Phase 2: Triết học Chính trị - Khế ước xã hội](../philosophy/social-contract.md)

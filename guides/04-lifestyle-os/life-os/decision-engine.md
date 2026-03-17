@@ -20,7 +20,15 @@
 *   **Tư duy:** Mọi sự lựa chọn đều có giá. Giá của A là việc không được chọn B.
 *   **Hành động:** "Nếu tôi làm việc này, tôi sẽ KHÔNG làm được việc gì khác?"
 
-### 5. Second-order Effects (Hệ quả bậc 2)
+### 5. Sunk Cost Fallacy (Chi phí chìm)
+*   **Tư duy:** Những gì đã mất (thời gian, tiền bạc, công sức) không thể lấy lại được và KHÔNG ĐƯỢC tính vào quyết định cho tương lai.
+*   **Hành động:** "Nếu hôm nay tôi mới bắt đầu dự án này (với thông tin hiện tại), tôi có làm nó không?" Nếu câu trả lời là Không, thì hãy từ bỏ dù đã mất bao nhiêu năm.
+
+### 6. Optionality (Tính tùy chọn)
+*   **Tư duy:** Tương lai không thể đoán trước. Đừng đóng khung mình vào một kịch bản duy nhất.
+*   **Hành động:** Ưu tiên những quyết định có chi phí rủi ro thấp (capped downside) nhưng mở ra nhiều "quyền lựa chọn" mới trong tương lai. Ví dụ: Học tiếng Anh, viết blog, đi sự kiện networking.
+
+### 7. Second-order Effects (Hệ quả bậc 2)
 *   **Tư duy:** Quyết định tốt không chỉ xét kết quả trực tiếp mà còn chuỗi phản ứng phía sau (Systems Thinking).
 *   **Ví dụ:** Nhận freelance thêm giờ = tiền tăng (bậc 1) nhưng ngủ ít → hiệu suất ngày mai giảm, mất cơ hội thăng tiến (bậc 2). Luôn hỏi “Điều này kéo theo phản ứng dây chuyền nào?”
 *   **Đọc thêm:** [Systems Thinking](../01-mental-models/systems-thinking.md) *(cập nhật link chính xác nếu khác).* 
@@ -31,9 +39,9 @@
 
 Trước mỗi quyết định lớn (Đổi việc, Đầu tư, Mua nhà):
 
-1.  **Tính EV:** Kịch bản tốt nhất là gì? Kịch bản tệ nhất là gì? Xác suất mỗi cái?
+1.  **Tính EV & Chạy Monte Carlo:** Không chỉ có 1 kết quả. Kịch bản tốt nhất là gì? Kịch bản tệ nhất là gì? Kịch bản bình thường nhất là gì? Xác suất mỗi cái?
 2.  **Check Ruin:** Nếu kịch bản tệ nhất xảy ra, tôi có "chết" (phá sản, mất danh dự vĩnh viễn) không? Nếu có -> Bỏ qua ngay lập tức.
-3.  **Check Opportunity:** Tôi có đang bỏ lỡ cơ hội nào tốt hơn không?
+3.  **Check Opportunity & Sunk Cost:** Tôi có đang bỏ lỡ cơ hội nào tốt hơn không? Tôi có tiếp tục dự án này chỉ vì tiếc công sức cũ?
 4.  **Pre-mortem:** Tưởng tượng 1 năm sau dự án này thất bại thảm hại. Lý do là gì? (Tìm ra điểm mù).
 
 ### ⚙️ Ví dụ nhanh: EV + Pre-mortem

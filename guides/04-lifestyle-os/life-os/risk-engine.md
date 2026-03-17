@@ -8,24 +8,28 @@
 *   **Tư duy:** Thế giới không tuân theo phân phối chuẩn. Những sự kiện cực đoan (Thiên nga đen) sẽ xảy ra và xóa sổ những kẻ không chuẩn bị.
 *   **Hành động:** Đừng tối ưu hóa cho "trung bình". Hãy tối ưu hóa cho sự sống sót trong tình huống xấu nhất.
 
-### 2. Redundancy (Dự phòng)
+### 2. Ergodicity (Tính Ergodic)
+*   **Tư duy:** Những thứ đúng với số đông (trong 1 lần chơi) chưa chắc đã đúng với một cá nhân (nếu chơi liên tục).
+*   **Hành động:** Rủi ro 1% phá sản thì dù Expected Value cao đến mấy cũng không được chơi! Chơi 100 lần, tỷ lệ chết là ~100%. Không bao giờ đưa bản thân vào chuỗi nguy cơ bị "xóa sổ" (Ruin) khỏi cuộc chơi.
+
+### 3. Redundancy (Dự phòng)
 *   **Tư duy:** Hiệu quả tối đa (Efficiency) thường giết chết sự bền vững.
 *   **Hành động:**
     *   Có quỹ khẩn cấp (Tiền mặt).
     *   Có nhiều nguồn thu nhập (Kỹ năng).
     *   Backup dữ liệu.
 
-### 3. Antifragile (Khả năng chống chịu)
+### 4. Antifragile (Khả năng chống chịu)
 *   **Tư duy:** Hưởng lợi từ sự hỗn loạn.
-*   **Hành động:** Tự đặt mình vào những thử thách nhỏ (Hormesis) để mạnh mẽ hơn. Đừng né tránh rủi ro hoàn toàn, hãy chọn rủi ro có giới hạn (Capped downside) nhưng phần thưởng vô hạn (Unlimited upside).
+*   **Hành động:** Tự đặt mình vào những thử thách nhỏ (Hormesis) để mạnh mẽ hơn. Đừng né tránh rủi ro hoàn toàn, hãy chọn rủi ro có giới hạn (Capped downside) nhưng phần thưởng vô hạn (Unlimited upside). Càng va chạm càng mạnh (như hệ miễn dịch).
 
-### 4. Entropy (Sự hỗn loạn)
+### 5. Entropy (Sự hỗn loạn)
 *   **Tư duy:** Mọi thứ tự nhiên sẽ hỏng hóc.
 *   **Hành động:** Chủ động bảo trì (Maintenance). Sức khỏe, Mối quan hệ, Kiến thức cần được chăm sóc định kỳ, không đợi hỏng mới sửa.
 
-### 5. Tail Risk vs Routine Risk
+### 6. Tail Risk vs Routine Risk
 *   **Routine risk:** Tai nạn nhỏ lặp lại hằng ngày (bug production, khách hủy hẹn) → xử lý bằng quy trình, checklist.
-*   **Tail risk:** Sự kiện hiếm nhưng hủy diệt (Black Swan: layoff đột ngột, chiến tranh, sàn sập). Tail risk cần dự phòng lớn (cash, diversification, relocation plan) và không được bỏ qua chỉ vì xác suất thấp.
+*   **Tail risk:** Sự kiện hiếm nhưng hủy diệt (Black Swan: layoff đột ngột, chiến tranh, sàn sập). Tail risk cần dự phòng lớn (cash, diversification, relocation plan) và không được bỏ qua chỉ vì xác suất thấp. Rơi vào tail risk nghĩa là hệ thống mất khả năng phục hồi (không có Ergodicity).
 *   **Nguyên tắc:** Routine risk = tối ưu hóa & automation. Tail risk = xây Margin of Safety, bảo hiểm, optionality.
 
 ---

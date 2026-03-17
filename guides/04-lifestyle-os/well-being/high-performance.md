@@ -22,6 +22,13 @@ High Performance (Hiệu suất cao) không phải là làm việc nhiều giờ
 *   **Anandamide:** Tạo tư duy đột phá (Lateral Thinking).
 *   **Serotonin:** Cảm giác thỏa mãn sau khi hoàn thành.
 
+### ⚠️ Giai đoạn Giằng xé (The Struggle Phase)
+Một bí mật mà ít sách năng suất nói đến: **FLOW KHÔNG PHẢI LÀ MỘT TRẠNG THÁI BẬT LÀ CÓ NGAY.**
+Để vào được Flow State, bạn BẮT BUỘC phải đi qua "The Struggle Phase" (10-15 phút đầu tiên):
+1. Khi bắt đầu mở Laptop làm việc sâu, não sẽ tiết ra Noradrenaline (Cortisol) khiến bạn cảm thấy cực kỳ khó chịu, bứt rứt, chán nản.
+2. Não gào thét đòi bạn mở Facebook, check Email, hoặc đi pha cà phê để xoa dịu nỗi đau này (thoát ra khỏi trạng thái khó chịu).
+3. **Thực thi:** Nếu bạn nhượng bộ (mở điện thoại), quá trình kích hoạt Flow kết thúc. Nếu bạn CẮN RĂNG THƯƠNG THUYẾT VỚI NỖI ĐAU này trong đúng 15 phút, vượt qua ngưỡng kháng cự, Dopamine và Endorphin sẽ đổ về, đẩy bạn vào trạng thái Flow tuôn chảy vô tận.
+
 ---
 
 ## 2. Ultradian Rhythms (Nhịp Sinh Học 90 Phút) ⏰

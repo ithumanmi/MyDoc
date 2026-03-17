@@ -1,26 +1,28 @@
 ---
-title: "Physics Module"
-description: "Tài liệu xây dựng core mechanic dựa trên vật lý và tự tạo physics engine."
-tags:
-  - physics
-  - unity
-updated: 2026-03-11
+title: "Programming / Physics"
+description: "Hub: Physics gameplay, controller, vehicle, ragdoll, tối ưu."
+tags: [physics, unity, gameplay]
+updated: 2026-03-17
 ---
 
-# ⚙️ Physics Module
+# ⚙️ Programming / Physics Hub
 
+Tóm tắt: Thiết kế hệ vật lý gameplay thực dụng (controller, vehicle, ragdoll) và tối ưu collision/solver để giữ budget ổn định.
+
+## Nội dung chính
 | File | Nội dung | Khi nào dùng |
 | --- | --- | --- |
-| [simple-physics-engine.md](./simple-physics-engine.md) | Dùng lượng giác viết physics engine 3D mini | Khi cần hiểu sâu collision/constraint hoặc làm tool riêng |
-| [unity-physics-deep-dive.md](./unity-physics-deep-dive.md) | Rigidbody/Collider, physics material, layer matrix, CCD | Khi tối ưu gameplay va chạm, tránh xuyên vật, tối ưu CPU |
-| [character-controller.md](./character-controller.md) | Built-in vs custom Rigidbody controller, slopes, stairs | Khi thiết kế movement nhân vật chuẩn, xử lý slope/step |
-| [vehicle-physics.md](./vehicle-physics.md) | Wheel Collider, arcade vs simulation, input smoothing | Game đua xe, vehicle traversal cần feel chuẩn |
-| [ragdoll-systems.md](./ragdoll-systems.md) | Active/partial ragdoll, blend với anim, recovery | Hit-react/death tự nhiên, kết hợp anim ↔ physics |
-| [physics-optimization.md](./physics-optimization.md) | Fixed timestep, layer matrix, sleep, profiling | Khi cần giữ Physics.Update < budget, scale hàng trăm collider |
+| [simple-physics-engine.md](./simple-physics-engine.md) | Mini physics engine, collision/constraint cơ bản | Hiểu sâu/viết tool riêng hoặc gameplay cần tùy biến solver |
+| [unity-physics-deep-dive.md](./unity-physics-deep-dive.md) | Rigidbody, collider, material, layer matrix, CCD | Chỉnh va chạm, tránh xuyên vật, tối ưu CPU/GPU |
+| [character-controller.md](./character-controller.md) | Built-in vs custom controller, slope/step | Movement nhân vật chuẩn, tránh jitter/đâm tường |
+| [vehicle-physics.md](./vehicle-physics.md) | Wheel Collider, arcade vs sim, input smoothing | Game đua xe/traversal cần feel chuẩn |
+| [ragdoll-systems.md](./ragdoll-systems.md) | Active/partial ragdoll, blend với anim | Hit-react/death tự nhiên, kết hợp anim ↔ physics |
+| [physics-optimization.md](./physics-optimization.md) | Fixed timestep, layer matrix, sleep, profiling | Giữ Physics.Update < budget, scale hàng trăm collider |
 
-**Checklist áp dụng:**
-- [ ] Benchmark delta time và precision trước khi thay physics mặc định.
-- [ ] Viết test cho collision/penetration.
-- [ ] Log performance bằng Unity Profiler khi bật custom solver.
+## Checklist nhanh
+- [ ] Benchmark delta time & precision trước khi đổi thiết lập physics mặc định.
+- [ ] Có test collision/penetration cho case quan trọng.
+- [ ] Log performance bằng Profiler khi bật custom solver/CCD.
+- [ ] Rõ layer matrix, collision filter để giảm broadphase.
 
-> Link chéo: [Metrics/Unity Impact](../metrics/unity-impact-metrics.md) để đo crash/FPS khi thay đổi hệ physics.
+> Link chéo: [Metrics / Unity Impact](../metrics/unity-impact-metrics.md) để đo crash/FPS khi thay đổi hệ physics.

@@ -20,8 +20,10 @@
 
 ### 2️⃣ Protocols theo mục tiêu
 *   **[🛌 Sleep Optimization](./biohacking/sleep-optimization.md):** Khi cần ngủ sâu, hồi phục nhanh.
+*   **[🫀 HRV Tracking](./biohacking/hrv-tracking.md):** Hướng dẫn dùng HRV để đo lường giới hạn phục hồi và Stress của cấu trúc nền.
 *   **[🏃 Movement Protocols](./biohacking/movement-protocols.md):** Khi thiếu vận động hoặc cần bổ sung Zone 2/Strength.
 *   **[🥗 Nutrition for Brain](./biohacking/nutrition-for-brain.md):** Khi muốn tối ưu fuel cho não & hormone.
+*   **[☣️ Environmental Toxins](./biohacking/environmental-toxins.md):** Xóa bỏ vi nhựa, kẻ phá rối nội tiết và sát thủ độ hiếm khí trong không gian sống.
 *   **[⚙️ Health OS Overview](./biohacking/health-os-overview.md):** Khi cần lộ trình tổng thể.
 *   **[📋 Health Optimization Protocols](./biohacking/health-optimization-protocols.md):** Khi cần checklist ngày.
 *   **[💊 Supplements Fundamentals](./supplements-101.md):** Khi muốn hiểu nguyên tắc dùng supplement (ưu tiên lifestyle trước, khi nào nên xét nghiệm, thứ tự bổ sung).
@@ -36,6 +38,7 @@
 3.  **[Cultivating Yang Energy](./cultivating-yang-energy.md):** Khi mất dương khí, khí chất yếu.
 4.  **[🔥 Burnout Prevention](./mental-resilience/burnout-prevention.md):** Khi cạn kiệt, hoài nghi bản thân.
 5.  **[🏛️ Stoicism for Modern Life](./mental-resilience/stoicism-for-modern-life.md):** Khi cần dựng “tường thành” tư duy.
+6.  **[🏝️ High-Quality Leisure](./mental-resilience/high-quality-leisure.md):** Kiến trúc giải trí chủ động, thiết kế lại khoảng "nghỉ" (Downtime).
 
 ---
 

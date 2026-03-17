@@ -276,6 +276,14 @@ Mục tiêu không phải là sống như tu sĩ mãi mãi, mà là sử dụng 
 
 **→ Bạn vừa stack 4-5 dopamine sources healthy → Peak performance 3-4 tiếng!**
 
+> ⚠️ **CẢNH BÁO LỖI HỆ THỐNG: CHỒNG CHÉO QUÁ ĐÀ (OVER-STACKING)**
+> 
+> Đừng lạm dụng Stacking. Nếu bạn làm 1 việc khó (Tập Gym) và *buộc phải* stack thêm: Pre-workout (Caffeine cực mạnh) + Nhạc EDM bass căng + Bạn đồng hành nói chuyện... Bạn đang tạo ra một cơn sóng thần Dopamine khổng lồ (Spike).
+> 
+> **Hậu quả:** Sau khi tập xong, Dopamine bị Crash tàn bạo. Mức Baseline của bạn tụt xuống thấp hơn cả mức trước khi tập. Bạn sẽ cảm thấy kiệt sức, lười biếng và buồn chán phần còn lại trong ngày.
+> 
+> **Cách bảo vệ Baseline:** Thỉnh thoảng hãy bóc tách các layers. Đi tập Gym MỘT MÌNH, KHÔNG NGHE NHẠC, KHÔNG ĐIỆN THOẠI. Hãy để não bộ học cách tìm kiếm dopamine từ chính sự đau đớn và nỗ lực của việc nâng tạ (Intrinsic motivation). Mức Baseline của bạn sẽ được nâng lên vĩnh viễn.
+
 ---
 
 ### **Protocol 3: Dopamine Fasting (1 ngày/tuần)**

@@ -16,7 +16,13 @@ Life OS là tập hợp các mô hình tư duy (Mental Models) được cấu tr
 5.  **[Optimization Engine (Tối ưu)](./optimization-engine.md):** Gradient Descent, Pareto, Marginal Utility. *Hiệu quả nhất.*
 6.  **[Alignment Engine (Định hướng)](./alignment-engine.md):** Vectors, PCA, Regret Minimization. *Đi đúng hướng.*
 
-> **Quick anchors:** [Decision](./decision-engine.md#-decision-engine-động-cơ-ra-quyết-định) · [Risk](./risk-engine.md#-risk-engine-động-cơ-phòng-thủ) · [Strategy](./strategy-engine.md#-strategy-engine-động-cơ-chiến-lược) · [Alignment](./alignment-engine.md#-alignment-engine-động-cơ-định-hướng) · [Growth](./growth-engine.md#-growth-engine-động-cơ-tăng-trưởng) · [Optimization](./optimization-engine.md#-optimization-engine-động-cơ-tối-ưu) · [Leverage](./leverage-theory.md#-leverage-theory-lý-thuyết-đòn-bẩy) · [Psychology](./psychology-of-self.md#-psychology-of-self-tâm-lý-bản-thân) · [Energy](./energy-management.md#-energy-management-quản-trị-năng-lượng)
+### ⚙️ Sub-Engines (Động cơ Phụ trợ)
+*Các module chuyên biệt giúp tinh chỉnh lớp vận hành hàng ngày sau khi đã cài đặt xong CPU.*
+1. **[Focus Engine (Sự chú ý)](./focus-engine.md):** Deep Work, Second Brain. *Bảo vệ tài nguyên não.*
+2. **[Network & Politics Engine (Mạng lưới & Quyền lực)](./network-politics-engine.md):** Hubs, Social Moat. *Tồn tại trong tập thể.*
+3. **[Resource Allocation Engine (Phân bổ Nguồn lực)](./resource-allocation-engine.md):** Explore/Exploit, ROI of Time. *Tiêu chuẩn hóa quyết định chi tiêu năng lượng.*
+
+> **Quick anchors:** [Decision](./decision-engine.md) · [Risk](./risk-engine.md) · [Strategy](./strategy-engine.md) · [Alignment](./alignment-engine.md) · [Growth](./growth-engine.md) · [Optimization](./optimization-engine.md) · [Focus](./focus-engine.md) · [Network](./network-politics-engine.md) · [Allocation](./resource-allocation-engine.md) · [Leverage](./leverage-theory.md) · [Psychology](./psychology-of-self.md) · [Energy](./energy-management.md)
 
 > **Ôn nhanh:** Cần nhớ thứ tự cài đặt và template chính? Mở [Life OS One-Pager](./one-pager.md).
 
@@ -26,8 +32,9 @@ Life OS là tập hợp các mô hình tư duy (Mental Models) được cấu tr
 | Quyết định lớn (đổi việc, đầu tư, chọn đối tác) | [Decision](./decision-engine.md) + [Risk](./risk-engine.md) | Tính EV, check ruin, thiết kế Plan B trước khi commit. |
 | Mất phương hướng, thấy nỗ lực triệt tiêu nhau | [Alignment](./alignment-engine.md) + [Strategy](./strategy-engine.md) | Chuẩn hóa vector sống, chọn đúng game/ngách để tập trung. |
 | Muốn tăng thu nhập bền vững / scale business | [Growth](./growth-engine.md) + [Leverage](./leverage-theory.md) | Thiết kế flywheel, bật đòn bẩy Code/Media/Capital để compound. |
-| Hệ thống bắt đầu vỡ vì quá tải (ops, daily work) | [Optimization](./optimization-engine.md) + [Energy Management](./energy-management.md) | Fix unit economics, dừng local maxima, refill năng lượng. |
-| Burnout, mất động lực/attention | [Psychology of Self](./psychology-of-self.md) + [Energy Management](./energy-management.md) | Reset dopamine, bảo vệ willpower, dựng lại ritual & sleep. |
+| Hệ thống bắt đầu vỡ vì quá tải (ops, daily work) | [Optimization](./optimization-engine.md) + [Resource Allocation](./resource-allocation-engine.md) | Phân bổ lại tài nguyên, dừng local maxima. |
+| Burnout, mất động lực/attention | [Focus](./focus-engine.md) + [Energy Management](./energy-management.md) | Reset bộ lọc nhiễu, đẩy não vào trạng thái Deep Work. |
+| Mâu thuẫn công sở, cần lobby/kết nối sinh lợi | [Network & Politics](./network-politics-engine.md) + [Strategy](./strategy-engine.md) | Tránh zero-sum game, trở thành Hub của hệ thống. |
 
 ### 🔭 Visual Map: Life OS Flow
 
