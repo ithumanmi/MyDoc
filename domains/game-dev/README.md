@@ -15,6 +15,14 @@ updated: 2026-03-16
 > • **Deliverables:** Projects Tier 1-4, portfolio (Itch/GitHub), telemetry notes, server deployment.  
 > • **Success:** Tự ship game hoàn chỉnh, chăm sóc live metrics, cross-skill giữa gameplay & server.
 
+> **Scope of this domain (tech track):** Unity/C#, gameplay systems, netcode & server, graphics/VFX, production/QA, labs/challenges.  
+> **Career & business track:** xem [guides/03-career-skills/game-dev/](../../guides/03-career-skills/game-dev/README.md) (freelance, publisher deals, monetization).
+
+> 🆕 **What's new (Mar 2026):**
+> - **Netcode/Backend:** +[anti-cheat-advanced.md](./anti-cheat-advanced.md), cập nhật hub networking.
+> - **Graphics:** Nhấn URP/HDRP, custom render passes, profiling trong [art-tech/graphics](./art-tech/graphics/README.md).
+> - **Labs/Challenges:** Thêm lab Shader trig, FSM, local LLM NPC, PlayFab, DOTS swarm; challenges spawn balance, lag reconcile, DOTS profiler.
+
 > 📍 **Navigation Note:**  
 > - **This folder (domains/game-dev/):** Technical skills - Unity, C#, Game Architecture, Shaders, Multiplayer  
 > - **Career & Business guide:** See [guides/03-career-skills/game-dev/](../../guides/03-career-skills/game-dev/README.md) for freelancing, publisher deals, monetization strategies
@@ -38,11 +46,18 @@ updated: 2026-03-16
 **🎯 Starting Game Dev?** See [Quick Start - Beginner Path](../../QUICK-START.md#-path-1-beginner-developer-0-1-year) for your first steps!  
 **🔍 Game Dev terms:** Check [Glossary](../../GLOSSARY.md) - Unity, C#, Physics, AI concepts explained simply.  
 **📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md) to understand learning paths.  
-**🧩 Knowledge Audit:** Check [Game Dev Knowledge Audit](../../case-studies/knowledge-audits/game-dev-knowledge-audit.md) to test your skills!
+**🧩 Knowledge Audit:** Check [Game Dev Knowledge Audit](../../case-studies/knowledge-audits/game-dev-knowledge-audit.md) to test your skills!  
+**🧪 Labs & Thử thách:** Thực hành tại [labs/](./labs/README.md) và [challenges/](./challenges/README.md) trước khi apply/phỏng vấn.
 
 ---
 
 ## 🧱 Module Index (Điểm danh thư mục con)
+
+**Chọn nhanh đường chuyên sâu:**
+- **Tech Art (Graphics/VFX):** art-tech/graphics, art-tech/vfx, labs (shader trig), production/unity-deep-dive/vfx-lighting-mastery.md
+- **Netcode/Backend:** programming/networking hub, rollback-netcode, mmo-architecture, anti-cheat-advanced, labs (PlayFab, lag reconcile)
+- **Performance/Production:** production/unity-deep-dive, production/metrics, production/engines (DOTS vs UE), mobile-optimization, challenges ECS profiler
+- **Gameplay/AI:** programming/ai (GOAP, steering, BT), programming/animation (IK/procedural), labs FSM/IK spider
 
 | Module | Nội dung chính | Khi nào dùng |
 | --- | --- | --- |
@@ -59,9 +74,9 @@ updated: 2026-03-16
 | [programming/animation/](./programming/animation/README.md) | IK, rigging, state machine | Khi nâng chất lượng chuyển động |
 | [programming/physics/](./programming/physics/README.md) | Physics engine, vehicle, optimization | Build core mechanic dựa vào physics |
 | [programming/networking/game-server-guide.md](./programming/networking/game-server-guide.md) <br> [programming/networking/senior-game-server-roadmap.md](./programming/networking/senior-game-server-roadmap.md) | Multiplayer architecture, career ladder | Path Multiplayer/Server Engineer |
-| [rollback-netcode.md](./rollback-netcode.md), [mmo-architecture.md](./mmo-architecture.md), [social-features.md](./social-features.md) | Specialized networking topics | Fighting game, MMO, social layer |
+| [rollback-netcode.md](./rollback-netcode.md), [mmo-architecture.md](./mmo-architecture.md), [social-features.md](./social-features.md), [anti-cheat-advanced.md](./anti-cheat-advanced.md) | Specialized netcode, social, anti-cheat | Fighting game, MMO, social layer |
 | **Art Tech** |
-| [art-tech/graphics/](./art-tech/graphics/README.md) | Shaders, lighting, render pipeline | Technical Artist track |
+| [art-tech/graphics/](./art-tech/graphics/README.md) | Shaders, URP/HDRP, custom passes, profiling | Technical Artist track |
 | [art-tech/vfx/](./art-tech/vfx/README.md) | VFX breakdowns, shader graph recipes | Khi cần tách VFX khỏi graphics tổng |
 | [art-tech/audio/](./art-tech/audio/README.md) | Sound design, middleware, spatial audio | Hoàn thiện feedback âm thanh |
 | [art-tech/ui-ux/](./art-tech/ui-ux/README.md) | HUD, accessibility, feedback systems | Giảm friction, tăng clarity |
@@ -71,7 +86,7 @@ updated: 2026-03-16
 | **Production & Ops** |
 | [production/README.md](./production/README.md) | Hub: deep dive, engines, metrics, QA | Điều phối production & ops |
 | [production/unity-deep-dive/](./production/unity-deep-dive/README.md) | Clean code, editor tooling, optimization | Áp dụng dự án production |
-| [production/engines/](./production/engines/README.md) | Unity DOTS, Unreal comparisons | Đánh giá engine & tối ưu |
+| [production/engines/](./production/engines/README.md) | Unity DOTS vs Unreal (Nanite/Lumen) | Đánh giá engine & tối ưu |
 | [production/metrics/](./production/metrics/README.md) | Unity Impact Metrics, genre cheat sheet | LiveOps, pitch dự án, marketing |
 | [production/qa-testing/](./production/qa-testing/README.md) | QA workflow, automation, test plans | Thiết lập quy trình QA nội bộ |
 | **Special Topics & Resources** |
@@ -83,7 +98,8 @@ updated: 2026-03-16
 | [testing/](./testing/README.md) | QA automation, playtest, telemetry | Đảm bảo chất lượng & dữ liệu |
 | [cheatsheets/](./cheatsheets/) | Quick reference (shortcuts, shader math, netcode) | Ôn nhanh trước sprint/review |
 | [case-studies/](./case-studies/) | Hollow Knight combat, Celeste movement, Hades procedural, Among Us netcode, Genshin gacha | Study best-in-class execution |
-| [challenges/](./challenges/README.md) | Coding exercises, ECS/netcode tasks | Luyện tay trước/phỏng vấn |
+| [challenges/](./challenges/README.md) | Coding exercises (spawn balance, lag reconcile, DOTS profiler) | Luyện tay trước/phỏng vấn |
+| [labs/](./labs/README.md) | Labs thực chiến (shader trig, FSM, local LLM NPC, PlayFab, DOTS swarm) | Tăng phản xạ production, không copy-paste |
 | [ai-for-game-dev.md](./ai-for-game-dev.md), [user-generated-content.md](./user-generated-content.md), [cloud-gaming.md](./cloud-gaming.md), [cross-platform-play.md](./cross-platform-play.md), [blockchain-gaming.md](./blockchain-gaming.md), [anti-cheat-advanced.md](./anti-cheat-advanced.md) | Emerging/advanced topics | Khi cần mở rộng tầm nhìn |
 
 ---
