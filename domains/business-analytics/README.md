@@ -30,4 +30,12 @@ Code Data Đủ Dùng, Chủ Yếu Là Mắt Tư Duy Chế Bảng Vẽ Dashboard
 
 ---
 
+## 🏦 Kỹ Thuật Định Lượng Nâng Cao (Quantitative Trading & Financial Engineering)
+
+Không dừng lại ở việc tối ưu ngân sách công ty, Dữ liệu còn dùng để rút tiền ra khỏi Thị Trường Tài Chính cực kỳ Máu Chó.
+
+*   **[Quy Cách Backtest Python Cắt Bot Đứt Họng Sàn Giao Dịch Bằng Thuật Toán Lõi Lọc Biases (Quant Trading Hub)](./trading/README.md)** (⭐ **NEW Khủng**): Vứt bỏ thói quen Nhìn Biểu Đồ Cảm Tính. Báo Mệnh Áp Chế Bot Đổ Code Toán Học Trọng Z-Score Gắn Python, Dùng Công Thức Tỷ Lệ Đứng Xác Lịch Sử Lệnh Đầu (Sharpe/Kelly), Chạy Mảng Lab Cointegration Sát Mạch Giá Ảo Lọc Giám Statistical Arbitrage Cứu Rủi Toàn Thắng Đỉnh!!
+
+---
+
 > **🚀 Tư Duy Cuối Cùng Dành Cho Mọi Chuyên Gia Mạng Lưới RDBMS Đỉnh Cao:** Những Lập Trình Viên "Lương Cao Nhất Thế Giới" Không Phải Chỉ Code Thật Giỏi! Đó Là Những Người Nắm Bắt Nút Mạch Cốt Chặt Nhất Chạy Dòng Máu Ngầm Sự Thành Bại Gốc Công Ty Trong Code Dòng Họ Viết Ra Chấm Trúng Túi Lời Quỹ Lỗ! Trang Bị Tấm Khiên BA Tương Tự Một Sự Triển Trọng "Nhĩ Phân Thương Trường Lớn Lỗ". 

@@ -95,7 +95,7 @@ Hiểu cấu trúc để navigate hiệu quả. Mỗi mục lớn hiển thị *
     *   👉 [Hadoop & Spark](domains/data-science/big-data/hadoop-spark-internals.md) | [Data Warehouse vs Lakehouse](domains/data-science/architecture/data-warehouse-lakehouse.md)
 18. **[Business Analytics & Business Intelligence 📈](domains/business-analytics/README.md)** (⭐ **NEW Khủng**)
     *   *Ráp Mệnh Phương Trình Kinh Doanh (NSM/ LTV/ CAC). Thống Kê Toán Học A/B Testing Chống Ngụy Biện Trực Diện Hỗ Trợ Đỉnh Cao CEO Dashboard.*
-    *   👉 [Core Business Metrics](domains/business-analytics/metrics/core-business-metrics.md) | [A/B Testing Statistics](domains/business-analytics/experimentation/ab-testing-statistics.md) | [Financial ROI Modeling](domains/business-analytics/labs/lab-financial-roi-modeling.md)
+    *   👉 [Core Metrics](domains/business-analytics/metrics/core-business-metrics.md) | [A/B Testing](domains/business-analytics/experimentation/ab-testing-statistics.md) | [Financial ROI Lab](domains/business-analytics/labs/lab-financial-roi-modeling.md) | [Quant Trading/Algo Bot](domains/business-analytics/trading/README.md)
 
 ### 💰 Phase 4: Wealth, Freedom & Life OS (Tài chính & Tư duy)
 19. **[MMO Engineering (Kỹ Thuật Kiếm Tiền Online)](domains/mmo-engineering/README.md)** (⭐ **Khủng/Updated**)
