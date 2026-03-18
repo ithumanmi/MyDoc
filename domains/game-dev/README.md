@@ -59,6 +59,12 @@ updated: 2026-03-16
 - **Performance/Production:** production/unity-deep-dive, production/metrics, production/engines (DOTS vs UE), mobile-optimization, challenges ECS profiler
 - **Gameplay/AI:** programming/ai (GOAP, steering, BT), programming/animation (IK/procedural), labs FSM/IK spider
 
+**Starter pack (3 tài liệu ưu tiên mỗi chuyên sâu):**
+- **Tech Art (Graphics/VFX):** [art-tech/graphics/shader-programming.md](./art-tech/graphics/shader-programming.md), [art-tech/graphics/render-pipelines.md](./art-tech/graphics/render-pipelines.md), [production/unity-deep-dive/vfx-lighting-mastery.md](./production/unity-deep-dive/vfx-lighting-mastery.md)
+- **Netcode/Backend:** [programming/networking/game-server-guide.md](./programming/networking/game-server-guide.md), [rollback-netcode.md](./rollback-netcode.md), [anti-cheat-advanced.md](./anti-cheat-advanced.md)
+- **Performance/Production:** [production/unity-deep-dive/optimization-techniques.md](./production/unity-deep-dive/optimization-techniques.md), [production/metrics/unity-impact-metrics.md](./production/metrics/unity-impact-metrics.md), [production/engines/unity-advanced.md](./production/engines/unity-advanced.md)
+- **Gameplay/AI:** [programming/ai/goap-utility-ai.md](./programming/ai/goap-utility-ai.md), [programming/ai/behavior-tree/core-concepts.md](./programming/ai/behavior-tree/core-concepts.md), [programming/animation/inverse-kinematics.md](./programming/animation/inverse-kinematics.md)
+
 | Module | Nội dung chính | Khi nào dùng |
 | --- | --- | --- |
 | **Fundamentals** |

@@ -21,6 +21,7 @@ Agents & Orchestration là bước nối **RAG (grounded outputs)** với **prod
 *   **[Multi-Agent Collaboration](./multi-agent-collaboration.md):** Nhiều Agent hợp tác giải quyết bài toán phức tạp.
 *   **[Autonomous Agents](./autonomous-agents.md):** AutoGPT, BabyAGI và hướng phát triển AI tự chủ.
 *   **[Agent Use Cases](./agent-use-cases.md):** Ứng dụng thực tế.
+*   **[OpenClaw](./openclaw.md):** Orchestrator tập trung planning, tool routing, safety guard.
 
 ### Advanced (Chuyên sâu)
 *   **[Graph RAG](./advanced/graph-rag.md):** GraphRAG, Hybrid Search, Reranking — RAG cho Agent.
@@ -29,6 +30,7 @@ Agents & Orchestration là bước nối **RAG (grounded outputs)** với **prod
 *   **[Local Agents](./advanced/local-agents.md):** Chạy Agent offline (Ollama, Llama.cpp).
 *   **[Evaluating Agents](./advanced/evaluating-agents.md):** RAGAS, AgentBench.
 *   **[Human-in-the-Loop](./advanced/human-in-the-loop.md):** Tương tác người–máy, streaming, UX.
+*   **Module OpenClaw:** [openclaw.md](./openclaw.md) (overview) + [openclaw/](./openclaw/README.md) (quickstart, patterns, safety, examples).
 
 ---
 
