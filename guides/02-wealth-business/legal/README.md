@@ -55,6 +55,7 @@ Pháp lý cho người đi làm và nhà tuyển dụng.
 - **[Thôi việc & Trợ cấp](./employment/termination-severance.md)** - Sa thải, nghỉ việc, bồi thường
 - **[Quấy rối Nơi làm việc](./employment/workplace-harassment.md)** - Nhận diện và xử lý
 - **[Remote Work Legal](./employment/remote-work-legal.md)** - Làm việc từ xa, thuế, BHXH
+- **[ESOP & Equity Traps](./employment/equity-esop-traps.md)** - Bẫy cổ phần, the Cliff, và rủi ro Pha loãng
 
 ---
 
@@ -70,6 +71,7 @@ Pháp lý cho người kinh doanh và startup.
 - **[Tuyển dụng Nhân viên](./business/hiring-employees.md)** - HĐLĐ, BHXH, quy định
 - **[Đối tác & Cổ đông](./business/partnership-shareholder.md)** - Thỏa thuận, quyền lợi
 - **[Phá sản & Giải thể](./business/bankruptcy-liquidation.md)** - Khi nào, làm thế nào
+- **[Thiết lập Xuyên biên giới (Solopreneur Stack)](./business/solopreneur-cross-border.md)** - Nhận USD, thuế MoR vs LLC
 - **[Thương mại Điện tử](./business/ecommerce-regulations.md)** - Decree 52/2013, yêu cầu
 
 ---
@@ -85,6 +87,7 @@ Pháp lý chuyên biệt cho developers và tech.
 - **[Freelance Contracts](./tech-developers/freelance-contracts.md)** - Hợp đồng tư vấn, IP
 - **[IP Ownership](./tech-developers/ip-ownership.md)** - Ai sở hữu code?
 - **[Platform Compliance](./tech-developers/platform-compliance.md)** - App Store, Google Play
+- **[AI & Data Legal Survival](./tech-developers/ai-data-legal.md)** - Bản quyền GenAI, Cào dữ liệu (Scraping), và PDPA/GDPR
 - **[Crypto & Blockchain Legal](./tech-developers/crypto-blockchain-legal.md)** - Web3, NFT, Token
 
 ---
@@ -95,6 +98,7 @@ Pháp lý đầu tư và tài chính cá nhân.
 
 - **[Luật Chứng khoán](./finance-investing/securities-law.md)** - SSC, công bố thông tin
 - **[Thuế Đầu tư](./finance-investing/tax-investing.md)** - Cổ phiếu, BĐS, lãi suất
+- **[Crypto & Forex Legal](./finance-investing/crypto-forex-legal.md)** - Ranh giới tàng trữ, thanh toán P2P và luật ngoại hối
 - **[Thuế Crypto](./finance-investing/crypto-tax.md)** - Hiện trạng và tương lai
 - **[Ngoại hối](./finance-investing/forex-regulations.md)** - Chuyển tiền quốc tế, compliance
 - **[Vay mượn Hợp pháp](./finance-investing/lending-borrowing.md)** - Lãi suất, cầm cố
@@ -125,6 +129,7 @@ Cho những người muốn đi sâu hơn.
 - **[Compliance Framework](./advanced/compliance-framework.md)** - Xây dựng hệ thống tuân thủ
 - **[Litigation Strategy](./advanced/litigation-strategy.md)** - Chiến lược kiện tụng
 - **[Legal Risk Management](./advanced/legal-risk-management.md)** - Quản lý rủi ro pháp lý
+- **[Disaster & Crisis Response](./advanced/crisis-response-protocol.md)** - Kịch bản 24h xử lý khủng hoảng (DMCA, nợ xấu, thanh tra)
 
 ---
 
@@ -143,11 +148,11 @@ Các mẫu hợp đồng thực tế bằng Tiếng Việt.
 
 ---
 
-### 📚 [10. Case Studies - Tình huống Thực tế](./case-studies/)
+### 📚 [10. Case Studies - Tình huống Thực tế](./case-studies/README.md)
 
 Học từ những câu chuyện có thật.
 
-- **[Sai lầm Legal của Startup](./case-studies/startup-legal-mistakes.md)** - 10+ cases
+- **[5 Sai lầm Legal Chí Mạng Startup](./case-studies/startup-legal-mistakes.md)** - Mất trắng 50% cổ phần vì nghỉ sớm, bị cướp quyền app vì code buổi đêm
 - **[Câu chuyện Kiểm tra Thuế](./case-studies/tax-audit-stories.md)** - Bị thuế "sờ gáy"
 - **[Tranh chấp Hợp đồng](./case-studies/contract-disputes.md)** - Disputes thực tế
 - **[Cấu trúc Legal Thành công](./case-studies/successful-structures.md)** - Làm đúng

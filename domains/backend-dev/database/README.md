@@ -18,6 +18,13 @@ updated: 2026-03-11
 | [Database Optimization Deep Dive](./advanced-db-optimization.md) | Checklist thao tác hóa: profiling, replication, sharding, incident handling | Lúc cần tối ưu hoặc xử lý bottleneck cụ thể |
 | [PostgreSQL Operations Handbook](./postgres-operations-handbook.md) | Vận hành Postgres: tuning, backup/PITR, extensions, playbook sự cố | Đội đang chạy PostgreSQL production |
 | [MongoDB Operations Field Guide](./mongodb-operations-field-guide.md) | Schema design, index, replica set, sharding, backup của MongoDB | Đội sử dụng MongoDB/Document DB |
+| [Next-Gen Storage & Databases](./next-gen-databases.md) ✨ | (⭐ **NEW**) Giải phẫu kiến trúc Vector DBs (AI), Graph DBs, Distributed SQL (CockroachDB) & Time-Series DBs | Data Scale hiện đại nâng cấp Senior Engineer |
+
+## 🧪 Database Practical Labs
+Lý thuyết suông là vô nghĩa nếu không chạm tay vào Cấu Hình Thực Chiến, hãy dựng các Node và giả lập lỗi ngắt mạng:
+*   [Thiết Lập Replication Master-Slave PostgreSQL & Xử Lý Failover](./labs/lab-postgres-replication-failover.md) 🔥 (Dựng Đứng Cụm Docker Đồng Bộ Dữ Liệu Liên Tục & Thủ Nạn Nâng Thẳng Quyền Cứu Server Tụt Mạng)
+*   [Chống Thảm Họa Sập Redis Dập Tường Khoe Dáng (Cache Penetration / Stampede)](./labs/lab-redis-cluster-anti-stampede.md) 🔥 (Viết Mutex Lock Cứu Cánh Đồng Bộ Không Làm Đứt Mạng Database Tại Hồi Bão Kẹt Request Flash Sale Đoạt 9 Mạng Backend Trụ)
+
 
 ## 🚀 Lộ trình học gợi ý
 1. **Hiểu nền tảng**: đọc *Advanced Database Engineering* để nắm khái niệm.

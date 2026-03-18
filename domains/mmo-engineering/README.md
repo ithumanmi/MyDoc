@@ -21,8 +21,10 @@ updated: 2026-03-12
 
 1. **Anti-detect & Fingerprinting** – hiểu fingerprint, profile isolation.
 2. **Proxy Infrastructure** – residential, 4G farm, rotation strategies.
-3. **Automation Stack** – browser, mobile, GUI automation, OTP handling.
-4. **Tool Development** – Python foundations, API/GUI automation, pack/release tools.
+3. **Advanced Stealth ✨** – Vượt hố đen TLS (JA3/JA4) fingerprint và che giấu lỗ rò CDP.
+4. **Automation Stack** – browser, mobile, GUI automation, OTP handling.
+5. **AI-Driven Farming ✨** – Sử dụng LLM tích hợp RAG chống nhận diện spam kịch bản cứng, debate tự động, tăng Trust Account thật giả bất khuất.
+6. **Tool Development** – Python foundations, API/GUI automation, pack/release tools.
 5. **Crypto Sybil Ops** – funding hygiene, randomization, wallet management.
 
 ## 3. Modules
@@ -30,16 +32,20 @@ updated: 2026-03-12
 | Module | File |
 | --- | --- |
 | Browser Fingerprinting | [browser-fingerprinting.md](./browser-fingerprinting.md) |
+| Advanced Mạng Stealth | [anti-detect/tls-and-cdp-stealth.md](./anti-detect/tls-and-cdp-stealth.md) *(TLS Fingerprinting, Custom Chromium)* ✨ |
 | Proxy Infrastructure | [proxy-infrastructure.md](./proxy-infrastructure.md) |
 | Automation Tools | [automation-tools.md](./automation-tools.md) |
+| AI-Driven Farming | [automation-tools/ai-driven-farming.md](./automation-tools/ai-driven-farming.md) *(Bots hóa thân LLM RAG debate mượt mà)* ✨|
 | Crypto Sybil Strategies | [crypto-sybil.md](./crypto-sybil.md) |
 | Tool Development | [tool-dev/README](./tool-dev/python-foundation.md) *(packaging, licensing, CI)* |
 | Captcha & Challenge Solving | [captcha/INDEX](./captcha/README.md) *(reCAPTCHA, hCaptcha, Turnstile, OCR, audio)* |
 | Network Layer (4G/Providers) | [network/INDEX](./network/4g-farm-hardware-guide.md) |
 | Platform Playbooks | [platforms/INDEX](./platforms/README.md) *(Facebook/TikTok/Google)* |
+| Behavioral Biometrics Spoofing| [platforms/behavioral-biometrics.md](./platforms/behavioral-biometrics.md) *(Qua mặt phân tích lực gõ phím, vuốt màn hình)* ✨|
 | Operations & Monitoring | [operations/README](./operations/farm-dashboard.md) *(new)* |
 | Operational Monitoring | [operations-monitoring.md](./operations-monitoring.md) |
 | Case Studies | [case-studies.md](./case-studies.md) *(Phone farm, warm-up, bot ops, airdrop)* |
+| **MMO Thao Trường Labs** | **[labs/README.md](./labs/README.md)** *(Diy 4G Proxy, Gỡ Cloudflare, Cày Reddit AI Vằng Tốc Thực Chiến Lõi)* ✨ |
 
 ## 4. Economics & ROI Modeling
 

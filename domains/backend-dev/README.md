@@ -203,6 +203,10 @@ graph TD
 > *   [🔒 Advanced Security (OWASP, JWT, DDoS)](./security/advanced-security.md) ⭐ **NEW**
 > *   [🔑 OAuth 2.0 & OIDC Deep Dive](./security/oauth2-oidc-deep-dive.md) ⭐ **Must Read**
 > *   [📡 Advanced API Patterns](./api-design/advanced-patterns.md) ⭐ **NEW**
+> *   [⚔️ Ngôn Ngữ API Mới (gRPC & GraphQL vs REST) ✨](./api-design/grpc-graphql-rest.md) ⭐ **NEW**
+> *   [🧠 Domain-Driven Design (DDD) & Lõi Nghiệp Vụ Tách Biệt ✨](./architecture/advanced/domain-driven-design.md) ⭐ **NEW Khủng Lịch Sử**
+> *   [🌊 Distributed Message Brokers (Apache Kafka vs RabbitMQ) ✨](./architecture/distributed/kafka-rabbitmq-internals.md) ⭐ **Khủng Lịch Sử**
+> *   [🫀 Phẫu Thuật Động Cơ Thời Gian Thực (Redis & ElasticSearch Internals) ✨](./database/redis-elasticsearch-deep-dive.md) ⭐ **Khủng**
 > *   [🏗️ System Design Case Studies (Netflix, Uber, Twitter)](./system-design/case-studies.md) ⭐ **NEW**
 > *   [☁️ How Amazon S3 Works (Deep Dive)](./system-design/amazon-s3-architecture.md) ⭐ **Must Read**
 > *   [☁️ Cloud Native Architecture (Serverless, Service Mesh)](./architecture/cloud-native.md) ⭐ **NEW**
@@ -216,7 +220,11 @@ Lý thuyết là chưa đủ. Hãy bắt tay vào thiết kế:
 2.  **[Design Instagram (Deep Dive)](./system-design/design-instagram.md)** (⭐ **Recommended**) - Bài toán kinh điển về Feed & Scalability.
 3.  **[Design Real-time Chat (Facebook/WhatsApp)](./system-design/realtime-chat-system.md)** (⭐ **New**) - WebSocket, Redis Pub/Sub & Cassandra.
 4.  **[20 System Design Concepts (Glossary)](./system-design/system-design-glossary.md)** - Giải thích các khái niệm quan trọng bằng ví dụ đời thường (ELI5).
-4.  **[System Design Interview Cheatsheet](./templates/system-design-interview-cheatsheet.md)** - Các con số latency và công thức tính nhanh cần nhớ.
+5.  **[System Design Interview Cheatsheet](./templates/system-design-interview-cheatsheet.md)** - Các con số latency và công thức tính nhanh cần nhớ.
+6.  **[🧪 Xưởng Code Nóng Backend Lõi (Core Labs) ✨](./labs/README.md):** (⭐ **New**) 
+    - *Network Xói Mòn:* Golang API Gateway (Custom Load Balancer), Rust Concurrent C10K WebSockets.
+    - *System Tách Biệt:* NestJS CQRS (Đập Vỡ Write DB vs Read DB).
+    - *Deep Data Streaming:* Apache Kafka Event Sourcing, Tactical DDD TypeScript Domain Tinh Khiết, và ElasticSearch Fuzzy Tìm Kiếm Lỗi Gõ Máy. Nâng Cấp Tận Cùng Giáp Tạ Lõi (Staff Engineers Level L3-L4). 🚀
 
 #### **Core Concepts:**
 

@@ -22,14 +22,15 @@ Tài liệu hướng dẫn toàn diện về Nghiên cứu Thị trường & Ph�
 | **Mobile App Builder** | [Introduction](./core/introduction-to-market-research.md), [Competitor Analysis](./core/competitor-analysis-framework.md) | [Mobile App Research](./apps-saas/mobile-app-market-research.md), ASO | [Advanced Monetization](./apps-saas/mobile-app-monetization-advanced.md), [Market Sizing & Forecasting](./strategy/market-sizing-forecasting.md) |
 | **SaaS / B2B** | [Introduction](./core/introduction-to-market-research.md), [Competitor Analysis](./core/competitor-analysis-framework.md) | [SaaS Market Research](./apps-saas/saas-market-research.md), [B2B Sales Intelligence](./apps-saas/b2b-sales-intelligence.md), [PLG Research](./apps-saas/plg-research-framework.md) | [Advanced Pricing](./strategy/advanced-pricing-strategy.md), [Market Sizing & Forecasting](./strategy/market-sizing-forecasting.md), [Trend Spotting](./strategy/trend-spotting-alpha.md) |
 | **MMO / Automation** | [Introduction](./core/introduction-to-market-research.md), [Competitor Analysis](./core/competitor-analysis-framework.md) | [MMO Tools Research](./games/mmo-tools-market-research.md) | [Market Sizing & Forecasting](./strategy/market-sizing-forecasting.md), [Advanced Pricing](./strategy/advanced-pricing-strategy.md) |
-| **Founder chung / Validation** | [Introduction](./core/introduction-to-market-research.md) | [Validation Strategy](./strategy/validation-strategy.md), [Primary Research 101](./core/primary-research-101.md) | [Market Sizing & Forecasting](./strategy/market-sizing-forecasting.md), [Trend Spotting](./strategy/trend-spotting-alpha.md), [Advanced Pricing](./strategy/advanced-pricing-strategy.md) |
+| **Bảo mật & Web3** | [Introduction](./core/introduction-to-market-research.md), [Competitor Analysis](./core/competitor-analysis-framework.md) | [Web3 On-Chain Analysis](./web3/on-chain-analysis.md) | [Market Sizing & Forecasting](./strategy/market-sizing-forecasting.md), [Trend Spotting](./strategy/trend-spotting-alpha.md) |
+| **Founder chung / Validation** | [Introduction](./core/introduction-to-market-research.md), [AI-Powered Research](./core/ai-powered-research.md) | [Validation Strategy](./strategy/validation-strategy.md), [Primary Research 101](./core/primary-research-101.md) | [Market Sizing & Forecasting](./strategy/market-sizing-forecasting.md), [Trend Spotting](./strategy/trend-spotting-alpha.md), [Micro-Acquisition Due Diligence](./strategy/micro-acquisition-diligence.md) |
 
 ### 🗺️ Start Here (INDEX theo tình huống)
 
 | Tình huống | Bước nhanh | Trang/Tool chính | Output mong muốn |
 | --- | --- | --- | --- |
-| **Launch mobile game (global)** | 1) [Game Market Research](./games/game-market-research.md) (Steam/mobile); 2) [Game Market Sizing Practice](./games/game-market-sizing-practice.md); 3) Ads creative check; 4) Pricing/PPP tham chiếu [Geo & Localization](./core/geo-localization-guide.md) | SteamDB, Data.ai/Sensor Tower, Gamalytic, TikTok/Meta Ads Library | One-pager thị trường + ước tính ARPDAU/retention mục tiêu |
-| **B2B SaaS (US/EU)** | 1) [SaaS Market Research](./apps-saas/saas-market-research.md); 2) [B2B Sales Intelligence](./apps-saas/b2b-sales-intelligence.md); 3) [PLG Research](./apps-saas/plg-research-framework.md); 4) Phỏng vấn: [Primary Research 101](./core/primary-research-101.md) | Similarweb, BuiltWith, LinkedIn Sales Navigator, Crunchbase/Pitchbook, G2/Capterra review mining | Slide 5-10 trang: ICP, pain, willingness-to-pay, top 3 đối thủ, kênh vào cửa |
+| **Launch mobile game (global)** | 1) [Game Market Research](./games/game-market-research.md) (Steam/mobile); 2) [Game Market Sizing Practice](./games/game-market-sizing-practice.md); 3) [Ad Spying & Creatives](./strategy/ad-creative-spying.md); 4) Pricing tham chiếu [Geo & Localization](./core/geo-localization-guide.md) | SteamDB, Data.ai/Sensor Tower, Gamalytic, TikTok/Meta Ads Library | One-pager thị trường + ước tính ARPDAU/retention mục tiêu |
+| **B2B SaaS (US/EU)** | 1) [SaaS Market Research](./apps-saas/saas-market-research.md); 2) [B2B Data Scraping](./apps-saas/automated-data-scraping.md); 3) [PLG Research](./apps-saas/plg-research-framework.md); 4) [AI Product Research](./apps-saas/ai-product-research.md) | Similarweb, BuiltWith, LinkedIn Sales Navigator, Crunchbase/Pitchbook, G2/Capterra review mining | Slide 5-10 trang: ICP, pain, willingness-to-pay, top 3 đối thủ, kênh vào cửa |
 | **VN-only app/game/tool** | 1) [Mobile App Market Research](./apps-saas/mobile-app-market-research.md) (nếu app); 2) [Geo & Localization](./core/geo-localization-guide.md) (payment, PPP, kênh VN); 3) Survey/interview nội địa: [Primary Research 101](./core/primary-research-101.md); 4) Pricing local/PPP | Similarweb country split, Google Trends (VN), local store charts, Adsota/Q&Me reports, Momo/ZaloPay data points | Dashboard nhẹ + quyết định pilot: kênh UA VN, pricing VND, backlog localization |
 | **Console/PC premium launch** | 1) [Game Market Research](./games/game-market-research.md) (PC/console focus); 2) Check wishlist/CCU/price band đối thủ; 3) Press/creator plan; 4) Regional pricing theo PPP [Geo & Localization](./core/geo-localization-guide.md) | SteamDB, VGInsights/Gamalytic, creator coverage (Twitch/YouTube), platform cut/fee | One-pager giá/định vị + lịch PR/creator + benchmark review score |
 | **Marketplace 2-sided** | 1) Xác định bên cung/cầu và chicken-egg; 2) Nghiên cứu pricing/fee cấu trúc; 3) Phỏng vấn đôi bên [Primary Research 101](./core/primary-research-101.md); 4) Theo dõi liquidity metrics | Similarweb, BuiltWith (stack), search volume, job posts của đối thủ, G2/Capterra (nếu B2B) | Slide ngắn: ICP đôi bên, take rate, kênh acquire mỗi bên, rủi ro churn/liquidity |
@@ -37,6 +38,8 @@ Tài liệu hướng dẫn toàn diện về Nghiên cứu Thị trường & Ph�
 | **Marketplace B2C (EU)** | 1) Xác định category & fee/cancellation policy của đối thủ; 2) Demand-side research (survey/traffic); 3) Supply acquisition plan; 4) Privacy/GDPR check | Similarweb (EU split), search trends, AppMagic/Data.ai nếu mobile, Trustpilot reviews, GDPR basics | One-pager: fee/commission benchmark, top channels (paid/SEO/affiliate), rủi ro CAC/return, GDPR notes |
 | **Fintech (compliance-first)** | 1) Kiểm tra khung pháp lý (KYC/AML, PSD2/Open Banking, license); 2) Đối thủ & pricing; 3) Primary research user trust & willingness-to-switch; 4) Security/infra note | Regulator docs, licensing list, Similarweb, app store reviews (trust), bank API/provider (Plaid/Tink), legal counsel checklist | Slide: compliance requirements, cạnh tranh, giá/fee, rủi ro pháp lý, kế hoạch sandbox/pilot |
 | **Edtech K12** | 1) Segment (phụ huynh vs học sinh vs trường); 2) Giá/ARPU và lịch năm học; 3) Content localization & curriculum fit; 4) Kênh phân phối (school, phụ huynh online, teacher community) | Similarweb/AppMagic/Data.ai, search volume theo môn/lớp, local curriculum requirements, parent forums/groups | One-pager: segment/needs, seasonality, pricing gói, kênh acquire, rủi ro churn/compliance |
+| **Web3 & Crypto** | 1) Phân tích TVL/Revenue bằng Token Terminal; 2) [Đọc vị On-Chain](./web3/on-chain-analysis.md) bằng Dune Analytics; 3) Lọc nhiễu Sybil (Airdrop Bots) | DefiLlama, Dune Analytics, Token Terminal, Nansen (Nâng cao) | Dashboard: TVL, Core Revenue, Tỷ lệ User Thật/Giả, Lịch nhả token đối tác |
+| **Mua M&A Micro-SaaS** | 1) [Check Health SaaS](./strategy/micro-acquisition-diligence.md) - Rà soát Technical Debt; 2) Tính Hệ số định giá SDE (Valuation Multiples); 3) Phát hiện fake traffic SEO | Ahrefs/Semrush (Check Backlink spam), Github (Mức độ commit bảo trì) | Bảng rà soát rủi ro: Lỗi Lib Deprecated, Fake Revenue/Traffic, Đề xuất giá Mua |
 
 ### 🔗 Cross-links hữu ích
 - **Side-hustle & freelancing:** [Freelancer Framework](../../03-career-skills/productivity/side-hustle/freelancer-framework.md), [Freelancer Roadmap](../../03-career-skills/productivity/side-hustle/freelancer-roadmap.md), [Content Creation Blueprint](../../03-career-skills/productivity/side-hustle/content-creation-blueprint.md).
@@ -66,6 +69,7 @@ Tài liệu hướng dẫn toàn diện về Nghiên cứu Thị trường & Ph�
     *   Tại sao Market Research quan trọng?
     *   Các phương pháp nghiên cứu cơ bản (Qualitative vs Quantitative).
     *   Công cụ cần thiết (Tools).
+    *   **[AI-Powered Market Intelligence](./core/ai-powered-research.md)** *(Mới)*: Hack tốc độ Research x10 bằng ChatGPT + Apify. Dùng Perplexity làm Industry Report tự động trong 5 phút.
 
 2.  **[Competitor Analysis Framework](./core/competitor-analysis-framework.md)**
     *   Cách xác định đối thủ (Direct vs Indirect).
@@ -84,21 +88,28 @@ Tài liệu hướng dẫn toàn diện về Nghiên cứu Thị trường & Ph�
 
 5.  **[SaaS Market Research](./apps-saas/saas-market-research.md)**
     *   **[B2B Sales Intelligence](./apps-saas/b2b-sales-intelligence.md):** ICP, Decision Maker Mapping.
+    *   **[Automated Data Scraping for B2B](./apps-saas/automated-data-scraping.md)** *(Mới)*: Tự động hóa gặt hái Leads trên LinkedIn bằng PhantomBuster. Lách Captcha trên G2/Capterra. Dùng BuiltWith soi tech-stack lấy data.
     *   **[PLG Research](./apps-saas/plg-research-framework.md):** Viral Loop, Time-to-Value.
+    *   **[AI Product Research](./apps-saas/ai-product-research.md):** Sự sống còn khi làm App có nhúng LLM (ChatGPT/Claude). Sự mục nát của Unit Economics khi API Tokens cắn vào túi.
     *   Review Mining & Tech Stack Analysis.
 
-6.  **[MMO & Automation Tools Research](./games/mmo-tools-market-research.md)**
+6.  **[Web3 & On-Chain Market Analysis](./web3/on-chain-analysis.md)** *(Mới)*
+    *   Dùng DefiLlama bắt mạch TVL thật/giả.
+    *   Truy vết bầy đàn Bot chạy Airdrop bằng Dune.
+    *   Soi Real Yield qua Token Terminal.
+
+7.  **[MMO & Automation Tools Research](./games/mmo-tools-market-research.md)**
     *   Nghiên cứu thị trường ngách (Underground).
     *   Social Media Automation & E-commerce Tools.
     *   Chiến lược Pre-sale trong cộng đồng kín.
 
-7.  **[User Research & Persona](./core/user-research-persona.md)**
+8.  **[User Research & Persona](./core/user-research-persona.md)**
     *   Xây dựng chân dung khách hàng (User Persona).
     *   Phỏng vấn người dùng (User Interviews).
     *   Khảo sát (Surveys) hiệu quả.
     *   **[Primary Research 101](./core/primary-research-101.md)**: khi nào dùng interview/survey, cỡ mẫu, bias, checklist.
 
-8.  **[Validation Strategy](./strategy/validation-strategy.md)**
+9.  **[Validation Strategy](./strategy/validation-strategy.md)**
     *   MVP (Minimum Viable Product) vs SLC (Simple Lovable Complete).
     *   Landing Page Test.
     *   Fake Door Testing.
@@ -124,10 +135,19 @@ Dành cho Startup Founders và những người muốn đi sâu vào chiến lư
     *   Waterfall vs Bidding (Chiến lược đấu giá).
     *   Các định dạng quảng cáo hiệu quả nhất (Rewarded Video).
 
-12. **[Trend Spotting & Alpha Hunting](./strategy/trend-spotting-alpha.md)**
+13. **[Trend Spotting & Alpha Hunting](./strategy/trend-spotting-alpha.md)**
     *   Phân biệt Trend (Xu hướng) vs Fad (Nhất thời).
     *   Công cụ săn tìm Alpha (GitHub Trending, Product Hunt).
     *   Chiến lược Fast Follow.
+
+14. **[Ad Creative Spying & Reverse Engineering](./strategy/ad-creative-spying.md)** *(Mới)*
+    *   Thuật "Nhìn Lén" mẫu Ads chiến thắng của đối thủ trên Meta/TikTok Ads Library.
+    *   Chiến lược chẻ nhỏ 3s Hook.
+
+15. **[Micro-Acquisition Due Diligence](./strategy/micro-acquisition-diligence.md)** *(Mới)*
+    *   Nghiên cứu thị trường để Mua lại SaaS.
+    *   Kiểm tra Traffic bơm bẩn, mã nguồn rác rưởi.
+    *   Thẩm định giá mua bằng hệ số SDE.
 
 ---
 

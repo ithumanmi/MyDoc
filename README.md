@@ -45,7 +45,7 @@ Hiểu cấu trúc để navigate hiệu quả. Mỗi mục lớn hiển thị *
 0.  **[🏆 Hướng dẫn: Becoming Top 1% (Developer xuất chúng)](guides/03-career-skills/growth/becoming-top-1-percent.md)** (⭐ **New**)
     *   *Tại sao cùng 5 năm kinh nghiệm, lương lại chênh lệch gấp 10 lần?*
 1.  **[Chương 1: Xác định lĩnh vực & Mục tiêu](chapters/01-xac-dinh-linh-vuc.md)**
-    *   *Chọn gì?* [Game Dev](domains/game-dev/README.md) | [AI/ML](domains/ai-ml/README.md) | [Mobile Dev](domains/mobile-dev/README.md) | [Web Dev](domains/web-dev/README.md) | [Network & Security](domains/network-security/README.md)
+    *   *Chọn gì?* [System Design](domains/system-design/README.md) | [Game Dev](domains/game-dev/README.md) | [AI/ML](domains/ai-ml/README.md) | [Mobile Dev](domains/mobile-dev/README.md) | [Web Dev](domains/web-dev/README.md) | [MMO](domains/mmo-engineering/README.md)
 2.  **[Chương 2: Luyện tập có chủ đích (Deliberate Practice)](chapters/02-luyen-tap-co-chu-dich.md)**
     *   *Tại sao code 10,000 giờ vẫn gà? Cách học nhanh gấp 10 lần.*
 3.  **[Chương 3: Học từ người khổng lồ (Mentorship)](chapters/03-hoc-hoi-mentor.md)**
@@ -67,49 +67,62 @@ Hiểu cấu trúc để navigate hiệu quả. Mỗi mục lớn hiển thị *
     *   *Để cơ hội tự tìm đến bạn thay vì đi xin việc.*
 9.  **[Chương 9: Systems Thinking (Tư duy hệ thống)](chapters/09-systems-thinking.md)**
     *   *Vũ khí tối thượng của Senior Engineer.*
-    *   👉 **[Bonus Guide: Systems Thinking in Life (Tư duy hệ thống trong đời sống)](guides/03-career-skills/growth/systems-thinking-in-life.md)** (Sức khỏe, Tài chính, Hạnh phúc)
-    *   👉 **[Advanced: Life OS Framework (Hệ điều hành cuộc đời)](guides/03-career-skills/growth/life-os-framework.md)** (Mô hình 4 tầng & Lịch vận hành mẫu)
+    *   👉 **[Bonus Guide: Systems Thinking in Life](guides/03-career-skills/growth/systems-thinking-in-life.md)** (Sức khỏe, Tài chính, Hạnh phúc)
+    *   👉 **[Advanced: Life OS Framework](guides/03-career-skills/growth/life-os-framework.md)** (Mô hình 4 tầng & Lịch vận hành mẫu)
+10. **[System Design & Architecture (Thiết kế hệ thống)](domains/system-design/README.md)** (⭐ **Khủng/Updated**)
+    *   *Vượt qua FAANG Interview, xử lý High Concurrency và Code Lab.*
+    *   👉 [Ticketmaster](domains/system-design/design-ticket-booking.md) | [Leaderboard](domains/system-design/design-leaderboard.md) | [Redis Lab](domains/system-design/labs/README.md)
+11. **[DevOps & Site Reliability Engineering (SRE) ✨](domains/devops-sre/README.md)** (⭐ **NEW Khủng**)
+    *   *Làm chủ Vận hành Đám Mây: Container Orchestration, Infrastructure as Code, CI/CD Pipeline & Giám sát Hệ Thống K8s.*
+    *   👉 [Kubernetes & Helm](domains/devops-sre/architecture/kubernetes-helm-internals.md) | [Terraform/Ansible](domains/devops-sre/architecture/terraform-ansible-iac.md) | [CI/CD Lab](domains/devops-sre/labs/lab-github-actions-cicd.md)
+12. **[Game Development Mastery (Phát Triển Game)](domains/game-dev/README.md)** (⭐ **Khủng/Updated**)
+    *   *Từ Game Design, Core Loops đến Unity DOTS & Tối ưu Scale Backend Game Server.*
+    *   👉 [Advanced Loops](domains/game-dev/game-design/advanced-core-loops.md) | [Unity DOTS](domains/game-dev/production/unity-deep-dive/dots-ecs-architecture.md) | [BaaS Lab](domains/game-dev/labs/README.md)
+13. **[AI & Machine Learning (Trí tuệ nhân tạo)](domains/ai-ml/README.md)** (⭐ **Khủng/Updated**)
+    *   *Từ mô hình AI Classic đến LLM MLOps Pipelines và Xây dựng RAG ChatBot Khủng.*
+    *   👉 [RAG Architecture](domains/ai-ml/deep-learning/rag-architecture.md) | [MLOps Pipeline](domains/ai-ml/production/mlops-pipeline.md) | [FastAPI RAG Lab](domains/ai-ml/labs/README.md)
+14. **[Data Structures & Algorithms (Bản Đồ DSA)](domains/dsa/README.md)**
+    *   *Nền tảng tư duy lập trình đỉnh cao và tối ưu hóa hệ thống vạn dòng.*
+    *   👉 [Visual Roadmap](domains/dsa/README.md#🗺️-2-visual-roadmap) | [Complexity](domains/dsa/README.md#giai-đoạn-1-phân-tích--cấu-trúc-cơ-bản) | [Optimization Patterns](domains/dsa/README.md#giai-đoạn-4-thuật-toán-tối-ưu-patterns)
+15. **[Blockchain & Crypto (Công nghệ Chuỗi khối)](domains/blockchain/README.md)** (⭐ **Khủng/Updated**)
+    *   *Smart Contract, Khai thác phân mảng MEV, Thuật toán Quant Trading và Lọc On-chain Dữ Liệu.*
+    *   👉 [MEV Arbitrage](domains/blockchain/mev/mev-arbitrage-strategies.md) | [Trading Bot](domains/blockchain/trading/algorithmic-trading-bot.md) | [Flash Loan Lab](domains/blockchain/labs/README.md)
+16. **[Data Analytics (Phân Tích Dữ Liệu)](domains/data-analytics/README.md)**
+    *   *Hành trình từ Excel báo cáo đến BI Dashboards & Khai vấn SQL Phức Tạp.*
+    *   👉 [BI Dashboards](domains/data-analytics/README.md) | [Dự án Mẫu E-commerce](domains/data-analytics/projects/ecommerce-analysis-case-study.md)
+17. **[Data Science & Big Data Engineering ✨](domains/data-science/README.md)** (⭐ **NEW Khủng**)
+    *   *Chạm đến Lõi Apache Spark (In-Memory Processing), Data Lakehouse, Pipeline tự động (Apache Airflow ETL) xử lý Petabyte.*
+    *   👉 [Hadoop & Spark](domains/data-science/big-data/hadoop-spark-internals.md) | [Data Warehouse vs Lakehouse](domains/data-science/architecture/data-warehouse-lakehouse.md)
+18. **[Business Analytics & Business Intelligence 📈](domains/business-analytics/README.md)** (⭐ **NEW Khủng**)
+    *   *Ráp Mệnh Phương Trình Kinh Doanh (NSM/ LTV/ CAC). Thống Kê Toán Học A/B Testing Chống Ngụy Biện Trực Diện Hỗ Trợ Đỉnh Cao CEO Dashboard.*
+    *   👉 [Core Business Metrics](domains/business-analytics/metrics/core-business-metrics.md) | [A/B Testing Statistics](domains/business-analytics/experimentation/ab-testing-statistics.md) | [Financial ROI Modeling](domains/business-analytics/labs/lab-financial-roi-modeling.md)
 
-### 💰 Phase 4: Wealth & Freedom (Tài chính & Tự do)
-10. **[Investing Framework (Đầu tư)](guides/02-wealth-business/investing/README.md)** ⭐ **Vietnam Market Deep Dive!**
-    *   *Xây dựng cỗ máy kiếm tiền thụ động từ con số 0.*
-    *   👉 [Stocks Deep Dive](guides/02-wealth-business/investing/fundamentals/stocks-deep-dive.md) | [Vietnam Industry Analysis](guides/02-wealth-business/investing/README.md#-vietnam-market-analysis-phân-tích-thị-trường-việt-nam)
-11. **[Productivity & Income Growth](guides/03-career-skills/productivity/README.md)**
-    *   *Tối ưu hóa năng suất để tăng thu nhập chủ động (Active Income).*
-    *   👉 [Deep Work Mastery](guides/03-career-skills/productivity/core-skills/deep-work-mastery.md) | [Salary Negotiation](guides/03-career-skills/productivity/career-growth/salary-negotiation.md) | [Freelancer Framework](guides/03-career-skills/productivity/side-hustle/freelancer-framework.md) | [Freelancer Roadmap](guides/03-career-skills/productivity/side-hustle/freelancer-roadmap.md)
-12. **[Market Research (Nghiên cứu thị trường)](guides/02-wealth-business/market-research/README.md)**
-    *   *Tìm kiếm ý tưởng triệu đô & Phân tích đối thủ.*
-13. **[Entrepreneurship (Khởi nghiệp)](guides/02-wealth-business/entrepreneurship/README.md)**
-    *   *Xây dựng doanh nghiệp bền vững từ con số 0.*
-    *   👉 [Tech Startup](guides/02-wealth-business/entrepreneurship/tech-startup/README.md) | [Solopreneur](guides/02-wealth-business/entrepreneurship/solopreneur/README.md) | [SME Operations](guides/02-wealth-business/entrepreneurship/operations/finance-101-for-owners.md)
-14. **[Well-being & High Performance (Sức khỏe)](guides/04-lifestyle-os/well-being/README.md)** ⭐ **Health OS Updated!**
-    *   *Bảo trì cỗ máy kiếm tiền quan trọng nhất: Chính bạn.*
-    *   🧬 **[Health OS Framework](guides/04-lifestyle-os/well-being/biohacking/health-os-overview.md):** Debug cơ thể như debug code (Dopamine, Glucose, Testosterone, Cortisol, Sleep)
-    *   👉 [Daily Protocols](guides/04-lifestyle-os/well-being/biohacking/health-optimization-protocols.md) | [Sleep Optimization](guides/04-lifestyle-os/well-being/biohacking/sleep-optimization.md) | [Stoicism](guides/04-lifestyle-os/well-being/mental-resilience/stoicism-for-modern-life.md)
-15. **[Global Intelligence (Tư duy Vĩ mô)](guides/01-mental-models/global-intelligence/README.md)**
-    *   *Đọc vị thế giới, lọc nhiễu thông tin và tư duy hệ thống.*
-    *   👉 [Trusted Sources](guides/01-mental-models/global-intelligence/trusted-sources.md) | [Bias Checklist](guides/01-mental-models/global-intelligence/critical-thinking/bias-checklist.md)
-16. **[MMO Roadmap (Kiếm tiền Online)](guides/02-wealth-business/mmo-roadmap/README.md)**
-    *   *Lộ trình kiếm $1000 đầu tiên từ Internet (Affiliate, Dropship, Crypto).*
-    *   👉 [Mindset](guides/02-wealth-business/mmo-roadmap/foundations/mmo-mindset.md) | [Traffic Mastery](guides/02-wealth-business/mmo-roadmap/foundations/traffic-mastery.md)
-17. **[Blockchain & Crypto (Công nghệ Chuỗi khối)](domains/blockchain/README.md)**
-    *   *Hiểu về Smart Contract, DeFi, NFT và Tokenomics.*
-    *   👉 [Fundamentals](domains/blockchain/fundamentals/blockchain-101.md) | [Smart Contracts](domains/blockchain/development/smart-contracts.md) | [Investing](domains/blockchain/investing/tokenomics.md)
-18. **[Data Structures & Algorithms (Cấu trúc dữ liệu & Giải thuật)](domains/dsa/README.md)** (⭐ **New**)
-    *   *Nền tảng tư duy lập trình và tối ưu hóa hệ thống.*
-    *   👉 [Visual Roadmap](domains/dsa/README.md#🗺️-2-visual-roadmap) | [Complexity Analysis](domains/dsa/README.md#giai-đoạn-1-phân-tích--cấu-trúc-cơ-bản) | [Optimization Patterns](domains/dsa/README.md#giai-đoạn-4-thuật-toán-tối-ưu-patterns)
-19. **[AI & Machine Learning (Trí tuệ nhân tạo)](domains/ai-ml/README.md)**
-    *   *Từ Classic ML đến Deep Learning, LLM và Generative AI.*
-    *   👉 [Supervised Learning](domains/ai-ml/machine-learning/supervised-learning.md) | [Neural Networks](domains/ai-ml/deep-learning/neural-networks-101.md) | [Transformers & LLM](domains/ai-ml/nlp/transformers-llm.md)
-19. **[English & IELTS Mastery](guides/03-career-skills/ielts/roadmap-7.5.md)** (⭐ **New**)
-    *   *Lộ trình đạt IELTS 7.5 trong 6 tháng từ mất gốc.*
-    *   👉 [Roadmap 7.5](guides/03-career-skills/ielts/roadmap-7.5.md) | [Daily Routine](guides/03-career-skills/ielts/daily-routine.md) | [Resources](guides/03-career-skills/ielts/resources.md)
-20. **[Innovation & Problem Solving (Đổi mới sáng tạo)](guides/03-career-skills/innovation/design-thinking.md)** (⭐ **New**)
-    *   *Phương pháp tư duy đột phá và giải quyết vấn đề.*
-    *   👉 [Design Thinking](guides/03-career-skills/innovation/design-thinking.md)
-21. **[Mysticism & Ancient Systems (Huyền học)](guides/01-mental-models/mysticism/README.md)** (⭐ **New**)
-    *   *Kinh Dịch, Bát Tự, Tử Vi dưới góc nhìn hệ thống và tối ưu hóa.*
-    *   👉 [Business Mysticism Map](guides/01-mental-models/mysticism/business-mysticism-map.md) | [I-Ching Dynamics](guides/01-mental-models/mysticism/i-ching-system-dynamics.md)
+### 💰 Phase 4: Wealth, Freedom & Life OS (Tài chính & Tư duy)
+19. **[MMO Engineering (Kỹ Thuật Kiếm Tiền Online)](domains/mmo-engineering/README.md)** (⭐ **Khủng/Updated**)
+    *   *Lộ trình MMO Stealth Networks, Thuật Toán Phủ Trống Phá Đầu AI Farming & Lab Anti-Detect Cắm Mobile Proxy.*
+    *   👉 [CDP Stealth](domains/mmo-engineering/anti-detect/tls-and-cdp-stealth.md) | [AI Reddit Bots](domains/mmo-engineering/automation-tools/ai-driven-farming.md) | [4G Proxy Lab](domains/mmo-engineering/labs/README.md)
+20. **[Investing Framework (Đầu tư Cốt Cột)](guides/02-wealth-business/investing/README.md)** ⭐ **Vietnam Market Deep Dive!**
+    *   *Xây dựng cỗ máy kiếm tiền thụ động từ con số 0 an toàn không cháy tài khoản.*
+    *   👉 [Stocks Deep Dive](guides/02-wealth-business/investing/fundamentals/stocks-deep-dive.md) | [Vietnam Analysis](guides/02-wealth-business/investing/README.md#-vietnam-market-analysis-phân-tích-thị-trường-việt-nam)
+21. **[Productivity & Passive Income Growth](guides/03-career-skills/productivity/README.md)**
+    *   *Tối ưu hóa năng suất để tăng luồng thu nhập chủ động vọt cự.*
+    *   👉 [Deep Work](guides/03-career-skills/productivity/core-skills/deep-work-mastery.md) | [Salary Mức Đỉnh](guides/03-career-skills/productivity/career-growth/salary-negotiation.md) | [Bứt Thăng Freelancer](guides/03-career-skills/productivity/side-hustle/freelancer-roadmap.md)
+22. **[Market Research (Nghiên cứu Thị trường Xuyên Rào)](guides/02-wealth-business/market-research/README.md)**
+    *   *Tìm kiếm ý tưởng triệu đô Khởi Nghiệp & Phân tích Gạch Đứt Cấu Địch Bằng Scrape Tools.*
+23. **[Entrepreneurship (Khởi nghiệp Lõi Thật)](guides/02-wealth-business/entrepreneurship/README.md)**
+    *   *Xây dựng doanh nghiệp bền vững từ con số Không Cùng Lập Lõm Operations Chuỗi SME.*
+    *   👉 [Tech Startup Base](guides/02-wealth-business/entrepreneurship/tech-startup/README.md) | [Solopreneur Lẻ Bậc](guides/02-wealth-business/entrepreneurship/solopreneur/README.md)
+24. **[Well-being & High Performance (Sức khỏe Biohacking)](guides/04-lifestyle-os/well-being/README.md)** ⭐ **Health OS Updated!**
+    *   *Bảo trì cỗ máy Tọa Tạng Kiếm Tiền (Cơ Thể) Gỡ Bug Tối Kỵ Mạch Ngắn Chặn Vĩnh Viễn Giới Stress.*
+    *   👉 [Dopamine Protocols](guides/04-lifestyle-os/well-being/biohacking/health-optimization-protocols.md) | [Sleep BioHacks](guides/04-lifestyle-os/well-being/biohacking/sleep-optimization.md)
+25. **[Global Intelligence (Tư duy Vĩ mô Rất Rộng)](guides/01-mental-models/global-intelligence/README.md)**
+    *   *Đọc vị thế giới, rụng nhiễu thông tin Cáo Sai lầm rỗng Lác Sâu Tư duy Chóp Bu Khắc Phục.*
+26. **[Innovation & Design Thinking (Đổi mới sáng tạo Mảnh)](guides/03-career-skills/innovation/design-thinking.md)**
+    *   *Phương pháp tư duy đột phá Góc Đọ Tuyệt Để Sét Cúp Mạch Ngỏ Cụm.*
+27. **[English & IELTS Mastery (Kỹ năng Lõi Xuyên Tâm)](guides/03-career-skills/ielts/roadmap-7.5.md)**
+    *   *Khung Lộ trình đạt IELTS 7.5 trong 6 tháng từ mất gốc Cày Bừa.*
+28. **[Mysticism & Khám Mảnh Đích Bản Thân (Huyền học Gốc)](guides/01-mental-models/mysticism/README.md)**
+    *   *Kinh Dịch, Tử Vi dưới lăng kính Phương Trình Gấp Nhịp Lập Hệ Của Hệ Thống Và Toán Tính Tuyệt.*
 
 ---
 
@@ -162,5 +175,5 @@ This repository is actively maintained with quarterly content reviews:
 
 ---
 
-> **Note:** Tài liệu này là một "Living Document" được cập nhật định kỳ mỗi quý.
-> *Last updated: February 2026*
+> **Note:** Tài liệu này là một "Living Document" được cập nhật định kỳ mỗi tháng.
+> *Last updated: March 2026*

@@ -72,13 +72,13 @@ graph TD
 
     E --> G[NLP - Natural Language Processing]
     G --> G1(Transformers, BERT, GPT)
-    G --> G2(LLMs & RAG)
+    G --> G2(LLMs & SLMs)
 
     E --> H[Generative AI]
     H --> H1(Stable Diffusion, Midjourney)
 
-    E --> I[MLOps]
-    I --> I1(Deployment, Docker, CI/CD)
+    E --> I[MLOps & SaaS]
+    I --> I1(Deployment, LLMOps, AI Engineering for SaaS)
 ```
 
 ---
@@ -136,6 +136,7 @@ graph TD
 *   **[Embeddings Deep Dive](./nlp/embeddings-deep-dive.md):** Word2Vec, FastText, contextual & sentence embeddings.
 *   **[Classic NLP Tasks](./nlp/classic-nlp-tasks.md):** NER, sentiment, topic modeling với CRF/SVM/LDA.
 *   **[Transformers & LLMs](./nlp/transformers-llm.md):** Cơ chế Attention, BERT, GPT và cách Fine-tune mô hình ngôn ngữ lớn.
+*   **[Small Language Models (SLMs) ✨](./nlp/small-language-models.md):** Llama 3, Phi-3, Gemma, kỹ thuật Quantization và Edge AI offline.
 *   **[LLM Fine-tuning](./nlp/llm-fine-tuning.md):** Full fine-tune vs PEFT, LoRA/QLoRA workflow và checklist deploy.
 *   **[LLM Inference Optimization](./nlp/llm-inference-optimization.md):** Quantization, vLLM/TensorRT-LLM, batching và cost control.
 *   **[NLP Labs](./nlp/nlp-labs.md):** Chuỗi lab truyền thống (tokenizer toolkit, CRF NER, sentiment logistic vs BERT, topic dashboard).
@@ -161,6 +162,8 @@ graph TD
 
 ### **8. Advanced Agent Techniques (Chuyên sâu)**
 *   **[Advanced RAG](./agents/advanced/graph-rag.md):** GraphRAG, Hybrid Search và Reranking.
+*   **[Vector DB Strategies ✨](./agents/advanced/vector-database-strategies.md):** Chunking nâng cao, Reranking, HyDE và Semantic vs Hybrid.
+*   **[Multimodal Agents ✨](./agents/advanced/multimodal-agents.md):** Vision Agents (Computer Use) và Voice-to-Voice WebRTC.
 *   **[Advanced Memory](./agents/advanced/memory-architecture.md):** MemGPT và quản lý bộ nhớ dài hạn.
 *   **[Design Patterns](./agents/advanced/design-patterns.md):** Reflection, Planning (ToT) và Tool Selection.
 *   **[Local Agents](./agents/advanced/local-agents.md):** Chạy Agent Offline với Ollama/Llama.cpp.
@@ -180,14 +183,17 @@ graph TD
 
 ### **10. MLOps (Vận hành AI)**
 *   **[Deployment Pipeline](./mlops/deployment-pipeline.md):** Đưa mô hình từ Notebook ra Production bằng Docker và Kubernetes.
+*   **[Model Deployment Patterns ✨](./mlops/model-deployment-patterns.md):** Chiến lược Shadow, Canary, Blue/Green và so sánh vLLM vs Triton vs TGI.
 *   **[CI/CD for AI](./mlops/cicd-for-ai.md):** Quy trình CI/CD chuyên biệt cho Machine Learning (CT & Model Registry).
 *   **[Feature Stores](./mlops/feature-stores.md):** Feast, Tecton, kiến trúc batch + streaming và governance feature.
 *   **[Experiment Tracking](./mlops/experiment-tracking.md):** MLflow, W&B, DVC và best practices reproducibility.
 *   **[Model Registry](./mlops/model-registry.md):** Versioning, stages (dev/staging/prod) và workflow promote/rollback.
 *   **[LLMOps](./mlops/llmops.md):** Quản lý prompt, eval RAG, guardrails, cost và A/B testing cho LLM.
+*   **[LLM Evaluation Metrics ✨](./mlops/llm-evaluation-metrics.md):** Đánh giá RAG và Agent chuyên sâu (Faithfulness, Relevance) qua framework LLM-as-a-judge (RAGAS/TruLens).
 
 ### **11. Advanced Topics (Scaling & Safety)**
 *   **[Module Overview](./advanced/README.md):** Lộ trình nâng cao để tối ưu và bảo vệ hệ thống AI production.
+*   **[AI SaaS Engineering ✨](./advanced/ai-saas-engineering.md):** Xây dựng AI Micro-SaaS (Vercel AI SDK, Streaming, Semantic Caching, Rate limiting).
 *   **[Distributed Training](./advanced/distributed-training.md):** DeepSpeed, FSDP, tensor/pipeline parallel và checklist vận hành.
 *   **[Efficient Inference](./advanced/efficient-inference.md):** Quantization, pruning, distillation, vLLM/Triton serving patterns.
 *   **[Synthetic Data](./advanced/synthetic-data.md):** Kỹ thuật sinh dữ liệu (GAN, diffusion, CTGAN) và validation/privacy.

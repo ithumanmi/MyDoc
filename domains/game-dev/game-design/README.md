@@ -9,10 +9,13 @@ updated: 2026-03-11
 
 # 🧩 Game Design Module
 
-| File | Nội dung | Khi nào dùng |
-| --- | --- | --- |
-| [core-loop-mastery.md](./core-loop-mastery.md) | Thiết kế core loop, KPI đo lường | Kick-off concept, pitch nhà đầu tư |
-| [economy-systems.md](./economy-systems.md) | Soft/Hard currency, live economy | Balancing shop, LiveOps event |
+## 🧠 1. Core Game Design (Hệ thống Cốt lõi)
+
+*   **[Core Loop Mastery](./core-loop-mastery.md):** Thiết kế vòng lặp vỡ lòng (Core Loop) giữ chân người chơi.
+*   **[Advanced Core Loops & Meta-Game ✨](./advanced-core-loops.md):** Đi sâu vào khung thiết kế 3 C's, Xung đột hệ thống và móc nối Meta-Game (Case Study: Hades, Genshin).
+*   **[Level Design Flow ✨](./level-design-flow.md):** Áp dụng tâm lý học (Tension & Release), Kỹ thuật dẫn đường (Breadcrumbing) vào màn chơi.
+*   **[Mechanics & Economy](./economy-systems.md):** Xây dựng hệ thống tiền tệ, vòi hút/xả (sources/sinks) cân bằng trong game.
+*   **[Game Economics & Monetization](./game-economics-monetization.md):** Lập mô hình Excel chống lạm phát, phân tích Gacha Pity System.
 | [narrative-toolkit.md](./narrative-toolkit.md) | Story bible, quest arc, branching | Dự án story-driven hoặc hybrid casual có lore |
 | [playtest-framework.md](./playtest-framework.md) | Quy trình playtest, survey, telemetry | Trước milestone alpha/beta |
 | [game-review-checklist.md](./game-review-checklist.md) | Checklist review build 9 hạng mục + scoring | Chuẩn bị demo stakeholder, soft-launch |

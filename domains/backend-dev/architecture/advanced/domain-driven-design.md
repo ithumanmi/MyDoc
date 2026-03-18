@@ -1,85 +1,93 @@
 ---
-title: "Domain-Driven Design Playbook"
-description: "Hướng dẫn Level 3-4 về DDD: bounded context, aggregate, ubiquitous language, strategic/tactical patterns."
+title: "Domain-Driven Design Playbook (Deep Dive L3-L4)"
+description: "Hướng dẫn tối thượng về DDD: Giải phẫu Bounded Contexts, Tactical Patterns (Aggregates, Value Objects) để đập tan Distributed Monolith."
 tags:
   - backend
-  - architecture
   - ddd
-updated: 2026-03-11
+  - microservices
+  - architecture
+updated: 2026-03-18
 ---
 
-# 🧭 Domain-Driven Design (L3-L4)
+# 🧠 Domain-Driven Design (DDD) - Vũ Khí Của Kiến Trúc Cấp Thần
 
-> Dành cho đội ngũ đang chuyển từ “code theo function” sang “code theo domain”. DDD giúp ăn khớp giữa business và kỹ thuật, đặc biệt trước khi tách microservices.
+> [← Back to Advanced Architecture](./README.md)
 
-## 1. Strategic Design
-- **Ubiquitous Language:** từ điển chung giữa dev/product. Tạo wiki cho terms (Order, Invoice, Shipment).
-- **Bounded Context:** phạm vi logic có schema & API riêng. Tránh domain model “God object”. Luôn kèm **owner team** và **deployment boundary**.
-- **Context Map:** mô tả quan hệ giữa context: Partnership, Customer-Supplier, Anti-corruption Layer, Open Host Service, Published Language.
-- **Event Storming:** workshop dán note event/command để tìm aggregate và flow nhanh chóng.
+Lập trình theo mô hình MVC (Model-View-Controller) là bài học vỡ lòng. Nhưng khi Business Logic (Nghiệp vụ doanh nghiệp) phình to: Hàm `xuatKho()` chứa cả tính thuế, gửi mail, và gọi API Logistic... lúc này MVC hiện nguyên hình là "Một bãi rác khổng lồ", và Database-Driven Development (Code phụ thuộc SQL) đã giết chết linh hồn của Bộ Mã Lõi.
 
-### Context Map ví dụ
-```
-[Sales Context] --Customer-Supplier--> [Billing Context]
-       ^                                |
-       | Partnership                     | Conformist
-       +---------------------------------+
+Eric Evans giới thiệu **Domain-Driven Design (DDD)** để đập tan điều đó. Code phải là tấm gương phản chiếu chính xác tiếng nói Kinh Doanh (Business).
 
-[Catalog] --Published Language--> [Search]
-[Legacy ERP] --ACL--> [Billing]
-```
+---
 
-## 2. Tactical Patterns
-- **Entity/Aggregate:** Aggregate root kiểm soát invariants, expose behavior thay vì setters.
-- **Value Object:** immutable, equality by values (Money, Address).
-- **Domain Service:** logic không thuộc entity nào.
-- **Repository:** contract truy xuất aggregate, hạ tầng implement.
-- **Domain Event:** publish khi aggregate thay đổi trạng thái quan trọng.
+## 🗺️ 1. Thiết Kế Chiến Lược (Strategic Design)
+Bài toán lớn nhất của cái chết Microservice không phải mạng chậm, mà là: Chia Cắt Sai!
 
-### Sample (TypeScript)
+### A. Ubiquitous Language (Ngôn Ngữ Đồng Nhất)
+Từ chức danh CEO, Nhân viên Sale, BA, đến Anh Coder đều phải gọi tên Object như nhau.
+*   *Sai:* Sale gọi là `Customer`. BA gọi là `Client`. Coder lại khai báo DB là `tbl_user`. 
+*   *Đúng (DDD):* Thống nhất dùng duy nhất một chữ: **`Buyer`** (VD trong sàn E-commerce). Việc đổi tên sai có thể làm sai hoàn toàn logic nghiệp vụ.
+
+### B. Bounded Contexts (Khoanh Lãnh Thổ)
+Chữ "Sản Phẩm" (`Product`) mang hai ý nghĩa Hoàn Toàn Trái Ngược:
+1.  **Ở Kho (Inventory Context):** Product là cái Thùng Nặng 5kg, Size XXL, Nằm Ở Kệ Số 3.
+2.  **Ở Quầy Bán (Sales Context):** Product là Giá Bán 100K VND, Khuyến mãi mua 2 tặng 1.
+
+**Lập Trình Viên Thường:** Ráng nhét Chung Cái `Product` Mập Ú Nụ bằng 50 Cột Columns vào 1 bảng DB duy nhất cho Toàn Hệ Thống! Cập nhật gây Lock Bảng.
+**Coder DDD:** Chia Nhánh Giới Tuyến! Kho Context quản lý Database Product riêng. Sales Context quản lý Database Product riêng. 2 khối này giao tiếp đồng bộ qua Message Broker (Kafka/RabbitMQ). Hệ thống Monolith bị cắt rời mạch lạc!
+
+---
+
+## ⚔️ 2. Thiết Kế Chiến Thuật (Tactical Design)
+Đừng dán mắt vào Table SQL nữa. Hãy dán mắt vào OOP Thuần Tuý.
+
+### 🛡️ 1. Value Object (Vật Thể Lưu Trữ Giá Trị)
+Object không cần khóa ID theo dõi. Bất Biến (Immutable). Sức mạnh nằm ở sự tự Validate.
+**Ví dụ Tiền (Money):**
+Không định nghĩa biến `gia_san_pham = -100` (Gây Bug Nghiệp Vụ Sinh Lãi Ảo).
+Ép tạo Class `MoneyValueObject`. Khởi tạo sai (Âm tiền) -> Văng Exception ngay tại Khởi Tạo Lập Trình. Giết lỗi Tức Khắc. Không để dính vào Controller hay SQL.
+
+### 👑 2. Entity (Chủ Thể Xương Lõi Mềm)
+Lớp Phân Tách Có Cột ID Định Danh. Bản sắc tồn tại qua thời gian bất kể các trường râu ria (Tên, Địa Chỉ) đổi form. Xử lý thao tác dựa vào ID. (Ví dụ: `Customer`, `Order`).
+
+### 🏰 3. Aggregate Root (Rễ Mẹ Ôm Bầu Con)
+Hành Cục Lõi Nhất của DDD: Nhóm Các Entity & Value Object Liên Quan Lại Thành 1 Giao Dịch Đáng Tin Toàn Vẹn (Transaction/Invariants).
+Hoá Đơn `Order` Là Mẹ -> Item Cái Bánh Mua Có 3 Loại Là Khách Gọi `OrderItems`. 
+-> **Thao Tác DDD Bắt Buộc:** Hệ thống ngoài (Controller) **KHÔNG BAO GIỜ** được móc thẳng Code đập vào Repo `OrderItems` mà sửa giá chiếc Bánh! Phải gọi thông qua Mẹ: `Order.UpdateItemPrice(Bánh, 50K)`. Rễ Mẹ sẽ kiểm tra luật lệ của Toàn Hóa Đơn (Phải Chưa Thanh Toán Mới Được Đổi Giá) rồi mới cho Xuống DB!
+
+### 📣 4. Domain Events (Sự Kiện Vùng Miền)
+Hoạt động kết thúc Trơn Tru, Aggreate Root Hét Lên "OrderThanhToanXongEvent". Ở Bounded Context Của Kho Hàng (Inventory), Một Listener Chộp Lấy Dãy Sự Kiện Đó Và Tự Rút Kho. Giảm Tính Dính Mắc (Decoupling) Xa Khỏi Vòng Ôm Viết Microservices Cứng!
+
+---
+
+## 💻 Sample (TypeScript) Minh Họa Lõi Vùng 
+
 ```typescript
-class Order extends AggregateRoot {
+// Lệnh Root Cấm Bypass Mọi Hành Động.
+export class Order extends AggregateRoot {
   private items: OrderItem[] = [];
+  private orderStatus: OrderStatus;
 
-  addItem(productId: string, quantity: number) {
-    if (quantity <= 0) throw new Error("invalid");
-    this.items.push(new OrderItem(productId, quantity));
-    this.raise(new OrderItemAdded(this.id, productId, quantity));
+  // Lõi Value Object Chặn Tiền Âm 
+  addItem(productId: ProductId, price: MoneyValueObject, quantity: number) {
+    if (this.orderStatus === OrderStatus.SHIPPED) {
+       throw new Error("Tuyệt Đối Cấm Đổi Hàng Khi Đã Lên Tàu Giao Khách!");
+    }
+    this.items.push(new OrderItem(productId, price, quantity));
+    
+    // Gầm Hét Đánh Dấu Event Vào Cuống Não Framework Gửi Đi Khắp Các Service
+    this.apply(new OrderItemAddedEvent(this.id, productId, quantity));
   }
 }
 ```
 
-### Aggregate design checklist
-- [ ] Mọi bất biến (invariant) nằm trong aggregate root; không phụ thuộc transaction bên ngoài.
-- [ ] Aggregate đủ nhỏ để load + validate trong 1 request; tránh “mega aggregate”.
-- [ ] Mọi command đi qua method của aggregate; không bypass bằng repository trực tiếp.
-- [ ] Event phát ra từ aggregate có đầy đủ metadata (tenant, correlation).
+---
 
-## 3. Anti-Corruption Layer (ACL)
-- Khi context A gọi B nhưng không muốn “đảo lộn” domain A.
-- ACL translates DTO ↔ domain terms, mapping enum/value object.
-- Giúp microservices dùng chung service nhưng không phụ thuộc schema của nhau.
+## 🎯 Tổng KẾT (Dành Cho Architecture):
+Quy tắc Bất Môn của Kiến Trúc DDD Lớp Architecture (Software Design):
+> **"Domain Model Của Tôi Phải Trắng Tinh Hoàn Hảo. Không Import Expressjs Hay Entity Framework Của DB Trong Class Lõi Này. Framework Truyền Tải (REST/gRPC) Hay Database SQL/NoSQL Là Cục Viền Hạ Tầng (Infrastructure) Khi Tôi Thích Mới Xài. Business Mới Là Vị Vua Duy Nhất Của Code Mạng Tôi Gõ Ra!"**
 
-## 4. Cách tiến hành DDD
-1. **Domain discovery:** workshop với business → event storming.
-2. **Context mapping:** xác định boundary, contract giữa team.
-3. **Model refinement:** code aggregate, value object, service.
-4. **Align deployment:** mỗi bounded context có repo/service riêng (monolith module hoặc microservice).
-
-## ❗ Pitfalls
-- Over-engineering cho domain đơn giản → keep it simple.
-- Bounded context không đúng team structure → tạo bottleneck.
-- Không cập nhật ubiquitous language → domain drift.
-
-## ✅ Apply it
-- [ ] Tổ chức 1 buổi event storming cho domain cốt lõi, ghi lại context map.
-- [ ] Refactor module quan trọng thành bounded context rõ (namespace + folder structure).
-- [ ] Xác định aggregate root & bất biến, viết test đảm bảo invariants.
-- [ ] Tạo Anti-corruption Layer khi tích hợp legacy/3rd party để tránh rò rỉ schema.
-- [ ] Review ubiquitous language mỗi quý với team product.
-
-## 🔗 Cross-reference
-- [Modular Monolith](./modular-monolith.md) – cách map bounded context vào monolith.
-- [Hexagonal Architecture](./hexagonal-architecture.md) – tách core domain khỏi adapters.
-- [Microservices Patterns](./microservices-patterns.md) – decomposition dựa trên context map.
-- [Event Sourcing & CQRS](../distributed/event-sourcing-cqrs.md) – khi aggregate cần emit domain event.
+## ✅ Apply Checklist
+- [ ] Tổ chức 1 buổi Event Storming cho domain cốt lõi, ghi lại context map trên tường cty.
+- [ ] Refactor module Controller/Services Bùi Nhùi thành Bounded Context rõ.
+- [ ] Xác định Aggregate Root & Test bảo vệ dòng chảy thay vì Mock DB điên cuồng.
+- [ ] Tạo Anti-corruption Layer (ACL) khi tích hợp Third Party cũ để tránh Vấy Bẩn Kiến Trúc Sạch (Clean Architecture) Nhà Mình.

@@ -1,0 +1,121 @@
+# Lab Đỉnh Cao: Giả Lập Hệ Thống Triệu Data Với Apache Kafka (Docker)
+
+> [← Back to Backend Labs](./README.md)
+
+Nhiều người nghĩ Microservices là tách Database SQL ra thành 2 cái. Nếu Bạn Tách Nút Đứt Liên Kết FK (Foreign Key), làm sao Để Join 2 Bảng Giữa 2 Máy Server Khác Nhau? Câu Trả Lời Là: Quẩy **Event Streaming (Truyền Sự Kiện Nhất Quán)** bằng Apache Kafka.
+
+Hôm nay chúng ta sẽ khởi động cụm Máy Nổ Kafka bằng Docker Tốc Độ.
+
+---
+
+## 🐋 1. Dựng Trại Node Kafka Bằng Docker-Compose
+
+So với cài Nodejs, cài Mạng Lưới Kafka mệt não hơn vì nó đi kèm Rễ Bộ Quản Lý Sóng Của Apache Zookeeper (Hay Rừng Kraft Mới).
+Tạo file `docker-compose.yml` để nhốt 2 quái thú này vào Lồng Container:
+
+```yaml
+version: '3.8'
+services:
+  zookeeper:
+    image: confluentinc/cp-zookeeper:latest
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+
+  kafka:
+    image: confluentinc/cp-kafka:latest
+    depends_on:
+      - zookeeper
+    ports:
+      - "9092:9092"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092 # Cửa Mở Đón NodeJS Gọi Tới 
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+```
+
+Gõ Lệnh Boot Server:
+```bash
+docker-compose up -d
+```
+(Chờ 30 Giây Để Kéo Image Mạng Về Và Nháy Xoay Server Quạt Quay)
+
+---
+
+## 💥 2. Viết Thằng "Xả Thông Tin" (Producer Event) Bằng Node.JS
+
+Cài Thư Viện "Giao Tiếp Bám Giới":
+`npm install kafkajs`
+
+Viết Code Gửi 10,000 Sự Kiện "Người Khách Mới Vừa Mua Hàng Xong" Liên Tục Nốc Vào Sổ Chép (Topic `order-events`):
+```javascript
+// producer.js
+const { Kafka } = require('kafkajs');
+
+const kafkaBoNo = new Kafka({
+  clientId: 'He_Thong_Ban_Hang_Shop_Ban_Toi',
+  brokers: ['localhost:9092']
+});
+
+const taySungProducer = kafkaBoNo.producer();
+
+async function xa_dan_vao_su_kien_kafka() {
+  await taySungProducer.connect();
+  console.log("🔫 SÚNG ĐÃ LÊN ĐẠN! BẮT ĐẦU DỘI EVENTS VÀO KAFKA!");
+
+  for (let i = 1; i <= 10000; i++) {
+    await taySungProducer.send({
+      topic: 'order-events', // Đây là Tên Cuốn Sổ Chép Chứa Triệu Event Order Của Hệ Thống
+      messages: [
+        { 
+          // Partition Key Quyết Địn Sự Kiện Rơi Vùng Nào (Giữ Order 1 Bám 1 Mảnh Ổ Disk)
+          key: `Order_So_${i}`, 
+          value: JSON.stringify({ don_hang_id: i, khach_hang: 'Anh Bảy', so_tien: 500000, thai_do: 'Mua Nhanh' }) 
+        },
+      ],
+    });
+    
+    // Test Thử Log Xem Tốc Độ Đẩy Bao Nhiêu /S:
+    if(i % 1000 === 0) console.log(`⏩ Đã Gửi Thành Công ${i} Sự Kiện Lên Đĩa Cứng Kafka`);
+  }
+}
+xa_dan_vao_su_kien_kafka();
+```
+
+---
+
+## 👂 3. Viết Một Toán "Hút Lọc" Data (Consumer Group) Đọc Dịch Ra Microservice Khác
+
+Cái Microservice Về Báo Cáo Kế Toán Sẽ Theo Dõi Rễ Lấy Tiền (Nằm Node Khác Server, Rất Húp Gọn Data Nhờ Đứng Nghe Sóng). 
+```javascript
+// consumer-ketoan.js
+const { Kafka } = require('kafkajs');
+
+const kafkaTruLoi = new Kafka({
+  clientId: 'Doi_Hinh_Ke_Toan_Cuoi_Thang',
+  brokers: ['localhost:9092']
+});
+
+// Chú ý "GroupId": Nếu 2 Consumer có cùng tên Group. Kafka Sẽ Lặng Lẽ Cưa Data Đôi Chia Đều 1 Group Vừa Nghe Giúp 2 Lược Data Càng Xử Nhanh Khủng Lốc Scale Out Mở Rộng !!
+const nhaNgheConsumer = kafkaTruLoi.consumer({ groupId: 'phong-ke-toan-chot-loi' });
+
+async function dot_nghe_ong_loai_data() {
+  await nhaNgheConsumer.connect();
+  console.log("👂 CỤC THU ÂM XỊN ĐÃ MỞ: TAI NGHE CẮM VÀO KAFKA!");
+  
+  // Nối Dây Vào Quyển Sổ (Topic) Ban Nãy ! Không Bắt Buộc Producer Phải Cháy Mới Lại Nhanh !  Read From Beginning Load Lại Sự Cố Ngày Qua Ngọt Sớt!
+  await nhaNgheConsumer.subscribe({ topic: 'order-events', fromBeginning: true });
+
+  await nhaNgheConsumer.run({
+    eachMessage: async ({ topic, partition, message }) => {
+       const suKienNoGi = JSON.parse(message.value.toString());
+       console.log(`[PARTITION ${partition}] 💸 Kế Toán Píp Thấy Lệnh Đơn Hàng Mới ID: ${suKienNoGi.don_hang_id} | Móc Tiền: ${suKienNoGi.so_tien}`);
+       // Ở Đây Sẽ Lấy Dữ Liệu Lưu Cất Qua DB Vùng Tầm Kế Toán View Bỏ MySQL Khác. SỰ KẾT NỐI DATA GỠ BĂM CẶP KHÓA (DECOUPLED DATABASE)!
+    },
+  });
+}
+dot_nghe_ong_loai_data();
+```
+
+Run File `node producer.js`. Chạy Thêm Hai Tab Node `consumer-ketoan.js`. Việc Chia Sẽ Gánh Nặng Và Không Hụt 1 Tiếng Lệnh Message Đủ Làm Ký Giả MicroServices Nhục Cảm Trước Vị Đại Đế Băng Streaming KAFKA!

@@ -130,7 +130,8 @@ graph TD
     E --> E1{Choose Your Path}
     E1 --> E2[Tech Art - Shaders/VFX]
     E1 --> E3[Multiplayer - Netcode]
-    E1 --> E4[Optimization - DOTS/Performance]
+    E1 --> E4[Production & Optimization]
+    E1 --> E5[AI & Technical Director]
     
     style A fill:#f9f,stroke:#333,stroke-width:2px
     style E fill:#bbf,stroke:#333,stroke-width:2px
@@ -146,6 +147,7 @@ graph TD
 *   **Core Concepts:**
     *   **C#:** Variables, Functions, Loops, Classes, Inheritance (Kế thừa).
     *   **Unity:** Scene view, Hierarchy, Inspector, Prefabs.
+    *   **Advanced Game Math ✨:** [Học Toán Hình Không Gian Không Sợ Hãi](./fundamentals/advanced-game-math.md) (Vector, Dot/Cross, Quaternions, Trigonometry).
     *   **Scripting:** `Monobehaviour`, `Start()`, `Update()`, `GetComponent<>`.
 *   **Actions:**
     *   Clone game **Pong**: Học về Input System (Legacy), Transform movement.
@@ -244,11 +246,18 @@ Bạn không thể giỏi tất cả. Hãy chọn 1 con đường:
 ---
 
 ### **Advanced Topics (Chuyên sâu)**
-*   **[Advanced Physics Engine](./programming/physics/simple-physics-engine.md):** 🎡 Ứng dụng lượng giác xây dựng Physics Engine 3D. (⭐ **New**)
-*   **[Trig Shaders (Water/Fire)](./art-tech/vfx/trig-shaders.md):** 🔥🌊 Tạo hiệu ứng nước và lửa bằng lượng giác. (⭐ **New**)
-*   **[Inverse Kinematics (IK)](./programming/animation/inverse-kinematics.md):** 🦶 Toán học giúp tay chân nhân vật bám sát địa hình. (⭐ **New**)
-*   **[Steering Behaviors](./programming/ai/steering-behaviors.md):** 🤖 Hệ thống di chuyển AI thông minh dựa trên lực và lượng giác. (⭐ **New**)
-*   **[Unity Impact Metrics Playbook](./production/metrics/unity-impact-metrics.md):** 📊 Crash rate, FPS, load time, concurrency và các KPI LiveOps. (⭐ **New**)
+*   **[Procedural Animation & IK ✨](./programming/animation/procedural-animation-ik.md):** 🕷️ Lệnh nhện 4 chân di chuyển không cần Keyframe, Active Ragdolls. (⭐ **New**)
+*   **[GOAP & Utility AI ✨](./programming/ai/goap-utility-ai.md):** 🧠 Vượt qua FSM để làm NPC sinh tồn như The Sims hay F.E.A.R. (⭐ **New**)
+*   **[Game Backend (BaaS) & LiveOps ✨](./programming/networking/baas-cloud-save.md):** 🗄️ Tích hợp PlayFab/Firebase, Server-Authoritative chống hack. (⭐ **New**)
+*   **[Unity CI/CD Pipeline ✨](./production/engines/unity-ci-cd-pipeline.md):** 🤖 Tự động hoá Build Git/GitHub Actions, không chờ thanh loading. (⭐ **New**)
+*   **[Unity DOTS & ECS ✨](./production/unity-deep-dive/dots-ecs-architecture.md):** ⚡ Đập vỡ OOP, nhồi 10,000 thực thể trên màn hình bằng Burst Compiler. (⭐ **New**)
+*   **[Advanced Game Math](./fundamentals/advanced-game-math.md):** 📐 Thao túng Quaternions, đòn bẩy Vectors, vẽ sóng Sin không dùng Animation.
+*   **[Advanced Physics Engine](./programming/physics/simple-physics-engine.md):** 🎡 Ứng dụng lượng giác xây dựng Physics Engine 3D.
+*   **[Trig Shaders (Water/Fire)](./art-tech/vfx/trig-shaders.md):** 🔥🌊 Tạo hiệu ứng nước và lửa bằng lượng giác. 
+*   **[Game Economics & Monetization](./game-design/game-economics-monetization.md):** 💰 Phân tích Sinks/Sources, tỷ lệ Gacha Pity và lập file Excel cân bằng game F2P. (⭐ **New**)
+*   **[Inverse Kinematics (IK)](./programming/animation/inverse-kinematics.md):** 🦶 Toán học giúp tay chân nhân vật bám sát địa hình. 
+*   **[Steering Behaviors](./programming/ai/steering-behaviors.md):** 🤖 Hệ thống di chuyển AI thông minh dựa trên lực và lượng giác. 
+*   **[Unity Impact Metrics Playbook](./production/metrics/unity-impact-metrics.md):** 📊 Crash rate, FPS, load time, concurrency và các KPI LiveOps.
 *   **[Hybrid Casual vs Casual vs Midcore Cheat Sheet](./production/metrics/mobile-genre-impact.md):** 🕹️ So sánh core loop, audience, cost & team theo infographic AppMagic. (⭐ **New**)
 *   **[Core Mechanic Game Design Doc](./core-mechanic-design-doc.md):** ✍️ Template viết GDD cho cơ chế cốt lõi + ví dụ Aether Dash.
 *   **[Unity Coding Challenges](./challenges/README.md):** Tập các bài tập thực chiến (spawn balancing, netcode, ECS performance). (⭐ **New**)
@@ -270,7 +279,9 @@ Bạn không thể giỏi tất cả. Hãy chọn 1 con đường:
 *   **Fluid Simulation (SPH):** Mô phỏng dòng chảy của nước, khói, lửa ở mức độ vật lý hạt.
 *   **Spatial Audio & Ray-traced Sound:** Mô phỏng cách âm thanh phản xạ trong môi trường 3D.
 
-### **Unity Deep Dive (Làm chủ Unity)**
+### **Unity Deep Dive (Làm chủ Unity) & Engine Tech**
+*   **[Unity to Godot Migration Guide](./production/engines/unity-to-godot-migration.md):** Chuyển sinh làm Indie Dev Godot, so sánh Node vs Component, GDScript Rosetta Stone. (⭐ **New**)
+*   **[AI-Assisted Game Dev](./production/ai-assisted-gamedev.md):** Dùng Midjourney/Polycam làm Asset chớp nhoáng, nhúng SLM local vào làm hội thoại game NPC. (⭐ **New**)
 *   **[Advanced Architecture](./production/unity-deep-dive/architecture-patterns.md):** ScriptableObjects, Dependency Injection (Zenject) và Design Patterns.
 *   **[Clean Code & SOLID cho Unity](./production/unity-deep-dive/unity-clean-code-solid.md):** Áp dụng nguyên tắc lập trình sạch vào MonoBehaviour, ScriptableObject, event channel.
 *   **[Performance Optimization](./production/unity-deep-dive/optimization-techniques.md):** Quản lý bộ nhớ, Profiling và Draw Call Batching.

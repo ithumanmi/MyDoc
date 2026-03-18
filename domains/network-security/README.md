@@ -76,10 +76,13 @@ graph TD
 *   **[Cloud Security Basics](./defense-operations/cloud-security-basics.md):** Shared responsibility, IAM, monitoring.
 *   **[Container Security](./defense-operations/container-security.md):** Runtime hardening, supply chain.
 *   **[Forensics & Incident Response](./defense-operations/forensics-incident-response.md):** DFIR workflow.
+*   **[Malware Analysis & Reverse Engineering (L3-L4) ✨](./defense-operations/malware-analysis-re.md):** (⭐ **NEW**) Thiết lập Sandbox Flare-VM, phân tích Tĩnh (Static) với Ghidra và Động (Dynamic) với Procmon/Wireshark.
 *   **[Wireless Security](./defense-operations/wireless-hacking.md):** WPA2, Evil Twin, bảo vệ Wi-Fi.
 
 ### **Offensive Security (Red Team)**
 *   **[Web Security & OWASP Top 10](./offensive-security/web-security-owasp.md):** SQLi, XSS, CSRF, SSRF.
+*   **[Network Pentest & Metasploit](./offensive-security/network-pentest.md):** Nmap, Tấn công cơ bản.
+*   **[C2 Infrastructure & EDR Evasion (Elite) ✨](./offensive-security/c2-edr-evasion.md):** (⭐ **NEW Khủng Lịch Sử**) Thiết kế Command & Control tàng hình (Domain Fronting, Direct Syscalls, Process Hollowing) để qua mặt AV/EDR.
 *   **[Social Engineering](./offensive-security/social-engineering.md):** Phishing, OSINT, SET.
 
 ### **Governance & Strategy**
@@ -104,6 +107,7 @@ Học Security là phải thực chiến. Hãy làm các bài lab này (trên m�
 *   **[SQL Injection Deep Dive](./labs/sql-injection-practice.md):** Thực hành tấn công Authentication Bypass và dump dữ liệu từ database.
 *   **[XSS & CSRF Practice](./labs/xss-csrf-practice.md):** Tấn công phía Client-side, đánh cắp Cookie và chiếm quyền User.
 *   **[Metasploit & Reverse Shell](./labs/metasploit-reverse-shell.md):** Sử dụng Framework khai thác lỗ hổng OS để chiếm quyền Root.
+*   **[Khởi Trị C2 Sliver Framework Nhọn Hồi EDR ✨](./labs/lab-sliver-c2-evasion.md):** (⭐ **NEW**) Dùng Golang Tạc Tượng Sliver Build Implant Tàng Hình Vượt Sensor Dán Lệnh (mTLS Covert Channels).
 
 #### Offensive Modules ↔ Tool Stack
 | Offensive phase | Mô tả nhanh | Tool chính |
@@ -117,6 +121,7 @@ Học Security là phải thực chiến. Hãy làm các bài lab này (trên m�
 
 ### **Blue Team (Phòng thủ)**
 *   **[Linux Hardening with UFW](./labs/linux-hardening-ufw.md):** Cấu hình Firewall chặn tất cả, chỉ mở SSH và Web.
+*   **[Malware Analysis & Reverse Engineering Sandbox ✨](./labs/lab-malware-analysis.md):** (⭐ **NEW**) Nhốt Mã Độc Vào Flare-VM, Đo Bắt Cột Registry Run Của ProcMon & Tìm IP Gốc Bằng INetSim/Wireshark.
 *   **[SIEM & Log Analysis (Elastic Stack)](./labs/siem-log-analysis.md):** Thu thập log Linux/Windows, phát hiện SSH brute-force & process injection.
 *   **[Splunk Threat Hunting Basics](./labs/splunk-threat-hunting.md):** Dựng Splunk Enterprise + Universal Forwarder, viết SPL hunting brute-force & persistence.
 *   **[Splunk Free SIEM Basics](./labs/siem-splunk-basics.md):** Build Splunk free tier, parse log và tạo alert cơ bản.

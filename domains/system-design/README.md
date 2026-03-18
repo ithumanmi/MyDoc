@@ -22,6 +22,8 @@ Tại đây chúng ta sẽ đi sâu vào kiến trúc phần mềm, khả năng 
 *   **[🌐 Load Balancing & CDN](./fundamentals-load-balancing-cdn.md):** Layer 4/7, health check, sticky session, CDN edge cache.
 *   **[🌀 Event Sourcing & CQRS Fundamentals](./fundamentals-event-sourcing.md):** Khi nào dùng event store, snapshot, saga.
 *   **[📨 Messaging Patterns & Distributed Queues](./fundamentals-messaging-patterns.md):** Queue vs log, delivery semantics, reliability patterns.
+*   **[🗳️ Consensus Algorithms ✨](./fundamentals-consensus-algorithms.md):** Cơ chế Raft, Paxos, Quorum, chống Split-brain. (⭐ **New**)
+*   **[🎲 Probabilistic Data Structures ✨](./fundamentals-probabilistic-data-structures.md):** Bloom Filter, Count-Min Sketch, HyperLogLog với Big Data. (⭐ **New**)
 *   **Prerequisites:**
     *   Hiểu HTTP/HTTPS, REST, load balancer cơ bản.
     *   Nắm chắc cấu trúc dữ liệu & thuật toán phổ biến (hash map, heap, trie…)
@@ -55,6 +57,11 @@ Tại đây chúng ta sẽ đi sâu vào kiến trúc phần mềm, khả năng 
 *   **[11. Design Notification System](./design-notification-system.md):** Push/email/in-app với queue, idempotency, user preferences.
 *   **[12. Design API Gateway](./design-api-gateway.md):** Routing, auth, rate limiting, observability.
 *   **[13. Design Distributed ID Generator](./design-distributed-id-generator.md):** Snowflake, UUID, KGS cho mọi dịch vụ cần ID.
+*   **[14. Design Ticketmaster/Booking ✨](./design-ticket-booking.md):** Chống nhồi nhét concurrent cao bằng Queue CDN, Distributed Locking qua Redis SETNX. (⭐ **New**)
+*   **[15. Design Gaming Leaderboard ✨](./design-leaderboard.md):** Lọc Bảng xếp hạng Real-time 10 Triệu Game thủ với Redis ZSET/Skip List. (⭐ **New**)
+
+### 5. Thực Hành Hiện Thực (System Coded Labs)
+*   **[🧪 Code Lab: Xây Dựng Rate Limiter Redis ✨](./labs/lab-redis-rate-limiter.md):** Rời rãnh lý thuyết vẽ. Lập trình Token Bucket API Rate Limiter tuyệt đối Atomic bằng Redis Lua Script bọc Middleware. (⭐ **New**)
 
 ---
 
