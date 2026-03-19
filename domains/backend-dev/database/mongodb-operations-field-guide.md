@@ -10,7 +10,7 @@ updated: 2026-03-11
 
 # 🍃 MongoDB Operations Field Guide
 
-> Hướng dẫn dành cho backend/team infra khi vận hành MongoDB ở quy mô từ startup đến enterprise. Tập trung vào thiết kế schema tối ưu đọc/ghi, chỉ mục, replica set, sharding, backup và checklist giám sát.
+Hướng dẫn cho backend/infra vận hành MongoDB từ startup đến enterprise: thiết kế schema tối ưu đọc/ghi, index, replica set, sharding, backup và checklist giám sát.
 
 ## 1. Kiến trúc MongoDB
 - **Document store**: dữ liệu JSON/BSON linh hoạt, hỗ trợ nested document.

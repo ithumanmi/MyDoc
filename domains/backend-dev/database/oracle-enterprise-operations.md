@@ -10,7 +10,7 @@ updated: 2026-03-11
 
 # 🏛️ Oracle Enterprise Operations
 
-> Dành cho đội backend/DBA vận hành Oracle Database trong môi trường doanh nghiệp (core banking, telco, government). Bao quát kiến trúc, clustering, replica, tối ưu, backup và readiness checklist.
+Dành cho đội backend/DBA vận hành Oracle Database (core banking, telco, government): kiến trúc, clustering, replica, tối ưu, backup và readiness checklist.
 
 ## 1. Kiến trúc Oracle Database
 - **Instance vs Database**: Instance = bộ process + memory (SGA, PGA). Database = data files + redo logs + control files.

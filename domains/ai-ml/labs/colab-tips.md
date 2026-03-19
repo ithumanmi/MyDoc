@@ -8,11 +8,11 @@ description: Mẹo tối ưu Colab, giữ phiên GPU sống lâu, giảm chi ph�
 > Xem thêm bản chi tiết: [Colab GPU Tips](./colab-gpu-tips.md)
 
 ## Mẹo nhanh
-- Dọn notebook: hạn chế output log quá dài, clear variables lớn.
-- Giữ session: thao tác định kỳ nhẹ; tránh chạy cell trống lặp quá nhanh (dễ bị flag).
-- Chọn runtime phù hợp: T4 cho đa số nhiệm vụ nhẹ; A100 cần khi batch lớn/ViT/LLM.
-- Dùng `pip install --no-cache-dir` để giảm disk.
-- Lưu checkpoint lên Drive/Hub; kiểm tra quota disk trước khi unzip dataset lớn.
+- Dọn notebook: hạn chế log dài, clear variables lớn.
+- Giữ session: thao tác nhẹ định kỳ; tránh loop trống quá nhanh.
+- Chọn runtime: T4 cho nhẹ; A100 cho batch lớn/ViT/LLM.
+- `pip install --no-cache-dir` để giảm disk.
+- Lưu checkpoint lên Drive/Hub; kiểm tra quota disk trước khi unzip.
 
 ## Mẫu thiết lập nhanh (PyTorch)
 ```python

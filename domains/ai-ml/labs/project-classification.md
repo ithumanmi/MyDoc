@@ -2,7 +2,7 @@
 
 > [← Back to Labs](./README.md)
 
-Xây dựng dự án phân loại ảnh end-to-end (data → training → deployment).
+Xây dự án phân loại ảnh end-to-end (data → training → deployment).
 
 ---
 
@@ -11,7 +11,7 @@ Xây dựng dự án phân loại ảnh end-to-end (data → training → deploy
 - Chọn domain (hoa, đồ ăn, sản phẩm retail...)
 - Thu thập data: Kaggle, scraping, gắn nhãn thủ công.
 - Tạo `data/` cấu trúc `train/val/test` theo class.
-- Thiết lập `data-card.md` ghi rõ nguồn, license, distribution.
+- Viết `data-card.md` (nguồn, license, distribution).
 
 Checklist:
 
@@ -24,7 +24,7 @@ Checklist:
 ## 2. Baseline Model
 
 - Fine-tune pretrained model (ResNet50/MobileNetV3) bằng PyTorch/TensorFlow.
-- Sử dụng transfer learning (freeze backbone → unfreeze).
+- Dùng transfer learning (freeze backbone → unfreeze).
 - Theo dõi metrics: accuracy, F1, confusion matrix.
 
 Script core (`train.py`):
@@ -39,8 +39,8 @@ criterion = nn.CrossEntropyLoss(weight=class_weights)
 
 ## 3. Experiment Tracking & HPO
 
-- Log hyperparams, lr schedule, augmentation config.
-- Dùng Optuna hoặc W&B Sweeps tìm lr, weight decay, mixup/cutmix.
+- Log hyperparams, lr schedule, augmentation.
+- Dùng Optuna/W&B Sweeps cho lr, weight decay, mixup/cutmix.
 - Lưu checkpoint tốt nhất + metrics vào `experiments/`.
 
 ---
@@ -48,8 +48,8 @@ criterion = nn.CrossEntropyLoss(weight=class_weights)
 ## 4. Deployment
 
 - Export model → TorchScript/ONNX.
-- Tạo REST API (FastAPI/Flask) + Dockerfile.
-- Viết `deployment.md` (hardware, latency, monitoring plan).
+- REST API (FastAPI/Flask) + Dockerfile.
+- Viết `deployment.md` (hardware, latency, monitoring).
 
 Example inference API snippet:
 

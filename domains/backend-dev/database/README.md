@@ -9,7 +9,7 @@ updated: 2026-03-11
 
 # 🗄️ Backend Database Hub
 
-> Module phụ trách kiến thức database cho backend roadmap. Bạn sẽ tìm thấy chiến lược tổng quát (index, replication, sharding) và sổ tay vận hành cho từng hệ quản trị cụ thể.
+Module về database cho backend roadmap: chiến lược tổng quát (index, replication, sharding) và sổ tay vận hành cho từng hệ quản trị.
 
 ## 📚 Tài liệu chính
 | File | Nội dung chính | Khi nào đọc |
@@ -21,9 +21,9 @@ updated: 2026-03-11
 | [Next-Gen Storage & Databases](./next-gen-databases.md) ✨ | (⭐ **NEW**) Giải phẫu kiến trúc Vector DBs (AI), Graph DBs, Distributed SQL (CockroachDB) & Time-Series DBs | Data Scale hiện đại nâng cấp Senior Engineer |
 
 ## 🧪 Database Practical Labs
-Lý thuyết suông là vô nghĩa nếu không chạm tay vào Cấu Hình Thực Chiến, hãy dựng các Node và giả lập lỗi ngắt mạng:
-*   [Thiết Lập Replication Master-Slave PostgreSQL & Xử Lý Failover](./labs/lab-postgres-replication-failover.md) 🔥 (Dựng Đứng Cụm Docker Đồng Bộ Dữ Liệu Liên Tục & Thủ Nạn Nâng Thẳng Quyền Cứu Server Tụt Mạng)
-*   [Chống Thảm Họa Sập Redis Dập Tường Khoe Dáng (Cache Penetration / Stampede)](./labs/lab-redis-cluster-anti-stampede.md) 🔥 (Viết Mutex Lock Cứu Cánh Đồng Bộ Không Làm Đứt Mạng Database Tại Hồi Bão Kẹt Request Flash Sale Đoạt 9 Mạng Backend Trụ)
+Hãy dựng node và giả lập lỗi để thực hành:
+* [Replication master-slave PostgreSQL & failover](./labs/lab-postgres-replication-failover.md) 🔥 (dựng cụm Docker, thử failover)
+* [Redis cluster & chống cache stampede](./labs/lab-redis-cluster-anti-stampede.md) 🔥 (viết mutex lock, bảo vệ DB khi traffic spike)
 
 
 ## 🚀 Lộ trình học gợi ý

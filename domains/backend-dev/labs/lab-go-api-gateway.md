@@ -1,16 +1,16 @@
-# Lab: Tự viết Load Balancer & API Reverse Proxy bằng Golang
+# Lab: Viết Load Balancer & API Reverse Proxy bằng Go
 
 > [← Quay lại Backend Labs](./README.md)
 
-Mục tiêu: hiểu cách reverse proxy và thuật toán phân tải round-robin hoạt động, tự triển khai một API Gateway cơ bản bằng Go với `net/http/httputil`.
+Mục tiêu: hiểu reverse proxy + round-robin và tự triển khai API Gateway cơ bản bằng Go (`net/http/httputil`).
 
 ---
 
 ## 📐 Kiến trúc
 
-1. Client (trình duyệt/Postman) gửi request vào gateway tại `http://localhost:8080`.
-2. Có 3 service giả lập chạy local (cổng 3001, 3002, 3003).
-3. Gateway chọn backend theo round-robin và forward request.
+1) Client gửi request vào gateway `http://localhost:8080`.
+2) 3 service giả lập chạy local (3001, 3002, 3003).
+3) Gateway chọn backend round-robin và forward request.
 
 ---
 
@@ -23,7 +23,7 @@ go mod init go-api-gateway
 touch main.go
 ```
 
-Code `main.go` (giữ tên biến rõ ràng, tập trung vào round-robin và reverse proxy):
+Code `main.go` (tập trung round-robin + reverse proxy):
 
 ```go
 package main
@@ -36,7 +36,6 @@ import (
     "sync/atomic"
 )
 
-// Danh sách backend
 var backends = []string{
     "http://localhost:3001",
     "http://localhost:3002",
@@ -45,13 +44,11 @@ var backends = []string{
 
 var counter uint64
 
-// Chọn server tiếp theo theo round-robin
 func nextBackend() string {
     idx := atomic.AddUint64(&counter, 1)
     return backends[idx%uint64(len(backends))]
 }
 
-// Handler gateway
 func proxyHandler(w http.ResponseWriter, r *http.Request) {
     target := nextBackend()
     targetURL, _ := url.Parse(target)
@@ -90,4 +87,4 @@ Dùng curl/gửi vài request liên tiếp:
 curl -v http://localhost:8080
 ```
 
-Quan sát log để thấy request lần lượt được chuyển tới 3001 → 3002 → 3003 (round-robin). Thêm backend mới chỉ cần đưa vào danh sách `backends`.
+Quan sát log: request sẽ lần lượt tới 3001 → 3002 → 3003 (round-robin). Thêm backend mới chỉ cần thêm vào `backends`.

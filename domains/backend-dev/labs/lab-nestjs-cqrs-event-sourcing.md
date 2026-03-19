@@ -1,8 +1,8 @@
-# Lab: Thiết kế CQRS & Event Sourcing bằng NestJS
+# Lab: CQRS & Event Sourcing với NestJS
 
 > [← Quay lại Backend Labs](./README.md)
 
-Mục tiêu: tách luồng đọc/ghi để tránh contention, dùng event bus đẩy dữ liệu sang store đọc riêng, áp dụng thư viện `@nestjs/cqrs`.
+Mục tiêu: tách read/write, đẩy event sang store đọc riêng, dùng `@nestjs/cqrs`.
 
 ---
 
@@ -10,8 +10,8 @@ Mục tiêu: tách luồng đọc/ghi để tránh contention, dùng event bus �
 
 Kiến trúc CRUD đi thẳng DB khiến luồng ghi có thể khóa bảng và làm chậm luồng đọc. CQRS tách biệt:
 
-1. **Command**: xử lý ghi, đảm bảo ACID (Postgres/MySQL).
-2. **Query**: phục vụ đọc nhanh, có thể dùng NoSQL (MongoDB/Elastic) và được cập nhật qua event.
+1. **Command**: ghi, đảm bảo ACID (Postgres/MySQL).
+2. **Query**: đọc nhanh (Mongo/Elastic), cập nhật qua event.
 
 ---
 
@@ -30,7 +30,7 @@ export class DatMuaHangCommand {
 }
 ```
 
-Handler ghi vào DB và phát sự kiện:
+Handler ghi vào DB và phát event:
 
 ```typescript
 // handler.ts
@@ -77,5 +77,5 @@ export class CapNhatViewDonHangHandler implements IEventHandler<NhanViecHangMoiD
 
 ## 🧾 Kết quả kiến trúc
 
-1. `GET /orders/me` đọc từ MongoDB/Elastic, không bị ảnh hưởng bởi lock ghi trên Postgres.
-2. `POST /order` gọi `CommandBus.execute(new DatMuaHangCommand(...))`; ghi vào Postgres và phát event để đồng bộ view đọc. Luồng đọc/ghi tách biệt, hệ thống chịu tải tốt hơn và dễ mở rộng.
+1) `GET /orders/me` đọc từ Mongo/Elastic, không bị lock ghi trên Postgres.
+2) `POST /order` gọi `CommandBus.execute(new DatMuaHangCommand(...))`; ghi Postgres và phát event để đồng bộ view đọc. Read/Write tách biệt, chịu tải tốt hơn.

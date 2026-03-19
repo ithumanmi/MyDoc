@@ -10,9 +10,9 @@ updated: 2026-03-11
 
 # 🗄️ Advanced Database Engineering
 
-> [← Back to Backend Development](../README.md)
+> [← Quay lại Backend Development](../README.md)
 
-Module này giúp bạn hiểu cách database hoạt động ở tầng máy, từ chiến lược index, partitioning, replication đến quan sát hiệu năng và công cụ chẩn đoán. Đây là lớp nền trước khi bước vào các bài system design nặng đô hơn.
+Module này giúp bạn hiểu cách database hoạt động ở tầng máy: index, partitioning, replication, quan sát hiệu năng và công cụ chẩn đoán. Đây là lớp nền trước khi vào các bài system design nặng hơn.
 
 ## 1. Index Foundations (Data Structures)
 Indexes tăng tốc đọc nhưng ảnh hưởng write và chiếm dung lượng. Hãy chọn đúng kiểu cho workload của bạn.

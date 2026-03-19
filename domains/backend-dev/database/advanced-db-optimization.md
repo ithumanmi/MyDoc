@@ -10,9 +10,9 @@ updated: 2026-03-11
 
 # 🗄️ Database Optimization: Indexing & Sharding Deep Dive
 
-> [← Back to Backend Roadmap](../README.md)
+> [← Quay lại Backend Roadmap](../README.md)
 
-Khi ứng dụng đạt 1 triệu users, **database** thường là bottleneck đầu tiên. Hướng dẫn này là phiên bản “thao tác hóa” của module Advanced Database: tập trung vào kỹ thuật đo đạc, tối ưu và vận hành production.
+Khi ứng dụng đạt ~1 triệu users, **database** thường là bottleneck đầu tiên. Tài liệu này là checklist thao tác: đo đạc, tối ưu, vận hành production.
 
 ---
 
@@ -20,7 +20,7 @@ Khi ứng dụng đạt 1 triệu users, **database** thường là bottleneck �
 
 Index giống như "mục lục" của cuốn sách. Thay vì lật từng trang (full table scan), bạn nhảy thẳng đến trang cần thiết.
 
-### 1.1 B-Tree Index (Default) 🌳
+### 1.1 B-Tree Index (mặc định) 🌳
 - **Hoạt động:** Dữ liệu được sắp xếp để binary search, leaf node chain để scan range nhanh.
 - **Chi phí:** Update/insert phải chỉnh lại cấu trúc, gây thêm IO.
 - **Thực hành:** Dùng `EXPLAIN` để đảm bảo query range đang dùng index thay vì seq scan.

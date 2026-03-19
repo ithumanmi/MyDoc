@@ -2,7 +2,7 @@
 
 > [← Quay lại Backend Labs](./README.md)
 
-Mục tiêu: xây chat server WebSockets bằng Rust + Tokio + Tungstenite, xử lý hàng nghìn kết nối đồng thời với mức RAM thấp.
+Mục tiêu: xây chat server WebSockets bằng Rust + Tokio + Tungstenite, xử lý nhiều kết nối với RAM thấp.
 
 ---
 

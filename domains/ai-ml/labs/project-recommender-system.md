@@ -2,7 +2,7 @@
 
 > [← Back to Labs](./README.md)
 
-Xây dựng hệ thống gợi ý kết hợp collaborative filtering + content-based.
+Xây hệ gợi ý hybrid: collaborative filtering + content-based.
 
 ---
 
@@ -10,15 +10,15 @@ Xây dựng hệ thống gợi ý kết hợp collaborative filtering + content-
 
 - Domain: e-commerce, video, âm nhạc, học liệu.
 - KPI: CTR, conversion, dwell time, revenue uplift.
-- Constraint: cold-start user/item, latency, personalization vs diversity.
+- Constraint: cold-start, latency, personalization vs diversity.
 
 ---
 
 ## 2. Data Pipeline
 
-- Thu thập interaction logs (user_id, item_id, event_type, timestamp).
-- Feature store: user features (demographics, embedding), item metadata.
-- Offline store (Parquet/BigQuery) + online store (Redis/Feature Store service).
+- Interaction logs (user_id, item_id, event_type, timestamp).
+- Feature store: user features, item metadata.
+- Offline store (Parquet/BigQuery) + online store (Redis/feature store).
 
 Checklist:
 
@@ -32,8 +32,7 @@ Checklist:
 
 ### Collaborative Filtering
 
-- ALS (Matrix Factorization) hoặc Neural CF.
-- Implicit feedback → dùng implicit library (Hu et al. loss).
+- ALS/Neural CF cho implicit feedback (implicit library).
 
 ### Content-Based
 
@@ -42,8 +41,7 @@ Checklist:
 
 ### Hybrid Strategy
 
-- Weighted blending (w1 * CF + w2 * Content).
-- Stacking model (LightGBM/XGBoost) sử dụng features từ CF + content.
+- Weighted blending (w1 * CF + w2 * content) hoặc stacking (LightGBM/XGBoost).
 
 Evaluation: Recall@K, MAP@K, NDCG.
 
@@ -52,7 +50,7 @@ Evaluation: Recall@K, MAP@K, NDCG.
 ## 4. Serving Architecture
 
 - Offline batch scoring → top-N per user (daily).
-- Online re-ranking với context real-time (time of day, device).
+- Online re-ranking theo context real-time.
 - API: `/recommend?user_id=...` trả về danh sách items.
 
 Infra đề xuất:

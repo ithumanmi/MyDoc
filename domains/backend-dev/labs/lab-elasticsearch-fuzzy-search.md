@@ -17,7 +17,7 @@ services:
     environment:
       - discovery.type=single-node
       - xpack.security.enabled=false
-      - "ES_JAVA_OPTS=-Xms512m -Xmx512m" # Xài 512MB RAM Cho Nhẹ Local!
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m" # Local 512MB RAM
     ports:
       - "9200:9200"
   kibana:
@@ -35,12 +35,12 @@ Chạy: `docker-compose up -d`. Kiểm tra: `http://localhost:9200`.
 Cài SDK: `npm install @elastic/elasticsearch`
 
 ```javascript
-// dua_data_vao_elastic.js
+// seed.js
 const { Client } = require('@elastic/elasticsearch');
-const bomClient = new Client({ node: 'http://localhost:9200' });
+const client = new Client({ node: 'http://localhost:9200' });
 
-async function nopBieuKhungKhoDataDeMuc() {
-  await bomClient.indices.create({
+async function seed() {
+  await client.indices.create({
     index: 'san_pham',
     body: {
       mappings: {
@@ -55,54 +55,48 @@ async function nopBieuKhungKhoDataDeMuc() {
 
   console.log("Đã tạo index san_pham");
 
-  // Dua Mau 1 Vach Data San Pham Cho Elastic No Chop!
-  const KhoSotSanPhams = [
+  const products = [
     { id: 'PROD_1', ten_mon: 'Điện Thoại iPhone 16 Pro Max 256GB Gold', gia: 35000 },
     { id: 'PROD_2', ten_mon: 'Sạc Dự Phòng Pisen Chính Hãng', gia: 500 },
-    { id: 'PROD_3', ten_mon: 'Bao Da Ốp Lưng SamSung Galaxy Cứng', gia: 200 },
-    { id: 'PROD_4', ten_mon: 'Tai Nghe Không Dây Apple AirPods Pro', gia: 6000 }
+    { id: 'PROD_3', ten_mon: 'Bao Da Ốp Lưng Samsung Galaxy', gia: 200 },
+    { id: 'PROD_4', ten_mon: 'Tai Nghe Không Dây AirPods Pro', gia: 6000 }
   ];
 
-  for (let mon of KhoSotSanPhams) {
-     await bomClient.index({
+  for (let mon of products) {
+     await client.index({
        index: 'san_pham',
        document: mon
      });
   }
 
-  await bomClient.indices.refresh({ index: 'san_pham' });
+  await client.indices.refresh({ index: 'san_pham' });
   console.log("Đã nạp dữ liệu mẫu");
 }
 
-nopBieuKhungKhoDataDeMuc();
+seed();
 ```
 
 ---
 
 ## 🔎 Bước 3: Tìm kiếm fuzzy
 
-Ví dụ tìm với chuỗi sai chính tả `iphnoe mak`:
+`search.js` – ví dụ tìm với chuỗi sai chính tả `iphnoe mak`:
 
 ```javascript
-// tim_loi_chinh_ta.js
 const { Client } = require('@elastic/elasticsearch');
-const timCuaClient = new Client({ node: 'http://localhost:9200' });
+const client = new Client({ node: 'http://localhost:9200' });
 
-async function bo_may_chua_te_search_lan_text() {
-  const ChuKhachGoLoiMuoi = "iphnoe mak"; // VIẾT SAI MẤT NÚT NGUYÊN BẢN CHỮ "IPHONE" ! 
+async function searchFuzzy() {
+  const query = "iphnoe mak";
 
-  console.log(`Bắt Đầu Quăng Lưới Tìm Thuật Cáp Fuzzy Với Text: [Khách Gõ: "${ChuKhachGoLoiMuoi}"]...`);
-
-  const LướiKetQua = await timCuaClient.search({
+  const res = await client.search({
     index: 'san_pham',
     body: {
       query: {
         match: {
           ten_mon: {
-            query: ChuKhachGoLoiMuoi,
-            
-            // 🔥 Bí Kíp Của Mọi Sàn TMĐT: Khung Khoảng Cách Chấp Nhận Sai Levenshtein!
-            fuzziness: 'AUTO', 
+            query,
+            fuzziness: 'AUTO',
             operator: 'and'
           }
         }
@@ -110,12 +104,12 @@ async function bo_may_chua_te_search_lan_text() {
     }
   });
 
-  console.log("======= Kết quả =======");
-  LướiKetQua.hits.hits.forEach((hit, idx) => {
-      console.log(`[Top ${idx + 1}] score: ${hit._score}`);
-      console.log(`-> Sản phẩm: ${hit._source.ten_mon}`);
+  res.hits.hits.forEach((hit, idx) => {
+    console.log(`[${idx + 1}] score: ${hit._score} -> ${hit._source.ten_mon}`);
   });
 }
-bo_may_chua_te_search_lan_text();
+
+searchFuzzy();
 ```
-Chạy thử 2 script để nạp và tìm kiếm. Elasticsearch dùng inverted index và fuzzy (Levenshtein) nên vẫn trả về kết quả phù hợp dù gõ sai chính tả.
+
+Chạy `node seed.js` rồi `node search.js`. Elasticsearch dùng inverted index + fuzzy (Levenshtein) nên vẫn trả kết quả dù gõ sai chính tả.

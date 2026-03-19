@@ -1,12 +1,12 @@
-# Lab 2: Xây Dựng AI Micro-SaaS Với Vercel AI SDK (Next.js)
+# Lab 2: AI Micro-SaaS với Vercel AI SDK (Next.js)
 
 > [← Back to Labs AI/ML Focus](./README.md) | [Home](../../../README.md)
 
-Lý thuyết về thiết kế hệ thống AI SaaS đã được trình bày tại [AI Engineering for SaaS](../advanced/ai-saas-engineering.md). Lab này đưa bạn từ số 0 đến việc dựng một UI tương tác y hệt ChatGPT có khả năng Stream text liên tục trên Next.js App Router mượt mà.
+Mục tiêu: dựng UI chat giống ChatGPT trên Next.js (App Router) dùng Vercel AI SDK, streaming từ backend.
 
-## 🛠️ Bước 1: Khởi Tạo Dự Án (Boilerplate)
+## 🛠️ Bước 1: Khởi tạo dự án
 
-Sử dụng cỗ máy `create-next-app`:
+Tạo Next.js + Tailwind + TypeScript:
 ```bash
 npx create-next-app@latest ai-micro-saas
 # Các Tùy Chọn: 
@@ -17,7 +17,7 @@ npx create-next-app@latest ai-micro-saas
 cd ai-micro-saas
 ```
 
-Cài đặt package thần thánh `ai` (Vercel AI SDK) và `@ai-sdk/openai`:
+Thêm Vercel AI SDK:
 ```bash
 npm install ai @ai-sdk/openai
 ```
@@ -29,9 +29,9 @@ OPENAI_API_KEY=sk-xxxxxx...
 
 ---
 
-## ⚡ Bước 2: Setup API Route (Backend Endpoint)
+## ⚡ Bước 2: API route backend (streaming)
 
-Chúng ta không bao giờ gọi OpenAI trực tiếp từ Frontend (lộ API Key). Frontend gọi Backend của Next.js -> Backend gọi OpenAI, rồi *stream (trả về từng chữ)* về Frontend. Mở đầu bằng sự kiện `Edge Runtime`.
+Frontend gọi backend; backend gọi OpenAI và stream phản hồi.
 
 Tạo file: `app/api/chat/route.ts`
 
@@ -40,30 +40,30 @@ import { openai } from '@ai-sdk/openai';
 import { streamText } from 'ai';
 
 // Tùy chọn Edge Runtime để response siêu nhanh
-export const maxDuration = 30; // 30s max cho Vercel Hobby
+export const maxDuration = 30; // 30s trên Vercel Hobby
 
 export async function POST(req: Request) {
-  // Bóc tách mảng messages (lịch sử chat) từ body do Frontend gửi tự động
+  // Nhận lịch sử messages từ frontend
   const { messages } = await req.json();
 
   // Route gọi lên OpenAI - Bạn đổi thành mô hình GPT-4o-mini cho siêu rẻ
   const result = await streamText({
     model: openai('gpt-4o-mini'),
     messages,
-    // [Tuỳ CHỌN]: Đây là sức mạnh của Vercel SDK, bạn vứt thêm system prompt vào
+    // Có thể thêm system prompt
     system: "Bạn là trợ lý ảo chỉ trả lời câu hỏi bằng tiếng Việt ngắn gọn tóm tắt trong vòng 3 câu.",
   });
 
-  // Hồi trả theo chuẩn stream HTTP tiêu chuẩn! Mọi thứ còn lại Vercel AI lo!
+  // Trả về stream HTTP
   return result.toDataStreamResponse();
 }
 ```
 
 ---
 
-## 🎨 Bước 3: Giao Diện Chat (Frontend) & Custom State
+## 🎨 Bước 3: Giao diện chat (frontend)
 
-Hệ thống cung cấp hook `useChat` quản lý nguyên cục state rườm rà "loading", "lịch sử chat", "append message".
+`useChat` quản lý state, streaming, input.
 
 Chỉnh sửa file giao diện chính `app/page.tsx`:
 
@@ -75,9 +75,9 @@ import { useEffect, useRef } from 'react';
 
 export default function ChatDashboard() {
   const { messages, input, handleInputChange, handleSubmit, isLoading } = useChat({
-    api: '/api/chat',  // Gắn đúng dường dẫn Route ban nãy
+    api: '/api/chat',
     initialMessages: [
-         { id: '1', role: 'assistant', content: 'Xin chào! Tôi có thể giúp gì cho bạn hôm nay?' }
+      { id: '1', role: 'assistant', content: 'Xin chào! Tôi có thể giúp gì cho bạn hôm nay?' }
     ]
   });
 
@@ -111,11 +111,11 @@ export default function ChatDashboard() {
             </div>
           </div>
         ))}
-        {/* Nơi ref chỉ để cuộn chuột tới */}
+        {/* Ref để auto-scroll */}
         <div ref={messagesEndRef} />
       </div>
 
-      {/* Box Nhập Liệu Cố Định dưới Màn Hình */}
+      {/* Ô nhập cố định dưới màn hình */}
       <div className="fixed bottom-0 box-border p-4 bg-gradient-to-t w-full max-w-2xl mx-auto from-white via-white/95 to-transparent pb-8">
         <form onSubmit={handleSubmit} className="relative flex shadow-md ring-1 ring-gray-200 rounded-full bg-white overflow-hidden transition-all focus-within:ring-2 focus-within:ring-blue-500 focus-within:shadow-lg">
           <input
@@ -164,25 +164,18 @@ body {
 
 ---
 
-## 🚀 Bước 4: Chạy Đồ Án!
-
-Mở Terminal và khởi động Dev Server.
+## 🚀 Bước 4: Chạy dev
 
 ```bash
 npm run dev
 ```
-Đến trình duyệt mở `http://localhost:3000`. Cùng kiểm tra, ấn chữ, và bạn sẽ thấy chữ của GPT "phi về dồn dập" nhờ Edge Streaming của App Router API thay vì đợi cục súc nguyên đoạn.
-
-Giao diện mẫu của chúng ta sử dụng Vanilla Tailwind mượt mà, bóng tròn kính viền hiện đại (Glassmorphism), UX auto-scroll yakuza! 😎. 
+Mở `http://localhost:3000` và thử chat; streaming hoạt động qua API route.
 
 ---
 
-## 🛡️ (Tự luyện tập Plus) Bước 5: Thử Thách Bảo Vệ Hóa Đơn (Rate Limit)
+## 🛡️ Bước 5: Rate limit (bài tập thêm)
 
-Mã nguồn trên đã là "Sản phẩm", nhưng chưa phải là "Doanh nghiệp (Micro-SaaS)".
-Đăng ký thẻ Credit Card và tung link lên Reddit, 2 tiếng sau có **ai đó chạy bot gõ 50K Requests ném vào form**. *Vỡ hoá đơn vì không Limit!*
-
-Bài tập gợi ý: Hãy tích hợp [Upstash Redis Rate limit](https://upstash.com/docs/redis/sdks/ratelimit-ts/features) chèn vào đầu file `route.ts`. 
+Thêm Upstash Redis Rate Limit vào `route.ts` để tránh lạm dụng:
 
 ```typescript
 // Ý Tưởng Logic: (Mã giả)

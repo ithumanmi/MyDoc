@@ -8,9 +8,9 @@ Tối ưu sử dụng GPU miễn phí/Pro trên Google Colab.
 
 ## 1. Quản lý phiên làm việc
 
-- Sử dụng Colab Pro/Pro+ để có session dài hơn.
+- Dùng Colab Pro/Pro+ để có session dài hơn.
 - Kích hoạt GPU (Runtime → Change runtime type → GPU).
-- Tránh idle: dùng `while True: pass` hoặc auto-keepalive script hợp lý.
+- Tránh idle: keepalive hợp lý (không spam). No `while True: pass`.
 
 Checklist:
 
@@ -23,7 +23,7 @@ Checklist:
 ## 2. Tối ưu dataset & storage
 
 - Mount Google Drive hoặc dùng `gdown` tải dữ liệu nhanh.
-- Sử dụng `zip`/`tar` để giảm thời gian copy.
+- `zip`/`tar` để giảm thời gian copy.
 - Cache dataset bằng `huggingface_hub snapshot_download` với `local_dir`.
 
 ---
@@ -32,7 +32,7 @@ Checklist:
 
 - Mixed precision (`torch.cuda.amp`) giảm VRAM.
 - Gradient checkpointing cho mô hình lớn.
-- Dùng `batch_size` nhỏ + accumulate gradients.
+- Batch nhỏ + accumulate gradients.
 
 Example snippet:
 
@@ -49,8 +49,8 @@ scaler.update()
 
 ## 4. Automation & Templates
 
-- Tạo notebook template với sections: setup, data, training, monitoring.
-- Dùng `%load_ext tensorboard` để xem metrics trực tiếp.
+- Notebook template: setup, data, training, monitoring.
+- `%load_ext tensorboard` để xem metrics trực tiếp.
 - Lưu `requirements.txt` + script setup để chạy lại nhanh.
 
 ---

@@ -1,4 +1,4 @@
-# Lab: Kafka event streaming (Docker)
+# Lab: Kafka Event Streaming (Docker)
 
 > [← Quay lại Backend Labs](./README.md)
 
@@ -50,32 +50,33 @@ Gửi 10,000 sự kiện vào topic `order-events`:
 // producer.js
 const { Kafka } = require('kafkajs');
 
-const kafkaBoNo = new Kafka({
-  clientId: 'He_Thong_Ban_Hang_Shop_Ban_Toi',
-  brokers: ['localhost:9092']
+const kafka = new Kafka({
+  clientId: 'order-system',
+  brokers: ['localhost:9092'],
 });
 
-const taySungProducer = kafkaBoNo.producer();
+const producer = kafka.producer();
 
-async function xa_dan_vao_su_kien_kafka() {
-  await taySungProducer.connect();
-  console.log("🔫 SÚNG ĐÃ LÊN ĐẠN! BẮT ĐẦU DỘI EVENTS VÀO KAFKA!");
+async function sendEvents() {
+  await producer.connect();
+  console.log("🚀 Producer started, sending events...");
 
   for (let i = 1; i <= 10000; i++) {
-    await taySungProducer.send({
+    await producer.send({
       topic: 'order-events',
       messages: [
-        { 
-          key: `Order_So_${i}`, 
-          value: JSON.stringify({ don_hang_id: i, khach_hang: 'Anh Bảy', so_tien: 500000, thai_do: 'Mua Nhanh' }) 
+        {
+          key: `order-${i}`,
+          value: JSON.stringify({ orderId: i, customer: 'User A', amount: 500000, note: 'fast-checkout' }),
         },
       ],
     });
-    
-    if(i % 1000 === 0) console.log(`⏩ Đã Gửi Thành Công ${i} Sự Kiện Lên Đĩa Cứng Kafka`);
+
+    if (i % 1000 === 0) console.log(`⏩ Đã gửi ${i} sự kiện`);
   }
 }
-xa_dan_vao_su_kien_kafka();
+
+sendEvents();
 ```
 
 ---
@@ -88,28 +89,28 @@ Consumer cùng group sẽ chia sẻ tải partition.
 // consumer-ketoan.js
 const { Kafka } = require('kafkajs');
 
-const kafkaTruLoi = new Kafka({
-  clientId: 'Doi_Hinh_Ke_Toan_Cuoi_Thang',
-  brokers: ['localhost:9092']
+const kafka = new Kafka({
+  clientId: 'finance-service',
+  brokers: ['localhost:9092'],
 });
 
-const nhaNgheConsumer = kafkaTruLoi.consumer({ groupId: 'phong-ke-toan-chot-loi' });
+const consumer = kafka.consumer({ groupId: 'order-finance-group' });
 
-async function dot_nghe_ong_loai_data() {
-  await nhaNgheConsumer.connect();
-  console.log("👂 CỤC THU ÂM XỊN ĐÃ MỞ: TAI NGHE CẮM VÀO KAFKA!");
-  
-  await nhaNgheConsumer.subscribe({ topic: 'order-events', fromBeginning: true });
+async function listen() {
+  await consumer.connect();
+  console.log("👂 Consumer started");
+  await consumer.subscribe({ topic: 'order-events', fromBeginning: true });
 
-  await nhaNgheConsumer.run({
-    eachMessage: async ({ topic, partition, message }) => {
-       const suKienNoGi = JSON.parse(message.value.toString());
-       console.log(`[PARTITION ${partition}] 💸 Kế Toán Píp Thấy Lệnh Đơn Hàng Mới ID: ${suKienNoGi.don_hang_id} | Móc Tiền: ${suKienNoGi.so_tien}`);
-       // Xử lý và lưu về DB riêng của service nếu cần
+  await consumer.run({
+    eachMessage: async ({ partition, message }) => {
+      const evt = JSON.parse(message.value.toString());
+      console.log(`[partition ${partition}] Order ${evt.orderId} amount ${evt.amount}`);
+      // TODO: xử lý và lưu về DB riêng của service nếu cần
     },
   });
 }
-dot_nghe_ong_loai_data();
+
+listen();
 ```
 
-Chạy `node producer.js`, sau đó mở 1+ tiến trình `node consumer-ketoan.js` để thấy chia tải theo partition.
+Chạy `node producer.js`, sau đó mở 1+ tiến trình `node consumer-ketoan.js` để thấy chia tải partition.

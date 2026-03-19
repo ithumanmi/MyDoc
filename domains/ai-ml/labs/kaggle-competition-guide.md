@@ -2,16 +2,16 @@
 
 > [← Back to Labs](./README.md)
 
-Chiến lược tham gia Kaggle từ lúc chọn cuộc thi đến submission tối ưu.
+Chiến lược tham gia Kaggle từ chọn cuộc thi đến submission tối ưu.
 
 ---
 
 ## 1. Chọn cuộc thi phù hợp
 
-- Mục tiêu học vs ranking?
+- Mục tiêu: học hay ranking?
 - Public vs private dataset?
-- Độc lập hay team?
-- Check timeline và prize.
+- Solo hay team?
+- Check timeline & prize.
 
 Tip: bắt đầu bằng competition Playground (Tabular Playground, Titanic) để quen workflow.
 
@@ -20,8 +20,8 @@ Tip: bắt đầu bằng competition Playground (Tabular Playground, Titanic) đ
 ## 2. Setup & Workflow chuẩn
 
 1. Clone starter notebook (EDA baseline) → tạo repo riêng.
-2. Thiết lập tracking (W&B/MLflow) + version data bằng DVC hoặc Kaggle datasets.
-3. Chia nhánh Git cho từng experiment.
+2. Tracking (W&B/MLflow) + version data (DVC/Kaggle datasets).
+3. Mỗi experiment dùng nhánh Git riêng.
 4. Log notebook version + seed để reproducible.
 
 Checklist:
@@ -44,8 +44,8 @@ Output: `EDA.md` hoặc notebook tóm tắt findings.
 
 ## 4. Baseline Modeling
 
-- B1: simple model (Logistic/LightGBM) để kiểm metric.
-- B2: tuned model (Optuna) → so sánh cross-validation vs public LB.
+- B1: simple model (Logistic/LightGBM) kiểm metric.
+- B2: tuned model (Optuna) → so sánh CV vs public LB.
 - Ensemble/stacking khi có ≥3 mô hình mạnh.
 
 > Luôn so sánh offline metric và LB để phát hiện data leakage.
@@ -54,9 +54,9 @@ Output: `EDA.md` hoặc notebook tóm tắt findings.
 
 ## 5. Teamwork & Collaboration
 
-- Dùng Kaggle Team hoặc Github/Notion để chia tasks.
-- Merge model predictions (blend) hoặc stacking meta-model.
-- Lưu lại submission history (+ LB score) để tránh drift.
+- Dùng Kaggle Team hoặc Github/Notion chia tasks.
+- Blend hoặc stacking meta-model.
+- Lưu submission history (+ LB score).
 
 ---
 

@@ -10,7 +10,7 @@ updated: 2026-03-11
 
 # 🐘 PostgreSQL Operations Handbook
 
-> Tài liệu dành cho backend engineer muốn vận hành PostgreSQL ở quy mô production (từ single node tới cluster). Che phủ kiến trúc lõi, tối ưu hiệu năng, quan sát, replication và kịch bản sự cố.
+Tài liệu dành cho backend engineer vận hành PostgreSQL production (single node tới cluster): kiến trúc lõi, tuning, observability, replication, backup/restore và playbook sự cố.
 
 ## 1. Kiến trúc lõi Postgres
 - **Process-based**: mỗi connection = 1 process (`postgres` backend). Cần connection pooling (PgBouncer) để tránh fork quá nhiều.

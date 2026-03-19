@@ -8,8 +8,8 @@ Pipeline NLP end-to-end: data → model → API.
 
 ## 1. Use Case & Dataset
 
-- Lựa chọn domain: review sản phẩm, phản hồi khách hàng, social listening.
-- Thu thập dữ liệu từ Kaggle, Twitter API, customer feedback.
+- Chọn domain: review sản phẩm, phản hồi khách hàng, social listening.
+- Thu thập dữ liệu: Kaggle, Twitter API, customer feedback.
 - Tiền xử lý: deduplicate, language detection, anonymize.
 
 Checklist data:
@@ -23,8 +23,8 @@ Checklist data:
 ## 2. Modeling Strategy
 
 - Baseline: TF-IDF + Logistic Regression/SVM.
-- Advanced: Fine-tune BERT/RoBERTa hoặc PhoBERT (tiếng Việt).
-- Sử dụng `transformers` + `datasets` để quản lý pipeline.
+- Advanced: fine-tune BERT/RoBERTa/PhoBERT.
+- Dùng `transformers` + `datasets` cho pipeline.
 
 Training snippet:
 
@@ -46,8 +46,8 @@ Metrics: accuracy, macro F1, confusion matrix.
 ## 3. Deployment
 
 - Export model + tokenizer.
-- Tạo FastAPI server (`app.py`) với endpoint `/predict`.
-- Đóng gói Docker image, deploy lên Cloud Run/Render/Vercel serverless.
+- FastAPI server (`app.py`) endpoint `/predict`.
+- Docker image, deploy Cloud Run/Render/Vercel serverless.
 
 Infra checklist:
 
