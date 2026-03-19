@@ -6,7 +6,7 @@ Mục tiêu: tách logic nghiệp vụ khỏi framework/ORM, mô hình hóa doma
 
 ---
 
-## 💎 Value Object: bất biến và tự kiểm soát tính hợp lệ
+## 💎 Value Object: bất biến, tự kiểm soát tính hợp lệ
 
 Tránh dùng primitive (string) cho dữ liệu có quy tắc riêng. Gói vào Value Object để kiểm tra ngay khi tạo và so sánh theo giá trị.
 
@@ -16,18 +16,14 @@ Tránh dùng primitive (string) cho dữ liệu có quy tắc riêng. Gói vào 
 export class Email {
   private constructor(public readonly value: string) {}
 
-  public static create(gia_tri_email: string): Email {
-     if (!gia_tri_email) {
-         throw new Error("Email không được để trống");
-     }
-     if (!gia_tri_email.includes("@")) {
-         throw new Error("Email không hợp lệ");
-     }
-     return new Email(gia_tri_email);
+  static create(raw: string): Email {
+    if (!raw) throw new Error("Email không được để trống");
+    if (!raw.includes("@")) throw new Error("Email không hợp lệ");
+    return new Email(raw);
   }
 
-  public equals(emailSoRaKhac: Email): boolean {
-     return this.value === emailSoRaKhac.value;
+  equals(other: Email): boolean {
+    return this.value === other.value;
   }
 }
 ```
@@ -44,36 +40,31 @@ Aggregate giữ trạng thái nhất quán và phơi bày hành vi (method), kh�
 import { Email } from '../value-objects/Email';
 
 export enum TinhTrangKhach {
-    CHO_CAP_PHEP = "PENDING_TRIAL",    
-    THANH_VIP = "VIP_VERIFIED",
-    BI_BAN = "BANNED_LOCK"
+  CHO_CAP_PHEP = "PENDING_TRIAL",
+  THANH_VIP = "VIP_VERIFIED",
+  BI_BAN = "BANNED_LOCK",
 }
 
 export class KhachHangAggregate {
-   private constructor(
-       public readonly id: string,
-       private ten_chu: string,
-       private e_mail: Email,
-       private trang_thai: TinhTrangKhach
-   ) {}
+  private constructor(
+    public readonly id: string,
+    private ten: string,
+    private email: Email,
+    private trangThai: TinhTrangKhach,
+  ) {}
 
-   public static dangKyMoiPoc(thuTuId: string, tenGoi: string, homThuGoc: string): KhachHangAggregate {
-       const emailAnTon = Email.create(homThuGoc);
-       return new KhachHangAggregate(
-           thuTuId, 
-           tenGoi, 
-           emailAnTon,
-           TinhTrangKhach.CHO_CAP_PHEP
-       );
-   }
+  static dangKyMoi(id: string, ten: string, emailRaw: string): KhachHangAggregate {
+    const email = Email.create(emailRaw);
+    return new KhachHangAggregate(id, ten, email, TinhTrangKhach.CHO_CAP_PHEP);
+  }
 
-   public thucHienDongPhatThanhVipMienDich() {
-      if (this.trang_thai === TinhTrangKhach.BI_BAN) {
-         throw new Error("Khách hàng bị khóa, không thể nâng VIP");
-      } 
-      this.trang_thai = TinhTrangKhach.THANH_VIP;
-      // Có thể phát domain event tại đây nếu cần
-   }
+  nangVIP() {
+    if (this.trangThai === TinhTrangKhach.BI_BAN) {
+      throw new Error("Khách hàng bị khóa, không thể nâng VIP");
+    }
+    this.trangThai = TinhTrangKhach.THANH_VIP;
+    // Phát domain event nếu cần
+  }
 }
 ```
 

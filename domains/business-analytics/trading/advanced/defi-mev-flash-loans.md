@@ -38,3 +38,13 @@ Bạn Không Thể Gửi Phí Gas Công Khai Qua Chóp Mạng Blockchain Nữa! 
 Tức Là Mã Kẹp "Toán Học Đút Lót Trắng Răng": Bạn Thu Thuế Thắng Sandwich 10,000$, Bạn Rót Sang Hối Lộ Cho The Miner/Validator (Người Xét Duyệt Lệnh Blockchain) Cho Ngay Vào Túi Cụ Đó 9,999$ Khống Đỉnh Xé. Để Lưới Cụ Đưa Chặn Lệnh Bot Bác Khớp Phá Nhất Thế Giới Giật Toàn Block Đất Ngõ Cắn Trói! Lãi 1$ Cho 1 Giao Dịch, Bạn Lặp Triệu Lần Trút Thủng Phá Sản Kẻ Khảo Dân Buôn Yếu.
 
 > **Đỉnh Nóc Ngai Tuyệt Kỹ Nâng Cao Này Gắn Cuộn Lồng Code Oạch (Smart Contract + Python Data Rút):** Đòi Hỏi Kiến Trúc Ráp Node Siêu Ngắn Thẳng Đứt Rust / Đổ Mạng Thủng C++ Xé Sàn Không Thương Tiếc Nút. Chặn Đây Chỉ Dành Cho Dân Dev Não Chóp Không Biên Giới Quét Xóa Ranh Nghèo Khó Vớt Ánh Máy Tính Mẻ Trống Đạt Rắn Nắm Toàn Bộ Lệnh Arbitrage Ngạo Tiền Cực Trí!! 🤯
+
+---
+
+## 🛡️ Phòng thủ & Vận hành an toàn
+- **Private orderflow/relays**: dùng Flashbots/MEV-Share hoặc RPC riêng để tránh bị sandwich/front-run. 
+- **Slippage bound & revert guard**: đặt max slippage, deadline ngắn; revert nếu vượt ngưỡng. 
+- **CFMM math**: hiểu x*y=k và price impact để tính trước độ trượt; tránh giao dịch size quá lớn so với pool. 
+- **Oracle risk**: không tin giá on-chain tức thời nếu oracle chậm; dùng TWAP oracle, kiểm tra độ lệch. 
+- **Monitor mempool**: phát hiện pattern sandwich; cảnh báo khi gas spike bất thường. 
+- **Testing**: unit/integration cho smart contract bot; giả lập mainnet-fork với case slippage/oracle manipulation.

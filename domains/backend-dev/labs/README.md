@@ -2,31 +2,31 @@
 
 > [← Quay lại Backend Roadmap](../README.md)
 
-Bộ lab thực hành các chủ đề nền tảng về kiến trúc backend. Mỗi lab tập trung vào một kỹ thuật cốt lõi, kèm bài tập nhỏ để tự tay xây dựng và kiểm thử.
+Bộ lab thực hành kiến trúc backend, mỗi lab tập trung một kỹ thuật cốt lõi kèm bài tập tự xây và kiểm thử.
 
 ---
 
-## 🛡️ Lab 1: Golang tự viết Reverse Proxy & Load Balancer Layer 7
+## 🛡️ Lab 1: Go Reverse Proxy & Load Balancer L7
 
-Xây một API Gateway đơn giản bằng Go, phân tải round-robin tới nhiều service backend.
+API Gateway đơn giản bằng Go, phân tải round-robin tới nhiều backend.
 
-*   [Tự code load balancer HTTP bằng Go](./lab-go-api-gateway.md): Proxy round-robin tới 3 service Node.js, gắn `X-Request-ID` để trace request.
+*   [Load balancer HTTP bằng Go](./lab-go-api-gateway.md): Proxy round-robin 3 service Node.js, gắn `X-Request-ID` để trace.
 
 ---
 
 ## ⚡ Lab 2: Rust WebSockets Chat Server hiệu năng cao
 
-Xây chat server dùng WebSockets, tối ưu concurrency để vượt giới hạn C10K và tiết kiệm RAM.
+Chat server WebSockets, tối ưu concurrency, tiết kiệm RAM.
 
-*   [Chat server Rust với Tokio + Tungstenite](./lab-rust-websockets-chat.md): Xử lý hàng ngàn kết nối đồng thời, giữ mức RAM thấp.
+*   [Rust + Tokio + Tungstenite](./lab-rust-websockets-chat.md): Xử lý nhiều kết nối đồng thời, RAM thấp.
 
 ---
 
-## 🧱 Lab 3: TypeScript/NestJS với CQRS & Event Sourcing
+## 🧱 Lab 3: TypeScript/NestJS CQRS & Event Sourcing
 
-Tách read/write, dùng event bus để đẩy dữ liệu đọc sang store riêng, tránh contention trên DB ghi.
+Tách read/write, dùng event bus đẩy dữ liệu đọc sang store riêng, giảm contention DB ghi.
 
-*   [CQRS + Event Sourcing với NestJS](./lab-nestjs-cqrs-event-sourcing.md): Command ghi vào MySQL/Postgres, event phát qua RabbitMQ/Kafka, service đọc cập nhật view MongoDB.
+*   [CQRS + Event Sourcing với NestJS](./lab-nestjs-cqrs-event-sourcing.md): Command ghi MySQL/Postgres, event phát RabbitMQ/Kafka, service đọc cập nhật view MongoDB.
 
 ---
 > Chạy thử từng lab, theo dõi log và số liệu để hiểu tác động của kiến trúc tới hiệu năng và độ tin cậy.

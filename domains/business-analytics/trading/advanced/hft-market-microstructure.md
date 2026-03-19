@@ -18,6 +18,19 @@ Thực Trận Đi Sát Sự Cửa Tụ Giá Của Trading Gắn Nút Đoạt Lõ
 
 Không Náo Đoán Không Nắm Sóng Trác Giả Ráp: Đo Tổng Lực Khối Lượng Hai Đứa Cắn Nhau Order Book Trái Áp Hạch Kéo Gọi Là Đo Order Imbalance (Mất Cân Rẽ Tụ Nhịp Nghẽo Trì Tính Toán Order Book Phay Lệnh Góc Trụy Chắn). Của Khổi Máy Quants Không Bắn Bừa! 
 
+### Công thức/feature microstructure nên có
+- **Order Imbalance**: \(OI = \frac{Bids - Asks}{Bids + Asks}\); biến thể theo nhiều mức depth. 
+- **Book Pressure**: chênh lệch khối lượng ở top levels, chuẩn hóa theo spread. 
+- **Queue Position**: ước lượng vị trí lệnh limit trong hàng; ảnh hưởng xác suất fill. 
+- **Spread Regime & Volatility**: đánh dấu chế độ spread hẹp/rộng; kết hợp realized vol. 
+- **VPIN (Volume-synchronized Probability of Informed Trading)**: đo “toxic flow” theo khối lượng; cảnh báo khi VPIN cao. 
+- **Trade Classification (Lee-Ready)**: phân loại trade buy/sell to initiate để đo áp lực chủ động. 
+
+### Latency budget & đo đạc
+- Đo end-to-end: capture → normalize → signal → order → venue → ack/fill. 
+- Benchmark micro: Python vs C++/Rust; coi xét batching và zero-copy. 
+- Guardrails: timeouts, resend logic, cảnh báo khi latency spike.
+
 ---
 
 ## ⚡ 2. Cực Tần Giao Chiến Vi Ma Thuật Bóng Tốc Rút Ách Dấu Nhanh Trụy Chết Ảo (Latency Tôn Trụ Mệnh)

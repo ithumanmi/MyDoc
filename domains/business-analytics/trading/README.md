@@ -15,12 +15,57 @@ Nếu bạn chưa biết bắt đầu từ đâu, hãy đi theo Lộ Trình 5 Gi
 
 ---
 
+## 🧠 Lộ Trình Study Nhanh (7 Bước Thực Chiến)
+1) **Nền tảng & Kỷ luật rủi ro**: đọc [Quant Fundamentals](./fundamentals-of-quant-trading.md).  
+2) **Dữ liệu thị trường**: làm [Market Data Engineering](./market-data-engineering.md) + chọn 1 lab data (vectorized backtest hoặc pairs).  
+3) **Alpha cơ bản (Stat-Arb)**: xem [Alpha Research & Stat-Arb Checklist](./advanced/alpha-research-checklist.md) + code thử [Stat-Arb Cointegration Snippet](./advanced/stat-arb-cointegration-snippet.md).  
+4) **Khớp lệnh & chi phí**: học [Execution Algorithms](./execution-algorithms.md) → [Execution & TCA Playbook](./execution-tca-playbook.md); chạy lab [Execution/TCA Simulator](./labs/lab-execution-tca-simulator.md) hoặc [Notebook Template](./labs/lab-execution-tca-notebook-template.md).  
+5) **Risk & guardrails**: áp dụng [Risk & Portfolio Engineering](./risk-portfolio-engineering.md) và YAML [Guardrails](./advanced/guardrails-config-examples.md).  
+6) **Microstructure & venue**: đọc [Microstructure Feature Cookbook](./advanced/microstructure-feature-cookbook.md) và mini-case [Multi-Venue Router](./advanced/execution-router-multi-venue-case.md).  
+7) **Mở rộng nâng cao**: chọn nhánh [AI/ML trong trading](./advanced/ai-machine-learning-in-trading.md), [HFT microstructure](./advanced/hft-market-microstructure.md), hoặc [DeFi MEV](./advanced/defi-mev-flash-loans.md).
+
+Checklist tự học:
+- [ ] Hoàn thành đọc nền tảng + ghi chú risk (Kelly, DD caps).  
+- [ ] Kéo 1 lab backtest (vectorized hoặc pairs) chạy được với dữ liệu mẫu.  
+- [ ] Tính IS/VWAP/arrival cho 1 lệnh và so sánh TWAP/VWAP.  
+- [ ] Thiết lập guardrails tối thiểu (caps, kill-switch, drift).  
+- [ ] Triển khai 1 feature microstructure (OBI/OFI) và kiểm tra leak.  
+- [ ] Chọn 1 nhánh nâng cao và làm thêm 1 lab tương ứng.  
+
+### Gợi ý mốc thời gian (6 tuần)
+- Tuần 1: Quant Fundamentals, thiết lập môi trường, làm sạch 1 tập tick/ohlcv nhỏ.  
+- Tuần 2: Market Data Engineering + chạy lab vectorized backtest đơn giản.  
+- Tuần 3: Stat-arb cơ bản (cointegration), hoàn thành 1 backtest pairs.  
+- Tuần 4: Execution & TCA (TWAP/VWAP/POV/IS), tính IS/VWAP/arrival cho 1 trade.  
+- Tuần 5: Risk & Guardrails (caps, kill-switch, drift monitor) + áp dụng YAML mẫu.  
+- Tuần 6: Microstructure & router đa venue; chọn 1 nhánh nâng cao (AI/HFT/DeFi) và làm 1 lab.  
+
+### Starter kit (dataset & notebook)
+| Thành phần | Gợi ý | Link nội bộ |
+| --- | --- | --- |
+| Dataset OHLCV mẫu | 1-2 năm daily/5m một cặp cổ phiếu hoặc BTCUSDT | (tự bổ sung data vào `data/ohlcv_sample.csv`) |
+| Tick/L2 demo nhỏ | 1 ngày tick hoặc level-2 depth nhỏ để thử OBI/OFI/VPIN | (tự bổ sung data vào `data/tick_sample.csv`) |
+| Backtest vectorized | Notebook/lab vectorized backtest | [Lab Backtesting Vectorized](./labs/lab-python-vectorized-backtesting.md) |
+| Pairs & cointegration | Notebook/lab stat-arb | [Lab Pairs Trading](./labs/lab-statistical-arbitrage-pairs.md) + [Cointegration Snippet](./advanced/stat-arb-cointegration-snippet.md) |
+| Execution & TCA | Notebook mô phỏng TWAP/VWAP/POV/IS | [Notebook Template Execution & TCA](./labs/lab-execution-tca-notebook-template.md) |
+| Microstructure features | VPIN/OFI/OBI demo | [Microstructure Feature Cookbook](./advanced/microstructure-feature-cookbook.md) |
+| Guardrails YAML | Caps, kill-switch, drift monitor | [Guardrails Config Examples](./advanced/guardrails-config-examples.md) |
+
 ## 🧭 Cẩm Nang Lý Thuyết & Giao Khứa Định Mệnh Rủi Ro (The Core Rules)
 
 Chỗ mà Hội Đánh Bài (Retail Trader Liều Mạng) Và Dân Khoa Học Định Lượng Phân Cực Dữ Đoán Sống Chết Phá Sản Thành Công Lỗ Khống:
 1. **[Quy Luật Nghề Máu: Lõi Rủi Ro & Cơ Chế Định Lượng Phức Tồn (Quant Fundamentals)](./fundamentals-of-quant-trading.md)** (⭐ **Must Read**). Tại Sao 90% Móc Đáy Trading Rụng Gãy Thành Nước Thủng? Bạn Cần Phải Có Tiêu Chuẩn Phái Quỹ Rủi Ro Tàn Không Thể Rơi Nổi Sóng Xô: (Kelly Criterion Rót Tiền Vốn & Trát Lưới Tỷ Lệ Cọc Rút Đánh Sharpe Ratio Nồng Sát Phạt). 
 2. **[Luyện Kim Dữ Liệu: Chế Ngự Máu Sống Sàn Giao Dịch (Market Data Engineering)](./market-data-engineering.md)**. Rửa sạch rác Tick Data, chống lỗi Survivorship Bias nhìn trộm tương lai, và thấu thị sổ lệnh mù L2 (Order Book).
 3. **[Lưỡi Dao Khớp Lệnh Chém Sóng (Execution Algorithms)](./execution-algorithms.md)**. Đừng mua All-in để bị trượt giá cháy sàn. Kỹ thuật chẻ nhỏ lệnh tàng hình TWAP, VWAP, POV bám đuôi dấu chân mây cá mập.
+4. **[Kỹ Sư Risk & Portfolio: Sizing – Drawdown – Hedging](./risk-portfolio-engineering.md)**. Playbook risk thực chiến: sizing (Kelly/Half/Fractional), drawdown cap, vol targeting, risk parity, hedging, TCost.
+5. **[Execution & TCA Playbook: Impact, Slippage, Smart Routing](./execution-tca-playbook.md)**. Mô hình impact (Almgren-Chriss), chiến lược TWAP/VWAP/POV/IS, smart routing, TCA pre/in/post-trade.
+6. **[Options: Greeks & Hedging Playbook](./options-greeks-hedging.md)**. Delta/gamma/vega/theta, delta hedge loop, gamma scalping, vega hedge, checklist.
+7. **[Latency Stack: Python vs C++/Rust](./advanced/latency-stack-comparison.md)**. So sánh latency, khuyến nghị giảm trễ Python, khi nào cần C++/Rust.
+8. **[Alpha Research & Stat-Arb Checklist](./advanced/alpha-research-checklist.md)**. Checklist chống bias/overfit, validation, metrics, stat-arb specifics.
+9. **[Microstructure Feature Cookbook](./advanced/microstructure-feature-cookbook.md)**. OBI, OFI, VPIN, micro-price, resiliency, toxicity, venue signals, hygiene.
+10. **[Guardrails & Config Examples](./advanced/guardrails-config-examples.md)**. YAML mẫu risk caps, rate-limit, kill-switch, latency guard, monitoring.
+11. **[Stat-Arb: Cointegration & Hedge Ratio Snippet](./advanced/stat-arb-cointegration-snippet.md)**. OLS hedge ratio, Engle-Granger p-value, spread z-score, half-life, tín hiệu đơn giản.
+12. **[Mini-Case: Multi-Venue Execution Router](./advanced/execution-router-multi-venue-case.md)**. Kiến trúc router đa venue, scoring price/liquidity/toxicity/latency/fee, checklist triển khai.
 
 ---
 
@@ -39,6 +84,15 @@ Không Phán Sóng Biểu Đồ Mù, Gõ Bàn Phím Code Python Và Để Toán 
 
 ### 📰 Lab 4: Bơm Tiêm Tin Tức Xé Mạng (NLP Sentiment)
 *   **[Thẩm Thấu Cảm Xúc Đám Đông - Giao Dịch Bằng Ngôn Ngữ Tự Nhiên (Sentiment Analysis)](./labs/lab-nlp-sentiment-trading.md)**. Trích xuất Alternative Data. Chạy tin tức qua não bộ AI FinBERT (HuggingFace) để dịch tín hiệu Bullish/Bearish thay vì nhìn chỉ báo đồ thị.
+
+### 🧭 Lab 6: Event-Driven Backtester (Kiến trúc giống live)
+*   **[Xây Dựng Backtester Event-Driven Python](./labs/lab-event-driven-backtester.md)**. Hàng đợi sự kiện Market/Signal/Order/Fill, mô phỏng slippage/impact/fee/latency, kiểm soát look-ahead bias, đo PnL/DD/Sharpe/TCost.
+
+### 🧭 Lab 7: Execution Simulator & TCA
+*   **[Mô phỏng khớp lệnh & TCA](./labs/lab-execution-tca-simulator.md)**. So sánh TWAP/VWAP/POV/IS, impact/fee/slippage, guardrails, Implementation Shortfall/VWAP/arrival, markout.
+
+### 🧭 Lab 8: Notebook Template Execution & TCA
+*   **[Template Notebook: Execution & TCA Simulation](./labs/lab-execution-tca-notebook-template.md)**. Khung Jupyter mô phỏng TWAP/VWAP/POV/IS, impact/fee, tính IS/VWAP/arrival, checklist.
 
 ---
 
