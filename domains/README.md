@@ -23,6 +23,7 @@ Thư mục `domains/` tập hợp các lộ trình chuyên sâu theo từng lĩn
 
 | Domain | Mô tả ngắn | README | Knowledge Audit |
 | --- | --- | --- | --- |
+| 🌐 **Internet of Things (IoT)** | Embedded ↔ Cloud, MQTT, OTA, security, data pipeline. | [`Iot/README.md`](./Iot/README.md) | [IoT Knowledge Audit](../case-studies/knowledge-audits/iot-knowledge-audit.md) |
 | 🤖 **AI / Machine Learning** | Roadmap 9 bước từ fundamentals đến MLOps & Agents. | [`ai-ml/README.md`](./ai-ml/README.md) | [AI Knowledge Audit](../case-studies/knowledge-audits/ai-knowledge-audit.md) |
 | 🔧 **Backend Development** | Lộ trình backend từ CRUD đến System Design & DevOps. | [`backend-dev/README.md`](./backend-dev/README.md) | [Backend Audit](../case-studies/knowledge-audits/backend-knowledge-audit.md) |
 | 🏗️ **System Design** | Bộ sưu tập fundamentals + 13 bài deep-dive hệ thống kinh điển. | [`system-design/README.md`](./system-design/README.md) | — |

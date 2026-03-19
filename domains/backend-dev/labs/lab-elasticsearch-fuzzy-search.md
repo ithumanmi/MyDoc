@@ -1,18 +1,14 @@
-# Lab Nâng Cáo: Xây Cỗ Máy Tìm Kiếm Của Tiki/Shopee Dùng ElasticSearch (Fuzzy Match Lỗi Chính Tả)
+# Lab: Elasticsearch fuzzy search (sửa lỗi chính tả)
 
-> [← Back to Backend Labs](./README.md)
+> [← Quay lại Backend Labs](./README.md)
 
-Khi Bạn SQL Chọn `WHERE name LIKE '%iphone%'`:
-1. Quét Cả Table Hàng Triệu Dòng (O(N) Độ Chậm).
-2. Gõ Sai "iphnoe" Sẽ Ra Khung Trắng Xóa! 
-
-**ElasticSearch (Thư Viện Phân Tích Lucene Máy Java Mở Khung Search Inverted Lưới Từ Lóa Text Ngữ Cảnh)** Sẽ Cứu Việc Kinh Doanh Bán Hàng Ngàn Đơn Mặc Lỗi Gõ Máy Của Bạn Dùng Thuật Toán Khoảng Cách Băng Đảo (Fuzzy Levenshtein Distance).
+Mục tiêu: dùng Elasticsearch để tìm kiếm chịu lỗi chính tả (fuzzy) thay vì `LIKE` trong SQL.
 
 ---
 
-## 🛠️ Bước 1: Treo Docker Kiệu Đưa ElasticSearch Và View Dashboard (Kibana)
+## 🛠️ Bước 1: Dựng Elasticsearch + Kibana bằng Docker Compose
 
-Dựng Khung Máy Java: `docker-compose.yml`:
+`docker-compose.yml`:
 ```yaml
 version: '3'
 services:
@@ -30,14 +26,13 @@ services:
       - "5601:5601"
 ```
 
-Chạy Terminal: `docker-compose up -d`. Vào Trình Duyệt Go Tầng Kiểm Tra Máy Search Sống: `http://localhost:9200`.
+Chạy: `docker-compose up -d`. Kiểm tra: `http://localhost:9200`.
 
 ---
 
-## 🗃️ Bước 2: Nạp Gạo Bơm Hàng Triệu Record Bằng NodeJS (Phân Điểm Bảng `san_pham`)
+## 🗃️ Bước 2: Nạp dữ liệu mẫu bằng Node.js
 
-Cài SDK Tìm Kiếm: `npm install @elastic/elasticsearch`
-Bạn Viết NodeJS Mồi Thọc Lỗ Bắn Data Trắng Qua File Bulk Để Khung Elastic Tự Phân Ra Chém Text Lập Lỗ Cắt Index Matrix Nhanh:
+Cài SDK: `npm install @elastic/elasticsearch`
 
 ```javascript
 // dua_data_vao_elastic.js
@@ -45,21 +40,20 @@ const { Client } = require('@elastic/elasticsearch');
 const bomClient = new Client({ node: 'http://localhost:9200' });
 
 async function nopBieuKhungKhoDataDeMuc() {
-  // Khoi tao Dinh Dang Phieu Bieu Thuc Data (Index) Co Ten La 'san_pham'
   await bomClient.indices.create({
     index: 'san_pham',
     body: {
       mappings: {
         properties: {
           id: { type: 'keyword' },  
-          ten_mon: { type: 'text' }, // Loại Text Này Thần Kì Elastic Sẽ Máy Chém Analyzer Nát Ra Bã Tokens! 
+          ten_mon: { type: 'text' },
           gia: { type: 'integer' }
         }
       }
     }
   }, { ignore: [400] });
 
-  console.log("Nối Ống Index Vào Sợi Tích Lũy Thành Bảng Kho Rỗng 'san_pham' 🌪️");
+  console.log("Đã tạo index san_pham");
 
   // Dua Mau 1 Vach Data San Pham Cho Elastic No Chop!
   const KhoSotSanPhams = [
@@ -76,9 +70,8 @@ async function nopBieuKhungKhoDataDeMuc() {
      });
   }
 
-  // Lệnh Báo Cho Elastic "Sắp Xếp Dọn Index Lại Để Cứu Lưới Query Dịch Search Có Ngay" (Hoàn Tất Nạp)
   await bomClient.indices.refresh({ index: 'san_pham' });
-  console.log("Xong Kho Nạp Data Phẳng Vào Nút Lưới Text Analyzer Của Elastic! 🍔");
+  console.log("Đã nạp dữ liệu mẫu");
 }
 
 nopBieuKhungKhoDataDeMuc();
@@ -86,9 +79,9 @@ nopBieuKhungKhoDataDeMuc();
 
 ---
 
-## 🔎 Bước 3: Tìm Kiếm Lỗi Chính Tả Chệch Cỡ (Fuzzy Trả O(1) Match Score Lucene)
+## 🔎 Bước 3: Tìm kiếm fuzzy
 
-Bây Giờ Khách Mù Mắt Gõ: `iphnoe mak` Trên Ô Search. Máy Vẫn Trả Đơn!
+Ví dụ tìm với chuỗi sai chính tả `iphnoe mak`:
 
 ```javascript
 // tim_loi_chinh_ta.js
@@ -110,22 +103,19 @@ async function bo_may_chua_te_search_lan_text() {
             
             // 🔥 Bí Kíp Của Mọi Sàn TMĐT: Khung Khoảng Cách Chấp Nhận Sai Levenshtein!
             fuzziness: 'AUTO', 
-            // Nếu AUTO: Cho phép sai 1 ký tự với từ 3-5 chữ. Sai 2 ký tự với từ rách >5.
-            
-            operator: 'and' // Bat Ep Mọi Từ Trong Chuỗi Trả Kiểu Tích Trùng Lợp Điểm Ranking Match (Relevance Score)
+            operator: 'and'
           }
         }
       }
     }
   });
 
-  console.log("======= 🍔 TRẬN LƯỚT SCORE DI LUOC KET QUA =======");
-  LướiKetQua.hits.hits.forEach((caiTrúng, thuHienIndex) => {
-      console.log(`[Top ${thuHienIndex + 1}] Độ Nét Điểm Score Phù Hợp: ${caiTrúng._score}`);
-      console.log(`-> Món Thật Là: ${caiTrúng._source.ten_mon}`);
+  console.log("======= Kết quả =======");
+  LướiKetQua.hits.hits.forEach((hit, idx) => {
+      console.log(`[Top ${idx + 1}] score: ${hit._score}`);
+      console.log(`-> Sản phẩm: ${hit._source.ten_mon}`);
   });
 }
 bo_may_chua_te_search_lan_text();
 ```
-
-**Thử Run File Bóp Kết Quả.** SQL MySQL Câm Nín Quỳ Cột Nhưng Inverted Text Của Trưởng Giáo Search Elastic (Analyzer Lọc Phá Array Tokens Nghịch Đảo Mảng Vector) Trả Kết Quả Cột iPhone Sau Đuôi 10ms! Hiệu Năng Phân Kiệt Máy Bắn Giao Thoa Rời SQL Ràng Chặt Lỗ Phơi!! Hốt Trọn Scale Mạch TMĐT!💯
+Chạy thử 2 script để nạp và tìm kiếm. Elasticsearch dùng inverted index và fuzzy (Levenshtein) nên vẫn trả về kết quả phù hợp dù gõ sai chính tả.

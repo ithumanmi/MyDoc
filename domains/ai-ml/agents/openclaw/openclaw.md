@@ -1,17 +1,18 @@
 ---
 title: "OpenClaw – Agent Orchestrator"
-description: "Tổng quan, kiến trúc và thực hành nhanh với OpenClaw (agent orchestrator: planning, tool routing, safety guard)."
+description: "OpenClaw là orchestrator nhẹ tập trung planning, tool routing, safety/observability; sinh ra để kiểm soát multi-tool agent an toàn, đo được, tái lập được."
 tags: [agents, orchestration, openclaw, planning]
 updated: 2026-03-18
 ---
 
 # 🦾 OpenClaw – Agent Orchestrator
 
-> OpenClaw là một orchestrator tập trung vào **planning**, **tool routing** và **safety guard**. Bài này tóm tắt thành phần, use case, cách khởi động nhanh và checklist vận hành.
+> **Bản chất:** OpenClaw là một orchestrator tối giản cho **multi-step, multi-tool agents** với ưu tiên **an toàn** và **quan sát được** (observability). Nó được sinh ra để giải quyết bài toán: "Làm sao cho agent dùng nhiều tool mà vẫn kiểm soát được policy, chi phí, và có log/trace chuẩn để debug/replay?"
 
 ## TL;DR
 - Thiết kế kiểu **graph/state machine**: task → planner → router → worker tools (LLM, retriever, API, code exec).
 - **Safety-first**: policy check, budget guard (token/time), sandbox cho tool nguy hiểm.
+- **Observability-first**: log/trace chuẩn (OTel) ở mọi bước (plan/route/tool_call).
 - Phù hợp cho **multi-tool** / **multi-step** workflow (data agent, research agent, code-assist có kiểm soát).
 
 ## Kiến trúc lõi
@@ -31,9 +32,14 @@ User Task → Planner → Router ─┬─ Tool A (Search/RAG)
            ↑ memory (scratchpad/vector)   ↑ safety/telemetry
 ```
 
+## OpenClaw sinh ra để giải quyết gì?
+- **Kiểm soát safety/budget** trong quy trình nhiều tool: sandbox, allowlist, hạn mức token/time/tool_calls.
+- **Minh bạch & tái lập**: log/trace chuẩn (OTel) để replay, audit, và A/B với baseline.
+- **Giảm phụ thuộc** vào framework nặng: dùng được khi bạn cần orchestrator nhẹ, linh hoạt router/policy, không khoá vào ecosystem lớn.
+
 ## Khi nào chọn OpenClaw?
 - Cần **kiểm soát an toàn**: sandbox code/browser, hạn mức tool call, policy trước/sau tool.
-- Bài toán **multi-step, multi-tool** nhưng không muốn phụ thuộc nặng vào framework lớn (LangChain/LangGraph).
+- Bài toán **multi-step, multi-tool** nhưng muốn giữ lightweight, dễ nhúng vào hạ tầng sẵn có.
 - Muốn **log & trace chuẩn** (OTel), dễ gắn vào pipeline CI/CD hoặc data platform.
 
 So sánh nhanh:
@@ -70,6 +76,12 @@ print(run("Tạo báo cáo xu hướng LLM 2026, trích dẫn nguồn và tính 
 ```
 
 > Gợi ý: bọc `run` bằng trace decorator (OTel), lưu event vào lake/warehouse để đánh giá agent.
+
+## Ứng dụng mở rộng
+- **Data/Research Agent an toàn**: tìm kiếm, trích xuất, tổng hợp, kèm citations và guard PII.
+- **Code/DevOps Agent sandboxed**: đọc repo, đề xuất patch, chạy test trong sandbox (no outbound net), log diff + metrics.
+- **Ops/Support Agent**: gọi API nội bộ, ghi log, tuân thủ policy, cảnh báo khi vượt budget.
+- **Crew orchestration**: Lead + Researcher + Coder + Reviewer; OpenClaw làm lớp router/policy/log.
 
 ## Checklist triển khai
 - [ ] Định nghĩa policy: content allow/deny, tool allowlist, sandbox resource limit.

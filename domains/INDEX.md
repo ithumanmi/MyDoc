@@ -1,5 +1,6 @@
 | Domain | Mô tả 1 dòng | README | Knowledge Audit |
 | --- | --- | --- | --- |
+| Internet of Things (IoT) | Embedded ↔ Cloud, MQTT, OTA, security, data pipeline. | [Iot/README.md](./Iot/README.md) | [iot-knowledge-audit.md](../case-studies/knowledge-audits/iot-knowledge-audit.md) |
 | AI / Machine Learning | Roadmap 9 bước từ fundamentals đến MLOps & Agents. | [ai-ml/README.md](./ai-ml/README.md) | [ai-knowledge-audit.md](../case-studies/knowledge-audits/ai-knowledge-audit.md) |
 | Backend Development | Backend từ CRUD đến System Design & DevOps. | [backend-dev/README.md](./backend-dev/README.md) | [backend-knowledge-audit.md](../case-studies/knowledge-audits/backend-knowledge-audit.md) |
 | Blockchain | Nền tảng, smart contract, DeFi, security. | [blockchain/README.md](./blockchain/README.md) | [blockchain-knowledge-audit.md](../case-studies/knowledge-audits/blockchain-knowledge-audit.md) |
