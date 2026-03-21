@@ -51,6 +51,25 @@ Checklist tự học:
 | Microstructure features | VPIN/OFI/OBI demo | [Microstructure Feature Cookbook](./advanced/microstructure-feature-cookbook.md) |
 | Guardrails YAML | Caps, kill-switch, drift monitor | [Guardrails Config Examples](./advanced/guardrails-config-examples.md) |
 
+> File data mẫu (tự đặt vào repo): 
+> - OHLCV: `./data/ohlcv_sample.csv` (ví dụ BTCUSDT 5m, 1-2 năm).  
+> - Tick/L2: `./data/tick_sample.csv` (1 ngày tick hoặc depth gọn).  
+> Nếu bạn cung cấp file thật, cập nhật link nội bộ tới đường dẫn đó để tiện mở từ README.
+
+### Hướng dẫn setup nhanh (venv + notebook)
+```bash
+# 1) Tạo và kích hoạt venv (Python 3.10+)
+python -m venv .venv
+./.venv/Scripts/activate  # Windows PowerShell: .venv\\Scripts\\Activate.ps1
+
+# 2) Cài gói tối thiểu cho labs/notebook
+pip install -U pandas numpy matplotlib seaborn jupyter statsmodels vectorbt
+
+# 3) Chạy notebook
+jupyter notebook  # hoặc: jupyter lab
+```
+Gợi ý: tạo file `.env` hoặc config riêng cho đường dẫn data, tránh commit dữ liệu lớn.
+
 ## 🧭 Cẩm Nang Lý Thuyết & Giao Khứa Định Mệnh Rủi Ro (The Core Rules)
 
 Chỗ mà Hội Đánh Bài (Retail Trader Liều Mạng) Và Dân Khoa Học Định Lượng Phân Cực Dữ Đoán Sống Chết Phá Sản Thành Công Lỗ Khống:
