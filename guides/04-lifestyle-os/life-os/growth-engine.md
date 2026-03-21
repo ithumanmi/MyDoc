@@ -2,40 +2,49 @@
 
 > **"Tăng trưởng không phải là cố gắng nhiều hơn, mà là tích lũy thông minh hơn."**
 
-## Core Mental Models
+## 🎯 Mission & Outcomes
+- **Mục tiêu:** Thiết kế flywheel giúp giá trị tăng theo hàm mũ, mỗi vòng quay nhanh hơn vòng trước.
+- **Output:** Growth Flywheel Map, Experiment Backlog, KPI Tree, Learning Review log.
+- **Success Metrics:**
+  - North Star Metric tăng đều ≥ 10%/quý.
+  - ≥ 3 thí nghiệm growth chạy mỗi tháng, tỷ lệ học được insight > 70%.
+  - Viral coefficient (hoặc Referral %) cải thiện dần.
 
-### 1. Compound Interest (Lãi suất kép)
-*   **Tư duy:** Sự nhất quán (Consistency) quan trọng hơn cường độ (Intensity).
-*   **Hành động:** Tìm kiếm những việc có tính tích lũy (Kiến thức, Brand, Tài sản). Tránh những việc làm xong là mất (Bán thời gian lấy tiền).
+## 🧠 Mental Model Stack
+1. **Compound Interest:** Consistency > intensity. Ưu tiên hoạt động có tính tích lũy (knowledge, brand, assets).
+2. **Positive Feedback Loops:** Output vòng này là input vòng sau (Flywheel mindset).
+3. **Network Effects:** Giá trị ~ n², tối ưu tương tác giữa user.
+4. **AARRR Funnel / Growth Loops:** Acquisition, Activation, Retention, Revenue, Referral.
+5. **Viral Coefficient (K-factor):** Một user mang về bao nhiêu user mới.
+6. **Leverage Slots:** Code, Media, Capital, People để scale mà không tăng tuyến tính công sức.
 
-### 2. Positive Feedback Loops (Vòng lặp dương)
-*   **Tư duy:** Đầu ra của chu kỳ này phải là đầu vào của chu kỳ sau.
-*   **Hành động:**
-    *   Viết blog -> Có độc giả -> Có quan hệ -> Có kiến thức mới -> Viết blog hay hơn.
-    *   Kiếm tiền -> Đầu tư -> Có thêm tiền -> Đầu tư nhiều hơn.
+## 🔍 Diagnostic Questions
+1. Flywheel hiện tại có friction ở bước nào? (Acquire, Activate, Retain...)
+2. Thí nghiệm mới có tạo ra tài sản dài hạn hay chỉ tactical?
+3. Nếu số user tăng 10× ngày mai, hệ thống chịu nổi không?
+4. Tôi đang dùng đòn bẩy nào (Media, Automation) hay vẫn đổi thời gian lấy tiền?
 
-### 3. Network Effects (Hiệu ứng mạng lưới)
-*   **Tư duy:** Giá trị tăng theo bình phương số lượng kết nối ($n^2$).
-*   **Hành động:** Tham gia hoặc xây dựng các nền tảng/cộng đồng nơi người dùng tương tác với nhau.
+## 🛠️ Execution Playbook
+1. **Map Flywheel:** Xác định 3-4 bước lặp chính (vd: Content → Audience → Leads → Product → Content tốt hơn).
+2. **Diagnose Friction:** Dùng KPI tree/AARRR để tìm khâu rò rỉ.
+3. **Design Experiments:** Ưu tiên bằng ICE score, chạy vòng Build-Measure-Learn.
+4. **Scale via Leverage:** Khi loop ổn, tự động hóa bằng media, code, partnerships.
+5. **Learning Review:** Mỗi tháng tổng hợp insight, cập nhật playbook.
 
-### 4. Viral Coefficient (Hệ số K)
-*   **Tư duy:** Một người dùng mang về bao nhiêu người dùng mới?
-*   **Hành động:** Thiết kế sản phẩm/nội dung sao cho người ta *muốn* chia sẻ nó.
+## 📈 Metrics & Rituals
+- **North Star Metric:** Ví dụ: Active readers, MRR, Qualified leads.
+- **Leading Metrics:** Activation rate, Retention % (D7/D30), Referral %.
+- **Experiment Cadence:** Weekly growth standup, Monthly retrospective.
 
----
+## 📦 Example Flywheel
+**Học kỹ năng sâu → Chia sẻ insight (Media) → Thu hút Network/Cơ hội → Tăng thu nhập/Capital → Mua thời gian học sâu hơn.**
+Viết blog hàng tuần, mở cohort, tái đầu tư vào sản phẩm chất lượng hơn → vòng sau mạnh hơn vòng trước.
 
-## 🛠️ Quy trình Tăng trưởng (Checklist)
+## 🔗 Related Engines
+- **Leverage Theory:** Compound nhanh khi bật đòn bẩy Code/Media/Capital/People → [Leverage Theory](./leverage-theory.md).
+- **Optimization Engine:** Trước khi scale lớn, tối ưu unit economics & ops → [Optimization Engine](./optimization-engine.md).
 
-1.  **Flywheel Check:** Việc tôi đang làm có tạo đà cho ngày mai không? Hay ngày mai tôi phải bắt đầu lại từ số 0?
-2.  **Scalability Check:** Nếu có 1000 khách hàng (thay vì 10), hệ thống có vỡ không? Hay nó càng mạnh hơn?
-3.  **Logarithmic vs Linear:** Tôi đang tăng trưởng theo hàm mũ (Log/Exp) hay hàm tuyến tính (Linear)? (Làm thuê theo giờ là tuyến tính).
-
-### 📦 Ví dụ Personal Flywheel (Hiệu ứng bánh đà cá nhân)
-- Vòng lặp chuẩn: **Học kỹ năng sâu → Chia sẻ ra Insight (Media) → Thu hút Network/Cơ hội (Audience) → Tăng thu nhập (Capital) → Lấy thời gian rảnh học kỹ năng sâu hơn (Re-invest).**
-- Bằng cách này, mỗi vòng lặp giúp bạn đi nhanh hơn vòng trước. Viết blog mỗi tuần, xây cộng đồng, mở coaching/cohort, reinvest vào sản phẩm nội dung chất lượng hơn → hệ thống tự động compound.
-
----
-
-### 🔗 Related Engines
-- **Leverage Theory:** Muốn compound nhanh phải bật các dòng đòn bẩy (Code/Media/Capital/People) để tách thời gian khỏi hiệu quả → [Leverage Theory](./leverage-theory.md#⚙️-4-dòng-đòn-bẩy).
-- **Optimization Engine:** Dừng lại tối ưu feed/ops trước khi scale để flywheel không nổ → [Optimization Engine](./optimization-engine.md#🛠️-quy-trình-tối-ưu).
+## 📝 Templates & Tools
+- [Growth Flywheel Map](../../templates/productivity/growth-flywheel.md)
+- [Experiment Backlog](../../templates/productivity/growth-experiments.md)
+- [AARRR Dashboard](../../templates/productivity/aarr-dashboard.md)

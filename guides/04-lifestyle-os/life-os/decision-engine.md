@@ -2,62 +2,76 @@
 
 > **"Cuộc đời là tổng hợp của các quyết định bạn đưa ra."**
 
-## Core Mental Models
+## 🎯 Mission & Outcomes
+- **Mục tiêu:** Tạo hệ thống ra quyết định có thể tái sử dụng, giảm cảm tính, tăng độ chính xác.
+- **Output chính:** Decision Memo, EV Dashboard, Checklist OODA, Lessons Learned Log.
+- **Success Metrics:**
+  - % quyết định đạt mục tiêu kỳ vọng (hit rate) ≥ 60%.
+  - Thời gian ra quyết định cho case lớn < 14 ngày.
+  - Feedback loop được cập nhật ít nhất 1 lần/tháng.
 
-### 1. Expected Value (Giá trị Kỳ vọng)
-*   **Công thức:** $EV = (P_{win} \times V_{win}) - (P_{lose} \times V_{lose})$
-*   **Tư duy:** Đừng đánh giá quyết định dựa trên kết quả (Outcome Bias). Hãy đánh giá dựa trên EV. Nếu EV dương và rủi ro phá sản thấp -> Làm tới.
+## 🧠 Mental Model Stack
+1. **Expected Value (Giá trị Kỳ vọng)**
+   - Công thức: $EV = (P_{win} \times V_{win}) - (P_{lose} \times V_{lose})$.
+   - Đừng đánh giá dựa trên outcome đơn lẻ (Outcome Bias). Tập trung vào EV dài hạn.
+2. **Bayesian Updating (Cập nhật Bayes)**
+   - Không có gì 100% chắc chắn. Mọi niềm tin đều là xác suất.
+   - Khi có dữ liệu mới, cập nhật Prior → Posterior thay vì bảo vệ Ego.
+3. **Kelly Criterion (Quản lý vốn)**
+   - Ngay cả cơ hội tốt cũng không được all-in. Kelly sizing giúp tối ưu hóa tăng trưởng log-utility.
+4. **Opportunity Cost (Chi phí cơ hội)**
+   - Mỗi lựa chọn đều loại trừ lựa chọn khác. Luôn hỏi “Nếu làm việc này, tôi bỏ lỡ điều gì?”
+5. **Sunk Cost Fallacy (Chi phí chìm)**
+   - Những gì đã mất không nên ảnh hưởng tới quyết định tương lai.
+   - Audit câu hỏi: “Nếu bắt đầu lại, tôi có chọn dự án này không?”
+6. **Optionality (Tính tùy chọn)**
+   - Ưu tiên quyết định có capped downside nhưng mở thêm lựa chọn tương lai.
+7. **Second-order Effects (Hệ quả bậc 2)**
+   - Đánh giá chuỗi phản ứng sau quyết định. Dùng systems thinking để map hiệu ứng dây chuyền.
 
-### 2. Bayesian Updating (Cập nhật Bayes)
-*   **Tư duy:** Không có gì là chắc chắn 100%. Mọi thứ chỉ là xác suất.
-*   **Hành động:** Khi có thông tin mới, hãy cập nhật niềm tin cũ. Đừng cố chấp bảo vệ ý kiến (Ego). "Tôi có thể sai, và đây là xác suất tôi sai."
+## 🔍 Diagnostic Questions
+1. **Thông tin:** Tôi đang ra quyết định dựa trên dữ liệu hay cảm xúc? Evidence nào thiếu?
+2. **EV:** EV đã dương chưa? Downsides có thể giết tôi không?
+3. **Optionality:** Quyết định này mở thêm bao nhiêu lựa chọn trong tương lai?
+4. **Opportunity Cost:** Nếu nói “Có” với lựa chọn này, tôi nói “Không” với điều gì quan trọng hơn?
+5. **Sunk Cost:** Tôi có giữ dự án chỉ vì đã đầu tư quá nhiều thời gian/tiền?
+6. **Feedback:** Tôi đo lường hiệu quả quyết định cũ ra sao? Có học được gì?
 
-### 3. Kelly Criterion (Quản lý vốn)
-*   **Tư duy:** Ngay cả khi cơ hội ngon ăn nhất, không bao giờ được All-in.
-*   **Hành động:** Luôn giữ lại một phần vốn (tiền, sức khỏe, uy tín) để làm lại nếu thất bại.
+## 🛠️ Execution Playbook (OODA + EV loop)
+1. **Observe:** Thu thập dữ liệu, quan sát tín hiệu, định nghĩa vấn đề. Tạo `Assumption log`.
+2. **Orient:** Áp dụng EV, Bayes, Opportunity cost để mô hình hóa. Chạy mô phỏng (Monte Carlo khi cần).
+3. **Decide:** Chọn phương án có EV dương, trừ Ruin scenario. Ghi rõ “Why now? Why this?”
+4. **Act:** Commit, triển khai plan. Thiết lập trigger cho Plan B.
+5. **Review:** Sau khi outcome rõ, ghi lại lesson vào Decision Journal.
 
-### 4. Opportunity Cost (Chi phí cơ hội)
-*   **Tư duy:** Mọi sự lựa chọn đều có giá. Giá của A là việc không được chọn B.
-*   **Hành động:** "Nếu tôi làm việc này, tôi sẽ KHÔNG làm được việc gì khác?"
+## 📈 Metrics & Rituals
+- **Decision Scorecard:** Liệt kê 5-10 quyết định lớn/ quý, đánh giá EV kỳ vọng vs kết quả.
+- **Cadence:** Weekly micro-decisions review, Monthly strategic decisions sync, Quarterly Deep Review.
+- **Leading indicators:** % giả định có dữ liệu, thời gian thu thập dữ liệu, số lượng pre-mortem hoàn thành.
 
-### 5. Sunk Cost Fallacy (Chi phí chìm)
-*   **Tư duy:** Những gì đã mất (thời gian, tiền bạc, công sức) không thể lấy lại được và KHÔNG ĐƯỢC tính vào quyết định cho tương lai.
-*   **Hành động:** "Nếu hôm nay tôi mới bắt đầu dự án này (với thông tin hiện tại), tôi có làm nó không?" Nếu câu trả lời là Không, thì hãy từ bỏ dù đã mất bao nhiêu năm.
-
-### 6. Optionality (Tính tùy chọn)
-*   **Tư duy:** Tương lai không thể đoán trước. Đừng đóng khung mình vào một kịch bản duy nhất.
-*   **Hành động:** Ưu tiên những quyết định có chi phí rủi ro thấp (capped downside) nhưng mở ra nhiều "quyền lựa chọn" mới trong tương lai. Ví dụ: Học tiếng Anh, viết blog, đi sự kiện networking.
-
-### 7. Second-order Effects (Hệ quả bậc 2)
-*   **Tư duy:** Quyết định tốt không chỉ xét kết quả trực tiếp mà còn chuỗi phản ứng phía sau (Systems Thinking).
-*   **Ví dụ:** Nhận freelance thêm giờ = tiền tăng (bậc 1) nhưng ngủ ít → hiệu suất ngày mai giảm, mất cơ hội thăng tiến (bậc 2). Luôn hỏi “Điều này kéo theo phản ứng dây chuyền nào?”
-*   **Đọc thêm:** [Systems Thinking](../01-mental-models/systems-thinking.md) *(cập nhật link chính xác nếu khác).* 
-
----
-
-## 🛠️ Quy trình Ra quyết định (Checklist)
-
-Trước mỗi quyết định lớn (Đổi việc, Đầu tư, Mua nhà):
-
-1.  **Tính EV & Chạy Monte Carlo:** Không chỉ có 1 kết quả. Kịch bản tốt nhất là gì? Kịch bản tệ nhất là gì? Kịch bản bình thường nhất là gì? Xác suất mỗi cái?
-2.  **Check Ruin:** Nếu kịch bản tệ nhất xảy ra, tôi có "chết" (phá sản, mất danh dự vĩnh viễn) không? Nếu có -> Bỏ qua ngay lập tức.
-3.  **Check Opportunity & Sunk Cost:** Tôi có đang bỏ lỡ cơ hội nào tốt hơn không? Tôi có tiếp tục dự án này chỉ vì tiếc công sức cũ?
-4.  **Pre-mortem:** Tưởng tượng 1 năm sau dự án này thất bại thảm hại. Lý do là gì? (Tìm ra điểm mù).
+## 🧪 Examples & Templates
 
 ### ⚙️ Ví dụ nhanh: EV + Pre-mortem
 
 | Quyết định | Các kịch bản (xác suất) | EV ước tính | Pre-mortem – Điều gì khiến thất bại? |
 | --- | --- | --- | --- |
-| **Đổi việc sang Big Tech** | `P_offer 60% × (Lương +30% + RSU 50k)` vs `P_fail 40% × (mất 2 tháng không lương)` | `EV ≈ 0.6 × 50k - 0.4 × 10k = +26k` (chấp nhận vì không phá sản) | Không luyện DSA hằng ngày, không network nội bộ, bị đóng băng headcount → Giải pháp: Study plan 30-60-90 + sponsor nội bộ. |
-| **Đầu tư dự án fintech Series A** | `Upside 25% × (10× vốn)` vs `Downside 75% × (mất 50% vốn)` | `EV ≈ 0.25 × 10 - 0.75 × 0.5 = +1.75×` nhưng Kelly chỉ cho phép 15-20% vốn | Founder bỏ cuộc, regulatory ban, không tìm được PMF → Thiết lập pre-mortem: yêu cầu runway ≥18 tháng, clause thoát vốn, theo sát product metric. |
+| **Đổi việc sang Big Tech** | `P_offer 60% × (Lương +30% + RSU 50k)` vs `P_fail 40% × (mất 2 tháng không lương)` | `EV ≈ 0.6 × 50k - 0.4 × 10k = +26k` (chấp nhận vì không phá sản) | Không luyện DSA hằng ngày, không network nội bộ, bị đóng băng headcount → Study plan 30-60-90 + sponsor nội bộ. |
+| **Đầu tư dự án fintech Series A** | `Upside 25% × (10× vốn)` vs `Downside 75% × (mất 50% vốn)` | `EV ≈ 0.25 × 10 - 0.75 × 0.5 = +1.75×` nhưng Kelly chỉ cho phép 15-20% vốn | Founder bỏ cuộc, regulatory ban, không tìm được PMF → Yêu cầu runway ≥18 tháng, clause thoát vốn, theo sát product metric. |
 
-> **Cách dùng:** Đặt các giả định vào bảng, tính EV sơ bộ, rồi viết 3-5 tình huống dẫn tới thất bại để tạo hành động phòng ngừa (timeline, người chịu trách nhiệm, tín hiệu cảnh báo).
+> **Cách dùng:** Đặt giả định vào bảng, tính EV sơ bộ, viết 3-5 tình huống dẫn tới thất bại để tạo hành động phòng ngừa (timeline, owner, trigger).
+
+### 📝 Templates & Tools
+- [Decision Journal Template](../../templates/decision-journal.md)
+- [Risk Radar Template](../../templates/productivity/risk-radar.md) – dùng để check ruin trước khi commit.
+- [Pre-mortem Worksheet](../../templates/productivity/project-pre-mortem.md)
+
+## 🔗 Related Engines
+- **Risk Engine:** Dùng checklist `SPOF / Margin of Safety` trước khi all-in EV cao → [Risk Engine](./risk-engine.md#🛠️-quy-trình-quản-trị-rủi-ro-checklist).
+- **Alignment Engine:** Khi phân vân giữa 2 offer gần nhau về EV, dùng `vector dài hạn + regret minimization` để chọn hướng → [Alignment Engine](./alignment-engine.md#🧭-framework-vector-pca).
 
 ---
 
-### 🔗 Related Engines
-- **Risk Engine:** Dùng checklist `SPOF / Margin of Safety` để đo xác suất "chết" trước khi all-in EV cao → [Risk Engine](./risk-engine.md#🛠️-quy-trình-quản-trị-rủi-ro-checklist).
-- **Alignment Engine:** Khi phân vân giữa 2 offer gần nhau về EV, dùng kỹ thuật `vector dài hạn + regret minimization` để xem quyết định nào giữ bạn trên hướng đi đã chọn → [Alignment Engine](./alignment-engine.md#🧭-framework-vector-pca).
-
-### 📝 Templates & Tools
-- **Decision Log:** Lưu lại giả định, EV, pre-mortem để học từ feedback loop → [Decision Journal Template](../../templates/decision-journal.md)
+## 📚 Further Reading
+- [Systems Thinking](../01-mental-models/systems-thinking.md)
+- [Probability & Bayes](../01-mental-models/probability-calculus.md)
+- [Mental Models – Decision Making](../01-mental-models/README.md)

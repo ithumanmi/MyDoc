@@ -70,6 +70,11 @@ updated: 2026-03-16
 | **Fundamentals** |
 | [fundamentals/unity-fundamentals.md](./fundamentals/unity-fundamentals.md) | Editor setup, lifecycle, build checklist | Onboard member mới hoặc reset kiến thức |
 | [fundamentals/csharp-for-unity.md](./fundamentals/csharp-for-unity.md) | C# essentials, patterns, testing mindset | Người học chuyển ngành hoặc cần ôn nhanh |
+| [fundamentals/advanced-game-math.md](./fundamentals/advanced-game-math.md) | Vector/Trig/Quaternion toolkit | Củng cố toán cho gameplay, physics, shader |
+> **Đường dẫn tuyệt đối (Windows):**
+> - `C:\Projects\Docs\domains\game-dev\fundamentals\unity-fundamentals.md`
+> - `C:\Projects\Docs\domains\game-dev\fundamentals\csharp-for-unity.md`
+> - `C:\Projects\Docs\domains\game-dev\fundamentals\advanced-game-math.md`
 | **Game Design** |
 | [game-design/README.md](./game-design/README.md) | Core loop, economy, narrative, telemetry | Đồng bộ designer ↔ gameplay engineer |
 | [game-design/player-psychology.md](./game-design/player-psychology.md) | Flow, SDT, emotional mapping | Map feature → nhu cầu cảm xúc |
