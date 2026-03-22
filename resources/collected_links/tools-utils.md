@@ -35,3 +35,10 @@ Các công cụ tiện ích, phần mềm mã nguồn mở và các nền tảng
 *   [Thế Giới Tài Khoản AI Giá Rẻ](https://www.thegioitaikhoanaigiare.io.vn/) - Marketplace cung cấp tài khoản AI/Cloud giá rẻ tại Việt Nam.
 *   [DauThau.asia](https://dauthau.asia/) - Nền tảng thông tin đấu thầu, hữu ích cho việc săn dự án và cơ hội kinh doanh.
 *   [Internal Register Portal](http://localhost:3000/register) - Link nội bộ (chạy local) dành cho testing/đăng ký thử nghiệm.
+*   [Turing](https://www.turing.com/) - Nền tảng tuyển dụng remote dành cho developer toàn cầu.
+*   [Toptal](https://www.toptal.com/) - Mạng lưới freelancer elite (dev, designer, PM) với quy trình tuyển chọn khắt khe.
+*   [Vast.ai Templates](https://cloud.vast.ai/templates/) - Marketplace template GPU/AI sẵn cấu hình, tiện deploy nhanh.
+*   [Kilo CLI](https://kilo.ai/cli) - CLI để khám phá và thử nghiệm các model AI qua hạ tầng Kilo.
+*   [DigiNext](https://github.com/digitopvn/diginext) - (Cần kiểm tra chi tiết) Dự án DigiTopVN chia sẻ stack/demos về AI & Digital transformation.
+*   [GStack](https://github.com/garrytan/gstack) - (Cần kiểm tra) Bộ stack và ghi chú do Garry Tan tổng hợp cho founder/dev.
+*   [Lightpanda Browser](https://github.com/lightpanda-io/browser) - Trình duyệt thử nghiệm tích hợp AI agent, ưu tiên privacy (cần kiểm chứng thêm).

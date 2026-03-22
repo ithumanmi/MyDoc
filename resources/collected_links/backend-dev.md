@@ -37,3 +37,4 @@ Danh sách các framework, thư viện và công cụ quan trọng cho phát tri
 *   [Microservices Patterns](https://github.com/microservices-patterns/microservices-patterns) - Các mẫu thiết kế cho hệ thống Microservices.
 *   [System Design Primer](https://github.com/donnemartin/system-design-primer) - Tài liệu học thiết kế hệ thống quy mô lớn (Must-read).
 *   [Awesome System Design Resources](https://github.com/ashishps1/awesome-system-design-resources) - Tổng hợp tài nguyên học System Design chuyên sâu.
+*   [System Design](https://github.com/karanpratapsingh/system-design) - Kho bài học System Design theo format video + note chi tiết.

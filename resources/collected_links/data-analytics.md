@@ -7,6 +7,7 @@ Nguồn tài liệu, công cụ và dataset giúp học và triển khai Data An
 - [Serious SQL – Data with Danny](https://www.datawithdanny.com/serious-sql) – Khoá SQL chuyên sâu kèm case study.
 - [Storytelling with Data Blog](https://www.storytellingwithdata.com/blog) – Kỹ năng kể chuyện bằng dữ liệu.
 - [KellyJAdams Data Analytics Resources](https://github.com/kellyjadams/data-analytics-resources) – Danh mục curated tool + bài học.
+- [Docs Google Sheet: Global AI/Finance Resources](https://docs.google.com/spreadsheets/d/1mIdJDcRmAHZXnEpa0UawiyLAamA6DkwB/edit?gid=1165225386#gid=1165225386) – Bảng tổng hợp dataset/tài nguyên hữu ích cho phân tích dữ liệu và đầu tư.
 
 ## 🗃️ Datasets & Case Studies
 - [Kaggle Datasets](https://www.kaggle.com/datasets) – Kho dữ liệu đa lĩnh vực, phù hợp luyện dự án.
@@ -31,5 +32,6 @@ Nguồn tài liệu, công cụ và dataset giúp học và triển khai Data An
 - [Lightdash](https://www.lightdash.com/docs/) – BI layer mã nguồn mở kết nối dbt.
 - [Great Expectations](https://github.com/great-expectations/great_expectations) – Data quality tests.
 - [Monte Carlo Data Observability](https://www.montecarlodata.com/blog/) – Best practice giám sát pipeline dữ liệu.
+- [OpenGrok](https://github.com/oracle/opengrok) – Công cụ search/index code & dữ liệu (full-text search) giúp phân tích repository lớn.
 
 > Thêm link hay? Mở PR và mô tả giá trị thực tiễn của nguồn đó.

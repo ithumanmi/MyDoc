@@ -44,6 +44,8 @@ Danh sách các công cụ, thư viện và tài nguyên liên quan đến phát
 *   [openrag](https://github.com/langflow-ai/openrag)
 *   [prompts.chat](https://github.com/f/prompts.chat)
 *   [MiroFish](https://github.com/666ghj/MiroFish)
+*   [500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) - Tổng hợp 500+ dự án AI Agent thực chiến, dễ định vị use case theo domain.
+*   [Learn AI Engineering](https://github.com/ashishps1/learn-ai-engineering) - Lộ trình + tài nguyên chuyên sâu để trở thành AI Engineer (RAG, agents, infra).
 
 ---
 
@@ -66,6 +68,8 @@ Danh sách các công cụ, thư viện và tài nguyên liên quan đến phát
 *   [nanobot](https://github.com/HKUDS/nanobot) - AI Bot hỗ trợ MCP từ HKUDS.
 *   [picoclaw](https://github.com/sipeed/picoclaw) - Tool hỗ trợ MCP.
 *   [53AIHub](https://github.com/53AI/53AIHub) - Hub tích hợp các công cụ AI và MCP.
+*   [All Agentic Architectures](https://github.com/FareedKhan-dev/all-agentic-architectures) - Tổng hợp kiến trúc Agentic và pattern để thiết kế hệ AI đa tác vụ.
+*   [FastCode](https://github.com/HKUDS/FastCode) - Bộ mẫu code tối ưu hoá hiệu suất từ HKUDS, hỗ trợ build hạ tầng và agent chạy nhanh.
 
 ## 📚 RAG & Knowledge Base
 *   [RAG Techniques](https://github.com/NirDiamant/RAG_Techniques) - Tổng hợp các kỹ thuật Retrieval-Augmented Generation tiên tiến.
