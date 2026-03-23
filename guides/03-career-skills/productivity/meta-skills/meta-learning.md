@@ -43,6 +43,53 @@ Cách tốt nhất để kiểm tra sự hiểu biết là dạy lại nó.
 
 ---
 
+## 🔁 Learning Project Blueprint (1 dự án học = 1 vòng loop)
+Mục tiêu: mỗi “dự án học” phải có output rõ ràng và có vòng lặp encode vào PKM (dần thành protocol/decision rule).
+
+### Blueprint 7 phần
+1. **Deconstruct sub-skills:** chia kỹ năng lớn thành 2–5 sub-skills có thể luyện.
+2. **Define success criteria:** “Done” là gì? (demo chạy được / giải được bài X / viết doc Y).
+3. **Active recall + knowledge checks:** mỗi buổi học kết thúc bằng 5–15 câu tự kiểm.
+4. **Spaced repetition mapping:** chọn 5–20 ý dễ quên để biến thành flashcards.
+5. **Practice schedule (gợi ý):**
+   - 45 phút/ngày x 4 buổi/tuần, hoặc
+   - 3 buổi/tuần x 90 phút, mỗi buổi có “checkpoint”.
+6. **Express (output ra ngoài):** viết bài / demo / teach lại một phần.
+7. **Retro:** ghi 3 dòng: “cái gì hiệu quả”, “cái gì làm phí”, “lần sau mình đổi protocol gì”.
+
+### Template 1 trang (copy/paste)
+- Kỹ năng: ___
+- Output/deliverable: ___
+- Sub-skills: ___
+- Success criteria: ___
+- Knowledge checks: ___
+- Flashcards chọn từ phần dễ quên: ___
+- Schedule: ___
+- Express: ___
+- Retro: ___
+
+## 📅 Retention Schedule: project-based
+Cách tạo lịch nhớ bền: flashcard chỉ được sinh ra từ **protocol/decision rule** (không tạo từ mọi câu chữ).
+
+### Lịch ôn gợi ý
+1. Ngay sau khi học (0–2h)
+2. Sau 1 ngày
+3. Sau 3 ngày
+4. Sau 1 tuần
+5. Sau 1 tháng
+6. Sau 3 tháng
+
+### Cách tạo flashcards tốt
+- Nếu bạn không thể tự trả lời trong 1 phút, thì chưa đủ “đúng dạng card”.
+- Card thường hiệu quả khi có cấu trúc: “Trong tình huống X, protocol Y là gì?”
+
+## Anti-patterns (cần né)
+- **Re-reading trap:** đọc lại để “thấy quen” nhưng không tự tạo câu trả lời.
+- **Note overload:** ghi nhiều nhưng không có self-test/flashcards.
+- **Learning without encoding:** học xong nhưng không chuyển thành PKM (protocol/decision rule) hoặc output (express).
+
+---
+
 ## 📂 Phần 3: Building a Second Brain (Xây dựng Bộ não thứ hai)
 
 Đừng dùng não để **lưu trữ** ý tưởng, hãy dùng não để **sáng tạo** ý tưởng. (Theo Tiago Forte).

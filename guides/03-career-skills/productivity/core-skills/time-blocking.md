@@ -136,6 +136,17 @@ Friday
 | Calendar rối mắt | Quá nhiều màu, block ngắn | Gom block ≥ 30 phút, dùng 3-4 màu chủ đạo |
 | Không sync giữa mobile & desktop | Dùng nhiều app/lịch khác nhau | Chọn 1 calendar chính, integrate mọi tool về đó |
 
+## Time-block incident: khi troubleshooting không đủ
+Nếu bạn đã áp dụng troubleshooting ở trên mà block vẫn bị phá **> 1 lần/ngày** hoặc root cause lặp lại, hãy chuyển sang runbook incident:
+- Link: [Time-Block Incident Protocol](./time-blocking-incident-protocol.md)
+
+Checklist 5 bước (làm ngay trong ngày):
+1) Dừng 30 giây: `STOP` trong block.
+2) Ghi 1 reason tag (root cause chính): `Interruption` / `EnergyMismatch` / `DependencyDelay` / `Overplanning` / `ContextSwitchLeak`.
+3) Chọn route trong 10 phút: `Salvage` / `Swap` / `Abort`.
+4) Replan phần còn lại hoặc viết 1 next action có “Done when”.
+5) Cuối ngày cập nhật Planned vs Done + chọn 1 guardrail sẽ thay đổi cho lần sau.
+
 ---
 
 ## 🔄 Integration với hệ thống khác

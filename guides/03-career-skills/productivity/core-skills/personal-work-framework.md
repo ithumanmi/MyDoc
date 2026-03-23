@@ -106,6 +106,27 @@ Chọn **3–5 quy tắc** bạn cam kết tuân thủ. Ít nhưng rõ, dễ nh�
 
 ---
 
+## Daily Startup/Shutdown scripts (60 giây)
+Mục tiêu: giảm mơ hồ và đóng vòng lặp “planned → actual → next guardrail”.
+
+### Startup (60 giây, trước deep block)
+1) Chọn **1–3 MITs** (việc quan trọng nhất).
+2) Sync tên **planned deep blocks** với calendar/task (tên block gắn outcome).
+3) Đặt **guardrail 1 câu** (ví dụ: “Không mở Slack cho đến khi kết thúc block”).
+
+### Shutdown (60 giây, cuối ngày)
+1) Với mỗi block chính, cập nhật **Planned vs Done** (1 dòng/1 block).
+2) Nếu block bị move/abort: tag root cause nhanh (Interruption / EnergyMismatch / DependencyDelay / Overplanning / ContextSwitchLeak).
+3) Viết **Next guardrail** cho ngày mai (1 điều sẽ đổi để incident lặp ít hơn).
+
+## Planned vs Done template (copy/paste)
+| Block/Task | Planned start/end | Actual start/end | Root cause (if moved) | Done? | Next action (Done when...) |
+|---|---|---|---|---|---|
+|  |  |  |  |  |  |
+
+## Tích hợp với Decision Journal
+- Khi incident lớn (hoặc lặp lại 2+ lần/tuần), chuyển thành 1 entry ở [`Decision Journal Template`](../../../templates/decision-journal.md) để chốt outcome + experiment + review date.
+
 ### Bước 4: Gắn nghi thức (Rituals) — Trigger cố định
 
 Nghi thức = **cùng một thời điểm + cùng một hành động** để não tự động hóa.

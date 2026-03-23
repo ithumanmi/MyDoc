@@ -56,6 +56,41 @@ Bộ não con người rất giỏi trong việc **sáng tạo ý tưởng** (Th
 
 ---
 
+## 2.5 Progressive Summarization Ladder (L1-L4)
+Progressive Summarization giúp bạn “nén” thông tin từ ghi chép thô sang protocol có thể dùng.
+
+- **L1: Trigger / quote / observation (1 dòng)**
+  - Ví dụ: “Khi viết commit message, mình thường bị thiếu ý định.”
+- **L2: Essence (1–2 bullet)**
+  - Ví dụ: “Nhớ viết commit như một bài kệ: rõ ý định + hành vi + lý do ngắn.”
+- **L3: Protocol (3–7 bước)**
+  - Ví dụ: “Trước khi commit: (1) ghi intention 1 câu, (2) liệt kê hành vi chính, (3) thêm why ngắn, (4) check lại trong 10 giây.”
+- **L4: Decision rule (khi nào dùng / không dùng)**
+  - Ví dụ: “Nếu commit nhỏ <= 10 phút và ít thay đổi, dùng L2; nếu thay đổi policy/UX, bắt buộc L3 + L4.”
+
+### Quy tắc chọn ladder nhanh
+- Nếu bạn chỉ muốn “nhớ” -> dừng ở **L2**
+- Nếu bạn muốn “làm ngay” -> viết **L3**
+- Nếu bạn muốn “không lạm dụng” -> thêm **L4**
+
+## 2.6 Weekly Review (PARA) - checklist 30 phút
+Mục tiêu: biến kiến thức thành next actions, không để note chết.
+
+### Timeline gợi ý (30 phút)
+1. **(5’) Projects:** chọn 3 mục tiêu tuần + viết 1–2 next action cho mỗi mục tiêu.
+2. **(5’) Areas:** tạo 1 task bảo trì cho 1 trách nhiệm dài hạn (health/finance/career/team ops).
+3. **(10’) Resources:** chọn 1–2 note có tiềm năng ra quyết định; distill thành protocol/decision rule (L3/L4) hoặc chuyển sang task.
+4. **(10’) Archives:** archive những thứ không còn “Where to use?”; xóa/dọn 10–20% để chống bloat.
+
+### Output cần có sau weekly review
+- 3 task chắc chắn nằm trong tuần
+- 1 calendar block (nếu có work sâu cần làm)
+- 1 item “decision rule” hoặc “protocol” được gắn link vào Project phù hợp
+
+### Liên kết nhanh
+- Nếu bạn muốn làm một vòng loop theo kỹ năng (học trong 30 ngày): xem [Meta Skill Sprint 30 ngày](./meta-skill-sprint-30-days.md).
+
+---
 ## 3. Zettelkasten (Hộp thẻ ghi chú) 🗃️
 Phương pháp của Niklas Luhmann để liên kết các ý tưởng rời rạc.
 *   **Fleeting Notes:** Ghi chú nhanh, tạm thời.

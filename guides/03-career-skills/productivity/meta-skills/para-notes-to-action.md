@@ -31,6 +31,55 @@
 - How to use: …
 - Next Action: [task/tool/link] + deadline + owner.
 
+## 3.5) Decision Tree: Next Action? (task / calendar / meeting / wait)
+Quy tắc: hỏi “Trong 7 ngày tới, note này cần tạo ra gì để giảm khổ/đẩy dự án/ra quyết định?”
+
+```text
+Trong 7 ngày tới note này cần ra output gì?
+├─ Làm được một việc cụ thể (<= 2h), kết thúc rõ -> Task
+├─ Cần một block sâu (ít bị gián đoạn), cần tập trung cao -> Calendar block
+├─ Cần quyết định/align với người khác -> Meeting agenda (pre-read + câu hỏi chốt)
+└─ Chưa đủ dữ liệu hoặc chưa đúng thời điểm -> Waiting / Reference
+```
+
+Phrasing ngắn để bạn dùng ngay:
+- `Task:` “Trong tuần này, mình sẽ hoàn thành ___ để ___.”
+- `Calendar block:` “Mình dành ___ phút để tạo ___ (input: ___; output: ___).”
+- `Meeting agenda:` “Agenda: ___ (quyết định cần ra: ___). Pre-read: ___.”
+- `Waiting/Reference:` “Chờ đến khi ___ vì hiện tại thiếu ___ / chưa tới ngưỡng thời điểm.”
+
+## 3.6) Next Action Templates (copy/paste)
+### Task:
+- `Next Action:` ___
+- `Owner:` (ai làm)
+- `Deadline:` (ngày/giờ)
+- `Done when:` (tiêu chí hoàn tất 1 câu)
+- `Inputs/Links:` ___
+
+### Calendar block:
+- `Block:` ___ phút vào (ngày giờ)
+- `Goal:` (1 câu)
+- `Inputs:` (note/link/spec)
+- `Output:` (deliverable cụ thể)
+- `Exit criteria:` (ví dụ: xong prototype / xong outline / xong draft)
+
+### Meeting agenda:
+- `Meeting goal:` (quyết định gì)
+- `Question(s) to answer:` 1–3 câu
+- `Pre-reading:` link note + 3 gạch đầu dòng “cái gì cần biết trước”
+- `Owner of decision:` ai chịu trách nhiệm chốt
+
+### Waiting / Reference:
+- `Waiting for:` ___ (điều kiện cần xảy ra)
+- `Trigger to resume:` khi có ___ thì quay lại
+- `Reason:` thiếu dữ liệu gì / chưa đúng timing nào
+- `Next check:` ngày hẹn (để khỏi treo vĩnh viễn)
+
+## 3.7) Mini failure modes (và cách sửa nhanh)
+- `Note -> Action mơ hồ:` Next Action không nói rõ deliverable -> sửa bằng cách viết lại “Done when” 1 câu.
+- `Action -> late:` Task tạo ra nhưng không có deadline/owner rõ -> gắn owner + deadline + lý do ưu tiên 1 dòng.
+- `Bloat resources:` Note để Resources nhưng không có “Where to use?” -> quay về rule: nếu 30 ngày không dùng, Archive.
+
 ## 4) Dashboard PARA (tuỳ công cụ)
 - **Notion/Obsidian:** 4 database/folder: Projects, Areas, Resources, Archives. View chính = Projects (Kanban/Board), mỗi card link note liên quan.
 - **Calendar:** Với task quan trọng, tạo event “Deep Work: <Project>” 90-120’ và attach note.

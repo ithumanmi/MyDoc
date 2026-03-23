@@ -67,6 +67,16 @@ Project-Name/
 - **Change Log:** khi update file quan trọng, ghi lại `Date - Author - Summary`.
 - **Templates:** Chuẩn hóa meeting note, spec, report.
 
+### 4.1.1 Decision Log & Change Log (tối giản, đủ dùng)
+Mục tiêu: ghi nhận lý do và thay đổi thực sự của hệ thống (không chỉ mô tả sự kiện).
+
+- **Decision Log:** “Tại sao chúng ta chọn option X?”
+  - Tối thiểu: bối cảnh, options, lý do chọn/bỏ, ngày review.
+- **Change Log:** “Chúng ta đổi guardrail/process nào để incident giảm tái diễn?”
+  - Tối thiểu: thay đổi gì, ảnh hưởng kỳ vọng, rollback/criteria dừng.
+
+Template gợi ý: [`Decision Journal Template`](../../../templates/decision-journal.md).
+
 ### 4.2 Data Rule
 - **Data Catalog:** Bảng Notion/Sheet liệt kê dataset → schema → owner → refresh cadence.
 - **Retention Policy:** Log, backup, dữ liệu nhạy cảm có thời hạn lưu trữ + điều kiện xóa.
@@ -94,6 +104,22 @@ Project-Name/
 - **Code/Data:** GitHub/GitLab + DVC/Lakehouse.
 - **Automation:** Zapier/Make sync form intake → folder → tracker; rclone/gsutil để backup.
 - **Search:** Build “Global Index” (Raycast script, Obsidian Dataview) để tìm file theo tag/owner.
+
+## Global Index: 3 lớp tìm kiếm < 30s
+Quy ước 3 layer để tìm đúng thứ cần ngay lập tức:
+- **Layer 1 (Type):** Spec / Decision / SOP / Incident / Playbook.
+- **Layer 2 (Project):** prefix dự án (ví dụ `2026-03-ACME-CRM-Revamp`) + phase folder.
+- **Layer 3 (Owner/Status):** owner + trạng thái (`draft/review/final` hoặc `open/closed`).
+
+> Nếu bạn không tìm được trong 3 layer, nghĩa là naming/lifecycle đang thiếu.
+
+## IA + Incident protocol (quy ước link vào project)
+- Mỗi incident sheet lưu theo chuẩn:
+  - `Project/.../05-Retrospective/Incidents/` (có README con hoặc link index).
+- Trong `README` của project:
+  - thêm mục “Incidents / Change Log”: link tới incident gần nhất + link tới change/guardrail tương ứng.
+- Khi có “Change Log” mới:
+  - incident sheet phải link ngược tới change, và change phải link tới checklist/SOP đã cập nhật.
 
 ---
 

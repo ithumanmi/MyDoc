@@ -41,6 +41,7 @@
 
 ## 7) Tham khảo chéo
 - Xây nền: [core-pathways.md](./core-pathways.md) (Tứ Thánh Đế, Bát Chánh Đạo, Tứ Niệm Xứ).
+- Nếu bị dính/đơ bởi trở ngại tâm: [Nivarana Hindrances troubleshooting](./nivarana-hindrances-troubleshooting.md).
 - Ứng dụng công việc: [Mindful Operator Playbook](./mindful-operator-playbook.md).
 - Deep work/decision: [Decision under Uncertainty](./decision-under-uncertainty.md), [Buddhist Debugging Patterns](./buddhist-debugging-patterns.md).
 

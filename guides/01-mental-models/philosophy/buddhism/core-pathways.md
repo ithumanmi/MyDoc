@@ -42,6 +42,7 @@
 
 ## 4) Kết nối với các guide khác
 - Muốn áp dụng trong quyết định: xem [Decision under Uncertainty](./decision-under-uncertainty.md).
+- Muốn “gắn nhãn” để giữ khoảng cách với trải nghiệm: xem [Satipatthana + Noting Protocol](./satipatthana-noting-protocol.md).
 - Muốn xử lý pattern tâm lý: xem [Buddhist Debugging Patterns](./buddhist-debugging-patterns.md).
 - Muốn vận dụng trong leadership: xem [Bodhisattva Leadership](./bodhisattva-leadership.md) và [Boundaries & Misuse](./boundaries-and-misuse.md).
 - Muốn lộ trình thực hành: xem [30/60/90 Mindful Practice](./30-60-90-mindful-practice.md) và [Daily Dharma Prompts](./daily-dharma-prompts.md).
