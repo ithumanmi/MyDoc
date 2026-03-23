@@ -6,6 +6,7 @@
 1.  **Foundation (Năng lượng – Thời gian – Attention)**
     *   [Energy Management](energy-management.md)
     *   [Time Management Systems](time-management-systems.md)
+    *   [Time Blocking Mastery](time-blocking.md)
     *   [Attention Mastery](attention-mastery.md)
 2.  **Focus & Deep Output**
     *   [Deep Work Mastery](deep-work-mastery.md)

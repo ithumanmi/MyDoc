@@ -26,6 +26,25 @@ updated: 2026-03-11
   - Voice: TTS real-time (ElevenLabs) + lip sync.
 - Latency target <1s: preload response template, streaming token.
 
+### GenAI NPC System Blueprint (2026)
+
+| Layer | Component | Notes |
+|-------|-----------|-------|
+| Prompt Orchestration | System prompt + lore context + player state | Sử dụng RAG (quest journal, relationship) + guardrail prompt |
+| State Memory | Vector DB (Qdrant/Weaviate) + short-term buffer | TTL cho short-term (5 phút) tránh quá tải |
+| Planner | Utility AI/GOAP kế hoạch hành động, LLM chỉ viết thoại | Ép LLM trả về JSON `{"emotion": "angry", "line": "..."}` |
+| Safety | Profanity filter, toxicity classifier, fallback line | Khi LLM timeout → fallback script |
+| Runtime Integration | Unity `NPCDialogueService` (Task-based, cancellation token) | Hiển thị typing indicator, voice layering |
+| Hosting | Local (Ollama, LM Studio) hoặc Managed API (Inworld, Convai) | Local cần GPU 3090+, on-premise để giảm cost |
+
+**Performance targets:** response < 1.2s, bandwidth < 15KB/s (text) hoặc 48kbps (voice). Cache persona/prompt tokens để giảm chi phí.
+
+**Telemetry:** log `llm_latency_ms`, `fallback_rate`, `token_usage` → push vào [Unity Impact Metrics](./production/metrics/unity-impact-metrics.md).
+
+### Labs đề xuất
+- **Lab 9: Local LLM NPC Quest Giver** – Unity ↔ Ollama streaming, state machine fallback. (xem `labs/lab-local-llm-npc.md`).
+- **Lab 10: Emotion-aware NPC** – blendshape/lip-sync driven by LLM emotion JSON.
+
 ## 4) AI-assisted Workflow
 - Designer prompt → Unity Editor tool tạo prefab/layout.
 - AI Code Copilot cho gameplay scripts (GitHub Copilot, Cursor).

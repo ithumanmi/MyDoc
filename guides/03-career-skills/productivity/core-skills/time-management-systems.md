@@ -37,6 +37,8 @@ Hệ thống được Elon Musk và Bill Gates sử dụng. Thay vì To-do list 
     *   *Thứ 3, 4:* Deep Work (Code, Viết lách).
     *   *Thứ 6:* Admin, Tài chính, Review tuần.
 
+**Đào sâu:** [Time Blocking Mastery](./time-blocking.md) – xây template tuần, tool stack và troubleshooting chi tiết.
+
 ---
 
 ## 3. GTD (Getting Things Done) - David Allen

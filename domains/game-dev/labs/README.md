@@ -39,20 +39,16 @@ Vứt hàng lô `if(Distance < 10) Đánh else if (Máu < 30) Chạy`. Đống r
 
 ---
 
-## 🛠️ Lab 3: Tích Hợp AI "Lính Gác Biết Đau" Local vào Game
+## 🛠️ Lab 3: Tích Hợp AI "Lính Gác Biết Đau" Local vào Game (Legacy)
 
-Bài test thực chiến cho file [AI-Assisted Game Dev](../production/ai-assisted-gamedev.md). Hầm hầm đưa mô hình Ngôn ngữ Local SLM vô chửi nhau với Player thời gian thực.
-*(Đây là Level siêu Khó nhằn dành cho Technical Director tham vọng năm 2026).*
+> **Đã upgrade thành [Lab 9 - Local LLM NPC Quest Giver](./lab-local-llm-npc.md).**
 
-**Yêu cầu môi trường:** Cài Ollama bản Llama-3 local, cắm điện chạy ngầm server ở Port 11434 Máy Mẹ. 
+Phiên bản ngắn gọn:
+1. Unity Trigger → gửi JSON prompt đến Ollama (Llama-3 local) mô tả persona + HP.
+2. Stream JSON `{emotion, line}` → UI bubble + animation.
+3. Log telemetry + fallback FSM nếu LLM timeout.
 
-**Code ở Game Engine:**
-1. Unity: Tạo Event OnTriggerEnter chọt kiếm vào mông con NPC Lính gác. Viết mã Trừ 20 Máu nó đi.
-2. Unity: Xài `UnityWebRequest` nhấc Post Call đâm qua Localhost mạng mẻo của Máy Tính gởi Chuỗi JSON:
-   Báo Thức con AI dậy: *"Prompt Hệ Thống: Cậu là lính canh Thành Phố sùng đạo tàn bạo ác ngôn. {Context biến: Cậu vừa bị tao Đâm tụt 20hp Cậu Còn 80%. Đau rát. Vũ Khí thằng trước mặt là Kiếm}. Sổ ra một câu thoại 1 dòng Phản Ứng!"* 
-3. Game Đợi JSON Stream Rớt rớt từng chữ qua C# Async/Task Parse Cắm lên UI Bubble Chat lơ lủng trên đầu lính Gác. OẰN! 
-
-**Kết quả check:** Đóng game thành file `Build.exe.`. Mỗi nhát chém lính gác gào xin 1 kiểu khác nhau. Chưa chết thì nhây, mà gần chết quỳ lạy khóc lóc gõ text thảm não nề! 🤯 Đỉnh cao nhập vai!
+👉 Đọc chi tiết kiến trúc, code skeleton, telemetry, checklist tại [Lab 9](./lab-local-llm-npc.md).
 
 ---
 

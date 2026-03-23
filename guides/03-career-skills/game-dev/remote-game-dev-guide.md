@@ -298,6 +298,7 @@ Sections:
 ### B. Freelance Platforms (→ Full-time)
 
 **Strategy:** Freelance 6-12 tháng → Convert to full-time.
+> Dùng [Client Ops Checklist](./client-ops-checklist.md) để vận hành khách hàng freelance gọn và chuẩn bị chuyển sang remote offer.
 
 **Toptal (Top tier - $60-$150/h):**
 - **Apply:** toptal.com
@@ -868,6 +869,11 @@ If salary stuck:
 - r/gamedev (Reddit)
 - r/remotework (Reddit)
 - Indie Game Devs (Discord)
+
+**Toolkits:**
+- [Client Ops Checklist](./client-ops-checklist.md)
+- [Pitch Deck Template](./pitch-deck-template.md)
+- [LiveOps Revenue Planner](./liveops-revenue-planner.md)
 
 ---
 

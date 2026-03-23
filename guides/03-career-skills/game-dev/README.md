@@ -12,10 +12,10 @@ Lộ trình phát triển sự nghiệp Game Developer & Publisher.
 
 | Trụ cột | Kịch bản chính | Khi nào dùng | Tài liệu sâu hơn |
 |---------|----------------|-------------|------------------|
-| **Studio Career Track** | Thăng tiến Junior → Lead | Khi ưu tiên lộ trình công ty, lương ổn định | [Game Dev Career Ladder](./game-dev-career-ladder.md) |
-| **Freelance / Remote** | Kiếm thêm thu nhập hoặc chuyển hẳn sang remote | Khi muốn 2-5x lương hoặc đa dạng hóa thu nhập | [Freelance Guide](./game-dev-freelance-guide.md), [Remote Game Dev Guide](./remote-game-dev-guide.md) |
-| **Indie / Publisher Partnerships** | Tự xuất bản hoặc ký deal với publisher | Khi muốn làm IP riêng, cần vốn & marketing | [Game Indie Hacker Guide](./game-indie-hacker-guide.md), [Working with Publishers](./working-with-publishers.md) |
-| **Business & Monetization** | Thiết kế model doanh thu, tránh bẫy | Khi scale game live ops hoặc chuẩn bị pitch | [Mobile Monetization Traps](./mobile-monetization-traps.md), [Publisher Financial Model](./publisher-financial-model.md) |
+| **Studio Career Track** | Thăng tiến Junior → Lead | Khi ưu tiên lộ trình công ty, lương ổn định | [Game Dev Career Ladder](./game-dev-career-ladder.md), [Studio Interview Playbook](./studio-interview-playbook.md) |
+| **Freelance / Remote** | Kiếm thêm thu nhập hoặc chuyển hẳn sang remote | Khi muốn 2-5x lương hoặc đa dạng hóa thu nhập | [Freelance Guide](./game-dev-freelance-guide.md), [Remote Game Dev Guide](./remote-game-dev-guide.md), [Client Ops Checklist](./client-ops-checklist.md) |
+| **Indie / Publisher Partnerships** | Tự xuất bản hoặc ký deal với publisher | Khi muốn làm IP riêng, cần vốn & marketing | [Game Indie Hacker Guide](./game-indie-hacker-guide.md), [Working with Publishers](./working-with-publishers.md), [Pitch Deck Template](./pitch-deck-template.md), [Publisher Due Diligence](./publisher-due-diligence.md) |
+| **Business & Monetization** | Thiết kế model doanh thu, tránh bẫy | Khi scale game live ops hoặc chuẩn bị pitch | [Mobile Monetization Traps](./mobile-monetization-traps.md), [Publisher Financial Model](./publisher-financial-model.md), [LiveOps Revenue Planner](./liveops-revenue-planner.md) |
 
 > 🎯 **Cách sử dụng:** Hãy xác định mục tiêu 6-18 tháng (promotion, remote, tự làm game, ký publisher) rồi đào sâu đúng trụ cột thay vì đọc rời rạc.
 
@@ -23,22 +23,24 @@ Lộ trình phát triển sự nghiệp Game Developer & Publisher.
 
 ## 🗺️ Roadmap đọc theo mục tiêu
 
-1. **Đánh giá năng lực hiện tại** → chạy [Game Dev Knowledge Audit](../../../case-studies/knowledge-audits/game-dev-knowledge-audit.md)
+1. **Đánh giá năng lực hiện tại** → chạy [Game Dev Knowledge Audit](../../../case-studies/knowledge-audits/game-dev-knowledge-audit.md) hoặc [Career Retro Template](../../../templates/career/quarterly-career-retro.md).
 2. **Chọn hướng chính:**
-   - Hướng studio: đọc [Game Dev Career Ladder](./game-dev-career-ladder.md) + [Salary Negotiation](./game-dev-career-ladder.md#7-salary-negotiation)
-   - Hướng kinh doanh/độc lập: đọc [Game Indie Hacker Guide](./game-indie-hacker-guide.md) + [Publisher Playbooks](#📚-playbooks-nổi-bật)
-   - Hướng thu nhập đa kênh: kết hợp [Freelance Guide](./game-dev-freelance-guide.md) + [Remote Guide](./remote-game-dev-guide.md)
-3. **Xây kế hoạch hành động:** dùng các template sẵn có (ví dụ [Game Dev Career Plan](../../../templates/game-dev-career-plan.md)).
+   - Hướng studio: đọc [Game Dev Career Ladder](./game-dev-career-ladder.md) + [Studio Interview Playbook](./studio-interview-playbook.md) + [Salary Negotiation](./game-dev-career-ladder.md#7-salary-negotiation)
+   - Hướng kinh doanh/độc lập: đọc [Game Indie Hacker Guide](./game-indie-hacker-guide.md) + [Working with Publishers](./working-with-publishers.md) + [Pitch Deck Template](./pitch-deck-template.md)
+   - Hướng thu nhập đa kênh: kết hợp [Freelance Guide](./game-dev-freelance-guide.md) + [Remote Guide](./remote-game-dev-guide.md) + [Client Ops Checklist](./client-ops-checklist.md)
+3. **Xây kế hoạch hành động:** dùng các template sẵn có (ví dụ [Game Dev Career Plan](../../../templates/game-dev-career-plan.md), [Personal Metrics Dashboard](../../../templates/personal-metrics-dashboard.md)).
 
 ---
 
 ## 📚 Playbooks nổi bật
 
-*   **[Contract Template](./publisher-contract-template.md):** Mẫu hợp đồng phát hành game.
+*   **[Contract Template](./publisher-contract-template.md) + [Due Diligence Checklist](./publisher-due-diligence.md):** Bộ đôi chuẩn bị ký publisher.
+*   **[Pitch Deck Template](./pitch-deck-template.md):** Bộ slide chuẩn 12 trang + deal tracker gửi publisher/investor.
 *   **[5 Mobile Monetization Traps](./mobile-monetization-traps.md):** Checklist tránh 5 bẫy doanh thu (store, ads, discount, currency, hybrid).
-*   **[Working with Publishers](./working-with-publishers.md):** Checklist chuẩn bị pitch deck, due diligence, phân chia revenue.
+*   **[LiveOps Revenue Planner](./liveops-revenue-planner.md):** Model retention → revenue để cân đối Battle Pass/event cadence.
 *   **[Remote Game Dev Guide](./remote-game-dev-guide.md):** Toàn tập apply remote, deal lương, setup hợp đồng.
-*   **[Game Dev Freelance Guide](./game-dev-freelance-guide.md):** Chiến lược kiếm $300-$1000+/tháng từ Upwork/Fiverr/Asset Store.
+*   **[Game Dev Freelance Guide](./game-dev-freelance-guide.md):** Chiến lược kiếm $300-$1000+/tháng từ Upwork/Fiverr/Asset Store, kèm [Client Ops Checklist](./client-ops-checklist.md).
+*   **[Game Indie Hacker Guide](./game-indie-hacker-guide.md):** Plan tự ship game, kèm [Pitch Deck Template](./pitch-deck-template.md) và [Financial Model](./publisher-financial-model.md).
 
 ---
 

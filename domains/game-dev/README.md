@@ -27,11 +27,12 @@ updated: 2026-03-16
 > - **This folder (domains/game-dev/):** Technical skills - Unity, C#, Game Architecture, Shaders, Multiplayer  
 > - **Career & Business guide:** See [guides/03-career-skills/game-dev/](../../guides/03-career-skills/game-dev/README.md) for freelancing, publisher deals, monetization strategies
 
-> 🧭 **How to use:**
-> 1. **Reality Check → Visual Roadmap:** xác định level hiện tại.
-> 2. **Chọn Sprint 14 ngày** để củng cố nền tảng hoặc nhảy thẳng vào module chuyên sâu.
-> 3. **Mapping Deliverables ↔ Career playbook:** kết hợp [Game Dev 10k Roadmap](../../guides/03-career-skills/game-dev/game-dev-10k-roadmap.md) + portfolio checklist.
-> 4. **Liên kết Meta:** trong mỗi project, log telemetry vào [Unity Impact Metrics](./production/metrics/unity-impact-metrics.md) và audit skill bằng [Game Dev Knowledge Audit](../../case-studies/knowledge-audits/game-dev-knowledge-audit.md).
+> 🧭 **Learning Loop:**
+> 1. **Reality Check → Visual Roadmap:** xác định level hiện tại (Level 1-4).
+> 2. **Chọn Sprint 14 ngày hoặc Module** phù hợp mục tiêu (Gameplay, Netcode, Tech Art…).
+> 3. **Gắn Lab/Challenge tương ứng:** xem bảng *Module ↔ Labs/Challenges* bên dưới để luyện tay.
+> 4. **Ship deliverable + Log Telemetry:** mỗi project phải ghi tối thiểu 3 chỉ số vào [Unity Impact Metrics](./production/metrics/unity-impact-metrics.md) + retro bằng [Postmortem Template](./production/metrics/retro-template.md).
+> 5. **Sync với Career Playbook:** map thành quả vào [Game Dev 10k Roadmap](../../guides/03-career-skills/game-dev/game-dev-10k-roadmap.md) hoặc plan freelance/remote tương ứng.
 
 > [← Back to Chapter 1](../../chapters/01-xac-dinh-linh-vuc.md) | [Home](../../README.md) | [🚀 Quick Start](../../QUICK-START.md) | [📖 Glossary](../../GLOSSARY.md)
 >
@@ -94,6 +95,7 @@ updated: 2026-03-16
 | **World Building** |
 | [world-building/level-design/](./world-building/level-design/README.md) | Layout, pacing, encounter flow | Thiết kế level nhanh có logic |
 | [world-building/pcg/](./world-building/pcg/README.md) | Procedural generation playbooks | Build roguelike, sandbox systems |
+| [world-building/pcg/pipeline-01-heightfield-to-unity.md](./world-building/pcg/pipeline-01-heightfield-to-unity.md) <br> [pipeline-02-runtime-streaming.md](./world-building/pcg/pipeline-02-runtime-streaming.md) <br> [pipeline-03-tools-pipeline.md](./world-building/pcg/pipeline-03-tools-pipeline.md) | New pipelines: heightfield authoring, runtime streaming, tooling/version control | World-building team cần playbook end-to-end |
 | **Production & Ops** |
 | [production/README.md](./production/README.md) | Hub: deep dive, engines, metrics, QA | Điều phối production & ops |
 | [production/unity-deep-dive/](./production/unity-deep-dive/README.md) | Clean code, editor tooling, optimization | Áp dụng dự án production |

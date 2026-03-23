@@ -15,7 +15,8 @@ Hướng dẫn toàn diện cho **Solo Game Developer** (Unity/C#) không có Ar
 5. [Marketing on Zero Budget](#5-marketing-on-zero-budget)
 6. [Monetization Strategies](#6-monetization-strategies)
 7. [Platform Strategy (Steam vs Mobile vs Itch)](#7-platform-strategy-steam-vs-mobile-vs-itch)
-8. [Case Studies - Solo Devs](#8-case-studies---solo-devs)
+8. [Funding & Publisher Playbook](#8-funding--publisher-playbook)
+9. [Case Studies - Solo Devs](#9-case-studies---solo-devs)
 
 ---
 

@@ -12,11 +12,12 @@ Hướng dẫn toàn diện về cách kiếm freelance cho Game Developers đan
 2. [Platforms & Marketplaces](#2-platforms--marketplaces)
 3. [Portfolio & Profile Setup](#3-portfolio--profile-setup)
 4. [Bidding & Proposal Strategy](#4-bidding--proposal-strategy)
-5. [Pricing Strategy](#5-pricing-strategy)
-6. [Time Management](#6-time-management)
-7. [Legal & Tax (Vietnam)](#7-legal--tax-vietnam)
-8. [Passive Income Streams](#8-passive-income-streams)
-9. [Common Mistakes](#9-common-mistakes)
+5. [Client Ops & Delivery](#5-client-ops--delivery)
+6. [Pricing Strategy](#6-pricing-strategy)
+7. [Time Management](#7-time-management)
+8. [Legal & Tax (Vietnam)](#8-legal--tax-vietnam)
+9. [Passive Income Streams](#9-passive-income-streams)
+10. [Common Mistakes](#10-common-mistakes)
 
 ---
 
@@ -355,7 +356,16 @@ Best,
 
 ---
 
-## 5. Pricing Strategy
+## 5. Client Ops & Delivery
+
+- Dùng [Client Ops Checklist](./client-ops-checklist.md) để chuẩn hóa intake → SOW → kickoff → update → renewal.
+- **CRM:** track leads, proposal status, payment trong Notion/Airtable.
+- **Weekly update ritual:** Email template (status, blockers, next)
+- **Scope control:** Use change request doc + pricing.
+- **Offboarding:** Handover package + upsell retainer (20-40h/month support).
+- **Automation:** Zapier (Typeform → Notion), templated emails.
+
+## 6. Pricing Strategy
 
 ### A. Hourly vs Fixed Price
 
@@ -417,7 +427,7 @@ Price = 40 × $25 × 1.2 = $1200
 
 ---
 
-## 6. Time Management
+## 7. Time Management
 
 ### A. Schedule mẫu (Full-time job + Freelance)
 
@@ -473,7 +483,7 @@ Sunday: Rest / Learning new skills
 
 ---
 
-## 7. Legal & Tax (Vietnam)
+## 8. Legal & Tax (Vietnam)
 
 ### A. Thuế Thu nhập cá nhân
 
@@ -524,7 +534,7 @@ Sunday: Rest / Learning new skills
 
 ---
 
-## 8. Passive Income Streams
+## 9. Passive Income Streams
 
 ### A. Unity Asset Store
 
@@ -586,7 +596,7 @@ Sunday: Rest / Learning new skills
 
 ---
 
-## 9. Common Mistakes
+## 10. Common Mistakes
 
 ### ❌ Mistake 1: Underpricing
 
