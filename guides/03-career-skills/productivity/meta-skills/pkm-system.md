@@ -14,6 +14,8 @@ Bộ não con người rất giỏi trong việc **sáng tạo ý tưởng** (Th
 ## 1. Phương pháp PARA (Tổ chức thông tin) 🗂️
 Được phát triển bởi Tiago Forte, PARA là cách sắp xếp file/note dựa trên **Hành động (Actionability)** thay vì Chủ đề (Topic).
 
+👉 **Áp dụng thực chiến:** Xem thêm [Ghi chú nhiều CHƯA CHẮC nhớ lâu – PARA → hành động](./para-notes-to-action.md) để nối note → task → lịch → deliverable, weekly review 30’ và chống phình note.
+
 ### P - Projects (Dự án)
 *   **Định nghĩa:** Những việc đang làm, có mục tiêu cụ thể và **Deadline**.
 *   **Ví dụ:** "Viết báo cáo quý 1", "Lên kế hoạch du lịch Nhật Bản", "Học khóa Python cơ bản".
