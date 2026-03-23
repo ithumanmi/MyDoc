@@ -134,6 +134,16 @@ Hướng dẫn toàn diện để xin việc và làm remote Game Developer cho 
 2. **Turing.com** (AI matching platform)
 3. **Gun.io** (Vetted freelancers)
 
+### D. Roadmap lựa chọn (Remote vs Freelance vs Studio)
+
+| Mục tiêu chính | Thời gian chuẩn bị | Thu nhập target | Phù hợp khi | Lộ trình nên đọc |
+|----------------|--------------------|-----------------|-------------|------------------|
+| **Remote Full-time** | 6-12 tháng (Portfolio + English + interviews) | $3k-$10k+/tháng | Muốn thu nhập ổn định, benefits, làm với team toàn cầu | (Guide này) + [Game Dev Career Ladder](./game-dev-career-ladder.md) |
+| **Freelance Retainer** | 1-3 tháng (Profile + khách đầu tiên) | $1k-$3k+/tháng | Muốn linh hoạt, kết hợp với job hiện tại | [Freelance Guide](./game-dev-freelance-guide.md) + Sections 4-7 ở đây |
+| **Hybrid (Freelance → Remote offer)** | 3-6 tháng | $2k-$6k+/tháng | Muốn dùng freelance làm “probation” trước khi xin remote | Bắt đầu với Freelance Guide → chuyển sang mục 4-6 của guide này |
+
+> 💡 **Gợi ý:** Nếu English chưa đủ hoặc portfolio chưa mạnh, hãy kiếm clients freelance trước để tích case study + review → Sau 6 tháng convert sang remote full-time.
+
 ---
 
 ## 3. Requirements & Preparation
