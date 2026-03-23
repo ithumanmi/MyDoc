@@ -15,6 +15,7 @@ Tập hợp các kỹ năng nền tảng giúp xây Operating System cá nhân c
 - [Energy Management](energy-management.md)
 - [Attention Mastery](attention-mastery.md)
 - [Time Management Systems](time-management-systems.md)
+- [Eisenhower Matrix: Thoát bẫy tốn thời gian](eisenhower-matrix-traps.md)
 - [Time-Block Incident Protocol](time-blocking-incident-protocol.md)
 - [Personal Work Framework](personal-work-framework.md)
 - [Personal Operating Cadence 30/60/90](personal-operating-cadence-30-60-90.md)

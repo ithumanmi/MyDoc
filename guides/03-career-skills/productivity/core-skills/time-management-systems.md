@@ -90,6 +90,8 @@ Giúp bạn phân biệt giữa "Quan trọng" (Important) và "Khẩn cấp" (U
 
 > **Lời khuyên:** Hãy dành 80% thời gian cho ô **Quan trọng nhưng Không khẩn cấp**. Đừng để cuộc đời bạn chỉ toàn đi dập lửa (Khẩn cấp).
 
+**Đào sâu & tránh bẫy:** xem bài chuyên sâu [Eisenhower Matrix: Thoát khỏi những cái bẫy tốn thời gian](./eisenhower-matrix-traps.md) để xử lý các bẫy bận rộn giả, thiết lập Not-To-Do, delegate/auto hóa, và tích hợp với Time Blocking/GTD.
+
 ---
 
 ## 5. Tool Stack gợi ý

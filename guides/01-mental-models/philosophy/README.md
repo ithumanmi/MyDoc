@@ -74,6 +74,7 @@ Lộ trình này được thiết kế đi từ nền tảng tư duy đến các
 *   **[The Awakened Fury (Cơn Thịnh Nộ Thức Tỉnh)](./awakened-fury.md):** ⭐ **NEW** Khi người lương thiện buộc phải cầm kiếm vì công lý.
 *   **[Changing Destiny (Nghịch Thiên Cải Mệnh)](./practical-applications/changing-destiny.md):** ⭐ **NEW** Công thức khoa học để viết lại số phận (Đức năng thắng số).
 *   **[The Existential Mindset (Tư duy Hiện sinh)](./practical-applications/existential-mindset.md):** ⭐ **NEW** 6 dấu hiệu bạn đang sống sâu sắc hơn đám đông (hack não).
+*   **[Chiến thắng chính mình](./chien-thang-chinh-minh.md):** ⭐ **NEW** Nhìn ra lỗi để tỉnh thức, sửa lỗi để có bản lĩnh, chấp nhận người khác để rộng tâm, chiến thắng bản thân là tu hành thật sự.
 *   **[Decision Making Frameworks](./practical-applications/decision-making-frameworks.md):** Ra quyết định dựa trên triết học.
 *   **[Meaning & Purpose](./practical-applications/meaning-and-purpose.md):** Tìm kiếm ý nghĩa cuộc sống (Frankl).
 *   **[Ethics in Tech](./practical-applications/ethics-in-tech.md):** Đạo đức trong AI và công nghệ.
