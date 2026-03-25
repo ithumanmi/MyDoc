@@ -30,6 +30,7 @@ Vật lý là môn khoa học nghiên cứu cách vũ trụ vận hành ở mứ
 *Thế giới vi mô và vĩ mô.*
 *   **[Nguyên lý Bất định & Tương đối](./quantum-relativity.md):** Không có gì là tuyệt đối. Quan sát thay đổi kết quả. (Heisenberg, Frame of Reference).
 *   **Khối lượng tới hạn (Critical Mass):** Điểm bùng phát hạt nhân.
+*   **[Thang đo Kardashev](./kardashev-scale.md):** Thước đo văn minh theo công suất năng lượng; ẩn dụ hay cho mức độ trưởng thành vận hành.
 
 ---
 

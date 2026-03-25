@@ -33,6 +33,9 @@ Chào mừng bạn đến với **Psychology Domain**. Đây là bản đồ ki�
     *   **[🦅 Inclusive Masculinity (Đàn ông Trưởng thành)](./practical-applications/inclusive-masculinity.md):** Phẩm chất bao liệt và bản lĩnh đàn ông.
     *   **[🦁 Inclusive Leadership (Lãnh đạo Thực chiến)](./practical-applications/inclusive-leadership.md):** Giữ ổn định hệ thống và dẫn dắt đội ngũ.
 *   **[💎 Inner Qualities of Attraction (Phẩm chất Thu hút)](./practical-applications/inner-qualities-of-attraction.md):** ⭐ **NEW** Tại sao phụ nữ chọn ở lại dựa trên nội tâm đàn ông.
+*   **[⏱️ Quy tắc 30 giây: Nói đúng lúc để không vô duyên](./30-second-rule-social-dynamics.md):** ⭐ **NEW** Góp ý chỉ khi cô ấy chỉnh được trong 30 giây; đúng lúc ghi điểm, sai thời điểm phá cảm xúc.
+*   **[First Date: 6 lưu ý giản dị mà hiệu quả](./first-date-simple-rules.md):** ⭐ **NEW** Thơm tho, trả tiền, hẹn đơn giản, quà nhỏ, kéo dài trò chuyện, kết thúc tử tế.
+*   **[Skillset chinh phục: Từ giữ mùi đến dẫn dắt cảm xúc](./practical-applications/attraction-skills-expanded.md):** ⭐ **NEW** Bộ kỹ năng thực dụng: vệ sinh/ngoại hình, đọc tín hiệu, dẫn dắt cảm xúc, khung hẹn hò 3 bước, tránh bẫy phá cảm xúc.
 *   **[Social Psychology (Hiểu người)](./practical-applications/social-psychology.md):** Áp lực đám đông, Quyền lực & Sự tuân phục.
 *   **[Quality vs Quantity (Chất lượng Mối quan hệ)](./practical-applications/quality-vs-quantity.md):** ⭐ **NEW** Nhận diện người thật lòng và sự cô độc trưởng thành.
 *   **[The Art of Reading People (Nghệ thuật Nhìn người)](./practical-applications/art-of-reading-people.md):** ⭐ **NEW** 7 dấu hiệu nhận biết bản chất con người để bảo vệ tâm hồn.
