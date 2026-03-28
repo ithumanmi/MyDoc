@@ -11,6 +11,7 @@ Khung định hướng cho toàn bộ thư mục `mental-resilience/`. Sử dụ
 | Burnout, kiệt sức, mất động lực | [burnout-prevention.md](./burnout-prevention.md) | Protocol phòng thủ & phục hồi 12 tuần. |
 | Tâm trí hỗn loạn, stress thường trực | [mindfulness-meditation.md](./mindfulness-meditation.md) | Phác đồ thiền & breathwork cơ bản. |
 | Mất bình tĩnh, cần khung tư duy vững | [stoicism-for-modern-life.md](./stoicism-for-modern-life.md) | Checklist Stoic để xử lý biến động. |
+| Cảm giác “tâm lý yếu”, dễ nản, né việc khó | [mental-toughness-protocol.md](./mental-toughness-protocol.md) | 6 bước kỷ luật vi mô, phơi nhiễm dần, ranh giới xã hội. |
 
 ## 🔄 Routine gợi ý
 1. **Sáng:** 5 phút breathing + gratitude (Mindfulness).
