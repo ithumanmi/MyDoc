@@ -11,6 +11,7 @@ Sơ đồ rút gọn toàn bộ tài nguyên trong `guides/04-lifestyle-os/well-
 - **[⚡ Testosterone System](./biohacking/testosterone-system.md)** – Kích hoạt drive, sức mạnh và sự quyết đoán.
 - **[🧪 Neurotransmitters Guide](./biohacking/neurotransmitters-guide.md)** – Tổng hợp Serotonin, GABA, Acetylcholine.
 - **[🛌 Sleep Optimization](./biohacking/sleep-optimization.md)** – Protocol ngủ sâu, phục hồi tế bào.
+- **[🔁 Break the Sleep-Performance Loop](./sleep-performance-loop.md)** – Thoát vòng xoáy ngủ kém → ý chí thấp → ăn tạp → tăng cân → lười tập.
 - **[🫀 HRV Tracking](./biohacking/hrv-tracking.md)** – Đo lường điểm số sinh tồn (Stress & Khả năng hồi phục) bằng công nghệ HRV.
 - **[🏃 Movement Protocols](./biohacking/movement-protocols.md)** – Zone 2, HIIT, Strength để tối ưu circulation.
 - **[🥗 Nutrition for Brain](./biohacking/nutrition-for-brain.md)** – Ăn uống hỗ trợ não bộ & hormone.

@@ -61,6 +61,8 @@ tags: [dating, relationships, psychology, social-intelligence]
   → [psychology-dating-basics-criteria.md](./psychology-dating-basics-criteria.md)
 - **Một chi tiết nhỏ lộ bản lĩnh** – dám gọi phục vụ, dám xử lý; tránh ngại va chạm, giữ tôn trọng và chủ động.  
   → [psychology-dating-assertive-service.md](./psychology-dating-assertive-service.md)
+- **Chọn đúng người để tán** – nguyên tắc cân bằng giá trị, ưu tiên đối tượng ngang tầm hoặc nhỉnh hơn nhẹ để tăng xác suất.
+  → [psychology-dating-strategy-fit.md](./psychology-dating-strategy-fit.md)
 
 ## 🔧 Cách dùng nhanh
 

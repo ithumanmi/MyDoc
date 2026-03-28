@@ -17,6 +17,7 @@
 *   **[🩸 Glucose & Insulin](./biohacking/glucose-insulin-system.md):** Khi tụt năng lượng, brain fog.
 *   **[⚡ Testosterone System](./biohacking/testosterone-system.md):** Khi thiếu drive/khả năng push.
 *   **[🧪 Neurotransmitters Guide](./biohacking/neurotransmitters-guide.md):** Khi muốn chẩn đoán rộng (Serotonin, GABA...).
+*   **[🔁 Break the Sleep-Performance Loop](./sleep-performance-loop.md):** Khi mắc vòng xoáy ngủ kém → ý chí thấp → ăn tạp → tăng cân → lười tập.
 
 ### 2️⃣ Protocols theo mục tiêu
 *   **[🛌 Sleep Optimization](./biohacking/sleep-optimization.md):** Khi cần ngủ sâu, hồi phục nhanh.

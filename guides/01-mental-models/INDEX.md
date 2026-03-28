@@ -15,6 +15,7 @@
 ## Meta Intelligence
 - Global Intelligence: feedback-loops-deep-dive, world-order-cycles, currency-wars, future-trends (AI singularity, demographics)
 - Mysticism: culture/meaning frameworks
+- Mysticism: culture/meaning frameworks, multiverse-consciousness-quantum-branching
 - Failure/Metacog: failure-management-system, metacognitive-operating-system
 
 ## Recursion / Self-reference
