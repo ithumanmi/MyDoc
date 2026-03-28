@@ -63,6 +63,10 @@ Chào mừng bạn đến với kho tàng kiến thức toàn diện. Đây là 
 *   **[Influence & Negotiation](./productivity/core-skills/influence-negotiation.md):** Kỹ năng gây ảnh hưởng và đàm phán.
     *   [Salary Negotiation Script](./productivity/templates/salary-negotiation-script.md).
 *   **[Social Charisma](./productivity/core-skills/social-charisma.md):** Xây dựng sức hút cá nhân.
+*   **Shawty Playbook (hẹn hò tôn trọng):** [Hub & mục lục](./04-lifestyle-os/Shawty/README.md) — luồng đọc theo tình huống, bản đồ khái niệm.
+    *   **Trụ cột:** [Nguyên tắc chỗ trống](./04-lifestyle-os/Shawty/psychology-dating-principles.md), [Đọc tâm lý](./04-lifestyle-os/Shawty/psychology-reading-women.md), [Bối cảnh tuổi & môi trường](./04-lifestyle-os/Shawty/psychology-women-contexts.md), [Bối cảnh xã hội Việt Nam](./04-lifestyle-os/Shawty/psychology-dating-vietnam-social-context.md), [Ranh giới & assertive](./04-lifestyle-os/Shawty/psychology-dating-boundaries-assertiveness.md).
+    *   **Kênh số & sau ma sát:** [App & nhắn tin](./04-lifestyle-os/Shawty/psychology-dating-online-messaging.md), [Xung đột & sửa chữa](./04-lifestyle-os/Shawty/psychology-dating-conflict-repair.md).
+    *   **Thêm:** [Điểm G trong đầu](./04-lifestyle-os/Shawty/psychology-dating-brain-g-point.md), [Tín hiệu từ chối đi chơi](./04-lifestyle-os/Shawty/psychology-dating-invite-refusal-signals.md).
 *   **[Sales & Telesales Mastery](./03-career-skills/sales-telesales/README.md):** ⭐ **NEW** Nghệ thuật thuyết phục, [Đàm phán hợp đồng](./03-career-skills/sales-telesales/contract-negotiation.md) và [Lộ trình đàm phán bậc thầy](./03-career-skills/sales-telesales/negotiation-mastery-roadmap.md). ([Kịch bản thực hành](./03-career-skills/sales-telesales/README.md#-role-play-scripts-kịch-bản-thực-hành))
 *   **[Strategic Networking](./productivity/core-skills/strategic-networking.md):** Chiến lược kết nối và quan hệ.
 

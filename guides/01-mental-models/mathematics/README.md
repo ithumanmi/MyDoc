@@ -12,6 +12,7 @@ Module này không dạy bạn giải tích phức tạp để đi thi. Nó cung
 *Cách đưa ra quyết định khi thiếu thông tin.*
 *   **[Tư duy Xác suất trong Đời sống](./probability-real-life.md):** Tại sao bạn sợ đi máy bay hơn đi xe máy? (Expected Value, Risk Assessment).
 *   **Bayesian Thinking:** Cập nhật niềm tin khi có dữ liệu mới.
+*   **[Bayesian Updating thực dụng](./bayesian-updating.md):** Posterior Odds = Prior Odds × LR, cập nhật tuần tự tín hiệu (test y tế, A/B test, chỉ báo kinh doanh).
 *   **[Ứng dụng Thực chiến](./probability-real-life.md#🛠️-ứng-dụng-thực-chiến-life-applications):** Secretary Problem (Hẹn hò/Hiring), Mua bảo hiểm, Dự báo thời tiết.
 *   **⭐ Black Swans & Fat Tails (Taleb):** Tránh lạm dụng phân phối chuẩn; ưu tiên margin of safety, dự phòng cực đoan. Xem thêm: [failure-management-system](../failure-management-system.md) & [antifragile mindset](../global-intelligence/systems-thinking/antifragile.md) nếu có.
 

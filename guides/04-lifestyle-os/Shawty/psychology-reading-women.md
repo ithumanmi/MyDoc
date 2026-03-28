@@ -54,8 +54,10 @@
 
 ## 7. Tài liệu nên đọc thêm (trong repo)
 
-- [well-being/mental-resilience/mindfulness-meditation.md](../04-lifestyle-os/well-being/mental-resilience/mindfulness-meditation.md) – Giữ tâm bình ổn, phản ứng chậm lại.
-- [life-os/psychology-of-self.md](life-os/psychology-of-self.md) – Hiểu chính mình để không trút áp lực lên người khác.
-- [life-os/communication/relationship-boundaries.md](life-os/communication/relationship-boundaries.md) *(nếu có)* – Thiết lập ranh giới lành mạnh.
+- [psychology-dating-online-messaging.md](./psychology-dating-online-messaging.md) – App & nhắn tin (tempo, ranh giới số).
+- [psychology-dating-conflict-repair.md](./psychology-dating-conflict-repair.md) – Xung đột nhẹ & sửa chữa.
+- [well-being/mental-resilience/mindfulness-meditation.md](../well-being/mental-resilience/mindfulness-meditation.md) – Giữ tâm bình ổn, phản ứng chậm lại.
+- [life-os/psychology-of-self.md](../life-os/psychology-of-self.md) – Hiểu chính mình để không trút áp lực lên người khác.
+- [life-os/communication/relationship-boundaries.md](../life-os/communication/relationship-boundaries.md) *(nếu có)* – Thiết lập ranh giới lành mạnh.
 
 > Nắm bắt tâm lý phụ nữ = hiểu hệ vận hành cảm xúc + tôn trọng sự khác biệt. Khi ưu tiên sự chân thành, rõ ràng, bạn sẽ thu hút đúng người đồng điệu thay vì phải “chiêu trò”.

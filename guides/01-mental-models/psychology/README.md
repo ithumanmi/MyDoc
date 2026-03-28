@@ -43,6 +43,13 @@ Chào mừng bạn đến với **Psychology Domain**. Đây là bản đồ ki�
 *   **[True Maturity (Chiều Sâu Trưởng Thành)](./practical-applications/true-maturity.md):** ⭐ **NEW** Buông bỏ nhu cầu kiểm soát để hiểu người sâu sắc.
 *   **[3 Levels of Thinking (3 Tầng Tư Duy)](./practical-applications/three-levels-of-thinking.md):** ⭐ **NEW** Tại sao nỗ lực thôi là chưa đủ để vượt trần.
 *   **[The Pleasure of Collapse (Khoái cảm Sụp đổ)](./practical-applications/the-pleasure-of-collapse.md):** ⭐ **NEW** Tại sao kẻ mạnh nghiện sự mục ruỗng.
+*   **[🔥 Nguồn năng lượng nguyên thủy & Sublimation](./practical-applications/primal-energy-sublimation.md):** ⭐ **NEW** Kênh hóa xung lực bản năng thành mục tiêu phát triển, từ tĩnh sang vận động.
+*   **[🚀 Không còn đường lùi: khoảnh khắc tăng tốc](./practical-applications/no-way-back-momentum.md):** ⭐ **NEW** Đặt ranh, cắt lùi tượng trưng, chọn đòn bẩy và ship nhanh.
+*   **[🎮 Reset tập trung sau game](./practical-applications/post-game-focus.md):** ⭐ **NEW** Vì sao chơi game xong khó vào việc và nghi thức reset 10–15 phút.
+*   **[🌊 Đạt trạng thái Flow](./practical-applications/flow-state.md):** ⭐ **NEW** Khung PRIME (Prepare–Ramp–Immerse–Measure–Exit) để vào dòng chảy.
+*   **[🧭 Ra quyết định đa tiêu chí (MCDM)](./practical-applications/multi-criteria-decision-making.md):** ⭐ **NEW** Quy trình Frame–Weight–Score–Check–Decide với bảng trọng số và rào cứng.
+*   **[🌫️ Ra quyết định đa tiêu chí mờ (Fuzzy MCDM)](./practical-applications/fuzzy-mcdm.md):** ⭐ **NEW** Dùng thang ngôn ngữ → số mờ tam giác, giải mờ để xếp hạng khi dữ liệu/đánh giá mơ hồ.
+*   **[🧮 Bayesian Fuzzy TOPSIS](./practical-applications/bayesian-fuzzy-topsis.md):** ⭐ **NEW** Kết hợp TOPSIS + số mờ + cập nhật Bayesian trọng số/điểm khi có dữ liệu mới.
 *   **[Relationships (Mối quan hệ)](./practical-applications/relationships.md):** Gắn bó (Attachment styles), Ranh giới & Giao tiếp.
 *   **[Work & Money (Công việc)](./practical-applications/work-money.md):** Động lực, Burnout & Tâm lý học hành vi trong tài chính.
 *   **[Defense & Manipulation (Phòng vệ)](./practical-applications/defense-mechanisms.md):** Gaslighting, Thao túng & Cơ chế phòng vệ.
@@ -61,7 +68,7 @@ Chào mừng bạn đến với **Psychology Domain**. Đây là bản đồ ki�
 
 ### 🔎 Psychology by Use Case (map nhanh)
 - **Quan hệ:** [relationships.md](./practical-applications/relationships.md), [quality-vs-quantity.md](./practical-applications/quality-vs-quantity.md), [art-of-reading-people.md](./practical-applications/art-of-reading-people.md)
-- **Công việc & tiền bạc:** [work-money.md](./practical-applications/work-money.md), [decision-making-razors.md](./decision-making-razors.md)
+- **Công việc & ra quyết định:** [work-money.md](./practical-applications/work-money.md), [decision-making-razors.md](./decision-making-razors.md), [multi-criteria-decision-making.md](./practical-applications/multi-criteria-decision-making.md)
 - **Phòng vệ / thao túng:** [defense-mechanisms.md](./practical-applications/defense-mechanisms.md), [dark-psychology-defense.md](./dark-psychology-defense.md), [social-psychology.md](./practical-applications/social-psychology.md)
 - **Trưởng thành nội tâm:** [self-mastery.md](./practical-applications/self-mastery.md), [true-maturity.md](./practical-applications/true-maturity.md), [inclusive-quality.md](./practical-applications/inclusive-quality.md)
 - **Đọc người & ảnh hưởng:** [art-of-reading-people.md](./practical-applications/art-of-reading-people.md), [social-psychology.md](./practical-applications/social-psychology.md)

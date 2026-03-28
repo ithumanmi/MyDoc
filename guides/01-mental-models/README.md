@@ -54,7 +54,8 @@
 > Action: Viết lại 1 trục điểm thấp, chọn 1 bài tương ứng, triển khai experiment trong 7 ngày.
 
 ## 🧭 Topic Map / INDEX nhanh
-- **Decision & Risk:** [decision-making-razors.md](./psychology/decision-making-razors.md), [logic-reasoning.md](./mathematics/logic-reasoning.md), [margin-of-safety.md](./engineering/margin-of-safety.md), [trade-offs.md](./engineering/trade-offs.md)
+|- **Decision & Risk:** [decision-making-razors.md](./psychology/decision-making-razors.md), [logic-reasoning.md](./mathematics/logic-reasoning.md), [margin-of-safety.md](./engineering/margin-of-safety.md), [trade-offs.md](./engineering/trade-offs.md)
+|- **Fast Feedback / Recall:** [action-recall.md](./action-recall.md), [fast-correction-mindset.md](./fast-correction-mindset.md)
 - **Bias & Psychology:** [cognitive-biases.md](./psychology/cognitive-biases.md), [dark-psychology-defense.md](./psychology/dark-psychology-defense.md), [fast-correction-mindset.md](./fast-correction-mindset.md)
 - **Systems & Recursion:** [systems-chaos-theory.md](./mathematics/systems-chaos-theory.md), [feedback-loops-deep-dive.md](./global-intelligence/systems-thinking/feedback-loops-deep-dive.md), [recursion-consciousness.md](./recursion-consciousness.md), [recursive-thinking.md](./recursive-thinking.md), [recursion-in-psychology.md](./psychology/recursion-in-psychology.md)
 - **History & Cycles:** [history/README.md](./history/README.md), [path-dependence.md](./history/path-dependence.md), [lindy-effect.md](./history/lindy-effect.md)

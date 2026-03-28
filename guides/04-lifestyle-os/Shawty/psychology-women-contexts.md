@@ -56,8 +56,9 @@
 
 ## 7. Tài liệu tham khảo trong repo
 
-- [psychology-reading-women.md](psychology-reading-women.md) – Khung hẹn hò tôn trọng.
-- [life-os/psychology-of-self.md](life-os/psychology-of-self.md) – Hiểu bản thân để giao tiếp tốt hơn.
+- [psychology-reading-women.md](./psychology-reading-women.md) – Khung hẹn hò tôn trọng.
+- [psychology-dating-vietnam-social-context.md](./psychology-dating-vietnam-social-context.md) – Bối cảnh xã hội Việt Nam (gia đình, thể diện, lễ Tết, tiền bạc).
+- [life-os/psychology-of-self.md](../life-os/psychology-of-self.md) – Hiểu bản thân để giao tiếp tốt hơn.
 - [well-being/mental-resilience/burnout-prevention.md](well-being/mental-resilience/burnout-prevention.md) – Nhận biết tín hiệu quá tải năng lượng.
 
 ## 8. Case study (Đặt mình vào bối cảnh thật)

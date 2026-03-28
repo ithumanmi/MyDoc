@@ -15,7 +15,7 @@
 | Risk Engine | Nhận diện & phòng thủ rủi ro cá nhân/gia đình | [life-os/risk-engine.md](life-os/risk-engine.md) |
 | Strategy & Alignment | Vector sống, chiến lược dài hạn | [life-os/strategy-engine.md](life-os/strategy-engine.md), [life-os/alignment-engine.md](life-os/alignment-engine.md) |
 | Energy Management | Năng lượng, chú ý, hormone | [life-os/energy-management.md](life-os/energy-management.md) |
-| Relationships & Dating | Khung đọc tâm lý & tình huống giao tiếp | [psychology-reading-women.md](psychology-reading-women.md), [psychology-women-contexts.md](psychology-women-contexts.md) |
+| Relationships & Dating | Khung đọc tâm lý & tình huống giao tiếp | [Shawty/README.md](Shawty/README.md) |
 | Well-being (Hardware) | Biohacking, resilience, health OS | [well-being/README.md](well-being/README.md) |
 | Sleep & Recovery | Protocol ngủ, phục hồi | [well-being/biohacking/sleep-optimization.md](well-being/biohacking/sleep-optimization.md) |
 | Mental Resilience | Burnout prevention, mindfulness, stoicism | [well-being/mental-resilience/burnout-prevention.md](well-being/mental-resilience/burnout-prevention.md) |
@@ -27,7 +27,7 @@
 
 | Lớp | Câu hỏi chính | Module | File nổi bật |
 | --- | --- | --- | --- |
-| **Layer 1 – Life OS (Brainware)** | Tôi vận hành cuộc đời bằng hệ thống nào? | [life-os/](life-os/README.md) | [life-os/README.md](life-os/README.md) – tổng quan 6 engine; [decision-engine.md](life-os/decision-engine.md) – khuôn ra quyết định; [risk-engine.md](life-os/risk-engine.md) – phòng thủ; [psychology-reading-women.md](psychology-reading-women.md) & [psychology-women-contexts.md](psychology-women-contexts.md) – bối cảnh quan hệ; **Bonus:** [Philosophy Domain](../01-mental-models/philosophy/README.md) – “firmware” giá trị & đạo đức. |
+| **Layer 1 – Life OS (Brainware)** | Tôi vận hành cuộc đời bằng hệ thống nào? | [life-os/](life-os/README.md) | [life-os/README.md](life-os/README.md) – tổng quan 6 engine; [decision-engine.md](life-os/decision-engine.md) – khuôn ra quyết định; [risk-engine.md](life-os/risk-engine.md) – phòng thủ; [Shawty/README.md](Shawty/README.md) – hub dating/relationships; **Bonus:** [Philosophy Domain](../01-mental-models/philosophy/README.md) – “firmware” giá trị & đạo đức. |
 | **Layer 2 – Well-being (Hardware)** | Năng lượng, hormone, tinh thần của tôi có ổn định không? | [well-being/](well-being/README.md) | [biohacking/health-os-overview.md](well-being/biohacking/health-os-overview.md) – Health OS 12 tuần; [mental-resilience/burnout-prevention.md](well-being/mental-resilience/burnout-prevention.md) – protocol chống burnout; [biohacking/sleep-optimization.md](well-being/biohacking/sleep-optimization.md) – tối ưu giấc ngủ. |
 | **Layer 3 – Politics (Environment)** | Môi trường quốc gia/thế giới đang vận hành ra sao? Tôi cần chuẩn bị gì? | [politics/](politics/README.md) | [politics/README.md](politics/README.md) – roadmap chính trị; [politics/vietnam-system.md](politics/vietnam-system.md) – cấu trúc VN; [politics/geopolitics/world-order.md](politics/geopolitics/world-order.md) – bức tranh toàn cầu. |
 
@@ -78,7 +78,7 @@
 ---
 
 ## 📂 Mục lục chính
-- [life-os/](life-os/README.md): 6 động cơ cốt lõi, psychology, energy, leverage, [psychology-reading-women.md](psychology-reading-women.md), [psychology-women-contexts.md](psychology-women-contexts.md).
+- [life-os/](life-os/README.md): 6 động cơ cốt lõi, psychology, energy, leverage, [Shawty/README.md](Shawty/README.md).
 - [well-being/](well-being/README.md): Biohacking, mental resilience, templates theo dõi.
 - [politics/](politics/README.md): Fundamentals, philosophy, geopolitics, Việt Nam system, digital politics.
 
