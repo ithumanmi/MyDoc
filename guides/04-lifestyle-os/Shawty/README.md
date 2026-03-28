@@ -14,6 +14,7 @@ tags: [dating, relationships, psychology, social-intelligence]
 | --- | --- | --- |
 | Mới match / nhắn trên app | [psychology-dating-online-messaging.md](./psychology-dating-online-messaging.md) | Tempo, ranh giới số, chuyển sang gặp |
 | Đang tán, muốn hiểu “chỗ trống” cảm xúc | [psychology-dating-principles.md](./psychology-dating-principles.md) | Kèm cảnh báo archetype ở mục 0 |
+| Khao khát mạnh, muốn chuyển hóa bản năng thành kỷ luật | [psychology-dating-desire-benefits.md](./psychology-dating-desire-benefits.md) | Lợi ích & mặt tối, khung hành động |
 | Giao tiếp hằng ngày, đọc tín hiệu | [psychology-reading-women.md](./psychology-reading-women.md) | READ, 3 layer |
 | Cần đặt người đó vào tuổi, nghề, bối cảnh | [psychology-women-contexts.md](./psychology-women-contexts.md) | CLUE + case |
 | Gia đình, Tết, thể diện, tiền bạc theo văn hóa VN | [psychology-dating-vietnam-social-context.md](./psychology-dating-vietnam-social-context.md) | Khung VERIFY + câu hỏi kiểm chứng |
@@ -39,6 +40,8 @@ tags: [dating, relationships, psychology, social-intelligence]
   → [psychology-dating-conflict-repair.md](./psychology-dating-conflict-repair.md)
 - **Nguyên tắc tán gái: Xuất hiện đúng chỗ trống** – đọc thiếu hụt cảm xúc/bối cảnh, mang đúng mảnh ghép cô ấy cần.  
   → [psychology-dating-principles.md](./psychology-dating-principles.md)
+- **Khao khát & bản năng** – chuyển năng lượng sinh học thành kỷ luật, tránh mù quáng.  
+  → [psychology-dating-desire-benefits.md](./psychology-dating-desire-benefits.md)
 - **“Điểm G” trong đầu** – tạo mới mẻ, khoảnh khắc cảm xúc, tò mò, đồng điệu, thử thách nhẹ.  
   → [psychology-dating-brain-g-point.md](./psychology-dating-brain-g-point.md)
 - **Đọc tâm lý phụ nữ** – khung hiểu an toàn cảm xúc, agency, consistency; giao tiếp tôn trọng.  
