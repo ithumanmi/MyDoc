@@ -1,66 +1,66 @@
-# 📡 Advanced API Design Patterns
+# 📡 Các Mẫu Thiết Kế API Nâng Cao
 
-> [← Back to Backend Development](../README.md)
+> [← Quay lại Backend Development](../README.md)
 
-This module helps you choose the right API style and implement best practices for production-grade interfaces.
+Module này giúp bạn chọn đúng phong cách API và áp dụng các thực hành tốt nhất cho các giao diện đạt chuẩn production.
 
-## 1. API Styles Comparison
+## 1. So sánh các phong cách API
 
 ### **REST (Representational State Transfer)**
-*   **Philosophy:** Resources (`/users`) + Verbs (`GET`, `POST`).
-*   **Pros:** Standard, simple, caching (HTTP GET is cacheable), stateless.
-*   **Cons:** Over-fetching (getting too much data), Under-fetching (need multiple requests).
-*   **Best for:** Public APIs, simple CRUD, resource-oriented apps.
+*   **Triết lý:** Tài nguyên (`/users`) + Động từ (`GET`, `POST`).
+*   **Ưu điểm:** Chuẩn, đơn giản, hỗ trợ cache (HTTP GET có thể cache), stateless.
+*   **Nhược điểm:** Over-fetching (lấy quá nhiều dữ liệu), Under-fetching (cần nhiều request).
+*   **Phù hợp cho:** Public APIs, CRUD đơn giản, ứng dụng định hướng tài nguyên.
 
 ### **GraphQL (Query Language)**
-*   **Philosophy:** Client asks for exactly what it needs. Single endpoint (`/graphql`).
-*   **Pros:** Efficient data fetching, strong typing (Schema), developer experience.
-*   **Cons:** Complex caching (all requests are `POST`), N+1 query problem, harder to secure (query depth).
-*   **Best for:** Mobile apps, complex frontends, aggregating multiple data sources.
+*   **Triết lý:** Client yêu cầu chính xác dữ liệu nó cần. Một endpoint duy nhất (`/graphql`).
+*   **Ưu điểm:** Lấy dữ liệu hiệu quả, strong typing (Schema), trải nghiệm dev tốt.
+*   **Nhược điểm:** Cache phức tạp (mọi request đều `POST`), vấn đề N+1 query, bảo mật khó hơn (độ sâu truy vấn).
+*   **Phù hợp cho:** Ứng dụng mobile, frontend phức tạp, tổng hợp nhiều nguồn dữ liệu.
 
 ### **gRPC (Google Remote Procedure Call)**
-*   **Philosophy:** Remote function calls using Protobuf (binary) over HTTP/2.
-*   **Pros:** Extremely fast (binary), strict contracts (.proto), streaming support (Server/Client streaming).
-*   **Cons:** Not browser-friendly (needs gRPC-Web proxy), harder to debug (binary format).
-*   **Best for:** Microservices communication (East-West traffic), high-performance internal APIs.
+*   **Triết lý:** Gọi hàm từ xa dùng Protobuf (nhị phân) qua HTTP/2.
+*   **Ưu điểm:** Rất nhanh (nhị phân), hợp đồng chặt chẽ (.proto), hỗ trợ streaming (Server/Client streaming).
+*   **Nhược điểm:** Không thân thiện trình duyệt (cần proxy gRPC-Web), khó debug (định dạng nhị phân).
+*   **Phù hợp cho:** Giao tiếp microservices (luồng East-West), API nội bộ hiệu năng cao.
 
 ### **WebSocket**
-*   **Philosophy:** Full-duplex persistent connection. Real-time.
-*   **Pros:** Instant updates (Chat, Games, Live Feeds), lower overhead than polling.
-*   **Cons:** Connection management (stateful), load balancing is tricky (need sticky sessions).
-*   **Best for:** Real-time applications.
+*   **Triết lý:** Kết nối persistent full-duplex. Real-time.
+*   **Ưu điểm:** Cập nhật tức thì (Chat, Game, Live Feed), overhead thấp hơn polling.
+*   **Nhược điểm:** Quản lý kết nối (stateful), cân bằng tải phức tạp (cần sticky sessions).
+*   **Phù hợp cho:** Ứng dụng real-time.
 
 ---
 
-## 2. API Gateway Patterns
-A single entry point for all clients.
+## 2. Mẫu API Gateway
+Một điểm vào duy nhất cho mọi client.
 
-### **Core Responsibilities**
+### **Trách nhiệm cốt lõi**
 1.  **Routing:** `/user/*` -> User Service, `/order/*` -> Order Service.
-2.  **Authentication/Authorization:** Validate JWT centrally. Offload auth from services.
-3.  **Rate Limiting:** Protect backend from abuse.
-4.  **Transformation:** Convert JSON -> Protobuf, or aggregate responses.
+2.  **Authentication/Authorization:** Validate JWT tập trung. Giảm tải auth khỏi services.
+3.  **Rate Limiting:** Bảo vệ backend khỏi lạm dụng.
+4.  **Transformation:** Chuyển JSON -> Protobuf, hoặc tổng hợp phản hồi.
 
 ### **BFF (Backend for Frontend)**
-*   Create separate Gateways/Services for different clients.
-    *   `Mobile-BFF` -> Optimized for small screens, lower bandwidth.
-    *   `Web-BFF` -> Rich data.
-    *   `Public-API-Gateway` -> Strict rate limits, docs.
+*   Tạo Gateway/Service riêng cho từng loại client.
+    *   `Mobile-BFF` -> Tối ưu cho màn hình nhỏ, băng thông thấp.
+    *   `Web-BFF` -> Dữ liệu phong phú.
+    *   `Public-API-Gateway` -> Giới hạn tần suất nghiêm ngặt, tài liệu đầy đủ.
 
 ---
 
-## 3. Versioning Strategies
-APIs change. Don't break clients.
+## 3. Chiến lược Versioning
+API thay đổi. Đừng làm hỏng client.
 
-1.  **URI Path:** `/api/v1/users` (Most common, clear).
-2.  **Query Parameter:** `/api/users?v=1` (Easy to implement, can be cached).
-3.  **Header:** `Accept: application/vnd.myapi.v1+json` (RESTful purist, hardest to test).
+1.  **URI Path:** `/api/v1/users` (Phổ biến nhất, rõ ràng).
+2.  **Query Parameter:** `/api/users?v=1` (Dễ triển khai, có thể cache).
+3.  **Header:** `Accept: application/vnd.myapi.v1+json` (Chuẩn REST thuần, khó test nhất).
 
 ---
 
 ## 4. Idempotency
-Ensuring safe retries. If a client sends the same request twice (e.g., network timeout), the result should be the same.
+Đảm bảo retry an toàn. Nếu client gửi cùng một request hai lần (vd: timeout mạng), kết quả phải như nhau.
 
-*   **Safe Methods:** `GET`, `PUT`, `DELETE` are idempotent by definition.
-*   **Unsafe Method:** `POST` (creates resource).
-*   **Implementation:** Client sends `Idempotency-Key` header (UUID). Server checks Redis: "Did I process this UUID?". If yes -> Return previous response. If no -> Process and save.
+*   **Phương thức an toàn:** `GET`, `PUT`, `DELETE` là idempotent theo định nghĩa.
+*   **Phương thức không an toàn:** `POST` (tạo tài nguyên mới).
+*   **Triển khai:** Client gửi header `Idempotency-Key` (UUID). Server kiểm tra Redis: “Đã xử lý UUID này chưa?”. Nếu rồi -> Trả kết quả cũ. Nếu chưa -> Xử lý và lưu.
