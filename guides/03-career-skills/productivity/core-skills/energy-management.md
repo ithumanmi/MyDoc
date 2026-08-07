@@ -73,7 +73,7 @@ Tại sao đọc sách chán nhưng lướt TikTok lại thú vị? Vì não que
 2.  **Hard Things First:** Làm việc khó nhất vào buổi sáng khi Dopamine chưa bị tiêu hao bởi MXH. Chỉ check mạng sau block Deep Work đầu tiên.
 3.  **Environmental Design:** Xóa app gây nghiện, dùng website blocker, chuẩn bị to-do list từ tối hôm trước để tránh decision fatigue.
 
-> Nếu muốn hiểu sâu hơn về dopamine/hormone, xem [Life OS Energy Management](../../../04-lifestyle-os/life-os/energy-management.md) và [Well-being Dopamine System](../../../04-lifestyle-os/well-being/biohacking/dopamine-system.md).
+> Nếu muốn hiểu sâu hơn về dopamine/hormone, xem [Life OS Energy Management](../../../04-lifestyle-os/life-os/energy-management.md) và [Well-being Dopamine System](../../../04-lifestyle-os/health/dopamine-system.md).
 
 > Tạo ngày detox hoàn chỉnh với [Dopamine Detox Checklist](../../../templates/well-being/dopamine-detox-checklist.md).
 

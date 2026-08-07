@@ -11,7 +11,7 @@
   - Cố định bedtime/wake time ±30 phút.
   - Sunlight sáng + dim lights tối.
   - Không caffeine sau 14h.
-- **Tài liệu:** [Sleep Optimization](./biohacking/sleep-optimization.md), [Cortisol & Melatonin System](./biohacking/cortisol-melatonin-system.md).
+- **Tài liệu:** [Sleep Optimization](../health/sleep-optimization.md), [Cortisol & Melatonin System](../health/cortisol-melatonin-system.md).
 
 ## 2. Movement & Cellular Renewal (Vận động & Tái tạo tế bào)
 - **Tác động:** Muscle mass & VO₂ max cao → giảm 30-40% mortality. Sarcopenia (mất cơ) là kẻ thù của tuổi già.
@@ -23,7 +23,7 @@
   - Fasting (Nhịn ăn gián đoạn): Ăn xong bữa tối lúc 8PM, bỏ qua bữa sáng hôm sau, ăn trưa lúc 12PM (16 tiếng không nạp calo).
   - Kết hợp micro-workout (push-up, squat) mỗi 2h.
   - Trì hoãn việc bổ sung NAD+/NMN nếu chưa làm tốt nền tảng trên (NAD+ có tăng nhờ Fasting tự nhiên).
-- **Tài liệu:** [Movement Protocols](./biohacking/movement-protocols.md), [Health Optimization Protocols](./biohacking/health-optimization-protocols.md), [Glucose & Insulin](./biohacking/glucose-insulin-system.md).
+- **Tài liệu:** [Movement Protocols](../health/movement-protocols.md), [Health Optimization Protocols](../health/health-optimization-protocols.md), [Glucose & Insulin](../health/glucose-insulin-system.md).
 
 ## 3. Stress & Nervous System
 - **Tác động:** Cortisol cao mãn tính → viêm, lão hóa tế bào nhanh, rối loạn hormone.
@@ -67,9 +67,9 @@
 
 ## Mở rộng & tài nguyên
 - [Environment & Workspace](./environment-workspace.md) – giữ “hardware” ổn định để các thói quen trên dễ thực thi.
-- [Health Optimization Protocols](./biohacking/health-optimization-protocols.md) – lịch trình sáng/tối/tuần.
+- [Health Optimization Protocols](../health/health-optimization-protocols.md) – lịch trình sáng/tối/tuần.
 - [When to Seek Help?](./when-to-seek-help.md) – dấu hiệu nên gặp bác sĩ.
-- [Supplements 101](./biohacking/supplements-101.md) – bổ trợ nếu đã khoá chặt nền tảng.
+- [Supplements 101](../health/supplements-101.md) – bổ trợ nếu đã khoá chặt nền tảng.
 
 > “Longevity không phải chạy marathon trong 1 ngày, mà là chạy bền từng ngày trong cả thập kỷ.”
 

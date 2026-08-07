@@ -10,6 +10,13 @@ updated: 2026-03-10
 
 # 🧭 Roadmap C#/.NET 2026 – Từ dòng code đầu tiên đến hệ thống enterprise
 
+<!-- agent-summary -->
+**Agent SUMMARY** (read this first; jump to `##` needed):
+- C#/.NET 8 path: Foundation → Web API → Production Builder → Architect/specialist.
+- Sections: why .NET → roadmap overview → Phases 0–3 → SQL Server snapshot → 30-60-90 → portfolio → resources → starter kit → next steps.
+- Pair with hub `backend-dev/README.md` and `technical-architect-dotnet.md` for senior/arch track.
+<!-- /agent-summary -->
+
 > ".NET không chỉ là tech stack, đó là ngôn ngữ kinh doanh của các tập đoàn lớn." – Satya Nadella
 
 C# và .NET 8 tiếp tục thống trị nhóm **enterprise backend, fintech, govtech, game backend và IoT**. Stack này mang lại **hiệu năng cao, hệ sinh thái ổn định, tooling mạnh** và cơ hội việc làm lớn (đặc biệt ở Việt Nam trong các tập đoàn ngân hàng, bảo hiểm, outsourcing cao cấp). Tài liệu này cung cấp:

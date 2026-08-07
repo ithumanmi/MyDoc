@@ -36,15 +36,15 @@ Dưới đây là 5 trụ cột để nuôi dưỡng Dương Khí từ gốc r�
 
 | Tuần | Ritual buổi sáng | Ritual buổi tối | Liên kết |
 | --- | --- | --- | --- |
-| 1 | 10 phút tắm nắng + 20 push-up | Tắt màn hình 21h, thiền 5 phút | [Sleep Optimization](./biohacking/sleep-optimization.md) |
-| 2 | Thở Đan điền + squat 50 reps | Siết bụng, grounding 3 phút | [Movement Protocols](./biohacking/movement-protocols.md) |
+| 1 | 10 phút tắm nắng + 20 push-up | Tắt màn hình 21h, thiền 5 phút | [Sleep Optimization](../health/sleep-optimization.md) |
+| 2 | Thở Đan điền + squat 50 reps | Siết bụng, grounding 3 phút | [Movement Protocols](../health/movement-protocols.md) |
 | 3 | Võ thuật / shadow boxing 15 phút | Viết gratitude journal 5 điểm | [Mindfulness Meditation](./mental-resilience/mindfulness-meditation.md) |
 
 > Sau 21 ngày, chọn 3 ritual phù hợp nhất để đưa vào routine cố định.
 
 ### ➡️ Bước tiếp theo
-- **Cần cấu trúc tập luyện & vận động:** sang [Movement Protocols](./biohacking/movement-protocols.md) để build lịch strength + Zone 2.
-- **Muốn tăng nội lực/hormone drive:** đọc [Testosterone System](./biohacking/testosterone-system.md) để biết cách bảo vệ trục nội tiết.
+- **Cần cấu trúc tập luyện & vận động:** sang [Movement Protocols](../health/movement-protocols.md) để build lịch strength + Zone 2.
+- **Muốn tăng nội lực/hormone drive:** đọc [Testosterone System](../health/testosterone-system.md) để biết cách bảo vệ trục nội tiết.
 - **Rèn tâm thép/ý chí:** xem [Stoicism for Modern Life](./mental-resilience/stoicism-for-modern-life.md) hoặc các tài liệu mental toughness.
 
 ## Lời Kết

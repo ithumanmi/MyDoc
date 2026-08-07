@@ -1,3 +1,16 @@
+---
+title: "Data Structures & Algorithms Roadmap"
+description: "DSA and interview-oriented algorithms practice hub"
+updated: "2026-08-07"
+canonical: true
+tags: [dsa, algorithms, roadmap]
+audience: [beginner, intermediate, advanced]
+related:
+  - ../../challenges/dsa/README.md
+  - ../README.md
+sensitivity: public
+---
+
 # 🧮 Data Structures & Algorithms (DSA) Roadmap
 
 > [← Back to Chapter 1](../../chapters/01-xac-dinh-linh-vuc.md) | [Home](../../README.md) | [🚀 Quick Start](../../QUICK-START.md) | [📖 Glossary](../../GLOSSARY.md)

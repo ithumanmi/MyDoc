@@ -122,6 +122,6 @@
 
 ## 🚀 Tài liệu bổ trợ để "Level Up"
 *   **Hệ điều hành cuộc đời:** [Life OS Framework](../../guides/04-lifestyle-os/life-os/README.md)
-*   **Tối ưu sức khỏe:** [Health OS Overview](../../guides/04-lifestyle-os/well-being/biohacking/health-os-overview.md)
+*   **Tối ưu sức khỏe:** [Health OS Overview](../../guides/04-lifestyle-os/health/health-os-overview.md)
 *   **Kỹ năng vua:** [Meta-Learning Guide](../../guides/03-career-skills/productivity/meta-skills/meta-learning.md)
 *   **Duy trì kỷ luật:** [Anti-Slip System](../../guides/03-career-skills/growth/anti-slip-system.md)

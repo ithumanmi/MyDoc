@@ -1,3 +1,17 @@
+---
+title: "Backend Development Roadmap"
+description: "API, database, architecture, security, and labs for backend engineers"
+updated: "2026-08-07"
+canonical: true
+tags: [backend, api, roadmap]
+audience: [beginner, intermediate, advanced]
+related:
+  - INDEX.md
+  - ../../challenges/backend/README.md
+  - ../README.md
+sensitivity: public
+---
+
 # 🔧 Backend Development Roadmap
 
 > [← Back to Chapter 1](../../chapters/01-xac-dinh-linh-vuc.md) | [Home](../../README.md) | [🚀 Quick Start](../../QUICK-START.md) | [📖 Glossary](../../GLOSSARY.md)
@@ -9,6 +23,14 @@
 > **Time to Master:** 12-18 months (Junior to Senior-ready)
 >
 > 🗂️ **[XEM MỤC LỤC TOÀN DIỆN (MASTER INDEX)](./INDEX.md)** - Tra cứu nhanh tất cả tài liệu Backend.
+
+<!-- agent-summary -->
+**Agent SUMMARY** (read this first; jump to `##` needed):
+- Hub for all backend curriculum — start here, then INDEX or Operating Map.
+- Sections: operating map → reality check → visual roadmap → detailed levels → ELI5 concepts → portfolio → resources → Node vs C# → checklist.
+- Deep-dives often linked: `system-design-guide.md`, `database-fundamentals.md`, `csharp-dotnet-roadmap.md`.
+- Practice: `challenges/backend/`. Career soft skills stay in `guides/03-career-skills/`.
+<!-- /agent-summary -->
 
 **🎯 New to Backend?** Check [Quick Start - Mid-Level Path](../../QUICK-START.md#-path-2-mid-level-developer-2-5-years) or [Senior Path](../../QUICK-START.md#-path-3-senior--expert-5-years)  
 **🔍 Backend terms:** See [Glossary](../../GLOSSARY.md) for REST API, Microservices, Caching, Load Balancing, etc.  

@@ -1,14 +1,25 @@
 ---
 title: "Game Development Roadmap (Unity Focus)"
-description: "Lộ trình kỹ năng Unity, gameplay, multiplayer và portfolio cho developer Việt Nam."
-tags:
-  - unity
-  - game-dev
-  - roadmap
-updated: 2026-03-16
+description: "Unity/C#, gameplay, multiplayer, and portfolio tech track hub"
+updated: "2026-08-07"
+canonical: true
+tags: [unity, game-dev, roadmap]
+audience: [beginner, intermediate, advanced]
+related:
+  - ../../challenges/game-dev/README.md
+  - ../../guides/03-career-skills/game-dev/README.md
+  - ../README.md
+sensitivity: public
 ---
 
 # 🎮 Game Development Roadmap (Unity Focus)
+
+<!-- agent-summary -->
+**Agent SUMMARY** (read this first; jump to `##` needed):
+- Tech-track hub (Unity/C#, gameplay, netcode, graphics, labs) — not career deals.
+- Sections: module index → reality check → visual roadmap → detailed Unity path → multiplayer deep-dive → portfolio → resources.
+- Career/freelance/publisher → `guides/03-career-skills/game-dev/`. Practice → `challenges/game-dev/`.
+<!-- /agent-summary -->
 
 > **Goal & Success Criteria**  
 > • **Goal:** Build technical mastery (Unity, C#, Multiplayer) và publish được trò chơi/ứng tuyển studio.  
@@ -16,6 +27,7 @@ updated: 2026-03-16
 > • **Success:** Tự ship game hoàn chỉnh, chăm sóc live metrics, cross-skill giữa gameplay & server.
 
 > **Scope of this domain (tech track):** Unity/C#, gameplay systems, netcode & server, graphics/VFX, production/QA, labs/challenges.  
+> **Overlap map:** [`meta/domain-guide-map.md`](../../meta/domain-guide-map.md)  
 > **Career & business track:** xem [guides/03-career-skills/game-dev/](../../guides/03-career-skills/game-dev/README.md) (freelance, publisher deals, monetization).
 
 > 🆕 **What's new (Mar 2026):**

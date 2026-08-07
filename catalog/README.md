@@ -1,11 +1,8 @@
-# Catalog for agents & RAG
+# Moved
 
-| File | Purpose |
-| --- | --- |
-| [topics.yaml](./topics.yaml) | topic id → canonical path + aliases |
-| [FRONTMATTER.md](./FRONTMATTER.md) | YAML schema for markdown |
-| [rag-exclude.txt](./rag-exclude.txt) | Globs to skip when embedding |
+Catalog moved to [`../meta/catalog/`](../meta/catalog/).
 
-Validate: `python scripts/check_agent_catalog.py`
+- Topics: [`../meta/catalog/topics.yaml`](../meta/catalog/topics.yaml)
+- Hub: [`../meta/README.md`](../meta/README.md)
 
-Human routing twin: [`../AGENT-ROUTING.md`](../AGENT-ROUTING.md)
+Agents should use the new path. Update bookmarks.

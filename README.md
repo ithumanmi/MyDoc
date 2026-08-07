@@ -34,7 +34,7 @@ Hiểu cấu trúc để navigate hiệu quả. Mỗi mục lớn hiển thị *
   - **`resources/collected_links/`** *(Domain-specific links | Last reviewed: Dec 2025)* – Curated links theo domain (AI, Backend, Security...)
 - **`case-studies/`** *(Intermediate → Advanced | Last reviewed: Feb 2026)* – Phân tích case thực tế (Vietnam & Global leaders)
 - **[`OVERVIEW.md`](./OVERVIEW.md)** *(Meta map | Last reviewed: Aug 2026)* – Bản đồ trực quan kết nối các thư mục chính.
-- **Agents / RAG** *(Machine nav | Aug 2026)* – [`AGENTS.md`](./AGENTS.md) · [`AGENT-ROUTING.md`](./AGENT-ROUTING.md) · [`llms.txt`](./llms.txt) · [`catalog/`](./catalog/) · [`agent-eval/`](./agent-eval/) · plan: [`AGENT-RETRIEVAL-PLAN.md`](./AGENT-RETRIEVAL-PLAN.md)
+- **Agents / RAG** *(Machine nav | Aug 2026)* – [`AGENTS.md`](./AGENTS.md) · [`meta/`](./meta/) ([`routing`](./meta/routing.md) · [`catalog`](./meta/catalog/) · [`eval`](./meta/eval/)) · [`llms.txt`](./llms.txt) · stubs: [`AGENT-ROUTING.md`](./AGENT-ROUTING.md)
 
 > **🆕 Last reviewed badges** sẽ xuất hiện ở đầu README của mọi thư mục chính để người đọc nắm được độ mới nội dung.
 
@@ -117,7 +117,7 @@ Hiểu cấu trúc để navigate hiệu quả. Mỗi mục lớn hiển thị *
     *   👉 [Tech Startup Base](guides/02-wealth-business/entrepreneurship/tech-startup/README.md) | [Solopreneur Lẻ Bậc](guides/02-wealth-business/entrepreneurship/solopreneur/README.md)
 24. **[Well-being & High Performance (Sức khỏe Biohacking)](guides/04-lifestyle-os/well-being/README.md)** ⭐ **Health OS Updated!**
     *   *Bảo trì cỗ máy Tọa Tạng Kiếm Tiền (Cơ Thể) Gỡ Bug Tối Kỵ Mạch Ngắn Chặn Vĩnh Viễn Giới Stress.*
-    *   👉 [Dopamine Protocols](guides/04-lifestyle-os/well-being/biohacking/health-optimization-protocols.md) | [Sleep BioHacks](guides/04-lifestyle-os/well-being/biohacking/sleep-optimization.md)
+    *   👉 [Dopamine Protocols](guides/04-lifestyle-os/health/health-optimization-protocols.md) | [Sleep BioHacks](guides/04-lifestyle-os/health/sleep-optimization.md)
 25. **[Global Intelligence (Tư duy Vĩ mô Rất Rộng)](guides/01-mental-models/global-intelligence/README.md)**
     *   *Đọc vị thế giới, rụng nhiễu thông tin Cáo Sai lầm rỗng Lác Sâu Tư duy Chóp Bu Khắc Phục.*
 26. **[Innovation & Design Thinking (Đổi mới sáng tạo Mảnh)](guides/03-career-skills/innovation/design-thinking.md)**

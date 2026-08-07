@@ -1,3 +1,16 @@
+---
+title: "Mobile App Development Roadmap"
+description: "iOS, Android, and cross-platform mobile curriculum hub"
+updated: "2026-08-07"
+canonical: true
+tags: [mobile, ios, android, roadmap]
+audience: [beginner, intermediate, advanced]
+related:
+  - ../../challenges/mobile/README.md
+  - ../README.md
+sensitivity: public
+---
+
 # 📱 Mobile App Development Roadmap
 
 > [← Back to Chapter 1](../../chapters/01-xac-dinh-linh-vuc.md) | [Home](../../README.md)
@@ -9,6 +22,9 @@
 > **📅 Last reviewed:** March 2026
 
 ---
+
+<!-- tech-career-nav -->
+> **Tech vs Career:** this folder = technical how-to. **Mobile career / monetization:** [Mobile career / monetization](../../guides/03-career-skills/mobile-dev/README.md). Full map: [`meta/domain-guide-map.md`](../../meta/domain-guide-map.md).
 
 ## 📊 1. Reality Check: App Dev vs The World
 

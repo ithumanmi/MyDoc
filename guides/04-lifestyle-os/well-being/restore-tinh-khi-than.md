@@ -44,10 +44,10 @@ Chỉ khi Khí ổn, Tinh mới dám tụ. Tinh không thể được "tạo ra"
 | Ngày | Ritual chính | Liên kết |
 | --- | --- | --- |
 | 1 | Dọn dẹp không gian + 10 phút thở Đan điền | [Mindfulness Meditation](./mental-resilience/mindfulness-meditation.md) |
-| 2 | Tắm nước ấm + xoa bóp chân trước khi ngủ | [Sleep Optimization](./biohacking/sleep-optimization.md) |
+| 2 | Tắm nước ấm + xoa bóp chân trước khi ngủ | [Sleep Optimization](../health/sleep-optimization.md) |
 | 3 | Viết “Safety Signals” (5 điều làm mình thấy an toàn) | [Burnout Prevention](./mental-resilience/burnout-prevention.md) |
-| 4 | Đi bộ chân đất/thiền hành 20 phút | [Movement Protocols](./biohacking/movement-protocols.md) |
-| 5 | Digital sunset 21h + đọc sách giấy | [Cortisol & Melatonin](./biohacking/cortisol-melatonin-system.md) |
+| 4 | Đi bộ chân đất/thiền hành 20 phút | [Movement Protocols](../health/movement-protocols.md) |
+| 5 | Digital sunset 21h + đọc sách giấy | [Cortisol & Melatonin](../health/cortisol-melatonin-system.md) |
 | 6 | Nhịn nói 2h, chỉ quan sát hơi thở | [Mindfulness Meditation](./mental-resilience/mindfulness-meditation.md) |
 | 7 | Tổng kết cảm nhận → viết lại “Grounding Routine” cá nhân | [Daily Performance Tracker](../../../templates/well-being/daily-performance-tracker.md) |
 
@@ -70,7 +70,7 @@ Phục hồi Tinh – Khí – Thần là một tiến trình chậm, nhưng ch�
 Khi ba tầng này tái lập trật tự, lo âu không cần bị "chữa", vì nền sinh lý tạo ra lo âu đã không còn.
 
 ### ➡️ Bước tiếp theo nên làm gì?
-- **Cần ngủ sâu hơn:** sang [Sleep Optimization](./biohacking/sleep-optimization.md).
+- **Cần ngủ sâu hơn:** sang [Sleep Optimization](../health/sleep-optimization.md).
 - **Muốn củng cố thói quen thở/thiền:** xem [Mindfulness Meditation](./mental-resilience/mindfulness-meditation.md).
 - **Đang kiệt sức/burnout:** bật [Burnout Prevention](./mental-resilience/burnout-prevention.md) để có protocol dài hạn.
 

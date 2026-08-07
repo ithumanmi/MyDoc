@@ -2,7 +2,7 @@
 
 version: 1
 updated: 2026-08-07
-schema: catalog/FRONTMATTER.md
+schema: meta/catalog/FRONTMATTER.md
 
 topics:
   - id: repo.overview
@@ -13,7 +13,16 @@ topics:
   - id: agent.routing
     aliases: [agent rules, how to navigate]
     canonical: AGENTS.md
-    related: [AGENT-ROUTING.md, llms.txt, catalog/topics.yaml]
+    related: [meta/routing.md, llms.txt, meta/catalog/topics.yaml, meta/README.md, meta/domain-guide-map.md]
+
+  - id: domains.guide_overlap
+    aliases: [tech vs career, domain guide overlap, career vs technical]
+    canonical: meta/domain-guide-map.md
+    related:
+      - domains/README.md
+      - domains/INDEX.md
+      - guides/03-career-skills/README.md
+      - guides/INDEX.md
 
   - id: domains.hub
     aliases: [domain list, maturity]
@@ -37,47 +46,47 @@ topics:
 
   - id: endocrine.map
     aliases: [hormone map, hệ nội tiết, hormones overview]
-    canonical: guides/04-lifestyle-os/well-being/biohacking/endocrine-hormone-map.md
+    canonical: guides/04-lifestyle-os/health/endocrine-hormone-map.md
     related:
-      - guides/04-lifestyle-os/well-being/biohacking/endocrine-control-playbook.md
-      - guides/04-lifestyle-os/well-being/biohacking/health-os-overview.md
+      - guides/04-lifestyle-os/health/endocrine-control-playbook.md
+      - guides/04-lifestyle-os/health/health-os-overview.md
 
   - id: endocrine.control
     aliases: [control hormone, kiểm soát hormone, hormone checklist]
-    canonical: guides/04-lifestyle-os/well-being/biohacking/endocrine-control-playbook.md
+    canonical: guides/04-lifestyle-os/health/endocrine-control-playbook.md
     related:
-      - guides/04-lifestyle-os/well-being/biohacking/endocrine-hormone-map.md
+      - guides/04-lifestyle-os/health/endocrine-hormone-map.md
 
   - id: hormone.cortisol_melatonin
     aliases: [cortisol, melatonin, stress hormone, circadian, giấc ngủ hormone]
-    canonical: guides/04-lifestyle-os/well-being/biohacking/cortisol-melatonin-system.md
+    canonical: guides/04-lifestyle-os/health/cortisol-melatonin-system.md
     related:
-      - guides/04-lifestyle-os/well-being/biohacking/sleep-optimization.md
-      - guides/04-lifestyle-os/well-being/biohacking/endocrine-control-playbook.md
+      - guides/04-lifestyle-os/health/sleep-optimization.md
+      - guides/04-lifestyle-os/health/endocrine-control-playbook.md
 
   - id: hormone.dopamine
     aliases: [dopamine, motivation, động lực]
-    canonical: guides/04-lifestyle-os/well-being/biohacking/dopamine-system.md
+    canonical: guides/04-lifestyle-os/health/dopamine-system.md
     related:
-      - guides/04-lifestyle-os/well-being/biohacking/neurotransmitters-guide.md
+      - guides/04-lifestyle-os/health/neurotransmitters-guide.md
 
   - id: hormone.insulin
     aliases: [insulin, glucose, blood sugar, kháng insulin]
-    canonical: guides/04-lifestyle-os/well-being/biohacking/glucose-insulin-system.md
+    canonical: guides/04-lifestyle-os/health/glucose-insulin-system.md
     related:
-      - guides/04-lifestyle-os/well-being/biohacking/nutrition-for-brain.md
+      - guides/04-lifestyle-os/health/nutrition-for-brain.md
 
   - id: hormone.testosterone
     aliases: [testosterone, test]
-    canonical: guides/04-lifestyle-os/well-being/biohacking/testosterone-system.md
+    canonical: guides/04-lifestyle-os/health/testosterone-system.md
     related:
-      - guides/04-lifestyle-os/well-being/biohacking/cortisol-melatonin-system.md
+      - guides/04-lifestyle-os/health/cortisol-melatonin-system.md
 
   - id: hormone.neurotransmitters
     aliases: [serotonin, gaba, acetylcholine, neurotransmitters]
-    canonical: guides/04-lifestyle-os/well-being/biohacking/neurotransmitters-guide.md
+    canonical: guides/04-lifestyle-os/health/neurotransmitters-guide.md
     related:
-      - guides/04-lifestyle-os/well-being/biohacking/dopamine-system.md
+      - guides/04-lifestyle-os/health/dopamine-system.md
 
   - id: domain.backend
     aliases: [backend, api, database]
@@ -107,7 +116,9 @@ topics:
   - id: domain.game_dev
     aliases: [game dev, unity]
     canonical: domains/game-dev/README.md
-    related: [challenges/game-dev/README.md]
+    related:
+      - challenges/game-dev/README.md
+      - guides/03-career-skills/game-dev/README.md
 
   - id: domain.web
     aliases: [web, frontend, nextjs, react]
@@ -156,9 +167,49 @@ topics:
     notes: Technical infra only; respect ToS/legal.
 
   - id: glossary
-    aliases: [glossary, từ điển]
+    aliases: [glossary, từ điển, acid, acid properties, định nghĩa]
     canonical: GLOSSARY.md
-    related: []
+    related:
+      - domains/backend-dev/database-fundamentals.md
+
+  - id: learning.techniques
+    aliases: [feynman, active recall, spaced repetition, learning-how-to-learn]
+    canonical: guides/03-career-skills/productivity/meta-skills/learning-how-to-learn.md
+    related:
+      - guides/03-career-skills/productivity/meta-skills/learning-os-framework.md
+
+  - id: practice.deliberate
+    aliases: [deliberate practice, luyện tập có chủ đích, chapter 2]
+    canonical: chapters/02-luyen-tap-co-chu-dich.md
+    related:
+      - guides/03-career-skills/productivity/meta-skills/learning-os-framework.md
+
+  - id: career.game_dev
+    aliases: [game career, unity freelance, publisher deals, game monetization]
+    canonical: guides/03-career-skills/game-dev/README.md
+    related:
+      - domains/game-dev/README.md
+
+  - id: challenge.blockchain_escrow
+    aliases: [escrow, solidity escrow, blockchain challenge]
+    canonical: challenges/blockchain/challenge-solidity-escrow.md
+    related:
+      - challenges/blockchain/README.md
+      - domains/blockchain/README.md
+
+  - id: project.lakehouse_elt
+    aliases: [lakehouse, elt, lakehouse ecommerce, ecommerce elt]
+    canonical: domains/data-science/projects/lakehouse-ecommerce-elt.md
+    related:
+      - domains/data-science/README.md
+      - challenges/data-science/README.md
+
+  - id: challenge.url_shortener
+    aliases: [url shortener, shortener, design url shortener]
+    canonical: challenges/system-design/challenge-design-url-shortener.md
+    related:
+      - domains/system-design/README.md
+      - challenges/system-design/README.md
 
   - id: guides.hub
     aliases: [guides, thư viện hướng dẫn]
@@ -190,7 +241,8 @@ topics:
     aliases: [lifestyle os, well-being hub, life os]
     canonical: guides/04-lifestyle-os/README.md
     related:
-      - guides/04-lifestyle-os/well-being/biohacking/health-os-overview.md
+      - guides/04-lifestyle-os/health/README.md
+      - guides/04-lifestyle-os/health/health-os-overview.md
       - personal/README.md
 
   - id: challenges.hub
@@ -203,35 +255,44 @@ topics:
     canonical: chapters/README.md
     related: [QUICK-START.md]
 
+  - id: health.hub
+    aliases: [health theory, biohacking hub, health folder]
+    canonical: guides/04-lifestyle-os/health/README.md
+    related:
+      - guides/04-lifestyle-os/health/health-os-overview.md
+      - guides/04-lifestyle-os/well-being/README.md
+      - personal/README.md
+
   - id: health.os
     aliases: [health os, sức khỏe hệ thống]
-    canonical: guides/04-lifestyle-os/well-being/biohacking/health-os-overview.md
+    canonical: guides/04-lifestyle-os/health/health-os-overview.md
     related:
-      - guides/04-lifestyle-os/well-being/biohacking/endocrine-hormone-map.md
-      - guides/04-lifestyle-os/well-being/biohacking/health-optimization-protocols.md
+      - guides/04-lifestyle-os/health/endocrine-hormone-map.md
+      - guides/04-lifestyle-os/health/health-optimization-protocols.md
+      - guides/04-lifestyle-os/health/README.md
 
   - id: sleep.optimization
     aliases: [sleep, ngủ, sleep hygiene, circadian sleep]
-    canonical: guides/04-lifestyle-os/well-being/biohacking/sleep-optimization.md
+    canonical: guides/04-lifestyle-os/health/sleep-optimization.md
     related:
-      - guides/04-lifestyle-os/well-being/biohacking/cortisol-melatonin-system.md
-      - guides/04-lifestyle-os/well-being/biohacking/endocrine-control-playbook.md
+      - guides/04-lifestyle-os/health/cortisol-melatonin-system.md
+      - guides/04-lifestyle-os/health/endocrine-control-playbook.md
 
   - id: movement.protocols
     aliases: [movement, exercise, sedentary, desk worker fitness]
-    canonical: guides/04-lifestyle-os/well-being/biohacking/movement-protocols.md
+    canonical: guides/04-lifestyle-os/health/movement-protocols.md
     related:
-      - guides/04-lifestyle-os/well-being/biohacking/health-optimization-protocols.md
+      - guides/04-lifestyle-os/health/health-optimization-protocols.md
 
   - id: health.daily_protocols
     aliases: [daily health routine, morning routine health, health protocols]
-    canonical: guides/04-lifestyle-os/well-being/biohacking/health-optimization-protocols.md
+    canonical: guides/04-lifestyle-os/health/health-optimization-protocols.md
     related:
-      - guides/04-lifestyle-os/well-being/biohacking/health-os-overview.md
+      - guides/04-lifestyle-os/health/health-os-overview.md
       - personal/README.md
 
   - id: nutrition.brain
     aliases: [nutrition for brain, brain food, ăn cho não]
-    canonical: guides/04-lifestyle-os/well-being/biohacking/nutrition-for-brain.md
+    canonical: guides/04-lifestyle-os/health/nutrition-for-brain.md
     related:
-      - guides/04-lifestyle-os/well-being/biohacking/glucose-insulin-system.md
+      - guides/04-lifestyle-os/health/glucose-insulin-system.md

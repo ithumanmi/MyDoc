@@ -604,7 +604,7 @@ Crash → Need more stimulation
 
 **→ Meditation = Dopamine detox complement!**
 
-[Link: Dopamine System](../biohacking/dopamine-system.md)
+[Link: Dopamine System](../../health/dopamine-system.md)
 
 ---
 
@@ -622,7 +622,7 @@ Prefrontal cortex strengthens (better regulation)
 Stress response: Reduced + Faster recovery
 ```
 
-[Link: Cortisol System](../biohacking/cortisol-melatonin-system.md#cortisol)
+[Link: Cortisol System](../../health/cortisol-melatonin-system.md#cortisol)
 
 ---
 
@@ -640,7 +640,7 @@ Sleep latency giảm (fall asleep faster)
 Sleep quality tăng (more deep sleep)
 ```
 
-[Link: Sleep Optimization](../biohacking/sleep-optimization.md)
+[Link: Sleep Optimization](../../health/sleep-optimization.md)
 
 ---
 
@@ -656,7 +656,7 @@ Anxiety giảm, Relaxation tăng
 Better emotional regulation
 ```
 
-[Link: Neurotransmitters Guide](../biohacking/neurotransmitters-guide.md#gaba)
+[Link: Neurotransmitters Guide](../../health/neurotransmitters-guide.md#gaba)
 
 ---
 
@@ -975,10 +975,10 @@ Flow state (90-120 min)
 ## 🔗 RELATED RESOURCES
 
 **Trong Well-being:**
-- [Dopamine System](../biohacking/dopamine-system.md) - Meditation stabilizes dopamine
-- [Cortisol & Stress](../biohacking/cortisol-melatonin-system.md) - Meditation reduces cortisol
-- [Sleep Optimization](../biohacking/sleep-optimization.md) - Evening meditation protocol
-- [Neurotransmitters](../biohacking/neurotransmitters-guide.md) - GABA, serotonin effects
+- [Dopamine System](../../health/dopamine-system.md) - Meditation stabilizes dopamine
+- [Cortisol & Stress](../../health/cortisol-melatonin-system.md) - Meditation reduces cortisol
+- [Sleep Optimization](../../health/sleep-optimization.md) - Evening meditation protocol
+- [Neurotransmitters](../../health/neurotransmitters-guide.md) - GABA, serotonin effects
 - [Burnout Prevention](./burnout-prevention.md) - Meditation for recovery
 
 **Books:**

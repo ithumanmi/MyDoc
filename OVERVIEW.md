@@ -14,8 +14,9 @@ graph TD
     A[README.md] --> B[QUICK-START.md]
     A --> C[ARCHITECTURE.md]
     A --> AG[AGENTS.md]
-    AG --> AR[AGENT-ROUTING.md]
-    AG --> CAT[catalog/topics.yaml]
+    AG --> META[meta/]
+    META --> AR[meta/routing.md]
+    META --> CAT[meta/catalog/topics.yaml]
     A --> R[personal/ life data]
     B --> D[chapters/]
     C --> E[domains/]
@@ -45,7 +46,7 @@ graph TD
 - **ARCHITECTURE.md**: Triết lý tổ chức + tiêu chuẩn chất lượng.
 - **OVERVIEW.md (tài liệu này)**: Bản đồ tổng hợp.
 - **domains/README.md**: Inventory + maturity.
-- **Agents:** [`AGENTS.md`](./AGENTS.md) → [`AGENT-ROUTING.md`](./AGENT-ROUTING.md) / [`catalog/`](./catalog/) · crawlers: [`llms.txt`](./llms.txt) · eval: [`agent-eval/questions.md`](./agent-eval/questions.md)
+- **Agents:** [`AGENTS.md`](./AGENTS.md) → [`meta/`](./meta/) ([routing](./meta/routing.md) / [catalog](./meta/catalog/) / [eval](./meta/eval/)) · crawlers: [`llms.txt`](./llms.txt)
 
 ---
 
@@ -75,7 +76,7 @@ graph TD
 | **Career Builder** (tập trung soft skills) | `README.md → guides/03-career-skills/README.md → templates/` | Life OS, KPI cá nhân, template hành động |
 | **Practitioner** (cần drill) | `domains/` theory → `challenges/<area>/` | Kata cụ thể, feedback nhanh |
 | **Researcher** (muốn ví dụ thực tế) | `README.md → case-studies/ → knowledge-audits/` | Bộ câu hỏi audit, phân tích đa lĩnh vực |
-| **AI Agent / RAG** | `AGENTS.md → AGENT-ROUTING` / `catalog/topics.yaml` → hub → canonical | Cite paths; treat `personal/` as private |
+| **AI Agent / RAG** | `AGENTS.md` → `meta/routing.md` / `meta/catalog/topics.yaml` → hub → canonical | Cite paths; treat `personal/` as private |
 
 ---
 

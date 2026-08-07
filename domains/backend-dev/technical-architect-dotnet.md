@@ -11,6 +11,13 @@ updated: 2026-03-10
 
 # 🧠 Technical Architect .NET Playbook (2026)
 
+<!-- agent-summary -->
+**Agent SUMMARY** (read this first; jump to `##` needed):
+- For Senior+ moving into Technical Architect on .NET + AWS enterprise stack.
+- 6 competency pillars; 3-phase growth; reference architecture; ADR; DevOps runbook; perf + security checklists.
+- Not a beginner .NET intro — use `csharp-dotnet-roadmap.md` first.
+<!-- /agent-summary -->
+
 > "Architect tốt không chỉ biết chọn công nghệ, mà biết cách vận hành và truyền cảm hứng để đội ngũ ship an toàn." – Internal Docs
 
 Tài liệu này dành cho các kỹ sư đã vượt qua mức Senior/Senior+ và chuẩn bị đảm nhận vai trò **Technical Architect** tập trung vào **.NET stack**, triển khai trên **AWS**, vận hành **Microservices**, **Containerization**, **DevOps**, bám sát tiêu chí **Performance** và **Security** ở quy mô enterprise.

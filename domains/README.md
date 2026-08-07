@@ -54,4 +54,4 @@ sensitivity: public
 3. `data-science` / `data-analytics` — notebook/sample datasets  
 4. `iot` — fleet ACL + dual-bank OTA walkthrough với config mẫu  
 
-> **Last Updated:** August 2026 · Compact: [INDEX.md](./INDEX.md)
+> **Last Updated:** August 2026 · Compact: [INDEX.md](./INDEX.md) · Overlap tech↔career: [`../meta/domain-guide-map.md`](../meta/domain-guide-map.md)

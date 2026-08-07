@@ -2,6 +2,12 @@
 
 > [← Back to Backend Roadmap](./README.md) | [Home](../../README.md)
 
+<!-- agent-summary -->
+**Agent SUMMARY** (read this first; jump to `##` needed):
+- Senior DB fundamentals: right tool SQL vs NoSQL, query optimization, transactions/isolation, normalization, pooling, schema examples, action plan.
+- Prefer this for “how databases work for backend”; glossary ACID terms may also appear in `GLOSSARY.md`.
+<!-- /agent-summary -->
+
 Hướng dẫn chuyên sâu về Database - kỹ năng quan trọng nhất (chiếm 50% công việc) của một Senior Backend Engineer. Không chỉ là viết SQL, mà là thiết kế schema, tối ưu queries, và đảm bảo data consistency ở scale lớn.
 
 ---

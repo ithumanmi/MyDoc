@@ -230,13 +230,14 @@ Machine-oriented entrypoints so Cursor / external RAG do not random-walk the cor
 | Artifact | Role |
 |:---|:---|
 | [`AGENTS.md`](./AGENTS.md) | Read order, answer policy, `personal/` privacy |
-| [`AGENT-ROUTING.md`](./AGENT-ROUTING.md) | Topic → canonical human table |
+| [`meta/routing.md`](./meta/routing.md) | Topic → canonical human table |
 | [`llms.txt`](./llms.txt) | Crawler / LLM entrypoints |
-| [`catalog/topics.yaml`](./catalog/topics.yaml) | Machine topic index |
-| [`catalog/rag-exclude.txt`](./catalog/rag-exclude.txt) | Globs to skip when embedding |
+| [`meta/catalog/topics.yaml`](./meta/catalog/topics.yaml) | Machine topic index |
+| [`meta/catalog/rag-exclude.txt`](./meta/catalog/rag-exclude.txt) | Globs to skip when embedding |
 | [`.cursor/rules/docs-agent-navigation.mdc`](./.cursor/rules/docs-agent-navigation.mdc) | Always-on Cursor rule |
-| [`agent-eval/questions.md`](./agent-eval/questions.md) | Retrieval smoke tests |
+| [`meta/eval/questions.md`](./meta/eval/questions.md) | Retrieval smoke tests |
 | `python scripts/check_agent_catalog.py` | Validate catalog paths |
+| [`meta/README.md`](./meta/README.md) | Agent/RAG layer hub |
 
 Long biohacking deep-dives expose an **Agent SUMMARY** block under the H1 for quick orientation.
 

@@ -50,5 +50,5 @@ Hệ thống Life OS mạnh đến đâu cũng sẽ sụp đổ nếu phần c�
 
 ### 🔗 Related Engines
 - **Energy Management:** Debug dopamine xong thì quay sang reset cơ thể (sleep/cortisol) để hệ thần kinh run ổn định → [Energy Management](./energy-management.md#4-burnout--recovery).
-- **Well-being Modules:** Khi dấu hiệu burnout hoặc dopamine crash kéo dài, mở [Dopamine System](../well-being/biohacking/dopamine-system.md) & [Burnout Prevention](../well-being/mental-resilience/burnout-prevention.md).
+- **Well-being Modules:** Khi dấu hiệu burnout hoặc dopamine crash kéo dài, mở [Dopamine System](../health/dopamine-system.md) & [Burnout Prevention](../well-being/mental-resilience/burnout-prevention.md).
 - **Chapters:** Ghép với [05-ky-luat-thoi-quen](../../chapters/05-ky-luat-thoi-quen.md) & [02-luyen-tap-co-chu-dich](../../chapters/02-luyen-tap-co-chu-dich.md) để luyện deliberate practice + habit loops.

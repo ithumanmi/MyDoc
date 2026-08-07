@@ -2,6 +2,13 @@
 
 > [← Back to Game Server Guide](./game-server-guide.md) | [← Back to Game Dev Roadmap](./README.md) | [Home](../../README.md)
 
+<!-- agent-summary -->
+**Agent SUMMARY** (read this first; jump to `##` needed):
+- Career+skills ladder Junior → Mid → Senior for multiplayer/game-server engineering.
+- Sections: level comparison → senior skill checklist → learning resources → 5-year roadmap → interview Qs → salary bands.
+- Technical how-to stays under `domains/game-dev/`; monetization/freelance → `guides/03-career-skills/game-dev/`.
+<!-- /agent-summary -->
+
 Lộ trình chi tiết từ Junior đến Senior trong lĩnh vực Game Server/Multiplayer Engineering.
 
 ---

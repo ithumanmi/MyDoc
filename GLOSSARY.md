@@ -187,7 +187,7 @@ Luyện tập có chủ đích với feedback loops. Khác với "practice mindl
 
 Neurotransmitter điều khiển động lực, kỷ luật, focus. Optimize bằng: Cold exposure, Exercise, Dopamine detox (tránh quick hits từ social media).
 
-📖 Chi tiết: [Dopamine System](./guides/04-lifestyle-os/well-being/biohacking/dopamine-system.md)
+📖 Chi tiết: [Dopamine System](./guides/04-lifestyle-os/health/dopamine-system.md)
 
 ---
 
@@ -253,7 +253,7 @@ Nghiên cứu ra quyết định chiến lược khi kết quả phụ thuộc v
 
 Quản lý năng lượng: Tránh glucose spikes (carbs đơn) → Ổn định insulin → Sustained energy cả ngày. CGM tracking.
 
-📖 Chi tiết: [Glucose & Insulin System](./guides/04-lifestyle-os/well-being/biohacking/glucose-insulin-system.md)
+📖 Chi tiết: [Glucose & Insulin System](./guides/04-lifestyle-os/health/glucose-insulin-system.md)
 
 ---
 
@@ -273,7 +273,7 @@ Google Remote Procedure Call - Protocol nhanh hơn REST (binary format, HTTP/2).
 
 Framework debug cơ thể như debug code. Track: Dopamine, Glucose, Testosterone, Cortisol, Sleep, Movement.
 
-📖 Chi tiết: [Health OS Overview](./guides/04-lifestyle-os/well-being/biohacking/health-os-overview.md) ⭐ **Unique**
+📖 Chi tiết: [Health OS Overview](./guides/04-lifestyle-os/health/health-os-overview.md) ⭐ **Unique**
 
 ---
 

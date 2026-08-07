@@ -7,29 +7,29 @@
 
 ---
 
-## 🧬 Biohacking (Tối ưu hóa sinh học)
+## 🧬 Health theory (was Biohacking) (Tối ưu hóa sinh học)
 *Mục tiêu: hiểu và tinh chỉnh “phần cứng” — hormone, giấc ngủ, vận động, dinh dưỡng.*
 
 ### 1️⃣ Nền tảng thần kinh & hormone
-*   **[🧬 Endocrine Hormone Map](./biohacking/endocrine-hormone-map.md)** ⭐ **Bản đồ tổng** toàn bộ nhóm hormone (mood, stress/ngủ, chuyển hóa, GH, giáp, gut, xương…).
-*   **[🎛️ Endocrine Control Playbook](./biohacking/endocrine-control-playbook.md)** ⭐ **Cách kiểm soát** từng hormone + checklist ngày/tuần (không phải tự kê thuốc).
+*   **[🧬 Endocrine Hormone Map](../health/endocrine-hormone-map.md)** ⭐ **Bản đồ tổng** toàn bộ nhóm hormone (mood, stress/ngủ, chuyển hóa, GH, giáp, gut, xương…).
+*   **[🎛️ Endocrine Control Playbook](../health/endocrine-control-playbook.md)** ⭐ **Cách kiểm soát** từng hormone + checklist ngày/tuần (không phải tự kê thuốc).
 *   **[⚙️ CNS Basics](./cns-basics.md):** Khởi động bằng việc hiểu “CPU” (Hệ thần kinh trung ương).
-*   **[🧠 Dopamine System](./biohacking/dopamine-system.md):** Khi thiếu động lực, cần reset Dopamine.
-*   **[🛡️ Cortisol & Melatonin](./biohacking/cortisol-melatonin-system.md):** Khi stress, mất ngủ, nhịp sinh học vỡ.
-*   **[🩸 Glucose & Insulin](./biohacking/glucose-insulin-system.md):** Khi tụt năng lượng, brain fog.
-*   **[⚡ Testosterone System](./biohacking/testosterone-system.md):** Khi thiếu drive/khả năng push.
-*   **[🧪 Neurotransmitters Guide](./biohacking/neurotransmitters-guide.md):** Khi muốn chẩn đoán rộng (Serotonin, GABA...).
+*   **[🧠 Dopamine System](../health/dopamine-system.md):** Khi thiếu động lực, cần reset Dopamine.
+*   **[🛡️ Cortisol & Melatonin](../health/cortisol-melatonin-system.md):** Khi stress, mất ngủ, nhịp sinh học vỡ.
+*   **[🩸 Glucose & Insulin](../health/glucose-insulin-system.md):** Khi tụt năng lượng, brain fog.
+*   **[⚡ Testosterone System](../health/testosterone-system.md):** Khi thiếu drive/khả năng push.
+*   **[🧪 Neurotransmitters Guide](../health/neurotransmitters-guide.md):** Khi muốn chẩn đoán rộng (Serotonin, GABA...).
 *   **[🔁 Break the Sleep-Performance Loop](./sleep-performance-loop.md):** Khi mắc vòng xoáy ngủ kém → ý chí thấp → ăn tạp → tăng cân → lười tập.
 
 ### 2️⃣ Protocols theo mục tiêu
-*   **[🛌 Sleep Optimization](./biohacking/sleep-optimization.md):** Khi cần ngủ sâu, hồi phục nhanh.
-*   **[🫀 HRV Tracking](./biohacking/hrv-tracking.md):** Hướng dẫn dùng HRV để đo lường giới hạn phục hồi và Stress của cấu trúc nền.
-*   **[🏃 Movement Protocols](./biohacking/movement-protocols.md):** Khi thiếu vận động hoặc cần bổ sung Zone 2/Strength.
-*   **[🥗 Nutrition for Brain](./biohacking/nutrition-for-brain.md):** Khi muốn tối ưu fuel cho não & hormone.
-*   **[☣️ Environmental Toxins](./biohacking/environmental-toxins.md):** Xóa bỏ vi nhựa, kẻ phá rối nội tiết và sát thủ độ hiếm khí trong không gian sống.
-*   **[⚙️ Health OS Overview](./biohacking/health-os-overview.md):** Khi cần lộ trình tổng thể.
-*   **[📋 Health Optimization Protocols](./biohacking/health-optimization-protocols.md):** Khi cần checklist ngày.
-*   **[💊 Supplements Fundamentals](./supplements-101.md):** Khi muốn hiểu nguyên tắc dùng supplement (ưu tiên lifestyle trước, khi nào nên xét nghiệm, thứ tự bổ sung).
+*   **[🛌 Sleep Optimization](../health/sleep-optimization.md):** Khi cần ngủ sâu, hồi phục nhanh.
+*   **[🫀 HRV Tracking](../health/hrv-tracking.md):** Hướng dẫn dùng HRV để đo lường giới hạn phục hồi và Stress của cấu trúc nền.
+*   **[🏃 Movement Protocols](../health/movement-protocols.md):** Khi thiếu vận động hoặc cần bổ sung Zone 2/Strength.
+*   **[🥗 Nutrition for Brain](../health/nutrition-for-brain.md):** Khi muốn tối ưu fuel cho não & hormone.
+*   **[☣️ Environmental Toxins](../health/environmental-toxins.md):** Xóa bỏ vi nhựa, kẻ phá rối nội tiết và sát thủ độ hiếm khí trong không gian sống.
+*   **[⚙️ Health OS Overview](../health/health-os-overview.md):** Khi cần lộ trình tổng thể.
+*   **[📋 Health Optimization Protocols](../health/health-optimization-protocols.md):** Khi cần checklist ngày.
+*   **[💊 Supplements Fundamentals](../health/supplements-101.md):** Khi muốn hiểu nguyên tắc dùng supplement (ưu tiên lifestyle trước, khi nào nên xét nghiệm, thứ tự bổ sung).
 
 ---
 
@@ -62,18 +62,18 @@
 
 | Trục | Câu hỏi chẩn đoán | Module gợi ý |
 | --- | --- | --- |
-| **Sleep & Recovery** | Tôi có ngủ đủ 7-8h sâu, dậy tỉnh? | [Sleep Optimization](./biohacking/sleep-optimization.md), [Cortisol & Melatonin](./biohacking/cortisol-melatonin-system.md) |
+| **Sleep & Recovery** | Tôi có ngủ đủ 7-8h sâu, dậy tỉnh? | [Sleep Optimization](../health/sleep-optimization.md), [Cortisol & Melatonin](../health/cortisol-melatonin-system.md) |
 | **Stress & Burnout** | Tôi có dấu hiệu stress kéo dài, khó kiềm chế cảm xúc? | [Burnout Prevention](./mental-resilience/burnout-prevention.md), [Mindfulness Meditation](./mental-resilience/mindfulness-meditation.md) |
-| **Energy & Movement** | Tôi có lịch vận động đều (Zone 2/Strength) và không kiệt sức? | [Movement Protocols](./biohacking/movement-protocols.md), [High Performance & Flow](./high-performance.md) |
-| **Nutrition & Metabolism** | Tôi ăn uống ổn định, không sugar crash/brain fog? | [Nutrition for Brain](./biohacking/nutrition-for-brain.md), [Glucose & Insulin](./biohacking/glucose-insulin-system.md) |
-| **Hormones & Mood** | Tôi có dấu hiệu mất cân bằng hormone (drive thấp, mất động lực)? | [Testosterone System](./biohacking/testosterone-system.md), [Dopamine System](./biohacking/dopamine-system.md) |
+| **Energy & Movement** | Tôi có lịch vận động đều (Zone 2/Strength) và không kiệt sức? | [Movement Protocols](../health/movement-protocols.md), [High Performance & Flow](./high-performance.md) |
+| **Nutrition & Metabolism** | Tôi ăn uống ổn định, không sugar crash/brain fog? | [Nutrition for Brain](../health/nutrition-for-brain.md), [Glucose & Insulin](../health/glucose-insulin-system.md) |
+| **Hormones & Mood** | Tôi có dấu hiệu mất cân bằng hormone (drive thấp, mất động lực)? | [Testosterone System](../health/testosterone-system.md), [Dopamine System](../health/dopamine-system.md) |
 | **Emotional Grounding** | Tôi có cảm giác bình an, ít lo âu? | [Restore Tinh-Khi-Thần](./restore-tinh-khi-than.md), [Cultivating Yang Energy](./cultivating-yang-energy.md) |
 
 ## Bắt đầu từ đâu? (Flow đề xuất)
 1.  **Check hệ thống:** Làm [Well-being Lifestyle Audit](#-well-being-lifestyle-audit) (nếu chưa) để biết thiếu phần cứng hay phần mềm.
-2.  **Nếu bạn stress/mất ngủ:** Bắt đầu với **[Cortisol & Melatonin](./biohacking/cortisol-melatonin-system.md)** → **[Sleep Optimization](./biohacking/sleep-optimization.md)**.
-3.  **Nếu bạn tụt động lực:** Chuyển sang **[Dopamine System](./biohacking/dopamine-system.md)** và log lại bằng **[Daily Tracker](../../../templates/well-being/daily-performance-tracker.md)**.
-4.  **Nếu bạn cần hiệu suất:** Dùng **[High Performance & Flow](./high-performance.md)** + ghép với **[Movement Protocols](./biohacking/movement-protocols.md)**.
+2.  **Nếu bạn stress/mất ngủ:** Bắt đầu với **[Cortisol & Melatonin](../health/cortisol-melatonin-system.md)** → **[Sleep Optimization](../health/sleep-optimization.md)**.
+3.  **Nếu bạn tụt động lực:** Chuyển sang **[Dopamine System](../health/dopamine-system.md)** và log lại bằng **[Daily Tracker](../../../templates/well-being/daily-performance-tracker.md)**.
+4.  **Nếu bạn cần hiệu suất:** Dùng **[High Performance & Flow](./high-performance.md)** + ghép với **[Movement Protocols](../health/movement-protocols.md)**.
 5.  **Nếu bạn suy kiệt tinh thần:** Kích hoạt cặp **[Burnout Prevention](./mental-resilience/burnout-prevention.md)** + **[Restore Tinh-Khi-Thần](./restore-tinh-khi-than.md)** (7-day ritual checklist ở cuối bài).
 
 ---

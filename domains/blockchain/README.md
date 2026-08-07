@@ -1,3 +1,16 @@
+---
+title: "Blockchain Knowledge Base"
+description: "Smart contracts, DeFi, MEV, staking, and blockchain security hub"
+updated: "2026-08-07"
+canonical: true
+tags: [blockchain, web3, roadmap]
+audience: [beginner, intermediate, advanced]
+related:
+  - ../../challenges/blockchain/README.md
+  - ../README.md
+sensitivity: public
+---
+
 # 🔗 Blockchain Knowledge Base
 
 > [← Domains hub](../README.md) | [Home](../../README.md) | [Challenges](../../challenges/blockchain/README.md) | [🚀 Quick Start](../../QUICK-START.md)
@@ -20,6 +33,9 @@ Blockchain không chỉ là Crypto. Nó là một cuộc cách mạng về **Tru
 Thư viện này cung cấp kiến thức toàn diện từ cơ bản đến chuyên sâu về công nghệ Blockchain.
 
 ---
+
+<!-- tech-career-nav -->
+> **Tech vs Career:** this folder = technical how-to. **Blockchain career / monetization:** [Blockchain career / monetization](../../guides/03-career-skills/blockchain/README.md). Full map: [`meta/domain-guide-map.md`](../../meta/domain-guide-map.md).
 
 ## 🗺️ Visual Roadmap
 

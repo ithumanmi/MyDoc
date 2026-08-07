@@ -1,6 +1,6 @@
 # 🌙 Cách ngủ đúng & Duy trì năng lượng cả ngày
 
-> [← Well-being](../README.md) | [Sleep Optimization (chi tiết)](./biohacking/sleep-optimization.md) | [Energy Management (Life OS)](../life-os/energy-management.md)
+> [← Well-being](../README.md) | [Sleep Optimization (chi tiết)](../health/sleep-optimization.md) | [Energy Management (Life OS)](../life-os/energy-management.md)
 
 **Mục tiêu:** Ngủ đúng cách, giữ mức năng lượng ổn định như vừa thức dậy buổi sáng suốt cả ngày, và nâng dần “mức năng lượng nền” của bản thân lên cao hơn.
 
@@ -29,7 +29,7 @@ Giấc ngủ là nền tảng: ngủ kém thì mọi thứ khác (ăn, tập, b�
 - Không làm việc/email/mạng xã hội; có thể đọc sách, journal, thiền, giãn cơ nhẹ.
 - Có thể dùng magnesium glycinate 300mg (và/hoặc L-theanine, apigenin) theo hướng dẫn nếu cần.
 
-👉 **Chi tiết đầy đủ:** [Sleep Optimization](./biohacking/sleep-optimization.md) — khoa học giấc ngủ, chu kỳ, ánh sáng, nhiệt độ, bổ sung, xử lý mất ngủ.
+👉 **Chi tiết đầy đủ:** [Sleep Optimization](../health/sleep-optimization.md) — khoa học giấc ngủ, chu kỳ, ánh sáng, nhiệt độ, bổ sung, xử lý mất ngủ.
 
 ---
 
@@ -52,7 +52,7 @@ Mục tiêu: tránh “crash” giữa ngày, giữ sự tỉnh táo và ổn đ
 - **Ăn đều:** Tránh bỏ bữa hoặc ăn quá no một lần — dễ gây mệt, buồn ngủ sau ăn.
 - **Đồ ngọt/nước ngọt:** Dùng ít; nếu dùng thì kèm bữa ăn, không uống đói.
 
-👉 Chi tiết: [Glucose & Insulin](./biohacking/glucose-insulin-system.md).
+👉 Chi tiết: [Glucose & Insulin](../health/glucose-insulin-system.md).
 
 ### 2.3. Nhịp 90 phút (Ultradian) — Nghỉ để không “cạn pin”
 
@@ -88,7 +88,7 @@ Mục tiêu: tránh “crash” giữa ngày, giữ sự tỉnh táo và ổn đ
 - **Tập sức mạnh:** 2–3 lần/tuần (squat, deadlift, đẩy, kéo) — cải thiện hormone, giấc ngủ, mức năng lượng.
 - **Không cần quá nặng:** Chỉ cần đều; quá tải hoặc tập quá gần giờ ngủ có thể làm mệt.
 
-👉 [Movement Protocols](./biohacking/movement-protocols.md).
+👉 [Movement Protocols](../health/movement-protocols.md).
 
 ### 3.3. Dinh dưỡng “nền”
 
@@ -96,7 +96,7 @@ Mục tiêu: tránh “crash” giữa ngày, giữ sự tỉnh táo và ổn đ
 - Rau, chất xơ, chất béo tốt; hạn chế đồ ăn nhanh, đường tinh.
 - Uống đủ nước; có thể thêm chút muối/electrolyte nếu đổ mồ hôi nhiều.
 
-👉 [Nutrition for Brain](./biohacking/nutrition-for-brain.md).
+👉 [Nutrition for Brain](../health/nutrition-for-brain.md).
 
 ### 3.4. Phục hồi thật (recovery)
 
@@ -112,7 +112,7 @@ Mục tiêu: tránh “crash” giữa ngày, giữ sự tỉnh táo và ổn đ
 - **Testosterone (nam/nữ):** Ngủ đủ, tập tạ, thắng những mục tiêu nhỏ — hỗ trợ drive và năng lượng.
 - **Dopamine:** Giảm “nghiện” scroll, notification; dành thời gian cho việc có ý nghĩa và có tiến triển.
 
-👉 [Cortisol & Melatonin](./biohacking/cortisol-melatonin-system.md), [Dopamine System](./biohacking/dopamine-system.md), [Testosterone System](./biohacking/testosterone-system.md).
+👉 [Cortisol & Melatonin](../health/cortisol-melatonin-system.md), [Dopamine System](../health/dopamine-system.md), [Testosterone System](../health/testosterone-system.md).
 
 ### 3.6. Kiên trì và đo lường
 
@@ -125,7 +125,7 @@ Mục tiêu: tránh “crash” giữa ngày, giữ sự tỉnh táo và ổn đ
 
 | Mục tiêu | Hành động chính |
 |----------|------------------|
-| **Ngủ đúng** | Giờ cố định, 7–9h, tối-mát-tối, tránh ánh sáng xanh & caffeine muộn; xem [Sleep Optimization](./biohacking/sleep-optimization.md). |
+| **Ngủ đúng** | Giờ cố định, 7–9h, tối-mát-tối, tránh ánh sáng xanh & caffeine muộn; xem [Sleep Optimization](../health/sleep-optimization.md). |
 | **Năng lượng ổn cả ngày** | Sáng: ánh sáng + nước + vận động nhẹ; cả ngày: ăn ổn đường huyết, nghỉ 15–20 phút mỗi ~90 phút, vận động nhẹ, tránh stress triền miên. |
 | **Nâng mức năng lượng nền** | Ngủ đủ đều → Vận động đều (cardio + sức mạnh) → Dinh dưỡng nền → Recovery thật (nghỉ, giảm stress) → Kiên trì vài tuần trở lên. |
 
@@ -133,10 +133,10 @@ Mục tiêu: tránh “crash” giữa ngày, giữ sự tỉnh táo và ổn đ
 
 ## File liên quan
 
-- [Sleep Optimization](./biohacking/sleep-optimization.md) — Chi tiết giấc ngủ
-- [Cortisol & Melatonin](./biohacking/cortisol-melatonin-system.md) — Nhịp ngày đêm
-- [Glucose & Insulin](./biohacking/glucose-insulin-system.md) — Năng lượng ổn định
-- [Movement Protocols](./biohacking/movement-protocols.md) — Vận động tối ưu
+- [Sleep Optimization](../health/sleep-optimization.md) — Chi tiết giấc ngủ
+- [Cortisol & Melatonin](../health/cortisol-melatonin-system.md) — Nhịp ngày đêm
+- [Glucose & Insulin](../health/glucose-insulin-system.md) — Năng lượng ổn định
+- [Movement Protocols](../health/movement-protocols.md) — Vận động tối ưu
 - [Energy Management (Life OS)](../life-os/energy-management.md) — Quản trị năng lượng trong hệ thống cuộc sống
 - [High Performance](./high-performance.md) — Flow, Ultradian, Deep Work
 - [Cultivating Yang Energy](./cultivating-yang-energy.md) — Nuôi dưỡng dương khí (góc Đông phương)

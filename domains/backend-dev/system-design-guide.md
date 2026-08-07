@@ -1,6 +1,16 @@
 # 🏗️ System Design & Distributed Systems: Deep Dive Guide
 
 > [← Back to Backend Roadmap](./README.md) | [Home](../../README.md)
+>
+> **Also:** [`domains/system-design/`](../system-design/README.md) for interview-focused designs · challenges under `challenges/system-design/`
+
+<!-- agent-summary -->
+**Agent SUMMARY** (read this first; jump to numbered `##` needed):
+- Canonical backend deep-dive for distributed systems (complements shorter `domains/system-design/` cases).
+- Flow: Fundamentals → Core Patterns → Advanced → Real-world cases → Performance → Interview framework → Hands-on.
+- New learners: §§1–2; interview prep: §§4+6; builders: §7 then §3 when stuck.
+- TL;DR block immediately below lists key takeaways — use before dumping sections.
+<!-- /agent-summary -->
 
 Hướng dẫn toàn diện về System Design và Distributed Systems - Kỹ năng cốt lõi của Senior Backend Engineer và System Architect.
 

@@ -1,3 +1,16 @@
+---
+title: "Data Analytics Domain"
+description: "SQL, BI, and business-focused analytics curriculum hub"
+updated: "2026-08-07"
+canonical: true
+tags: [data-analytics, sql, roadmap]
+audience: [beginner, intermediate, advanced]
+related:
+  - ../../challenges/data-analytics/README.md
+  - ../README.md
+sensitivity: public
+---
+
 # 📊 Data Analytics Domain
 
 > [← Back to Chapter 1](../../chapters/01-xac-dinh-linh-vuc.md) | [Home](../../README.md) | [🚀 Quick Start](../../QUICK-START.md) | [📖 Glossary](../../GLOSSARY.md)
@@ -18,6 +31,9 @@
 **🧩 Knowledge Audit:** Check [Data Analytics Knowledge Audit](../../case-studies/knowledge-audits/data-analytics-knowledge-audit.md) to test your expertise!
 
 ---
+
+<!-- tech-career-nav -->
+> **Tech vs Career:** this folder = technical how-to. **Data analytics career:** [Data analytics career](../../guides/03-career-skills/data-analytics/README.md). Full map: [`meta/domain-guide-map.md`](../../meta/domain-guide-map.md).
 
 ## Tại sao chọn Data Analytics?
 Dữ liệu là "dầu mỏ" của thế kỷ 21. Mọi quyết định kinh doanh hiện đại đều dựa trên dữ liệu (Data-driven decision making).

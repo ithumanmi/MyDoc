@@ -1,10 +1,14 @@
 ---
 title: "MMO Engineering Playbook"
-description: "Automation, proxy, anti-detect, risk & ethics guidance for scale campaigns."
-tags:
-  - mmo
-  - automation
-updated: 2026-03-12
+description: "Automation, proxy, anti-detect with risk/ethics guidance"
+updated: "2026-08-07"
+canonical: true
+tags: [mmo, automation, roadmap]
+audience: [beginner, intermediate, advanced]
+related:
+  - ../../challenges/mmo-engineering/README.md
+  - ../README.md
+sensitivity: public
 ---
 
 # ⚙️ MMO Engineering Playbook
@@ -12,6 +16,9 @@ updated: 2026-03-12
 > Tập trung vào kỹ thuật để scale MMO (Make Money Online) campaigns: automation, proxy farm, anti-detect, Sybil ops.
 >
 > [← Domains hub](../README.md) | **Practice (lab/owned infra only):** [Proxy pool healthcheck](../../challenges/mmo-engineering/challenge-proxy-pool-healthcheck.md)
+
+<!-- tech-career-nav -->
+> **Tech vs Career:** this folder = technical how-to. **MMO business / ops roadmaps (wealth):** [MMO business / ops roadmaps (wealth)](../../guides/02-wealth-business/mmo-roadmap/INDEX.md). Full map: [`meta/domain-guide-map.md`](../../meta/domain-guide-map.md).
 
 ## 1. Scope & Prerequisites
 

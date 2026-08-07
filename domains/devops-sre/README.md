@@ -1,3 +1,16 @@
+---
+title: "DevOps & Site Reliability Engineering Roadmap"
+description: "K8s, IaC, CI/CD, and reliability practices for mid+ engineers"
+updated: "2026-08-07"
+canonical: true
+tags: [devops, sre, roadmap]
+audience: [beginner, intermediate, advanced]
+related:
+  - ../../challenges/devops-sre/README.md
+  - ../README.md
+sensitivity: public
+---
+
 # ♾️ DevOps & Site Reliability Engineering (SRE) Roadmap
 
 > [← Domains hub](../README.md) | [Home](../../README.md) | [Challenges](../../challenges/devops-sre/README.md)

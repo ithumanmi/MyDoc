@@ -9,6 +9,7 @@ related:
   - dashboard.md
   - ../templates/personal/README.md
   - ../guides/04-lifestyle-os/README.md
+  - ../guides/04-lifestyle-os/health/README.md
 sensitivity: private
 ---
 
@@ -16,15 +17,18 @@ sensitivity: private
 
 > **Đây là lớp dữ liệu cá nhân** — khác với `domains/` / `guides/` (library kiến thức).
 >
-> [← Home](../README.md) | [Lifestyle OS (theory)](../guides/04-lifestyle-os/README.md) | [Templates](../templates/personal/)
+> [← Home](../README.md) | [Lifestyle OS](../guides/04-lifestyle-os/README.md) | [Health theory](../guides/04-lifestyle-os/health/README.md) | [Templates](../templates/personal/)
 
 Repo này vừa là **knowledge library**, vừa là **personal OS data store** của bạn.
 
 | Layer | Folder | Commit? |
 | --- | --- | --- |
 | Knowledge (dạy / học) | `domains/`, `guides/`, `chapters/`… | Yes |
+| **Health / hormone theory** | [`guides/04-lifestyle-os/health/`](../guides/04-lifestyle-os/health/README.md) | Yes |
 | **Records (đời sống thật)** | `personal/` | Yes (bạn chọn commit hết) |
 | Blank forms | `templates/personal/` | Yes |
+
+**Không ghi protocol dài vào `personal/`** — link sang `health/` rồi chỉ log số liệu/ngày.
 
 **Học kiến thức mới?** Dùng [Learning OS Framework](../guides/03-career-skills/productivity/meta-skills/learning-os-framework.md) + template [`templates/personal/learning-session.md`](../templates/personal/learning-session.md); ghi deep work vào `daily/`.
 
@@ -69,9 +73,9 @@ Hoặc duplicate file hôm qua rồi xóa nội dung cụ thể.
 
 | Muốn tối ưu | Đọc (guides) | Ghi (personal) |
 | --- | --- | --- |
-| Ngủ / HRV | [sleep-optimization](../guides/04-lifestyle-os/well-being/biohacking/sleep-optimization.md) | `body/metrics.csv` |
-| Glucose / ăn | [glucose-insulin](../guides/04-lifestyle-os/well-being/biohacking/glucose-insulin-system.md) | `nutrition/` |
-| **Toàn map hormone** | **[endocrine-hormone-map](../guides/04-lifestyle-os/well-being/biohacking/endocrine-hormone-map.md)** | daily mood/energy + sleep + craving |
+| Ngủ / HRV | [sleep-optimization](../guides/04-lifestyle-os/health/sleep-optimization.md) | `body/metrics.csv` |
+| Glucose / ăn | [glucose-insulin](../guides/04-lifestyle-os/health/glucose-insulin-system.md) | `nutrition/` |
+| **Toàn map hormone** | **[endocrine-hormone-map](../guides/04-lifestyle-os/health/endocrine-hormone-map.md)** | daily mood/energy + sleep + craving |
 | Energy / deep work | [energy-management](../guides/04-lifestyle-os/life-os/energy-management.md) | `daily/` |
 | Weekly reflection | [weekly-review template](../templates/weekly-review.md) | `weekly/` |
 

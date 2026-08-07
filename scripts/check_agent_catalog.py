@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate catalog/topics.yaml canonical (+ related) paths exist."""
+"""Validate meta/catalog/topics.yaml canonical (+ related) paths exist."""
 from __future__ import annotations
 
 import sys
@@ -11,7 +11,7 @@ except ImportError:
     yaml = None
 
 ROOT = Path(__file__).resolve().parents[1]
-CATALOG = ROOT / "catalog" / "topics.yaml"
+CATALOG = ROOT / "meta" / "catalog" / "topics.yaml"
 
 
 def load_topics(text: str) -> list[dict]:

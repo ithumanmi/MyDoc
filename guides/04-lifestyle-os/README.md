@@ -8,7 +8,8 @@ audience: [beginner, intermediate, advanced]
 related:
   - ../README.md
   - ../../personal/README.md
-  - well-being/biohacking/health-os-overview.md
+  - health/health-os-overview.md
+  - health/README.md
 sensitivity: public
 ---
 
@@ -34,10 +35,11 @@ sensitivity: public
 | Strategy & Alignment | Vector sống, chiến lược dài hạn | [life-os/strategy-engine.md](life-os/strategy-engine.md), [life-os/alignment-engine.md](life-os/alignment-engine.md) |
 | Energy Management | Năng lượng, chú ý, hormone | [life-os/energy-management.md](life-os/energy-management.md) |
 | Relationships & Dating | Khung đọc tâm lý & tình huống giao tiếp | [Shawty/README.md](Shawty/README.md) |
-| Well-being (Hardware) | Biohacking, resilience, health OS | [well-being/README.md](well-being/README.md) |
-| **Endocrine map** | Bản đồ hormone (mood → chuyển hóa → GH/giáp/gut) | [well-being/biohacking/endocrine-hormone-map.md](well-being/biohacking/endocrine-hormone-map.md) |
-| **Hormone control** | Playbook kiểm soát + checklist ngày/tuần | [well-being/biohacking/endocrine-control-playbook.md](well-being/biohacking/endocrine-control-playbook.md) |
-| Sleep & Recovery | Protocol ngủ, phục hồi | [well-being/biohacking/sleep-optimization.md](well-being/biohacking/sleep-optimization.md) |
+| Well-being (Hardware) | Resilience, CNS, broader well-being | [well-being/README.md](well-being/README.md) |
+| **Health theory** | Hormones, sleep, movement, nutrition OS | [health/README.md](health/README.md) |
+| **Endocrine map** | Bản đồ hormone (mood → chuyển hóa → GH/giáp/gut) | [health/endocrine-hormone-map.md](health/endocrine-hormone-map.md) |
+| **Hormone control** | Playbook kiểm soát + checklist ngày/tuần | [health/endocrine-control-playbook.md](health/endocrine-control-playbook.md) |
+| Sleep & Recovery | Protocol ngủ, phục hồi | [health/sleep-optimization.md](health/sleep-optimization.md) |
 | Mental Resilience | Burnout prevention, mindfulness, stoicism | [well-being/mental-resilience/burnout-prevention.md](well-being/mental-resilience/burnout-prevention.md) |
 | Politics (Environment) | Roadmap, VN system, geopolitics | [politics/README.md](politics/README.md) |
 | Vietnam System | Cấu trúc vận hành VN | [politics/vietnam-system.md](politics/vietnam-system.md) |
@@ -48,7 +50,7 @@ sensitivity: public
 | Lớp | Câu hỏi chính | Module | File nổi bật |
 | --- | --- | --- | --- |
 | **Layer 1 – Life OS (Brainware)** | Tôi vận hành cuộc đời bằng hệ thống nào? | [life-os/](life-os/README.md) | [life-os/README.md](life-os/README.md) – tổng quan 6 engine; [decision-engine.md](life-os/decision-engine.md) – khuôn ra quyết định; [risk-engine.md](life-os/risk-engine.md) – phòng thủ; [Shawty/README.md](Shawty/README.md) – hub dating/relationships; **Bonus:** [Philosophy Domain](../01-mental-models/philosophy/README.md) – “firmware” giá trị & đạo đức. |
-| **Layer 2 – Well-being (Hardware)** | Năng lượng, hormone, tinh thần của tôi có ổn định không? | [well-being/](well-being/README.md) | [biohacking/health-os-overview.md](well-being/biohacking/health-os-overview.md) – Health OS 12 tuần; [mental-resilience/burnout-prevention.md](well-being/mental-resilience/burnout-prevention.md) – protocol chống burnout; [biohacking/sleep-optimization.md](well-being/biohacking/sleep-optimization.md) – tối ưu giấc ngủ. |
+| **Layer 2 – Well-being / Health** | Năng lượng, hormone, tinh thần có ổn định không? | [well-being/](well-being/README.md) · [health/](health/README.md) | [health/health-os-overview.md](health/health-os-overview.md); [mental-resilience/burnout-prevention.md](well-being/mental-resilience/burnout-prevention.md); [health/sleep-optimization.md](health/sleep-optimization.md) |
 | **Layer 3 – Politics (Environment)** | Môi trường quốc gia/thế giới đang vận hành ra sao? Tôi cần chuẩn bị gì? | [politics/](politics/README.md) | [politics/README.md](politics/README.md) – roadmap chính trị; [politics/vietnam-system.md](politics/vietnam-system.md) – cấu trúc VN; [politics/geopolitics/world-order.md](politics/geopolitics/world-order.md) – bức tranh toàn cầu. |
 
 > **Lưu ý:** Không nhảy vào Politics sâu khi Life OS & Well-being chưa ổn định. Hệ thống nội bộ là nền để đọc “game” bên ngoài.
@@ -62,7 +64,7 @@ sensitivity: public
 | **Meaning & Alignment** | Tôi có biết vì sao mình đang làm việc này? Tôi có vector rõ ràng? | [life-os/alignment-engine.md](life-os/alignment-engine.md), [life-os/strategy-engine.md](life-os/strategy-engine.md) |
 | **Decision & Risk** | Tôi ra quyết định dựa trên nguyên tắc hay cảm xúc? Tôi có plan B? | [life-os/decision-engine.md](life-os/decision-engine.md), [life-os/risk-engine.md](life-os/risk-engine.md) |
 | **Growth & Leverage** | Tôi đang compound kỹ năng hay chỉ chạy vòng lặp cũ? | [life-os/growth-engine.md](life-os/growth-engine.md), [life-os/leverage-theory.md](life-os/leverage-theory.md) |
-| **Energy & Hormones** | Tôi có ngủ/ăn/vận động chuẩn theo Health OS? | [well-being/biohacking/sleep-optimization.md](well-being/biohacking/sleep-optimization.md), [life-os/energy-management.md](life-os/energy-management.md) |
+| **Energy & Hormones** | Tôi có ngủ/ăn/vận động chuẩn theo Health OS? | [health/sleep-optimization.md](health/sleep-optimization.md), [life-os/energy-management.md](life-os/energy-management.md) |
 | **Mental Resilience** | Tôi xử lý stress thế nào? Có protocol chống burnout không? | [well-being/mental-resilience/burnout-prevention.md](well-being/mental-resilience/burnout-prevention.md), [mindfulness-meditation.md](well-being/mental-resilience/mindfulness-meditation.md) |
 | **Context Awareness** | Tôi hiểu cách Việt Nam và thế giới vận hành chưa? | [politics/README.md](politics/README.md), [politics/geopolitics/world-order.md](politics/geopolitics/world-order.md) |
 
@@ -80,7 +82,7 @@ sensitivity: public
 
 > **Starter Pack:**
 > - Life OS: [decision-engine.md](life-os/decision-engine.md), [risk-engine.md](life-os/risk-engine.md), [strategy-engine.md](life-os/strategy-engine.md), template Decision Log.
-> - Well-being: [health-os-overview.md](well-being/biohacking/health-os-overview.md), [sleep-optimization.md](well-being/biohacking/sleep-optimization.md), [mental-resilience/burnout-prevention.md](well-being/mental-resilience/burnout-prevention.md).
+> - Well-being: [health-os-overview.md](health/health-os-overview.md), [sleep-optimization.md](health/sleep-optimization.md), [mental-resilience/burnout-prevention.md](well-being/mental-resilience/burnout-prevention.md).
 > - Politics: [politics/README.md](politics/README.md), [vietnam-system.md](politics/vietnam-system.md), [geopolitics/world-order.md](politics/geopolitics/world-order.md).
 
 ---
@@ -92,7 +94,7 @@ sensitivity: public
 | **Lifestyle Audit Sheet** | Tự chấm Meaning/Risk/Energy | [templates/well-being/daily-performance-tracker.md](../../../templates/well-being/daily-performance-tracker.md) + bảng checklist ở README này |
 | **Decision Log** | Ghi Assumption → Outcome để luyện Decision Engine | [Decision Journal Template](../../templates/productivity/decision-journal.md) hoặc [Personal Metrics Dashboard](../../templates/personal-metrics-dashboard.md) |
 | **Risk Radar** | Liệt kê rủi ro Life/Wealth/Politics + trigger | [Risk Radar Template](../../templates/productivity/risk-radar.md) + khung trong [life-os/risk-engine.md](life-os/risk-engine.md) |
-| **Health OS Tracker** | Theo dõi ngủ/ăn/movement hàng ngày | [well-being/biohacking/health-os-overview.md](well-being/biohacking/health-os-overview.md) + template tracker |
+| **Health OS Tracker** | Theo dõi ngủ/ăn/movement hàng ngày | [health/health-os-overview.md](health/health-os-overview.md) + template tracker |
 | **Geopolitical Brief** | Tóm tắt sự kiện chính trị, liên hệ sự nghiệp | Tự tạo note theo checklist Phase 3 (Politics README) |
 
 ---
@@ -103,7 +105,7 @@ sensitivity: public
 - [politics/](politics/README.md): Fundamentals, philosophy, geopolitics, Việt Nam system, digital politics.
 
 ## 🔗 Cross-Link gợi ý
-- **Life OS ↔ Well-being:** Muốn engine chạy ổn, đọc [life-os/energy-management.md](life-os/energy-management.md) và [well-being/biohacking/health-os-overview.md](well-being/biohacking/health-os-overview.md) làm phần cứng.
+- **Life OS ↔ Well-being:** Muốn engine chạy ổn, đọc [life-os/energy-management.md](life-os/energy-management.md) và [health/health-os-overview.md](health/health-os-overview.md) làm phần cứng.
 - **Life OS ↔ Philosophy:** Cài đặt worldview bằng [philosophy/README.md](../01-mental-models/philosophy/README.md); dùng [practical-applications/stoicism-daily.md](../01-mental-models/philosophy/practical-applications/stoicism-daily.md) làm “mềm” cho Decision Engine.
 - **Life OS ↔ Politics:** [strategy-engine.md](life-os/strategy-engine.md) và [risk-engine.md](life-os/risk-engine.md) áp dụng trực tiếp vào việc hiểu trật tự thế giới, phòng thủ trước biến động.
 - **Well-being ↔ Politics:** Khi nghiên cứu chính trị/căng thẳng, kích hoạt [mental-resilience/stoicism-for-modern-life.md](well-being/mental-resilience/stoicism-for-modern-life.md) để giữ tâm ổn định.

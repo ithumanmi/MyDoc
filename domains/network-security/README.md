@@ -1,3 +1,16 @@
+---
+title: "Network & Security Roadmap"
+description: "Foundations through offense/defense security curriculum hub"
+updated: "2026-08-07"
+canonical: true
+tags: [security, network, roadmap]
+audience: [beginner, intermediate, advanced]
+related:
+  - ../../challenges/security/README.md
+  - ../README.md
+sensitivity: public
+---
+
 # 🛡️ Network & Security Roadmap
 
 > [← Back to Chapter 1](../../chapters/01-xac-dinh-linh-vuc.md) | [Home](../../README.md)
@@ -17,6 +30,9 @@
 Hiểu về mạng và bảo mật không chỉ dành cho Hacker, mà là kỹ năng sinh tồn của mọi Developer trong thời đại số.
 
 ---
+
+<!-- tech-career-nav -->
+> **Tech vs Career:** this folder = technical how-to. **Security career / monetization:** [Security career / monetization](../../guides/03-career-skills/security/README.md). Full map: [`meta/domain-guide-map.md`](../../meta/domain-guide-map.md).
 
 ## 📊 1. Reality Check: Security Engineer
 

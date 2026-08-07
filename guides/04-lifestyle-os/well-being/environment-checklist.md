@@ -8,13 +8,13 @@
 - **Morning light:** 5-10 phút phơi nắng sáng → đồng bộ cortisol & melatonin.
 - **Work block:** Dùng đèn trắng 4000-5000K, đặt chếch 45° tránh chói.
 - **Night mode:** Sau 21h chuyển sang đèn vàng 2700K, bật Night Shift/F.lux.
-- **Link:** [Sleep Optimization](./biohacking/sleep-optimization.md) – phần light hygiene.
+- **Link:** [Sleep Optimization](../health/sleep-optimization.md) – phần light hygiene.
 
 ## 2. Không khí & Nhiệt độ
 - **CO₂ < 800 ppm:** Mở cửa/ventilation, dùng máy lọc nếu phòng kín.
 - **Độ ẩm 40-60%:** Tránh khô họng hoặc mốc nấm.
 - **Nhiệt độ:** 20-24°C khi làm việc, 18-22°C khi ngủ.
-- **Link:** [Health OS Overview](./biohacking/health-os-overview.md) – setup thiết bị.
+- **Link:** [Health OS Overview](../health/health-os-overview.md) – setup thiết bị.
 
 ## 3. Tiếng ồn & Attention Shield
 - **Baseline:** <50 dB cho deep work. Noise-cancelling hoặc white noise nếu sống ở thành phố.
@@ -34,4 +34,4 @@
 4. Refresh playlist/white noise.
 5. Viết log “môi trường tuần này ảnh hưởng gì đến năng lượng?”
 
-> **Next steps:** Kết hợp checklist này với [Movement Protocols](./biohacking/movement-protocols.md) (đặt kettlebell, thảm yoga gần bàn) và [Sleep Optimization](./biohacking/sleep-optimization.md) để hoàn thiện “hệ sinh thái” năng lượng.
+> **Next steps:** Kết hợp checklist này với [Movement Protocols](../health/movement-protocols.md) (đặt kettlebell, thảm yoga gần bàn) và [Sleep Optimization](../health/sleep-optimization.md) để hoàn thiện “hệ sinh thái” năng lượng.

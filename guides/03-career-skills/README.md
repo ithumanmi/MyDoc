@@ -40,7 +40,8 @@ sensitivity: public
 | Data Strategy (career) | Lộ trình sự nghiệp & monetization | [data-strategy/README.md](./data-strategy/README.md) |
 | Data Analytics (career) | Lộ trình sự nghiệp & monetization | [data-analytics/README.md](./data-analytics/README.md) |
 
-> Career theo domain = lộ trình sự nghiệp & monetization; technical how-to nằm ở `domains/` tương ứng.
+> Career theo domain = lộ trình sự nghiệp & monetization; technical how-to nằm ở `domains/` tương ứng.  
+> **Bảng đủ:** [`../../meta/domain-guide-map.md`](../../meta/domain-guide-map.md)
 
 ## 🗺️ Career Skills Roadmap (4 Giai đoạn)
 

@@ -1,3 +1,16 @@
+---
+title: "System Design & Architecture"
+description: "Scalability and interview-oriented system design deep-dives hub"
+updated: "2026-08-07"
+canonical: true
+tags: [system-design, architecture, roadmap]
+audience: [beginner, intermediate, advanced]
+related:
+  - ../../challenges/system-design/README.md
+  - ../README.md
+sensitivity: public
+---
+
 # 🏗️ System Design & Architecture (Thiết kế Hệ thống)
 
 > [← Back to domains](../README.md) | [Home](../../README.md) | [Challenges](../../challenges/system-design/README.md) | **Last reviewed:** August 2026

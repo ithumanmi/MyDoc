@@ -225,7 +225,7 @@ Ghi vào [`personal/weekly/`](../../../../personal/weekly/) hoặc [weekly-revie
 
 ### B. Học Hormone (đời sống)
 1. **DoD:** 7 ngày chạy Master Daily Stack + giải thích Cortisol vs Melatonin.  
-2. **Metalearn:** [endocrine-hormone-map](../../../04-lifestyle-os/well-being/biohacking/endocrine-hormone-map.md) → [control playbook](../../../04-lifestyle-os/well-being/biohacking/endocrine-control-playbook.md).  
+2. **Metalearn:** [endocrine-hormone-map](../../../04-lifestyle-os/health/endocrine-hormone-map.md) → [control playbook](../../../04-lifestyle-os/health/endocrine-control-playbook.md).  
 3. **Encode:** Feynman 1 trang.  
 4. **Apply:** track `personal/` sleep/mood/nutrition.  
 5. **Retrieve:** mỗi sáng hỏi “hôm nay kéo hormone nào bằng hành động nào?”.
@@ -245,7 +245,7 @@ Cùng OS — khác artifact.
 | Quản lý study project | [study-project-management.md](./study-project-management.md) |
 | Sprint 30 ngày meta-skill | [meta-skill-sprint-30-days.md](./meta-skill-sprint-30-days.md) |
 | Deep work thời gian | [Chapter 6](../../../../chapters/06-quan-ly-thoi-gian.md) |
-| Dopamine / focus sinh học | [dopamine-system.md](../../../04-lifestyle-os/well-being/biohacking/dopamine-system.md) |
+| Dopamine / focus sinh học | [dopamine-system.md](../../../04-lifestyle-os/health/dopamine-system.md) |
 
 ---
 

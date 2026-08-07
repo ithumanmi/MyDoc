@@ -9,14 +9,14 @@
 - **Work blocks:** Đèn trắng 4000-5000K chiếu 45° từ phía trên/trước để giữ tỉnh táo mà không chói mắt.
 - **Screen hygiene:** Bật Night Shift/F.lux sau 19h, ưu tiên màn hình mờ khi làm việc tối.
 - **Evening wind-down:** Sau 21h chuyển sang đèn vàng <3000K, mang kính lọc ánh sáng xanh nếu phải dùng màn hình.
-- **Xem thêm:** [Sleep Optimization → Light Hygiene](./biohacking/sleep-optimization.md#light-hygiene-chi-tiet).
+- **Xem thêm:** [Sleep Optimization → Light Hygiene](../health/sleep-optimization.md#light-hygiene-chi-tiet).
 
 ## 2. Không khí, Nhiệt độ & Độ ẩm
 - **CO₂ < 800 ppm:** Mở cửa lấy gió hoặc dùng máy lọc không khí có cảm biến. CO₂ cao = buồn ngủ, brain fog.
 - **Độ ẩm 40-60%:** Dưới 30% → khô họng, trên 70% → nấm mốc. Dùng humidifier/dehumidifier theo mùa.
 - **Nhiệt độ lý tưởng:** 20-24°C khi làm việc để duy trì dopamine; 18-22°C khi ngủ để tăng deep sleep.
 - **Không khí sạch:** Lọc bụi mịn (HEPA), thay filter định kỳ; thêm cây xanh dễ chăm để giảm stress.
-- **Xem thêm:** [Health OS Overview](./biohacking/health-os-overview.md#toolkit) – danh sách thiết bị nên có.
+- **Xem thêm:** [Health OS Overview](../health/health-os-overview.md#toolkit) – danh sách thiết bị nên có.
 
 ## 3. Tiếng ồn & Attention Shield
 - **Giới hạn <50 dB cho deep work:** Đo bằng app điện thoại; nếu cao hơn, dùng noise-cancelling hoặc white noise.
@@ -41,9 +41,9 @@
 5. Ghi log: “Tuần này môi trường ảnh hưởng thế nào đến năng lượng?” → điều chỉnh.
 
 > **Gắn với hệ thống khác:**
-> - [Movement Protocols](./biohacking/movement-protocols.md) – bố trí dụng cụ ngay trong workspace.
-> - [Sleep Optimization](./biohacking/sleep-optimization.md) – tách khu làm việc & ngủ, ánh sáng đúng thời điểm.
-> - [Health Optimization Protocols](./biohacking/health-optimization-protocols.md) – tích hợp môi trường vào morning/evening routine.
+> - [Movement Protocols](../health/movement-protocols.md) – bố trí dụng cụ ngay trong workspace.
+> - [Sleep Optimization](../health/sleep-optimization.md) – tách khu làm việc & ngủ, ánh sáng đúng thời điểm.
+> - [Health Optimization Protocols](../health/health-optimization-protocols.md) – tích hợp môi trường vào morning/evening routine.
 
 ---
 

@@ -6,7 +6,7 @@
 
 ## 1. Chuẩn bị trước khi bay/làm ca
 - **Phase shift 2-3 ngày trước:** Đi ngủ dậy sớm/muộn hơn 1h/ngày để gần với giờ mục tiêu.
-- **Ánh sáng:** Dùng [Sleep Optimization](../biohacking/sleep-optimization.md) – tắm nắng/vào sáng bằng đèn mô phỏng để kéo nhịp.
+- **Ánh sáng:** Dùng [Sleep Optimization](../../health/sleep-optimization.md) – tắm nắng/vào sáng bằng đèn mô phỏng để kéo nhịp.
 - **Meal timing:** Đồng bộ bữa ăn theo giờ nơi đến ngay từ ngày lên đường → Glucose ổn định nhanh hơn.
 - **Supplement:** Melatonin 0.5-3mg (theo bác sĩ) cho ca đêm cần ngủ ban ngày, magnesium để thư giãn thần kinh.
 
@@ -19,9 +19,9 @@
 
 ## 3. Hồi phục sau ca/jet lag
 - **Daylight exposure:** Ngay khi đến nơi mới → 10-15’ sunlight theo giờ bạn muốn thức.
-- **Sleep block:** Phải ngủ ngày? Dùng combo: phòng tối + white noise fan + nhiệt độ 18-20°C + [Sleep Optimization](../biohacking/sleep-optimization.md) ritual.
-- **Cortisol reset:** Thực hiện [Cortisol & Melatonin System](../biohacking/cortisol-melatonin-system.md) – sáng ra ngoài nắng, tối giảm ánh sáng xanh.
-- **Glucose ổn định:** [Glucose System](../biohacking/glucose-insulin-system.md) – ăn protein/fat trước carb, đi bộ sau ăn để giảm crash khi thiếu ngủ.
+- **Sleep block:** Phải ngủ ngày? Dùng combo: phòng tối + white noise fan + nhiệt độ 18-20°C + [Sleep Optimization](../../health/sleep-optimization.md) ritual.
+- **Cortisol reset:** Thực hiện [Cortisol & Melatonin System](../../health/cortisol-melatonin-system.md) – sáng ra ngoài nắng, tối giảm ánh sáng xanh.
+- **Glucose ổn định:** [Glucose System](../../health/glucose-insulin-system.md) – ăn protein/fat trước carb, đi bộ sau ăn để giảm crash khi thiếu ngủ.
 - **Recovery day:** Lên lịch “buffer day” sau chuyến bay dài/chuỗi ca đêm → ưu tiên ngủ + Movement nhẹ (Zone 1-2, stretching).
 
 ## 4. Checklist nhanh

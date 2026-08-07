@@ -222,7 +222,7 @@ Hydration: 2-3L water/day
 Result: Physical resilience
 ```
 
-[Links: [Sleep](../biohacking/sleep-optimization.md), [Glucose](../biohacking/glucose-insulin-system.md), [Movement](../biohacking/movement-protocols.md)]
+[Links: [Sleep](../../health/sleep-optimization.md), [Glucose](../../health/glucose-insulin-system.md), [Movement](../../health/movement-protocols.md)]
 
 ---
 
@@ -828,11 +828,11 @@ Energy preserved for what counts
 ## 🔗 RELATED RESOURCES
 
 **Trong Well-being:**
-- [Sleep Optimization](../biohacking/sleep-optimization.md) - Foundation of recovery
+- [Sleep Optimization](../../health/sleep-optimization.md) - Foundation of recovery
 - [Mindfulness & Meditation](./mindfulness-meditation.md) - Stress management
-- [Cortisol & Melatonin](../biohacking/cortisol-melatonin-system.md) - HPA axis
-- [Dopamine System](../biohacking/dopamine-system.md) - Motivation restoration
-- [Movement Protocols](../biohacking/movement-protocols.md) - Energy through activity
+- [Cortisol & Melatonin](../../health/cortisol-melatonin-system.md) - HPA axis
+- [Dopamine System](../../health/dopamine-system.md) - Motivation restoration
+- [Movement Protocols](../../health/movement-protocols.md) - Energy through activity
 
 **Trong Productivity:**
 - [Time Management](../../../chapters/06-quan-ly-thoi-gian.md) - Sustainable rhythms

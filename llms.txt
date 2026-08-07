@@ -1,13 +1,13 @@
 # Zero to One Docs — LLMs / Agents
 
-> Machine-oriented entry map. Human overview: OVERVIEW.md · Agent rules: AGENTS.md
+> Machine-oriented entry map. Human overview: OVERVIEW.md · Agent rules: AGENTS.md · Meta hub: meta/README.md
 
 ## Primary entrypoints
 
 - AGENTS.md — mandatory agent instructions
 - OVERVIEW.md — repository map
-- AGENT-ROUTING.md — topic → canonical markdown
-- catalog/topics.yaml — structured topic index
+- meta/routing.md — topic → canonical markdown
+- meta/catalog/topics.yaml — structured topic index
 - README.md — human landing + Quick Start
 - QUICK-START.md — persona-based learning paths
 - domains/README.md — 15 technical domains + maturity
@@ -26,12 +26,12 @@
 - guides/04-lifestyle-os/ — well-being, hormones, Life OS theory
 
 ### Canonical lifestyle / hormone
-- guides/04-lifestyle-os/well-being/biohacking/endocrine-hormone-map.md
-- guides/04-lifestyle-os/well-being/biohacking/endocrine-control-playbook.md
-- guides/04-lifestyle-os/well-being/biohacking/cortisol-melatonin-system.md
-- guides/04-lifestyle-os/well-being/biohacking/dopamine-system.md
-- guides/04-lifestyle-os/well-being/biohacking/glucose-insulin-system.md
-- guides/04-lifestyle-os/well-being/biohacking/testosterone-system.md
+- guides/04-lifestyle-os/health/endocrine-hormone-map.md
+- guides/04-lifestyle-os/health/endocrine-control-playbook.md
+- guides/04-lifestyle-os/health/cortisol-melatonin-system.md
+- guides/04-lifestyle-os/health/dopamine-system.md
+- guides/04-lifestyle-os/health/glucose-insulin-system.md
+- guides/04-lifestyle-os/health/testosterone-system.md
 
 ### Learning framework
 - guides/03-career-skills/productivity/meta-skills/learning-os-framework.md
@@ -49,7 +49,7 @@
 ## Optional / low priority for default retrieval
 - resources/Tech/**/*.pdf — large binaries; prefer markdown first
 - LINK_AUDIT_REPORT.md, CONTENT-ROADMAP.md session logs — maintenance meta
-- See catalog/rag-exclude.txt
+- See meta/catalog/rag-exclude.txt
 
 ## Glossary
 - GLOSSARY.md — term → definition + links

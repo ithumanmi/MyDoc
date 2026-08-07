@@ -1,8 +1,14 @@
 ---
 title: "Internet of Things (IoT) Roadmap"
-description: "Lộ trình IoT: từ thiết bị nhúng, kết nối mạng, đến nền tảng cloud và bảo mật end-to-end."
-updated: "August 2026"
-tags: [iot, embedded, networking, cloud, edge, security]
+description: "Embedded, networking, cloud, edge, and IoT security hub"
+updated: "2026-08-07"
+canonical: true
+tags: [iot, embedded, roadmap]
+audience: [beginner, intermediate, advanced]
+related:
+  - ../../challenges/iot/README.md
+  - ../README.md
+sensitivity: public
 ---
 
 # 🌐 Internet of Things (IoT) Roadmap

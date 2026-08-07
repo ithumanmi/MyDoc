@@ -23,7 +23,7 @@ This repository is a comprehensive knowledge base covering:
 
 ### **Phase 1: Well-being Foundation (34,300 words)**
 
-#### **guides/04-lifestyle-os/well-being/biohacking/**
+#### **guides/04-lifestyle-os/health/**
 
 1. **movement-protocols.md** (6,800 words) ✅
    - Zone 2 cardio training
@@ -367,7 +367,7 @@ Add economics section with 3 new files:
 
 #### **1. Hormones Deep Dive** (~6,000 words)
 
-**File:** `guides/04-lifestyle-os/well-being/biohacking/hormones-optimization.md`
+**File:** `guides/04-lifestyle-os/health/hormones-optimization.md`
 
 **Topics:**
 - Testosterone optimization (men & women)
@@ -380,7 +380,7 @@ Add economics section with 3 new files:
 
 #### **2. Biomarkers & Testing** (~5,000 words)
 
-**File:** `guides/04-lifestyle-os/well-being/biohacking/biomarkers-tracking.md`
+**File:** `guides/04-lifestyle-os/health/biomarkers-tracking.md`
 
 **Topics:**
 - Blood test interpretation
@@ -392,7 +392,7 @@ Add economics section with 3 new files:
 
 #### **3. Micronutrients Guide** (~5,500 words)
 
-**File:** `guides/04-lifestyle-os/well-being/biohacking/micronutrients.md`
+**File:** `guides/04-lifestyle-os/health/micronutrients.md`
 
 **Topics:**
 - Essential vitamins (A, B, C, D, E, K)

@@ -1,3 +1,16 @@
+---
+title: "Data Science & Big Data Engineering Roadmap"
+description: "Lakehouse, Spark, pipelines, and applied data science hub"
+updated: "2026-08-07"
+canonical: true
+tags: [data-science, lakehouse, roadmap]
+audience: [beginner, intermediate, advanced]
+related:
+  - ../../challenges/data-science/README.md
+  - ../README.md
+sensitivity: public
+---
+
 # 🧬 Data Science & Big Data Engineering Roadmap
 
 > [← Domains hub](../README.md) | [Home](../../README.md) | [Data Analytics](../data-analytics/README.md)
@@ -7,6 +20,9 @@
 Chào mừng bạn đến với vùng đất của Dữ Liệu Khổng Lồ (Petabytes Data). Nếu **[Data Analytics](../data-analytics/README.md)** dạy bạn cách dùng SQL và Excel để báo cáo doanh thu tháng trước, thì **Data Engineering** và **Data Science** gánh vác sứ mệnh tạo ra Hệ Thống Đường Ống Tự Động Rửa Data (ETL) và dự phóng Dự Đoán Tương Lai (Machine Learning).
 
 ---
+
+<!-- tech-career-nav -->
+> **Tech vs Career:** this folder = technical how-to. **Data strategy / career framing:** [Data strategy / career framing](../../guides/03-career-skills/data-strategy/README.md). Full map: [`meta/domain-guide-map.md`](../../meta/domain-guide-map.md).
 
 ## 🌱 Foundations (mới bổ sung)
 

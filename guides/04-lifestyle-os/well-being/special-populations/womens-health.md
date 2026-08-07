@@ -17,10 +17,10 @@
 
 ## 2. Liên kết hệ thống hormone
 
-- **Sleep:** Progesterone tăng nhiệt độ → khó ngủ cuối luteal. Dùng [Sleep Optimization](../biohacking/sleep-optimization.md) (mát phòng, tắm nước ấm trước ngủ, magnesium glycinate 300mg).
-- **Cortisol:** PMS dễ kích hoạt stress → áp dụng [Cortisol & Melatonin System](../biohacking/cortisol-melatonin-system.md) (morning sunlight, evening dim light, breathwork).
-- **Glucose:** Nhạy cảm insulin giảm ở luteal → xem [Glucose & Insulin System](../biohacking/glucose-insulin-system.md) để áp dụng food sequencing + post-meal walk.
-- **Dopamine:** Low motivation during menstrual? Micro wins + [Dopamine System](../biohacking/dopamine-system.md) ritual (digital detox nhẹ, cold exposure ngắn) giúp reset.
+- **Sleep:** Progesterone tăng nhiệt độ → khó ngủ cuối luteal. Dùng [Sleep Optimization](../../health/sleep-optimization.md) (mát phòng, tắm nước ấm trước ngủ, magnesium glycinate 300mg).
+- **Cortisol:** PMS dễ kích hoạt stress → áp dụng [Cortisol & Melatonin System](../../health/cortisol-melatonin-system.md) (morning sunlight, evening dim light, breathwork).
+- **Glucose:** Nhạy cảm insulin giảm ở luteal → xem [Glucose & Insulin System](../../health/glucose-insulin-system.md) để áp dụng food sequencing + post-meal walk.
+- **Dopamine:** Low motivation during menstrual? Micro wins + [Dopamine System](../../health/dopamine-system.md) ritual (digital detox nhẹ, cold exposure ngắn) giúp reset.
 - **Iron:** Nếu mất máu nhiều → xét nghiệm Ferritin, bổ sung theo hướng dẫn bác sĩ.
 
 ## 3. Training & Recovery gợi ý

@@ -6,6 +6,8 @@
 
 Với khoảng **1.2M từ**, **~1,800 file Markdown**, và **15 technical domains** (không phải domain nào cũng Stable), bạn có thể bị overwhelm. Guide này giúp chọn đúng lộ trình theo **profile** và **mục tiêu**. Ưu tiên domain 🟢 Stable trên [`domains/README.md`](./domains/README.md) nếu mới bắt đầu.
 
+**🤖 AI agents / Cursor:** bắt đầu từ [`AGENTS.md`](./AGENTS.md) → [`meta/routing.md`](./meta/routing.md) / [`meta/catalog/topics.yaml`](./meta/catalog/topics.yaml). Không cần đọc hết `QUICK-START` nếu bạn là agent.
+
 ---
 
 ## 🎯 Bước 1: Bạn là ai? (Choose Your Path)
@@ -113,7 +115,7 @@ Click vào profile phù hợp nhất với bạn:
 #### **Tuần 7-8: Productivity & Health**
 1. ⏰ **[Deep Work](./guides/03-career-skills/productivity/core-skills/deep-work-mastery.md)** (2 giờ)
 2. 🧘 **[Burnout Prevention](./guides/04-lifestyle-os/well-being/mental-resilience/burnout-prevention.md)** (1 giờ)
-3. 🛌 **[Sleep Optimization](./guides/04-lifestyle-os/well-being/biohacking/sleep-optimization.md)** (1 giờ)
+3. 🛌 **[Sleep Optimization](./guides/04-lifestyle-os/health/sleep-optimization.md)** (1 giờ)
 
 ### **Checkpoint (Sau 2 tháng):**
 - [ ] Đã define Core Skill rõ ràng
@@ -238,26 +240,26 @@ Click vào profile phù hợp nhất với bạn:
 #### **Tuần 1: Assessment & Recovery**
 1. 🔥 **[Burnout Prevention](./guides/04-lifestyle-os/well-being/mental-resilience/burnout-prevention.md)** (2 giờ) ⭐ **Start Here**
    - Self-assessment: Bạn ở giai đoạn nào?
-2. 🛌 **[Sleep Optimization](./guides/04-lifestyle-os/well-being/biohacking/sleep-optimization.md)** (1 giờ)
+2. 🛌 **[Sleep Optimization](./guides/04-lifestyle-os/health/sleep-optimization.md)** (1 giờ)
    - Fix giấc ngủ = Fix 70% vấn đề
 
 #### **Tuần 2: Energy Management**
-1. ⚡ **[Health OS Framework](./guides/04-lifestyle-os/well-being/biohacking/health-os-overview.md)** (2 giờ)
-2. 🩸 **[Glucose & Insulin System](./guides/04-lifestyle-os/well-being/biohacking/glucose-insulin-system.md)** (1 giờ)
+1. ⚡ **[Health OS Framework](./guides/04-lifestyle-os/health/health-os-overview.md)** (2 giờ)
+2. 🩸 **[Glucose & Insulin System](./guides/04-lifestyle-os/health/glucose-insulin-system.md)** (1 giờ)
    - Ổn định năng lượng cả ngày
-3. 🧬 **[Endocrine Hormone Map](./guides/04-lifestyle-os/well-being/biohacking/endocrine-hormone-map.md)** (45 phút) — bản đồ toàn hệ nội tiết
-4. 🧠 **[Dopamine System](./guides/04-lifestyle-os/well-being/biohacking/dopamine-system.md)** (1 giờ)
+3. 🧬 **[Endocrine Hormone Map](./guides/04-lifestyle-os/health/endocrine-hormone-map.md)** (45 phút) — bản đồ toàn hệ nội tiết
+4. 🧠 **[Dopamine System](./guides/04-lifestyle-os/health/dopamine-system.md)** (1 giờ)
    - Lấy lại động lực
 
 #### **Tuần 3: Movement & Mindfulness**
-1. 🏃 **[Movement Protocols](./guides/04-lifestyle-os/well-being/biohacking/movement-protocols.md)** (1 giờ)
+1. 🏃 **[Movement Protocols](./guides/04-lifestyle-os/health/movement-protocols.md)** (1 giờ)
 2. 🧘 **[Mindfulness Meditation](./guides/04-lifestyle-os/well-being/mental-resilience/mindfulness-meditation.md)** (1 giờ)
    - Start với 5 phút/ngày
 
 #### **Tuần 4: Systems & Sustainability**
 1. 🌊 **[High Performance & Flow](./guides/04-lifestyle-os/well-being/high-performance.md)** (2 giờ)
 2. 🏛️ **[Stoicism](./guides/04-lifestyle-os/well-being/mental-resilience/stoicism-for-modern-life.md)** (1 giờ)
-3. 📋 **[Health Optimization Protocols](./guides/04-lifestyle-os/well-being/biohacking/health-optimization-protocols.md)** - Daily routine
+3. 📋 **[Health Optimization Protocols](./guides/04-lifestyle-os/health/health-optimization-protocols.md)** - Daily routine
 
 ### **Templates:**
 - 🧠 **[Learning OS Framework](./guides/03-career-skills/productivity/meta-skills/learning-os-framework.md)** — pipeline học hiện đại (bắt buộc nếu muốn học nhanh mọi thứ)
@@ -292,6 +294,9 @@ Bất kể bạn ở path nào, hãy dùng những tools này:
 - [Books](./resources/books.md) - Top sách nên đọc
 - [Tools](./resources/tools.md) - Productivity tools
 - [Communities](./resources/communities.md) - Nơi kết nối
+- [Learning OS Framework](./guides/03-career-skills/productivity/meta-skills/learning-os-framework.md) - Học bất kỳ topic nào có hệ thống
+- [AGENTS.md](./AGENTS.md) / [meta/routing.md](./meta/routing.md) - Navigation cho AI agent & RAG
+- [meta/README.md](./meta/README.md) - Hub catalog + eval
 
 ---
 

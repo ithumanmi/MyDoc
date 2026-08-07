@@ -1,3 +1,16 @@
+---
+title: "Business Analytics & BI Roadmap"
+description: "Metrics, experimentation, BI, and trading-oriented analytics hub"
+updated: "2026-08-07"
+canonical: true
+tags: [business-analytics, bi, roadmap]
+audience: [beginner, intermediate, advanced]
+related:
+  - ../../challenges/business-analytics/README.md
+  - ../README.md
+sensitivity: public
+---
+
 # 📊 Business Analytics & Business Intelligence (BI) Roadmap
 
 > [← Domains hub](../README.md) | [Home](../../README.md) | [Challenges](../../challenges/business-analytics/README.md)
@@ -10,6 +23,9 @@ Chào mừng bạn đến với ngã tư đường giữa Công Nghệ và Sinh 
 Roadmap này xoáy sâu vào Trí Tuệ Thương Mại (Business Intelligence) và Tối Ưu Tăng Trưởng (Growth Hacking), phù hợp cho **Data/Business Analysts, Product Managers (PMs), và Founders/CEOs**.
 
 ---
+
+<!-- tech-career-nav -->
+> **Tech vs Career:** this folder = technical how-to. **Data/Biz strategy career framing:** [Data/Biz strategy career framing](../../guides/03-career-skills/data-strategy/README.md). Full map: [`meta/domain-guide-map.md`](../../meta/domain-guide-map.md).
 
 ## 🧭 Cẩm Nang Lý Thuyết & Chiến Lược Kinh Tế (The Brain)
 

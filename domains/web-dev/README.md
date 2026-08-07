@@ -1,3 +1,16 @@
+---
+title: "Web Development Roadmap (Fullstack Focus)"
+description: "Frontend/fullstack web curriculum with Next/React focus"
+updated: "2026-08-07"
+canonical: true
+tags: [web, frontend, roadmap]
+audience: [beginner, intermediate, advanced]
+related:
+  - ../../challenges/web-ui/README.md
+  - ../README.md
+sensitivity: public
+---
+
 # 🌐 Web Development Roadmap (Fullstack Focus)
 
 > [← Domains hub](../README.md) | [Home](../../README.md) | [Challenges](../../challenges/web-ui/README.md)
@@ -7,6 +20,9 @@
 > **🧩 Knowledge Audit:** [Web Dev Knowledge Audit](../../case-studies/knowledge-audits/web-dev-knowledge-audit.md)
 
 ---
+
+<!-- tech-career-nav -->
+> **Tech vs Career:** this folder = technical how-to. **Web career / monetization:** [Web career / monetization](../../guides/03-career-skills/web-dev/README.md). Full map: [`meta/domain-guide-map.md`](../../meta/domain-guide-map.md).
 
 ## 📊 1. Reality Check: Web Dev vs The World
 

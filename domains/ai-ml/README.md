@@ -1,3 +1,16 @@
+---
+title: "Artificial Intelligence & Machine Learning Roadmap"
+description: "ML, DL, NLP, CV, generative AI, agents, and MLOps curriculum hub"
+updated: "2026-08-07"
+canonical: true
+tags: [ai, ml, roadmap]
+audience: [beginner, intermediate, advanced]
+related:
+  - ../../challenges/ai-ml/README.md
+  - ../README.md
+sensitivity: public
+---
+
 # 🤖 Artificial Intelligence & Machine Learning Roadmap
 
 > [← Back to Home](../../README.md) | [🚀 Quick Start](../../QUICK-START.md) | [📖 Glossary](../../GLOSSARY.md)

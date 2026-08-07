@@ -1,14 +1,18 @@
-# 🔎 Search Engine Architecture for Developers
-
 ---
 title: "Search Engine Architecture"
 description: "Pipeline crawl → index → vector retrieval dành cho đội backend xây vertical search."
-tags:
-  - backend
-  - search
-  - system-design
-updated: 2026-03-11
+tags: [backend, search, system-design]
+updated: "2026-08-07"
 ---
+
+# 🔎 Search Engine Architecture for Developers
+
+<!-- agent-summary -->
+**Agent SUMMARY** (read this first; jump to `##` needed):
+- Vertical search stack: crawl/ingest → index → query understanding → retrieval (incl. vectors).
+- Sections: requirements → HLD → crawl → index → retrieval → API → scaling → observability → build vs buy → hands-on → exercise.
+- For generic system-design interview cases prefer `domains/system-design/`; this is IR/search-specific depth.
+<!-- /agent-summary -->
 
 > [← Back to System Design](../README.md) | [Backend Roadmap](../README.md#-3-detailed-roadmap) | [Home](../../../README.md)
 >
