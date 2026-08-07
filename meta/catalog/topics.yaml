@@ -251,6 +251,7 @@ topics:
     canonical: guides/04-lifestyle-os/life-os/bond-presence-system.md
     related:
       - guides/04-lifestyle-os/life-os/bond-psychology.md
+      - guides/04-lifestyle-os/life-os/bond-body-language.md
       - guides/04-lifestyle-os/life-os/README.md
       - guides/04-lifestyle-os/well-being/mental-resilience/stoicism-for-modern-life.md
       - guides/04-lifestyle-os/Shawty/psychology-dating-experience-confidence.md
@@ -261,8 +262,17 @@ topics:
     canonical: guides/04-lifestyle-os/life-os/bond-psychology.md
     related:
       - guides/04-lifestyle-os/life-os/bond-presence-system.md
+      - guides/04-lifestyle-os/life-os/bond-body-language.md
       - guides/04-lifestyle-os/health/dopamine-system.md
       - guides/04-lifestyle-os/health/cortisol-melatonin-system.md
+      - guides/04-lifestyle-os/Shawty/psychology-dating-experience-confidence.md
+
+  - id: lifestyle.bond-body-language
+    aliases: [bond body language, low reactivity, spatial ownership, steeple hands, eye contact 70/30, vocal anchorage]
+    canonical: guides/04-lifestyle-os/life-os/bond-body-language.md
+    related:
+      - guides/04-lifestyle-os/life-os/bond-psychology.md
+      - guides/04-lifestyle-os/life-os/bond-presence-system.md
       - guides/04-lifestyle-os/Shawty/psychology-dating-experience-confidence.md
 
   - id: challenges.hub

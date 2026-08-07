@@ -7,6 +7,7 @@ tags: [psychology, evolutionary, social-cognition, presence, james-bond, dating]
 audience: [intermediate, advanced]
 related:
   - bond-presence-system.md
+  - bond-body-language.md
   - psychology-of-self.md
   - ../health/cortisol-melatonin-system.md
   - ../health/dopamine-system.md
@@ -18,7 +19,7 @@ sensitivity: public
 
 # Bond Psychology — vì sao archetype này “hút”
 
-> [← Bond Presence (protocol)](./bond-presence-system.md) · [Life OS](./README.md)
+> [← Bond Presence (protocol)](./bond-presence-system.md) · [Body language drills](./bond-body-language.md) · [Life OS](./README.md)
 
 Sức hút kiểu James Bond không chỉ là điện ảnh / ngân sách production. Nó neo vào vài **cơ chế nhận thức–xã hội** đã quen thuộc trong tâm lý học tiến hóa, hành vi và social cognition. Tài liệu này **phân tích các yếu tố** (lớp *why*); cách luyện nằm ở [Bond Presence System](./bond-presence-system.md).
 
@@ -138,6 +139,8 @@ Bộ não social đọc status bằng tín hiệu thị giác/body trong vài tr
 
 **Giới hạn văn hóa:** eye contact dài ở một số ngữ cảnh châu Á / hierarchy có thể bị đọc là khiêu khích — calibrate theo phòng.
 
+**Drill đầy đủ (pause, posture, mắt, tay, giọng):** [`bond-body-language.md`](./bond-body-language.md).
+
 ---
 
 ## 4) Halo Effect & Ideal Self / projection canvas
@@ -214,7 +217,7 @@ Gỡ một lớp (vd. chỉ suit, không composure) → caricature. Gỡ ethics 
 | Stress resiliency | Box breath, cold finish, Premeditatio | Suppression 24/7 |
 | Outcome independence | Deep work identity + options (đời đầy) | Pretend indifference |
 | Zeigarnik / scarcity | Selective disclosure; Rule of 30% | Hot-cold games |
-| Non-verbal | Video review; pause; posture | Stare / dominance theater |
+| Non-verbal | [bond-body-language](./bond-body-language.md) — pause, space, mắt, tay, giọng | Stare / dominance theater / gồng steeple |
 | Halo | Competence proof + MVB style | Suit che skill rỗng |
 | Dark triad light | Courage + strategic calm | Manipulation / callousness |
 

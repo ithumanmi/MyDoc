@@ -7,9 +7,9 @@
 **Lifestyle score (tuần này):** 2.1 /100 · Band: Reset week
 
 ## 🎯 Focus tuần này (max 3)
-1. Chốt targets trong `config.yaml` / `habits/definitions.md` (nếu chưa khớp bạn)
-2. Điền daily + CSV + nutrition mỗi tối
-3. Chủ nhật: chạy week summary → cập nhật score
+1. **Gameplay craft:** 1 feature note (feel + edge cases) + deep work ≥5 blocks trong tuần
+2. **Personal OS thật:** daily + CSV + habits ≥5/7 đêm (score lên từ bootstrap)
+3. **Bond Phase 1 start:** pause 1″ + Premeditatio 5′ · không thêm habit mới
 
 ## 📊 Snapshot nhanh
 
@@ -24,15 +24,26 @@
 | Mood / energy avg | — | daily scores |
 
 ## 🔥 Wins
-- Scaffold personal OS + lifestyle score system
+- Scaffold personal OS + lifestyle score + Bond stack (theory)
 
 ## ⚠️ Friction / cần đổi
-- 
+- Score thấp vì chưa log — ưu tiên consistency hơn thêm kiến thức
 
 ## 🧪 Experiment tuần sau
 | Experiment | Success metric | Stop rule |
 | --- | --- | --- |
-| Log đủ 7/7 ngày | score metrics+nutrition ≥ 80% max | Nếu <4 ngày log → đơn giản hóa template |
+| Log đủ ≥5/7 ngày + 5 deep-work blocks | metrics+nutrition tiến rõ | Nếu <4 ngày log → cắt Bond drills, chỉ sleep+log |
+
+## 📚 Curriculum tuần tới (W33 · bond_life lite)
+
+| Trục | Chỉ làm | Không làm tuần này |
+| --- | --- | --- |
+| Sách | 1 cuốn chính + 20′/đêm (dưới) | Đọc song song 3 cuốn |
+| Triết | Stoic daily only | Existential / Nietzsche / full Buddhism |
+| Chính trị | Lite VN + 1 tin QT/tuần | Deep Machiavelli / comparative |
+| Time / $ / Energy | Protocol dưới + log personal | Tối ưu hệ phức tạp thêm |
+
+Chi tiết protocol: chat Agent 2026-08-07 · Docs: stoicism-daily, energy-management, focus-engine, personal-finance, politics/vietnam/news-intelligence.
 
 ## 📂 Jump
 - [Today daily](./daily/2026/2026-08-07.md)

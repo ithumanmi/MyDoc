@@ -8,6 +8,7 @@ audience: [beginner, intermediate]
 related:
   - README.md
   - bond-psychology.md
+  - bond-body-language.md
   - psychology-of-self.md
   - energy-management.md
   - focus-engine.md
@@ -21,7 +22,7 @@ sensitivity: public
 
 # Bond Presence System
 
-> [← Life OS](./README.md) · **Lý thuyết tâm lý:** [`bond-psychology.md`](./bond-psychology.md) · Records: [`personal/`](../../../personal/README.md)
+> [← Life OS](./README.md) · **Lý thuyết:** [`bond-psychology.md`](./bond-psychology.md) · **Body language:** [`bond-body-language.md`](./bond-body-language.md) · Records: [`personal/`](../../../personal/README.md)
 
 **Mục tiêu:** không cosplay điệp viên — luyện **archetype** Bond thành hệ hành vi đo được: bình tĩnh dưới áp lực, lịch lãm + cạnh sắc, lối sống có agency, bí ẩn lành mạnh, năng lực thật, chuẩn mực cập nhật theo thời đại.
 
@@ -89,8 +90,9 @@ Chấm **một lần trước Week 1**, lại ở cuối Week 6 và Week 12. M�
 | **Cold finish** | Tắm kết thúc nước mát 30–90s (nếu khỏe) | 3–5× / tuần |
 | **Pressure reps** | 1 việc “khó xã hội”/ngày: gọi điện thay nhắn, xin feedback, nói giá | Daily |
 | **Slow speech −15%** | Nói chậm hơn cảm giác “đang chạy” | Mọi cuộc nói |
+| **Body language stack** | Pause 1″, solid turn, mắt 70/30 — chi tiết [bond-body-language](./bond-body-language.md) | 1–2 kỹ thuật / tuần |
 
-Đọc sâu: [Stoicism for Modern Life](../well-being/mental-resilience/stoicism-for-modern-life.md) · [Experience → confidence](../Shawty/psychology-dating-experience-confidence.md).
+Đọc sâu: [Stoicism for Modern Life](../well-being/mental-resilience/stoicism-for-modern-life.md) · [Experience → confidence](../Shawty/psychology-dating-experience-confidence.md) · [Body language](./bond-body-language.md).
 
 ### B. Gentleman with a lethal edge (Trụ 2)
 

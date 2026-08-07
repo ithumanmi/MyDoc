@@ -37,6 +37,7 @@ sensitivity: public
 | Relationships & Dating | Khung đọc tâm lý & tình huống giao tiếp | [Shawty/README.md](Shawty/README.md) |
 | **Bond Presence** | 6 trụ sức hút archetype → protocol 12 tuần | [life-os/bond-presence-system.md](life-os/bond-presence-system.md) |
 | **Bond Psychology** | Tiến hóa, Zeigarnik, non-verbal, Halo, Dark Triad light | [life-os/bond-psychology.md](life-os/bond-psychology.md) |
+| **Bond Body Language** | Pause, space, mắt, tay, giọng — drills không diễn | [life-os/bond-body-language.md](life-os/bond-body-language.md) |
 | Well-being (Hardware) | Resilience, CNS, broader well-being | [well-being/README.md](well-being/README.md) |
 | **Health theory** | Hormones, sleep, movement, nutrition OS | [health/README.md](health/README.md) |
 | **Endocrine map** | Bản đồ hormone (mood → chuyển hóa → GH/giáp/gut) | [health/endocrine-hormone-map.md](health/endocrine-hormone-map.md) |
