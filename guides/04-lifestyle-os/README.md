@@ -35,6 +35,8 @@ sensitivity: public
 | Strategy & Alignment | Vector sống, chiến lược dài hạn | [life-os/strategy-engine.md](life-os/strategy-engine.md), [life-os/alignment-engine.md](life-os/alignment-engine.md) |
 | Energy Management | Năng lượng, chú ý, hormone | [life-os/energy-management.md](life-os/energy-management.md) |
 | Relationships & Dating | Khung đọc tâm lý & tình huống giao tiếp | [Shawty/README.md](Shawty/README.md) |
+| **Bond Presence** | 6 trụ sức hút archetype → protocol 12 tuần | [life-os/bond-presence-system.md](life-os/bond-presence-system.md) |
+| **Bond Psychology** | Tiến hóa, Zeigarnik, non-verbal, Halo, Dark Triad light | [life-os/bond-psychology.md](life-os/bond-psychology.md) |
 | Well-being (Hardware) | Resilience, CNS, broader well-being | [well-being/README.md](well-being/README.md) |
 | **Health theory** | Hormones, sleep, movement, nutrition OS | [health/README.md](health/README.md) |
 | **Endocrine map** | Bản đồ hormone (mood → chuyển hóa → GH/giáp/gut) | [health/endocrine-hormone-map.md](health/endocrine-hormone-map.md) |
@@ -66,6 +68,7 @@ sensitivity: public
 | **Growth & Leverage** | Tôi đang compound kỹ năng hay chỉ chạy vòng lặp cũ? | [life-os/growth-engine.md](life-os/growth-engine.md), [life-os/leverage-theory.md](life-os/leverage-theory.md) |
 | **Energy & Hormones** | Tôi có ngủ/ăn/vận động chuẩn theo Health OS? | [health/sleep-optimization.md](health/sleep-optimization.md), [life-os/energy-management.md](life-os/energy-management.md) |
 | **Mental Resilience** | Tôi xử lý stress thế nào? Có protocol chống burnout không? | [well-being/mental-resilience/burnout-prevention.md](well-being/mental-resilience/burnout-prevention.md), [mindfulness-meditation.md](well-being/mental-resilience/mindfulness-meditation.md) |
+| **Presence & Poise** | Tôi có bình tĩnh + phong cách + cạnh sắc dưới áp lực không? | [life-os/bond-presence-system.md](life-os/bond-presence-system.md), [well-being/mental-resilience/stoicism-for-modern-life.md](well-being/mental-resilience/stoicism-for-modern-life.md) |
 | **Context Awareness** | Tôi hiểu cách Việt Nam và thế giới vận hành chưa? | [politics/README.md](politics/README.md), [politics/geopolitics/world-order.md](politics/geopolitics/world-order.md) |
 
 > **Action:** Viết lại điểm yếu nhất, chọn 1 bài tương ứng và cài đặt checklist trong tuần này.

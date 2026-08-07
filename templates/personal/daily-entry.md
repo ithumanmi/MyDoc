@@ -33,10 +33,15 @@
 ## Nutrition link
 → `personal/nutrition/YYYY/YYYY-MM-DD.md` · adherence hôm nay: ☐ đầy đủ ☐ thiếu bữa ☐ ăn ngoài nhiều
 
-## Habits (tick nhanh)
-- [ ] 
-- [ ] 
-- [ ] 
+## Habits (tick nhanh · mirror `habits/definitions.md`)
+- [ ] H1 Sleep window
+- [ ] H2 Protein morning
+- [ ] H3 Deep work block
+- [ ] H4 Move
+- [ ] H5 No late caffeine
+
+## Compliance
+- [ ] CSV row filled · [ ] Nutrition file filled · [ ] Habit row `x/-/~` 
 
 ## Note 3 dòng
 1. 

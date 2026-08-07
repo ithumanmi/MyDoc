@@ -243,7 +243,27 @@ topics:
     related:
       - guides/04-lifestyle-os/health/README.md
       - guides/04-lifestyle-os/health/health-os-overview.md
+      - guides/04-lifestyle-os/life-os/bond-presence-system.md
       - personal/README.md
+
+  - id: lifestyle.bond-presence
+    aliases: [james bond training, bond presence, composure style edge, sức hút bond]
+    canonical: guides/04-lifestyle-os/life-os/bond-presence-system.md
+    related:
+      - guides/04-lifestyle-os/life-os/bond-psychology.md
+      - guides/04-lifestyle-os/life-os/README.md
+      - guides/04-lifestyle-os/well-being/mental-resilience/stoicism-for-modern-life.md
+      - guides/04-lifestyle-os/Shawty/psychology-dating-experience-confidence.md
+      - personal/SCORE.md
+
+  - id: lifestyle.bond-psychology
+    aliases: [bond psychology, zeigarnik mystery, halo ideal self, dark triad appeal, high fitness signals]
+    canonical: guides/04-lifestyle-os/life-os/bond-psychology.md
+    related:
+      - guides/04-lifestyle-os/life-os/bond-presence-system.md
+      - guides/04-lifestyle-os/health/dopamine-system.md
+      - guides/04-lifestyle-os/health/cortisol-melatonin-system.md
+      - guides/04-lifestyle-os/Shawty/psychology-dating-experience-confidence.md
 
   - id: challenges.hub
     aliases: [challenges, kata, practice drills]

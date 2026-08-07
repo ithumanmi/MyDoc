@@ -36,15 +36,16 @@ Repo này vừa là **knowledge library**, vừa là **personal OS data store** 
 
 ```
 personal/
-├── README.md              ← bạn đang ở đây
-├── dashboard.md           ← nhìn nhanh tuần/tháng
+├── README.md
+├── SCORE.md               ← rubric Lifestyle /100
+├── config.yaml            ← targets & weights
+├── dashboard.md
 ├── daily/YYYY/YYYY-MM-DD.md
 ├── nutrition/YYYY/YYYY-MM-DD.md
-├── body/metrics.csv       ← trọng số, ngủ, steps…
+├── body/metrics.csv
 ├── habits/
-│   ├── definitions.md     ← danh sách habit + vì sao
-│   └── YYYY-MM.md         ← grid tháng
-└── weekly/YYYY/YYYY-Www.md
+├── weekly/YYYY/YYYY-Www.md
+└── monthly/YYYY-MM.md
 ```
 
 ## ⏱️ Routine gợi ý (10–15 phút/ngày)
@@ -54,20 +55,26 @@ personal/
 | Sáng (2′) | Goals + sleep từ đêm qua | `daily/…` + 1 dòng `body/metrics.csv` |
 | Mỗi bữa (1′) | Ghi meal + ước lượng | `nutrition/…` |
 | Tối (5–8′) | Energy, deep work, habits, mood | `daily/…` + `habits/YYYY-MM.md` |
-| Chủ nhật (20′) | Weekly review từ data tuần | `weekly/…` + cập nhật `dashboard.md` |
+| Chủ nhật (20′) | Week summary + score + dashboard | `python scripts/personal_week_summary.py --week YYYY-Www --write` |
+| Cuối tháng (30′) | Monthly review | `monthly/YYYY-MM.md` |
+
+## Lifestyle score
+
+- Rubric: [`SCORE.md`](./SCORE.md)
+- Targets: [`config.yaml`](./config.yaml)
+- Dashboard: [`dashboard.md`](./dashboard.md)
+
+```powershell
+python scripts/personal_week_summary.py --week 2026-W32 --write
+```
 
 ## ➕ Tạo ngày mới
 
 ```powershell
-# từ root repo
-$d = Get-Date -Format 'yyyy-MM-dd'
-$y = Get-Date -Format 'yyyy'
-Copy-Item templates/personal/daily-entry.md "personal/daily/$y/$d.md"
-Copy-Item templates/personal/nutrition-day.md "personal/nutrition/$y/$d.md"
-# mở file và sửa tiêu đề ngày
+.\personal\new-day.ps1
+# hoặc
+.\personal\new-day.ps1 -Date 2026-08-08
 ```
-
-Hoặc duplicate file hôm qua rồi xóa nội dung cụ thể.
 
 ## 🔗 Theory ↔ Data
 
@@ -77,7 +84,8 @@ Hoặc duplicate file hôm qua rồi xóa nội dung cụ thể.
 | Glucose / ăn | [glucose-insulin](../guides/04-lifestyle-os/health/glucose-insulin-system.md) | `nutrition/` |
 | **Toàn map hormone** | **[endocrine-hormone-map](../guides/04-lifestyle-os/health/endocrine-hormone-map.md)** | daily mood/energy + sleep + craving |
 | Energy / deep work | [energy-management](../guides/04-lifestyle-os/life-os/energy-management.md) | `daily/` |
-| Weekly reflection | [weekly-review template](../templates/weekly-review.md) | `weekly/` |
+| Weekly reflection | [weekly-review template](../templates/personal/weekly-review-personal.md) | `weekly/` + score script |
+| Monthly eval | [monthly-review](../templates/personal/monthly-review.md) | `monthly/` |
 
 ## Quy ước
 

@@ -34,3 +34,4 @@ if (Test-Path $nutriDst) {
 }
 
 Write-Host "Don't forget: append a row to personal/body/metrics.csv"
+Write-Host "Sunday: python scripts/personal_week_summary.py --week YYYY-Www --write"

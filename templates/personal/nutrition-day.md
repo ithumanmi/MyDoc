@@ -2,15 +2,15 @@
 
 > Ước lượng tốt hơn bỏ trắng. Không cần app — ghi “khoảng”.
 
-## Targets (cá nhân — sửa cho bạn)
+## Targets (defaults — sửa cho bạn · sync với personal/config.yaml)
 | Macro | Target |
 | --- | ---: |
-| Calories | ____ kcal |
-| Protein | ____ g |
-| Carbs | ____ g |
-| Fat | ____ g |
-| Water | ____ ml |
-| Caffeine cutoff | __:__ |
+| Calories | 2200 kcal |
+| Protein | 140 g |
+| Carbs | 200 g |
+| Fat | 70 g |
+| Water | 2500 ml |
+| Caffeine cutoff | 14:00 |
 
 ## Meals
 | Time | Meal | Foods (ngắn) | ~kcal | ~P | ~C | ~F | Notes |
