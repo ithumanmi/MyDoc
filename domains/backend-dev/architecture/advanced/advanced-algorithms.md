@@ -1,91 +1,91 @@
-# 🧮 Advanced Backend Algorithms
+# 🧮 Thuật Toán Backend Nâng Cao
 
-> [← Back to Backend Development](../README.md)
+> [← Quay lại Backend Development](../README.md)
 
-At massive scale, standard data structures (Lists, Sets, HashMaps) consume too much memory. We need specialized **Probabilistic Data Structures** and efficient algorithms.
+Ở quy mô rất lớn, các cấu trúc dữ liệu chuẩn (List, Set, HashMap) tốn quá nhiều bộ nhớ. Ta cần các **cấu trúc dữ liệu xác suất** và thuật toán hiệu quả hơn.
 
 ---
 
-## 1. Probabilistic Data Structures
-Trade accuracy for memory efficiency. "It's probably true" is better than "Out of Memory".
+## 1. Cấu trúc dữ liệu xác suất
+Đánh đổi một phần độ chính xác để tiết kiệm bộ nhớ. "Có lẽ đúng" còn hơn "hết bộ nhớ".
 
 ### **Bloom Filter**
-*   **Question:** "Does this element exist in the set?"
-*   **Answer:** "Possibly Yes" or "Definitely No". (Never false negatives).
-*   **How:** Hashing item multiple times and setting bits in a bit array.
-*   **Use Case:**
-    *   **Database:** Check if a row exists before querying disk (Postgres/Cassandra uses this).
-    *   **Username:** Check if "username123" is taken without querying DB.
-    *   **Crawler:** Check if URL has been visited.
-*   **Pros:** O(1) time, tiny memory (MBs for billions of items).
-*   **Cons:** False positives possible. Cannot delete items.
+*   **Câu hỏi:** "Phần tử này có trong tập không?"
+*   **Trả lời:** "Có thể có" hoặc "Chắc chắn không" (không có false negative).
+*   **Cách làm:** Băm (hash) nhiều lần và đặt bit trong mảng bit.
+*   **Ứng dụng:**
+    *   **Database:** Kiểm tra tồn tại trước khi truy vấn đĩa (Postgres/Cassandra dùng).
+    *   **Username:** Kiểm tra "username123" đã được dùng chưa mà không cần truy vấn DB.
+    *   **Crawler:** Kiểm tra URL đã thăm chưa.
+*   **Ưu:** O(1), bộ nhớ rất nhỏ (MB cho hàng tỷ phần tử).
+*   **Nhược:** Có thể false positive. Không xóa được phần tử.
 
 ### **HyperLogLog (HLL)**
-*   **Question:** "How many unique items are in this massive stream?" (Cardinality).
-*   **Answer:** Approximation with ~0.81% error rate using only ~12KB memory.
-*   **How:** Hashes items and counts leading zeros in binary representation.
-*   **Use Case:**
-    *   Count unique visitors (DAU/MAU) in Redis (`PFADD`, `PFCOUNT`).
-    *   Count unique IP addresses in DDoS attack.
+*   **Câu hỏi:** "Có bao nhiêu phần tử duy nhất trong dòng dữ liệu lớn?" (độ hiếm/độ phong phú).
+*   **Trả lời:** Xấp xỉ, sai số ~0.81% với chỉ ~12KB bộ nhớ.
+*   **Cách làm:** Hash phần tử và đếm số bit 0 liên tiếp ở đầu.
+*   **Ứng dụng:**
+    *   Đếm unique visitor (DAU/MAU) trong Redis (`PFADD`, `PFCOUNT`).
+    *   Đếm IP duy nhất trong tấn công DDoS.
 
 ### **Count-Min Sketch**
-*   **Question:** "How many times did X appear?" (Frequency).
-*   **Answer:** "At least N times" (Overestimation possible).
-*   **Use Case:**
-    *   Top K most viewed videos (YouTube).
-    *   Trending hashtags (Twitter).
+*   **Câu hỏi:** "X xuất hiện bao nhiêu lần?" (tần suất).
+*   **Trả lời:** "Ít nhất N lần" (có thể ước lượng cao hơn thực tế).
+*   **Ứng dụng:**
+    *   Top K video được xem nhiều.
+    *   Hashtag đang trending.
 
 ---
 
-## 2. Geospatial Algorithms
-Efficiently finding things on a map.
+## 2. Thuật toán không gian địa lý
+Tìm kiếm hiệu quả trên bản đồ.
 
 ### **GeoHash**
-*   **Concept:** Encode Latitude/Longitude into a string (Base32).
-*   **Property:** Common prefix = Nearby location.
+*   **Khái niệm:** Mã hóa Lat/Long thành chuỗi (Base32).
+*   **Tính chất:** Chung tiền tố => Gần nhau.
     *   `u4pruydqqv` (London)
-    *   `u4pruydqqw` (Nearby in London)
-*   **Use Case:** Find nearby drivers (Uber). Query: `SELECT * WHERE geohash LIKE 'u4pru%'`.
-*   **Pros:** Simple string matching.
-*   **Cons:** Edge cases at grid boundaries (neighbors might have different prefixes).
+    *   `u4pruydqqw` (lân cận London)
+*   **Ứng dụng:** Tìm tài xế gần (Uber). Truy vấn: `SELECT * WHERE geohash LIKE 'u4pru%'`.
+*   **Ưu:** So khớp chuỗi đơn giản.
+*   **Nhược:** Biên ô lưới có thể lệch (hàng xóm khác tiền tố).
 
 ### **QuadTree**
-*   **Concept:** Recursively divide 2D space into 4 quadrants.
-*   **Structure:** Tree node contains data points or 4 children.
-*   **Use Case:** Map rendering (Google Maps), Collision detection.
-*   **Pros:** Adaptive resolution (dense areas have deeper trees).
+*   **Khái niệm:** Chia không gian 2D thành 4 phần tư đệ quy.
+*   **Cấu trúc:** Node chứa điểm dữ liệu hoặc 4 node con.
+*   **Ứng dụng:** Vẽ bản đồ, phát hiện va chạm.
+*   **Ưu:** Độ phân giải thích ứng (vùng dày đặc có cây sâu hơn).
 
 ---
 
-## 3. Rate Limiting Algorithms Deep Dive
+## 3. Thuật toán giới hạn tốc độ (Rate Limiting)
 
 ### **Token Bucket**
-*   **Concept:** A bucket holds `N` tokens. Tokens are added at rate `R` per second.
-*   **Action:** Request consumes 1 token. If bucket empty -> Reject.
-*   **Pros:** Allows **Bursts** (e.g., user is inactive for 10s, then sends 10 requests at once).
-*   **Implementation:** Redis Lua script (Atomic `Get` + `Decr`).
+*   **Khái niệm:** Một xô chứa `N` token. Token được thêm với tốc độ `R` mỗi giây.
+*   **Hành vi:** Mỗi request tiêu thụ 1 token. Hết token -> từ chối.
+*   **Ưu:** Cho phép **burst** (người dùng rảnh 10s, sau đó gửi 10 request cùng lúc).
+*   **Triển khai:** Redis Lua script (atomic `GET` + `DECR`).
 
 ### **Leaky Bucket**
-*   **Concept:** A bucket with a hole. Requests enter bucket. Water leaks at constant rate.
-*   **Action:** If bucket full -> Overflow (Reject).
-*   **Pros:** Smooths out traffic (Constant output rate). Good for protecting internal services.
-*   **Cons:** No bursts allowed.
+*   **Khái niệm:** Xô có lỗ rò. Request đi vào xô, nước rò ra với tốc độ cố định.
+*   **Hành vi:** Xô đầy -> tràn -> từ chối.
+*   **Ưu:** Làm phẳng lưu lượng (tốc độ ra cố định). Bảo vệ dịch vụ nội bộ.
+*   **Nhược:** Không cho burst.
 
 ---
 
-## 4. Hashing Algorithms
-Not for security, but for speed and distribution.
+## 4. Thuật toán băm
+Mục tiêu tốc độ và phân phối, không phải bảo mật.
 
 ### **Consistent Hashing**
-*   **Problem:** Rebalancing cache when adding/removing nodes.
-*   **Solution:** Map both Nodes and Keys to a circle (0-360°). Key belongs to the next node clockwise.
-*   **Virtual Nodes:** Each physical node maps to multiple points on the circle to ensure even distribution.
-*   **Use Case:** Partitioning in DynamoDB, Cassandra, Memcached.
+*   **Bài toán:** Cân bằng lại cache khi thêm/bớt node.
+*   **Giải pháp:** Map cả Node và Key lên vòng tròn (0-360°). Key thuộc node kế tiếp theo chiều kim đồng hồ.
+*   **Virtual Nodes:** Mỗi node vật lý có nhiều điểm trên vòng tròn để phân phối đều.
+*   **Ứng dụng:** Phân vùng trong DynamoDB, Cassandra, Memcached.
 
 ### **MurmurHash / xxHash**
-*   **Goal:** Speed + Uniform distribution (Not cryptographic security).
-*   **Performance:** 10x-100x faster than SHA-256/MD5.
-*   **Use Case:** Hash Maps, Bloom Filters, Load Balancing, Sharding Keys.
+*   **Mục tiêu:** Nhanh và phân phối đều (không phải bảo mật).
+*   **Hiệu năng:** Nhanh hơn SHA-256/MD5 khoảng 10-100 lần.
+*   **Ứng dụng:** Hash map, Bloom filter, cân bằng tải, sharding key.
 
 ---
 

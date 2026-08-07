@@ -6,6 +6,15 @@
 
 ---
 
+## 0. Personal Life Data (Records)
+
+| Template | Mô tả ngắn | Đường dẫn |
+|:---------|:-----------|:----------|
+| **Personal templates hub** | Daily / nutrition / weekly / habit blanks | [templates/personal/](./personal/README.md) |
+| **Records live in** | File đã điền theo ngày | [`personal/`](../personal/README.md) |
+
+---
+
 ## 1. Productivity & Review (Năng suất & Tổng kết)
 
 | Template | Mô tả ngắn | Đường dẫn |

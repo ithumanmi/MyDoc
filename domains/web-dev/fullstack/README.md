@@ -15,3 +15,5 @@ Next.js/Node, TypeScript, database, auth.
 ## Liên quan
 - [Data Fetching](data-fetching.md)
 - [Auth & Security](auth-security.md)
+- **Lab:** [Next.js SaaS starter slice](../labs/lab-nextjs-saas-starter.md)
+- **Challenges:** [web-ui](../../../challenges/web-ui/README.md)

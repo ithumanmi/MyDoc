@@ -1,8 +1,9 @@
 # 🔗 Blockchain Knowledge Base
 
-> [← Back to Chapter 1](../../chapters/01-xac-dinh-linh-vuc.md) | [Home](../../README.md) | [🚀 Quick Start](../../QUICK-START.md) | [📖 Glossary](../../GLOSSARY.md)
+> [← Domains hub](../README.md) | [Home](../../README.md) | [Challenges](../../challenges/blockchain/README.md) | [🚀 Quick Start](../../QUICK-START.md)
 >
-> **Difficulty:** 🟢 Beginner → 🔴 Advanced (Progressive)
+> **Difficulty:** 🟢 Beginner → 🔴 Advanced (Progressive)  
+> **Practice:** [Solidity escrow challenge](../../challenges/blockchain/challenge-solidity-escrow.md)
 >
 > **Prerequisites:** Basic programming knowledge helpful but not required
 >

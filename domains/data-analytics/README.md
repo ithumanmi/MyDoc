@@ -4,11 +4,15 @@
 >
 > **Difficulty:** 🟢 Beginner → 🟡 Intermediate (Business-focused)
 >
+> **Domain maturity:** 🟡 Drafting
+>
 > **Prerequisites:** Excel basics, Business curiosity, No coding required initially
 >
 > **Time to Master:** 6-12 months (Excel mastery to SQL/Python proficiency)
 >
 > **🔗 Curated Links:** [resources/collected_links/data-analytics.md](../../resources/collected_links/data-analytics.md)
+>
+> **Practice:** [challenges/data-analytics](../../challenges/data-analytics/README.md)
 
 **📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md) to understand learning paths.
 **🧩 Knowledge Audit:** Check [Data Analytics Knowledge Audit](../../case-studies/knowledge-audits/data-analytics-knowledge-audit.md) to test your expertise!
@@ -68,10 +72,15 @@ Học đi đôi với hành. Dưới đây là các dự án mẫu để bạn l
 1.  **[Case Study: E-commerce Sales Analysis](./projects/ecommerce-analysis-case-study.md)** (⭐ **Recommended**)
     *   *Kỹ năng:* SQL, Tư duy phân tích, Business Insight.
     *   *Nhiệm vụ:* Giải quyết bài toán doanh số giảm cho Giám đốc Kinh doanh.
-2.  *(Coming Soon: Phân tích Customer Churn - Tại sao khách rời bỏ?)*
-3.  *(Coming Soon: Dashboard Marketing Performance)*
+2.  **[Case Study: Customer Churn Analysis](./projects/customer-churn-analysis.md)**
+    *   *Kỹ năng:* Cohort, churn definition, storytelling.
+    *   *Nhiệm vụ:* Giải thích vì sao churn tăng và đề xuất experiment.
+3.  **[Case Study: Marketing Dashboard Performance](./projects/marketing-dashboard-performance.md)**
+    *   *Kỹ năng:* Funnel, CAC/CPA, dashboard storytelling.
+4.  **[Pandas for Analysts](./python/pandas-for-analysts.md)** — bridge Excel/SQL → Python
 
-👉 **[Tải Mẫu Báo Cáo Phân Tích Chuyên Nghiệp](./templates/project-report-template.md)**
+👉 **[Tải Mẫu Báo Cáo Phân Tích Chuyên Nghiệp](./templates/project-report-template.md)**  
+👉 **Challenges:** [`challenges/data-analytics`](../../challenges/data-analytics/README.md)
 
 ---
 

@@ -1,8 +1,8 @@
 # 📋 Content Development Roadmap
 
-> **Last Updated:** February 16, 2026  
+> **Last Updated:** August 2026  
 > **Status:** Active Development  
-> **Total Content Created:** 108,000+ words
+> **Corpus snapshot:** ~1.2M words · ~1,800 Markdown files · 15 domains (see maturity in `domains/README.md`)
 
 ---
 
@@ -814,7 +814,8 @@ Next Session Priority: [TASK]
   * Integration: Personal Philosophy Template, Quick Reference Guide
 - 📝 Decision: Complete all 3 historical periods (Ancient, Modern, Contemporary) for comprehensive coverage
 - 📝 Enhancement: Added Quick Reference Guide (~5,000 words) - cheatsheet with decision trees, quotes, templates
-- 📝 Achievement: Repository now has 108,000+ words across 25 comprehensive guides
+- 📝 Achievement (historical, early 2026): crossed 108,000+ words across major guides
+- 📝 Corpus snapshot (Aug 2026): ~1.2M words · ~1,800 Markdown files · 15 domains with maturity labels
 - 📝 Impact: Philosophy domain provides unique value proposition - rare in tech knowledge bases
 
 ### **Key Architectural Decisions:**

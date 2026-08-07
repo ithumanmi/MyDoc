@@ -1,6 +1,6 @@
 ---
 title: "Backend Database Hub"
-description: "Tổng quan module database cho backend engineer: từ kiến trúc, tối ưu, PostgreSQL đến MongoDB."
+description: "Tổng quan database cho backend engineer: kiến trúc, tối ưu, PostgreSQL, MongoDB, Redis, Elasticsearch."
 tags:
   - backend
   - database
@@ -9,19 +9,19 @@ updated: 2026-03-11
 
 # 🗄️ Backend Database Hub
 
-Module về database cho backend roadmap: chiến lược tổng quát (index, replication, sharding) và sổ tay vận hành cho từng hệ quản trị.
+Module database cho backend roadmap: chiến lược tổng quát (index, replication, sharding) và sổ tay vận hành cho từng hệ quản trị.
 
 ## 📚 Tài liệu chính
 | File | Nội dung chính | Khi nào đọc |
 | --- | --- | --- |
-| [Advanced Database Engineering](./advanced-db.md) | Kiến trúc index, replication, sharding, caching, observability | Bước đầu làm quen database ở quy mô lớn |
-| [Database Optimization Deep Dive](./advanced-db-optimization.md) | Checklist thao tác hóa: profiling, replication, sharding, incident handling | Lúc cần tối ưu hoặc xử lý bottleneck cụ thể |
-| [PostgreSQL Operations Handbook](./postgres-operations-handbook.md) | Vận hành Postgres: tuning, backup/PITR, extensions, playbook sự cố | Đội đang chạy PostgreSQL production |
-| [MongoDB Operations Field Guide](./mongodb-operations-field-guide.md) | Schema design, index, replica set, sharding, backup của MongoDB | Đội sử dụng MongoDB/Document DB |
-| [Next-Gen Storage & Databases](./next-gen-databases.md) ✨ | (⭐ **NEW**) Giải phẫu kiến trúc Vector DBs (AI), Graph DBs, Distributed SQL (CockroachDB) & Time-Series DBs | Data Scale hiện đại nâng cấp Senior Engineer |
+| [Advanced Database Engineering](./advanced-db.md) | Kiến trúc index, replication, sharding, caching, observability | Làm quen database ở quy mô lớn |
+| [Database Optimization Deep Dive](./advanced-db-optimization.md) | Checklist thao tác: profiling, replication, sharding, xử lý sự cố | Khi cần tối ưu hoặc xử lý bottleneck cụ thể |
+| [PostgreSQL Operations Handbook](./postgres-operations-handbook.md) | Vận hành Postgres: tuning, backup/PITR, extensions, playbook sự cố | Đội vận hành PostgreSQL production |
+| [MongoDB Operations Field Guide](./mongodb-operations-field-guide.md) | Schema, index, replica set, sharding, backup MongoDB | Đội dùng MongoDB/Document DB |
+| [Next-Gen Storage & Databases](./next-gen-databases.md) ✨ | (⭐ **NEW**) Vector DBs (AI), Graph DBs, Distributed SQL, Time-Series DBs | Nâng cấp Senior Engineer cho dữ liệu hiện đại |
 
 ## 🧪 Database Practical Labs
-Hãy dựng node và giả lập lỗi để thực hành:
+Dựng node và giả lập lỗi để thực hành:
 * [Replication master-slave PostgreSQL & failover](./labs/lab-postgres-replication-failover.md) 🔥 (dựng cụm Docker, thử failover)
 * [Redis cluster & chống cache stampede](./labs/lab-redis-cluster-anti-stampede.md) 🔥 (viết mutex lock, bảo vệ DB khi traffic spike)
 

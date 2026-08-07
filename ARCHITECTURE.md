@@ -1,8 +1,9 @@
 # 🏗️ Repository Architecture
 
-> **Purpose:** This document explains the organizational philosophy and structure of the MyDoc repository.
+> **Purpose:** This document explains the organizational philosophy and structure of the Docs repository.
 >
-| **Last Updated:** March 2026
+> **Last Updated:** August 2026  
+> **Scale snapshot:** ~1,800 Markdown files · ~1.2M words · 15 technical domains
 
 ---
 
@@ -26,9 +27,10 @@ This repository follows a **hybrid navigation model**:
 | Principle | Implementation | Rationale |
 |:---|:---|:---|
 | **Separation of Concerns** | `domains/` (technical) vs `guides/` (career/life) | Prevents mixing "how to code Unity" with "how to negotiate salary" |
-| **Progressive Disclosure** | README → Quick Start → Deep Dive | Doesn't overwhelm newcomers with 108k+ words |
+| **Progressive Disclosure** | README → Quick Start → Deep Dive | Doesn't overwhelm newcomers with ~1.2M words |
 | **Discoverability** | README.md in every directory | Users never get lost |
 | **Consistency** | kebab-case naming, relative paths | Reduces cognitive load |
+| **Maturity transparency** | Stable / Drafting / Stub badges on domain hubs | Prevents false confidence in thin domains |
 | **Maintainability** | Automated link checking | Quality assurance at scale |
 
 ---
@@ -43,70 +45,48 @@ This repository follows a **hybrid navigation model**:
 
 **Content Type:** Roadmaps, tutorials, code concepts, technical references
 
-**Current Domains (8):**
+**Current Domains (15)** — see maturity table in [`domains/README.md`](./domains/README.md):
 
 ```
 domains/
-├── ai-ml/              # Artificial Intelligence & Machine Learning
-│   ├── fundamentals/   # ML basics, statistics, linear algebra
-│   ├── machine-learning/ # Supervised/unsupervised learning
-│   ├── deep-learning/  # Neural networks, CNNs, RNNs
-│   ├── nlp/            # Natural Language Processing, Transformers
-│   ├── computer-vision/ # Image processing, object detection
-│   ├── generative-ai/  # GANs, Diffusion models, LLMs
-│   ├── mlops/          # Deployment, monitoring, pipelines
-│   └── agents/         # AI agents, AutoGPT concepts
-│
-├── mobile-dev/         # Mobile App Development (iOS/Android)
-│   └── README.md       # Flutter, React Native, Swift, Kotlin
-│
-├── backend-dev/        # Backend Engineering
-│   ├── api-design/     # REST, GraphQL, gRPC
-│   ├── database/       # SQL, NoSQL, caching
-│   ├── system-design/  # Scalability, microservices
-│   ├── devops-sre/     # CI/CD, Docker, Kubernetes
-│   ├── security/       # Auth, encryption, OWASP
-│   └── testing/        # Unit, integration, E2E tests
-│
-├── blockchain/         # Blockchain & Web3
-│   ├── fundamentals/   # How blockchain works
-│   ├── development/    # Smart contracts (Solidity)
-│   ├── defi/           # Decentralized Finance
-│   ├── nft-gamefi/     # NFTs and GameFi
-│   └── security/       # Smart contract security
-│
-├── data-analytics/     # Data Analysis & Visualization
-│   ├── sql-mastery.md
-│   ├── data-visualization-mastery.md
-│   └── projects/       # Hands-on projects
-│
-├── game-dev/           # Game Development (Unity focus)
-│   ├── ai/             # Game AI (FSM, Behavior Trees)
-│   ├── graphics/       # Shaders, VFX, lighting
-│   ├── engines/        # Unity, Unreal Engine
-│   ├── pcg/            # Procedural generation
-│   └── unity-deep-dive/ # Advanced Unity patterns
-│
-├── network-security/   # Cybersecurity & Network Defense
-│   ├── deep-dive/      # Advanced security topics
-│   ├── labs/           # Hands-on practice labs
-│   └── mmo-engineering/ # Massive multiplayer security
-│
-└── web-dev/            # Web Development
-    └── README.md       # Frontend, backend, fullstack
+├── game-dev/            # 🟢 Stable — design, production, programming, labs
+├── ai-ml/               # 🟢 Stable — ML, DL, NLP, CV, generative, agents, mlops
+├── blockchain/          # 🟢 Stable — contracts, DeFi, MEV, staking, security
+├── backend-dev/         # 🟢 Stable — API, DB, architecture, security, labs
+├── mmo-engineering/     # 🟢 Stable — anti-detect, automation, platforms
+├── network-security/    # 🟢 Stable — foundations → offense/defense + labs
+├── mobile-dev/          # 🟡 Drafting — foundations → senior paths
+├── business-analytics/  # 🟡 Drafting — metrics, experimentation, trading
+├── system-design/       # 🟡 Drafting — interview deep-dives + labs
+├── dsa/                 # 🟡 Drafting — patterns + coding challenges
+├── web-dev/             # 🟡 Drafting — frontend, fullstack, portfolio
+├── iot/                 # 🟡 Drafting — embedded, MQTT, cloud, OTA, labs
+├── devops-sre/          # 🟡 Drafting — SLO, K8s, IaC, observability
+├── data-science/        # 🟡 Drafting — Spark, lakehouse, quality, Kafka
+└── data-analytics/      # 🟡 Drafting — SQL/BI + portfolio projects
 ```
+
+**Naming:** all domain folders use kebab-case (`iot/`).
 
 **When to Add a New Domain:**
 
 ✅ **Add if:**
-- Represents a distinct career path (e.g., `devops/` separate from `backend-dev/`)
-- Has sufficient content (5+ markdown files)
+- Represents a distinct career path (e.g., `devops-sre/` separate from `backend-dev/`)
+- Commit to reaching Drafting (≥10 markdown files) within one quarter
 - Doesn't heavily overlap with existing domains
 
 ❌ **Don't add if:**
-- Too narrow (e.g., `react-only/` - put in `web-dev/`)
+- Too narrow (e.g., `react-only/` — put in `web-dev/`)
 - Temporary trend without lasting career paths
 - Better suited as a guide (e.g., "productivity" is cross-domain)
+
+**Maturity rules (file-count heuristic):**
+
+| Level | `*.md` count | Expectation |
+|:---|---:|:---|
+| 🟢 Stable | ≥ 50 | Full roadmap; OK as primary learning track |
+| 🟡 Drafting | 10–49 | Usable outline; gaps expected |
+| 🟠 Stub | ≤ 9 | README-first; contribute or pick a Stable domain |
 
 ---
 
@@ -118,73 +98,19 @@ domains/
 
 **Content Type:** Mental models, career strategies, life optimization
 
-**Strategic Pillars (4):**
+**Strategic Pillars (4)** — ~900 Markdown files:
 
 ```
 guides/
-├── career/             # Career progression, remote work, salary negotiation
-│   ├── app-monetization-guide.md
-│   ├── remote-backend-guide.md
-│   └── templates/      # Resume, cover letter templates
-│
-├── entrepreneurship/   # Building businesses
-│   ├── mindset/        # Founder psychology
-│   ├── operations/     # Finance, HR, legal
-│   ├── growth/         # Marketing, sales
-│   ├── tech-startup/   # SaaS, MVPs, fundraising
-│   └── solopreneur/    # Solo founder strategies
-│
-├── finance/            # Macroeconomics, money systems
-│   ├── monetary-system.md
-│   └── economic-cycles.md
-│
-├── investing/          # Personal wealth building
-│   ├── fundamentals/   # Stocks, real estate, bonds
-│   ├── advanced/       # Options, behavioral economics
-│   └── strategy/       # Portfolio construction
-│
-├── game-dev/           # Game dev CAREER (not technical)
-│   ├── game-dev-10k-roadmap.md  # How to earn $10k/month
-│   ├── publisher-roadmap.md     # Becoming a publisher
-│   └── publisher-contract-template.md
-│
-├── growth/             # Personal development
-│   ├── becoming-top-1-percent.md
-│   ├── anti-slip-system.md
-│   ├── life-os-framework.md
-│   └── resilience-antifragility.md
-│
-├── productivity/       # Time management, deep work
-│   ├── core-skills/    # Focus, note-taking
-│   ├── career-growth/  # Promotion, networking
-│   └── side-hustle/    # Freelancing, passive income
-│
-├── well-being/         # Health optimization
-│   ├── biohacking/     # Sleep, nutrition, supplements
-│   ├── mental-resilience/ # Stoicism, stress management
-│   └── longevity/      # Long-term health strategies
-│
-├── global-intelligence/ # Understanding the world
-│   ├── trusted-sources.md
-│   ├── critical-thinking/  # Avoiding biases
-│   ├── geopolitics-macro/  # Global trends
-│   └── systems-thinking/   # Complex system analysis
-│
-├── ielts/              # English proficiency
-│   ├── roadmap-7.5.md
-│   ├── speaking-mastery.md
-│   └── writing-mastery.md
-│
-├── innovation/         # Creative problem-solving
-│   ├── design-thinking.md
-│   ├── brainstorming.md
-│   └── business-model-canvas.md
-│
-├── mmo-roadmap/        # Making money online
-├── philosophy/         # Mental models, ethics
-├── psychology/         # Human behavior understanding
-├── legal/              # Legal basics for tech workers
-└── market-research/    # Finding product-market fit
+├── 01-mental-models/     # biology, chemistry, engineering, history, math,
+│                         # mysticism, philosophy, physics, psychology,
+│                         # global-intelligence
+├── 02-wealth-business/   # entrepreneurship, finance, investing, legal,
+│                         # logistics, market-research, mmo-roadmap
+├── 03-career-skills/     # career, growth, productivity, innovation, ielts,
+│                         # sales + career tracks: game-dev, mobile-dev,
+│                         # web-dev, blockchain, security, data-*
+└── 04-lifestyle-os/      # life-os, well-being, politics
 ```
 
 **Handling Overlaps (e.g., game-dev in both domains/ and guides/):**
@@ -194,9 +120,9 @@ This is **intentional** to serve different needs:
 | Folder | Focus | Example Content |
 |:---|:---|:---|
 | `domains/game-dev/` | **HOW to build games** (Technical) | Unity architecture, C# patterns, Shader programming |
-| `guides/game-dev/` | **HOW to earn from games** (Business) | Freelancing rates, Publisher contracts, Monetization |
+| `guides/03-career-skills/game-dev/` | **HOW to earn from games** (Business) | Freelancing rates, Publisher contracts, Monetization |
 | `domains/mobile-dev/` | **HOW to build apps** (Technical) | Flutter/React Native, State Management, Local Storage |
-| `guides/mobile-dev/` | **HOW to earn from apps** (Business) | Indie Hacking, AdMob, IAP, ASO |
+| `guides/03-career-skills/mobile-dev/` | **HOW to earn from apps** (Business) | Indie Hacking, AdMob, IAP, ASO |
 
 **Navigation notes** in both READMEs clarify this boundary.
 
@@ -238,12 +164,13 @@ chapters/
 
 #### **`templates/` - Ready-to-Use Tools**
 
-Immediately actionable templates:
+Immediately actionable templates (~33 files):
 - `weekly-review.md` - Reflection framework
 - `daily-log.md` - Work journal
 - `okr-planning.md` - Goal setting (Quarterly)
 - `project-post-mortem.md` - Learning from projects
 - `cold-email-mentor.md` - Outreach template
+- See `templates/TEMPLATES-INDEX.md` for the full catalog
 
 #### **`resources/` - Curated External Links**
 
@@ -261,7 +188,38 @@ Success/failure case studies categorized by type:
 - **`knowledge-audits/`** - Skills & depth self-assessments
 - **`mental-models-analysis/`** - Multidisciplinary breakdowns (Physics, Biology, etc.)
 - **`stories/`** - Profiles of leaders and companies
-- **`templates/`** - Answer sheets for audits
+- **`answer-templates/`** - Answer sheets for audits
+
+#### **`challenges/` - Deliberate Practice Drills**
+
+Hands-on kata/challenges aligned to domains (~50 files):
+- `backend/`, `game-dev/`, `ai-ml/`, `security/`, `devops-sre/`, `web-ui/`, etc.
+- Preferred complement when theory in `domains/` outpaces practice volume
+
+---
+
+### **2.5. `personal/` — Life Data Store**
+
+**Purpose:** Record *your* daily life — meals, macros, body metrics, habits, weekly reviews.
+
+**Separation of concerns:**
+| | Knowledge | Records |
+|:---|:---|:---|
+| Folder | `guides/04-lifestyle-os/` | `personal/` |
+| Content | Protocols, frameworks | Dates, numbers, meals |
+
+```
+personal/
+├── daily/YYYY/YYYY-MM-DD.md
+├── nutrition/YYYY/YYYY-MM-DD.md
+├── body/metrics.csv
+├── habits/{definitions,YYYY-MM}.md
+├── weekly/YYYY/YYYY-Www.md
+├── dashboard.md
+└── new-day.ps1
+```
+
+Blank forms: `templates/personal/`. Hub: [`personal/README.md`](./personal/README.md).
 
 ---
 
@@ -379,32 +337,32 @@ When contributing:
 
 ## 🔮 7. Future Scalability
 
-### **7.1. Potential Domain Additions**
+### **7.1. Expand Existing Stubs First**
 
-**High Priority (when content ready):**
-- `domains/cloud-infrastructure/` - AWS, Azure, GCP deep-dives
-- `domains/devops/` - Separate from backend-dev (Terraform, K8s, monitoring)
+Prefer deepening before adding new top-level domains:
 
-**Medium Priority:**
-- `domains/embedded-systems/` - IoT, Arduino, embedded C++
-- `domains/desktop-dev/` - Electron, Tauri, native desktop apps
+1. `devops-sre/` → deepen (multi-env IaC, more runbooks) toward Stable
+2. `data-science/` → end-to-end lakehouse project
+3. `iot/` → TinyML lab + fleet ACL deep-dive
+4. `data-analytics/` → marketing dashboard case + pandas track
 
-**Low Priority:**
-- `domains/ar-vr/` - Augmented/Virtual Reality (niche but growing)
+**Only after Drafting domains harden — potential new domains:**
+- `domains/cloud-infrastructure/` — multi-cloud deep-dives (if not folded into devops-sre)
+- `domains/desktop-dev/` — Electron, Tauri, native desktop apps
 
 ### **7.2. Scaling Guidelines**
 
-**When repository grows to 200k+ words:**
+**Current scale already exceeds 1M words. Operating rules:**
 
 ✅ **DO:**
-- Consider splitting large domains into separate repos (e.g., ai-ml → own repo)
-- Add tags/labels for content difficulty (Beginner/Intermediate/Advanced)
-- Create learning path flowcharts
+- Update maturity badges when file counts cross thresholds
+- Prefer challenges/labs over more un-audited theory in Stable domains
+- Keep max practical nesting shallow (`domains/<domain>/<area>/<topic>.md`)
 
 ❌ **DON'T:**
-- Split too early (overhead management cost)
-- Create too many nested levels (max 3 deep: `domains/ai-ml/nlp/transformers.md`)
-- Duplicate content across multiple locations
+- Add Stub domains without a fill plan for the quarter
+- Duplicate career content into `domains/` (belongs in `guides/`)
+- Split repos until a Stable domain alone becomes unnavigable
 
 ### **7.3. Archive Strategy**
 
@@ -421,11 +379,15 @@ For outdated content:
 
 | Metric | Target | Current Status |
 |:---|:---:|:---|
-| **Link Health** | 100% valid | ✅ 242/242 valid |
+| **Corpus size** | Tracked quarterly | ✅ ~1,800 `.md` · ~1.2M words |
+| **Domain inventory** | Hub matches filesystem | ✅ 15 domains listed |
+| **Domain maturity** | Stable labels on hub | ✅ See `domains/README.md` |
+| **Link Health** | 100% valid | 🟡 Re-run `check_links.py` monthly |
 | **Glossary Coverage** | 80%+ technical terms | ✅ Comprehensive |
-| **Navigation Clarity** | All dirs have README | ✅ Complete |
+| **Navigation Clarity** | All major dirs have README | ✅ Complete |
 | **Content Freshness** | Updated quarterly | 🟡 As needed |
 | **User Onboarding** | Quick Start exists | ✅ QUICK-START.md |
+| **Practice balance** | Challenges grow with domains | 🟡 ~37 challenges vs large theory base |
 
 ### **8.2. User Success Metrics** (Future)
 
@@ -458,4 +420,4 @@ This repository architecture is designed around **three core user journeys**:
 
 > **Remember:** Architecture should serve users, not constrain them. If this structure stops working, we evolve it. This is a living document.
 >
-> *Last major revision: February 2026*
+> *Last major revision: August 2026*

@@ -10,6 +10,8 @@ updated: 2026-03-12
 # ⚙️ MMO Engineering Playbook
 
 > Tập trung vào kỹ thuật để scale MMO (Make Money Online) campaigns: automation, proxy farm, anti-detect, Sybil ops.
+>
+> [← Domains hub](../README.md) | **Practice (lab/owned infra only):** [Proxy pool healthcheck](../../challenges/mmo-engineering/challenge-proxy-pool-healthcheck.md)
 
 ## 1. Scope & Prerequisites
 

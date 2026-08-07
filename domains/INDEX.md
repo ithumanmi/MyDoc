@@ -1,13 +1,21 @@
-| Domain | Mô tả 1 dòng | README | Knowledge Audit |
-| --- | --- | --- | --- |
-| Internet of Things (IoT) | Embedded ↔ Cloud, MQTT, OTA, security, data pipeline. | [Iot/README.md](./Iot/README.md) | [iot-knowledge-audit.md](../case-studies/knowledge-audits/iot-knowledge-audit.md) |
-| AI / Machine Learning | Roadmap 9 bước từ fundamentals đến MLOps & Agents. | [ai-ml/README.md](./ai-ml/README.md) | [ai-knowledge-audit.md](../case-studies/knowledge-audits/ai-knowledge-audit.md) |
-| Backend Development | Backend từ CRUD đến System Design & DevOps. | [backend-dev/README.md](./backend-dev/README.md) | [backend-knowledge-audit.md](../case-studies/knowledge-audits/backend-knowledge-audit.md) |
-| Blockchain | Nền tảng, smart contract, DeFi, security. | [blockchain/README.md](./blockchain/README.md) | [blockchain-knowledge-audit.md](../case-studies/knowledge-audits/blockchain-knowledge-audit.md) |
-| Data Analytics | Excel → SQL → BI → Python → Advanced. | [data-analytics/README.md](./data-analytics/README.md) | [data-analytics-knowledge-audit.md](../case-studies/knowledge-audits/data-analytics-knowledge-audit.md) |
-| Data Structures & Algorithms | Phân tầng DSA, patterns & audit. | [dsa/README.md](./dsa/README.md) | [dsa-knowledge-audit.md](../case-studies/knowledge-audits/dsa-knowledge-audit.md) |
-| Game Development | Unity-centric, multiplayer & specialist paths. | [game-dev/README.md](./game-dev/README.md) | [game-dev-knowledge-audit.md](../case-studies/knowledge-audits/game-dev-knowledge-audit.md) |
-| Mobile Development | Lộ trình iOS/Android/Flutter. | [mobile-dev/README.md](./mobile-dev/README.md) | [mobile-dev-knowledge-audit.md](../case-studies/knowledge-audits/mobile-dev-knowledge-audit.md) |
-| Network Security | Security fundamentals, appsec, cloud, labs. | [network-security/README.md](./network-security/README.md) | [security-knowledge-audit.md](../case-studies/knowledge-audits/security-knowledge-audit.md) |
-| MMO Engineering | Automation, proxy, anti-detect, tool dev cho MMO. | [mmo-engineering/README.md](./mmo-engineering/README.md) | *(chưa có audit riêng)* |
-| Web Development | Frontend + fullstack roadmap, templates. | [web-dev/README.md](./web-dev/README.md) | [web-dev-knowledge-audit.md](../case-studies/knowledge-audits/web-dev-knowledge-audit.md) |
+# Domains — compact index
+
+> Full hub: [README.md](./README.md)
+
+| Domain | Maturity | Files | Practice |
+| --- | --- | ---: | --- |
+| Game Development | 🟢 Stable | 165 | [game-dev](../challenges/game-dev/README.md) |
+| AI / ML | 🟢 Stable | 123 | [ai-ml](../challenges/ai-ml/README.md) |
+| Blockchain | 🟢 Stable | 101 | [blockchain](../challenges/blockchain/README.md) |
+| Backend | 🟢 Stable | 85 | [backend](../challenges/backend/README.md) |
+| MMO Engineering | 🟢 Stable | 60 | [mmo-engineering](../challenges/mmo-engineering/README.md) |
+| Network Security | 🟢 Stable | 52 | [security](../challenges/security/README.md) |
+| Mobile | 🟡 Drafting | 35 | [mobile](../challenges/mobile/README.md) |
+| Business Analytics | 🟡 Drafting | 31 | [business-analytics](../challenges/business-analytics/README.md) |
+| System Design | 🟡 Drafting | 29 | [system-design](../challenges/system-design/README.md) |
+| DSA | 🟡 Drafting | 27 | [dsa](../challenges/dsa/README.md) |
+| Web Dev | 🟡 Drafting | 18 | [web-ui](../challenges/web-ui/README.md) |
+| DevOps & SRE | 🟡 Drafting | 13 | [devops-sre](../challenges/devops-sre/README.md) |
+| IoT | 🟡 Drafting | 13 | [iot](../challenges/iot/README.md) |
+| Data Science | 🟡 Drafting | 12 | [data-science](../challenges/data-science/README.md) |
+| Data Analytics | 🟡 Drafting | 12 | [data-analytics](../challenges/data-analytics/README.md) |

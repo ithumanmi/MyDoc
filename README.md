@@ -9,7 +9,7 @@
 
 **👉 [QUICK START GUIDE](./QUICK-START.md)** ⭐ **Bắt buộc đọc trước!**
 
-Với **108,000+ từ** và 10+ domains, bạn dễ bị overwhelm. Quick Start Guide sẽ giúp bạn chọn đúng lộ trình dựa trên:
+Với **~1.2M từ**, **~1,800 file Markdown**, **15 technical domains**, và lớp **`personal/`** (life data), bạn dễ bị overwhelm. Quick Start Guide sẽ giúp bạn chọn đúng lộ trình dựa trên:
 - 👶 **Beginner** (0-1 năm) - Tránh Tutorial Hell
 - 🔧 **Mid-Level** (2-5 năm) - Chuyên sâu & Level up
 - 👑 **Senior** (5+ năm) - Hướng đến Top 1%
@@ -24,14 +24,16 @@ Với **108,000+ từ** và 10+ domains, bạn dễ bị overwhelm. Quick Start 
 
 Hiểu cấu trúc để navigate hiệu quả. Mỗi mục lớn hiển thị **độ khó** và **mốc cập nhật**:
 
-- **`domains/`** *(🟢 Beginner → 🔴 Advanced | Last reviewed: Feb 2026)* – Kỹ năng kỹ thuật theo chuyên ngành (AI/ML, Backend, Game Dev, Blockchain...)
-- **`guides/`** *(🟢 Foundation → 🔴 Advanced | Last reviewed: Mar 2026)* – Kỹ năng sống & sự nghiệp (Career, Finance, Entrepreneurship, Well-being...)
+- **`personal/`** *(Life data | Last reviewed: Aug 2026)* – Daily, nutrition, body metrics, habits, weekly review (cá nhân)
+- **`domains/`** *(🟢 Stable → 🟠 Stub | Last reviewed: Aug 2026)* – 15 chuyên ngành kỹ thuật; xem maturity trên [`domains/README.md`](./domains/README.md)
+- **`guides/`** *(🟢 Foundation → 🔴 Advanced | Last reviewed: Aug 2026)* – Kỹ năng sống & sự nghiệp (4 pillars)
 - **`chapters/`** *(🟢 Beginner Path | Last reviewed: Feb 2026)* – Lộ trình học tuần tự (Chương 1-10)
+- **`challenges/`** *(Practice | Last reviewed: Aug 2026)* – Kata / drills theo domain (cân bằng theory vs practice)
 - **`templates/`** *(All levels | Last reviewed: Jan 2026)* – Templates ready-to-use (Weekly Review, OKR, Post-mortem...)
 - **`resources/`** *(Reference | Last reviewed: Jan 2026)* – Sách, tools, communities, podcasts
   - **`resources/collected_links/`** *(Domain-specific links | Last reviewed: Dec 2025)* – Curated links theo domain (AI, Backend, Security...)
 - **`case-studies/`** *(Intermediate → Advanced | Last reviewed: Feb 2026)* – Phân tích case thực tế (Vietnam & Global leaders)
-- **[`OVERVIEW.md`](./OVERVIEW.md)** *(Meta map | Last reviewed: Mar 2026)* – Bản đồ trực quan kết nối các thư mục chính.
+- **[`OVERVIEW.md`](./OVERVIEW.md)** *(Meta map | Last reviewed: Aug 2026)* – Bản đồ trực quan kết nối các thư mục chính.
 
 > **🆕 Last reviewed badges** sẽ xuất hiện ở đầu README của mọi thư mục chính để người đọc nắm được độ mới nội dung.
 
@@ -176,4 +178,4 @@ This repository is actively maintained with quarterly content reviews:
 ---
 
 > **Note:** Tài liệu này là một "Living Document" được cập nhật định kỳ mỗi tháng.
-> *Last updated: March 2026*
+> *Last updated: August 2026*

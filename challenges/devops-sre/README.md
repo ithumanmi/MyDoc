@@ -12,4 +12,4 @@ CI/CD, infra-as-code, reliability.
 ### Challenges
 | Tên | Mức | Type | Thời lượng | Prerequisites |
 | --- | --- | --- | --- | --- |
-| [challenge-k8s-deploy-minikube.md](challenge-k8s-deploy-minikube.md) | Intermediate | project | 1-2 ngày | [`domains/backend-dev/devops-sre/`](../../domains/backend-dev/devops-sre/) |
+| [challenge-k8s-deploy-minikube.md](challenge-k8s-deploy-minikube.md) | Intermediate | project | 1-2 ngày | [`domains/devops-sre/`](../../domains/devops-sre/README.md) |

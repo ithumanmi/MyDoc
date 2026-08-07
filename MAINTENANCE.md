@@ -1,8 +1,8 @@
 # 🔧 Repository Maintenance Guide
 
-> **Purpose:** Guidelines for keeping the MyDoc repository fresh, accurate, and up-to-date.
+> **Purpose:** Guidelines for keeping the Docs repository fresh, accurate, and up-to-date.
 
-> **Last Updated:** February 2026
+> **Last Updated:** August 2026
 
 ---
 
@@ -13,6 +13,7 @@
 To maintain content quality and relevance, we perform quarterly reviews (every 3 months) to:
 - Update outdated information
 - Refresh "Last Updated" dates
+- Recompute domain maturity (Stable / Drafting / Stub) on `domains/README.md`
 - Verify external links still work
 - Remove deprecated content
 - Add new industry trends
@@ -60,6 +61,7 @@ When reviewing a domain README (e.g., `domains/ai-ml/README.md`):
   > **Last Updated:** [Current Month] 2026
   ```
 - [ ] If NO changes needed → Keep existing date (shows stability)
+- [ ] Recount `*.md` files in the domain; if Stable/Drafting/Stub threshold crossed → update [`domains/README.md`](./domains/README.md) and [`domains/INDEX.md`](./domains/INDEX.md)
 
 ---
 

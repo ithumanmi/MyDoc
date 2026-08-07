@@ -1,8 +1,20 @@
 # 🧬 Data Science & Big Data Engineering Roadmap
 
-> [← Back to Home](../../README.md)
+> [← Domains hub](../README.md) | [Home](../../README.md) | [Data Analytics](../data-analytics/README.md)
+>
+> **Domain maturity:** 🟡 Drafting
 
 Chào mừng bạn đến với vùng đất của Dữ Liệu Khổng Lồ (Petabytes Data). Nếu **[Data Analytics](../data-analytics/README.md)** dạy bạn cách dùng SQL và Excel để báo cáo doanh thu tháng trước, thì **Data Engineering** và **Data Science** gánh vác sứ mệnh tạo ra Hệ Thống Đường Ống Tự Động Rửa Data (ETL) và dự phóng Dự Đoán Tương Lai (Machine Learning).
+
+---
+
+## 🌱 Foundations (mới bổ sung)
+
+1. **[Data Roles & Pipeline Mindset](./fundamentals/data-roles-and-pipeline.md)**
+2. **[Dimensional Modeling Primer](./fundamentals/dimensional-modeling-primer.md)**
+3. **[Kafka for Data Engineers](./streaming/kafka-for-data-engineers.md)**
+4. **[Data Quality & Testing](./quality/data-quality-and-testing.md)**
+5. **[Feature Store Basics](./ml-adjacent/feature-store-basics.md)**
 
 ---
 
@@ -40,7 +52,10 @@ Lý thuyết phân tán Cluster vô dụng nếu không viết Pipeline. Dưới
 ### 🛫 Lab 2: Nữ Vương Tự Động Định Tuyến Ống Nước (Workflow Orchestration)
 *   **[Lên Lịch ETL Pipeline Khét Lẹt Bằng Apache Airflow](./labs/lab-airflow-etl-pipeline.md)**: Dùng Khung Python Viết DAG (Directed Acyclic Graph). Tạo Cụm Bot tự Bò Dữ Liệu Mỗi 3h Sáng -> Rửa Rạch Lọc Data Bằng Pandas/Spark -> Bơm Tuột Xuống Kho Postgres Lõi Warehouse Mờ Rỉ Gọn Gàng! Cứu Thay Cho Trình Cronjob Mù Mờ Code Bash Shell Khập Khiễng.
 
+### 🏗️ Project E2E
+*   **[Ecommerce Lakehouse ELT (Bronze→Silver→Gold)](./projects/lakehouse-ecommerce-elt.md)** — idempotent daily + data quality gates  
+*   Hub: [projects/README.md](./projects/README.md) · Challenge: [`challenges/data-science`](../../challenges/data-science/README.md)
+
 ---
 
-> **🚀 Con Đường Lập Trình Viên Đạt Mức Lương Trăm Củ Tại Silicon Valley:** 
-Bạn Vừa Cắt Mạch Đôi Tay Qua Backend Lập API CQRS Mạng. Chút Thiết Kế Hệ Thống Red Teaming C2 Security Chắn Trọ. Biết Kéo Nước Phân Tách Cluster Big Data Bằng Spark Tự Đổ Hàng ETL. Chúc Mừng, Bạn Không Còn Gì Để Sợ Trong Giới IT Lõi Cứng Staff Engineering Từng Bày Biên!
+> **Path gợi ý:** Data Analytics → Data Engineering (pipeline) → Data Science/ML. MLOps sâu xem [`domains/ai-ml`](../ai-ml/README.md).

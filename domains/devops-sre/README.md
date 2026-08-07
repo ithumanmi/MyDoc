@@ -1,11 +1,23 @@
 # ♾️ DevOps & Site Reliability Engineering (SRE) Roadmap
 
-> [← Back to Home](../../README.md)
+> [← Domains hub](../README.md) | [Home](../../README.md) | [Challenges](../../challenges/devops-sre/README.md)
+>
+> **Domain maturity:** 🟡 Drafting · **Audience:** mid+ (đã quen backend/Linux)
 
 Lập trình viên (Backend/Frontend/Data) chỉ tập trung viết ra Code. Nhóm kỹ sư Vận Hành (Ops) truyền thống thì cầm một con Server Linux rỗng và phải đọc Docs để gõ lệnh Deploy bằng tay mất 3 ngày.
 **DevOps (Development & Operations)** ra đời để phá bỏ bức tường ngăn cách này. Thay vì gõ tay, mọi thao tác Cài đặt Mạng, Server, Load Balancer, Deploy đều được định nghĩa thành CODE và được **Tự Động Hóa (Automation)** hoàn toàn. 
 
 > Đẳng cấp cao nhất của DevOps là **SRE (Site Reliability Engineering)** - Đảm bảo hệ thống FAANG đạt chuẩn Uptime 99.999% (5 Nines - Nhanh như chớp, Không bao giờ chết).
+
+---
+
+## 🌱 Foundations (mới bổ sung)
+
+1. **[DevOps Principles](./fundamentals/devops-principles.md)**
+2. **[SLI / SLO / Error Budgets](./fundamentals/sli-slo-error-budgets.md)**
+3. **[Observability: Logs · Metrics · Traces](./observability/three-pillars.md)**
+4. **[Incident Response](./reliability/incident-response.md)**
+5. **[DevSecOps Basics](./security/devsecops-basics.md)**
 
 ---
 
@@ -28,6 +40,11 @@ Lý thuyết K8s trên giấy không thể biến bạn thành Cloud Engineer M�
 ### 🌍 Lab 2: Nền Tảng Chỉ Huy Đám Mây Mắt Thần (Cluster Observability)
 *   **[Lắp Đặt Quái Vật Kubernetes & Máy Đo Sóng Prometheus/Grafana](./labs/lab-k8s-observability.md)**: Cài Minikube chạy nguyên 1 Cụm Node K8s Nội Bộ. Đẩy App Chịu Lỗi Lên Master. Xây Dựng Râu Ăng-ten (Prometheus Node Exporter) Khám CPU/RAM và Đổ Vẽ Biểu Đồ Soi Tải Giao Thức Tuyệt Mĩ Của SRE Qua Grafana Dashboards Alert. Đạt Trình Giới Quản Lý Hầm Tàu Mạng!
 
+### 🔁 Lab 3–4 & Runbook (E2E reliability)
+*   **[Blue/Green Deploy + Instant Rollback](./labs/lab-blue-green-rollback.md)**
+*   **[Terraform App Stack trên K8s local](./labs/lab-terraform-k8s-app.md)**
+*   **[Runbook: Checkout API SEV1](./runbooks/checkout-api-sev1.md)**
+
 ---
 
-> **Lưu ý Thang Bậc:** DevOps không dành cho Entry-Level (Tập Sự Chờ Việc Mới Ra Trường). Bạn cần đi hết ngách **Backend/System Design** hoặc Tương Tự Để Hiểu Con Code Hoạt Động Cốt Lõi Ra Sao Rồi Mới Sang Nhặt Mảnh Vá Để **"Bọc Dòng Vận Hành - DevOps"**! Đã Chấp Súng DevOps K8s, Đỉnh Cao Thế Giới Trọng Đoạt Quyền Ngự Nằm Trên Tay Bạn! 
+> **Lưu ý Thang Bậc:** DevOps không dành cho Entry-Level. Nên có nền **Backend/System Design** trước. Challenges: [`challenges/devops-sre`](../../challenges/devops-sre/README.md). 

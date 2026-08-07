@@ -123,7 +123,8 @@
 ---
 
 ## 🚀 Tài liệu/Module gợi ý
-* **Foundations:** `domains/Iot/README.md` (Embedded, Connectivity, Security, Cloud/Data)
-* **Labs:** xem mục Labs bên dưới (ESP32/STM32, mTLS + OTA, Kafka + TimescaleDB, C2, TinyML)
+* **Foundations:** `domains/iot/README.md` + `domains/iot/foundations/embedded-foundations.md`
+* **Connectivity / Cloud / Security:** các module trong `domains/iot/{connectivity,cloud,security}/`
+* **Labs:** `domains/iot/labs/` · Challenge: `challenges/iot/`
 * **Security:** Secure boot, cert provisioning, OTA rollback.
 * **Data:** Kafka/TimescaleDB/Grafana pipeline.

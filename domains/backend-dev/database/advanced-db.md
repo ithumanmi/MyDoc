@@ -1,6 +1,6 @@
 ---
 title: "Advanced Database Engineering"
-description: "Nắm kiến trúc index, replication, sharding và playbook chẩn đoán bottleneck cho backend scale lớn."
+description: "Kiến trúc index, replication, sharding và playbook chẩn đoán bottleneck cho backend quy mô lớn."
 tags:
   - backend
   - database
@@ -12,10 +12,10 @@ updated: 2026-03-11
 
 > [← Quay lại Backend Development](../README.md)
 
-Module này giúp bạn hiểu cách database hoạt động ở tầng máy: index, partitioning, replication, quan sát hiệu năng và công cụ chẩn đoán. Đây là lớp nền trước khi vào các bài system design nặng hơn.
+Module này giúp hiểu cách database hoạt động ở tầng máy: index, partitioning, replication, quan sát hiệu năng và công cụ chẩn đoán. Đây là nền tảng trước khi vào các bài system design nâng cao.
 
 ## 1. Index Foundations (Data Structures)
-Indexes tăng tốc đọc nhưng ảnh hưởng write và chiếm dung lượng. Hãy chọn đúng kiểu cho workload của bạn.
+Index tăng tốc đọc nhưng ảnh hưởng write và chiếm dung lượng. Chọn đúng kiểu cho workload.
 
 ### B-Tree (Balanced Tree)
 - **Dùng cho:** MySQL InnoDB, PostgreSQL, SQL Server.
@@ -27,18 +27,18 @@ Indexes tăng tốc đọc nhưng ảnh hưởng write và chiếm dung lượng
 - **Luồng write:** MemTable trong RAM → flush thành SSTable bất biến.
 - **Đánh đổi:** Write cực nhanh, read cần check nhiều SSTable → cần Bloom filter + compaction.
 
-### Các Index đặc biệt
+### Các dạng index đặc biệt
 - **Hash Index:** O(1) lookup, không hỗ trợ range (Redis Hash, PostgreSQL Hash Index).
 - **GIN/GiST:** Full-text, JSONB, spatial / nearest-neighbor (PostgreSQL).
 - **BRIN:** Block Range Index – phù hợp bảng time-series khổng lồ.
 
 ## 2. Partitioning & Sharding Strategies
 
-### Partitioning (Trong cùng instance)
+### Partitioning (trong cùng instance)
 - Range, List, Hash giúp chia bảng nội bộ → index nhỏ hơn, VACUUM nhanh.
 - Dùng cho PostgreSQL declarative partitioning, MySQL partitioned tables.
 
-### Sharding (Distributed)
+### Sharding (phân tán)
 - **Horizontal partitioning** sang nhiều node độc lập.
 - Chọn shard key tránh hotspot (hash user_id, hoặc composite `tenant_id + hash(user_id)`).
 - **Consistency trade-off:** cross-shard JOIN khó; transaction cần 2PC hoặc Saga.
@@ -66,36 +66,36 @@ Indexes tăng tốc đọc nhưng ảnh hưởng write và chiếm dung lượng
 | Category | Khi nào dùng | Ví dụ |
 | --- | --- | --- |
 | SQL truyền thống | Transaction mạnh, schema rõ | PostgreSQL, MySQL |
-| NoSQL (Key-value/Document) | Throughput cực lớn, schema linh hoạt | DynamoDB, MongoDB |
+| NoSQL (Key-value/Document) | Throughput lớn, schema linh hoạt | DynamoDB, MongoDB |
 | NewSQL / Distributed SQL | Mở rộng ngang + ACID | CockroachDB, TiDB, YugabyteDB |
-| Serverless DB | Traffic bursty, không muốn quản lý infra | Aurora Serverless v2, PlanetScale |
+| Serverless DB | Traffic biến động, không muốn quản lý hạ tầng | Aurora Serverless v2, PlanetScale |
 
-Vector/AI workloads đang yêu cầu **hybrid**: lưu metadata trong SQL, embedding trong vector store (Milvus/pgvector). Thiết kế sớm pipeline đồng bộ.
+Workload Vector/AI thường **hybrid**: metadata trong SQL, embedding trong vector store (Milvus/pgvector). Thiết kế sớm pipeline đồng bộ.
 
 ## 5. Query Diagnostics & Observability
 - Bật **Slow Query Log** hoặc `pg_stat_statements`, `performance_schema` để thấy top query.
 - Dùng `EXPLAIN (ANALYZE, BUFFERS)` (Postgres) / `EXPLAIN FORMAT=JSON` (MySQL) để hiểu plan.
 - Theo dõi metric: buffer hit ratio, replication lag, checkpoint write, lock wait.
-- Gắn alert khi p95 query latency > SLA hoặc deadlock tăng đột biến.
+- Gắn alert khi p95 query latency > SLA hoặc deadlock tăng.
 
 ## 6. Caching & Application Patterns
 - Luôn thử caching (Redis, Memcached) trước khi sharding.
-- Pattern phổ biến: read-through cache, write-through, write-behind.
-- Cân nhắc **materialized view + CDC** để giảm query phức.
-- Kết hợp với [System Design Universe](../system-design/system-design-universe.md) layer 2 (Database Design) để định vị maturity.
+- Pattern phổ biến: read-through, write-through, write-behind.
+- Cân nhắc **materialized view + CDC** để giảm truy vấn phức tạp.
+- Kết hợp [System Design Universe](../system-design/system-design-universe.md) layer 2 (Database Design) để định vị maturity.
 
-## 7. Hands-on Playbook
-1. **Bật observability**: slow query log, pg_stat_statements, cloud insights.
-2. **Lập top offenders**: query chiếm >20% CPU/IO.
-3. **EXPLAIN + Index review**: kiểm tra filter, join order, row estimate.
-4. **Benchmark**: dùng `pgbench`, `sysbench` hoặc JMeter để mô phỏng workload.
-5. **Test failover**: chạy chaos (kill primary) → đo thời gian promote replica.
-6. **Plan sharding/caching**: mô tả routing layer, consistent hashing, migration plan.
+## 7. Quy trình tối ưu mẫu
+- 1. **Bật observability**: slow query log, pg_stat_statements, cloud insights.
+- 2. **Lập top offenders**: query chiếm >20% CPU/IO.
+- 3. **EXPLAIN + rà index**: kiểm tra filter, join order, row estimate.
+- 4. **Benchmark**: dùng `pgbench`, `sysbench` hoặc JMeter mô phỏng workload.
+- 5. **Test failover**: chaos (kill primary) → đo thời gian promote replica.
+- 6. **Plan sharding/caching**: mô tả routing layer, consistent hashing, migration plan.
 
 ## 8. ✅ Apply it
-- [ ] Gắn front-matter & owner cho database tại công ty (version, RTO/RPO).
-- [ ] Audit toàn bộ index: cột nào không còn xuất hiện trong query thì drop.
-- [ ] Chạy `EXPLAIN ANALYZE` cho 5 query chậm nhất, ghi lại insight.
+- [ ] Gắn front-matter & owner cho database nội bộ (version, RTO/RPO).
+- [ ] Audit index: cột không xuất hiện trong query thì drop.
+- [ ] Chạy `EXPLAIN ANALYZE` cho 5 query chậm nhất, ghi insight.
 - [ ] Thiết kế chiến lược read replica + routing “read your writes”.
 - [ ] Viết sơ đồ shard key + kế hoạch reshard (tooling, downtime, backfill).
 - [ ] Lập dashboard replication lag, deadlock count, buffer hit ratio.

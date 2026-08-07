@@ -1,9 +1,10 @@
 # 🌐 Web Development Roadmap (Fullstack Focus)
 
-> [← Back to Chapter 1](../../chapters/01-xac-dinh-linh-vuc.md) | [Home](../../README.md)
+> [← Domains hub](../README.md) | [Home](../../README.md) | [Challenges](../../challenges/web-ui/README.md)
 >
-> **📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md) to understand learning paths.
-> **🧩 Knowledge Audit:** Check [Web Dev Knowledge Audit](../../case-studies/knowledge-audits/web-dev-knowledge-audit.md) to test your skills!
+> **Domain maturity:** 🟡 Drafting  
+> **📊 Difficulty:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md)  
+> **🧩 Knowledge Audit:** [Web Dev Knowledge Audit](../../case-studies/knowledge-audits/web-dev-knowledge-audit.md)
 
 ---
 
@@ -22,7 +23,15 @@ Web Development là con đường phổ biến nhất để gia nhập ngành IT
 
 > **Verdict:** Web Dev là lựa chọn an toàn và linh hoạt nhất. Nhưng để nổi bật giữa đám đông, bạn không thể chỉ biết code, bạn phải biết **Build Product** và **Optimize Performance**.
 
-> **Sitemap:** Xem [INDEX.md](INDEX.md) để điều hướng nhanh.
+> **Sitemap:** [INDEX.md](INDEX.md) · **Labs:** [labs/](./labs/README.md)
+
+### Module map
+| Level | Docs |
+| --- | --- |
+| Foundations | [foundations/](./foundations/README.md) · [responsive-tailwind](./foundations/responsive-tailwind.md) |
+| Frontend | [frontend/](./frontend/README.md) · [react-performance](./frontend/react-performance.md) |
+| Fullstack | [fullstack/](./fullstack/README.md) · [lab SaaS](./labs/lab-nextjs-saas-starter.md) |
+| Career | [portfolio-career/](./portfolio-career/README.md) · [senior-paths/](./senior-paths/README.md) |
 
 ---
 

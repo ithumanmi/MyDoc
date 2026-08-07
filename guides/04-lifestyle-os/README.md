@@ -6,6 +6,10 @@
 1. Thiết kế “hệ điều hành cá nhân” (Life OS) với các động cơ ra quyết định, tăng trưởng, phòng thủ.
 2. Duy trì phần cứng sinh học & tinh thần (Well-being) để không cháy máy.
 3. Hiểu môi trường quyền lực (Politics) để định vị cá nhân/gia đình trong bối cảnh lớn.
+4. **Ghi dữ liệu thật** vào [`personal/`](../../personal/README.md) (daily, nutrition, body, habits) — theory ở đây, records ở kia.
+
+## 🧬 Personal data (records)
+👉 **[`personal/dashboard.md`](../../personal/dashboard.md)** · tạo ngày mới: `.\personal\new-day.ps1`
 
 ## 📚 Module nhanh
 | Module | Mô tả 1 dòng | Link |

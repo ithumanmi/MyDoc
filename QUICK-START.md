@@ -4,7 +4,7 @@
 
 **Chào mừng bạn đến với Zero to One Docs!** 
 
-Với hơn **108,000+ từ** covering 10+ domains, bạn có thể bị overwhelm. Đừng lo! Guide này sẽ giúp bạn tìm đúng lộ trình phù hợp với **profile** và **mục tiêu** của bạn.
+Với khoảng **1.2M từ**, **~1,800 file Markdown**, và **15 technical domains** (không phải domain nào cũng Stable), bạn có thể bị overwhelm. Guide này giúp chọn đúng lộ trình theo **profile** và **mục tiêu**. Ưu tiên domain 🟢 Stable trên [`domains/README.md`](./domains/README.md) nếu mới bắt đầu.
 
 ---
 
@@ -260,6 +260,8 @@ Click vào profile phù hợp nhất với bạn:
 
 ### **Templates:**
 - 📊 **[Daily Performance Tracker](./templates/well-being/daily-performance-tracker.md)**
+- 🧬 **[Personal Life Data](./personal/README.md)** ⭐ — ghi daily / nutrition / body / habits (không chỉ đọc theory)
+- 📟 **[Personal Dashboard](./personal/dashboard.md)** — tóm tắt tuần
 
 ### **Checkpoint (Sau 1 tháng):**
 - [ ] Sleep 7-8 giờ/đêm ổn định

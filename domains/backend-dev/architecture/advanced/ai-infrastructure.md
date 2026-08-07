@@ -1,6 +1,6 @@
 ---
-title: "AI Infrastructure"
-description: "Vector DB, embedding pipeline, LLM serving, RAG architecture."
+title: "Hạ tầng AI"
+description: "Vector DB, pipeline embedding, phục vụ LLM, kiến trúc RAG."
 tags:
   - backend
   - architecture
@@ -8,49 +8,49 @@ tags:
 updated: 2026-03-11
 ---
 
-# 🧠 AI Infrastructure (2024-2026)
+# 🧠 Hạ tầng AI (2024-2026)
 
-## 1. Vector Databases & Indexing
-- **Use cases:** semantic search, recommendation, anomaly detection.
-- **Engines:** Pinecone, Weaviate, Qdrant, Milvus, PostgreSQL+pgvector.
-- **Index types:** IVF, HNSW, Product Quantization.
-- **Hybrid search:** combine BM25 + vector score.
+## 1. Cơ sở dữ liệu vector & lập chỉ mục
+- **Use case:** semantic search, gợi ý, phát hiện bất thường.
+- **Engine:** Pinecone, Weaviate, Qdrant, Milvus, PostgreSQL + pgvector.
+- **Loại index:** IVF, HNSW, Product Quantization.
+- **Tìm kiếm lai:** kết hợp BM25 + điểm vector.
 
-### Apply
-- Map dimension (d) các embedding → chọn index phù hợp.
-- Thiết lập RPS capacity, replication for HA.
-- Theo dõi recall vs latency → tuning ef, nprobe.
+### Thực hành
+- Map số chiều (d) của embedding → chọn index phù hợp.
+- Thiết lập khả năng phục vụ RPS, replication để HA.
+- Theo dõi recall vs latency → tinh chỉnh `ef`, `nprobe`.
 
-## 2. Embedding Pipeline
-- **Sources:** text, code, image/audio.
-- **Steps:** chunking → cleaning → embedding → storing.
-- **Batch vs streaming:** offline refresh vs near-real-time update.
-- **Data quality:** dedup, remove PII.
+## 2. Pipeline embedding
+- **Nguồn dữ liệu:** text, code, image/audio.
+- **Bước:** chunking → làm sạch → embedding → lưu trữ.
+- **Batch vs streaming:** làm mới offline vs cập nhật gần real-time.
+- **Chất lượng dữ liệu:** khử trùng lặp, loại bỏ PII.
 
-### Tooling
-- Open-source: LangChain, LlamaIndex, Haystack.
-- MLOps: Airflow/Prefect orchestration, Feature Store.
+### Công cụ
+- Mã nguồn mở: LangChain, LlamaIndex, Haystack.
+- MLOps: điều phối Airflow/Prefect, Feature Store.
 
-## 3. LLM Serving Patterns
+## 3. Mẫu phục vụ LLM
 - **Single model endpoint:** REST/gRPC autoscaling (SageMaker, Vertex AI, vLLM).
-- **Model routing:** Router chọn model theo prompt type/cost.
+- **Model routing:** Router chọn model theo loại prompt/chi phí.
 - **Speculative decoding:** model nhỏ dự đoán, model lớn xác nhận → tăng throughput.
-- **Continuous batching:** gom request để tận dụng GPU (vLLM, Triton).
+- **Continuous batching:** gom request tận dụng GPU (vLLM, Triton).
 
 ## 4. Retrieval-Augmented Generation (RAG)
-- **Flow:** user prompt → retrieve context (vector DB) → augment prompt → LLM → guardrail.
-- **Components:** retriever, reranker, prompt template, caching.
-- **Quality metrics:** grounding accuracy, hallucination rate, latency.
-- **Advanced:** multi-hop retrieval, tool calling, agentic workflow.
+- **Luồng:** user prompt → lấy ngữ cảnh (vector DB) → bổ sung prompt → LLM → guardrail.
+- **Thành phần:** retriever, reranker, prompt template, caching.
+- **Chỉ số chất lượng:** grounding accuracy, hallucination rate, latency.
+- **Nâng cao:** multi-hop retrieval, tool calling, agentic workflow.
 
-## ✅ Apply it
-- [ ] Thiết kế pipeline embedding (scheduler, chunk size, recursion depth) + diagram.
-- [ ] Chọn vector DB (managed/self-host) phù hợp compliance & budget.
-- [ ] POC serving stack (vLLM + Triton + autoscaler) với load thực tế.
+## ✅ Thực hành
+- [ ] Thiết kế pipeline embedding (scheduler, chunk size, recursion depth) + sơ đồ.
+- [ ] Chọn vector DB (managed/self-host) phù hợp compliance & ngân sách.
+- [ ] POC stack phục vụ (vLLM + Triton + autoscaler) với tải thực tế.
 - [ ] Đo metric RAG (retrieval recall, answer faithfulness) trong dashboard.
 - [ ] Tích hợp guardrail (content filter, policy) trước khi trả kết quả.
 
-## 🔗 Cross-reference
+## 🔗 Tham chiếu chéo
 - [ai-ml/ai-engineering-roadmap-2026.md](../ai-ml/ai-engineering-roadmap-2026.md)
 - [backend-dev/deployment-guide.md](../deployment-guide.md) – CI/CD cho model serving.
 - [monitoring-observability.md](../monitoring-observability.md) – metric GPU, token latency.

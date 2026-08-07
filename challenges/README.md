@@ -1,38 +1,43 @@
 # 🏹 Challenges Hub
 
-Kho bài tập theo mảng kiến thức. Dùng **template** bên dưới để tạo challenge mới, đặt trong thư mục mảng tương ứng.
+Kho bài tập theo mảng (~50 Markdown files). Copy `template.md` để thêm challenge mới.
 
-## Cách dùng
-1) Chọn mảng → copy `template.md` → điền nội dung cụ thể.
-2) Đặt tên file dạng `challenge-<slug>.md` (ví dụ: `challenge-ml-serving-basics.md`).
-3) PR bổ sung challenge mới và update README của mảng.
+### Type
+- **Project** · **Interview** · **Kata**
 
-> Challenges bổ sung cho **Domains** và **Guides**; nên học phần tương ứng trước khi làm challenge.
+## Mục lục ↔ Domain
 
-### Phân loại type
-- **Project:** build sản phẩm/end-to-end (có deliverable rõ, thường 2–4 ngày/tuần).
-- **Interview:** dạng câu hỏi + flow trả lời, có thể kèm design/code ngắn.
-- **Kata:** bài ngắn lặp kỹ năng (1–3 giờ).
+| Challenges | Domain |
+| --- | --- |
+| [AI / ML](ai-ml/README.md) | [`domains/ai-ml`](../domains/ai-ml/README.md) |
+| [Backend](backend/README.md) | [`domains/backend-dev`](../domains/backend-dev/README.md) |
+| [Blockchain](blockchain/README.md) | [`domains/blockchain`](../domains/blockchain/README.md) |
+| [Business Analytics](business-analytics/README.md) | [`domains/business-analytics`](../domains/business-analytics/README.md) |
+| [Data Analytics](data-analytics/README.md) | [`domains/data-analytics`](../domains/data-analytics/README.md) |
+| [Data Science](data-science/README.md) | [`domains/data-science`](../domains/data-science/README.md) |
+| [DevOps / SRE](devops-sre/README.md) | [`domains/devops-sre`](../domains/devops-sre/README.md) |
+| [DSA](dsa/README.md) | [`domains/dsa`](../domains/dsa/README.md) |
+| [Game Dev](game-dev/README.md) | [`domains/game-dev`](../domains/game-dev/README.md) |
+| [IoT](iot/README.md) | [`domains/iot`](../domains/iot/README.md) |
+| [MMO Engineering](mmo-engineering/README.md) | [`domains/mmo-engineering`](../domains/mmo-engineering/README.md) |
+| [Mobile](mobile/README.md) | [`domains/mobile-dev`](../domains/mobile-dev/README.md) |
+| [Security](security/README.md) | [`domains/network-security`](../domains/network-security/README.md) |
+| [System Design](system-design/README.md) | [`domains/system-design`](../domains/system-design/README.md) |
+| [Web / UI](web-ui/README.md) | [`domains/web-dev`](../domains/web-dev/README.md) |
+| [Product / PM](product-pm/README.md) | — |
 
-## Mục lục
-- [AI / ML](ai-ml/README.md)
-- [Backend](backend/README.md)
-- [Web / UI](web-ui/README.md)
-- [Security](security/README.md)
-- [DSA / Algorithms](dsa/README.md)
-- [Data / Analytics](data-analytics/README.md)
-- [DevOps / SRE](devops-sre/README.md)
-- [Mobile](mobile/README.md)
-- [Product / PM](product-pm/README.md)
+## Ví dụ mới
+- [Solidity escrow](blockchain/challenge-solidity-escrow.md)
+- [URL shortener interview](system-design/challenge-design-url-shortener.md)
+- [Lakehouse daily ELT](data-science/challenge-lakehouse-daily-elt.md)
+- [Proxy pool healthcheck](mmo-engineering/challenge-proxy-pool-healthcheck.md)
+- [A/B decision memo](business-analytics/challenge-ab-test-decision-memo.md)
 
-## Ví dụ nổi bật
-- [challenge-fullstack-saas-starter.md](web-ui/challenge-fullstack-saas-starter.md) — **project**: build SaaS starter (auth, billing, CRUD, deploy).
-- [Tech Day 67 – ML Deployment Interview](ai-ml/tech-day-67-ml-deployment-interview.md) — **interview**: flow triển khai model từ notebook thành service production.
+## Suggested paths
+- **Backend → SRE:** REST API challenge → K8s deploy → blue/green lab trong domain
+- **Data:** SQL dashboard → Pandas → Lakehouse ELT challenge
+- **Web:** A11y/perf kata → Next.js SaaS lab → fullstack SaaS challenge
+- **IoT:** ESP32 lab → MQTT pipeline challenge → TinyML lab
 
-## Suggested paths (tùy chọn)
-- **Backend path:** REST API cơ bản → CQRS/Outbox → System design.
-- **AI/ML path:** Feature baseline kata → RAG pipeline project → MLOps/serving.
-- **Web/UI path:** SPA performance → Accessibility → Fullstack SaaS.
-
-## Template chung
-Xem `template.md` trong thư mục này.
+## Template
+`template.md`

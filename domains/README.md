@@ -2,44 +2,42 @@
 
 > Bản đồ định hướng cho toàn bộ thư mục `domains/`
 >
-> [← Back to Home](../README.md) | [📖 Glossary](../GLOSSARY.md) | [🚀 Quick Start](../QUICK-START.md)
+> [← Back to Home](../README.md) | [📖 Glossary](../GLOSSARY.md) | [🚀 Quick Start](../QUICK-START.md) | [🏹 Challenges](../challenges/README.md)
+>
+> **Last reviewed:** Aug 2026 · **15 domains** · **0 Stub**
 
-Thư mục `domains/` tập hợp các lộ trình chuyên sâu theo từng lĩnh vực công nghệ, giúp bạn định hướng học tập, kiểm tra năng lực và chọn bước đi tiếp theo. Mỗi domain đều có:
+## 🏷️ Maturity legend
 
-* **README riêng**: Roadmap, yêu cầu đầu vào, thời gian làm chủ.
-* **Knowledge Audit**: Bài tự đánh giá trong `case-studies/knowledge-audits/`.
-* **Tài nguyên hỗ trợ**: Templates, case study, dự án mẫu.
-
-## 🧭 Cách sử dụng
-
-1. **Chọn lĩnh vực ưu tiên** dựa trên mục tiêu nghề nghiệp.
-2. **Đọc README của domain** để nắm roadmap và các file con.
-3. **Làm Knowledge Audit** tương ứng để đánh giá mức độ sẵn sàng.
-4. **Bổ sung dự án/portfolio** theo template đề xuất trong từng domain.
-
-> Tip: Nếu chưa chắc chọn lĩnh vực, xem [Chương 1: Xác định lĩnh vực](../chapters/01-xac-dinh-linh-vuc.md) trước khi dive deep.
+| Badge | Meaning | `*.md` count |
+| --- | --- | ---: |
+| 🟢 **Stable** | Học end-to-end được | ≥ 50 |
+| 🟡 **Drafting** | Có khung + labs/projects; còn gap | 10–49 |
+| 🟠 **Stub** | Skeleton | ≤ 9 |
 
 ## 🌐 Danh sách domain
 
-| Domain | Mô tả ngắn | README | Knowledge Audit |
-| --- | --- | --- | --- |
-| 🌐 **Internet of Things (IoT)** | Embedded ↔ Cloud, MQTT, OTA, security, data pipeline. | [`Iot/README.md`](./Iot/README.md) | [IoT Knowledge Audit](../case-studies/knowledge-audits/iot-knowledge-audit.md) |
-| 🤖 **AI / Machine Learning** | Roadmap 9 bước từ fundamentals đến MLOps & Agents. | [`ai-ml/README.md`](./ai-ml/README.md) | [AI Knowledge Audit](../case-studies/knowledge-audits/ai-knowledge-audit.md) |
-| 🔧 **Backend Development** | Lộ trình backend từ CRUD đến System Design & DevOps. | [`backend-dev/README.md`](./backend-dev/README.md) | [Backend Audit](../case-studies/knowledge-audits/backend-knowledge-audit.md) |
-| 🏗️ **System Design** | Bộ sưu tập fundamentals + 13 bài deep-dive hệ thống kinh điển. | [`system-design/README.md`](./system-design/README.md) | — |
-| 🔗 **Blockchain** | Từ nền tảng, smart contract tới DeFi, security. | [`blockchain/README.md`](./blockchain/README.md) | [Blockchain Audit](../case-studies/knowledge-audits/blockchain-knowledge-audit.md) |
-| 📊 **Data Analytics** | 5 giai đoạn: Excel → SQL → BI → Python → Advanced. | [`data-analytics/README.md`](./data-analytics/README.md) | [Data Analytics Audit](../case-studies/knowledge-audits/data-analytics-knowledge-audit.md) |
-| 🧮 **Data Structures & Algorithms** | Phân tầng học DSA, patterns & knowledge audit. | [`dsa/README.md`](./dsa/README.md) | [DSA Audit](../case-studies/knowledge-audits/dsa-knowledge-audit.md) |
-| 🎮 **Game Development** | Unity-centric roadmap, multiplayer & specialist paths. | [`game-dev/README.md`](./game-dev/README.md) | [Game Dev Audit](../case-studies/knowledge-audits/game-dev-knowledge-audit.md) |
-| 📱 **Mobile Development** | (Kiểm tra README để xem lộ trình iOS/Android/Flutter). | [`mobile-dev/README.md`](./mobile-dev/README.md) | [Mobile Dev Audit](../case-studies/knowledge-audits/mobile-dev-knowledge-audit.md) |
-| 🛡️ **Network Security** | Security fundamentals, appsec, cloud, labs. | [`network-security/README.md`](./network-security/README.md) | [Security Audit](../case-studies/knowledge-audits/security-knowledge-audit.md) |
-| 🛰️ **MMO Engineering** | Automation, proxy, anti-detect, tool dev cho MMO. | [`mmo-engineering/README.md`](./mmo-engineering/README.md) | — |
-| 🌐 **Web Development** | Frontend + fullstack roadmap, templates và best practices. | [`web-dev/README.md`](./web-dev/README.md) | [Web Dev Audit](../case-studies/knowledge-audits/web-dev-knowledge-audit.md) |
+| Domain | Maturity | Files | README | Practice |
+| --- | --- | ---: | --- | --- |
+| 🎮 Game Development | 🟢 Stable | 165 | [game-dev](./game-dev/README.md) | [challenges](../challenges/game-dev/README.md) |
+| 🤖 AI / ML | 🟢 Stable | 123 | [ai-ml](./ai-ml/README.md) | [challenges](../challenges/ai-ml/README.md) |
+| 🔗 Blockchain | 🟢 Stable | 101 | [blockchain](./blockchain/README.md) | [challenges](../challenges/blockchain/README.md) |
+| 🔧 Backend | 🟢 Stable | 85 | [backend-dev](./backend-dev/README.md) | [challenges](../challenges/backend/README.md) |
+| 🛰️ MMO Engineering | 🟢 Stable | 60 | [mmo-engineering](./mmo-engineering/README.md) | [challenges](../challenges/mmo-engineering/README.md) |
+| 🛡️ Network Security | 🟢 Stable | 52 | [network-security](./network-security/README.md) | [challenges](../challenges/security/README.md) |
+| 📱 Mobile | 🟡 Drafting | 35 | [mobile-dev](./mobile-dev/README.md) | [challenges](../challenges/mobile/README.md) |
+| 📈 Business Analytics | 🟡 Drafting | 31 | [business-analytics](./business-analytics/README.md) | [challenges](../challenges/business-analytics/README.md) |
+| 🏗️ System Design | 🟡 Drafting | 29 | [system-design](./system-design/README.md) | [challenges](../challenges/system-design/README.md) |
+| 🧮 DSA | 🟡 Drafting | 27 | [dsa](./dsa/README.md) | [challenges](../challenges/dsa/README.md) |
+| 🌐 Web Dev | 🟡 Drafting | 18 | [web-dev](./web-dev/README.md) | [challenges](../challenges/web-ui/README.md) |
+| ⚙️ DevOps & SRE | 🟡 Drafting | 13 | [devops-sre](./devops-sre/README.md) | [challenges](../challenges/devops-sre/README.md) |
+| 🌐 IoT | 🟡 Drafting | 13 | [iot](./iot/README.md) | [challenges](../challenges/iot/README.md) |
+| 🔬 Data Science | 🟡 Drafting | 12 | [data-science](./data-science/README.md) | [challenges](../challenges/data-science/README.md) |
+| 📊 Data Analytics | 🟡 Drafting | 12 | [data-analytics](./data-analytics/README.md) | [challenges](../challenges/data-analytics/README.md) |
 
-## 📌 Liên kết hữu ích
+### Next depth (Drafting → Stable)
+1. `web-dev` — thêm testing/E2E depth + GraphQL/tRPC path  
+2. `devops-sre` — multi-env Terraform + more runbooks  
+3. `data-science` / `data-analytics` — notebook/sample datasets  
+4. `iot` — fleet ACL + dual-bank OTA walkthrough với config mẫu  
 
-* [📚 CONTENT-ROADMAP.md](../CONTENT-ROADMAP.md): Toàn cảnh giáo trình.
-* [🧩 Knowledge Audits](../case-studies/knowledge-audits/): Self-test cho từng domain.
-* [📑 Templates](../templates/): Checklist, báo cáo, OKR hỗ trợ học tập.
-
-> **Last Updated:** March 2026
+> **Last Updated:** August 2026 · Compact: [INDEX.md](./INDEX.md)

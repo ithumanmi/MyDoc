@@ -1,6 +1,8 @@
 # 📊 Business Analytics & Business Intelligence (BI) Roadmap
 
-> [← Back to Home](../../README.md)
+> [← Domains hub](../README.md) | [Home](../../README.md) | [Challenges](../../challenges/business-analytics/README.md)
+>
+> **Domain maturity:** 🟡 Drafting · **Practice:** [A/B decision memo](../../challenges/business-analytics/challenge-ab-test-decision-memo.md)
 
 Chào mừng bạn đến với ngã tư đường giữa Công Nghệ và Sinh Lời kinh Tế.
 Ở `data-analytics` và `data-science`, bạn đã có VŨ KHÍ: Dùng SQL rút tỷ dòng, Dùng Spark xử lý Cụm, Dùng Python lập mô hình AI. Nhưng **Business Analytics (Phân Tích Kinh Doanh)** chính là việc xác định **MỤC TIÊU PHẢI ĐÂM TỚI**. Code cực giỏi mà định nghĩa tỷ lệ khách rời bỏ (Churn) sai khái niệm tài chính thì công ty vẫn tự bốc cháy!

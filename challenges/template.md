@@ -2,7 +2,7 @@
 
 - **Tên challenge:** <điền>
 - **Loại:** <project | interview | kata>
-- **Mảng:** <ai-ml | backend | web-ui | security | dsa | data-analytics | devops-sre | mobile | product-pm>
+- **Mảng:** <ai-ml | backend | blockchain | business-analytics | web-ui | security | dsa | data-analytics | data-science | devops-sre | iot | mmo-engineering | mobile | game-dev | system-design | product-pm>
 - **Mức:** <Beginner | Intermediate | Advanced>
 - **Ước lượng thời gian:** <2–4 giờ | 1 tuần | 2–4 tuần>
 - **Prerequisites / Related (tùy chọn):** Link tới domain/guide liên quan (vd: `../domains/backend-dev/README.md`, `../guides/03-career-skills/`...)

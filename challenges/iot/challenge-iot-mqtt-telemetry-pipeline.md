@@ -1,0 +1,25 @@
+# Challenge: MQTT Telemetry Pipeline
+
+- **Tên challenge:** MQTT Telemetry Pipeline (Device → Dashboard)
+- **Loại:** project
+- **Mảng:** iot
+- **Mức:** Intermediate
+- **Ước lượng thời gian:** 1–2 ngày
+- **Prerequisites / Related:** [`domains/iot/labs/`](../../domains/iot/labs/README.md), [MQTT primer](../../domains/iot/connectivity/mqtt-and-protocols.md)
+- **Mục tiêu học tập (Learning objectives):**
+  - Publish telemetry QoS1 ổn định từ device hoặc device simulator
+  - Persist timeseries + vẽ dashboard
+  - Có offline alert và ACL cơ bản
+- **Đề bài (Problem):** Xây pipeline tối thiểu cho 1 “nhà máy mini”: ≥2 device (hoặc 2 simulator process) gửi temp/battery mỗi 5s. Operator nhìn Grafana/UI tương đương và nhận alert khi một device im ≥5 phút.
+- **Đầu vào (Input):** Broker (Mosquitto/EMQX local), optional Postgres/Timescale, device firmware hoặc Python simulator.
+- **Đầu ra (Output):**
+  - Repo/scripts chạy `docker compose up` (hoặc doc setup rõ)
+  - Dashboard screenshot hoặc export JSON
+  - README: topic map + cách reproduce alert
+- **Tiêu chí chấm (Acceptance):**
+  - Đúng chức năng: 2 device hiện trên dashboard
+  - Alert offline kích hoạt khi kill 1 publisher
+  - Topic ACL: device A không publish vào namespace B (hoặc mô tả limitation nếu broker lab không hỗ trợ)
+  - Docs rõ chạy lại được
+- **Gợi ý/Hint:** Bám [lab-cloud-ingest-grafana](../../domains/iot/labs/lab-cloud-ingest-grafana.md); simulator MQTT hợp lệ nếu không có ESP32.
+- **Reference / Solution:** Làm xong mới đọc [smart-factory case](../../domains/iot/case-studies/smart-factory-floor.md) để so kiến trúc production.
