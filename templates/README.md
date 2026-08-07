@@ -11,6 +11,7 @@
 | Template | Mô tả ngắn | Đường dẫn |
 |:---------|:-----------|:----------|
 | **Personal templates hub** | Daily / nutrition / weekly / habit blanks | [templates/personal/](./personal/README.md) |
+| **Learning session** | Log 1 phiên Topic Attack (encode→retrieve→apply) | [learning-session.md](./personal/learning-session.md) |
 | **Records live in** | File đã điền theo ngày | [`personal/`](../personal/README.md) |
 
 ---

@@ -11,6 +11,8 @@
 *Mục tiêu: hiểu và tinh chỉnh “phần cứng” — hormone, giấc ngủ, vận động, dinh dưỡng.*
 
 ### 1️⃣ Nền tảng thần kinh & hormone
+*   **[🧬 Endocrine Hormone Map](./biohacking/endocrine-hormone-map.md)** ⭐ **Bản đồ tổng** toàn bộ nhóm hormone (mood, stress/ngủ, chuyển hóa, GH, giáp, gut, xương…).
+*   **[🎛️ Endocrine Control Playbook](./biohacking/endocrine-control-playbook.md)** ⭐ **Cách kiểm soát** từng hormone + checklist ngày/tuần (không phải tự kê thuốc).
 *   **[⚙️ CNS Basics](./cns-basics.md):** Khởi động bằng việc hiểu “CPU” (Hệ thần kinh trung ương).
 *   **[🧠 Dopamine System](./biohacking/dopamine-system.md):** Khi thiếu động lực, cần reset Dopamine.
 *   **[🛡️ Cortisol & Melatonin](./biohacking/cortisol-melatonin-system.md):** Khi stress, mất ngủ, nhịp sinh học vỡ.

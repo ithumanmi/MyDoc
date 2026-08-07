@@ -1,3 +1,17 @@
+---
+title: "Personal Life Data"
+description: "Private life records: daily, nutrition, body, habits, weekly — not curriculum"
+updated: "2026-08-07"
+canonical: true
+tags: [personal, life-data, hub]
+audience: [beginner, intermediate, advanced]
+related:
+  - dashboard.md
+  - ../templates/personal/README.md
+  - ../guides/04-lifestyle-os/README.md
+sensitivity: private
+---
+
 # 🧬 Personal Life Data
 
 > **Đây là lớp dữ liệu cá nhân** — khác với `domains/` / `guides/` (library kiến thức).
@@ -11,6 +25,8 @@ Repo này vừa là **knowledge library**, vừa là **personal OS data store** 
 | Knowledge (dạy / học) | `domains/`, `guides/`, `chapters/`… | Yes |
 | **Records (đời sống thật)** | `personal/` | Yes (bạn chọn commit hết) |
 | Blank forms | `templates/personal/` | Yes |
+
+**Học kiến thức mới?** Dùng [Learning OS Framework](../guides/03-career-skills/productivity/meta-skills/learning-os-framework.md) + template [`templates/personal/learning-session.md`](../templates/personal/learning-session.md); ghi deep work vào `daily/`.
 
 ## 📂 Cấu trúc
 
@@ -55,6 +71,7 @@ Hoặc duplicate file hôm qua rồi xóa nội dung cụ thể.
 | --- | --- | --- |
 | Ngủ / HRV | [sleep-optimization](../guides/04-lifestyle-os/well-being/biohacking/sleep-optimization.md) | `body/metrics.csv` |
 | Glucose / ăn | [glucose-insulin](../guides/04-lifestyle-os/well-being/biohacking/glucose-insulin-system.md) | `nutrition/` |
+| **Toàn map hormone** | **[endocrine-hormone-map](../guides/04-lifestyle-os/well-being/biohacking/endocrine-hormone-map.md)** | daily mood/energy + sleep + craving |
 | Energy / deep work | [energy-management](../guides/04-lifestyle-os/life-os/energy-management.md) | `daily/` |
 | Weekly reflection | [weekly-review template](../templates/weekly-review.md) | `weekly/` |
 

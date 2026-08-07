@@ -1,0 +1,55 @@
+# Zero to One Docs — LLMs / Agents
+
+> Machine-oriented entry map. Human overview: OVERVIEW.md · Agent rules: AGENTS.md
+
+## Primary entrypoints
+
+- AGENTS.md — mandatory agent instructions
+- OVERVIEW.md — repository map
+- AGENT-ROUTING.md — topic → canonical markdown
+- catalog/topics.yaml — structured topic index
+- README.md — human landing + Quick Start
+- QUICK-START.md — persona-based learning paths
+- domains/README.md — 15 technical domains + maturity
+- personal/README.md — private life-data OS (not curriculum)
+
+## Knowledge areas
+
+### Technical domains
+- domains/ — AI/ML, backend, blockchain, game-dev, system-design, devops-sre, iot, web-dev, …
+- challenges/ — deliberate practice aligned to domains
+
+### Guides (non-code life & career)
+- guides/01-mental-models/
+- guides/02-wealth-business/
+- guides/03-career-skills/ — includes Learning OS (meta-skills/learning-os-framework.md)
+- guides/04-lifestyle-os/ — well-being, hormones, Life OS theory
+
+### Canonical lifestyle / hormone
+- guides/04-lifestyle-os/well-being/biohacking/endocrine-hormone-map.md
+- guides/04-lifestyle-os/well-being/biohacking/endocrine-control-playbook.md
+- guides/04-lifestyle-os/well-being/biohacking/cortisol-melatonin-system.md
+- guides/04-lifestyle-os/well-being/biohacking/dopamine-system.md
+- guides/04-lifestyle-os/well-being/biohacking/glucose-insulin-system.md
+- guides/04-lifestyle-os/well-being/biohacking/testosterone-system.md
+
+### Learning framework
+- guides/03-career-skills/productivity/meta-skills/learning-os-framework.md
+- guides/03-career-skills/productivity/meta-skills/learning-how-to-learn.md
+- chapters/02-luyen-tap-co-chu-dich.md
+
+### Personal records (private)
+- personal/daily/
+- personal/nutrition/
+- personal/body/metrics.csv
+- personal/habits/
+- personal/weekly/
+- Only use when the user asks about their own logs.
+
+## Optional / low priority for default retrieval
+- resources/Tech/**/*.pdf — large binaries; prefer markdown first
+- LINK_AUDIT_REPORT.md, CONTENT-ROADMAP.md session logs — maintenance meta
+- See catalog/rag-exclude.txt
+
+## Glossary
+- GLOSSARY.md — term → definition + links

@@ -1,6 +1,17 @@
 # 💪 Testosterone System - Sức mạnh & Ý chí
 
 > [← Back to Health OS](health-os-overview.md) | [Home](../../../README.md)
+>
+> **Map / control:** [endocrine-hormone-map](./endocrine-hormone-map.md) · [endocrine-control-playbook](./endocrine-control-playbook.md)
+
+<!-- agent-summary -->
+**Agent SUMMARY** (read this first; jump to `##` needed):
+- Testosterone drives strength, drive, confidence, recovery — relevant for all sexes at different ranges.
+- Sections: levels → science → natural inputs → outputs → low-T failure modes → protocols → supplements → TRT caveats → case studies.
+- Primary levers: sleep, strength training, body fat, stress/cortisol, micronutrients — not “toxic masculinity.”
+- TRT section is awareness only; medical therapy needs a clinician.
+- Pair with cortisol-melatonin + sleep-optimization for circadian support.
+<!-- /agent-summary -->
 
 ---
 

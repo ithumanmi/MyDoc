@@ -1,0 +1,19 @@
+# Paths / globs to exclude from default RAG / embedding indexes
+
+# Binary / bulky
+resources/**/*.pdf
+resources/**/*.png
+resources/**/*.jpg
+resources/**/*.svg
+**/*.ipynb
+
+# Maintenance noise (optional exclude)
+LINK_AUDIT_REPORT.md
+CONTENT-ROADMAP.md
+
+# Private life data — only index if product explicitly allows
+# Uncomment to hard-exclude:
+# personal/**
+
+# VCS
+.git/**

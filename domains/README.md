@@ -1,3 +1,17 @@
+---
+title: "Domain Knowledge Hub"
+description: "15 technical domains with Stable/Drafting maturity; start here for tech curricula"
+updated: "2026-08-07"
+canonical: true
+tags: [domains, maturity, hub]
+audience: [beginner, intermediate, advanced]
+related:
+  - INDEX.md
+  - ../challenges/README.md
+  - ../AGENTS.md
+sensitivity: public
+---
+
 # 📂 Domain Knowledge Hub
 
 > Bản đồ định hướng cho toàn bộ thư mục `domains/`

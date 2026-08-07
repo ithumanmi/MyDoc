@@ -1,3 +1,15 @@
+---
+title: "Challenges Hub"
+description: "Practice kata/interview/project drills mapped to technical domains"
+updated: "2026-08-07"
+canonical: true
+tags: [challenges, practice, hub]
+audience: [beginner, intermediate, advanced]
+related:
+  - ../domains/README.md
+sensitivity: public
+---
+
 # 🏹 Challenges Hub
 
 Kho bài tập theo mảng (~50 Markdown files). Copy `template.md` để thêm challenge mới.

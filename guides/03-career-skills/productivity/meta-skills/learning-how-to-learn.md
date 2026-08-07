@@ -1,6 +1,7 @@
 # 🧠 Learning How to Learn: Kỹ Năng Tự Học Đỉnh Cao
 
-> [← Back to Productivity Guides](../../../README.md)
+> [← Back to Productivity Guides](../../../README.md)  
+> ⭐ **Operating system đầy đủ:** [Learning OS Framework](./learning-os-framework.md) — pipeline 7 lớp + Topic Attack 90′ + gắn Docs/`personal/`.
 
 ## Tại sao phải học cách học?
 Trong thế giới thay đổi chóng mặt, kiến thức cũ trở nên lỗi thời rất nhanh. Khả năng **tự học (Self-learning)** và **tái đào tạo (Reskilling)** bản thân là lợi thế cạnh tranh duy nhất bền vững.

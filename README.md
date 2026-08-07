@@ -34,6 +34,7 @@ Hiểu cấu trúc để navigate hiệu quả. Mỗi mục lớn hiển thị *
   - **`resources/collected_links/`** *(Domain-specific links | Last reviewed: Dec 2025)* – Curated links theo domain (AI, Backend, Security...)
 - **`case-studies/`** *(Intermediate → Advanced | Last reviewed: Feb 2026)* – Phân tích case thực tế (Vietnam & Global leaders)
 - **[`OVERVIEW.md`](./OVERVIEW.md)** *(Meta map | Last reviewed: Aug 2026)* – Bản đồ trực quan kết nối các thư mục chính.
+- **Agents / RAG** *(Machine nav | Aug 2026)* – [`AGENTS.md`](./AGENTS.md) · [`AGENT-ROUTING.md`](./AGENT-ROUTING.md) · [`llms.txt`](./llms.txt) · [`catalog/`](./catalog/) · [`agent-eval/`](./agent-eval/) · plan: [`AGENT-RETRIEVAL-PLAN.md`](./AGENT-RETRIEVAL-PLAN.md)
 
 > **🆕 Last reviewed badges** sẽ xuất hiện ở đầu README của mọi thư mục chính để người đọc nắm được độ mới nội dung.
 

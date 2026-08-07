@@ -1,6 +1,16 @@
 # ⚡ Health Optimization Protocols - Thực chiến hàng ngày
 
 > [← Back to Health OS](health-os-overview.md) | [Home](../../../README.md)
+>
+> **Map:** [health-os-overview](./health-os-overview.md) · [endocrine-control-playbook](./endocrine-control-playbook.md)
+
+<!-- agent-summary -->
+**Agent SUMMARY** (read this first; jump to `##` needed):
+- Action layer after Health OS / hormone theory — daily · weekly · monthly routines.
+- Sections: daily (morning/evening) → weekly → monthly → troubleshooting → tracking templates → quick start checklist.
+- Philosophy: systems > goals; pair with `personal/` records for adherence.
+- Prefer this for “what should I do today/this week”; use hormone deep-dives for *why*.
+<!-- /agent-summary -->
 
 ---
 

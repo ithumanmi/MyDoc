@@ -1,3 +1,16 @@
+---
+title: "Career Skills Hub"
+description: "Growth, productivity, career, sales, IELTS, and career-side tech soft skills"
+updated: "2026-08-07"
+canonical: true
+tags: [career, productivity, hub]
+audience: [beginner, intermediate, advanced]
+related:
+  - ../README.md
+  - productivity/meta-skills/learning-os-framework.md
+sensitivity: public
+---
+
 # 🚀 Career Skills Hub
 
 > [← Back to guides/](../README.md) | [Home](../../README.md) | **Difficulty:** 🟢 Foundation → 🔴 Advanced | **Last reviewed:** March 2026

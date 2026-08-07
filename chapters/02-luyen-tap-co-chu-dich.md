@@ -1,6 +1,8 @@
 # Chương 2: Luyện tập có chủ đích - không luyện cho đủ giờ
 
 > [← Chapter 1](01-xac-dinh-linh-vuc.md) | [Home](../README.md) | [Next: Chapter 3 →](03-hoc-hoi-mentor.md)
+>
+> ⭐ **Operating system học tập đầy đủ:** [Learning OS Framework](../guides/03-career-skills/productivity/meta-skills/learning-os-framework.md)
 
 ---
 

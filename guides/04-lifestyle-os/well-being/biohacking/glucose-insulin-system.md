@@ -1,6 +1,17 @@
 # 🩸 Glucose & Insulin System: Năng lượng Ổn định
 
 > [← Back to Well-being](../../../README.md) | [Health OS Overview](./health-os-overview.md)
+>
+> **Map / control:** [endocrine-hormone-map](./endocrine-hormone-map.md) · [endocrine-control-playbook](./endocrine-control-playbook.md)
+
+<!-- agent-summary -->
+**Agent SUMMARY** (read this first; jump to `##` needed):
+- Glucose = fuel; insulin = gatekeeper; spikes/crashes → fog, hunger, fat gain risk.
+- Sections: why it matters → how it works → testing/tracking → nutrition → meal timing → exercise → supplements → advanced protocols → case studies → quick start.
+- Core levers: protein/fiber, meal composition order, walking after meals, resistance training, sleep/stress (insulin sensitivity).
+- Track proxies in `personal/nutrition/` when user asks about their logs.
+- Educational only — clinical hyperglycemia/hypoglycemia → professional care.
+<!-- /agent-summary -->
 
 **Glucose = Nhiên liệu cho não bộ và cơ thể.**
 **Insulin = Khóa mở cửa cho glucose vào tế bào.**

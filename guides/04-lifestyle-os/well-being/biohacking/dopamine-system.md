@@ -1,6 +1,18 @@
 # 🧠 Dopamine System - Động lực & Kỷ luật
 
 > [← Back to Health OS](health-os-overview.md) | [Home](../../../README.md)
+>
+> **Map / control:** [endocrine-hormone-map](./endocrine-hormone-map.md) · [endocrine-control-playbook](./endocrine-control-playbook.md)
+
+<!-- agent-summary -->
+**Agent SUMMARY** (read this first; jump to `##` needed):
+- Dopamine = motivation/wanting (không phải “hạnh phúc” = serotonin).
+- Tonic (baseline) vs phasic (spike); overdose digital reward → desensitization.
+- Sections: science → inputs → outputs → failure modes → optimization protocols → nutrition/supplements → troubleshooting.
+- Protocols prioritize friction on cheap dopamine + effort-reward loops.
+- Cross-ref: [neurotransmitters-guide](./neurotransmitters-guide.md).
+- Educational only — not medical diagnosis.
+<!-- /agent-summary -->
 
 ---
 

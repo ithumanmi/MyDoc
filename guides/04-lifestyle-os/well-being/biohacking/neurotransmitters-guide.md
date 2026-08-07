@@ -3,6 +3,17 @@
 > **Health OS - Layer 2: Supporting Systems**
 > 
 > [← Back to Health OS Overview](./health-os-overview.md) | [Well-being Home](../../../README.md)
+>
+> **Map / control:** [endocrine-hormone-map](./endocrine-hormone-map.md) · [endocrine-control-playbook](./endocrine-control-playbook.md) · [dopamine-system](./dopamine-system.md)
+
+<!-- agent-summary -->
+**Agent SUMMARY** (read this first; jump to `##` needed):
+- Covers serotonin, GABA, glutamate, acetylcholine, catecholamines (+ systems view).
+- Use table “5 neurotransmitters chính” for triage; deep sections per chemical.
+- Later: interactions → testing → optimization protocols → action items.
+- Dopamine deep-dive lives in [dopamine-system.md](./dopamine-system.md) (this file is broader).
+- Educational only — mood disorders need clinical care.
+<!-- /agent-summary -->
 
 **Mục đích:** Hiểu sâu về các neurotransmitters (chất dẫn truyền thần kinh) - hệ thống giao tiếp hóa học của não bộ ảnh hưởng trực tiếp đến tâm lý, hành vi và hiệu suất sống.
 

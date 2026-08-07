@@ -245,7 +245,8 @@ Click vào profile phù hợp nhất với bạn:
 1. ⚡ **[Health OS Framework](./guides/04-lifestyle-os/well-being/biohacking/health-os-overview.md)** (2 giờ)
 2. 🩸 **[Glucose & Insulin System](./guides/04-lifestyle-os/well-being/biohacking/glucose-insulin-system.md)** (1 giờ)
    - Ổn định năng lượng cả ngày
-3. 🧠 **[Dopamine System](./guides/04-lifestyle-os/well-being/biohacking/dopamine-system.md)** (1 giờ)
+3. 🧬 **[Endocrine Hormone Map](./guides/04-lifestyle-os/well-being/biohacking/endocrine-hormone-map.md)** (45 phút) — bản đồ toàn hệ nội tiết
+4. 🧠 **[Dopamine System](./guides/04-lifestyle-os/well-being/biohacking/dopamine-system.md)** (1 giờ)
    - Lấy lại động lực
 
 #### **Tuần 3: Movement & Mindfulness**
@@ -259,6 +260,7 @@ Click vào profile phù hợp nhất với bạn:
 3. 📋 **[Health Optimization Protocols](./guides/04-lifestyle-os/well-being/biohacking/health-optimization-protocols.md)** - Daily routine
 
 ### **Templates:**
+- 🧠 **[Learning OS Framework](./guides/03-career-skills/productivity/meta-skills/learning-os-framework.md)** — pipeline học hiện đại (bắt buộc nếu muốn học nhanh mọi thứ)
 - 📊 **[Daily Performance Tracker](./templates/well-being/daily-performance-tracker.md)**
 - 🧬 **[Personal Life Data](./personal/README.md)** ⭐ — ghi daily / nutrition / body / habits (không chỉ đọc theory)
 - 📟 **[Personal Dashboard](./personal/dashboard.md)** — tóm tắt tuần

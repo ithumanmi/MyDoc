@@ -1,6 +1,17 @@
 # 😴 Sleep Optimization: Foundation của mọi Performance
 
 > [← Back to Well-being](../../../README.md) | [Health OS Overview](./health-os-overview.md)
+>
+> **Hormone depth:** [cortisol-melatonin-system](./cortisol-melatonin-system.md) · [playbook](./endocrine-control-playbook.md)
+
+<!-- agent-summary -->
+**Agent SUMMARY** (read this first; jump to `##` needed):
+- Sleep is the #1 multiplier; bad sleep nullifies diet/training/supplements gains.
+- Sections: why priority → sleep science → light protocols → hygiene → timing → caffeine/alcohol → supplements → evening/morning routines → tracking → troubleshooting → quick start.
+- Non-negotiables: consistent schedule, morning outdoor light, dark/cool bedroom, cut late caffeine & alcohol.
+- Pair with cortisol-melatonin for hormone mechanism; log sleep in `personal/daily/` when asked.
+- Educational only — chronic insomnia / apnea symptoms → clinical care.
+<!-- /agent-summary -->
 
 **Sleep không phải là luxury. Đó là biological necessity.**
 Nếu bạn ngủ kém, mọi optimization khác (diet, exercise, supplements) đều vô nghĩa.

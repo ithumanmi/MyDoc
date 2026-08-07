@@ -1,3 +1,15 @@
+---
+title: "Wealth & Business Hub"
+description: "Build, protect, multiply wealth: entrepreneurship, legal, investing (Vietnam-first)"
+updated: "2026-08-07"
+canonical: true
+tags: [wealth, business, investing, hub]
+audience: [beginner, intermediate, advanced]
+related:
+  - ../README.md
+sensitivity: public
+---
+
 # 💼 Wealth & Business Hub
 
 > Tổng quan thư mục **02-wealth-business**. Kết nối 3 trụ: **Build (Entrepreneurship & Operations)**, **Protect (Legal & Compliance)**, **Multiply (Investing & Finance)** – cộng thêm các module chuyên sâu (Market Research, Logistics, MMO roadmaps).

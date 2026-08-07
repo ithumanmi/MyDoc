@@ -5,6 +5,7 @@
 Meta skills = kỹ năng “đòn bẩy” giúp bạn học nhanh hơn, thiết kế hệ thống làm việc thông minh hơn và vận hành dự án hiệu quả hơn.
 
 ## 📂 Navigate nhanh
+- **[Learning OS Framework](learning-os-framework.md)** ⭐ — pipeline học mọi kiến thức (bắt đầu đây)
 - [Learning How to Learn](learning-how-to-learn.md)
 - [Meta Learning Primer](meta-learning.md)
 - [Meta Skill Sprint 30 ngày](meta-skill-sprint-30-days.md)
@@ -18,13 +19,13 @@ Meta skills = kỹ năng “đòn bẩy” giúp bạn học nhanh hơn, thiết
 - [The Art of Learning (Josh Waitzkin)](the-art-of-learning.md)
 
 ## Hướng dẫn sử dụng
-1. **Chọn meta skill theo vấn đề hiện tại:**
-   - Bị tắc ở việc học → đọc *Learning How to Learn* + *Meta Learning*.
-   - Quản lý kiến thức kém → xây *Personal Knowledge Base* + *PKM System*.
-   - Dự án quá tải → áp dụng *Project Management Fundamentals* / *Study Project Management*.
-   - Muốn khai thác AI → xem *Working with AI*.
-2. **Kết nối với core skills:** Dùng meta skills để nâng chất lượng Deep Work, Attention, Experience Digestion.
-3. **Systematize:** Sau khi học một module meta skill, ghi chú cách bạn sẽ tích hợp nó vào workflow hằng tuần (ví dụ: thiết lập chu kỳ review cho PKM, block thời gian Productive Meditation).
+1. **Chạy Learning OS** cho mọi chủ đề mới (Intent → Metalearn → … → Spaced).
+2. **Chọn meta skill theo vấn đề hiện tại:**
+   - Bị tắc ở kỹ thuật học → *Learning How to Learn* + *Meta Learning*.
+   - Quản lý kiến thức kém → *Personal Knowledge Base* + *PKM System*.
+   - Dự án quá tải → *Project Management* / *Study Project Management*.
+   - Muốn khai thác AI → *Working with AI*.
+3. **Systematize:** ghi protocol vào weekly review / `personal/`.
 
 > Khi nào nên chạy Meta Skill Sprint:
 - Khi bạn bị rơi vào “note-only” (ghi chép nhiều nhưng không chuyển thành task/calendar/decision).

@@ -1,3 +1,17 @@
+---
+title: "Lifestyle OS Hub"
+description: "Life OS + well-being theory; records belong in personal/"
+updated: "2026-08-07"
+canonical: true
+tags: [lifestyle, well-being, hub]
+audience: [beginner, intermediate, advanced]
+related:
+  - ../README.md
+  - ../../personal/README.md
+  - well-being/biohacking/health-os-overview.md
+sensitivity: public
+---
+
 # 🌌 Lifestyle OS Hub
 
 > Bộ tài liệu giúp bạn vận hành **con người** trước khi vận hành **sự nghiệp**: từ Life OS (mental models & systems), Well-being (sinh học, tinh thần) đến Politics (môi trường quyền lực). **Last reviewed:** March 2026
@@ -21,6 +35,8 @@
 | Energy Management | Năng lượng, chú ý, hormone | [life-os/energy-management.md](life-os/energy-management.md) |
 | Relationships & Dating | Khung đọc tâm lý & tình huống giao tiếp | [Shawty/README.md](Shawty/README.md) |
 | Well-being (Hardware) | Biohacking, resilience, health OS | [well-being/README.md](well-being/README.md) |
+| **Endocrine map** | Bản đồ hormone (mood → chuyển hóa → GH/giáp/gut) | [well-being/biohacking/endocrine-hormone-map.md](well-being/biohacking/endocrine-hormone-map.md) |
+| **Hormone control** | Playbook kiểm soát + checklist ngày/tuần | [well-being/biohacking/endocrine-control-playbook.md](well-being/biohacking/endocrine-control-playbook.md) |
 | Sleep & Recovery | Protocol ngủ, phục hồi | [well-being/biohacking/sleep-optimization.md](well-being/biohacking/sleep-optimization.md) |
 | Mental Resilience | Burnout prevention, mindfulness, stoicism | [well-being/mental-resilience/burnout-prevention.md](well-being/mental-resilience/burnout-prevention.md) |
 | Politics (Environment) | Roadmap, VN system, geopolitics | [politics/README.md](politics/README.md) |

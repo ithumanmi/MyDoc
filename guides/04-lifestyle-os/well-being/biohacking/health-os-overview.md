@@ -36,6 +36,9 @@ Nhưng thực tế, cơ thể con người hoạt động như một **hệ th�
 └─────────────────────────────────────────────────┘
 ```
 
+👉 **Bản đồ đầy đủ hơn 6 hệ trên** (Serotonin, Oxytocin, GH, T3/T4, Leptin/Ghrelin, GLP-1, ADH, PTH…):  
+**[Endocrine Hormone Map](./endocrine-hormone-map.md)** · **[Control Playbook](./endocrine-control-playbook.md)** (checklist thực chiến)
+
 ---
 
 ## 🔄 Tại sao phải tư duy Hệ thống?

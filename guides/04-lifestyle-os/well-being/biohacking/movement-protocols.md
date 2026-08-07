@@ -1,6 +1,17 @@
 # 🏃 Movement Protocols: Chống Sedentary Lifestyle
 
 > [← Back to Well-being](../../../README.md) | [Health OS Overview](./health-os-overview.md)
+>
+> **Daily stack:** [health-optimization-protocols](./health-optimization-protocols.md)
+
+<!-- agent-summary -->
+**Agent SUMMARY** (read this first; jump to `##` needed):
+- Sitting volume kills gains — gym ≠ offsetting 11–15h sedentary.
+- Sections: why → science → recovery → hierarchy → desk-worker protocols → cardio → mobility → tracking → specific protocols → brain health → quick start.
+- Hierarchy: NEAT / breaks first → strength → cardio → mobility.
+- Desk defaults: stand/walk breaks, post-meal walks, 2–3× strength/week.
+- Track movement proxies in `personal/` when user asks about their logs.
+<!-- /agent-summary -->
 
 Ngồi là hành động giết người chậm nhất (Sitting is the new smoking).
 Nếu bạn ngồi >8 giờ/ngày, nguy cơ tử vong sớm tăng 20-40% - ngay cả khi bạn tập gym.

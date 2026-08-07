@@ -1,3 +1,18 @@
+---
+title: "Comprehensive Guides Hub"
+description: "Library hub for mental models, wealth, career skills, and lifestyle OS theory"
+updated: "2026-08-07"
+canonical: true
+tags: [guides, hub]
+audience: [beginner, intermediate, advanced]
+related:
+  - 01-mental-models/README.md
+  - 02-wealth-business/README.md
+  - 03-career-skills/README.md
+  - 04-lifestyle-os/README.md
+sensitivity: public
+---
+
 # 📚 Comprehensive Guides (Thư viện Hướng dẫn)
 
 > [← Back to Home](../README.md) | [🚀 Quick Start Guide](../QUICK-START.md) | [📖 Glossary](../GLOSSARY.md)

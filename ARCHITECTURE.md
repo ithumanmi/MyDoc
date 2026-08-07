@@ -223,6 +223,25 @@ Blank forms: `templates/personal/`. Hub: [`personal/README.md`](./personal/READM
 
 ---
 
+### **2.6. Agent & RAG navigation layer**
+
+Machine-oriented entrypoints so Cursor / external RAG do not random-walk the corpus:
+
+| Artifact | Role |
+|:---|:---|
+| [`AGENTS.md`](./AGENTS.md) | Read order, answer policy, `personal/` privacy |
+| [`AGENT-ROUTING.md`](./AGENT-ROUTING.md) | Topic → canonical human table |
+| [`llms.txt`](./llms.txt) | Crawler / LLM entrypoints |
+| [`catalog/topics.yaml`](./catalog/topics.yaml) | Machine topic index |
+| [`catalog/rag-exclude.txt`](./catalog/rag-exclude.txt) | Globs to skip when embedding |
+| [`.cursor/rules/docs-agent-navigation.mdc`](./.cursor/rules/docs-agent-navigation.mdc) | Always-on Cursor rule |
+| [`agent-eval/questions.md`](./agent-eval/questions.md) | Retrieval smoke tests |
+| `python scripts/check_agent_catalog.py` | Validate catalog paths |
+
+Long biohacking deep-dives expose an **Agent SUMMARY** block under the H1 for quick orientation.
+
+---
+
 ## 📝 3. File Naming Conventions
 
 ### **3.1. Naming Rules**

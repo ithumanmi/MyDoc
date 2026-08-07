@@ -8,6 +8,7 @@ Blank forms. Copy vào `personal/` — đừng ghi data thật ở đây.
 | [nutrition-day.md](./nutrition-day.md) | `personal/nutrition/YYYY/` |
 | [weekly-review-personal.md](./weekly-review-personal.md) | `personal/weekly/YYYY/` |
 | [habit-month.md](./habit-month.md) | `personal/habits/YYYY-MM.md` |
+| [learning-session.md](./learning-session.md) | Log 1 phiên Learning OS / Topic Attack |
 
 Body metrics → append 1 dòng vào [`personal/body/metrics.csv`](../../personal/body/metrics.csv).
 

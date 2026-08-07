@@ -1,3 +1,15 @@
+---
+title: "Mental Models Hub"
+description: "Cross-discipline mental models hub: science, history, psychology, engineering"
+updated: "2026-08-07"
+canonical: true
+tags: [mental-models, guides, hub]
+audience: [beginner, intermediate, advanced]
+related:
+  - ../README.md
+sensitivity: public
+---
+
 # 🧠 Mental Models Hub
 
 > Bộ não là hệ điều hành. Các mental model là module giúp bạn đọc, dự đoán và thiết kế hệ thống đời sống. Thư mục **01-mental-models** là kho tổng hợp đa ngành: từ khoa học tự nhiên (Biology, Physics, Math) đến nhân văn (History, Philosophy, Mysticism) và meta-intelligence.

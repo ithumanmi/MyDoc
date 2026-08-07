@@ -1,6 +1,18 @@
 # 😰😴 Cortisol & Melatonin System - Stress & Giấc ngủ
 
 > [← Back to Health OS](health-os-overview.md) | [Home](../../../README.md)
+>
+> **Map / control:** [endocrine-hormone-map](./endocrine-hormone-map.md) · [endocrine-control-playbook](./endocrine-control-playbook.md)
+
+<!-- agent-summary -->
+**Agent SUMMARY** (read this first; jump to `##` needed):
+- Cortisol + melatonin = hai mặt circadian; fix rhythm trước khi tối ưu riêng lẻ.
+- Cortisol: morning peak tốt; cao đêm / mãn tính = mất ngủ + stress spiral.
+- Melatonin: tối tối đủ tối; sáng ngoài trời kéo xuống → tỉnh táo.
+- Sections: cortisol inputs/outputs/protocols → melatonin cùng pattern → interactions → case studies → takeaways.
+- Supplements optional after behavior; see Related + sleep-optimization.
+- Educational only — not medical diagnosis.
+<!-- /agent-summary -->
 
 ---
 
