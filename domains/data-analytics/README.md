@@ -27,7 +27,7 @@ sensitivity: public
 >
 > **Practice:** [challenges/data-analytics](../../challenges/data-analytics/README.md)
 
-**📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md) to understand learning paths.
+**📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../meta/ops/DIFFICULTY-GUIDE.md) to understand learning paths.
 **🧩 Knowledge Audit:** Check [Data Analytics Knowledge Audit](../../case-studies/knowledge-audits/data-analytics-knowledge-audit.md) to test your expertise!
 
 ---

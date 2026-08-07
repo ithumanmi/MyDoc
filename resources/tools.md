@@ -12,7 +12,7 @@
 2. **Thiết lập ritual**: Đưa tool vào lịch (vd. Pomodoro 3 block/ngày, Review ghi chú với Obsidian tối Chủ nhật).
 3. **Đánh giá hiệu quả**: Viết lại trong [Weekly Review](../templates/weekly-review.md#tooling--automation) xem tool có thực sự giúp bạn không.
 
-> Tip: Tạo danh sách “Tool Stack” cá nhân trong [Doc Framework](../doc-framework.md#habit-tracker) để chuẩn hóa khi setup máy mới.
+> Tip: Tạo danh sách “Tool Stack” cá nhân trong [Doc Framework](../templates/doc-framework.md#habit-tracker) để chuẩn hóa khi setup máy mới.
 
 ---
 

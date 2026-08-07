@@ -8,7 +8,7 @@
 
 1. **Xác định mục tiêu:** tuyển dev nhanh, tìm studio outsource, hay săn việc game?
 2. **Chọn danh mục phù hợp:** IT services/product, game studio, nguồn tuyển dụng.
-3. **Ghi chú liên hệ:** lưu contact/key person vào CRM cá nhân hoặc [Doc Framework](../doc-framework.md#habit-tracker).
+3. **Ghi chú liên hệ:** lưu contact/key person vào CRM cá nhân hoặc [Doc Framework](../templates/doc-framework.md#habit-tracker).
 4. **Theo dõi cập nhật:** đặt lịch rà soát mỗi quý để bổ sung doanh nghiệp mới hoặc remove link chết.
 
 ---

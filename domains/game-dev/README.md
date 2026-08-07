@@ -58,7 +58,7 @@ sensitivity: public
 
 **🎯 Starting Game Dev?** See [Quick Start - Beginner Path](../../QUICK-START.md#-path-1-beginner-developer-0-1-year) for your first steps!  
 **🔍 Game Dev terms:** Check [Glossary](../../GLOSSARY.md) - Unity, C#, Physics, AI concepts explained simply.  
-**📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md) to understand learning paths.  
+**📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../meta/ops/DIFFICULTY-GUIDE.md) to understand learning paths.  
 **🧩 Knowledge Audit:** Check [Game Dev Knowledge Audit](../../case-studies/knowledge-audits/game-dev-knowledge-audit.md) to test your skills!  
 **🧪 Labs & Thử thách:** Thực hành tại [labs/](./labs/README.md) và [challenges/](./challenges/README.md) trước khi apply/phỏng vấn.
 

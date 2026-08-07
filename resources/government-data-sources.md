@@ -10,7 +10,7 @@
 
 1. **Xác định nhu cầu**: Tra cứu pháp luật, dữ liệu kinh tế, số liệu dân cư hay thông cáo báo chí?
 2. **Chọn nguồn chính thống**: Ưu tiên website `.gov.vn`, cổng dịch vụ công hoặc cơ quan chủ quản liên quan lĩnh vực.
-3. **Lưu trữ & trích dẫn**: Ghi rõ ngày truy cập, đường link và trích dẫn theo mẫu trong [Doc Framework](../doc-framework.md#research--citations).
+3. **Lưu trữ & trích dẫn**: Ghi rõ ngày truy cập, đường link và trích dẫn theo mẫu trong [Doc Framework](../templates/doc-framework.md#research--citations).
 
 > Tip: Kết hợp với [Research Workflow](./research-tools.md) để quản lý tài liệu và trích dẫn khoa học.
 

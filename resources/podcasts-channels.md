@@ -12,7 +12,7 @@
 2. **Log ghi chú** bằng [Template Weekly Review](../templates/weekly-review.md#learning--content) hoặc Obsidian Daily Notes.
 3. **Chuyển hóa insight**: viết 1 post/tuần tóm tắt bài học để củng cố kiến thức.
 
-> Gợi ý: dùng [Doc Framework](../doc-framework.md#habit-tracker) để đánh dấu số phút nghe học mỗi ngày.
+> Gợi ý: dùng [Doc Framework](../templates/doc-framework.md#habit-tracker) để đánh dấu số phút nghe học mỗi ngày.
 
 ---
 

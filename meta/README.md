@@ -13,6 +13,7 @@ Machine-oriented layer for Cursor agents and external RAG. Human landing still s
 | [`routing.md`](./routing.md) | Topic → canonical docs (human table) |
 | [`catalog/`](./catalog/) | `topics.yaml`, frontmatter schema, RAG exclude |
 | [`eval/`](./eval/) | Smoke questions + scorecard |
+| [`ops/`](./ops/) | Maintenance, difficulty guide, content roadmap, community |
 | [`domain-guide-map.md`](./domain-guide-map.md) | Tech (`domains/`) vs Career (`guides/`) overlaps |
 | [`retrieval-plan.md`](./retrieval-plan.md) | Hardening plan / status |
 
@@ -22,6 +23,7 @@ Machine-oriented layer for Cursor agents and external RAG. Human landing still s
 python scripts/check_agent_catalog.py
 python scripts/check_agent_eval_paths.py
 python scripts/smoke_agent_routing.py
+python scripts/check_links.py
 ```
 
-Old paths (`AGENT-ROUTING.md`, `catalog/`, `agent-eval/`) are stub redirects — prefer this folder.
+Prefer this `meta/` tree over thin redirects left at some old root paths.

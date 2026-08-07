@@ -236,10 +236,13 @@ Machine-oriented entrypoints so Cursor / external RAG do not random-walk the cor
 | [`meta/catalog/rag-exclude.txt`](./meta/catalog/rag-exclude.txt) | Globs to skip when embedding |
 | [`.cursor/rules/docs-agent-navigation.mdc`](./.cursor/rules/docs-agent-navigation.mdc) | Always-on Cursor rule |
 | [`meta/eval/questions.md`](./meta/eval/questions.md) | Retrieval smoke tests |
+| [`meta/ops/`](./meta/ops/) | Maintenance, difficulty guide, content roadmap |
+| [`meta/domain-guide-map.md`](./meta/domain-guide-map.md) | Tech vs career overlap map |
 | `python scripts/check_agent_catalog.py` | Validate catalog paths |
-| [`meta/README.md`](./meta/README.md) | Agent/RAG layer hub |
+| `python scripts/check_links.py` | Internal link audit → `meta/ops/LINK_AUDIT_REPORT.md` |
+| [`meta/README.md`](./meta/README.md) | Agent/RAG + ops hub |
 
-Long biohacking deep-dives expose an **Agent SUMMARY** block under the H1 for quick orientation.
+Long health deep-dives expose an **Agent SUMMARY** block under the H1 for quick orientation.
 
 ---
 
@@ -302,9 +305,9 @@ Long biohacking deep-dives expose an **Agent SUMMARY** block under the H1 for qu
 ### **5.1. Content Quality Gates**
 
 Before merging new content:
-- [ ] **Link validation:** 100% valid links (automated via `check_links.py`)
+- [ ] **Link validation:** 100% valid links (automated via `scripts/check_links.py`)
 - [ ] **Glossary integration:** Technical terms defined in `GLOSSARY.md`
-- [ ] **Difficulty labeling:** Major domain READMEs include difficulty badges (see `DIFFICULTY-GUIDE.md`)
+- [ ] **Difficulty labeling:** Major domain READMEs include difficulty badges (see `meta/ops/DIFFICULTY-GUIDE.md`)
 - [ ] **Breadcrumbs present:** Navigation trail at top
 - [ ] **README.md exists:** If creating new directory
 - [ ] **Proper categorization:** File in correct `domains/` vs `guides/`
@@ -312,8 +315,8 @@ Before merging new content:
 ### **5.2. Automated Quality Checks**
 
 **Current tools:**
-- `check_links.py` - Validates all markdown links
-- Output: `LINK_AUDIT_REPORT.md` with broken link details
+- `scripts/check_links.py` - Validates all markdown links
+- Output: `meta/ops/LINK_AUDIT_REPORT.md` with broken link details
 
 **Future considerations:**
 - Spell checker
@@ -349,7 +352,7 @@ When contributing:
 1. Read **[CONTRIBUTING.md](./CONTRIBUTING.md)** first
 2. Follow naming conventions (kebab-case)
 3. Add breadcrumbs to your markdown file
-4. Run `python check_links.py` locally
+4. Run `python scripts/check_links.py` locally
 5. Update parent README.md if adding new file
 6. Clear, descriptive commit messages
 
@@ -402,7 +405,7 @@ For outdated content:
 | **Corpus size** | Tracked quarterly | ✅ ~1,800 `.md` · ~1.2M words |
 | **Domain inventory** | Hub matches filesystem | ✅ 15 domains listed |
 | **Domain maturity** | Stable labels on hub | ✅ See `domains/README.md` |
-| **Link Health** | 100% valid | 🟡 Re-run `check_links.py` monthly |
+| **Link Health** | 100% valid | 🟡 Re-run `scripts/check_links.py` monthly |
 | **Glossary Coverage** | 80%+ technical terms | ✅ Comprehensive |
 | **Navigation Clarity** | All major dirs have README | ✅ Complete |
 | **Content Freshness** | Updated quarterly | 🟡 As needed |

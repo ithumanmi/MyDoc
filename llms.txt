@@ -48,7 +48,7 @@
 
 ## Optional / low priority for default retrieval
 - resources/Tech/**/*.pdf — large binaries; prefer markdown first
-- LINK_AUDIT_REPORT.md, CONTENT-ROADMAP.md session logs — maintenance meta
+- meta/ops/LINK_AUDIT_REPORT.md, meta/ops/CONTENT-ROADMAP.md — maintenance meta
 - See meta/catalog/rag-exclude.txt
 
 ## Glossary

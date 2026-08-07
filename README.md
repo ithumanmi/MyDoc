@@ -34,7 +34,7 @@ Hiểu cấu trúc để navigate hiệu quả. Mỗi mục lớn hiển thị *
   - **`resources/collected_links/`** *(Domain-specific links | Last reviewed: Dec 2025)* – Curated links theo domain (AI, Backend, Security...)
 - **`case-studies/`** *(Intermediate → Advanced | Last reviewed: Feb 2026)* – Phân tích case thực tế (Vietnam & Global leaders)
 - **[`OVERVIEW.md`](./OVERVIEW.md)** *(Meta map | Last reviewed: Aug 2026)* – Bản đồ trực quan kết nối các thư mục chính.
-- **Agents / RAG** *(Machine nav | Aug 2026)* – [`AGENTS.md`](./AGENTS.md) · [`meta/`](./meta/) ([`routing`](./meta/routing.md) · [`catalog`](./meta/catalog/) · [`eval`](./meta/eval/)) · [`llms.txt`](./llms.txt) · stubs: [`AGENT-ROUTING.md`](./AGENT-ROUTING.md)
+- **Agents / RAG** *(Machine nav | Aug 2026)* – [`AGENTS.md`](./AGENTS.md) · [`meta/`](./meta/) ([`routing`](./meta/routing.md) · [`catalog`](./meta/catalog/) · [`eval`](./meta/eval/) · [`ops`](./meta/ops/)) · [`llms.txt`](./llms.txt)
 
 > **🆕 Last reviewed badges** sẽ xuất hiện ở đầu README của mọi thư mục chính để người đọc nắm được độ mới nội dung.
 
@@ -167,14 +167,17 @@ Hiểu cấu trúc để navigate hiệu quả. Mỗi mục lớn hiển thị *
 
 This repository is actively maintained with quarterly content reviews:
 
-- 📅 **[MAINTENANCE.md](./MAINTENANCE.md)** - Quarterly review schedule & process
+- 📅 **[MAINTENANCE.md](./meta/ops/MAINTENANCE.md)** - Quarterly review schedule & process
 - 🤝 **[CONTRIBUTING.md](./CONTRIBUTING.md)** - How to contribute
 - 🏗️ **[ARCHITECTURE.md](./ARCHITECTURE.md)** - Repository structure explained
-- 📊 **[DIFFICULTY-GUIDE.md](./DIFFICULTY-GUIDE.md)** - Learning path difficulty levels (🟢 Beginner → 🟡 Intermediate → 🔴 Advanced)
+- 📊 **[DIFFICULTY-GUIDE.md](./meta/ops/DIFFICULTY-GUIDE.md)** - Learning path difficulty levels (🟢 Beginner → 🟡 Intermediate → 🔴 Advanced)
+- 📋 **[CONTENT-ROADMAP.md](./meta/ops/CONTENT-ROADMAP.md)** - Content session log / roadmap
+- 🌟 **[COMMUNITY.md](./meta/ops/COMMUNITY.md)** - Community & hall of fame
+- 🎯 **[Doc Framework](./templates/doc-framework.md)** - Master planning templates
 
 **Automated Tools:**
-- `python check_links.py` - Verify all links are valid (run monthly)
-- `python check_dates.py` - Find outdated content (run quarterly)
+- `python scripts/check_links.py` - Verify all links are valid (run monthly) → report `meta/ops/LINK_AUDIT_REPORT.md`
+- `python scripts/check_dates.py` - Find outdated content (run quarterly)
 
 ---
 

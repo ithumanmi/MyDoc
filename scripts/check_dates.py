@@ -3,10 +3,10 @@
 Check "Last Updated" dates in markdown files to identify outdated content.
 
 Usage:
-    python check_dates.py [--threshold MONTHS]
+    python scripts/check_dates.py [--threshold MONTHS]
 
 Example:
-    python check_dates.py --threshold 3  # Find files older than 3 months
+    python scripts/check_dates.py --threshold 3  # Find files older than 3 months
 """
 
 import os
@@ -183,7 +183,7 @@ def main():
     
     if outdated:
         print(f"\n💡 TIP: Review outdated files and update content/dates")
-        print(f"📖 See MAINTENANCE.md for quarterly review process")
+        print(f"📖 See meta/ops/MAINTENANCE.md for quarterly review process")
         return 1  # Exit code 1 if outdated files found
     else:
         print(f"\n🎉 All files are up to date!")

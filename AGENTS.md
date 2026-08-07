@@ -79,4 +79,4 @@ Deep-dives may exceed 500–800 lines. Use the **Agent SUMMARY** block at the to
 - Answering from `guides/INDEX.md` alone if it may be stale — verify filesystem / hub README.
 - Preferring PDF under `resources/Tech/` over markdown guides.
 - Treating marketing tone in READMEs as procedural truth without checking linked modules.
-- Using stub paths (`AGENT-ROUTING.md`, `catalog/`, `agent-eval/`) as primary sources — prefer `meta/`.
+- Using obsolete root stubs (`MAINTENANCE.md`, `DIFFICULTY-GUIDE.md`, …) as primary sources — prefer `meta/ops/` / `templates/`.

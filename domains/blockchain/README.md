@@ -24,7 +24,7 @@ sensitivity: public
 >
 > **🔗 Curated Links:** [resources/collected_links/blockchain.md](../../resources/collected_links/blockchain.md)
 
-**📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md) to understand learning paths.
+**📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../meta/ops/DIFFICULTY-GUIDE.md) to understand learning paths.
 **🧩 Knowledge Audit:** Check [Blockchain & Web3 Knowledge Audit](../../case-studies/knowledge-audits/blockchain-knowledge-audit.md) to test your expertise!
 
 ---

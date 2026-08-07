@@ -16,7 +16,7 @@ sensitivity: public
 > [← Domains hub](../README.md) | [Home](../../README.md) | [Challenges](../../challenges/web-ui/README.md)
 >
 > **Domain maturity:** 🟡 Drafting  
-> **📊 Difficulty:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md)  
+> **📊 Difficulty:** See [DIFFICULTY-GUIDE.md](../../meta/ops/DIFFICULTY-GUIDE.md)  
 > **🧩 Knowledge Audit:** [Web Dev Knowledge Audit](../../case-studies/knowledge-audits/web-dev-knowledge-audit.md)
 
 ---

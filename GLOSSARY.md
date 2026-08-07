@@ -653,7 +653,7 @@ Thiếu thuật ngữ nào? [Contribute here](./CONTRIBUTING.md) hoặc tạo Pu
 
 ---
 
-> [← Back to Home](./README.md) | [Quick Start](./QUICK-START.md) | [Content Roadmap](./CONTENT-ROADMAP.md)
+> [← Back to Home](./README.md) | [Quick Start](./QUICK-START.md) | [Content Roadmap](./meta/ops/CONTENT-ROADMAP.md)
 
 **Last Updated:** February 17, 2026  
 **Total Terms:** 70+ concepts

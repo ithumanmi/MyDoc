@@ -10,7 +10,7 @@
 
 1. **Xác định giai đoạn nghiên cứu** của bạn (tìm tài liệu, đọc, viết, phân tích…).
 2. **Chọn 1-2 công cụ/nhóm** phù hợp, ưu tiên bản free để thử nghiệm nhanh.
-3. **Ghi log thử nghiệm** trong [Doc Framework](../doc-framework.md#habit-tracker) hoặc `templates/weekly-review.md` → mục Tooling & Automation.
+3. **Ghi log thử nghiệm** trong [Doc Framework](../templates/doc-framework.md#habit-tracker) hoặc `templates/weekly-review.md` → mục Tooling & Automation.
 
 ---
 

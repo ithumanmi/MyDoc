@@ -12,7 +12,7 @@
 2. **Đặt KPI nhỏ**: mỗi tuần đóng góp ít nhất 1 comment hoặc chia sẻ 1 tài nguyên hữu ích.
 3. **Log học được** trong phần Networking của [Weekly Review Template](../templates/weekly-review.md#networking--relationships).
 
-> Tip: Tạo "Community CRM" trong [Doc Framework](../doc-framework.md#habit-tracker) để ghi chú người bạn kết nối.
+> Tip: Tạo "Community CRM" trong [Doc Framework](../templates/doc-framework.md#habit-tracker) để ghi chú người bạn kết nối.
 
 ---
 

@@ -1,6 +1,6 @@
 > [← Back to ___](../path/to/parent.md) | [Home](../../README.md)
 >
-> **📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md) to understand learning paths.
+> **📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../meta/ops/DIFFICULTY-GUIDE.md) to understand learning paths.
 > **🧩 Knowledge Audit:** Check [___ Knowledge Audit](../../case-studies/knowledge-audits/___-knowledge-audit.md) to test your skills!
 > **🔗 External Resources:** [resources/collected_links/___](../../resources/collected_links/___)
 > **📚 Glossary:** Jump to [GLOSSARY.md](../../GLOSSARY.md) for quick definitions.

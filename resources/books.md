@@ -12,7 +12,7 @@
 2. **Log tiến độ** trong [Reading Tracker](../templates/weekly-review.md#reading-log) hoặc tạo mục riêng trong Notion/Obsidian.
 3. **Snapshot bài học** sau mỗi cuốn để tái sử dụng trong portfolio/blog.
 
-> Gợi ý: dùng Template "Reading Highlights" trong [Doc Framework](../doc-framework.md#habit-tracker) để chuẩn hóa ghi chú.
+> Gợi ý: dùng Template "Reading Highlights" trong [Doc Framework](../templates/doc-framework.md#habit-tracker) để chuẩn hóa ghi chú.
 
 ---
 

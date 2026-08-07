@@ -1,6 +1,6 @@
 ## 📘 Mục lục Chương (Chapters Index)
 
-> [← Home](../README.md) | [Quick Start](00-quick-start.md) | [Difficulty Guide](../DIFFICULTY-GUIDE.md)
+> [← Home](../README.md) | [Quick Start](00-quick-start.md) | [Difficulty Guide](../meta/ops/DIFFICULTY-GUIDE.md)
 
 ### Bắt đầu ở đâu?
 - **Start here:** [Chương 0 - Quick Start](00-quick-start.md) (tóm tắt 15 phút: đọc Ch1 → chọn domain → bắt đầu Ch2 → dùng Quick Wins 7 ngày).

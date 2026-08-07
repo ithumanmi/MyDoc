@@ -58,7 +58,7 @@ Chúng tôi cam kết xây dựng một cộng đồng cởi mở, thân thiện
 ---
 
 ## 🏆 Quyền lợi người đóng góp
-*   Tên của bạn sẽ được vinh danh trong file `COMMUNITY.md`.
+*   Tên của bạn sẽ được vinh danh trong file [`meta/ops/COMMUNITY.md`](./meta/ops/COMMUNITY.md).
 *   Cơ hội học hỏi và rèn luyện kỹ năng viết/nghiên cứu.
 *   Kết nối với những người cùng đam mê học tập.
 

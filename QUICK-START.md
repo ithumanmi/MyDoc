@@ -49,7 +49,7 @@ Click vào profile phù hợp nhất với bạn:
    - [Backend Dev](./domains/backend-dev/README.md)
    - [AI/ML](./domains/ai-ml/README.md)
    - [Web Dev](./domains/web-dev/README.md)
-3. ✍️ **Action:** Điền [Template xác định mục tiêu](./doc-framework.md#phần-1-xác-định-mục-tiêu) (30 phút)
+3. ✍️ **Action:** Điền [Template xác định mục tiêu](./templates/doc-framework.md#phần-1-xác-định-mục-tiêu) (30 phút)
 
 #### **Tuần 2-3: Foundation + Luyện tập**
 1. 📖 **[Chương 2: Luyện tập có chủ đích](./chapters/02-luyen-tap-co-chu-dich.md)** (1 giờ)
@@ -62,7 +62,7 @@ Click vào profile phù hợp nhất với bạn:
 #### **Tuần 4: Habit & Mindset**
 1. 📖 **[Chương 5: Kỷ luật & Thói quen](./chapters/05-ky-luat-thoi-quen.md)** (1 giờ)
 2. 🛡️ **[Anti-Slip System](./guides/03-career-skills/growth/anti-slip-system.md)** (1 giờ) - Hệ thống chống bỏ cuộc
-3. ✅ **Action:** Setup [Habit Tracker](./doc-framework.md#habit-tracker)
+3. ✅ **Action:** Setup [Habit Tracker](./templates/doc-framework.md#habit-tracker)
 
 ### **Checkpoint (Sau 1 tháng):**
 - [ ] Đã chọn 1 lĩnh vực cụ thể
@@ -287,7 +287,7 @@ Bất kể bạn ở path nào, hãy dùng những tools này:
 - [Daily Log Template](./templates/daily-log.md) - Track progress hàng ngày
 
 ### **🎯 Frameworks:**
-- [Doc Framework](./doc-framework.md) - Master template cho mọi thứ
+- [Doc Framework](./templates/doc-framework.md) - Master template cho mọi thứ
 - [Project Post-Mortem](./templates/project-post-mortem.md) - Learn from projects
 
 ### **📚 Learning Resources:**
@@ -325,7 +325,7 @@ Bất kể bạn ở path nào, hãy dùng những tools này:
 **Bước tiếp theo của bạn:**
 1. ✅ Chọn 1 trong 5 paths ở trên
 2. ✅ Block 1 giờ trong lịch hôm nay để đọc bài đầu tiên
-3. ✅ Join [Community](./COMMUNITY.md) để connect với người cùng đam mê
+3. ✅ Join [Community](./meta/ops/COMMUNITY.md) để connect với người cùng đam mê
 
 **Remember:** 
 > *"The journey of a thousand miles begins with a single step."*  
@@ -335,6 +335,6 @@ Don't try to be perfect. Just start. **Consistency > Intensity.**
 
 ---
 
-> [← Back to Home](./README.md) | [View Full Content Roadmap](./CONTENT-ROADMAP.md)
+> [← Back to Home](./README.md) | [View Full Content Roadmap](./meta/ops/CONTENT-ROADMAP.md)
 
 **Last Updated:** February 17, 2026

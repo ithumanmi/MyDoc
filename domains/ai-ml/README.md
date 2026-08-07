@@ -15,7 +15,7 @@ sensitivity: public
 
 > [← Back to Home](../../README.md) | [🚀 Quick Start](../../QUICK-START.md) | [📖 Glossary](../../GLOSSARY.md)
 >
-> **📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../DIFFICULTY-GUIDE.md) to understand learning paths.
+> **📊 Difficulty levels:** See [DIFFICULTY-GUIDE.md](../../meta/ops/DIFFICULTY-GUIDE.md) to understand learning paths.
 > **🧩 Knowledge Audit:** Check [AI & ML Knowledge Audit](../../case-studies/knowledge-audits/ai-knowledge-audit.md) to test your expertise!
 > **🔗 External Resources:** [resources/collected_links/ai-development.md](../../resources/collected_links/ai-development.md)
 > **📚 Glossary:** Jump to [GLOSSARY.md](../../GLOSSARY.md) for quick definitions.

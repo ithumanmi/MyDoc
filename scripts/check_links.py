@@ -92,7 +92,7 @@ def main():
     print(f"📊 Summary: {len(broken)}/{total} links broken ({len(broken)/total*100:.1f}%)")
     
     # Save report
-    with open('LINK_AUDIT_REPORT.md', 'w', encoding='utf-8') as f:
+    with open('meta/ops/LINK_AUDIT_REPORT.md', 'w', encoding='utf-8') as f:
         f.write("# Link Audit Report\n\n")
         f.write(f"**Date:** {os.popen('date /t').read().strip()}\n\n")
         f.write(f"**Summary:** {len(broken)} broken links found out of {total} total links\n\n")
@@ -107,7 +107,7 @@ def main():
         else:
             f.write("✅ All links are valid!\n")
     
-    print("\n💾 Report saved to: LINK_AUDIT_REPORT.md")
+    print("\n💾 Report saved to: meta/ops/LINK_AUDIT_REPORT.md")
 
 if __name__ == '__main__':
     main()
