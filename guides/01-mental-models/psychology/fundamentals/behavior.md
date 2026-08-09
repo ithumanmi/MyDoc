@@ -29,3 +29,9 @@ Hành vi xảy ra khi 3 yếu tố hội tụ cùng lúc:
 ## 4. Môi trường > Ý chí
 *   Ý chí giống như pin, dùng nhiều sẽ cạn (Ego Depletion).
 *   Đừng dựa vào ý chí để chống lại cám dỗ. Hãy **thiết kế môi trường** để cám dỗ không xuất hiện. (Vd: Muốn ăn kiêng -> Đừng mua bánh kẹo để trong nhà).
+
+---
+
+## 5. Nghiên cứu hành vi có kỷ luật
+
+Quan sát / đo / thí nghiệm nhỏ (không chỉ đoán tính cách): [`studying-human-behavior.md`](../practical-applications/studying-human-behavior.md).

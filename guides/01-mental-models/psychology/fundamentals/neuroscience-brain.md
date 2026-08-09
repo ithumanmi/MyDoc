@@ -34,3 +34,9 @@ Các "sứ giả hóa học" quyết định cảm xúc của bạn:
 *   **"Neurons that fire together, wire together":** Khi bạn lặp đi lặp lại một hành động/suy nghĩ, các kết nối thần kinh sẽ mạnh lên -> Hình thành thói quen/kỹ năng.
 *   Ngược lại, nếu không dùng (use it or lose it), kết nối sẽ teo đi.
 *   -> **Cơ sở khoa học của việc học tập và thay đổi bản thân.**
+
+## 4. Predictive Processing (bản đồ sâu)
+
+Não như máy dự báo: prior → prediction error → cập nhật model / hành động. Hierarchy, precision weighting, free energy.
+
+Deep-dive: [`predictive-processing.md`](./predictive-processing.md) · ứng dụng nhận thức: [`perception-through-models.md`](./perception-through-models.md).

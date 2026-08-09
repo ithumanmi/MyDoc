@@ -101,6 +101,7 @@ Một hình ảnh hơn ngàn lời nói. Senior Engineer luôn vẽ hình trư�
 *   **Drill 4: One-Pager Proposal:** Viết đề xuất dự án chỉ trong 1 trang A4. Buộc bạn phải chắt lọc ý chính.
 
 ### Related Skills
+- [Cognitive vs Emotional Empathy](../../../01-mental-models/psychology/practical-applications/cognitive-emotional-empathy.md): thấu cảm trí tuệ × cảm xúc — khi nào dùng kênh nào.
 - [Influence & Negotiation](influence-negotiation.md): vận dụng kỹ năng giao tiếp để thuyết phục stakeholder.
 - [Public Speaking Mastery](public-speaking-mastery.md): nâng cấp khả năng trình bày trước đám đông.
 - [Experience Digestion](experience-digestion.md): phản chiếu các lần giao tiếp để cải thiện liên tục.

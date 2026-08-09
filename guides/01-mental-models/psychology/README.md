@@ -11,8 +11,11 @@ Chào mừng bạn đến với **Psychology Domain**. Đây là bản đồ ki�
 ### **I. Nền tảng Tâm lý học (Core Knowledge)**
 *Hiểu bộ máy vận hành của con người.*
 *   **[Cognition (Nhận thức)](./fundamentals/cognition.md):** Cách não bộ xử lý thông tin, ghi nhớ và ra quyết định. Tại sao ta không lý trí như ta tưởng?
+*   **[Perception Through Models](./fundamentals/perception-through-models.md):** Não không nhìn thế giới trực tiếp — schema, top-down, cập nhật mô hình.
+*   **[Predictive Processing](./fundamentals/predictive-processing.md):** Xung dự báo — PE, hierarchy, precision, free energy.
 *   **[Emotion (Cảm xúc)](./fundamentals/emotion.md):** Bản chất của vui, buồn, giận, sợ. EQ là gì?
 *   **[Behavior (Hành vi)](./fundamentals/behavior.md):** Động lực, thói quen và cơ chế thưởng phạt.
+*   **[Nghiên cứu kỹ hành vi](./practical-applications/studying-human-behavior.md):** Method playbook — ABC, baseline, thí nghiệm, ethics.
 *   **[Evolutionary Psych (Tiến hóa)](./fundamentals/evolutionary-psych.md):** Bản năng sinh tồn và chọn lọc tự nhiên.
 *   **[Neuroscience (Não bộ)](./fundamentals/neuroscience-brain.md):** Dopamine, Serotonin và Tính dẻo thần kinh.
 *   **[Developmental Psych (Phát triển)](./fundamentals/developmental-psych.md):** Sự thay đổi tâm lý từ trẻ em đến người già.
@@ -39,6 +42,8 @@ Chào mừng bạn đến với **Psychology Domain**. Đây là bản đồ ki�
 *   **[Social Psychology (Hiểu người)](./practical-applications/social-psychology.md):** Áp lực đám đông, Quyền lực & Sự tuân phục.
 *   **[Quality vs Quantity (Chất lượng Mối quan hệ)](./practical-applications/quality-vs-quantity.md):** ⭐ **NEW** Nhận diện người thật lòng và sự cô độc trưởng thành.
 *   **[The Art of Reading People (Nghệ thuật Nhìn người)](./practical-applications/art-of-reading-people.md):** ⭐ **NEW** 7 dấu hiệu nhận biết bản chất con người để bảo vệ tâm hồn.
+*   **[Đọc vị càng sắc — dùng càng cẩn thận](./practical-applications/reading-people-responsibility.md):** Psychology literacy ↑ → trách nhiệm dùng ↑.
+*   **[Cognitive vs Emotional Empathy](./practical-applications/cognitive-emotional-empathy.md):** Thấu cảm trí tuệ × cảm xúc trong giao tiếp.
 *   **[True Charisma (Khí Chất & Năng Lượng)](./practical-applications/aura-and-energy.md):** ⭐ **NEW** Tại sao khí chất thực sự không hút người yếu.
 *   **[True Maturity (Chiều Sâu Trưởng Thành)](./practical-applications/true-maturity.md):** ⭐ **NEW** Buông bỏ nhu cầu kiểm soát để hiểu người sâu sắc.
 *   **[3 Levels of Thinking (3 Tầng Tư Duy)](./practical-applications/three-levels-of-thinking.md):** ⭐ **NEW** Tại sao nỗ lực thôi là chưa đủ để vượt trần.
@@ -54,6 +59,7 @@ Chào mừng bạn đến với **Psychology Domain**. Đây là bản đồ ki�
 *   **[Work & Money (Công việc)](./practical-applications/work-money.md):** Động lực, Burnout & Tâm lý học hành vi trong tài chính.
 *   **[Defense & Manipulation (Phòng vệ)](./practical-applications/defense-mechanisms.md):** Gaslighting, Thao túng & Cơ chế phòng vệ.
 *   **[Abnormal Psychology (Bất thường)](./practical-applications/abnormal-psych.md):** Trầm cảm, Lo âu & Rối loạn nhân cách.
+*   **[PP → Lo âu & Thói quen](./practical-applications/predictive-processing-anxiety-habits.md):** ⭐ Tái cấu trúc threat prior / habit loop (educational, không thay trị liệu).
 *   **[Negotiation & Influence (Đàm phán & Ảnh hưởng)](./practical-applications/negotiation-influence.md):** Cialdini, Anchoring, Reciprocity. (Link từ career/salary negotiation)
 
 ### **IV. Công cụ & Khung tư duy**
@@ -71,7 +77,9 @@ Chào mừng bạn đến với **Psychology Domain**. Đây là bản đồ ki�
 - **Công việc & ra quyết định:** [work-money.md](./practical-applications/work-money.md), [decision-making-razors.md](./decision-making-razors.md), [multi-criteria-decision-making.md](./practical-applications/multi-criteria-decision-making.md)
 - **Phòng vệ / thao túng:** [defense-mechanisms.md](./practical-applications/defense-mechanisms.md), [dark-psychology-defense.md](./dark-psychology-defense.md), [social-psychology.md](./practical-applications/social-psychology.md)
 - **Trưởng thành nội tâm:** [self-mastery.md](./practical-applications/self-mastery.md), [true-maturity.md](./practical-applications/true-maturity.md), [inclusive-quality.md](./practical-applications/inclusive-quality.md)
+- **Lo âu / thói quen (PP-lens):** [predictive-processing-anxiety-habits.md](./practical-applications/predictive-processing-anxiety-habits.md), [cbt.md](./schools-of-thought/cbt.md)
 - **Đọc người & ảnh hưởng:** [art-of-reading-people.md](./practical-applications/art-of-reading-people.md), [social-psychology.md](./practical-applications/social-psychology.md)
+- **Nghiên cứu hành vi:** [studying-human-behavior.md](./practical-applications/studying-human-behavior.md), [behavior.md](./fundamentals/behavior.md)
 - **Đệ quy / siêu nhận thức:** [recursion-in-psychology.md](./recursion-in-psychology.md), [three-levels-of-thinking.md](./practical-applications/three-levels-of-thinking.md)
 
 ### 1. [Làm chủ Ra quyết định](./cognitive-biases.md#🛠️-ứng-dụng-thực-chiến-life-applications)

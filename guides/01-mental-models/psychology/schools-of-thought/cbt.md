@@ -85,3 +85,5 @@ Người trầm cảm/lo âu thường mắc các lỗi này:
 *   Trị liệu trầm cảm, rối loạn lo âu, ám ảnh cưỡng chế (OCD).
 *   Giúp người bình thường quản lý stress và tư duy tích cực hơn (Stoicism hiện đại).
 *   Map *Meditations* (Marcus) ↔ CBT / quản trị cảm xúc: [`meditations-psychology-lessons.md`](../../../04-lifestyle-os/well-being/mental-resilience/meditations-psychology-lessons.md).
+*   Nền “Belief = model sẵn”: [`perception-through-models.md`](../fundamentals/perception-through-models.md).
+*   PP → lo âu / thói quen (graded PE, educational): [`predictive-processing-anxiety-habits.md`](../practical-applications/predictive-processing-anxiety-habits.md).

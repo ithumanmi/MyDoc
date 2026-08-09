@@ -47,3 +47,5 @@ Quan sát người khác không phải để phán xét, mà để chọn đúng
 *   Người chân thật: Trân trọng để cùng đi xa.
 
 > **"Chọn bạn mà chơi, chọn thầy mà học, chọn đối tác mà làm."**
+
+**Ethics khi đã đọc sắc:** [`reading-people-responsibility.md`](./reading-people-responsibility.md) — càng biết tâm lý, càng phải cẩn thận cách dùng.

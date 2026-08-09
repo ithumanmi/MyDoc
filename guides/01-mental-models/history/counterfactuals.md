@@ -33,6 +33,8 @@ Tư duy phản thực tế là việc dựng nên các kịch bản thay thế c
 * Trước khi launch sản phẩm, hỏi đội ngũ: "Hãy tưởng tượng chúng ta thất bại thảm hại 12 tháng nữa. Vì sao?"
 * Mỗi người viết ra ≥3 nguyên nhân. Gom lại thành danh sách rủi ro để chủ động xử lý.
 
+Deep SOP (Groupthink + Confirmation): [`pre-mortem-technique.md`](../../03-career-skills/innovation/pre-mortem-technique.md) · Worksheet: [`project-pre-mortem.md`](../../../templates/productivity/project-pre-mortem.md).
+
 ### C. Bài tập 30 phút
 1. Chọn một quyết định 12 tháng gần nhất.
 2. Viết nhanh 3 kịch bản: (i) tốt hơn, (ii) tệ hơn, (iii) khác hẳn.

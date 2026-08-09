@@ -63,7 +63,8 @@
 ### 📝 Templates & Tools
 - [Decision Journal Template](../../templates/decision-journal.md)
 - [Risk Radar Template](../../templates/productivity/risk-radar.md) – dùng để check ruin trước khi commit.
-- [Pre-mortem Worksheet](../../templates/productivity/project-pre-mortem.md)
+- [Pre-mortem Worksheet](../../../templates/productivity/project-pre-mortem.md)
+- Guide: [Pre-mortem Technique](../../03-career-skills/innovation/pre-mortem-technique.md) — chống Groupthink & Confirmation Bias.
 
 ## 🔗 Related Engines
 - **Risk Engine:** Dùng checklist `SPOF / Margin of Safety` trước khi all-in EV cao → [Risk Engine](./risk-engine.md#🛠️-quy-trình-quản-trị-rủi-ro-checklist).

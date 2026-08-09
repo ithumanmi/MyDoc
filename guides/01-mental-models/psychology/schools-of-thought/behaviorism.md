@@ -29,3 +29,5 @@ Cách thưởng quan trọng hơn phần thưởng.
 *   **Giáo dục:** Khen ngợi hành vi tốt ngay lập tức.
 *   **Game Design:** Thiết kế vòng lặp phần thưởng để giữ chân người chơi.
 *   **Trị liệu:** Cai nghiện bằng cách cắt đứt liên kết giữa tác nhân và khoái cảm.
+
+**Method quan sát/đo hành vi đời thật:** [`studying-human-behavior.md`](../practical-applications/studying-human-behavior.md).

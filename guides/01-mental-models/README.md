@@ -48,7 +48,7 @@ sensitivity: public
 
 ### 🔁 Metacognitive Operating System (New)
 
-*Nếu bạn muốn “build OS” giám sát mọi vòng lặp suy nghĩ, hãy đọc:* **[Metacognitive Operating System (Metacog-OS)](./metacognitive-operating-system.md)** – bài hướng dẫn tạo hệ điều hành tự nhận thức với các layer Bootloader/Monitor/Update, Metacog Canvas và ritual 7 ngày để bắt đầu.
+*Nếu bạn muốn “build OS” giám sát mọi vòng lặp suy nghĩ, hãy đọc:* **[Metacognitive Operating System (Metacog-OS)](./metacognitive-operating-system.md)** – bài hướng dẫn tạo hệ điều hành tự nhận thức với các layer Bootloader/Monitor/Update, Metacog Canvas và ritual 7 ngày để bắt đầu. Khái niệm ngắn: [`meta-thinking.md`](../03-career-skills/productivity/meta-skills/meta-thinking.md).
 
 ## ✅ Mental Model Audit Checklist
 
@@ -60,7 +60,7 @@ sensitivity: public
 | **Systems & Complexity** | Tôi hiểu feedback loop, chaos, system design? | [systems-chaos-theory.md](./mathematics/systems-chaos-theory.md), [feedback-loops-deep-dive.md](./global-intelligence/systems-thinking/feedback-loops-deep-dive.md) |
 | **Decision & Risk** | Tôi ra quyết định nhanh nhưng không liều? | [decision-making-razors.md](./psychology/decision-making-razors.md), [mechanics.md](./physics/mechanics.md) (momentum, leverage), liên kết tới [decision-engine.md](../04-lifestyle-os/life-os/decision-engine.md) |
 | **Historical & Context Awareness** | Tôi nhận diện chu kỳ, Lindy, path dependence? | [history/README.md](./history/README.md), [chain-reactions.md](./chemistry/chain-reactions.md) (analogy), [economic-cycles.md](../02-wealth-business/finance/economic-cycles.md) |
-| **Human Dynamics & Emotions** | Tôi hiểu hành vi, bias, dark psychology? | [cognitive-biases.md](./psychology/cognitive-biases.md), [dark-psychology-defense.md](./psychology/dark-psychology-defense.md), liên kết [mental-resilience](../04-lifestyle-os/well-being/mental-resilience/README.md) |
+| **Human Dynamics & Emotions** | Tôi hiểu hành vi, bias, dark psychology? | [cognitive-biases.md](./psychology/cognitive-biases.md), [perception-through-models.md](./psychology/fundamentals/perception-through-models.md), [predictive-processing.md](./psychology/fundamentals/predictive-processing.md), [dark-psychology-defense.md](./psychology/dark-psychology-defense.md), liên kết [mental-resilience](../04-lifestyle-os/well-being/mental-resilience/README.md) |
 | **Meta / Inner Alignment** | Tôi có khung triết học cá nhân, hiểu mysticism/culture alignment? | [personal-philosophy-template.md](./philosophy/integration/personal-philosophy-template.md), [mysticism/README.md](./mysticism/README.md) |
 
 > Action: Viết lại 1 trục điểm thấp, chọn 1 bài tương ứng, triển khai experiment trong 7 ngày.
@@ -69,7 +69,7 @@ sensitivity: public
 |- **Decision & Risk:** [decision-making-razors.md](./psychology/decision-making-razors.md), [logic-reasoning.md](./mathematics/logic-reasoning.md), [margin-of-safety.md](./engineering/margin-of-safety.md), [trade-offs.md](./engineering/trade-offs.md)
 |- **Fast Feedback / Recall:** [action-recall.md](./action-recall.md), [fast-correction-mindset.md](./fast-correction-mindset.md)
 - **Eudaimonia & Flourishing:** [eudaimonia.md](./eudaimonia.md) – đức hạnh, telos, Trung đạo, checklist phản tư.
-- **Bias & Psychology:** [cognitive-biases.md](./psychology/cognitive-biases.md), [dark-psychology-defense.md](./psychology/dark-psychology-defense.md), [fast-correction-mindset.md](./fast-correction-mindset.md)
+- **Bias & Psychology:** [cognitive-biases.md](./psychology/cognitive-biases.md), [perception-through-models.md](./psychology/fundamentals/perception-through-models.md), [dark-psychology-defense.md](./psychology/dark-psychology-defense.md), [fast-correction-mindset.md](./fast-correction-mindset.md)
 - **Systems & Recursion:** [systems-chaos-theory.md](./mathematics/systems-chaos-theory.md), [feedback-loops-deep-dive.md](./global-intelligence/systems-thinking/feedback-loops-deep-dive.md), [recursion-consciousness.md](./recursion-consciousness.md), [recursive-thinking.md](./recursive-thinking.md), [recursion-in-psychology.md](./psychology/recursion-in-psychology.md)
 - **History & Cycles:** [history/README.md](./history/README.md), [path-dependence.md](./history/path-dependence.md), [lindy-effect.md](./history/lindy-effect.md)
 - **Stoicism & Philosophy:** [stoicism-101.md](./philosophy/schools-and-thinkers/stoicism-101.md), [logic-and-fallacies.md](./philosophy/fundamentals/logic-and-fallacies.md), [personal-philosophy-template.md](./philosophy/integration/personal-philosophy-template.md)

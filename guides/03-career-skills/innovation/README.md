@@ -33,6 +33,7 @@ Chào mừng bạn đến với **Innovation Playbook**. Đây là tập hợp c
 ### Giai đoạn 3: Kiểm Chứng & Xây Dựng (Validate & Build)
 *Thất bại nhanh để học nhanh (Fail Fast, Learn Fast).*
 7.  **[RAT (Riskiest Assumption Testing)](./rat-testing.md):** Kiểm tra giả định rủi ro nhất TRƯỚC khi làm sản phẩm.
+7b. **[Pre-mortem Technique](./pre-mortem-technique.md):** Giả định fail trước khi ship — chống Groupthink & Confirmation Bias.
 8.  **[Prototyping](./prototyping.md):** Cách làm bản mẫu từ sơ khai đến chi tiết.
 9.  **[Design Sprint](./design-sprint.md):** Quy trình 5 ngày thần tốc của Google Ventures.
 10. **[MVP (Minimum Viable Product)](./mvp.md):** Sản phẩm khả dụng tối thiểu.

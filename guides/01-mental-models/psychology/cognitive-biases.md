@@ -1,5 +1,7 @@
 # 🧠 Thiên kiến Nhận thức (Cognitive Biases)
 
+> **Nền:** Bias là hệ quả khi não **nhìn qua mô hình sẵn** — [`perception-through-models.md`](./fundamentals/perception-through-models.md).
+
 ## 1. Hệ thống 1 & Hệ thống 2 (Thinking, Fast and Slow - Daniel Kahneman)
 Não bộ có 2 chế độ vận hành:
 *   **Hệ thống 1 (Fast):** Nhanh, bản năng, cảm xúc, tốn ít năng lượng. (Ví dụ: Nhìn thấy mặt người đang giận dữ, lái xe trên đường quen). -> Dễ mắc sai lầm.
@@ -44,3 +46,7 @@ Xu hướng tiếp tục làm một việc gì đó chỉ vì đã đầu tư ti
 *   Để chống lại Sunk Cost Fallacy, hãy dùng câu hỏi:
 *   "Nếu hôm nay mình chưa bắt đầu công việc/mối quan hệ này, liệu mình có chọn bắt đầu nó không?"
 *   Nếu câu trả lời là "KHÔNG", hãy dừng lại ngay lập tức. Bất kể bạn đã bỏ ra bao nhiêu năm.
+
+---
+
+**Meta-layer:** vì sao bias tồn tại (nhìn qua model) → [`perception-through-models.md`](./fundamentals/perception-through-models.md) · luyện bắt bias → [`meta-thinking.md`](../../03-career-skills/productivity/meta-skills/meta-thinking.md) · câu hỏi theo bias → [`meta-thinking-bias-filter.md`](../../03-career-skills/productivity/meta-skills/meta-thinking-bias-filter.md) · hệ ritual → [`metacognitive-operating-system.md`](../metacognitive-operating-system.md).

@@ -6,6 +6,8 @@ Meta skills = kỹ năng “đòn bẩy” giúp bạn học nhanh hơn, thiết
 
 ## 📂 Navigate nhanh
 - **[Learning OS Framework](learning-os-framework.md)** ⭐ — pipeline học mọi kiến thức (bắt đầu đây)
+- **[Meta-thinking (Metacognition)](meta-thinking.md)** — tư duy về tư duy: plan/monitor/evaluate
+- **[Meta-thinking Bias Filter](meta-thinking-bias-filter.md)** — câu hỏi tự vấn theo bias + STOP–ZOOM–SWITCH
 - [Learning How to Learn](learning-how-to-learn.md)
 - [Meta Learning Primer](meta-learning.md)
 - [Meta Skill Sprint 30 ngày](meta-skill-sprint-30-days.md)
@@ -22,6 +24,7 @@ Meta skills = kỹ năng “đòn bẩy” giúp bạn học nhanh hơn, thiết
 1. **Chạy Learning OS** cho mọi chủ đề mới (Intent → Metalearn → … → Spaced).
 2. **Chọn meta skill theo vấn đề hiện tại:**
    - Bị tắc ở kỹ thuật học → *Learning How to Learn* + *Meta Learning*.
+   - Không biết mình đang nghĩ lệch thế nào → *Meta-thinking* + [Metacog-OS](../../../01-mental-models/metacognitive-operating-system.md).
    - Quản lý kiến thức kém → *Personal Knowledge Base* + *PKM System*.
    - Dự án quá tải → *Project Management* / *Study Project Management*.
    - Muốn khai thác AI → *Working with AI*.

@@ -35,8 +35,75 @@ topics:
     related:
       - guides/03-career-skills/productivity/meta-skills/learning-how-to-learn.md
       - guides/03-career-skills/productivity/meta-skills/meta-learning.md
+      - guides/03-career-skills/productivity/meta-skills/meta-thinking.md
       - chapters/02-luyen-tap-co-chu-dich.md
       - templates/personal/learning-session.md
+
+  - id: learning.meta_thinking
+    aliases:
+      - meta-thinking
+      - metacognition
+      - siêu nhận thức
+      - thinking about thinking
+      - meta-cognitive regulation
+      - tư duy về tư duy
+    canonical: guides/03-career-skills/productivity/meta-skills/meta-thinking.md
+    related:
+      - guides/03-career-skills/productivity/meta-skills/meta-thinking-bias-filter.md
+      - guides/03-career-skills/productivity/meta-skills/learning-os-framework.md
+      - guides/03-career-skills/productivity/meta-skills/learning-how-to-learn.md
+      - guides/03-career-skills/productivity/meta-skills/meta-learning.md
+      - guides/01-mental-models/metacognitive-operating-system.md
+      - guides/01-mental-models/psychology/cognitive-biases.md
+      - guides/03-career-skills/productivity/core-skills/critical-thinking.md
+      - guides/04-lifestyle-os/life-os/psychology-of-self.md
+
+  - id: learning.meta_thinking_bias_filter
+    aliases:
+      - meta-thinking bias filter
+      - Meta-Filter
+      - STOP ZOOM SWITCH
+      - confirmation bias questions
+      - sunk cost self questions
+      - Dunning-Kruger questions
+      - câu hỏi tự vấn bias
+    canonical: guides/03-career-skills/productivity/meta-skills/meta-thinking-bias-filter.md
+    related:
+      - guides/03-career-skills/productivity/meta-skills/meta-thinking.md
+      - guides/01-mental-models/psychology/cognitive-biases.md
+      - guides/01-mental-models/metacognitive-operating-system.md
+      - guides/03-career-skills/productivity/core-skills/critical-thinking.md
+      - guides/04-lifestyle-os/health/sns-cortisol-brake-playbook.md
+      - guides/03-career-skills/innovation/pre-mortem-technique.md
+
+  - id: career.pre_mortem
+    aliases:
+      - pre-mortem
+      - premortem
+      - phân tích trước thất bại
+      - prospective hindsight
+      - groupthink pre-mortem
+      - project pre-mortem
+    canonical: guides/03-career-skills/innovation/pre-mortem-technique.md
+    related:
+      - templates/productivity/project-pre-mortem.md
+      - guides/04-lifestyle-os/life-os/decision-engine.md
+      - guides/04-lifestyle-os/life-os/risk-engine.md
+      - guides/03-career-skills/innovation/rat-testing.md
+      - guides/03-career-skills/innovation/design-sprint.md
+      - guides/01-mental-models/psychology/cognitive-biases.md
+      - guides/03-career-skills/productivity/meta-skills/meta-thinking-bias-filter.md
+      - guides/01-mental-models/history/counterfactuals.md
+      - guides/03-career-skills/innovation/facilitation-skills.md
+
+  - id: learning.metacog_os
+    aliases: [metacog-os, metacognitive operating system, Metacog OS]
+    canonical: guides/01-mental-models/metacognitive-operating-system.md
+    related:
+      - guides/03-career-skills/productivity/meta-skills/meta-thinking.md
+      - guides/01-mental-models/psychology/cognitive-biases.md
+      - guides/03-career-skills/productivity/core-skills/critical-thinking.md
+      - guides/03-career-skills/productivity/meta-skills/learning-os-framework.md
 
   - id: personal.hub
     aliases: [personal, daily log, nutrition log, life data]
@@ -264,7 +331,136 @@ topics:
   - id: guides.mental_models
     aliases: [mental models, first principles, tư duy]
     canonical: guides/01-mental-models/README.md
-    related: [guides/README.md]
+    related:
+      - guides/README.md
+      - guides/01-mental-models/psychology/fundamentals/perception-through-models.md
+
+  - id: psychology.perception_through_models
+    aliases:
+      - perception through models
+      - não không nhìn thế giới trực tiếp
+      - schema psychology
+      - top-down perception
+      - predictive mind
+      - constructive perception
+      - tâm lý học hành vi mô hình
+    canonical: guides/01-mental-models/psychology/fundamentals/perception-through-models.md
+    related:
+      - guides/01-mental-models/psychology/fundamentals/predictive-processing.md
+      - guides/01-mental-models/psychology/fundamentals/cognition.md
+      - guides/01-mental-models/psychology/cognitive-biases.md
+      - guides/01-mental-models/psychology/key-concepts.md
+      - guides/01-mental-models/psychology/schools-of-thought/cbt.md
+      - guides/01-mental-models/psychology/schools-of-thought/behaviorism.md
+      - guides/03-career-skills/productivity/meta-skills/meta-thinking.md
+      - guides/03-career-skills/productivity/meta-skills/meta-thinking-bias-filter.md
+      - guides/01-mental-models/metacognitive-operating-system.md
+      - guides/01-mental-models/README.md
+
+  - id: psychology.predictive_processing
+    aliases:
+      - predictive processing
+      - predictive coding
+      - xung dự báo
+      - prediction error
+      - precision weighting
+      - free energy principle
+      - active inference
+      - Bayesian brain
+    canonical: guides/01-mental-models/psychology/fundamentals/predictive-processing.md
+    related:
+      - guides/01-mental-models/psychology/practical-applications/predictive-processing-anxiety-habits.md
+      - guides/01-mental-models/psychology/fundamentals/perception-through-models.md
+      - guides/01-mental-models/psychology/fundamentals/cognition.md
+      - guides/01-mental-models/psychology/fundamentals/neuroscience-brain.md
+      - guides/01-mental-models/psychology/cognitive-biases.md
+      - guides/01-mental-models/psychology/schools-of-thought/cbt.md
+      - guides/04-lifestyle-os/health/dopamine-system.md
+      - guides/03-career-skills/productivity/meta-skills/meta-thinking.md
+      - guides/03-career-skills/productivity/meta-skills/meta-thinking-bias-filter.md
+      - guides/04-lifestyle-os/health/sns-cortisol-brake-playbook.md
+
+  - id: psychology.pp_anxiety_habits
+    aliases:
+      - PP anxiety
+      - predictive processing anxiety
+      - tái cấu trúc prior lo âu
+      - PP habits
+      - predictive processing thói quen
+      - graded prediction error
+      - threat prior
+    canonical: guides/01-mental-models/psychology/practical-applications/predictive-processing-anxiety-habits.md
+    related:
+      - guides/01-mental-models/psychology/fundamentals/predictive-processing.md
+      - guides/01-mental-models/psychology/fundamentals/perception-through-models.md
+      - guides/01-mental-models/psychology/schools-of-thought/cbt.md
+      - guides/04-lifestyle-os/well-being/mental-resilience/mental-toughness-protocol.md
+      - guides/04-lifestyle-os/well-being/mental-resilience/psychological-resilience.md
+      - guides/04-lifestyle-os/well-being/mental-resilience/mindfulness-meditation.md
+      - guides/04-lifestyle-os/health/sns-cortisol-brake-playbook.md
+      - guides/04-lifestyle-os/health/dopamine-system.md
+      - guides/03-career-skills/productivity/meta-skills/meta-thinking-bias-filter.md
+
+  - id: psychology.reading_people_responsibility
+    aliases:
+      - đọc vị ethics
+      - reading people responsibility
+      - biết tâm lý dùng cẩn thận
+      - ethics of influence
+      - psychology literacy responsibility
+      - sắc càng phải cẩn thận
+    canonical: guides/01-mental-models/psychology/practical-applications/reading-people-responsibility.md
+    related:
+      - guides/01-mental-models/psychology/practical-applications/cognitive-emotional-empathy.md
+      - guides/01-mental-models/psychology/practical-applications/art-of-reading-people.md
+      - guides/01-mental-models/psychology/dark-psychology-defense.md
+      - guides/01-mental-models/psychology/practical-applications/social-psychology.md
+      - guides/03-career-skills/productivity/core-skills/influence-negotiation.md
+      - guides/04-lifestyle-os/life-os/outcome-independence-stoicism.md
+      - guides/04-lifestyle-os/life-os/bond-psychology.md
+      - guides/01-mental-models/psychology/fundamentals/perception-through-models.md
+
+  - id: psychology.cognitive_emotional_empathy
+    aliases:
+      - cognitive empathy
+      - emotional empathy
+      - thấu cảm trí tuệ
+      - thấu cảm cảm xúc
+      - affective empathy
+      - perspective taking empathy
+      - tactical empathy types
+    canonical: guides/01-mental-models/psychology/practical-applications/cognitive-emotional-empathy.md
+    related:
+      - guides/03-career-skills/productivity/core-skills/influence-negotiation.md
+      - guides/03-career-skills/productivity/core-skills/communication-mastery.md
+      - guides/03-career-skills/productivity/core-skills/awareness-depth.md
+      - guides/01-mental-models/psychology/practical-applications/reading-people-responsibility.md
+      - guides/01-mental-models/psychology/practical-applications/studying-human-behavior.md
+      - guides/04-lifestyle-os/life-os/bond-psychology.md
+      - guides/04-lifestyle-os/well-being/mental-resilience/psychological-resilience.md
+      - guides/01-mental-models/psychology/fundamentals/perception-through-models.md
+      - guides/04-lifestyle-os/health/sns-cortisol-brake-playbook.md
+
+  - id: psychology.studying_human_behavior
+    aliases:
+      - researching human behavior
+      - nghiên cứu hành vi
+      - nghiên cứu kỹ hành vi con người
+      - behavior observation
+      - ABC behavior analysis
+      - studying behavior methods
+    canonical: guides/01-mental-models/psychology/practical-applications/studying-human-behavior.md
+    related:
+      - guides/01-mental-models/psychology/fundamentals/behavior.md
+      - guides/01-mental-models/psychology/schools-of-thought/behaviorism.md
+      - guides/01-mental-models/psychology/practical-applications/social-psychology.md
+      - guides/01-mental-models/psychology/practical-applications/art-of-reading-people.md
+      - guides/01-mental-models/psychology/practical-applications/reading-people-responsibility.md
+      - guides/01-mental-models/psychology/fundamentals/perception-through-models.md
+      - guides/01-mental-models/psychology/cognitive-biases.md
+      - guides/03-career-skills/productivity/meta-skills/meta-thinking-bias-filter.md
+      - guides/02-wealth-business/market-research/core/user-research-persona.md
+      - guides/03-career-skills/innovation/pre-mortem-technique.md
 
   - id: guides.wealth
     aliases: [wealth, business, investing, entrepreneurship]

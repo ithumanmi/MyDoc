@@ -8,6 +8,7 @@ audience: [beginner, intermediate, advanced]
 related:
   - learning-how-to-learn.md
   - meta-learning.md
+  - meta-thinking.md
   - ../../../../chapters/02-luyen-tap-co-chu-dich.md
   - ../../../../templates/personal/learning-session.md
 sensitivity: public
@@ -26,7 +27,7 @@ sensitivity: public
 - 7 layers: Intent → Metalearn → Deconstruct → Encode → Retrieve → Apply/Teach → Spaced review.
 - §2 Topic Attack (~90′) = default tactical protocol; §7 = 1-page checklist; §10 = start in 24h.
 - Use with repo: domains/challenges + `templates/personal/learning-session.md`; log deep work in `personal/daily/` if asked.
-- Modules: learning-how-to-learn, meta-learning, Chapter 2 deliberate practice.
+- Modules: learning-how-to-learn, meta-learning, meta-thinking, Chapter 2 deliberate practice.
 <!-- /agent-summary -->
 
 Bạn không cần “bộ não đặc biệt”. Bạn cần **pipeline lặp lại được** cho mọi domain: chọn → phân rã → encode → retrieve → apply → teach → spaced review.
@@ -50,7 +51,7 @@ Bạn không cần “bộ não đặc biệt”. Bạn cần **pipeline lặp l
 | **Metalearning** | 10% thời gian map *cách học môn đó* | Nhảy vào Udemy ngay |
 | **AI as tutor** | Socratic quiz, Feynman partner | Để AI viết hết rồi tưởng mình biết |
 
-Chi tiết từng kỹ thuật: [learning-how-to-learn.md](./learning-how-to-learn.md) · [meta-learning.md](./meta-learning.md) · [Chapter 2](../../../../chapters/02-luyen-tap-co-chu-dich.md)
+Chi tiết từng kỹ thuật: [learning-how-to-learn.md](./learning-how-to-learn.md) · [meta-learning.md](./meta-learning.md) · [meta-thinking.md](./meta-thinking.md) · [Chapter 2](../../../../chapters/02-luyen-tap-co-chu-dich.md)
 
 ---
 

@@ -27,6 +27,8 @@ Những khái niệm quan trọng nhất bạn cần biết. Đây là bộ từ
 
 ### Thinking & Decision Making
 *   **System 1 vs System 2 (Kahneman):** System 1 = Nhanh, tự động, cảm tính. System 2 = Chậm, logic, tốn năng lượng. Hầu hết quyết định đều do System 1 đưa ra.
+*   **Perception through models:** Não không nhìn thế giới trực tiếp — lọc qua schema / kỳ vọng. Deep-dive: [perception-through-models.md](./fundamentals/perception-through-models.md).
+*   **Predictive Processing:** Prior × prediction error × precision. Deep-dive: [predictive-processing.md](./fundamentals/predictive-processing.md).
 *   **Cognitive Dissonance (Bất hòa nhận thức):** Cảm giác khó chịu khi có 2 niềm tin/hành động mâu thuẫn (Vd: Hút thuốc dù biết hại phổi). Não sẽ tìm cách "biện minh" để giảm khó chịu.
 *   **Confirmation Bias (Thiên kiến xác nhận):** Chỉ tìm kiếm và tin vào thông tin ủng hộ niềm tin sẵn có. Bỏ qua bằng chứng phản bác. *Kẻ thù số 1 của tư duy phản biện.*
 *   **Availability Heuristic (Phán đoán sẵn có):** Đánh giá xác suất dựa trên những gì dễ nhớ nhất. Vd: Sợ máy bay vì xem tin tức tai nạn (dù ô tô nguy hiểm hơn gấp 100 lần).

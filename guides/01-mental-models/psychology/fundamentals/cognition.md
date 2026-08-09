@@ -4,6 +4,9 @@
 
 Nhận thức là quá trình não bộ tiếp nhận, xử lý, lưu trữ và sử dụng thông tin. Hiểu về nhận thức giúp ta biết tại sao mình lại nghĩ như vậy và tránh những sai lầm tư duy phổ biến.
 
+**Bài sâu:** não nhìn qua mô hình sẵn có (không “camera trung thực”) → [`perception-through-models.md`](./perception-through-models.md).  
+**Cơ chế thần kinh–tính toán:** [`predictive-processing.md`](./predictive-processing.md).
+
 ---
 
 ## 1. Attention (Sự chú ý)

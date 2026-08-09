@@ -2,6 +2,8 @@
 
 > **Định nghĩa:** Metacog-OS là hệ điều hành tự nhận thức (self-awareness OS) giúp bạn biết mình đang nghĩ gì, nhận diện độ tin cậy của từng suy nghĩ, và ra quyết định dựa trên bản đồ nhận thức thay vì cảm xúc tức thời.
 
+> **Khái niệm nền:** [Meta-thinking](../03-career-skills/productivity/meta-skills/meta-thinking.md) — knowledge + plan/monitor/evaluate. **Bias Firewall (câu hỏi sẵn):** [Meta-thinking Bias Filter](../03-career-skills/productivity/meta-skills/meta-thinking-bias-filter.md). Bài này = triển khai OS.
+
 ## 1. Vì sao cần Metacog-OS?
 
 | Triệu chứng khi **không** có OS | Triệu chứng khi **đã** bật OS |
@@ -43,7 +45,7 @@ Các module lõi đặt tại Control Center (giống BIOS):
 
 | Module | Mô tả | Câu hỏi kích hoạt |
 | --- | --- | --- |
-| **Bias Firewall** | Danh sách 3 bias cá nhân hay gặp | “Đây có phải là Confirmation Bias?” |
+| **Bias Firewall** | Danh sách 3 bias cá nhân hay gặp + [câu hỏi filter](../03-career-skills/productivity/meta-skills/meta-thinking-bias-filter.md) | “Đây có phải là Confirmation Bias?” |
 | **Decision Stack** | Thứ tự ưu tiên khi ra quyết định (Value → Data → Speed) | “Tôi đang tối ưu cho giá trị nào?” |
 | **Recovery Protocol** | Kịch bản khi hệ thống crash (stress, burnout) | “Tôi chuyển sang chế độ bảo trì gì?” |
 | **Experiment Engine** | Lịnh trình thử nghiệm tư duy 7 ngày | “Hypothesis mới là gì?” |

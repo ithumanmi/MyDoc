@@ -97,6 +97,7 @@ Theo dõi 4 tuần để thấy đường trend: awareness đang sâu thêm hay 
 > 📌 *Reminder:* Awareness không phải trạng thái tĩnh mà là quá trình lặp: Quan sát → Diễn giải → Điều chỉnh. Càng luyện, radar càng nhạy.
 
 ### Related Skills
+- [Cognitive vs Emotional Empathy](../../../01-mental-models/psychology/practical-applications/cognitive-emotional-empathy.md): tách hiểu vs cảm cùng trong giao tiếp.
 - [Attention Mastery](attention-mastery.md): sử dụng awareness để duy trì focus.
 - [Emotional Intensity](emotional-intensity.md): đọc tín hiệu cảm xúc để điều tiết kịp thời.
 - [Experience Digestion](experience-digestion.md): chuyển insight nhận thức thành hành động nâng cấp.

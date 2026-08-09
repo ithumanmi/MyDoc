@@ -195,6 +195,8 @@ Nghiên cứu attraction có dòng cho thấy **dark traits một phần** tăng
 
 **Không luyện:** callous humor về tổn thương người khác, love-bomb/withdraw cycle, “rules are for others”.
 
+Ethics khi đọc vị / influence sắc: [`reading-people-responsibility.md`](../../01-mental-models/psychology/practical-applications/reading-people-responsibility.md).
+
 ---
 
 ## 6) Mô hình tích hợp: vì sao 5 cụm cộng hưởng

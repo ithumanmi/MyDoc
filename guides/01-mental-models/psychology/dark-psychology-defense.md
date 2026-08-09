@@ -70,4 +70,5 @@ Khi từ chối kẻ thao túng, **KHÔNG BAO GIỜ**:
 
 ---
 > **Đọc thêm:**
+> *   [Đọc vị càng sắc — dùng càng cẩn thận](./practical-applications/reading-people-responsibility.md) - Khi bạn là người *có* kỹ năng tâm lý.
 > *   [Resilience & Antifragility](../../../03-career-skills/growth/resilience-antifragility.md) - Xây dựng nội lực để không bị lung lay.

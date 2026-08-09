@@ -15,6 +15,8 @@ Tài liệu này tổng hợp các kỹ thuật từ Tâm lý học hành vi (Ci
 *   **Thao túng (Manipulation):** Ép người khác ra quyết định chỉ có lợi cho bạn (Win-Lose).
 -> *Nguyên tắc:* Luôn dùng kỹ thuật với thiện chí (Good faith).
 
+Deep ethics khi đã “đọc vị” sắc: [`reading-people-responsibility.md`](../../../01-mental-models/psychology/practical-applications/reading-people-responsibility.md).
+
 ### The 6 Principles of Persuasion (Cialdini) 🧠
 1.  **Reciprocity (Có qua có lại):** Con người có xu hướng muốn trả nợ. -> *Tip:* Hãy cho đi trước (thông tin, sự giúp đỡ nhỏ) để nhận lại sự hợp tác.
 2.  **Scarcity (Khan hiếm):** Cái gì càng ít càng quý. -> *Tip:* Nhấn mạnh những gì họ sẽ **mất** nếu không hành động ngay (Loss Aversion).
@@ -43,6 +45,8 @@ Tài liệu này tổng hợp các kỹ thuật từ Tâm lý học hành vi (Ci
     *   *"Nghe như là anh cảm thấy..."* (It sounds like...)
 *   **Tác dụng:** Nếu là cảm xúc tiêu cực -> Nó sẽ dịu đi. Nếu là tích cực -> Nó được củng cố.
 *   **Ví dụ:** "Có vẻ như anh đang lo lắng về rủi ro tiến độ dự án?" -> Giúp xoa dịu Amygdala của họ.
+
+> **Loại thấu cảm:** Label chủ yếu là **Cognitive Empathy** (hiểu đúng trạng thái). Phân biệt với Emotional Empathy và cách stack: [`cognitive-emotional-empathy.md`](../../../01-mental-models/psychology/practical-applications/cognitive-emotional-empathy.md).
 
 ### 3. Calibrated Questions (Câu hỏi định hướng) ❓
 Tránh câu hỏi "Tại sao" (nghe như buộc tội). Dùng "Cái gì" và "Làm thế nào" để nhờ họ giúp bạn.
