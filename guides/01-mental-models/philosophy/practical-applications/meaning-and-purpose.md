@@ -76,6 +76,8 @@ Cuối tuần này, hãy dành 1 giờ journal về 3 câu hỏi:
 
 > **Lời kết:** Ý nghĩa không phải là thứ để *tìm thấy*. Nó là thứ để *xây dựng*. Hãy code cuộc đời bạn như code một Masterpiece.
 
+Cân hedonia bền (không escape): [`fun-maxing.md`](../../../04-lifestyle-os/life-os/fun-maxing.md).
+
 ---
 
 **Next Steps:**

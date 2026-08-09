@@ -55,6 +55,8 @@ Không có đạo đức, con người chỉ là những con thú thông minh.
 *   **Privacy:** Thu thập dữ liệu người dùng để cải thiện sản phẩm (Utilitarian) hay tôn trọng quyền riêng tư tuyệt đối (Deontology)?
 *   **Dark Patterns:** Thiết kế UI để lừa user click quảng cáo là phi đạo đức.
 
+**Thực hành trong đời sống:** [`ethics-in-daily-life.md`](../practical-applications/ethics-in-daily-life.md).
+
 ---
 
 ## 4. Logic (Logic học) - Nghiên cứu về Tư duy đúng đắn
@@ -109,3 +111,4 @@ graph TD
 
 **Next Steps:**
 *   Đi sâu vào công cụ quan trọng nhất: [🧠 Critical Thinking & Logical Fallacies](./critical-thinking-basics.md).
+*   Áp dụng hàng ngày: [Logic trong đời sống](../practical-applications/logic-in-daily-life.md).

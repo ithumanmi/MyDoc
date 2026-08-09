@@ -47,3 +47,10 @@ Cách tư duy của Elon Musk (và Aristotle).
 *   Đừng tư duy theo lối mòn (Analogy - làm giống người khác).
 *   Hãy bóc tách vấn đề xuống các chân lý cơ bản nhất (First Principles) rồi xây dựng lại từ đó.
 *   *Ví dụ:* Pin xe điện đắt -> Tại sao? -> Do nguyên liệu. -> Giá nguyên liệu trên sàn London là bao nhiêu? -> Rẻ hơn nhiều. -> Tự mua nguyên liệu về làm pin -> Rẻ hơn.
+
+---
+
+## Áp dụng vào đời sống
+
+Playbook họp / tin tức / quyết định (deduction · induction · abduction + checklist):  
+[`logic-in-daily-life.md`](../practical-applications/logic-in-daily-life.md).

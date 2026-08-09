@@ -61,3 +61,6 @@ Cuối tuần KHÔNG phải là để ngủ bù cho 5 ngày bào sức. Cuối t
 Nếu bạn không cố tình lên lịch trình giải trí chất lượng cao (Active Leisure), não bộ vốn lười biếng sẽ tự động rơi vào con đường dễ dãi nhất: Trượt vô hạn (Passive Leisure). 
 
 > **"Bận rộn tối mặt (Hustle) là sự lười biếng của Nhận thức. Thiết kế thời gian chết cực chất, đó mới là đặc quyền của Giới Tinh Anh."**
+
+Protocol tối ưu portfolio vui (Fun-maxing — deep fun vs cheap, budget, drill):  
+[`fun-maxing.md`](../../life-os/fun-maxing.md).

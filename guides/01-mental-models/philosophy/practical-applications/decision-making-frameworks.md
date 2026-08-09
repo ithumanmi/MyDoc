@@ -80,6 +80,9 @@ Trước khi nói "Yes" với một project mới, hãy tưởng tượng một 
 
 > **Lời kết:** Đừng sợ quyết định sai. Hãy sợ việc ra quyết định mà không có cơ sở.
 
+Playbook nâng **năng lực** (triage · bias · calibration · drill):  
+[`decision-capability.md`](../../../04-lifestyle-os/life-os/decision-capability.md) · máy EV/OODA: [`decision-engine.md`](../../../04-lifestyle-os/life-os/decision-engine.md).
+
 ---
 
 **Next Steps:**

@@ -30,9 +30,11 @@ Lộ trình này được thiết kế đi từ nền tảng tư duy đến các
 *Xây dựng bộ công cụ tư duy sắc bén.*
 
 *   [📘 Triết học là gì? Tại sao quan trọng?](./fundamentals/what-is-philosophy.md)
-*   **[Branches of Philosophy](./fundamentals/branches-of-philosophy.md):** Siêu hình học, Nhận thức luận, Đạo đức học.
+*   [**Branches of Philosophy**](./fundamentals/branches-of-philosophy.md): Siêu hình học, Nhận thức luận, Đạo đức học.
+*   [**Đạo đức học trong đời sống**](./practical-applications/ethics-in-daily-life.md): 3 khung lăng kính (Vị lợi, Nghĩa vụ, Đức hạnh) và ứng dụng.
 *   **[Critical Thinking Basics](./fundamentals/critical-thinking-basics.md):** Tư duy phản biện, tránh thiên kiến.
 *   **[Logic & Argumentation](./fundamentals/logic-and-fallacies.md):** Ngụy biện (Fallacies) và Tam đoạn luận.
+*   **[Logic trong đời sống](./practical-applications/logic-in-daily-life.md):** Deduction/induction/abduction, bắt fallacy hội thoại, checklist quyết định.
 *   **[Epistemology & Science](./fundamentals/epistemology-science.md):** Bản chất tri thức, Popper, Kuhn.
 *   **[Metaphysics & Ontology](./fundamentals/metaphysics-ontology.md):** Tự do ý chí, Thời gian, Bản sắc cá nhân.
 *   **🛠️ Applications (đề xuất):**
@@ -76,7 +78,9 @@ Lộ trình này được thiết kế đi từ nền tảng tư duy đến các
 *   **[Changing Destiny (Nghịch Thiên Cải Mệnh)](./practical-applications/changing-destiny.md):** ⭐ **NEW** Công thức khoa học để viết lại số phận (Đức năng thắng số).
 *   **[The Existential Mindset (Tư duy Hiện sinh)](./practical-applications/existential-mindset.md):** ⭐ **NEW** 6 dấu hiệu bạn đang sống sâu sắc hơn đám đông (hack não).
 *   **[Chiến thắng chính mình](./chien-thang-chinh-minh.md):** ⭐ **NEW** Nhìn ra lỗi để tỉnh thức, sửa lỗi để có bản lĩnh, chấp nhận người khác để rộng tâm, chiến thắng bản thân là tu hành thật sự.
+*   **[Logic trong đời sống](./practical-applications/logic-in-daily-life.md):** Áp dụng logic học vào họp, news, quyết định (sau nền Fallacies).
 *   **[Decision Making Frameworks](./practical-applications/decision-making-frameworks.md):** Ra quyết định dựa trên triết học.
+*   **[Nâng cao năng lực ra quyết định (đời sống & công việc)](../../04-lifestyle-os/life-os/decision-capability.md):** Triage · bias · scenario life/work · calibration · drill.
 *   **[Meaning & Purpose](./practical-applications/meaning-and-purpose.md):** Tìm kiếm ý nghĩa cuộc sống (Frankl).
 *   **[Ethics in Tech](./practical-applications/ethics-in-tech.md):** Đạo đức trong AI và công nghệ.
 *   **[Philosophy of AI](./practical-applications/philosophy-of-ai.md):** Turing Test, Chinese Room và vấn đề Ý thức.

@@ -328,6 +328,84 @@ topics:
       - guides/03-career-skills/README.md
       - guides/04-lifestyle-os/README.md
 
+  - id: philosophy.ethics
+    aliases: [ethics, đạo đức học, đạo đức học thực hành, moral philosophy, utilitarianism, deontology, virtue ethics]
+    canonical: guides/01-mental-models/philosophy/practical-applications/ethics-in-daily-life.md
+    related:
+      - guides/01-mental-models/philosophy/fundamentals/branches-of-philosophy.md
+      - guides/01-mental-models/philosophy/practical-applications/family-ethos-gia-phong.md
+      - guides/01-mental-models/philosophy/practical-applications/stoicism-for-modern-life.md
+      - guides/01-mental-models/philosophy/practical-applications/ethics-in-tech.md
+      - guides/01-mental-models/philosophy/practical-applications/logic-in-daily-life.md
+      - guides/01-mental-models/psychology/practical-applications/reading-people-responsibility.md
+
+  - id: philosophy.logic_daily
+    aliases:
+      - logic in daily life
+      - áp dụng logic học
+      - suy luận thực tế
+      - deduction induction abduction
+      - practical logic
+      - bắt ngụy biện hội thoại
+    canonical: guides/01-mental-models/philosophy/practical-applications/logic-in-daily-life.md
+    related:
+      - guides/01-mental-models/philosophy/fundamentals/logic-and-fallacies.md
+      - guides/01-mental-models/philosophy/fundamentals/critical-thinking-basics.md
+      - guides/01-mental-models/philosophy/practical-applications/ethics-in-daily-life.md
+      - guides/03-career-skills/productivity/meta-skills/meta-thinking-bias-filter.md
+      - guides/03-career-skills/productivity/core-skills/critical-thinking.md
+      - guides/04-lifestyle-os/life-os/decision-engine.md
+      - guides/04-lifestyle-os/life-os/decision-capability.md
+
+  - id: lifestyle.decision_capability
+    aliases:
+      - decision capability
+      - nâng cao năng lực ra quyết định
+      - quyết định đời sống công việc
+      - ra quyết định trong đời sống
+      - ra quyết định trong công việc
+      - calibration quyết định
+      - triage Type 1 Type 2
+      - decision skill
+      - ra quyết định tốt hơn
+    canonical: guides/04-lifestyle-os/life-os/decision-capability.md
+    related:
+      - guides/04-lifestyle-os/life-os/decision-engine.md
+      - guides/04-lifestyle-os/life-os/risk-engine.md
+      - guides/04-lifestyle-os/life-os/alignment-engine.md
+      - guides/04-lifestyle-os/life-os/energy-management.md
+      - guides/01-mental-models/philosophy/practical-applications/decision-making-frameworks.md
+      - guides/01-mental-models/philosophy/practical-applications/logic-in-daily-life.md
+      - guides/01-mental-models/philosophy/practical-applications/ethics-in-daily-life.md
+      - guides/03-career-skills/productivity/meta-skills/meta-thinking-bias-filter.md
+      - guides/03-career-skills/innovation/pre-mortem-technique.md
+      - guides/03-career-skills/sales-telesales/negotiation-composure-playbook.md
+      - templates/decision-journal.md
+
+  - id: lifestyle.fun_maxing
+    aliases:
+      - fun-maxing
+      - fun maxing
+      - funmaxing
+      - tối ưu vui sống
+      - deep fun
+      - fun budget
+      - hedonic treadmill
+      - maximize fun
+      - vui sống bền
+      - anti hustle
+      - gen z fun
+    canonical: guides/04-lifestyle-os/life-os/fun-maxing.md
+    related:
+      - guides/04-lifestyle-os/well-being/mental-resilience/high-quality-leisure.md
+      - guides/04-lifestyle-os/health/dopamine-system.md
+      - guides/04-lifestyle-os/life-os/energy-management.md
+      - guides/04-lifestyle-os/life-os/resource-allocation-engine.md
+      - guides/04-lifestyle-os/life-os/alignment-engine.md
+      - guides/04-lifestyle-os/life-os/focus-engine.md
+      - guides/01-mental-models/philosophy/practical-applications/meaning-and-purpose.md
+      - guides/04-lifestyle-os/life-os/decision-capability.md
+
   - id: guides.mental_models
     aliases: [mental models, first principles, tư duy]
     canonical: guides/01-mental-models/README.md

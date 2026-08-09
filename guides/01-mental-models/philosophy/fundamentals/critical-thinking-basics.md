@@ -101,7 +101,10 @@ Những nguyên tắc giúp cắt bỏ sự nhiễu loạn (noise) để thấy 
 
 > **Tư duy phản biện là khiên chắn bảo vệ não bộ của bạn khỏi sự thao túng.**
 
+Playbook đời sống (3 kiểu suy luận + checklist quyết định): [`logic-in-daily-life.md`](../practical-applications/logic-in-daily-life.md).
+
 ---
 
 **Next Steps:**
 *   [🏛️ Ancient Wisdom](../schools-and-thinkers/ancient-philosophy.md) - Học từ các bậc thầy tư duy cổ đại.
+*   [Logic trong đời sống](../practical-applications/logic-in-daily-life.md) - Áp dụng họp / news / quyết định.

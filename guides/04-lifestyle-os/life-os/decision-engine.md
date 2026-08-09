@@ -73,6 +73,7 @@
 ---
 
 ## 📚 Further Reading
+- [Nâng cao năng lực ra quyết định (đời sống & công việc)](./decision-capability.md) — triage, scenario life/work, bias, calibration, drill 14 ngày
 - [Systems Thinking](../01-mental-models/systems-thinking.md)
 - [Probability & Bayes](../01-mental-models/probability-calculus.md)
 - [Mental Models – Decision Making](../01-mental-models/README.md)
