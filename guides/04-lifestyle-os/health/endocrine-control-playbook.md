@@ -160,6 +160,7 @@ Cách dùng mỗi card:
 | **Giảm lệch** | Thông báo liên tục; tranh luận mạng; horror-scroll tối |
 | **Proxy** | Tim hồi hộp không lý do; khó “xuống” tối |
 | **Cờ đỏ** | Hồi hộp + đau ngực / khó thở → cấp cứu |
+| **Acute brake** | [sns-cortisol-brake-playbook.md](./sns-cortisol-brake-playbook.md) — Physiological Sigh, panoramic vision, jaw/ground |
 
 ### 2.8 Insulin
 | | |

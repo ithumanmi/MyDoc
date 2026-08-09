@@ -69,6 +69,7 @@ Lộ trình này được thiết kế đi từ nền tảng tư duy đến các
 *Triết học không phải để nói, mà để sống.*
 
 *   **[Stoicism Daily (Thực hành Khắc kỷ)](./practical-applications/stoicism-daily.md):** Dichotomy of Control, Negative Visualization.
+*   **[Meditations × Tâm lý hiện đại](../../04-lifestyle-os/well-being/mental-resilience/meditations-psychology-lessons.md):** CBT, mindfulness, ego-reduction từ *Suy ngẫm*.
 *   **🌌 [Stoicism for Women (Khắc kỷ cho Phụ nữ)](./practical-applications/stoicism-for-women.md):** ⭐ **NEW** Xây dựng pháo đài nội tâm và chủ quyền cảm xúc.
 *   **[Inner Strength (Thời không thuận, Đạo phải sâu)](./practical-applications/inner-strength-in-adversity.md):** ⭐ **NEW** Rèn rễ tâm khi đời gặp bão tố.
 *   **[The Awakened Fury (Cơn Thịnh Nộ Thức Tỉnh)](./awakened-fury.md):** ⭐ **NEW** Khi người lương thiện buộc phải cầm kiếm vì công lý.

@@ -36,6 +36,11 @@ Legend: **Canonical** = prefer first. Related = optional depth.
 | hormone map, hệ nội tiết overview | [`endocrine-hormone-map.md`](../guides/04-lifestyle-os/health/endocrine-hormone-map.md) | Health OS overview |
 | control hormone, checklist hormone | [`endocrine-control-playbook.md`](../guides/04-lifestyle-os/health/endocrine-control-playbook.md) | hormone map |
 | cortisol, stress hormone, circadian | [`cortisol-melatonin-system.md`](../guides/04-lifestyle-os/health/cortisol-melatonin-system.md) | playbook, sleep-optimization |
+| SNS, sympathetic, fight or flight, physiological sigh, panoramic vision, làm chủ giao cảm | [`sns-cortisol-brake-playbook.md`](../guides/04-lifestyle-os/health/sns-cortisol-brake-playbook.md) | cortisol-melatonin, endocrine-control-playbook, negotiation-composure |
+| outcome independence, không cần công nhận, unneedy, want not need, validation seeking | [`outcome-independence.md`](../guides/04-lifestyle-os/life-os/outcome-independence.md) | bond-psychology, bond-presence-system, negotiation-composure, psychology-of-self |
+| outcome independence stoicism, OI × khắc kỷ, dichotomy of control validation | [`outcome-independence-stoicism.md`](../guides/04-lifestyle-os/life-os/outcome-independence-stoicism.md) | outcome-independence, stoicism-for-modern-life |
+| Meditations psychology, Marcus Aurelius CBT, Suy ngẫm quản trị cảm xúc | [`meditations-psychology-lessons.md`](../guides/04-lifestyle-os/well-being/mental-resilience/meditations-psychology-lessons.md) | stoicism-for-modern-life, cbt, mindfulness, outcome-independence-stoicism |
+| psychological resilience, sức bền tâm lý, bounce back, 5 pillars resilience, Stockdale | [`psychological-resilience.md`](../guides/04-lifestyle-os/well-being/mental-resilience/psychological-resilience.md) | mental-toughness-protocol, meditations-psychology, sns-cortisol-brake, outcome-independence |
 | melatonin, sleep hormone | same cortisol-melatonin file | [`sleep-optimization.md`](../guides/04-lifestyle-os/health/sleep-optimization.md) |
 | dopamine, motivation, drive | [`dopamine-system.md`](../guides/04-lifestyle-os/health/dopamine-system.md) | neurotransmitters-guide |
 | insulin, glucose, blood sugar | [`glucose-insulin-system.md`](../guides/04-lifestyle-os/health/glucose-insulin-system.md) | nutrition-for-brain |
@@ -57,6 +62,7 @@ Legend: **Canonical** = prefer first. Related = optional depth.
 | mental models | [`guides/01-mental-models/README.md`](../guides/01-mental-models/README.md) | guides hub |
 | wealth, business, investing | [`guides/02-wealth-business/README.md`](../guides/02-wealth-business/README.md) | guides hub |
 | career skills, productivity hub | [`guides/03-career-skills/README.md`](../guides/03-career-skills/README.md) | Learning OS |
+| negotiation composure, body language under pressure, strategic silence, BATNA mindset | [`negotiation-composure-playbook.md`](../guides/03-career-skills/sales-telesales/negotiation-composure-playbook.md) | [`influence-negotiation.md`](../guides/03-career-skills/productivity/core-skills/influence-negotiation.md), [`bond-body-language.md`](../guides/04-lifestyle-os/life-os/bond-body-language.md), [`negotiation-mastery-roadmap.md`](../guides/03-career-skills/sales-telesales/negotiation-mastery-roadmap.md) |
 | lifestyle OS, well-being theory | [`guides/04-lifestyle-os/README.md`](../guides/04-lifestyle-os/README.md) | personal/, Health OS |
 | challenges / kata | [`challenges/README.md`](../challenges/README.md) | domains hub |
 | chapters beginner path | [`chapters/README.md`](../chapters/README.md) | QUICK-START |

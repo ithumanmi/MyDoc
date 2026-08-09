@@ -72,3 +72,5 @@ tags: [mental-resilience, discipline, exposure, boundaries, habits]
 - Khi đó: ưu tiên gặp bác sĩ/tâm lý lâm sàng; kết hợp protocol trên chỉ như hỗ trợ.
 
 > Kỷ luật vi mô + phơi nhiễm dần + ranh giới xã hội = hệ thống hóa “sức bền tinh thần”.
+
+**Map lý thuyết (5 trụ, Stockdale, fragile vs resilient):** [`psychological-resilience.md`](./psychological-resilience.md).

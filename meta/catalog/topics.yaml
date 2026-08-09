@@ -1,7 +1,7 @@
 # Topic catalog (machine-oriented)
 
 version: 1
-updated: 2026-08-07
+updated: 2026-08-09
 schema: meta/catalog/FRONTMATTER.md
 
 topics:
@@ -56,6 +56,7 @@ topics:
     canonical: guides/04-lifestyle-os/health/endocrine-control-playbook.md
     related:
       - guides/04-lifestyle-os/health/endocrine-hormone-map.md
+      - guides/04-lifestyle-os/health/sns-cortisol-brake-playbook.md
 
   - id: hormone.cortisol_melatonin
     aliases: [cortisol, melatonin, stress hormone, circadian, giấc ngủ hormone]
@@ -63,6 +64,27 @@ topics:
     related:
       - guides/04-lifestyle-os/health/sleep-optimization.md
       - guides/04-lifestyle-os/health/endocrine-control-playbook.md
+      - guides/04-lifestyle-os/health/sns-cortisol-brake-playbook.md
+
+  - id: health.sns_cortisol_brake
+    aliases:
+      - SNS
+      - sympathetic
+      - fight or flight
+      - physiological sigh
+      - panoramic vision
+      - vagus brake
+      - làm chủ giao cảm
+      - hạ cortisol tức thì
+      - HPA axis control
+    canonical: guides/04-lifestyle-os/health/sns-cortisol-brake-playbook.md
+    related:
+      - guides/04-lifestyle-os/health/cortisol-melatonin-system.md
+      - guides/04-lifestyle-os/health/endocrine-control-playbook.md
+      - guides/04-lifestyle-os/health/endocrine-hormone-map.md
+      - guides/04-lifestyle-os/health/hrv-tracking.md
+      - guides/03-career-skills/sales-telesales/negotiation-composure-playbook.md
+      - guides/04-lifestyle-os/life-os/bond-presence-system.md
 
   - id: hormone.dopamine
     aliases: [dopamine, motivation, động lực]
@@ -190,6 +212,25 @@ topics:
     related:
       - domains/game-dev/README.md
 
+  - id: career.negotiation_composure
+    aliases:
+      - negotiation composure
+      - body language negotiation
+      - strategic silence
+      - BATNA mindset
+      - đàm phán căng thẳng
+      - ngôn ngữ cơ thể đàm phán
+      - giữ thế chủ động
+    canonical: guides/03-career-skills/sales-telesales/negotiation-composure-playbook.md
+    related:
+      - guides/03-career-skills/productivity/core-skills/influence-negotiation.md
+      - guides/03-career-skills/sales-telesales/negotiation-mastery-roadmap.md
+      - guides/03-career-skills/sales-telesales/contract-negotiation.md
+      - guides/01-mental-models/psychology/practical-applications/negotiation-influence.md
+      - guides/04-lifestyle-os/life-os/bond-body-language.md
+      - guides/04-lifestyle-os/life-os/bond-psychology.md
+      - guides/04-lifestyle-os/life-os/bond-presence-system.md
+
   - id: challenge.blockchain_escrow
     aliases: [escrow, solidity escrow, blockchain challenge]
     canonical: challenges/blockchain/challenge-solidity-escrow.md
@@ -252,6 +293,7 @@ topics:
     related:
       - guides/04-lifestyle-os/life-os/bond-psychology.md
       - guides/04-lifestyle-os/life-os/bond-body-language.md
+      - guides/04-lifestyle-os/life-os/outcome-independence.md
       - guides/04-lifestyle-os/life-os/README.md
       - guides/04-lifestyle-os/well-being/mental-resilience/stoicism-for-modern-life.md
       - guides/04-lifestyle-os/Shawty/psychology-dating-experience-confidence.md
@@ -263,9 +305,91 @@ topics:
     related:
       - guides/04-lifestyle-os/life-os/bond-presence-system.md
       - guides/04-lifestyle-os/life-os/bond-body-language.md
+      - guides/04-lifestyle-os/life-os/outcome-independence.md
       - guides/04-lifestyle-os/health/dopamine-system.md
       - guides/04-lifestyle-os/health/cortisol-melatonin-system.md
       - guides/04-lifestyle-os/Shawty/psychology-dating-experience-confidence.md
+
+  - id: lifestyle.outcome_independence
+    aliases:
+      - outcome independence
+      - unneedy
+      - want not need
+      - không cần công nhận
+      - không cần sự công nhận
+      - validation seeking
+      - contingent self-worth
+      - calm authority
+    canonical: guides/04-lifestyle-os/life-os/outcome-independence.md
+    related:
+      - guides/04-lifestyle-os/life-os/outcome-independence-stoicism.md
+      - guides/04-lifestyle-os/life-os/bond-psychology.md
+      - guides/04-lifestyle-os/life-os/bond-presence-system.md
+      - guides/04-lifestyle-os/life-os/bond-body-language.md
+      - guides/04-lifestyle-os/life-os/psychology-of-self.md
+      - guides/04-lifestyle-os/well-being/mental-resilience/stoicism-for-modern-life.md
+      - guides/04-lifestyle-os/Shawty/psychology-dating-experience-confidence.md
+      - guides/03-career-skills/sales-telesales/negotiation-composure-playbook.md
+      - guides/04-lifestyle-os/health/sns-cortisol-brake-playbook.md
+
+  - id: lifestyle.outcome_independence_stoicism
+    aliases:
+      - outcome independence stoicism
+      - OI stoicism
+      - khắc kỷ và outcome independence
+      - dichotomy of control validation
+      - preferred indifferents
+      - stoic unneedy
+    canonical: guides/04-lifestyle-os/life-os/outcome-independence-stoicism.md
+    related:
+      - guides/04-lifestyle-os/life-os/outcome-independence.md
+      - guides/04-lifestyle-os/well-being/mental-resilience/stoicism-for-modern-life.md
+      - guides/04-lifestyle-os/well-being/mental-resilience/meditations-psychology-lessons.md
+      - guides/01-mental-models/philosophy/practical-applications/stoicism-for-modern-life.md
+      - guides/01-mental-models/philosophy/practical-applications/stoicism-daily.md
+      - guides/04-lifestyle-os/life-os/bond-psychology.md
+      - guides/04-lifestyle-os/life-os/bond-presence-system.md
+      - guides/03-career-skills/sales-telesales/negotiation-composure-playbook.md
+
+  - id: lifestyle.meditations_psychology
+    aliases:
+      - Meditations psychology
+      - Marcus Aurelius
+      - Suy ngẫm
+      - Meditations CBT
+      - View from Above
+      - obstacle is the way psychology
+      - marcus emotion regulation
+    canonical: guides/04-lifestyle-os/well-being/mental-resilience/meditations-psychology-lessons.md
+    related:
+      - guides/04-lifestyle-os/well-being/mental-resilience/stoicism-for-modern-life.md
+      - guides/04-lifestyle-os/well-being/mental-resilience/mindfulness-meditation.md
+      - guides/04-lifestyle-os/well-being/mental-resilience/psychological-resilience.md
+      - guides/01-mental-models/psychology/schools-of-thought/cbt.md
+      - guides/04-lifestyle-os/life-os/outcome-independence-stoicism.md
+      - guides/04-lifestyle-os/life-os/outcome-independence.md
+      - guides/01-mental-models/philosophy/practical-applications/stoicism-daily.md
+      - guides/01-mental-models/philosophy/practical-applications/stoicism-for-modern-life.md
+
+  - id: lifestyle.psychological_resilience
+    aliases:
+      - psychological resilience
+      - sức bền tâm lý
+      - bounce back
+      - Stockdale Paradox
+      - cognitive flexibility resilience
+      - self-compassion resilience
+      - fragile vs resilient
+    canonical: guides/04-lifestyle-os/well-being/mental-resilience/psychological-resilience.md
+    related:
+      - guides/04-lifestyle-os/well-being/mental-resilience/mental-toughness-protocol.md
+      - guides/04-lifestyle-os/well-being/mental-resilience/meditations-psychology-lessons.md
+      - guides/04-lifestyle-os/well-being/mental-resilience/stoicism-for-modern-life.md
+      - guides/04-lifestyle-os/well-being/mental-resilience/burnout-prevention.md
+      - guides/04-lifestyle-os/life-os/outcome-independence.md
+      - guides/04-lifestyle-os/life-os/outcome-independence-stoicism.md
+      - guides/04-lifestyle-os/health/sns-cortisol-brake-playbook.md
+      - guides/04-lifestyle-os/life-os/psychology-of-self.md
 
   - id: lifestyle.bond-body-language
     aliases: [bond body language, low reactivity, spatial ownership, steeple hands, eye contact 70/30, vocal anchorage]
@@ -274,6 +398,7 @@ topics:
       - guides/04-lifestyle-os/life-os/bond-psychology.md
       - guides/04-lifestyle-os/life-os/bond-presence-system.md
       - guides/04-lifestyle-os/Shawty/psychology-dating-experience-confidence.md
+      - guides/03-career-skills/sales-telesales/negotiation-composure-playbook.md
 
   - id: challenges.hub
     aliases: [challenges, kata, practice drills]

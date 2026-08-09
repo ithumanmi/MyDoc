@@ -41,6 +41,8 @@
 3.  **[Cultivating Yang Energy](./cultivating-yang-energy.md):** Khi mất dương khí, khí chất yếu.
 4.  **[🔥 Burnout Prevention](./mental-resilience/burnout-prevention.md):** Khi cạn kiệt, hoài nghi bản thân.
 5.  **[🏛️ Stoicism for Modern Life](./mental-resilience/stoicism-for-modern-life.md):** Khi cần dựng “tường thành” tư duy.
+6.  **[📜 Meditations — tâm lý & cảm xúc](./mental-resilience/meditations-psychology-lessons.md):** *Suy ngẫm* qua CBT, perspective taking, View from Above.
+7.  **[🌳 Psychological Resilience](./mental-resilience/psychological-resilience.md):** Sức bền tâm lý — 5 trụ, Stockdale, rèn như cơ bắp.
 6.  **[🏝️ High-Quality Leisure](./mental-resilience/high-quality-leisure.md):** Kiến trúc giải trí chủ động, thiết kế lại khoảng "nghỉ" (Downtime).
 
 ---

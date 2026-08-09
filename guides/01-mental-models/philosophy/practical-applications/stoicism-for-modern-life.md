@@ -98,6 +98,8 @@ Nghe có vẻ u ám, nhưng thực ra rất tích cực. Ý thức về cái ch�
 
 > **Lời kết:** Stoicism không biến bạn thành robot vô cảm. Nó biến bạn thành một chiến binh bình thản. Giữa một thế giới công nghệ điên cuồng, sự bình thản là siêu năng lực (Superpower).
 
+**Nối OI:** áp Dichotomy vào công nhận / deal → [`outcome-independence-stoicism.md`](../../../04-lifestyle-os/life-os/outcome-independence-stoicism.md).
+
 ---
 
 **Next Steps:**

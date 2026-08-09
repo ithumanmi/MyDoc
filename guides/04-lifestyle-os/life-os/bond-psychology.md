@@ -94,6 +94,8 @@ Cơ chế gần:
 
 **Cảnh báo:** “không cần ai” tuyệt đối = tránh gắn bó / neo-avoidant — sức hút ngắn hạn, gắn kết dài hạn kém. Mục tiêu lành mạnh: **muốn nhưng không cần** (want, not need).
 
+**Playbook đầy đủ (định nghĩa, dấu hiệu, drills 7 ngày, micro-script):** [`outcome-independence.md`](./outcome-independence.md).
+
 **Drill map:** pressure reps xã hội + deep work identity ([experience→confidence](../Shawty/psychology-dating-experience-confidence.md)) hơn “giả lạnh”.
 
 ---
@@ -215,7 +217,7 @@ Gỡ một lớp (vd. chỉ suit, không composure) → caricature. Gỡ ethics 
 | Cơ chế tâm lý | Protocol / drill | Anti-goal |
 | --- | --- | --- |
 | Stress resiliency | Box breath, cold finish, Premeditatio | Suppression 24/7 |
-| Outcome independence | Deep work identity + options (đời đầy) | Pretend indifference |
+| Outcome independence | Deep work identity + options (đời đầy) → [`outcome-independence.md`](./outcome-independence.md) | Pretend indifference |
 | Zeigarnik / scarcity | Selective disclosure; Rule of 30% | Hot-cold games |
 | Non-verbal | [bond-body-language](./bond-body-language.md) — pause, space, mắt, tay, giọng | Stare / dominance theater / gồng steeple |
 | Halo | Competence proof + MVB style | Suit che skill rỗng |

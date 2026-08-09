@@ -28,6 +28,7 @@ sensitivity: public
 | --- | --- |
 | Hormone map | [endocrine-hormone-map.md](./endocrine-hormone-map.md) |
 | Daily control levers | [endocrine-control-playbook.md](./endocrine-control-playbook.md) |
+| SNS × cortisol brake (Fight-or-Flight) | [sns-cortisol-brake-playbook.md](./sns-cortisol-brake-playbook.md) |
 | Health OS overview | [health-os-overview.md](./health-os-overview.md) |
 | Daily/weekly routines | [health-optimization-protocols.md](./health-optimization-protocols.md) |
 
@@ -36,6 +37,7 @@ sensitivity: public
 | Topic | Doc |
 | --- | --- |
 | Cortisol / melatonin | [cortisol-melatonin-system.md](./cortisol-melatonin-system.md) |
+| SNS / cortisol acute brake | [sns-cortisol-brake-playbook.md](./sns-cortisol-brake-playbook.md) |
 | Dopamine | [dopamine-system.md](./dopamine-system.md) |
 | Glucose / insulin | [glucose-insulin-system.md](./glucose-insulin-system.md) |
 | Testosterone | [testosterone-system.md](./testosterone-system.md) |

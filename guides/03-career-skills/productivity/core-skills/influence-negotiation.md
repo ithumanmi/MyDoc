@@ -89,6 +89,7 @@ Con người sợ mất $100 hơn là muốn kiếm được $100.
 > *   [Public Speaking Mastery](./public-speaking-mastery.md)
 
 ### Related Skills
+- [Negotiation Composure Playbook](../../sales-telesales/negotiation-composure-playbook.md): giữ thế chủ động khi căng — BATNA, silence, body lock, kịch bản.
 - [Communication Mastery](communication-mastery.md): xây nền tảng diễn đạt rõ ràng, logic.
 - [Strategic Networking](strategic-networking.md): mở rộng hệ sinh thái quan hệ trước khi bước vào đàm phán.
 - [Awareness Depth](awareness-depth.md): đọc tín hiệu cảm xúc và quyền lực trong phòng.

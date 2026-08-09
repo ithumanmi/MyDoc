@@ -64,5 +64,6 @@ Hãy coi mình là một **Nhà thám hiểm**. Nhiệm vụ của bạn là đi
 
 ## 🔗 Liên kết mở rộng
 *   **[Contract Negotiation](./contract-negotiation.md):** Đi sâu vào các điều khoản hợp đồng Tech.
+*   **[Negotiation Composure Playbook](./negotiation-composure-playbook.md):** Tâm lý × ngôn ngữ cơ thể khi đàm phán căng thẳng.
 *   **[Influence & Negotiation Basics](../productivity/core-skills/influence-negotiation.md):** Các nguyên tắc của Cialdini.
 *   **[Salary Negotiation Script](../../../templates/salary-negotiation-script.md):** Kịch bản mẫu đàm phán lương.

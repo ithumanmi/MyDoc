@@ -156,4 +156,6 @@ Nối composure: [stoicism](../well-being/mental-resilience/stoicism-for-modern-
 
 > Bond body language = **chậm nửa nhịp + chiếm đúng không gian mình + mắt–tay–hơi thở cùng một nhịp**. Không cần suit để bắt đầu — cần một pause 1 giây hôm nay.
 
+Ứng dụng bàn đàm phán (BATNA, silence, kịch bản cắt lời / tối hậu thư): [Negotiation Composure Playbook](../../../03-career-skills/sales-telesales/negotiation-composure-playbook.md).
+
 Tiếp: nối vào tuần hiện tại của [Bond Presence Phase 1](./bond-presence-system.md) (composure drills).

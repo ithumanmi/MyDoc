@@ -111,6 +111,7 @@ flowchart TB
 - **Vai trò:** Tim nhanh, thở nhanh, máu dồn cơ — phản ứng tức thì.
 - **Lạm dụng lối sống:** Caffeine + deadline liên tục → “nền” kích thích cao, khó xuống cortisol/melatonin buổi tối.
 - **Tối ưu:** Phân biệt stress cấp (hữu ích) vs kích thích mạn; cooldown tối (không doomscroll tin nóng).
+- **Acute brake (SNS × cortisol):** [sns-cortisol-brake-playbook.md](./sns-cortisol-brake-playbook.md)
 
 ---
 

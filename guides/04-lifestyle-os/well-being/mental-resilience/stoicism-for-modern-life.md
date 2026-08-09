@@ -67,3 +67,13 @@ Marcus Aurelius (Hoàng đế La Mã) viết cuốn "Suy tưởng" (Meditations)
 
 *   **Đầu tư:** Thị trường sập là "External". Bạn không kiểm soát được. Đừng hoảng loạn. Hành động của bạn (Bán hay Giữ) là "Internal". Hãy kiểm soát nó.
 *   **Công việc:** Sếp mắng là "External". Thái độ tiếp nhận (Học hỏi hay Tự ái) là "Internal".
+
+---
+
+## 6. Nối sang Outcome Independence
+
+Dichotomy of Control + Premeditatio áp vào **công nhận / được chọn / deal** → trạng thái *want, not need*.
+
+- Playbook OI: [`../../life-os/outcome-independence.md`](../../life-os/outcome-independence.md)
+- Phân tích liên hệ đầy đủ: [`../../life-os/outcome-independence-stoicism.md`](../../life-os/outcome-independence-stoicism.md)
+- *Meditations* × tâm lý hiện đại (CBT, mindfulness, ego): [`meditations-psychology-lessons.md`](./meditations-psychology-lessons.md)

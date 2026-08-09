@@ -856,6 +856,7 @@ Mệt mỏi cả ngày
 ## 🔗 Related Resources
 
 **Trong Health OS:**
+- [SNS × Cortisol Brake](sns-cortisol-brake-playbook.md) - Physiological Sigh, panoramic vision, ga/phanh SNS–PNS
 - [Dopamine System](dopamine-system.md) - Stress → Dopamine depletion
 - [Testosterone System](testosterone-system.md) - Sleep → T production
 - [Glucose System](glucose-insulin-system.md) - Sleep → Insulin sensitivity

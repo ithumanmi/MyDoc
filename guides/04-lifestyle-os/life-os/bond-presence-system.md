@@ -10,6 +10,7 @@ related:
   - bond-psychology.md
   - bond-body-language.md
   - psychology-of-self.md
+  - outcome-independence.md
   - energy-management.md
   - focus-engine.md
   - ../well-being/mental-resilience/stoicism-for-modern-life.md
@@ -22,7 +23,7 @@ sensitivity: public
 
 # Bond Presence System
 
-> [← Life OS](./README.md) · **Lý thuyết:** [`bond-psychology.md`](./bond-psychology.md) · **Body language:** [`bond-body-language.md`](./bond-body-language.md) · Records: [`personal/`](../../../personal/README.md)
+> [← Life OS](./README.md) · **Lý thuyết:** [`bond-psychology.md`](./bond-psychology.md) · **Body language:** [`bond-body-language.md`](./bond-body-language.md) · **Outcome independence:** [`outcome-independence.md`](./outcome-independence.md) · Records: [`personal/`](../../../personal/README.md)
 
 **Mục tiêu:** không cosplay điệp viên — luyện **archetype** Bond thành hệ hành vi đo được: bình tĩnh dưới áp lực, lịch lãm + cạnh sắc, lối sống có agency, bí ẩn lành mạnh, năng lực thật, chuẩn mực cập nhật theo thời đại.
 

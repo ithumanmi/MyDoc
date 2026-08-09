@@ -29,6 +29,7 @@ Tập hợp các kỹ năng nền tảng giúp xây Operating System cá nhân c
 ## 🤝 Influence & Communication
 - [Communication Mastery](communication-mastery.md)
 - [Influence & Negotiation](influence-negotiation.md)
+- [Negotiation Composure Playbook](../../sales-telesales/negotiation-composure-playbook.md) — tâm lý × body dưới áp lực
 - [Public Speaking Mastery](public-speaking-mastery.md)
 - [Strategic Networking](strategic-networking.md)
 - [Social Charisma](social-charisma.md)

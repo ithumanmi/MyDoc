@@ -48,6 +48,8 @@ Cái chết không đáng sợ. Đáng sợ là sống mà như đã chết.
 
 Giống như Hoàng đế Marcus Aurelius viết cuốn "Suy tưởng" (Meditations) cho chính mình.
 
+**Bài học tâm lý từ *Meditations*:** [`meditations-psychology-lessons.md`](../../../04-lifestyle-os/well-being/mental-resilience/meditations-psychology-lessons.md).
+
 **Câu hỏi mỗi tối:**
 1.  Hôm nay mình đã làm gì tốt?
 2.  Hôm nay mình đã để cảm xúc nào chi phối? (Giận dữ, Ghen tị?)

@@ -22,6 +22,7 @@ Kỹ năng khó nhất vì bạn chỉ có giọng nói để thuyết phục.
 *   **[Sample CTO Telesales Script](./sample-cto-script.md):** ⭐ **NEW** Kịch bản mẫu dành cho CTO (Buy vs Build).
 *   **[Contract Negotiation (Đàm phán Hợp đồng)](./contract-negotiation.md):** ⭐ **NEW** Nghệ thuật chốt deal, BATNA và các điều khoản then chốt.
 *   **[Negotiation Mastery Roadmap (Lộ trình Đàm phán)](./negotiation-mastery-roadmap.md):** ⭐ **NEW** Xây dựng "cơ bắp" đàm phán từ lý thuyết đến thực hành Low-stakes.
+*   **[Negotiation Composure Playbook](./negotiation-composure-playbook.md):** Tâm lý × ngôn ngữ cơ thể dưới áp lực — BATNA, strategic silence, khóa leak, pacing/leading, kịch bản xử lý.
 *   **[Sales Funnel Architecture (Xây dựng Phễu)](./sales-funnel-architecture.md):** ⭐ **NEW** Thiết kế hành trình khách hàng từ người lạ thành người mua.
 *   **[Sales Training Resources (Tài nguyên Học tập)](./training-resources.md):** ⭐ **NEW** Sách, công cụ và nghi thức hàng ngày để trở thành Sales pro.
 
