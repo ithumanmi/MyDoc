@@ -12,7 +12,8 @@ description: >-
 
 Write **systems essays**, not store-page summaries. Quality bar: named mechanisms, phase physics, opposing axes with costs, escalation model, economy sinks, UX under density — like a strong Infect Them All analysis.
 
-**Sibling (forward design docs for *your* project):** skill `game-design-docs` (Pitch · GDD · Systems/economy · Postmortem · Playtest/review).
+**Sibling (forward design + full title packs):** skill `game-design-docs` — modes Pitch · GDD · Systems/economy · Postmortem · Playtest/review · **`full-pack`** (`domains/game-dev/analyses/<slug>/`).  
+When the user asks to phân tích a whole game / tất cả models → prefer **`full-pack`** (includes this teardown as `systems-teardown.md`).
 
 ## Before writing
 

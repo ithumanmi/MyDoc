@@ -29,17 +29,19 @@ updated: 2026-03-11
 | [balancing-methodology.md](./balancing-methodology.md) | Excel modeling, Monte Carlo, KPI | Balancing combat/economy có số liệu |
 | [live-ops-design.md](./live-ops-design.md) | Event cadence, limited-time content, ethics | Vận hành Live Service/GaaS |
 | [genre-deep-dives/](./genre-deep-dives/README.md) | Phân tích roguelike, idle, puzzle... | Khi cần chuẩn hóa pillar theo genre |
-| **[Systems teardown template](./templates/game-systems-teardown.md)** ⭐ | Essay systems: loop physics, axes, tiers, economy, UX | Phân tích title có sẵn — skill `game-systems-teardown` |
-| **[HSR systems teardown](../case-studies/honkai-star-rail-systems-teardown.md)** | Case study: Break/SP puzzle · Core/Meta/Live · GaaS friction | Mẫu essay GaaS turn-based |
-| **Design docs kit** ⭐ | Pitch · GDD · Systems/economy · Postmortem · Playtest/review | Viết doc cho *game mình* — skill `game-design-docs` |
+| **Design docs kit** ⭐ | Pitch · GDD · Systems/economy · Postmortem · Playtest · **full-pack** | Skill `game-design-docs` |
+| **[Analysis packs](../analyses/README.md)** ⭐ | Một folder/game đủ mọi model | `full-pack` khi phân tích title |
+| … [pack hub template](./templates/game-analysis-pack-readme.md) | README + status matrix | Scaffold `analyses/<slug>/` |
 | … [pitch one-pager](./templates/game-pitch-one-pager.md) | Hook, loop, pillars, scope, ask | Greenlight / align |
 | … [GDD](./templates/game-gdd.md) | Thin living bible + systems index | Production handoff |
 | … [systems map / economy](./templates/game-systems-map-economy.md) | Currencies, source/sink, gates, KPIs | Balance & monetization model |
 | … [postmortem](./templates/game-postmortem.md) | Facts, causes, lessons, actions | Sau milestone / ship |
 | … [playtest / review](./templates/game-playtest-review.md) | Protocol, survey, scores, actions | Trước/sau build review |
+| **[Systems teardown template](./templates/game-systems-teardown.md)** ⭐ | Essay systems: loop physics, axes, tiers, economy, UX | Trong pack → `systems-teardown.md` |
+| **Example pack:** [Triangle Strategy](../analyses/triangle-strategy/) · [Honkai: Star Rail](../analyses/honkai-star-rail/) | Pitch→GDD→Economy→Teardown→Playtest→Postmortem | Mẫu full-pack |
+| Legacy HSR teardown path | → redirect vào pack | [case-studies stub](../case-studies/honkai-star-rail-systems-teardown.md) |
 
-**Workflow gợi ý:** Pitch → GDD (+ economy sheet) → Playtest/Review → iterate → Postmortem.  
-**Đọc máy người khác:** skill `game-systems-teardown` → ví dụ [HSR](../case-studies/honkai-star-rail-systems-teardown.md).  
-**Viết máy của mình:** skill `game-design-docs` (+ templates trên).
+**Workflow gợi ý:** *“full-pack cho &lt;game&gt;”* → đọc Pitch + Teardown → port qua GDD/Economy → Playtest → Postmortem.  
+**Đọc máy / viết máy:** skill `game-systems-teardown` (essay) nằm trong `full-pack`; skill `game-design-docs` điều phối cả bộ.
 
 > Cross-link: dùng [Unity Impact Metrics](../metrics/unity-impact-metrics.md) để đo KPI được định nghĩa trong các tài liệu game design.
