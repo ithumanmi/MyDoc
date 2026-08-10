@@ -24,6 +24,12 @@
 - guides/02-wealth-business/
 - guides/03-career-skills/ — includes Learning OS (meta-skills/learning-os-framework.md)
 - guides/04-lifestyle-os/ — well-being, hormones, Life OS theory
+- guides/05-games-os/ — Games OS umbrella (make/play/earn/follow)
+
+### Canonical Games OS
+- guides/05-games-os/README.md
+- guides/05-games-os/games-os-map.md
+- guides/05-games-os/games-os-playbook.md
 
 ### Canonical lifestyle / hormone
 - guides/04-lifestyle-os/health/endocrine-hormone-map.md

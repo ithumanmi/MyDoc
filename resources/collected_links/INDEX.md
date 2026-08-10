@@ -1,35 +1,27 @@
 # 📚 Collected Resources & Links
 
-Tổng hợp và phân loại các liên kết tài nguyên hữu ích được thu thập từ nhiều nguồn.
+Tổng hợp link **non-GitHub** theo domain.  
+Repos GitHub (clone + wishlist): [`GitClone/PROJECTS.md`](../../GitClone/PROJECTS.md) · [Categories index](../../GitClone/PROJECTS.md#categories-index).
 
-## 📂 Danh mục
+## Danh mục (non-GitHub)
 
-1.  [🤖 AI Development & LLMs](./ai-development.md)
-    *   Các công cụ, thư viện phát triển AI, LLM, RAG và Agents.
-2.  [🎮 Game Development](./game-development.md)
-    *   Tài nguyên làm game, AI cho game, engine và cheatsheets.
-3.  [🎨 Web, UI/UX & Design](./web-ui-ux.md)
-    *   Công cụ thiết kế, thư viện Frontend (React, CSS) và tài nguyên UI/UX.
-4.  [🌐 Web Development](./web-dev.md)
-    *   Lộ trình/frontend/fullstack, performance, auth, testing, deployment.
-5.  [💰 Finance & Quantitative Trading](./finance-trading.md)
-    *   Công cụ phân tích tài chính, bot trading và định lượng (Quant).
-5.  [📝 Documentation & Diagrams](./diagram-docs.md)
-    *   Công cụ vẽ sơ đồ, viết tài liệu tự động và kiến thức nền tảng.
-6.  [⚙️ Backend Development](./backend-dev.md)
-    *   Framework, Database, DevOps và các tài nguyên phát triển Backend.
-7.  [🔗 Blockchain & Web3](./blockchain.md)
-    *   Smart contract, DeFi, bảo mật và săn Airdrop.
-8.  [📊 Data Analytics](./data-analytics.md)
-    *   Lộ trình Excel → SQL → BI → Python, dataset và tooling.
-9.  [🧮 Data Structures & Algorithms](./dsa.md)
-    *   Theory, luyện thi DSA/CP và cheat sheet phỏng vấn.
-10. [🔐 Security & Ethical Hacking](./security-dev.md)
-    *   Công cụ Pentest, tài liệu học tập và các lab luyện tập bảo mật.
-11. [🛠️ Tools, Utilities & Others](./tools-utils.md)
-    *   Các phần mềm, nền tảng Productivity và các tiện ích khác.
-9.  [🏛️ Government Information Sources](../government-data-sources.md)
-    *   Cổng thông tin chính phủ, dữ liệu thống kê, pháp luật và báo cáo chính sách chính thống.
+1. [🤖 AI Development & LLMs](./ai-development.md)
+2. [🎮 Game Development](./game-development.md)
+3. [🎨 Web, UI/UX & Design](./web-ui-ux.md)
+4. [🌐 Web Development](./web-dev.md)
+5. [💰 Finance & Quantitative Trading](./finance-trading.md)
+6. [📝 Documentation & Diagrams](./diagram-docs.md)
+7. [⚙️ Backend Development](./backend-dev.md)
+8. [🔗 Blockchain & Web3](./blockchain.md)
+9. [📊 Data Analytics](./data-analytics.md)
+10. [🧮 Data Structures & Algorithms](./dsa.md)
+11. [🔐 Security & Ethical Hacking](./security-dev.md)
+12. [🛠️ Tools, Utilities & Others](./tools-utils.md)
+13. [📱 Mobile Development](./mobile-dev.md)
+14. [🏛️ Government Information Sources](../government-data-sources.md)
 
----
-> **Lưu ý:** Danh sách này được cập nhật dựa trên các link được cung cấp. Một số mô tả có thể cần kiểm chứng thêm.
+## GitHub categories (mirror)
+
+Xem bảng Categories trong [`PROJECTS.md`](../../GitClone/PROJECTS.md#categories-index): `ai-development`, `game-development`, `web-ui-ux`, `finance-trading`, `backend-dev`, `blockchain`, `data-analytics`, `security-dev`, `tools-utils`, `mobile-dev`, + orgs/profiles.
+
+> **Lưu ý:** Không thêm `github.com/...` vào các file topic ở đây — chuyển sang `GitClone/PROJECTS.md`.

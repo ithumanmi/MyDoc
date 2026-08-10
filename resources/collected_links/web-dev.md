@@ -1,5 +1,9 @@
 # 🌐 Web Dev Collected Links
 
+> **GitHub repos chuyển sang** [`GitClone/PROJECTS.md`](../../GitClone/PROJECTS.md#categories-index) — category **Web Development** (xem [Categories index](../../GitClone/PROJECTS.md#categories-index)).
+>
+> File này chỉ giữ **link non-GitHub** (docs, SaaS, blogs, datasets…).
+
 Tài nguyên chọn lọc cho frontend/fullstack web.
 
 ## Frontend & UI

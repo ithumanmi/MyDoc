@@ -11,6 +11,7 @@
 | 02 | Wealth & Business | [`02-wealth-business/README.md`](./02-wealth-business/README.md) |
 | 03 | Career Skills | [`03-career-skills/README.md`](./03-career-skills/README.md) |
 | 04 | Lifestyle OS | [`04-lifestyle-os/README.md`](./04-lifestyle-os/README.md) |
+| 05 | Games OS | [`05-games-os/README.md`](./05-games-os/README.md) |
 
 ## Career ↔ technical overlap
 
@@ -32,6 +33,7 @@ When a skill exists in both places, use [`../meta/domain-guide-map.md`](../meta/
 | --- | --- |
 | [`04-lifestyle-os/health/`](./04-lifestyle-os/health/README.md) | [`../personal/`](../personal/README.md) |
 | Well-being (mental / broader) | [`04-lifestyle-os/well-being/`](./04-lifestyle-os/well-being/README.md) |
+| Games OS (play/follow theory + briefs) | [`05-games-os/`](./05-games-os/README.md) — optional personal play logs |
 
 ## Also
 

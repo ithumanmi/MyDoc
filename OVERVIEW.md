@@ -26,7 +26,10 @@ graph TD
     C --> I[case-studies/]
     C --> P[challenges/]
     F --> Q[04-lifestyle-os theory]
+    F --> GOS[05-games-os umbrella]
     Q --> R
+    GOS --> E
+    GOS --> R
     G --> T[templates/personal]
     T --> R
     H --> J[resources/collected_links/]
@@ -87,6 +90,7 @@ graph TD
 | `chapters/` | Trỏ tới domain tương ứng ở cuối mỗi chương | Hỗ trợ Beginner chọn chuyên ngành |
 | `domains/` | Maturity hub + "External Resources" → `resources/collected_links/` | Tránh học Stub như thể đã cover xong |
 | `guides/03-career-skills/` | Dẫn tới templates, innovation, IELTS, growth | Tạo cầu nối giữa mindset ↔ hành động |
+| `guides/05-games-os/` | Make → `domains/game-dev`; Earn → career game-dev; Play/Follow local | Umbrella games; không thay tech domain |
 | `challenges/` | Drill theo topic gần với domain tương ứng | Bù khoảng trống practice |
 | `case-studies/knowledge-audits/` | Backlink về domain/guide để lấp gap kiến thức | Giúp người học quay lại tài liệu cần ôn |
 | `_archive/` | Được liên kết từ README của thư mục gốc khi nội dung hết hạn | Lưu vết lịch sử, tránh xoá vĩnh viễn |

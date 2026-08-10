@@ -2,24 +2,28 @@
 
 > [← Back to Resources](../README.md)
 
-Tổng hợp danh sách đường link curated theo từng domain chuyên môn, giúp bạn tra cứu nhanh khi cần reference hoặc công cụ hỗ trợ.
+Curated **non-GitHub** links theo domain.  
+**GitHub repos** → [`GitClone/PROJECTS.md`](../../GitClone/PROJECTS.md) ([Categories index](../../GitClone/PROJECTS.md#categories-index)).
 
-## 📂 Navigate theo chủ đề
-- [INDEX](INDEX.md): Tổng quan và hướng dẫn cách sử dụng.
+## Navigate theo chủ đề
+
+- [INDEX](INDEX.md)
 - [AI Development](ai-development.md)
 - [Backend Dev](backend-dev.md)
 - [Web / UI UX](web-ui-ux.md)
+- [Web Dev](web-dev.md)
 - [Game Development](game-development.md)
 - [Security Dev](security-dev.md)
 - [Finance & Trading](finance-trading.md)
 - [Diagram & Docs Tools](diagram-docs.md)
+- [Data Analytics](data-analytics.md)
+- [DSA](dsa.md)
+- [Blockchain](blockchain.md)
+- [Mobile Dev](mobile-dev.md)
 - [Tools & Utilities](tools-utils.md)
 
-> 🔄 Mới cập nhật: bổ sung loạt repository AI/ML (RL, NLP, Data Science, RAG, Agents, Prompting) trong mục [AI Development](ai-development.md).
-
 ## Cách sử dụng
-1. **Chọn domain:** Lọc theo nhu cầu (ví dụ đang xây sản phẩm AI → mở `ai-development.md`).
-2. **Bookmark nguồn hữu ích:** Lưu vào PKM hoặc browser bookmark của bạn.
-3. **Cập nhật định kỳ:** Nếu bạn phát hiện link hỏng hoặc có nguồn hay, thêm vào file tương ứng qua PR.
 
-> ✅ *Tip:* Kết hợp với [Research Tools](../research-tools.md) để xây thư viện nguồn lực đa tầng (link nhanh + công cụ tra cứu + dữ liệu gốc).
+1. Cần **clone / wishlist GitHub** → mở [`GitClone/PROJECTS.md`](../../GitClone/PROJECTS.md).
+2. Cần **SaaS / docs / blog / dataset** → file topic trong thư mục này.
+3. Repo mới: thêm vào đúng category trong `PROJECTS.md` (không paste `github.com` vào đây nữa).

@@ -107,6 +107,9 @@ TODO_PRIVATE.md
 scratch/
 drafts/
 
+# ===== Local clone catalog (do not push) =====
+GitClone/
+
 # ===== Backup Files =====
 *.bak
 *.backup

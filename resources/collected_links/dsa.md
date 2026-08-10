@@ -1,5 +1,9 @@
 # 🧮 Data Structures & Algorithms Resources
 
+> **GitHub repos chuyển sang** [`GitClone/PROJECTS.md`](../../GitClone/PROJECTS.md#categories-index) — category **Data Structures & Algorithms** (xem [Categories index](../../GitClone/PROJECTS.md#categories-index)).
+>
+> File này chỉ giữ **link non-GitHub** (docs, SaaS, blogs, datasets…).
+
 Danh sách nền tảng luyện thuật toán, theory và cheatsheet giúp cải thiện kỹ năng DSA.
 
 ## 📚 Theory & References
@@ -24,6 +28,5 @@ Danh sách nền tảng luyện thuật toán, theory và cheatsheet giúp cải
 - [Tech Interview Handbook](https://www.techinterviewhandbook.org/) – Checklist phỏng vấn + cheat sheet Big-O.
 - [Big-O Cheat Sheet](https://www.bigocheatsheet.com/) – Bảng tổng kết độ phức tạp phổ biến.
 - [Backtracking Patterns Cheatsheet](https://medium.com/algorithms-digest/backtracking-cheat-sheet-8c6b1c2cf7b6) – Hướng dẫn chung cho các bài quay lui.
-- [System Design Primer](https://github.com/donnemartin/system-design-primer) – (Chuẩn bị cho bước tiếp theo sau DSA).
 
 > Cần thêm nguồn khác? Comment trong PR và giải thích lý do hữu ích.

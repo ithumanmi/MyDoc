@@ -41,6 +41,7 @@ Maturity of domains: see [`domains/README.md`](./domains/README.md) (Stable / Dr
   - *How to earn / career* → `guides/03-career-skills/`  
   - Full table → [`meta/domain-guide-map.md`](./meta/domain-guide-map.md)
 - Learning-method questions → [`guides/03-career-skills/productivity/meta-skills/learning-os-framework.md`](./guides/03-career-skills/productivity/meta-skills/learning-os-framework.md)
+- Games umbrella (make/play/earn/follow) → [`guides/05-games-os/README.md`](./guides/05-games-os/README.md) → [`games-os-map.md`](./guides/05-games-os/games-os-map.md)
 - Hormone control → map then playbook:  
   [`endocrine-hormone-map.md`](./guides/04-lifestyle-os/health/endocrine-hormone-map.md) →  
   [`endocrine-control-playbook.md`](./guides/04-lifestyle-os/health/endocrine-control-playbook.md)

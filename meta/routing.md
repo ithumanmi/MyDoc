@@ -22,6 +22,9 @@ Legend: **Canonical** = prefer first. Related = optional depth.
 | Feynman, active recall | [`learning-how-to-learn.md`](../guides/03-career-skills/productivity/meta-skills/learning-how-to-learn.md) | Learning OS |
 | deliberate practice, luyện tập có chủ đích | [`chapters/02-luyen-tap-co-chu-dich.md`](../chapters/02-luyen-tap-co-chu-dich.md) | Learning OS |
 | game career / freelance Unity | [`guides/03-career-skills/game-dev/`](../guides/03-career-skills/game-dev/README.md) | [`domains/game-dev/`](../domains/game-dev/README.md) |
+| Games OS, everything games, make play earn follow | [`guides/05-games-os/README.md`](../guides/05-games-os/README.md) | [`games-os-map.md`](../guides/05-games-os/games-os-map.md), [`games-os-playbook.md`](../guides/05-games-os/games-os-playbook.md) |
+| gaming leisure, game backlog, play culture | [`guides/05-games-os/play/`](../guides/05-games-os/play/README.md) | [`fun-maxing.md`](../guides/04-lifestyle-os/life-os/fun-maxing.md) |
+| game news, industry radar, weekly games brief | [`guides/05-games-os/follow/`](../guides/05-games-os/follow/README.md) | [`weekly-games-brief-template.md`](../guides/05-games-os/follow/weekly-games-brief-template.md) |
 | Solidity escrow challenge | [`challenge-solidity-escrow.md`](../challenges/blockchain/challenge-solidity-escrow.md) | blockchain challenges hub |
 | lakehouse ELT project | [`lakehouse-ecommerce-elt.md`](../domains/data-science/projects/lakehouse-ecommerce-elt.md) | data-science README |
 | URL shortener design drill | [`challenge-design-url-shortener.md`](../challenges/system-design/challenge-design-url-shortener.md) | system-design challenges |
@@ -64,7 +67,7 @@ Legend: **Canonical** = prefer first. Related = optional depth.
 
 | Topic / aliases | Canonical | Related |
 | --- | --- | --- |
-| guides hub | [`guides/README.md`](../guides/README.md) | 4 pillars below |
+| guides hub | [`guides/README.md`](../guides/README.md) | 5 pillars below |
 | mental models | [`guides/01-mental-models/README.md`](../guides/01-mental-models/README.md) | guides hub |
 | perception through models, não không nhìn thế giới trực tiếp, schema top-down | [`perception-through-models.md`](../guides/01-mental-models/psychology/fundamentals/perception-through-models.md) | cognition, cognitive-biases, meta-thinking, cbt |
 | predictive processing, predictive coding, xung dự báo, free energy, precision weighting | [`predictive-processing.md`](../guides/01-mental-models/psychology/fundamentals/predictive-processing.md) | perception-through-models, neuroscience-brain, dopamine-system |
@@ -80,6 +83,7 @@ Legend: **Canonical** = prefer first. Related = optional depth.
 | challenges / kata | [`challenges/README.md`](../challenges/README.md) | domains hub |
 | chapters beginner path | [`chapters/README.md`](../chapters/README.md) | QUICK-START |
 | tech vs career overlap | [`domain-guide-map.md`](./domain-guide-map.md) | domains INDEX, career skills hub |
+| Games OS umbrella (make/play/earn/follow) | [`guides/05-games-os/README.md`](../guides/05-games-os/README.md) | game-dev domain + career + play + follow |
 
 ---
 

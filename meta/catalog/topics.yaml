@@ -1,7 +1,7 @@
 # Topic catalog (machine-oriented)
 
 version: 1
-updated: 2026-08-09
+updated: 2026-08-10
 schema: meta/catalog/FRONTMATTER.md
 
 topics:
@@ -208,6 +208,36 @@ topics:
     related:
       - challenges/game-dev/README.md
       - guides/03-career-skills/game-dev/README.md
+      - guides/05-games-os/README.md
+
+  - id: games.os
+    aliases:
+      - games os
+      - everything games
+      - make play earn follow
+      - games hub
+    canonical: guides/05-games-os/README.md
+    related:
+      - guides/05-games-os/games-os-map.md
+      - guides/05-games-os/games-os-playbook.md
+      - domains/game-dev/README.md
+      - guides/03-career-skills/game-dev/README.md
+
+  - id: games.play
+    aliases: [gaming leisure, game backlog, play culture, genre taste]
+    canonical: guides/05-games-os/play/README.md
+    related:
+      - guides/05-games-os/play/gaming-as-leisure.md
+      - guides/04-lifestyle-os/life-os/fun-maxing.md
+      - guides/04-lifestyle-os/health/dopamine-system.md
+
+  - id: games.follow
+    aliases: [game news, industry radar, weekly games brief, steam charts news]
+    canonical: guides/05-games-os/follow/README.md
+    related:
+      - guides/05-games-os/follow/weekly-games-brief-template.md
+      - guides/05-games-os/follow/industry-radar.md
+      - guides/05-games-os/follow/play-culture-radar.md
 
   - id: domain.web
     aliases: [web, frontend, nextjs, react]
@@ -278,6 +308,7 @@ topics:
     canonical: guides/03-career-skills/game-dev/README.md
     related:
       - domains/game-dev/README.md
+      - guides/05-games-os/README.md
 
   - id: career.negotiation_composure
     aliases:

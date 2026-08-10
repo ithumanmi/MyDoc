@@ -1,18 +1,13 @@
 # 💰 Finance & Quantitative Trading
 
+> **GitHub repos chuyển sang** [`GitClone/PROJECTS.md`](../../GitClone/PROJECTS.md#cat-finance-trading) — category **Finance & Trading** (xem [Categories index](../../GitClone/PROJECTS.md#categories-index)).
+>
+> File này chỉ giữ **link non-GitHub** (docs, SaaS, blogs, datasets…).
+
 Các tài nguyên, công cụ và thư viện dành cho phân tích tài chính, giao dịch thuật toán (Algo Trading) và định lượng (Quant).
 
 ## 📊 Quant Tools & Libraries
-*   [Freqtrade](https://github.com/freqtrade/freqtrade) - Bot giao dịch tiền điện tử mã nguồn mở bằng Python (Crypto Trading Bot).
-*   [QuantMuse](https://github.com/0xemmkty/QuantMuse) - Thư viện hoặc công cụ nghiên cứu định lượng.
-*   [AI Financial Agent](https://github.com/virattt/ai-financial-agent) - AI Agent hỗ trợ phân tích tài chính.
 *   [MiQuant](https://miquant.vn/) - Nền tảng hoặc công cụ phân tích định lượng tại Việt Nam.
-*   [Awesome AI in Finance](https://github.com/georgezouq/awesome-ai-in-finance) - Tổng hợp tài nguyên AI ứng dụng trong tài chính và đầu tư.
-*   [VoltAgent Awesome OpenClaw Skills](https://github.com/VoltAgent/awesome-openclaw-skills) - Bộ kỹ năng OpenClaw hữu ích cho việc tự động hoá tác vụ tài chính/trading với agent.
-*   [TradingAgents](https://github.com/TauricResearch/TradingAgents) - Dự án agent giao dịch tự động, tham khảo chiến lược và kiến trúc.
-*   [Daily Stock Analysis](https://github.com/ZhuLinsen/daily_stock_analysis) - Kho phân tích cổ phiếu hằng ngày, hỗ trợ ý tưởng trading.
-*   [AuraMaxx](https://github.com/Aura-Industry/auramaxx) - Hệ thống AI agent hỗ trợ phân tích cơ bản, kỹ thuật và giao dịch.
-*   [OpenSandbox](https://github.com/alibaba/OpenSandbox) - Sandbox mô phỏng thị trường tài chính, phù hợp thử nghiệm chiến lược AI/agent.
 *   [Data.nasa.gov](https://data.nasa.gov/) - Nguồn dữ liệu mở của NASA, hữu ích để xây các chiến lược trading dựa trên dữ liệu vĩ mô/thời tiết.
 
 ## 📈 Analysis & Platforms

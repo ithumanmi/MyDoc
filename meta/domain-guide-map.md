@@ -9,6 +9,7 @@
 | Topic | Technical (`domains/`) | Career / monetization (`guides/`) | Practice |
 | --- | --- | --- | --- |
 | Game / Unity | [`domains/game-dev/`](../domains/game-dev/README.md) | [`guides/03-career-skills/game-dev/`](../guides/03-career-skills/game-dev/README.md) | [`challenges/game-dev/`](../challenges/game-dev/README.md) |
+| Games OS (umbrella: make/play/earn/follow) | Make → game-dev (+ [mmo-engineering](../domains/mmo-engineering/README.md)) | Earn → career game-dev; Play/Follow → [`guides/05-games-os/`](../guides/05-games-os/README.md) | [`challenges/game-dev/`](../challenges/game-dev/README.md) |
 | Web / fullstack | [`domains/web-dev/`](../domains/web-dev/README.md) | [`guides/03-career-skills/web-dev/`](../guides/03-career-skills/web-dev/README.md) | [`challenges/web-ui/`](../challenges/web-ui/README.md) |
 | Mobile | [`domains/mobile-dev/`](../domains/mobile-dev/README.md) | [`guides/03-career-skills/mobile-dev/`](../guides/03-career-skills/mobile-dev/README.md) | [`challenges/mobile/`](../challenges/mobile/README.md) |
 | Blockchain | [`domains/blockchain/`](../domains/blockchain/README.md) | [`guides/03-career-skills/blockchain/`](../guides/03-career-skills/blockchain/README.md) | [`challenges/blockchain/`](../challenges/blockchain/README.md) |
@@ -33,6 +34,10 @@ User asks "salary / freelance / remote / portfolio positioning for X?"
 
 User asks both?
   → Open BOTH hubs; lead with domains for skills, guides for monetization.
+
+User asks "everything about games" / leisure / news?
+  → guides/05-games-os/README.md → games-os-map.md
+  → Play/Follow stay under 05-games-os; do not stuff into domains/game-dev.
 ```
 
 ## Health / life (not career overlap)

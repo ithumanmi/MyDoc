@@ -10,7 +10,8 @@ Kho thư viện nguồn lực được tuyển chọn để hỗ trợ học t�
 - [Government Data Sources](government-data-sources.md): Bộ dữ liệu mở từ các tổ chức chính phủ.
 - [Tech Tender Sources](tech-tender-sources.md): Tổng hợp cổng đấu thầu dự án công nghệ (VN, ASEAN, quốc tế).
 - [Tools](tools.md): Phần mềm/tiện ích giúp tăng năng suất.
-- [Collected Links](collected_links/INDEX.md): Bộ link curated theo domain (AI, Web, Security, Finance...).
+- [Collected Links](collected_links/INDEX.md): Link non-GitHub theo domain (AI, Web, Security, Finance…).
+- [GitClone PROJECTS](../GitClone/PROJECTS.md): Canonical wishlist / clone catalog GitHub (theo category).
 - [Meetup Venues](meetup-venues.md): Danh sách quán café/nhà hàng phù hợp hẹn gặp, họp nhóm, hẹn hò, nhậu nhẹt.
 - [AI Hardware Vendors](ai-hardware-vendors.md): Nguồn mua/thuê GPU server, cloud GPU, edge kit tại Việt Nam và quốc tế.
 - [Vietnam IT & Game Talent Landscape](vietnam-it-landscape.md): Tổng hợp công ty IT, studio game và nguồn tuyển dụng IT tại Việt Nam.

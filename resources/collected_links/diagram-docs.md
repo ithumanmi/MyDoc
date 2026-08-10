@@ -1,5 +1,9 @@
 # 📝 Documentation, Diagrams & Learning
 
+> **GitHub repos chuyển sang** [`GitClone/PROJECTS.md`](../../GitClone/PROJECTS.md#categories-index) — category **Documentation & Diagrams** (xem [Categories index](../../GitClone/PROJECTS.md#categories-index)).
+>
+> File này chỉ giữ **link non-GitHub** (docs, SaaS, blogs, datasets…).
+
 Các công cụ hỗ trợ tạo tài liệu, vẽ sơ đồ kiến trúc và học tập.
 
 ## 📊 Diagramming Tools
@@ -10,4 +14,3 @@ Các công cụ hỗ trợ tạo tài liệu, vẽ sơ đồ kiến trúc và h�
 ## 📚 Documentation
 *   [Documentation.ai](https://documentation.ai/) - (Cần kiểm tra) Công cụ viết tài liệu tự động.
 *   [Top 10 AI Documentation Tools](https://www.aifordevteams.com/blog/top-10-ai-documentation-tools-for-developers) - Bài viết so sánh các công cụ viết tài liệu cho developer.
-*   [AI Engineering Hub](https://github.com/patchy631/ai-engineering-hub) - Hub tài nguyên kỹ thuật AI.

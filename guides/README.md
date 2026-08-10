@@ -10,6 +10,7 @@ related:
   - 02-wealth-business/README.md
   - 03-career-skills/README.md
   - 04-lifestyle-os/README.md
+  - 05-games-os/README.md
 sensitivity: public
 ---
 
@@ -123,6 +124,12 @@ Chào mừng đến với thư viện hướng dẫn chuyên sâu. Tại đây t
     *   **[Life OS Audit](../case-studies/knowledge-audits/life-os-knowledge-audit.md)** ⭐ **NEW** - Thử thách đo lường hiệu suất cá nhân. *(Answer template: `case-studies/answer-templates/life-os-answer-template.md`)*
 *   **[🏛️ Politics (Chính trị)](./04-lifestyle-os/politics/README.md)** ⭐ **Vietnam Deep Dive!**
     *   Bản chất quyền lực, thể chế và địa chính trị Việt Nam.
+
+## 🎮 Games OS (Make / Play / Earn / Follow)
+
+*   **[🎮 Games OS Hub](./05-games-os/README.md)** ⭐ **NEW**
+    *   Umbrella: làm game, chơi bền, sự nghiệp, tin play-culture + industry.
+    *   Map: [games-os-map.md](./05-games-os/games-os-map.md) · Playbook: [games-os-playbook.md](./05-games-os/games-os-playbook.md)
 
 ---
 
