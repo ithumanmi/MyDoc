@@ -122,7 +122,7 @@ sensitivity: public
 | [vr-ar-xr/](./vr-ar-xr/README.md) | VR/AR interaction, comfort, perf budgets | Làm sản phẩm immersive |
 | [testing/](./testing/README.md) | QA automation, playtest, telemetry | Đảm bảo chất lượng & dữ liệu |
 | [cheatsheets/](./cheatsheets/) | Quick reference (shortcuts, shader math, netcode) | Ôn nhanh trước sprint/review |
-| [case-studies/](./case-studies/) | Hollow Knight combat, Celeste movement, Hades procedural, Among Us netcode, Genshin gacha | Study best-in-class execution |
+| [case-studies/](./case-studies/) | Hollow Knight combat, Celeste movement, Hades procedural, Among Us netcode, Genshin gacha, [HSR systems teardown](./case-studies/honkai-star-rail-systems-teardown.md) | Study best-in-class execution |
 | [challenges/](./challenges/README.md) | Coding exercises (spawn balance, lag reconcile, DOTS profiler) | Luyện tay trước/phỏng vấn |
 | [labs/](./labs/README.md) | Labs thực chiến (shader trig, FSM, local LLM NPC, PlayFab, DOTS swarm) | Tăng phản xạ production, không copy-paste |
 | [ai-for-game-dev.md](./ai-for-game-dev.md), [user-generated-content.md](./user-generated-content.md), [cloud-gaming.md](./cloud-gaming.md), [cross-platform-play.md](./cross-platform-play.md), [blockchain-gaming.md](./blockchain-gaming.md), [anti-cheat-advanced.md](./anti-cheat-advanced.md) | Emerging/advanced topics | Khi cần mở rộng tầm nhìn |

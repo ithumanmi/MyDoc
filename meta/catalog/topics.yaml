@@ -239,6 +239,24 @@ topics:
       - guides/05-games-os/follow/industry-radar.md
       - guides/05-games-os/follow/play-culture-radar.md
 
+  - id: game.systems_teardown
+    aliases:
+      - game systems teardown
+      - analyze any game
+      - design essay
+      - Infect Them All analysis
+      - game design teardown
+      - exponential growth loop analysis
+    canonical: domains/game-dev/game-design/templates/game-systems-teardown.md
+    related:
+      - domains/game-dev/game-design/advanced-core-loops.md
+      - domains/game-dev/game-design/economy-systems.md
+      - domains/game-dev/game-design/player-psychology.md
+      - domains/game-dev/game-design/genre-deep-dives/README.md
+      - domains/game-dev/game-design/checklist-game-review.md
+      - .cursor/skills/game-systems-teardown/SKILL.md
+      - guides/05-games-os/README.md
+
   - id: domain.web
     aliases: [web, frontend, nextjs, react]
     canonical: domains/web-dev/README.md

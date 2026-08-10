@@ -29,7 +29,17 @@ updated: 2026-03-11
 | [balancing-methodology.md](./balancing-methodology.md) | Excel modeling, Monte Carlo, KPI | Balancing combat/economy có số liệu |
 | [live-ops-design.md](./live-ops-design.md) | Event cadence, limited-time content, ethics | Vận hành Live Service/GaaS |
 | [genre-deep-dives/](./genre-deep-dives/README.md) | Phân tích roguelike, idle, puzzle... | Khi cần chuẩn hóa pillar theo genre |
+| **[Systems teardown template](./templates/game-systems-teardown.md)** ⭐ | Essay systems: loop physics, axes, tiers, economy, UX | Phân tích title có sẵn — skill `game-systems-teardown` |
+| **[HSR systems teardown](../case-studies/honkai-star-rail-systems-teardown.md)** | Case study: Break/SP puzzle · Core/Meta/Live · GaaS friction | Mẫu essay GaaS turn-based |
+| **Design docs kit** ⭐ | Pitch · GDD · Systems/economy · Postmortem · Playtest/review | Viết doc cho *game mình* — skill `game-design-docs` |
+| … [pitch one-pager](./templates/game-pitch-one-pager.md) | Hook, loop, pillars, scope, ask | Greenlight / align |
+| … [GDD](./templates/game-gdd.md) | Thin living bible + systems index | Production handoff |
+| … [systems map / economy](./templates/game-systems-map-economy.md) | Currencies, source/sink, gates, KPIs | Balance & monetization model |
+| … [postmortem](./templates/game-postmortem.md) | Facts, causes, lessons, actions | Sau milestone / ship |
+| … [playtest / review](./templates/game-playtest-review.md) | Protocol, survey, scores, actions | Trước/sau build review |
 
-**Workflow gợi ý:** Core Loop → Economy → Narrative → Playtest/Telemetry.
+**Workflow gợi ý:** Pitch → GDD (+ economy sheet) → Playtest/Review → iterate → Postmortem.  
+**Đọc máy người khác:** skill `game-systems-teardown` → ví dụ [HSR](../case-studies/honkai-star-rail-systems-teardown.md).  
+**Viết máy của mình:** skill `game-design-docs` (+ templates trên).
 
 > Cross-link: dùng [Unity Impact Metrics](../metrics/unity-impact-metrics.md) để đo KPI được định nghĩa trong các tài liệu game design.

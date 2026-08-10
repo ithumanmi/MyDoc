@@ -23,6 +23,7 @@ Legend: **Canonical** = prefer first. Related = optional depth.
 | deliberate practice, luyện tập có chủ đích | [`chapters/02-luyen-tap-co-chu-dich.md`](../chapters/02-luyen-tap-co-chu-dich.md) | Learning OS |
 | game career / freelance Unity | [`guides/03-career-skills/game-dev/`](../guides/03-career-skills/game-dev/README.md) | [`domains/game-dev/`](../domains/game-dev/README.md) |
 | Games OS, everything games, make play earn follow | [`guides/05-games-os/README.md`](../guides/05-games-os/README.md) | [`games-os-map.md`](../guides/05-games-os/games-os-map.md), [`games-os-playbook.md`](../guides/05-games-os/games-os-playbook.md) |
+| game systems teardown, analyze any game, design essay, Infect Them All style | [`domains/game-dev/game-design/templates/game-systems-teardown.md`](../domains/game-dev/game-design/templates/game-systems-teardown.md) | [`advanced-core-loops.md`](../domains/game-dev/game-design/advanced-core-loops.md), skill `game-systems-teardown` |
 | gaming leisure, game backlog, play culture | [`guides/05-games-os/play/`](../guides/05-games-os/play/README.md) | [`fun-maxing.md`](../guides/04-lifestyle-os/life-os/fun-maxing.md) |
 | game news, industry radar, weekly games brief | [`guides/05-games-os/follow/`](../guides/05-games-os/follow/README.md) | [`weekly-games-brief-template.md`](../guides/05-games-os/follow/weekly-games-brief-template.md) |
 | Solidity escrow challenge | [`challenge-solidity-escrow.md`](../challenges/blockchain/challenge-solidity-escrow.md) | blockchain challenges hub |
