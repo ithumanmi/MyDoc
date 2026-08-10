@@ -1,0 +1,43 @@
+# codebase-memory-mcp discovery excludes (gitignore syntax)
+# Docs knowledge library — keep meta/, domains/, guides/; drop private + bulky noise.
+# See: GitClone/codebase-memory-mcp/docs/cbmignore.md (local clone; not pushed)
+
+# --- Private life data (never index) ---
+/personal/
+
+# --- Local clone warehouse (already gitignored; belt-and-suspenders) ---
+/GitClone/
+
+# --- Agent / IDE local ---
+.codebase-memory/
+.cursor/*
+!.cursor/skills/
+!.cursor/skills/**
+!.cursor/rules/
+!.cursor/rules/**
+
+# --- Bulky binaries & media (RAG twin: meta/catalog/rag-exclude.txt) ---
+**/*.pdf
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.svg
+**/*.zip
+**/*.rar
+**/*.ipynb
+**/*.mp4
+**/*.wav
+
+# --- Optional heavy / low-value for graph ---
+/_archive/
+/resources/English/
+/resources/Tech/
+
+# Prefer markdown curriculum under resources when needed — keep collected_links
+!/resources/collected_links/
+!/resources/collected_links/**
+
+# Ops noise
+/meta/ops/LINK_AUDIT_REPORT.md
+/meta/ops/CONTENT-ROADMAP.md
+/meta/ops/COMMUNITY.md

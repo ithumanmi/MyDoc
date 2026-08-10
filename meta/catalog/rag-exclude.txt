@@ -1,20 +1,28 @@
 # Paths / globs to exclude from default RAG / embedding indexes
+# Twin for codebase-memory: see root `.cbmignore`
 
 # Binary / bulky
 resources/**/*.pdf
 resources/**/*.png
 resources/**/*.jpg
 resources/**/*.svg
+resources/**/*.zip
+resources/**/*.rar
 **/*.ipynb
+resources/English/**
+resources/Tech/**
+
+# Local clone warehouse
+GitClone/**
 
 # Maintenance noise (optional exclude)
 meta/ops/LINK_AUDIT_REPORT.md
 meta/ops/CONTENT-ROADMAP.md
 meta/ops/COMMUNITY.md
 
-# Private life data — only index if product explicitly allows
-# Uncomment to hard-exclude:
-# personal/**
+# Private life data — do not embed by default
+personal/**
 
-# VCS
+# VCS / local graphs
 .git/**
+.codebase-memory/**

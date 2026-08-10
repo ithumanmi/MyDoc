@@ -1,0 +1,14 @@
+---
+description: Treat personal/ life-data as private; do not leak metrics unless asked
+globs: personal/**
+alwaysApply: false
+---
+
+# Personal life-data privacy
+
+Files under `personal/` are the user’s private records (nutrition, body metrics, habits, daily mood).
+
+- Do not volunteer summaries of metrics/CSV in unrelated chats.
+- Only read/analyze when the user asks about their logs or tracking.
+- Prefer linking theory docs in `guides/04-lifestyle-os/` for educational answers; use `personal/` for their recorded data.
+- Never commit secrets (passwords, OTP, others’ PII) into new personal notes.

@@ -28,8 +28,12 @@ $RECYCLE.BIN/
 !.vscode/extensions.json
 *.code-workspace
 
-# Cursor (VSCode fork)
-.cursor/
+# Cursor (VSCode fork) — ignore contents, keep shareable skills/rules
+.cursor/*
+!.cursor/skills/
+!.cursor/skills/**
+!.cursor/rules/
+!.cursor/rules/**
 
 # JetBrains IDEs (IntelliJ, PyCharm, WebStorm)
 .idea/
@@ -109,6 +113,9 @@ drafts/
 
 # ===== Local clone catalog (do not push) =====
 GitClone/
+
+# ===== codebase-memory-mcp local graph artifact =====
+.codebase-memory/
 
 # ===== Backup Files =====
 *.bak

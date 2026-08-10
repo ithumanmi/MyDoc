@@ -1,0 +1,38 @@
+---
+description: Navigate Docs repo via meta/routing + catalog; cite paths; prefer canonical sources
+alwaysApply: true
+---
+
+# Docs agent navigation
+
+Before broad search:
+
+1. Follow `AGENTS.md` read order.
+2. Resolve topics via `meta/routing.md` or `meta/catalog/topics.yaml`.
+3. Open hub README (`domains/README.md`, domain README, or `guides/...`) then canonical deep-dive.
+4. Cite markdown paths in answers.
+
+## Priority
+- Prefer canonical map/playbook/README over long mid-file excerpts.
+- Prefer markdown guides over `resources/**/*.pdf`.
+- Domain maturity: prefer Stable unless user asks otherwise (`domains/README.md`).
+- Prefer `meta/` over stub redirects at `AGENT-ROUTING.md`, `catalog/`, `agent-eval/`.
+
+## Overlaps
+- Technical how-to → `domains/`
+- Career/monetization → `guides/03-career-skills/`
+- Full split table → `meta/domain-guide-map.md`
+- Life theory → `guides/04-lifestyle-os/health/` (+ well-being)
+- User’s own logs → `personal/` only when asked
+
+## Learning & hormones (shortcuts)
+- Learning methods → `guides/03-career-skills/productivity/meta-skills/learning-os-framework.md`
+- Hormones overview → `guides/04-lifestyle-os/health/endocrine-hormone-map.md`
+- Hormone control → `guides/04-lifestyle-os/health/endocrine-control-playbook.md`
+- Health theory hub → `guides/04-lifestyle-os/health/` (records → `personal/`)
+
+## Long files
+Use **Agent SUMMARY** at top of deep-dives when present; jump to relevant `##` sections.
+
+## Safety
+No fabricated medical diagnosis. Lifestyle content is educational. Clinical symptoms → advise professional care.
