@@ -41,12 +41,23 @@ Coalition politics (**Scales**) + positional grid combat; hidden **Convictions**
 | Playtest / review | [playtest-review.md](./playtest-review.md) | stub (study protocol) |
 | Postmortem | [postmortem.md](./postmortem.md) | stub (public-study / TBD metrics) |
 
+## Definition of Done
+
+- [x] All six model files exist
+- [x] Pitch · GDD · economy · teardown filled
+- [x] Playtest / postmortem honest stubs
+- [x] Cross-links to this README
+- [x] Row in [analyses/README.md](../README.md)
+- [x] Legacy paths redirect only
+
 ## How to use
 
 1. **Pitch** → fantasy & pillars  
 2. **Teardown** → machine physics & axes  
 3. **GDD** + **Economy** → port patterns  
 4. **Playtest** / **Postmortem** → adapt when running your own project inspired by this title  
+
+**Quality bar:** [../_quality-bar.md](../_quality-bar.md)
 
 ## Theory refs
 

@@ -1,11 +1,12 @@
 ---
 title: "Honkai: Star Rail — Analysis pack"
-description: "Hub: pitch, GDD, economy, teardown, playtest, postmortem for HSR (GaaS TB RPG)."
+description: "Deep pack: pitch, GDD, economy, teardown, playtest, postmortem for HSR GaaS TB RPG."
 updated: "2026-08-10"
 canonical: false
-tags: [game-design, analysis-pack, gaas, turn-based-rpg]
+tags: [game-design, analysis-pack, gaas, turn-based-rpg, deep]
 audience: [intermediate, advanced]
 related:
+  - ../_quality-bar.md
   - ../../game-design/templates/game-analysis-pack-readme.md
   - ../../case-studies/genshin-gacha-economy.md
 sensitivity: public
@@ -13,44 +14,45 @@ sensitivity: public
 
 # Honkai: Star Rail — Analysis pack
 
-> [← Analyses](../README.md) · [Game Dev](../../README.md) · [Game Design](../../game-design/README.md)  
-> Skill: `.cursor/skills/game-design-docs/` · Mode: `full-pack`  
-> Teardown: skill `game-systems-teardown`
+> [← Analyses](../README.md) · [Quality bar](../_quality-bar.md) · [Game Design](../../game-design/README.md)  
+> Skill: `game-design-docs` · Teardown: `game-systems-teardown`  
+> Bản **deep** (reconstructed study) — không phải tài liệu nội bộ Hoyoverse. Không bịa D1/D7/ARPU.
 
 | Field | Value |
 | --- | --- |
 | Title | Honkai: Star Rail |
 | Slug | `honkai-star-rail` |
-| Type | shipped study (reconstructed docs) |
-| Platform / model | Mobile + PC · GaaS freemium / gacha (Hoyoverse) |
-| Genre | Turn-based RPG + Live Ops · collection meta |
-| Pack status | complete (playtest/postmortem = study stubs) |
+| Type | shipped study — deep reconstructed |
+| Platform / model | Mobile + PC · GaaS freemium / gacha |
+| Genre | Turn-based RPG + Live Ops · collection |
+| Pack status | **deep complete** (playtest/postmortem = study filled, scores TBD) |
 | Updated | 2026-08-10 |
 
 ## Thesis
 
-Combat-as-puzzle (**Break / SP / turn order**) wrapped in Hoyoverse **GaaS cadence** (stamina, banners, endgame cycles) — not “Genshin đánh theo lượt.”
+Combat-as-puzzle (**Break / shared SP / turn order**) gắn máy GaaS Hoyoverse (**Trailblaze Power**, pity banners, endgame xoay MoC·PF·AS). Không phải “Genshin đánh theo lượt.”
 
 ## Documents
 
 | Model | File | Status |
 | --- | --- | --- |
-| Pitch / one-pager | [pitch.md](./pitch.md) | filled |
-| GDD / design bible | [gdd.md](./gdd.md) | filled |
-| Systems map / economy | [systems-economy.md](./systems-economy.md) | filled |
-| Systems teardown | [systems-teardown.md](./systems-teardown.md) | filled |
-| Playtest / review | [playtest-review.md](./playtest-review.md) | stub (study protocol) |
-| Postmortem | [postmortem.md](./postmortem.md) | stub (public-study / TBD metrics) |
+| Pitch | [pitch.md](./pitch.md) | filled (deep) |
+| GDD | [gdd.md](./gdd.md) | filled (deep modular) |
+| Systems / economy | [systems-economy.md](./systems-economy.md) | filled (deep) |
+| Systems teardown | [systems-teardown.md](./systems-teardown.md) | filled (deep) |
+| Playtest / review | [playtest-review.md](./playtest-review.md) | study protocol filled |
+| Postmortem | [postmortem.md](./postmortem.md) | study filled (no fake metrics) |
 
-## How to use
+## Reading order (khuyến nghị)
 
-1. **Pitch** → fantasy & pillars  
-2. **Teardown** → machine physics & axes  
-3. **GDD** + **Economy** → port GaaS / combat-puzzle patterns  
-4. **Playtest** / **Postmortem** → adapt for your own project  
+1. [pitch.md](./pitch.md) — fantasy & pillars  
+2. [systems-teardown.md](./systems-teardown.md) — physics máy  
+3. [gdd.md](./gdd.md) — systems index + combat/LiveOps modules  
+4. [systems-economy.md](./systems-economy.md) — faucet/sink  
+5. [playtest-review.md](./playtest-review.md) / [postmortem.md](./postmortem.md) — khi port hoặc audit  
 
-Sibling Hoyoverse economy essay: [genshin-gacha-economy.md](../../case-studies/genshin-gacha-economy.md)
+Sister: [genshin-gacha-economy.md](../../case-studies/genshin-gacha-economy.md) · Contrast premium: [../triangle-strategy/](../triangle-strategy/) · Growth gold: [../infect-them-all/](../infect-them-all/)
 
 ## Theory refs
 
-[advanced-core-loops.md](../../game-design/advanced-core-loops.md) · [game-economics-monetization.md](../../game-design/game-economics-monetization.md) · [live-ops-design.md](../../game-design/live-ops-design.md) · [player-psychology.md](../../game-design/player-psychology.md) · [metagame-design.md](../../game-design/metagame-design.md)
+[advanced-core-loops.md](../../game-design/advanced-core-loops.md) · [metagame-design.md](../../game-design/metagame-design.md) · [game-economics-monetization.md](../../game-design/game-economics-monetization.md) · [live-ops-design.md](../../game-design/live-ops-design.md) · [player-psychology.md](../../game-design/player-psychology.md) · [balancing-methodology.md](../../game-design/balancing-methodology.md)

@@ -122,8 +122,9 @@ sensitivity: public
 | [vr-ar-xr/](./vr-ar-xr/README.md) | VR/AR interaction, comfort, perf budgets | Làm sản phẩm immersive |
 | [testing/](./testing/README.md) | QA automation, playtest, telemetry | Đảm bảo chất lượng & dữ liệu |
 | [cheatsheets/](./cheatsheets/) | Quick reference (shortcuts, shader math, netcode) | Ôn nhanh trước sprint/review |
-| [analyses/](./analyses/) | Per-title **full-pack** — [Triangle Strategy](./analyses/triangle-strategy/) · [Honkai: Star Rail](./analyses/honkai-star-rail/) | Phân tích / scaffold design theo title |
-| [case-studies/](./case-studies/) | Legacy / single essays (HSR teardown, Celeste, …); TS teardown → [analyses pack](./analyses/triangle-strategy/) | Study best-in-class execution |
+| [analyses/](./analyses/) | Per-title **full-pack** — [Infect Them All](./analyses/infect-them-all/) (gold) · [Triangle Strategy](./analyses/triangle-strategy/) · [Honkai: Star Rail](./analyses/honkai-star-rail/) · [index](./analyses/README.md) | Phân tích / scaffold design theo title |
+| [case-studies/](./case-studies/) | Single essays (Celeste, Hollow Knight, Genshin gacha, …). Per-title teardowns → [`analyses/`](./analyses/) (HSR/TS = redirects) | Study best-in-class execution |
+| [pitches/](./pitches/) · [design/](./design/) | **Legacy redirects only** — see folder READMEs | Do not add new canonical title docs |
 | [challenges/](./challenges/README.md) | Coding exercises (spawn balance, lag reconcile, DOTS profiler) | Luyện tay trước/phỏng vấn |
 | [labs/](./labs/README.md) | Labs thực chiến (shader trig, FSM, local LLM NPC, PlayFab, DOTS swarm) | Tăng phản xạ production, không copy-paste |
 | [ai-for-game-dev.md](./ai-for-game-dev.md), [user-generated-content.md](./user-generated-content.md), [cloud-gaming.md](./cloud-gaming.md), [cross-platform-play.md](./cross-platform-play.md), [blockchain-gaming.md](./blockchain-gaming.md), [anti-cheat-advanced.md](./anti-cheat-advanced.md) | Emerging/advanced topics | Khi cần mở rộng tầm nhìn |

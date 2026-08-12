@@ -1,166 +1,213 @@
 ---
-title: "Honkai: Star Rail — Systems Teardown"
-description: "Systems essay: Break/SP combat puzzle, Core/Meta/Live map, decision axes, GaaS economy & UX."
+title: "Honkai: Star Rail — Systems teardown (deep)"
+description: "Deep systems essay: Break/SP physics, MoC PF AS triad, axes, escalation, GaaS friction, UX."
 updated: "2026-08-10"
 canonical: false
-tags: [game-design, case-study, teardown, gaas, analysis-pack]
+tags: [teardown, gaas, deep, analysis-pack]
 audience: [intermediate, advanced]
 related:
   - ./README.md
-  - ./pitch.md
-  - ./gdd.md
   - ./systems-economy.md
-  - ../../game-design/templates/game-systems-teardown.md
-  - ../../case-studies/genshin-gacha-economy.md
+  - ./gdd.md
+  - ../_quality-bar.md
   - ../triangle-strategy/systems-teardown.md
+  - ../infect-them-all/systems-teardown.md
 sensitivity: public
 ---
 
-# Honkai: Star Rail — Systems Teardown
+# Honkai: Star Rail — Systems Teardown (deep)
 
-> [← Pack](./README.md) · [Pitch](./pitch.md) · [GDD](./gdd.md)  
-> Skill: `.cursor/skills/game-systems-teardown/` · Template: [game-systems-teardown.md](../../game-design/templates/game-systems-teardown.md)
+> [← Pack](./README.md) · [Economy](./systems-economy.md) · [Quality bar](../_quality-bar.md)  
+> Skill `game-systems-teardown`. Endgame triad MoC / Pure Fiction / Apocalyptic Shadow `(observed)`; cycle ~6 weeks community/guides `(observed)` — verify live UI.
 
 ## Agent SUMMARY
 
-- Thesis: combat-as-puzzle (Break / SP / turn order) wrapped in Hoyoverse GaaS cadence — not “Genshin turn-based.”
-- Core chain: weakness → SP manage → spend turn → Break → burst → stabilize → clear.
-- Agency curve: High manual early → hybrid mid (Auto farm) → late Manual endgame + Auto grind.
-- Axes: Break vs raw damage · SP-positive vs SP-hungry · Character pull vs Cone/Eidolon.
-- Anti–power-creep: cycle buffs + elemental coverage tax + relic RNG sink.
-- Economy: Trailblaze Power sources; infinite relic / trace / gacha sinks.
-- Transfer: shared team resource + break bar + Auto/Manual split; don’t clone IP/tone.
+- Thesis: combat-as-puzzle (Break+SP) × Hoyoverse GaaS cadence — not GI turn-based.
+- Core: weakness → SP budget → Break → burst → stabilize → clear.
+- Agency: Manual FTUE → Auto farm mid → Manual endgame late.
+- Axes: Break vs raw · SP+ vs SP− · pull char vs LC/E · **mode specialization MoC/PF/AS**.
+- Anti-creep: cycle buffs + three orthogonal endgame skills + relic sink + Starward optional third team layer `(observed)` / evolving.
+- Transfer: shared resource + break phase + Auto/Manual split + multi-exam endgame.
 
-**Platform / model:** Mobile + PC · GaaS freemium / gacha (Hoyoverse) `(observed)`  
-**Genre family:** Turn-based RPG + Live Ops · collection meta  
-**Sources:** play patterns / design lộ thiên; **không** bịa D1/D7. Tags: `(observed)` · `(inferred)` · `(genre pattern)`
+**Model:** Mobile+PC GaaS gacha · **Genre:** TB RPG + LiveOps  
+Tags: `(observed)` · `(inferred)` · `(genre pattern)` · `(assumed)` · `(TBD)`
 
-Theory: [advanced-core-loops.md](../../game-design/advanced-core-loops.md) · [metagame-design.md](../../game-design/metagame-design.md) · [game-economics-monetization.md](../../game-design/game-economics-monetization.md) · [player-psychology.md](../../game-design/player-psychology.md) · [live-ops-design.md](../../game-design/live-ops-design.md)
+Theory: [advanced-core-loops.md](../../game-design/advanced-core-loops.md) · [live-ops-design.md](../../game-design/live-ops-design.md) · [player-psychology.md](../../game-design/player-psychology.md) · [game-economics-monetization.md](../../game-design/game-economics-monetization.md)
 
 ---
 
 ## 0. Thesis
 
-HSR không “làm Genshin đánh theo lượt”. Nó **đảo vai trò combat** trong hệ Hoyoverse: từ skill expression real-time sang **combat-as-puzzle** (Break / weakness / Skill Point / turn order) — rồi nhúng puzzle đó vào máy GaaS quen thuộc (stamina, gacha, endgame cycle) để giữ session ngắn–dài song song. `(inferred)`
+HSR **đổi skill expression** trong hệ Hoyoverse từ real-time (aim/i-frame) sang **turn puzzle** với hai đồng tiền chiến đấu đồng hạng: **Toughness/Break** và **Skill Point đội**. Sau đó bọc puzzle ấy bằng máy retention quen thuộc — Power, banners, endgame exams xoay vòng — để một người chơi vừa “suy nghĩ 4 phút,” vừa “cày 40 ngày.” `(inferred)`
 
 ---
 
 ## 1. Loop physics & nhịp agency
 
-**Core actions (trong trận):**  
-`Scan weakness → Manage Skill Points → Spend turn (Basic/Skill/Ult) → Break toughness → Burst window → Stabilize (heal/shield/cleanse) → Clear`
+### Core chain (một trận)
 
-HSR = **Knowledge + Composition snowball**: hiểu Break/SP/Path → ít micro hơn → Auto farm; endgame giữ High Agency. `(inferred)`
+```text
+Scout weaknesses / Toughness
+        ↓
+Allocate SP (Basic gen vs Skill spend)
+        ↓
+Apply Toughness damage → Break window
+        ↓
+Burst (Skill/Ult/follow-up/DoT snapshot…)
+        ↓
+Stabilize (heal/shield/cleanse/taunt)
+        ↓
+Clear or wipe / timer fail (endgame)
+```
+
+**Snowball type:** Knowledge + Composition (không phải unit-count tipping như [Infect Them All](../infect-them-all/systems-teardown.md)).
 
 | Feedback | Cơ chế |
 | --- | --- |
-| **Positive** | Đúng weakness → Break → turn advantage → clear → farm hiệu quả `(observed)` |
-| **Negative / brake** | Sai cover, hết SP, Toughness cứng, MoC sai team, TB Power cap `(observed)` |
+| **+** | Đúng element → Break sớm → enemy skip/debuff window → fewer turns → stars / lower Power waste `(observed)` |
+| **−** | Sai cover, SP lock, Break reject, cycle buff mismatch, Power cap, timer `(observed)` |
 
-| Phase | Agency | Hệ thống | Cảm xúc |
+### Phases of account life
+
+| Phase | Agency | Systems hub | Cảm xúc |
 | --- | --- | --- | --- |
-| Early | High manual | Dạy Break/SP/Ult | “Mỗi skill có ý” |
-| Mid | Hybrid | Path identity, SU lab, Auto farm | Thử–lỗi đội |
-| Late | Auto farm + Manual endgame | Cycles + relic RNG | Number spectacle + turn pressure |
+| Early | High manual | FTUE weakness icons, SP pips, Ult energy | “Mỗi nút có nghĩa” |
+| Mid | Hybrid | Path identity; SU lab; Auto Calyx | Theorycraft vui / farm êm |
+| Late | Split brain | Auto relics; Manual MoC/PF/AS (+ optional Starward) | Number flex + FOMO roster |
+
+**Vì sao mobile sống được:** Auto cắt mệt tay; Manual giữ ego mastery trên jade-gated exams. `(genre pattern)`
 
 ---
 
 ## 2. Systems map
 
-| Layer | Loop / modes | Job |
+| Layer | Nội dung | Job |
 | --- | --- | --- |
-| Core | Combat puzzle + light explore + story | Skill + kit fantasy |
-| Meta | Ascension · Traces · LC · Relics · comps · TB Level | Collection + vertical |
-| Live | TB Power · Events · MoC/PF/AS · Echo · BP · Banners | Session diversity + FOMO |
+| **Core** | Turn combat, Technique overworld, light explore | Moment-to-moment skill |
+| **Meta** | Levels, ascension, Traces, LC, Relics, teams, TB Level / Equilibrium | Power schedule |
+| **Live** | Dailies, events, BP, banners, Echo weekly, **MoC · PF · AS** | Cadence & FOMO |
+| **Meta-in-mode** | Simulated Universe family (Divergence, etc. evolve) | Experiment builds without endgame wipe stigma `(observed)` |
 
-SU = meta-in-mode roguelite. `(observed)`
+```text
+Story / Events ──► Soft jade & cast fantasy
+       │
+TB Power ──► Mats / Relics ──► Traces & sets ──► Endgame exams ──► Jade ──► Banners ──► New covers
+       │                                                      ▲
+       └────────────── Cycle buffs shape which covers matter ─┘
+```
 
 ---
 
 ## 3. Decision axes
 
-### Axis 1 — Break vs Raw HP
+### A1 — Break focus vs Raw HP
 
 | | Break-oriented | Raw / ignore Break |
 | --- | --- | --- |
-| Được | Turn adv, safer elites | Fast fodder / overkill |
-| Mất | Need cover/breakers | Wall on high Toughness / timer |
-| Khi nào | Elites, endgame | Weak farm `(inferred)` |
+| Được | Phase skip, AS scoring, safer elites | Farm fodder speed |
+| Mất | Slot tax (breakers), build Break Effect | MoC/AS walls |
+| Khi | AS, high Toughness bosses | Calyx weak packs `(inferred)` |
 
-### Axis 2 — SP-positive support vs SP-hungry DPS
+### A2 — SP economy (Bite/Eat của HSR)
 
-| | SP-gen kits | SP-hungry nukers |
+| | SP-positive kits | SP-hungry carries |
 | --- | --- | --- |
-| Được | Stable rotation | Burst fantasy |
-| Mất | Lower personal damage | Dead Basics if starved |
-| Khi nào | Backbone | With battery `(observed)` |
+| Được | Team breathes | Burst fantasy |
+| Mất | Lower personal DPS | Dead Basics / stalled Ult |
+| Khi | Backbone Harmony/Abundance… | After battery locked `(observed)` |
 
-### Axis 3 — Character pull vs Cone / Eidolon
+### A3 — Banner: Character vs LC / Eidolon
 
-| | New character | Cone / E1+ |
+| | New character | Signature / E1+ |
 | --- | --- | --- |
-| Được | New cover/archetype | Same-kit ceiling |
-| Mất | Weaker signature gear | No new content type |
-| Khi nào | Thin account | Whale/optimize `(genre pattern)` |
+| Được | New exam cover | Same-kit ceiling |
+| Mất | Incomplete LC | No new Mode coverage |
+| Khi | Missing element/Path for cycle | Whale / mirror `(genre pattern)` |
+
+### A4 — Endgame specialization (orthogonal exams)
+
+| Mode | Tests primarily | Build bias |
+| --- | --- | --- |
+| **Memory of Chaos** | Two-side (→ optional 3 with Starward) DPS + sustain under **cycle count** | ST burst, sustain, two+ cores `(observed)` |
+| **Pure Fiction** | Wave clear / points in limited cycles | AoE, follow-up, blast clears `(observed)` |
+| **Apocalyptic Shadow** | Boss Toughness + Break windows | Break Effect, weakness match, dump in Break `(observed)` |
+
+Đây là trục chống “one team forever” mạnh hơn chỉ tăng HP — **ba bài kiểm tra khác kỹ năng**. `(inferred)`
+
+### A5 — Power spend: Traces vs Relics
+
+| | Finish traces | Relic RNG |
+| --- | --- | --- |
+| Được | Deterministic power | Cap chase |
+| Mất | Lower ceiling fashion | Near-miss addiction |
+| Khi | New DPS online | Already traced `(assumed)` |
 
 ---
 
 ## 4. Escalation & anti–power-creep
 
-| Tier | Role |
-| --- | --- |
-| Fodder | Tutorial |
-| Elite + Toughness | Break discipline |
-| Equilibrium | Soft farm wall |
-| Weekly Echo | Bounded sink |
-| MoC / PF / AS | Cycle composition tax `(observed)` |
-| Relic substats | Infinite vertical |
+| Tier | Role | Player answer |
+| --- | --- | --- |
+| Trash mobs | Auto fodder | Overlevel |
+| Elites + Toughness | Break school | Element cover |
+| Equilibrium walls | Soft story pace | Farm mats |
+| Echo of War weekly | Bounded sink | Calendar |
+| MoC / PF / AS cycles | Skill exams + jade | Roster breadth |
+| Starward optional nodes | Extra team tax / flex | Third premium core `(observed)` mode evolution — verify live |
+| Relic subs | Infinite vertical | Time / whale |
 
-**Lever:** cycle buffs + elemental coverage tax — không chỉ HP inflation. Contrast premium route exclusivity: [Triangle Strategy teardown](../triangle-strategy/systems-teardown.md). `(inferred)`
+**Levers chống one-team:** (1) cycle line-up + buffs, (2) three orthogonal modes, (3) optional Starward third node, (4) relic EV wall. Không chỉ HP creep. Contrast premium branch tax: [Triangle Strategy](../triangle-strategy/systems-teardown.md).
 
 ---
 
 ## 5. Economy & monetization friction
 
-See detailed sheet: [systems-economy.md](./systems-economy.md).
+Chi tiết đầy đủ: [systems-economy.md](./systems-economy.md).
 
-Sources: TB Power, quests, events, endgame, dailies, BP. Sinks: traces, relics, gacha. Premium sells **roster speed & ceiling**, not literal stage skip. `(inferred)` Sister: [genshin-gacha-economy.md](../../case-studies/genshin-gacha-economy.md).
+Tóm tắt: Power = faucet thời gian; jade = pull oxygen từ story/events/endgame; relics = sink vô hạn; banners = FOMO. Bán tốc độ roster & ceiling; pity làm dịu, không xóa extractiveness. `(inferred)` Sister: [genshin-gacha-economy.md](../../case-studies/genshin-gacha-economy.md).
 
 ---
 
 ## 6. UI/UX & psychology
 
-Weakness icons FTUE; turn order + SP + Toughness hierarchy; Auto for grind; theorycrafting externalized; FOMO banners + relic near-miss loss aversion → [player-psychology.md](../../game-design/player-psychology.md). `(observed)` / `(inferred)`
+| Topic | |
+| --- | --- |
+| **FTUE** | Weakness icons trên đầu; SP pips; turn order bar `(observed)` |
+| **Hierarchy** | Toughness co-visible với HP trên elite — nếu không, Break chết `(inferred)` |
+| **Auto contract** | Players trust Auto on farm only if AI không phá Break/SP quá tệ `(assumed)` |
+| **External brain** | Relic/theorycraft đẩy ra wiki — giảm in-game cognitive nhưng tăng community dependency `(observed)` |
+| **Psyche** | Path identity · Ult cinema · FOMO · relic near-miss loss aversion · mode star flex ([player-psychology.md](../../game-design/player-psychology.md)) |
+| **Fatigue** | Story wall-of-voice vs daily loop tension `(assumed)` |
 
 ---
 
-## 7. Transfer
+## 7. Transfer (port sang game khác)
 
 | Portable | Don’t copy blind |
 | --- | --- |
-| Shared team SP | Free skills kill axis |
-| Break bar vs HP | Cosmetic toughness |
-| Cycle endgame | Toxic FOMO cadence |
-| Auto farm / Manual skill | Auto endgame = no mastery |
-| Stamina + gacha | Idle without puzzle core |
+| Shared team action point | Skills free → no axis |
+| Break as **phase** | Cosmetic bar |
+| **≥2 orthogonal endgame exams** | One Abyss only → one meta forever |
+| Auto farm / Manual exam | Auto exams → no mastery |
+| Pity + skip dignity selectors | Pity without skip culture still toxic |
 
-**Title-specific:** Hoyoverse IP, Ult production, tonal whiplash.
+**Title-specific:** Hoyoverse IP, Ult production, tonal whiplash, multi-year Path kit library.
 
 ---
 
 ## 8. Open questions / verify
 
-- [ ] % Auto by account age / MoC floor  
-- [ ] Element cover vs 48h 3-star new cycle  
-- [ ] Time-to-usable-relic-set vs first pity  
-- [ ] ZZZ / GI agency curve compare  
-- [ ] Remembrance/summon vs SP puzzle integrity `(patch)`
+- [ ] Auto% by content type × account age  
+- [ ] Correlation element coverage ↔ 48h full jade from new cycle  
+- [ ] Time-to-first-usable-4pc vs first limited pity  
+- [ ] Starward adoption vs third-team ownership  
+- [ ] Remembrance/summon / Elation-style kits vs SP integrity `(patch)`  
+- [ ] ZZZ vs HSR agency curve same studio  
 
 ---
 
-| Topic | Path |
+| | Path |
 | --- | --- |
-| Pack siblings | [pitch.md](./pitch.md) · [gdd.md](./gdd.md) · [systems-economy.md](./systems-economy.md) |
-| Core/meta | [advanced-core-loops.md](../../game-design/advanced-core-loops.md) |
-| Gacha | [game-economics-monetization.md](../../game-design/game-economics-monetization.md) · [genshin-gacha-economy.md](../../case-studies/genshin-gacha-economy.md) |
-| Live | [live-ops-design.md](../../game-design/live-ops-design.md) |
+| Pack | [gdd.md](./gdd.md) · [systems-economy.md](./systems-economy.md) · [pitch.md](./pitch.md) |
+| LiveOps theory | [live-ops-design.md](../../game-design/live-ops-design.md) |
+| Contrast | [infect-them-all](../infect-them-all/systems-teardown.md) · [triangle-strategy](../triangle-strategy/systems-teardown.md) |

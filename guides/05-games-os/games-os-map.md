@@ -23,6 +23,7 @@ Bản đồ chủ đề — resolve intent trước khi mở deep-dive.
 | Chủ đề | Canonical |
 | --- | --- |
 | Game design (loop, balance, genre) | [`domains/game-dev/game-design/`](../../domains/game-dev/game-design/README.md) |
+| Title analysis packs (pitch·GDD·teardown…) | [`domains/game-dev/analyses/`](../../domains/game-dev/analyses/README.md) · quality [`_quality-bar.md`](../../domains/game-dev/analyses/_quality-bar.md) |
 | Unity / C# / gameplay | [`domains/game-dev/`](../../domains/game-dev/README.md) |
 | Netcode / MMO eng | [`domains/game-dev/programming/networking/`](../../domains/game-dev/programming/networking/README.md), [`domains/mmo-engineering/`](../../domains/mmo-engineering/README.md) |
 | Art-tech / VFX / audio / UI | [`domains/game-dev/art-tech/`](../../domains/game-dev/art-tech/) |

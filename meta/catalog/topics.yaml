@@ -249,13 +249,57 @@ topics:
       - exponential growth loop analysis
     canonical: domains/game-dev/game-design/templates/game-systems-teardown.md
     related:
+      - domains/game-dev/analyses/README.md
+      - domains/game-dev/game-design/templates/game-analysis-pack-readme.md
       - domains/game-dev/game-design/advanced-core-loops.md
       - domains/game-dev/game-design/economy-systems.md
       - domains/game-dev/game-design/player-psychology.md
       - domains/game-dev/game-design/genre-deep-dives/README.md
       - domains/game-dev/game-design/checklist-game-review.md
       - .cursor/skills/game-systems-teardown/SKILL.md
+      - .cursor/skills/game-design-docs/SKILL.md
       - guides/05-games-os/README.md
+
+  - id: game.analysis_pack
+    aliases:
+      - game analysis pack
+      - full-pack
+      - full dossier
+      - phân tích game
+      - tất cả models
+      - title analysis folder
+      - game design pack
+    canonical: domains/game-dev/analyses/README.md
+    related:
+      - domains/game-dev/analyses/_quality-bar.md
+      - domains/game-dev/game-design/templates/game-analysis-pack-readme.md
+      - domains/game-dev/analyses/infect-them-all/README.md
+      - domains/game-dev/analyses/triangle-strategy/README.md
+      - domains/game-dev/analyses/honkai-star-rail/README.md
+      - domains/game-dev/game-design/templates/game-systems-teardown.md
+      - domains/game-dev/game-design/README.md
+      - .cursor/skills/game-design-docs/SKILL.md
+      - .cursor/skills/game-systems-teardown/SKILL.md
+      - guides/05-games-os/README.md
+
+  - id: game.design_docs
+    aliases:
+      - game design docs
+      - pitch one-pager
+      - GDD
+      - design bible
+      - systems economy model
+      - game postmortem
+      - playtest checklist
+    canonical: domains/game-dev/game-design/README.md
+    related:
+      - domains/game-dev/game-design/templates/game-pitch-one-pager.md
+      - domains/game-dev/game-design/templates/game-gdd.md
+      - domains/game-dev/game-design/templates/game-systems-map-economy.md
+      - domains/game-dev/game-design/templates/game-postmortem.md
+      - domains/game-dev/game-design/templates/game-playtest-review.md
+      - domains/game-dev/analyses/README.md
+      - .cursor/skills/game-design-docs/SKILL.md
 
   - id: domain.web
     aliases: [web, frontend, nextjs, react]

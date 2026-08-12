@@ -79,7 +79,9 @@ Use Vietnamese or English to match the user. Keep headings sharp.
 
 ## After / save (if user wants it in Docs)
 
-- Case study path suggestion: `domains/game-dev/case-studies/<slug>-systems-teardown.md` or under Games OS Follow only if culture/news — **Make** analyses stay in `domains/game-dev/`.
+- Prefer **`domains/game-dev/analyses/<slug>/systems-teardown.md`** inside a `full-pack` (skill `game-design-docs`).
+- If pack does not exist yet and user only asked teardown: create pack hub + teardown (stub siblings) **or** redirect later from any legacy `case-studies/` path.
+- Do **not** put Make analyses under Games OS Play/Follow.
 - Link related theory modules in a short “Theory refs” footer.
 
 ## Anti-patterns

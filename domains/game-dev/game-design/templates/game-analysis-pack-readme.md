@@ -46,6 +46,15 @@ sensitivity: public
 | Playtest / review | [playtest-review.md](./playtest-review.md) | stub · filled |
 | Postmortem | [postmortem.md](./postmortem.md) | stub · filled |
 
+## Definition of Done
+
+- [ ] All six model files exist in this folder
+- [ ] Pitch · GDD · economy · teardown are `filled` (or hub notes why `partial`)
+- [ ] Playtest / postmortem are honest stubs or real sessions (no fabricated scores)
+- [ ] Every model links back to this README
+- [ ] Row exists in [analyses/README.md](../../analyses/README.md)
+- [ ] No second canonical copy under `pitches/` / `design/` / `case-studies/` (redirect OK)
+
 ## How to use this pack
 
 1. Read **Pitch** for fantasy & pillars.
@@ -58,3 +67,5 @@ sensitivity: public
 - Loops: [advanced-core-loops.md](../advanced-core-loops.md)
 - Economy: [economy-systems.md](../economy-systems.md)
 - Psyche: [player-psychology.md](../player-psychology.md)
+- Skill hub: `.cursor/skills/game-design-docs/` · teardown: `.cursor/skills/game-systems-teardown/`
+

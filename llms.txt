@@ -31,6 +31,12 @@
 - guides/05-games-os/games-os-map.md
 - guides/05-games-os/games-os-playbook.md
 
+### Game design analyses (Make)
+- domains/game-dev/analyses/README.md — full-pack index (pitch·GDD·economy·teardown·playtest·postmortem)
+- domains/game-dev/game-design/README.md — theory + templates
+- domains/game-dev/game-design/templates/game-systems-teardown.md
+- domains/game-dev/game-design/templates/game-analysis-pack-readme.md
+
 ### Canonical lifestyle / hormone
 - guides/04-lifestyle-os/health/endocrine-hormone-map.md
 - guides/04-lifestyle-os/health/endocrine-control-playbook.md

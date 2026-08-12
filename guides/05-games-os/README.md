@@ -41,7 +41,7 @@ sensitivity: public
 
 | Nhánh | Câu hỏi | Hub |
 | --- | --- | --- |
-| **Make** | Làm / design / ship game thế nào? | [`domains/game-dev/`](../../domains/game-dev/README.md) · practice [`challenges/game-dev/`](../../challenges/game-dev/README.md) |
+| **Make** | Làm / design / ship game thế nào? | [`domains/game-dev/`](../../domains/game-dev/README.md) · practice [`challenges/game-dev/`](../../challenges/game-dev/README.md) · **title analyses** [`domains/game-dev/analyses/`](../../domains/game-dev/analyses/README.md) |
 | **Earn** | Sự nghiệp / freelance / monetize? | [`guides/03-career-skills/game-dev/`](../03-career-skills/game-dev/README.md) |
 | **Play** | Chơi bền, taste, backlog? | [`play/`](./play/README.md) |
 | **Follow** | Tin play-culture + industry? | [`follow/`](./follow/README.md) |

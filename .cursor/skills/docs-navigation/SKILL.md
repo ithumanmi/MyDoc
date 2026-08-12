@@ -31,6 +31,8 @@ If routing fails, then search. Prefer Stable domains (`domains/README.md`) unles
 | Overlap tech ↔ career | `meta/domain-guide-map.md` |
 | Everything games | `guides/05-games-os/README.md` → `games-os-map.md` |
 | Make game (design/Unity/netcode) | `domains/game-dev/` (+ `challenges/game-dev/`) |
+| Phân tích title / full-pack / pitch+GDD+teardown | `domains/game-dev/analyses/` · skill `game-design-docs` mode `full-pack` |
+| Systems teardown essay only | `domains/game-dev/game-design/templates/game-systems-teardown.md` · skill `game-systems-teardown` (prefer inside pack) |
 | Earn from games | `guides/03-career-skills/game-dev/` |
 | Play / leisure / backlog | `guides/05-games-os/play/` |
 | Game news (culture + industry) | `guides/05-games-os/follow/` |
@@ -60,12 +62,16 @@ If routing fails, then search. Prefer Stable domains (`domains/README.md`) unles
 - Answer from stale `guides/INDEX.md` alone without checking hub/fs
 - Mix `personal/` CSV into general advice
 - Put play/news into `domains/game-dev/`
+- Scatter pitch/GDD/teardown for one title outside `domains/game-dev/analyses/<slug>/` (use `full-pack`)
 - Put GitHub repos into `resources/collected_links/` (use `GitClone/PROJECTS.md` locally)
 
 ## Quick examples
 
 **User:** “Unity netcode / how do I build multiplayer?”  
 → `domains/game-dev/README.md` → networking hub; career only if they ask rates/freelance.
+
+**User:** “full-pack / phân tích Honkai Star Rail đủ models”  
+→ `domains/game-dev/analyses/` · skill `game-design-docs` mode `full-pack` (not Games OS Play).
 
 **User:** “Games OS / chơi game bền / tin industry tuần này?”  
 → `guides/05-games-os/` → play or follow; not `domains/game-dev`.

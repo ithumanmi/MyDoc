@@ -31,6 +31,18 @@ Also add a row to `domains/game-dev/analyses/README.md`.
    6. `postmortem.md` — study stub or real retro
 4. Cross-link every file back to `./README.md` and siblings.
 5. Update hub status: `filled` · `stub` · `TBD`.
+6. Complete **Definition of Done** (below + hub README).
+7. Add/update row in `domains/game-dev/analyses/README.md`.
+
+## Definition of Done
+
+- [ ] `analyses/<slug>/README.md` with thesis + matrix
+- [ ] `pitch.md` · `gdd.md` · `systems-economy.md` · `systems-teardown.md` · `playtest-review.md` · `postmortem.md` all exist
+- [ ] Pitch / GDD / economy / teardown are `filled` (or `partial` + reason in hub)
+- [ ] Playtest / postmortem at least honest stubs (no fake scores/metrics)
+- [ ] Cross-links to `./README.md` on every file
+- [ ] No second canonical copy outside the pack (legacy = redirect only)
+- [ ] Index table row in `analyses/README.md`
 
 ## Quality bar
 

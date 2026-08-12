@@ -1,104 +1,92 @@
 ---
-title: "Honkai: Star Rail — Pitch / one-pager (reconstructed)"
-description: "Reconstructed pitch: turn-based combat puzzle + GaaS collection for Hoyoverse stack."
+title: "Honkai: Star Rail — Pitch (deep reconstructed)"
+description: "Deep pitch: combat-puzzle USP, Hoyoverse GaaS fit, pillars, risks, signals."
 updated: "2026-08-10"
 canonical: false
-tags: [game-design, pitch, gaas, analysis-pack]
+tags: [pitch, gaas, analysis-pack, deep]
 audience: [intermediate, advanced]
-related:
-  - ./README.md
-  - ./gdd.md
-  - ../../game-design/templates/game-pitch-one-pager.md
+related: [./README.md, ./gdd.md, ./systems-teardown.md]
 sensitivity: public
 ---
 
-# Honkai: Star Rail — Pitch / one-pager
+# Honkai: Star Rail — Pitch / one-pager (deep)
 
-> [← Pack](./README.md) · Skill: `game-design-docs` · Mode: `pitch`  
-> Pitch **tái dựng** từ game đã ship — không phải deck nội bộ miHoYo.
+> [← Pack](./README.md) · Mode: `pitch` · Reconstructed study
 
 | Field | Value |
 | --- | --- |
 | Working title | Honkai: Star Rail |
-| Owner | Docs study (reconstructed) |
-| Status | `(locked)` as shipped reference |
-| Date | 2026-08-10 |
-| Audience | design study / GaaS TB RPG greenlight exercise |
+| Status | `(locked)` shipped reference |
+| Audience | Design / LiveOps / producer study |
 
 ---
 
-## 0. Hook (1 câu)
+## 0. Hook
 
-Bạn là Trailblazer trên đoàn tàu Astral Express — **ghép đội 4 người đánh theo lượt**, phá Toughness và xoay Skill Point như puzzle, trong vũ trụ aeon/Path — dưới áp lực **stamina ngày và banner limited** của GaaS. `(observed)`
-
----
+Bạn là Trailblazer trên Astral Express — **xếp đội 4**, đọc weakness, **chia sẻ Skill Point**, **phá Toughness để mở cửa burst** — rồi mang roster ấy qua lịch banner và endgame xoay vòng của GaaS. `(observed)`
 
 ## 1. Player & occasion
 
-- **Target player:** Fan Hoyoverse / gacha RPG; thích story anime + combat có depth; chơi mobile/PC session ngắn hoặc grind endgame. `(assumed)`
-- **Occasion:** Commute / couch / desk — dailies 10–20p hoặc MoC block dài hơn. `(assumed)`
-- **Session length target:** Daily ~15–30p; story/endgame 45–90p `(assumed)`
+| | |
+| --- | --- |
+| **Primary** | Fan Hoyoverse / anime RPG; muốn combat có độ sâu nhưng session mobile-friendly `(assumed)` |
+| **Secondary** | Endgame optimizers / theorycrafters (Prydwen, spoilers meta) `(observed)` |
+| **Occasion** | Commute dailies · evening story · weekend MoC/PF/AS `(assumed)` |
+| **Sessions** | Daily 15–30p · Story/event 30–90p · Endgame block 45–120p `(assumed)` |
 
----
+## 2. Core loop
 
-## 2. Core loop (1 chuỗi)
-
-`Enter fight → Read weakness → Manage SP → Break Toughness → Burst / Ult window → Clear → Spend TB Power / upgrade roster → Next content gate`
-
----
+`Scout weaknesses → Budget SP → Break Toughness → Dump burst/Ult → Stabilize → Clear → Convert Power/time into roster vertical → Face next story or cycle gate`
 
 ## 3. USP / role inversion
 
-- **Comps:** Genshin Impact (same studio open-world action); other gacha TB (e.g. classic SRPG gacha); premium TB like Persona on time. `(observed)` / `(genre pattern)`
-- **We flip:** Trong stack Hoyoverse, **bỏ aim/i-frame** → combat-as-puzzle (Break/SP); giữ máy GaaS (Power, pity, cycles) để retention tháng. `(inferred)`
+| Comp | Họ có | HSR flip |
+| --- | --- | --- |
+| Genshin Impact | Real-time aim, exploration MMO-lite | Turn puzzle + lighter explore; same GaaS spine `(observed)` |
+| Classic gacha TB | Often ATB or auto-first | Explicit **team SP pool** + **Break bar** as co-equal resources `(observed)` |
+| Premium singleplayer TB | One campaign roster | Continuous horizontal cast via banners + cycle tax `(observed)` |
 
----
+**Một câu bán:** “Hoyoverse production + combat bạn **nghĩ** được trên ghế tàu điện.” `(inferred)`
 
 ## 4. Pillars (≤3)
 
 | # | Pillar | Playtestable signal |
 | --- | --- | --- |
-| 1 | **Every Skill spends a shared SP** | Players vocalize “need battery” / Basic to breathe `(observed)` |
-| 2 | **Break opens the real damage window** | Elite fights punish ignore-Toughness `(observed)` |
-| 3 | **Roster breadth > one eternal team** | New MoC cycle forces swaps / new covers `(observed)` |
+| 1 | Shared SP is the breath of combat | Players say “cần battery / Basic” `(observed)` |
+| 2 | Break is a phase, not a minor bonus | Ignoring Toughness fails elites/AS `(observed)` |
+| 3 | Roster breadth is endgame skill | New cycle đổi team; PF≠MoC≠AS builds `(observed)` |
 
-**Anti‑goals:** Pure idle clicker; pay-to-skip story beat tường minh; combat chỉ ATK number không puzzle. `(assumed)`
+**Anti‑goals:** Pure Autobattler identity; story chapter hard-locked sau paywall; một hypercarry vĩnh cửu đủ mọi mode. `(assumed)`
 
----
+## 5. Scope (shipped North Star vs MVP study)
 
-## 5. Scope slice (MVP / study)
+**Shipped:** Đa hành tinh story · companions · SU family · weekly Echo · MoC/PF/AS (+ optional Starward layers over time) · version events · limited+standard banners. `(observed)`
 
-- **In:** FTUE fight dạy weakness+SP → one gacha-feel recruit moment → one stamina-gated farm → one endgame-lite timer clear. `(proposed)`
-- **Out:** Full SU variants, all Paths, multi-year banner archive.
-- **Shipped North Star:** Continuously updated story worlds + rotating endgame + collection meta. `(observed)`
-
----
+**Vertical slice để học product:**  
+1 fight dạy Break → 1 fight dạy SP starve → 1 ngày Power → 1 mini two-side timer clear → 1 banner+pity fantasy explained. `(proposed)`
 
 ## 6. Business model
 
-- **Model:** GaaS freemium / gacha `(observed)`
-- **Primary lever:** Limited character/LC banners + BP + packs; pity softens variance `(observed)`
-- **Non‑goals (ethics tension):** Avoid selling direct stage skip; friction = time/roster ceiling `(inferred)` — still extractive via FOMO `(genre pattern)`
-
----
+- Freemium GaaS; jade/tickets → character/LC gacha; BP (Nameless Honor); packs/top-up; refill Power. `(observed)`
+- Sells **time compression + roster ceiling + cosmetics/BP**, không bán “mở chapter kế” tường minh. `(inferred)`
+- Pity/guarantee patterns (cùng họ hàng Hoyoverse) giảm rage quit RNG — vẫn giữ FOMO limited. `(genre pattern)` · sister [genshin-gacha-economy.md](../../case-studies/genshin-gacha-economy.md)
 
 ## 7. Risks & ask
 
-| Risk | Mitigation |
+| Risk | Mitigation in product |
 | --- | --- |
-| “Just Genshin TB” narrative | Market Break/SP puzzle + Auto farm honesty `(assumed)` |
-| Relic RNG burnout | Pity-adjacent crafting / loadout QoL over time `(observed)` / evolving |
-| Power creep one-unit meta | Cycle buffs + multi-mode endgame (MoC/PF/AS) `(observed)` |
+| “Genshin TB” positioning | Lead trailer Break/SP/Ult cinema `(assumed)` |
+| Relic burnout | QoL salvage/craft overlays theo thời gian; vẫn infinite sink `(observed)` |
+| Power creep discourse | Multi-mode endgame + cycle buffs ép breadth `(observed)` |
+| Story length vs daily loop | Event + companion + short combat sessions `(inferred)` |
 
-**Ask (exercise):** Greenlight vertical slice “SP puzzle + one stamina day + one banner fantasy” trước khi commit LiveOps calendar.
-
----
+**Ask (exercise):** Greenlight LiveOps calendar chỉ sau khi vertical slice chứng minh players *nói được* 3 pillars.
 
 ## 8. Early success signals
 
-- Qualitative: “Break cảm giác sướng”; nhớ Path identity; muốn clear MoC star. `(assumed)`
-- Measurable `(TBD — không bịa)`: D1 tutorial Break completion; % enable Auto by day 7; first pity conversion; MoC attempted rate.
+- Qual: “Break đã”; nhớ Path; Auto bật *sau* khi hiểu manual. `(assumed)`  
+- Quant `(TBD measure, don’t invent)`: first Break elite clear; Auto enable lag after FTUE; first endgame attempt; banner skip rate vs pity hit.
 
 ---
 
-Pack: [gdd.md](./gdd.md) · [systems-teardown.md](./systems-teardown.md) · Theory: [game-economics-monetization.md](../../game-design/game-economics-monetization.md)
+Next: [systems-teardown.md](./systems-teardown.md) · [gdd.md](./gdd.md)

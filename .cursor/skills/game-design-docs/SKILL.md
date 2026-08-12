@@ -16,6 +16,8 @@ Modes for **forward design** (your project) and **title analysis packs** (shippe
 
 **Sibling skill:** deep teardown essay only → `game-systems-teardown` (also included inside `full-pack`).
 
+**Index:** `domains/game-dev/analyses/README.md`
+
 ## Before writing
 
 1. **Pick mode** (ask if unclear):
@@ -41,7 +43,7 @@ If the user names a **game title** and wants analysis/docs without specifying a 
 
 ```text
 domains/game-dev/analyses/<slug>/
-  README.md              # hub index + status matrix
+  README.md              # hub index + status matrix + DoD
   pitch.md
   gdd.md
   systems-economy.md
@@ -50,8 +52,7 @@ domains/game-dev/analyses/<slug>/
   postmortem.md
 ```
 
-Hub template: `domains/game-dev/game-design/templates/game-analysis-pack-readme.md`  
-Analyses index: `domains/game-dev/analyses/README.md`
+Hub template: `domains/game-dev/game-design/templates/game-analysis-pack-readme.md`
 
 ### Full-pack fill policy
 
@@ -61,7 +62,21 @@ Analyses index: `domains/game-dev/analyses/README.md`
 | Playtest-review | Study protocol **or** blank TBD scores | Real protocol + findings |
 | Postmortem | Public/study retro **or** stub `(TBD)` — never invent metrics | Real blameless retro |
 
+Density for teardown/economy: `domains/game-dev/analyses/_quality-bar.md`.
+
 Never invent D1/D7, revenue, or fake review scores.
+
+### Definition of Done (full-pack)
+
+Pack is incomplete until **all** are true:
+
+- [ ] Folder `analyses/<slug>/` exists
+- [ ] `README.md` hub with thesis + status matrix
+- [ ] All six model files present (stub OK for playtest/postmortem)
+- [ ] Pitch · GDD · economy · teardown marked `filled` (or honest `partial` with why)
+- [ ] Every file links back to `./README.md`
+- [ ] Row added/updated in `analyses/README.md`
+- [ ] No parallel canonical copies under `pitches/` / `design/` / `case-studies/` (redirect stubs only)
 
 ## Shared quality rules
 
@@ -84,17 +99,21 @@ Never invent D1/D7, revenue, or fake review scores.
 
 ## After / save
 
-| Mode | Path |
+**Rule:** One title → one pack. Always prefer `domains/game-dev/analyses/<slug>/`.
+
+| Situation | Path |
 | --- | --- |
-| `full-pack` | `domains/game-dev/analyses/<slug>/` (required) |
-| Single modes (standalone) | Prefer writing **into an existing pack** if that slug exists; else legacy: `pitches/`, `design/`, `postmortems/`, `playtests/` |
-| Teardown-only | Prefer `analyses/<slug>/systems-teardown.md`; legacy case-studies OK with redirect |
+| `full-pack` or “phân tích &lt;game&gt;” | Create/update `analyses/<slug>/` (required) |
+| Single mode + pack exists | Write/update file **inside that pack** |
+| Single mode + no pack yet | Create pack folder + hub (stub siblings) **or** ask to run `full-pack`; do **not** invent new canonical files under `pitches/` / `design/` |
+| Teardown-only | `analyses/<slug>/systems-teardown.md` (+ hub row). Legacy `case-studies/` = redirect only |
+| Legacy paths `pitches/`, `design/<title>-*.md` | Redirect stubs pointing at pack — never second source of truth |
 
 Update the pack `README.md` status matrix whenever a file is added/filled.
 
 ## Anti-patterns
 
 - Creating pitch + GDD + teardown in three unrelated folders for the same title without a pack hub
-- full-pack with empty decorative files and no hub status
+- full-pack with empty decorative files and no hub status / failing DoD
 - Using playtest scores you did not collect
 - Confusing leisure taste notes (`guides/05-games-os/play/`) with Make analysis packs
