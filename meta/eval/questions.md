@@ -35,11 +35,13 @@
 | 25 | Hormone overview (generic) — không đọc metrics cá nhân | `guides/04-lifestyle-os/health/endocrine-hormone-map.md` | `guides/04-lifestyle-os/health/endocrine-control-playbook.md` |
 | 26 | full-pack / phân tích game đủ models nằm đâu? | `domains/game-dev/analyses/README.md` | `domains/game-dev/game-design/templates/game-analysis-pack-readme.md`, `domains/game-dev/analyses/honkai-star-rail/README.md` |
 | 27 | Systems teardown template / Infect Them All style essay? | `domains/game-dev/game-design/templates/game-systems-teardown.md` | `domains/game-dev/analyses/README.md`, `.cursor/skills/game-systems-teardown/SKILL.md` |
+| 28 | Luật Việt Nam / catalog VBQPPL nằm đâu? | `guides/06-vn-law/README.md` | `guides/06-vn-law/catalog.yaml`, `guides/06-vn-law/vn-law-map.md` |
 
 ## Pass criteria
-- ≥80% hit Expected canonical **or** Acceptable related in first 3 tool opens (scale with row count; currently 27 → ≥22).
+- ≥80% hit Expected canonical **or** Acceptable related in first 3 tool opens (scale with row count; currently 28 → ≥22).
 - Q25 must **not** open `personal/body/metrics.csv` unless user asked for personal logs.
 - Q26 must land in `analyses/` (not Games OS Play).
+- Q28 must land in `guides/06-vn-law/` (not only wealth-business/legal playbooks).
 
 ## How to run
 1. `python scripts/check_agent_eval_paths.py` — verify all expected paths exist.

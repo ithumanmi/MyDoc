@@ -102,6 +102,7 @@
 | **Employment Contract** | Mẫu hợp đồng lao động (tham khảo) | [guides/.../employment-contract.md](../guides/02-wealth-business/legal/templates/employment-contract.md) |
 | **Service Agreement** | Hợp đồng dịch vụ | [guides/.../service-agreement.md](../guides/02-wealth-business/legal/templates/service-agreement.md) |
 | **Publisher Contract (Game)** | Mẫu hợp đồng phát hành game (indie) | [guides/.../publisher-contract-template.md](../guides/03-career-skills/game-dev/publisher-contract-template.md) |
+| **VN Law note** | Ghi chú một VBQPPL vào catalog Luật VN | [templates/vn-law/law-note.md](./vn-law/law-note.md) |
 
 ---
 
@@ -174,6 +175,7 @@
 | Rút kinh nghiệm dự án | **5. Project & Post-Mortem** |
 | Làm product, workshop, sprint, PMF | **6. Innovation & Product** |
 | NDA, hợp đồng lao động/dịch vụ, game pub | **7. Legal & Contract** |
+| Thêm đạo luật VN vào catalog | [templates/vn-law](./vn-law/README.md) · hub [`guides/06-vn-law/`](../guides/06-vn-law/README.md) |
 | Theo dõi sức khỏe, mental, năng lượng | **8. Well-being & Growth** |
 | Viết ra triết lý sống, quy tắc quyết định | **9. Philosophy & Mindset** |
 | Backend, system design, Docker | **10. Domain: Backend** |

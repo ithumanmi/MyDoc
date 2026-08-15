@@ -38,6 +38,8 @@ If routing fails, then search. Prefer Stable domains (`domains/README.md`) unles
 | Game news (culture + industry) | `guides/05-games-os/follow/` |
 | Learning how to learn | `guides/03-career-skills/productivity/meta-skills/learning-os-framework.md` |
 | Hormones / health theory | `guides/04-lifestyle-os/health/` (map → playbook) |
+| Luật Việt Nam / VBQPPL / số hiệu đạo luật | `guides/06-vn-law/README.md` → `catalog.yaml` |
+| HĐLĐ / NDA / thuế DN thực hành | `guides/02-wealth-business/legal/` |
 | User’s own logs/metrics | `personal/` **only if asked** |
 
 ## Answer rules
@@ -64,6 +66,7 @@ If routing fails, then search. Prefer Stable domains (`domains/README.md`) unles
 - Put play/news into `domains/game-dev/`
 - Scatter pitch/GDD/teardown for one title outside `domains/game-dev/analyses/<slug>/` (use `full-pack`)
 - Put GitHub repos into `resources/collected_links/` (use `GitClone/PROJECTS.md` locally)
+- Dump Luật VN corpus into `guides/02-wealth-business/legal/` (catalog/notes → `guides/06-vn-law/`)
 
 ## Quick examples
 

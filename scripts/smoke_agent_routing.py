@@ -47,6 +47,9 @@ QUERY_HINTS: dict[int, list[str]] = {
     23: ["url shortener", "shortener"],
     24: ["sleep", "ngủ", "sleep hygiene"],
     25: ["hormone map", "hormones overview", "hệ nội tiết"],
+    26: ["full-pack", "phân tích game", "game analysis"],
+    27: ["systems teardown", "infect them all"],
+    28: ["luật việt nam", "pháp luật VN", "catalog luật", "VBQPPL", "vn-law"],
 }
 
 
@@ -206,13 +209,15 @@ def score_question(row: dict, topics: list[dict], corpus: str) -> dict:
 
 
 def write_scorecard(results: list[dict], score: int) -> None:
+    n = len(results)
+    need = max(1, (n * 4) // 5)
     lines = [
         "# Agent eval scorecard",
         "",
         "> Auto-filled by `python scripts/smoke_agent_routing.py` (routing/catalog coverage).",
         "> Live Cursor turn scoring can still override cells.",
         "",
-        f"**Score:** {score} / 25 ({'PASS' if score >= 20 else 'FAIL'} · need >=20)",
+        f"**Score:** {score} / {n} ({'PASS' if score >= need else 'FAIL'} · need >={need})",
         "",
         "| # | Hit canonical? | Hit related? | Notes |",
         "| ---: | :---: | :---: | --- |",
@@ -248,13 +253,14 @@ def main() -> int:
     score = sum(1 for r in results if r["pass"])
     write_scorecard(results, score)
 
-    print(f"Score: {score}/25")
+    print(f"Score: {score}/{len(results)}")
     for r in results:
         flag = "OK" if r["pass"] else "MISS"
         print(
             f"  Q{r['id']:02d} {flag}  can={r['hit_canonical']} rel={r['hit_related']}"
         )
-    return 0 if score >= 20 else 1
+    need = max(1, (len(results) * 4) // 5)
+    return 0 if score >= need else 1
 
 
 if __name__ == "__main__":

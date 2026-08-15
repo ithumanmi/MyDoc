@@ -3,7 +3,7 @@
 > Auto-filled by `python scripts/smoke_agent_routing.py` (routing/catalog coverage).
 > Live Cursor turn scoring can still override cells.
 
-**Score:** 25 / 25 (PASS · need >=20)
+**Score:** 28 / 28 (PASS · need >=22)
 
 | # | Hit canonical? | Hit related? | Notes |
 | ---: | :---: | :---: | --- |
@@ -32,4 +32,7 @@
 | 23 | [x] | [x] | PASS |
 | 24 | [x] | [x] | PASS |
 | 25 | [x] | [x] | PASS — theory only (no personal metrics) |
+| 26 | [x] | [x] | PASS |
+| 27 | [x] | [x] | PASS |
+| 28 | [x] | [x] | PASS |
 

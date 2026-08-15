@@ -1,6 +1,8 @@
 # ⚖️ Hệ thống Kiến thức Pháp lý Toàn diện
 
 > **"Pháp luật không ưu ái người nào, nhưng bảo vệ những ai biết về nó."**
+>
+> **Catalog đạo luật VN** (số hiệu, hiệu lực, ghi chú VBQPPL) → [`guides/06-vn-law/`](../../06-vn-law/README.md). Folder này là **thực hành** (HĐLĐ, thuế, NDA, quyền lợi).
 
 Hệ thống kiến thức pháp lý thực tế cho mọi người - từ đời sống cá nhân đến kinh doanh, từ người đi làm đến developers.
 

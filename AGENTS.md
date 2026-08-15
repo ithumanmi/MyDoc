@@ -17,7 +17,7 @@ Do **not** start by grepping random long files unless routing fails.
 | Path | Role | Agent priority |
 | --- | --- | --- |
 | `domains/` | Technical curricula (15 domains) | High for tech Qs |
-| `guides/` | Career, wealth, mental models, lifestyle **theory** | High for soft/life theory |
+| `guides/` | Career, wealth, mental models, lifestyle **theory**, Luật VN | High for soft/life theory |
 | `personal/` | **User’s private records** (meals, sleep, habits) | Only when asked about *their* logs |
 | `challenges/` | Practice drills | After theory, for “how do I practice” |
 | `templates/` | Blank forms | When scaffolding |
@@ -48,6 +48,7 @@ Maturity of domains: see [`domains/README.md`](./domains/README.md) (Stable / Dr
   [`endocrine-hormone-map.md`](./guides/04-lifestyle-os/health/endocrine-hormone-map.md) →  
   [`endocrine-control-playbook.md`](./guides/04-lifestyle-os/health/endocrine-control-playbook.md)
 - Health theory hub → [`guides/04-lifestyle-os/health/README.md`](./guides/04-lifestyle-os/health/README.md) (not `personal/`)
+- Luật Việt Nam (catalog VBQPPL, ghi chú đạo luật) → [`guides/06-vn-law/README.md`](./guides/06-vn-law/README.md) → [`catalog.yaml`](./guides/06-vn-law/catalog.yaml). Thực hành HĐ/thuế/NDA → [`guides/02-wealth-business/legal/`](./guides/02-wealth-business/legal/README.md). Làm luật / tư pháp → [`politics/vietnam/`](./guides/04-lifestyle-os/politics/vietnam/README.md). Không bịa số hiệu; đối chiếu Công báo/VBPL. Educational, not legal advice.
 
 ## 3. `personal/` rules
 
@@ -76,6 +77,7 @@ Deep-dives may exceed 500–800 lines. Use the **Agent SUMMARY** block at the to
 - Exclude patterns: [`meta/catalog/rag-exclude.txt`](./meta/catalog/rag-exclude.txt)
 - Eval questions: [`meta/eval/questions.md`](./meta/eval/questions.md)
 - Validate topic paths: `python scripts/check_agent_catalog.py`
+- Validate Luật VN catalog: `python scripts/check_vn_law_catalog.py`
 
 ## 7. Anti-patterns
 

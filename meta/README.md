@@ -22,6 +22,7 @@ Machine-oriented layer for Cursor agents and external RAG. Human landing still s
 
 ```bash
 python scripts/check_agent_catalog.py
+python scripts/check_vn_law_catalog.py
 python scripts/check_agent_eval_paths.py
 python scripts/smoke_agent_routing.py
 python scripts/check_links.py

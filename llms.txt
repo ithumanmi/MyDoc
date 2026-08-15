@@ -25,11 +25,18 @@
 - guides/03-career-skills/ — includes Learning OS (meta-skills/learning-os-framework.md)
 - guides/04-lifestyle-os/ — well-being, hormones, Life OS theory
 - guides/05-games-os/ — Games OS umbrella (make/play/earn/follow)
+- guides/06-vn-law/ — Vietnamese law knowledge + VBQPPL catalog (not legal advice)
 
 ### Canonical Games OS
 - guides/05-games-os/README.md
 - guides/05-games-os/games-os-map.md
 - guides/05-games-os/games-os-playbook.md
+
+### Canonical VN Law
+- guides/06-vn-law/README.md
+- guides/06-vn-law/vn-law-map.md
+- guides/06-vn-law/catalog.yaml
+- guides/06-vn-law/legal-hierarchy.md
 
 ### Game design analyses (Make)
 - domains/game-dev/analyses/README.md — full-pack index (pitch·GDD·economy·teardown·playtest·postmortem)

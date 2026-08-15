@@ -75,11 +75,14 @@ Lộ trình này được thiết kế đi từ nền tảng tư duy đến các
 *   **🌌 [Stoicism for Women (Khắc kỷ cho Phụ nữ)](./practical-applications/stoicism-for-women.md):** ⭐ **NEW** Xây dựng pháo đài nội tâm và chủ quyền cảm xúc.
 *   **[Inner Strength (Thời không thuận, Đạo phải sâu)](./practical-applications/inner-strength-in-adversity.md):** ⭐ **NEW** Rèn rễ tâm khi đời gặp bão tố.
 *   **[The Awakened Fury (Cơn Thịnh Nộ Thức Tỉnh)](./awakened-fury.md):** ⭐ **NEW** Khi người lương thiện buộc phải cầm kiếm vì công lý.
-*   **[Changing Destiny (Nghịch Thiên Cải Mệnh)](./practical-applications/changing-destiny.md):** ⭐ **NEW** Công thức khoa học để viết lại số phận (Đức năng thắng số).
+*   **[Bắt đầu hành trình cải biến cuộc đời](./practical-applications/bat-dau-hanh-trinh-cai-bien-cuoc-doi.md):** ⭐ **NEW** Playbook Day 0–7 (chí · lỗi trụ · 3 ô).
+*   **[Changing Destiny (Nghịch Thiên Cải Mệnh)](./practical-applications/changing-destiny.md):** Công thức Life OS để viết lại số phận (Đức năng thắng số).
+*   **[Lập thiên cải mệnh — Liễu Phàm Tứ Huấn](./practical-applications/lap-thien-cai-menh.md):** Tư tưởng cốt lõi lập mệnh · sửa lỗi · tích thiện · khiêm · chân/cực thiện.
 *   **[The Existential Mindset (Tư duy Hiện sinh)](./practical-applications/existential-mindset.md):** ⭐ **NEW** 6 dấu hiệu bạn đang sống sâu sắc hơn đám đông (hack não).
 *   **[Chiến thắng chính mình](./chien-thang-chinh-minh.md):** ⭐ **NEW** Nhìn ra lỗi để tỉnh thức, sửa lỗi để có bản lĩnh, chấp nhận người khác để rộng tâm, chiến thắng bản thân là tu hành thật sự.
 *   **[Logic trong đời sống](./practical-applications/logic-in-daily-life.md):** Áp dụng logic học vào họp, news, quyết định (sau nền Fallacies).
 *   **[Decision Making Frameworks](./practical-applications/decision-making-frameworks.md):** Ra quyết định dựa trên triết học.
+*   **[Người giỏi nhìn thấy điều chưa xảy ra](./practical-applications/anticipate-before-you-leave.md):** ⭐ **NEW** Ít gặp vấn đề vì đã thấy trước rồi chặn hệ thống. Thất bại có địa chỉ: 4 tầng (cuộc chơi → chiến lược → lực → tình huống) — đừng vá tầng 4 khi lỗi ở tầng 1.
 *   **[Nâng cao năng lực ra quyết định (đời sống & công việc)](../../04-lifestyle-os/life-os/decision-capability.md):** Triage · bias · scenario life/work · calibration · drill.
 *   **[Meaning & Purpose](./practical-applications/meaning-and-purpose.md):** Tìm kiếm ý nghĩa cuộc sống (Frankl).
 *   **[Ethics in Tech](./practical-applications/ethics-in-tech.md):** Đạo đức trong AI và công nghệ.

@@ -41,7 +41,9 @@ personal/
 ├── config.yaml            ← targets & weights
 ├── dashboard.md
 ├── daily/YYYY/YYYY-MM-DD.md
+│   └── daily/README.md    ← giải thích từng phần daily entry
 ├── nutrition/YYYY/YYYY-MM-DD.md
+├── skincare/YYYY/YYYY-MM-DD.md
 ├── body/metrics.csv
 ├── habits/
 ├── weekly/YYYY/YYYY-Www.md
@@ -54,7 +56,8 @@ personal/
 | --- | --- | --- |
 | Sáng (2′) | Goals + sleep từ đêm qua | `daily/…` + 1 dòng `body/metrics.csv` |
 | Mỗi bữa (1′) | Ghi meal + ước lượng | `nutrition/…` |
-| Tối (5–8′) | Energy, deep work, habits, mood | `daily/…` + `habits/YYYY-MM.md` |
+| AM/PM (1′) | Skincare tick | `skincare/…` |
+| Tối (5–8′) | Energy, deep work, habits, mood | `daily/…` + `habits/YYYY-MM.md` — **cách điền:** [`daily/README.md`](./daily/README.md) |
 | Chủ nhật (20′) | Week summary + score + dashboard | `python scripts/personal_week_summary.py --week YYYY-Www --write` |
 | Cuối tháng (30′) | Monthly review | `monthly/YYYY-MM.md` |
 
@@ -82,6 +85,7 @@ python scripts/personal_week_summary.py --week 2026-W32 --write
 | --- | --- | --- |
 | Ngủ / HRV | [sleep-optimization](../guides/04-lifestyle-os/health/sleep-optimization.md) | `body/metrics.csv` |
 | Glucose / ăn | [glucose-insulin](../guides/04-lifestyle-os/health/glucose-insulin-system.md) | `nutrition/` |
+| Skincare | (log only · không protocol dài) | `skincare/` + link daily |
 | **Toàn map hormone** | **[endocrine-hormone-map](../guides/04-lifestyle-os/health/endocrine-hormone-map.md)** | daily mood/energy + sleep + craving |
 | Energy / deep work | [energy-management](../guides/04-lifestyle-os/life-os/energy-management.md) | `daily/` |
 | Weekly reflection | [weekly-review template](../templates/personal/weekly-review-personal.md) | `weekly/` + score script |

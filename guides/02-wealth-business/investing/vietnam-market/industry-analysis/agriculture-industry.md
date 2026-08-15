@@ -70,6 +70,7 @@ Tài liệu này phân tích chu kỳ giá nông sản và sự lên ngôi của
 ---
 
 ## 📚 Tài liệu liên quan
+*   [Khái quát nông nghiệp thế giới & Đông Nam Á 2024 (FAO)](../../../finance/macro/global-agriculture-sea-overview.md)
 *   [Ngành Phân Bón (Đầu vào nông nghiệp)](./fertilizer-industry.md)
 *   [Ngành Thực Phẩm & Đồ Uống (Hạ nguồn)](./food-beverage-industry.md)
 *   [Kinh tế Vi mô (Cung & Cầu)](../../advanced/microeconomics.md)

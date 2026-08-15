@@ -42,6 +42,7 @@ Phân tích các chu kỳ dài của hàng hóa (energy, metals, agriculture) v�
 - climate risk, El Niño/La Niña cycles.
 - fertilizer price (urea, potash) ảnh hưởng yield.
 - food security policies (export bans) → price spikes.
+- Bối cảnh quy mô 2024 (FAO): [Nông nghiệp thế giới & Đông Nam Á](./global-agriculture-sea-overview.md).
 
 ---
 

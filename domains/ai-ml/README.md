@@ -121,6 +121,7 @@ graph TD
     *   **[Kaggle Competition Guide](./labs/kaggle-competition-guide.md):** Checklist chuẩn bị dữ liệu, baseline, submit và tối ưu leaderboard.
     *   **[Project RAG Chatbot](./labs/project-rag-chatbot.md):** Thiết kế kiến trúc RAG, chunking, retriever hybrid và UX chat.
     *   **[Colab GPU Tips](./labs/colab-gpu-tips.md):** Tối ưu quota, mixed precision, profile GPU và mẹo tiết kiệm chi phí.
+    *   **[NVIDIA AI models](./labs/nvidia-ai-models.md):** Hosted NIM API (build.nvidia.com), self-host Docker, RTX local, Hugging Face + TensorRT-LLM.
 
 ### **3. Deep Learning (Mạng nơ-ron)**
 *   **[Neural Networks 101](./deep-learning/neural-networks-101.md):** Perceptron, Backpropagation và các hàm kích hoạt (ReLU, Sigmoid).
@@ -221,6 +222,7 @@ graph TD
 *   **Environment:** Jupyter Notebook, Google Colab, Kaggle.
 *   **Tracking:** MLflow, Weights & Biases (W&B).
 *   **Hardware:** [AI Hardware Landscape](./ai-hardware-guide.md) – GPU/TPU/edge devices, checklist chọn hạ tầng AI.
+*   **NVIDIA models:** [Sử dụng AI models của NVIDIA](./labs/nvidia-ai-models.md) – NIM hosted/self-host, Nemotron, OpenAI-compatible API.
 
 ---
 

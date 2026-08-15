@@ -44,6 +44,7 @@
 ## 🔗 Related Engines
 - **Alignment Engine:** Chiến lược phải phù hợp vector sống dài hạn, dùng PCA + Regret test để lọc game → [Alignment Engine](./alignment-engine.md).
 - **Leverage Theory:** Khi đã chọn game đúng, kích hoạt đòn bẩy (Code, Media, Capital, People) để giành ưu thế → [Leverage Theory](./leverage-theory.md).
+- **Giải phẫu thất bại:** Thua thì hỏi tầng 1 (sai cuộc chơi) trước khi đổi tactic — [anticipate-before-you-leave](../../01-mental-models/philosophy/practical-applications/anticipate-before-you-leave.md) §5.
 
 ## 📝 Templates & Tools
 - [Game Selection Canvas](../../templates/productivity/game-selection.md)

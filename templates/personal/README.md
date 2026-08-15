@@ -5,7 +5,9 @@ Blank forms. Copy vào `personal/` — đừng ghi data thật ở đây.
 | Template | Dùng cho |
 | --- | --- |
 | [daily-entry.md](./daily-entry.md) | `personal/daily/YYYY/` |
+| **[Giải thích từng phần daily](../../personal/daily/README.md)** | Đọc hiểu Meta / Scores / Deep work / Habits… |
 | [nutrition-day.md](./nutrition-day.md) | `personal/nutrition/YYYY/` |
+| [skincare-day.md](./skincare-day.md) | `personal/skincare/YYYY/` · link từ daily |
 | [weekly-review-personal.md](./weekly-review-personal.md) | `personal/weekly/YYYY/` |
 | [monthly-review.md](./monthly-review.md) | `personal/monthly/YYYY-MM.md` |
 | [habit-month.md](./habit-month.md) | `personal/habits/YYYY-MM.md` |

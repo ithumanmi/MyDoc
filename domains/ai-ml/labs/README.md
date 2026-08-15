@@ -10,6 +10,7 @@ Tổng hợp lab thực chiến: Kaggle, Colab, project end-to-end, RAG chatbot 
 
 - **[Kaggle Competition Guide](./kaggle-competition-guide.md):** Chiến lược, teamwork, submission pipeline.
 - **[Colab GPU Tips](./colab-gpu-tips.md):** Tối ưu quota GPU miễn phí, tiết kiệm thời gian/chi phí.
+- **[NVIDIA AI models](./nvidia-ai-models.md):** Hosted NIM API → self-host Docker → RTX local → Hugging Face + TensorRT-LLM.
 
 ### 2. Classic ML Projects
 

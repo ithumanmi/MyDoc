@@ -98,7 +98,7 @@ domains/
 
 **Content Type:** Mental models, career strategies, life optimization
 
-**Strategic Pillars (4)** — ~900 Markdown files:
+**Strategic Pillars (6)** — ~900 Markdown files:
 
 ```
 guides/
@@ -110,7 +110,9 @@ guides/
 ├── 03-career-skills/     # career, growth, productivity, innovation, ielts,
 │                         # sales + career tracks: game-dev, mobile-dev,
 │                         # web-dev, blockchain, security, data-*
-└── 04-lifestyle-os/      # life-os, well-being, politics
+├── 04-lifestyle-os/      # life-os, well-being, politics
+├── 05-games-os/          # make / play / earn / follow umbrella
+└── 06-vn-law/            # Luật VN: catalog VBQPPL + notes (not legal advice)
 ```
 
 **Handling Overlaps (e.g., game-dev in both domains/ and guides/):**

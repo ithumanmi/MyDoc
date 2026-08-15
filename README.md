@@ -26,7 +26,7 @@ Hiểu cấu trúc để navigate hiệu quả. Mỗi mục lớn hiển thị *
 
 - **`personal/`** *(Life data | Last reviewed: Aug 2026)* – Daily, nutrition, body metrics, habits, weekly review (cá nhân)
 - **`domains/`** *(🟢 Stable → 🟠 Stub | Last reviewed: Aug 2026)* – 15 chuyên ngành kỹ thuật; xem maturity trên [`domains/README.md`](./domains/README.md)
-- **`guides/`** *(🟢 Foundation → 🔴 Advanced | Last reviewed: Aug 2026)* – Kỹ năng sống & sự nghiệp (4 pillars)
+- **`guides/`** *(🟢 Foundation → 🔴 Advanced | Last reviewed: Aug 2026)* – Kỹ năng sống & sự nghiệp (6 pillars, gồm Luật VN)
 - **`chapters/`** *(🟢 Beginner Path | Last reviewed: Feb 2026)* – Lộ trình học tuần tự (Chương 1-10)
 - **`challenges/`** *(Practice | Last reviewed: Aug 2026)* – Kata / drills theo domain (cân bằng theory vs practice)
 - **`templates/`** *(All levels | Last reviewed: Jan 2026)* – Templates ready-to-use (Weekly Review, OKR, Post-mortem...)

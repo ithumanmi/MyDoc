@@ -25,6 +25,7 @@ updated: 2026-03-13
 | **Global Indicators** | [Global Macro Indicators Dashboard](macro/global-macro-indicators.md) – bảng điều khiển PMI, liquidity, credit. |
 | **Currency Dynamics** | [Currency Dynamics & FX Playbook](macro/currency-dynamics.md) – theo dõi USD regime và quản trị rủi ro FX. |
 | **Commodity Supercycles** | [Commodity Supercycle Tracker](macro/commodity-supercycles.md) – khung theo dõi energy/metals/agri chu kỳ dài. |
+| **Global Agriculture & SEA** | [Nông nghiệp thế giới & Đông Nam Á 2024](macro/global-agriculture-sea-overview.md) – giá trị sản xuất FAO, TQ/Ấn/Mỹ/Brazil, Indonesia–Việt Nam–Thái Lan. |
 | **Geopolitics & Supply Chain** | [Geopolitics & Supply Chain Playbook](macro/geopolitics-supply-chain.md) – tác động địa chính trị lên logistics & energy. |
 | **Money Flow Intelligence** | [Money Flow Intelligence](macro/money-flow-intelligence.md) – cách map dòng tiền doanh nghiệp/đầu tư. |
 | **Personal Finance Module** | [Personal Finance Module](personal-finance/README.md) – budgeting, quỹ khẩn cấp, trả nợ, bảo hiểm, hưu trí & tối ưu thuế (VN). |

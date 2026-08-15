@@ -6,6 +6,13 @@
 
 Tài nguyên web / SaaS liên quan AI, LLM và Agents (không phải repo clone).
 
+## NVIDIA NIM & models
+
+*   [build.nvidia.com](https://build.nvidia.com) — Catalog NIM hosted (OpenAI-compatible).
+*   [API Catalog Quickstart](https://docs.api.nvidia.com/nim/docs/api-quickstart)
+*   [Hugging Face nvidia](https://huggingface.co/nvidia) — Nemotron / Llama-Nemotron weights.
+*   How-to trong repo: [`domains/ai-ml/labs/nvidia-ai-models.md`](../../domains/ai-ml/labs/nvidia-ai-models.md)
+
 ## Tools & Platforms
 
 *   [OpenCode.ai](https://opencode.ai/) - Trang chủ OpenCode.

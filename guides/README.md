@@ -11,6 +11,7 @@ related:
   - 03-career-skills/README.md
   - 04-lifestyle-os/README.md
   - 05-games-os/README.md
+  - 06-vn-law/README.md
 sensitivity: public
 ---
 
@@ -76,8 +77,8 @@ Chào mừng đến với thư viện hướng dẫn chuyên sâu. Tại đây t
 *   **[🤑 MMO Roadmap (Kiếm tiền Online)](./02-wealth-business/mmo-roadmap/README.md)**
     *   Lộ trình từ Zero đến $1000 đầu tiên (Affiliate, Dropship, Crypto).
 *   **[⚖️ Legal Resources (Kiến thức Pháp lý)](./02-wealth-business/legal/README.md)** ⭐ **NEW**
-    *   IP, Contracts, Privacy Laws, Business Structures.
-    *   Vietnam-specific + Global perspectives.
+    *   IP, Contracts, Privacy Laws, Business Structures — thực hành đời sống/startup.
+    *   Catalog đạo luật VN (số hiệu, ngành luật) → [06-vn-law](./06-vn-law/README.md).
 *   **[📊 Finance (Tài chính Cá nhân)](./02-wealth-business/finance/economic-cycles.md)**
     *   Chu kỳ kinh tế, chính sách tiền tệ và dòng tiền.
 
@@ -130,6 +131,13 @@ Chào mừng đến với thư viện hướng dẫn chuyên sâu. Tại đây t
 *   **[🎮 Games OS Hub](./05-games-os/README.md)** ⭐ **NEW**
     *   Umbrella: làm game, chơi bền, sự nghiệp, tin play-culture + industry.
     *   Map: [games-os-map.md](./05-games-os/games-os-map.md) · Playbook: [games-os-playbook.md](./05-games-os/games-os-playbook.md)
+
+## ⚖️ Luật Việt Nam (catalog VBQPPL)
+
+*   **[Luật VN Hub](./06-vn-law/README.md)** ⭐ **NEW**
+    *   Database văn bản: [catalog.yaml](./06-vn-law/catalog.yaml) · Map ngành: [vn-law-map.md](./06-vn-law/vn-law-map.md)
+    *   Thứ bậc Hiến pháp → Luật → NĐ → TT: [legal-hierarchy.md](./06-vn-law/legal-hierarchy.md)
+    *   Thực hành HĐ/thuế/NDA vẫn ở [Legal Resources](./02-wealth-business/legal/README.md). Không phải tư vấn pháp lý.
 
 ---
 

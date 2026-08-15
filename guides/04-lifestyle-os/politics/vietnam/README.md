@@ -25,6 +25,7 @@ updated: 2026-03-17
 **Lộ trình đề xuất:** Party Structure → Legislative Process → Administration/Local Gov → Judicial → Power Control → Mass Orgs → News & Intelligence.
 
 **Cross-links:**
+- [Luật VN catalog](../../../06-vn-law/README.md) – database VBQPPL, thứ bậc hiệu lực, ghi chú đạo luật (không phải tư vấn).
 - [Geopolitics](../geopolitics/README.md) – đối ngoại gắn với cấu trúc đối nội.
 - [Fundamentals](../fundamentals/README.md) – đặt hệ thống VN trong khung thể chế chung.
 - [Follow the Money](../follow-the-money.md) – truy vết ngân sách, chủ quản, dự án để phân biệt tuyên bố và thực thi.

@@ -45,3 +45,9 @@ User asks "everything about games" / leisure / news?
 | Theory | Records |
 | --- | --- |
 | [`guides/04-lifestyle-os/health/`](../guides/04-lifestyle-os/health/README.md) | [`personal/`](../personal/README.md) |
+
+## Civic / law (not tech overlap)
+
+| Corpus (what the law is) | Practice (how to stay safe) | Institutions (how law is made) |
+| --- | --- | --- |
+| [`guides/06-vn-law/`](../guides/06-vn-law/README.md) | [`guides/02-wealth-business/legal/`](../guides/02-wealth-business/legal/README.md) | [`guides/04-lifestyle-os/politics/vietnam/`](../guides/04-lifestyle-os/politics/vietnam/README.md) |

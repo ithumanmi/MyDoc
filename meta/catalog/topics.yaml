@@ -1,7 +1,7 @@
 # Topic catalog (machine-oriented)
 
 version: 1
-updated: 2026-08-10
+updated: 2026-08-14
 schema: meta/catalog/FRONTMATTER.md
 
 topics:
@@ -190,7 +190,24 @@ topics:
   - id: domain.ai_ml
     aliases: [ai, ml, llm, rag, machine learning]
     canonical: domains/ai-ml/README.md
-    related: [challenges/ai-ml/README.md]
+    related: [challenges/ai-ml/README.md, domains/ai-ml/labs/nvidia-ai-models.md]
+
+  - id: ai.nvidia_models
+    aliases:
+      - nvidia nim
+      - nemotron
+      - build.nvidia.com
+      - nvidia api
+      - nvidia ai models
+      - nvapi
+      - NVIDIA Inference Microservices
+    canonical: domains/ai-ml/labs/nvidia-ai-models.md
+    related:
+      - domains/ai-ml/nlp/llm-inference-optimization.md
+      - domains/ai-ml/agents/advanced/local-agents.md
+      - domains/ai-ml/mlops/llmops.md
+      - domains/ai-ml/ai-hardware-guide.md
+      - domains/ai-ml/nlp/small-language-models.md
 
   - id: domain.devops
     aliases: [devops, sre, kubernetes, terraform]
@@ -238,6 +255,84 @@ topics:
       - guides/05-games-os/follow/weekly-games-brief-template.md
       - guides/05-games-os/follow/industry-radar.md
       - guides/05-games-os/follow/play-culture-radar.md
+
+  - id: vn_law.hub
+    aliases:
+      - luật việt nam
+      - pháp luật VN
+      - vn-law
+      - catalog luật
+      - VBQPPL
+      - kiến thức luật VN
+    canonical: guides/06-vn-law/README.md
+    related:
+      - guides/06-vn-law/catalog.yaml
+      - guides/06-vn-law/vn-law-map.md
+      - guides/06-vn-law/legal-hierarchy.md
+      - guides/06-vn-law/SCHEMA.md
+      - guides/06-vn-law/sources.md
+      - guides/02-wealth-business/legal/README.md
+      - guides/04-lifestyle-os/politics/vietnam/README.md
+
+  - id: vn_law.catalog
+    aliases: [catalog luật, database luật, số hiệu luật, VBQPPL catalog]
+    canonical: guides/06-vn-law/catalog.yaml
+    related:
+      - guides/06-vn-law/SCHEMA.md
+      - guides/06-vn-law/README.md
+
+  - id: vn_law.hierarchy
+    aliases:
+      - thứ bậc văn bản
+      - hiến pháp luật nghị định thông tư
+      - hiệu lực VBQPPL
+      - kim tự tháp pháp luật
+    canonical: guides/06-vn-law/legal-hierarchy.md
+    related:
+      - guides/06-vn-law/README.md
+      - guides/04-lifestyle-os/politics/vietnam/legislative-process.md
+
+  - id: vn_law.hien_phap
+    aliases: [hiến pháp 2013, hiến pháp việt nam]
+    canonical: guides/06-vn-law/notes/hien-phap-2013.md
+    related:
+      - guides/06-vn-law/legal-hierarchy.md
+      - guides/04-lifestyle-os/politics/vietnam/README.md
+
+  - id: vn_law.dan_su
+    aliases: [bộ luật dân sự, BLDS, luật dân sự]
+    canonical: guides/06-vn-law/notes/bo-luat-dan-su-2015.md
+    related:
+      - guides/06-vn-law/catalog.yaml
+      - guides/02-wealth-business/legal/fundamentals/legal-101.md
+
+  - id: vn_law.hinh_su
+    aliases: [bộ luật hình sự, BLHS, luật hình sự]
+    canonical: guides/06-vn-law/notes/bo-luat-hinh-su-2015.md
+    related:
+      - guides/06-vn-law/catalog.yaml
+      - guides/04-lifestyle-os/politics/vietnam/judicial-system.md
+
+  - id: vn_law.lao_dong
+    aliases: [bộ luật lao động, BLLĐ, luật lao động VN]
+    canonical: guides/06-vn-law/notes/bo-luat-lao-dong-2019.md
+    related:
+      - guides/06-vn-law/catalog.yaml
+      - guides/02-wealth-business/legal/employment/labor-contract.md
+
+  - id: vn_law.dat_dai
+    aliases: [luật đất đai 2024, luật đất đai]
+    canonical: guides/06-vn-law/notes/luat-dat-dai-2024.md
+    related:
+      - guides/06-vn-law/catalog.yaml
+      - guides/02-wealth-business/legal/personal/real-estate-personal.md
+
+  - id: vn_law.doanh_nghiep
+    aliases: [luật doanh nghiệp, LDN 2020]
+    canonical: guides/06-vn-law/notes/luat-doanh-nghiep-2020.md
+    related:
+      - guides/06-vn-law/catalog.yaml
+      - guides/02-wealth-business/legal/business/business-structures.md
 
   - id: game.systems_teardown
     aliases:
@@ -430,7 +525,45 @@ topics:
       - guides/01-mental-models/philosophy/practical-applications/stoicism-for-modern-life.md
       - guides/01-mental-models/philosophy/practical-applications/ethics-in-tech.md
       - guides/01-mental-models/philosophy/practical-applications/logic-in-daily-life.md
+      - guides/01-mental-models/philosophy/practical-applications/lap-thien-cai-menh.md
       - guides/01-mental-models/psychology/practical-applications/reading-people-responsibility.md
+
+  - id: philosophy.bat_dau_cai_bien
+    aliases:
+      - bắt đầu hành trình cải biến cuộc đời
+      - cải biến cuộc đời
+      - lập chí cải mệnh
+      - day 0 cải mệnh
+      - 3 ô cải mệnh
+    canonical: guides/01-mental-models/philosophy/practical-applications/bat-dau-hanh-trinh-cai-bien-cuoc-doi.md
+    related:
+      - guides/01-mental-models/philosophy/practical-applications/lap-thien-cai-menh.md
+      - guides/01-mental-models/philosophy/practical-applications/changing-destiny.md
+      - guides/01-mental-models/philosophy/chien-thang-chinh-minh.md
+      - guides/01-mental-models/philosophy/practical-applications/inner-strength-in-adversity.md
+      - personal/daily/README.md
+
+  - id: philosophy.lap_thien_cai_menh
+    aliases:
+      - lập thiên cải mệnh
+      - lập mệnh
+      - cải mệnh
+      - Liễu Phàm Tứ Huấn
+      - Liao-Fan Four Lessons
+      - 了凡四訓
+      - chân thiện
+      - cực thiện
+      - âm đức
+      - nghịch thiên cải mệnh cổ điển
+    canonical: guides/01-mental-models/philosophy/practical-applications/lap-thien-cai-menh.md
+    related:
+      - guides/01-mental-models/philosophy/practical-applications/bat-dau-hanh-trinh-cai-bien-cuoc-doi.md
+      - guides/01-mental-models/philosophy/practical-applications/changing-destiny.md
+      - guides/01-mental-models/philosophy/chien-thang-chinh-minh.md
+      - guides/01-mental-models/philosophy/practical-applications/ethics-in-daily-life.md
+      - guides/01-mental-models/philosophy/practical-applications/inner-strength-in-adversity.md
+      - guides/01-mental-models/philosophy/schools-and-thinkers/confucianism-deep-dive.md
+      - guides/01-mental-models/philosophy/schools-and-thinkers/eastern-philosophy.md
 
   - id: philosophy.logic_daily
     aliases:
@@ -474,6 +607,42 @@ topics:
       - guides/03-career-skills/innovation/pre-mortem-technique.md
       - guides/03-career-skills/sales-telesales/negotiation-composure-playbook.md
       - templates/decision-journal.md
+      - guides/01-mental-models/philosophy/practical-applications/anticipate-before-you-leave.md
+
+  - id: philosophy.anticipate_before_you_leave
+    aliases:
+      - thất bại nhìn vào đâu
+      - mô phỏng hiện thực trước khi vận hành
+      - kế hoạch trong đầu trước giấy
+      - người giỏi ít gặp vấn đề
+      - thiết kế hệ thống chặn sự cố
+      - poka-yoke đời sống
+      - người giỏi nhìn thấy điều chưa xảy ra
+      - người giỏi lường trước
+      - kế hoạch trong đầu trước khi ra ngoài
+      - anticipate problems
+      - mental rehearsal if-then
+      - lường trước vấn đề chưa xảy ra
+      - implementation intention
+      - giải phẫu thất bại
+      - 4 tầng thất bại
+      - chọn sai cuộc chơi
+      - thất bại có địa chỉ
+    canonical: guides/01-mental-models/philosophy/practical-applications/anticipate-before-you-leave.md
+    related:
+      - guides/01-mental-models/philosophy/practical-applications/stoicism-daily.md
+      - guides/01-mental-models/philosophy/practical-applications/decision-making-frameworks.md
+      - guides/03-career-skills/innovation/pre-mortem-technique.md
+      - guides/04-lifestyle-os/life-os/decision-capability.md
+      - guides/04-lifestyle-os/life-os/strategy-engine.md
+      - guides/04-lifestyle-os/life-os/alignment-engine.md
+      - guides/04-lifestyle-os/life-os/risk-engine.md
+      - guides/01-mental-models/failure-management-system.md
+      - guides/01-mental-models/psychology/fundamentals/predictive-processing.md
+      - guides/01-mental-models/engineering/inversion.md
+      - guides/03-career-skills/productivity/core-skills/experience-digestion.md
+      - guides/03-career-skills/productivity/meta-skills/meta-thinking-bias-filter.md
+      - templates/project-post-mortem.md
 
   - id: lifestyle.fun_maxing
     aliases:
@@ -637,6 +806,20 @@ topics:
     aliases: [wealth, business, investing, entrepreneurship]
     canonical: guides/02-wealth-business/README.md
     related: [guides/README.md]
+
+  - id: wealth.global_agriculture_sea
+    aliases:
+      - nông nghiệp thế giới
+      - FAO agriculture
+      - sản lượng nông nghiệp Đông Nam Á
+      - giá trị sản xuất nông nghiệp
+      - nông nghiệp Indonesia Việt Nam Thái Lan
+    canonical: guides/02-wealth-business/finance/macro/global-agriculture-sea-overview.md
+    related:
+      - guides/02-wealth-business/finance/macro/commodity-supercycles.md
+      - guides/02-wealth-business/investing/vietnam-market/industry-analysis/agriculture-industry.md
+      - guides/02-wealth-business/finance/macro/geopolitics-supply-chain.md
+      - guides/04-lifestyle-os/politics/geopolitics/political-economy.md
 
   - id: guides.career
     aliases: [career skills, soft skills, productivity hub]

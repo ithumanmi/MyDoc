@@ -31,8 +31,24 @@ Legend: **Canonical** = prefer first. Related = optional depth.
 | Solidity escrow challenge | [`challenge-solidity-escrow.md`](../challenges/blockchain/challenge-solidity-escrow.md) | blockchain challenges hub |
 | lakehouse ELT project | [`lakehouse-ecommerce-elt.md`](../domains/data-science/projects/lakehouse-ecommerce-elt.md) | data-science README |
 | URL shortener design drill | [`challenge-design-url-shortener.md`](../challenges/system-design/challenge-design-url-shortener.md) | system-design challenges |
-
+| NVIDIA NIM, Nemotron, build.nvidia.com, NVIDIA AI models, nvapi | [`nvidia-ai-models.md`](../domains/ai-ml/labs/nvidia-ai-models.md) | [`llm-inference-optimization.md`](../domains/ai-ml/nlp/llm-inference-optimization.md), [`local-agents.md`](../domains/ai-ml/agents/advanced/local-agents.md) |
 | overlapping tech vs career (game, web, blockchain…) | [`meta/domain-guide-map.md`](./domain-guide-map.md) | domain + career READMEs |
+
+---
+
+## Luật Việt Nam (VBQPPL catalog)
+
+| Topic / aliases | Canonical | Related |
+| --- | --- | --- |
+| luật việt nam, pháp luật VN, vn-law, catalog luật, VBQPPL | [`guides/06-vn-law/README.md`](../guides/06-vn-law/README.md) | [`catalog.yaml`](../guides/06-vn-law/catalog.yaml), [`vn-law-map.md`](../guides/06-vn-law/vn-law-map.md) |
+| thứ bậc văn bản, hiến pháp luật nghị định thông tư, hiệu lực VBQPPL | [`legal-hierarchy.md`](../guides/06-vn-law/legal-hierarchy.md) | vn-law hub, [`legislative-process.md`](../guides/04-lifestyle-os/politics/vietnam/legislative-process.md) |
+| hiến pháp 2013 | [`hien-phap-2013.md`](../guides/06-vn-law/notes/hien-phap-2013.md) | legal-hierarchy, politics/vietnam |
+| bộ luật dân sự, BLDS | [`bo-luat-dan-su-2015.md`](../guides/06-vn-law/notes/bo-luat-dan-su-2015.md) | catalog, legal-101 |
+| bộ luật hình sự, BLHS | [`bo-luat-hinh-su-2015.md`](../guides/06-vn-law/notes/bo-luat-hinh-su-2015.md) | catalog, judicial-system |
+| bộ luật lao động, BLLĐ, luật lao động VN | [`bo-luat-lao-dong-2019.md`](../guides/06-vn-law/notes/bo-luat-lao-dong-2019.md) | [`labor-contract.md`](../guides/02-wealth-business/legal/employment/labor-contract.md) |
+| luật đất đai 2024 | [`luat-dat-dai-2024.md`](../guides/06-vn-law/notes/luat-dat-dai-2024.md) | [`real-estate-personal.md`](../guides/02-wealth-business/legal/personal/real-estate-personal.md) |
+| luật doanh nghiệp | [`luat-doanh-nghiep-2020.md`](../guides/06-vn-law/notes/luat-doanh-nghiep-2020.md) | [`business-structures.md`](../guides/02-wealth-business/legal/business/business-structures.md) |
+| HĐLĐ / NDA / thuế DN thực hành (không phải catalog luật) | [`guides/02-wealth-business/legal/README.md`](../guides/02-wealth-business/legal/README.md) | vn-law hub |
 
 ---
 
@@ -49,8 +65,11 @@ Legend: **Canonical** = prefer first. Related = optional depth.
 | outcome independence stoicism, OI × khắc kỷ, dichotomy of control validation | [`outcome-independence-stoicism.md`](../guides/04-lifestyle-os/life-os/outcome-independence-stoicism.md) | outcome-independence, stoicism-for-modern-life |
 | Meditations psychology, Marcus Aurelius CBT, Suy ngẫm quản trị cảm xúc | [`meditations-psychology-lessons.md`](../guides/04-lifestyle-os/well-being/mental-resilience/meditations-psychology-lessons.md) | stoicism-for-modern-life, cbt, mindfulness, outcome-independence-stoicism |
 | ethics in daily life, đạo đức học thực hành, ra quyết định đạo đức | [`ethics-in-daily-life.md`](../guides/01-mental-models/philosophy/practical-applications/ethics-in-daily-life.md) | branches-of-philosophy, stoicism, gia-phong |
+| bắt đầu hành trình cải biến cuộc đời, cải biến cuộc đời, lập chí cải mệnh, day 0 cải mệnh | [`bat-dau-hanh-trinh-cai-bien-cuoc-doi.md`](../guides/01-mental-models/philosophy/practical-applications/bat-dau-hanh-trinh-cai-bien-cuoc-doi.md) | lap-thien-cai-menh, changing-destiny, chien-thang-chinh-minh |
+| lập thiên cải mệnh, lập mệnh, Liễu Phàm Tứ Huấn, Liao-Fan Four Lessons, cải mệnh, chân thiện, cực thiện | [`lap-thien-cai-menh.md`](../guides/01-mental-models/philosophy/practical-applications/lap-thien-cai-menh.md) | bat-dau-hanh-trinh, changing-destiny, chien-thang-chinh-minh, ethics |
 | logic in daily life, áp dụng logic học, suy luận thực tế, deduction induction abduction | [`logic-in-daily-life.md`](../guides/01-mental-models/philosophy/practical-applications/logic-in-daily-life.md) | logic-and-fallacies, critical-thinking-basics, meta-thinking-bias-filter |
 | decision capability, nâng cao năng lực ra quyết định, quyết định đời sống công việc, calibration quyết định, triage Type 1 Type 2 | [`decision-capability.md`](../guides/04-lifestyle-os/life-os/decision-capability.md) | decision-engine, decision-making-frameworks, bias-filter, pre-mortem |
+| thất bại nhìn vào đâu, giải phẫu thất bại, 4 tầng thất bại, chọn sai cuộc chơi, thất bại có địa chỉ, mô phỏng hiện thực trước khi vận hành, kế hoạch trong đầu trước giấy, người giỏi ít gặp vấn đề, thiết kế hệ thống chặn sự cố, người giỏi nhìn thấy điều chưa xảy ra, poka-yoke đời sống | [`anticipate-before-you-leave.md`](../guides/01-mental-models/philosophy/practical-applications/anticipate-before-you-leave.md) | strategy-engine, inversion, FMS, project-post-mortem, experience-digestion |
 | fun-maxing, fun maxing, tối ưu vui sống, deep fun, fun budget, hedonic treadmill, anti hustle gen z | [`fun-maxing.md`](../guides/04-lifestyle-os/life-os/fun-maxing.md) | high-quality-leisure, dopamine-system, energy-management, meaning-and-purpose |
 | psychological resilience, sức bền tâm lý, bounce back, 5 pillars resilience, Stockdale | [`psychological-resilience.md`](../guides/04-lifestyle-os/well-being/mental-resilience/psychological-resilience.md) | mental-toughness-protocol, meditations-psychology, sns-cortisol-brake, outcome-independence |
 | melatonin, sleep hormone | same cortisol-melatonin file | [`sleep-optimization.md`](../guides/04-lifestyle-os/health/sleep-optimization.md) |
@@ -70,7 +89,7 @@ Legend: **Canonical** = prefer first. Related = optional depth.
 
 | Topic / aliases | Canonical | Related |
 | --- | --- | --- |
-| guides hub | [`guides/README.md`](../guides/README.md) | 5 pillars below |
+| guides hub | [`guides/README.md`](../guides/README.md) | 6 pillars below |
 | mental models | [`guides/01-mental-models/README.md`](../guides/01-mental-models/README.md) | guides hub |
 | perception through models, não không nhìn thế giới trực tiếp, schema top-down | [`perception-through-models.md`](../guides/01-mental-models/psychology/fundamentals/perception-through-models.md) | cognition, cognitive-biases, meta-thinking, cbt |
 | predictive processing, predictive coding, xung dự báo, free energy, precision weighting | [`predictive-processing.md`](../guides/01-mental-models/psychology/fundamentals/predictive-processing.md) | perception-through-models, neuroscience-brain, dopamine-system |
@@ -80,6 +99,7 @@ Legend: **Canonical** = prefer first. Related = optional depth.
 | pre-mortem, phân tích trước thất bại, groupthink confirmation project | [`pre-mortem-technique.md`](../guides/03-career-skills/innovation/pre-mortem-technique.md) | decision-engine, project-pre-mortem template, bias-filter, rat-testing |
 | researching human behavior, nghiên cứu hành vi, ABC observation behavior | [`studying-human-behavior.md`](../guides/01-mental-models/psychology/practical-applications/studying-human-behavior.md) | behavior.md, behaviorism, social-psychology, reading-people-responsibility |
 | wealth, business, investing | [`guides/02-wealth-business/README.md`](../guides/02-wealth-business/README.md) | guides hub |
+| nông nghiệp thế giới, FAO agriculture, sản lượng nông nghiệp Đông Nam Á, giá trị sản xuất nông nghiệp | [`global-agriculture-sea-overview.md`](../guides/02-wealth-business/finance/macro/global-agriculture-sea-overview.md) | [`agriculture-industry.md`](../guides/02-wealth-business/investing/vietnam-market/industry-analysis/agriculture-industry.md), [`commodity-supercycles.md`](../guides/02-wealth-business/finance/macro/commodity-supercycles.md) |
 | career skills, productivity hub | [`guides/03-career-skills/README.md`](../guides/03-career-skills/README.md) | Learning OS |
 | negotiation composure, body language under pressure, strategic silence, BATNA mindset | [`negotiation-composure-playbook.md`](../guides/03-career-skills/sales-telesales/negotiation-composure-playbook.md) | [`influence-negotiation.md`](../guides/03-career-skills/productivity/core-skills/influence-negotiation.md), [`bond-body-language.md`](../guides/04-lifestyle-os/life-os/bond-body-language.md), [`negotiation-mastery-roadmap.md`](../guides/03-career-skills/sales-telesales/negotiation-mastery-roadmap.md) |
 | lifestyle OS, well-being theory | [`guides/04-lifestyle-os/README.md`](../guides/04-lifestyle-os/README.md) | personal/, Health OS |
@@ -87,6 +107,7 @@ Legend: **Canonical** = prefer first. Related = optional depth.
 | chapters beginner path | [`chapters/README.md`](../chapters/README.md) | QUICK-START |
 | tech vs career overlap | [`domain-guide-map.md`](./domain-guide-map.md) | domains INDEX, career skills hub |
 | Games OS umbrella (make/play/earn/follow) | [`guides/05-games-os/README.md`](../guides/05-games-os/README.md) | game-dev domain + career + play + follow |
+| Luật VN, catalog VBQPPL | [`guides/06-vn-law/README.md`](../guides/06-vn-law/README.md) | legal (thực hành), politics/vietnam |
 
 ---
 

@@ -1,23 +1,25 @@
 # Personal lifestyle targets (edit anytime)
 
 # Used by: scripts/personal_week_summary.py → Lifestyle score /100
+# Daily field guide: personal/daily/README.md
 
 targets:
   sleep_h_min: 7.0
   sleep_h_max: 9.0
   sleep_quality_min: 6          # 1–10
   deep_work_h_week: 10.0
-  workouts_week: 3
+  workouts_week: 3              # CSV rows with non-empty `training`
   nutrition_days_week: 7        # days with a nutrition file
   metrics_days_week: 7          # days with sleep_h or weight filled in CSV
 
-# Point weights must sum to 100
+# Point weights must sum to 100 (health-leaning v2)
 weights:
   sleep: 25
-  habits: 25
-  deep_work: 20
+  habits: 20
+  workouts: 15
+  deep_work: 15
   nutrition_days: 15
-  metrics_days: 15
+  metrics_days: 10
 
 # Habit marks in habits/YYYY-MM.md
 habit_marks:

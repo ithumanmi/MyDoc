@@ -44,6 +44,8 @@
 | Retail | [Retail Industry](./industry-analysis/retail-industry.md) | Bán lẻ đa ngành, mặt bằng, trang sức, dược, TMĐT | MWG, PNJ, FRT | Sức mua, lãi suất tiêu dùng, thuê mặt bằng | Doanh số bán lẻ, CPI, lãi suất tiêu dùng |
 | Food & Beverage | [Food & Beverage](./industry-analysis/food-beverage-industry.md) | Sữa, thực phẩm, bia; biên lợi nhuận, sức mua | VNM, MSN, SAB | Sức mua, giá nguyên liệu (sữa, malt), thuế | CPI thực phẩm/đồ uống, giá sữa/bột sữa, giá malt |
 | Agriculture & Livestock | [Agriculture & Livestock](./industry-analysis/agriculture-industry.md) | Chu kỳ giá nông sản, 3F, chi phí thức ăn chăn nuôi | DBC, BAF, LTG | Giá nông sản, chi phí thức ăn, dịch bệnh | Giá ngô/đậu nành, ASF/flu, CPI thực phẩm |
+
+Bối cảnh FAO toàn cầu / Đông Nam Á (không phải cổ phiếu): [Nông nghiệp thế giới & SEA 2024](../../finance/macro/global-agriculture-sea-overview.md).
 | Seafood | [Seafood](./industry-analysis/seafood-industry.md) | Xuất khẩu cá tra/tôm, biên FOB, thị trường Mỹ/EU/TQ | VHC, ANV, MPC | Giá bán FOB, thuế/phòng vệ thương mại, nhu cầu nhập khẩu | Giá cá tra nguyên liệu, USD/VND, data xuất khẩu thủy sản |
 | Sugar | [Sugar](./industry-analysis/sugar-industry.md) | Chu kỳ giá đường, thuế phòng vệ thương mại | SBT, QNS | Giá đường thế giới, chính sách nhập khẩu, thuế phòng vệ | Giá đường NY#11, Thái Lan, chính sách ATIGA |
 | Textile & Garment | [Textile & Garment](./industry-analysis/textile-garment.md) | Mô hình CMT→FOB→ODM, đơn hàng xuất khẩu | TCM, TNG, MSH | Đơn hàng xuất khẩu, USD, chi phí nhân công | Đơn hàng dệt may, USD/VND, chi phí vận chuyển |

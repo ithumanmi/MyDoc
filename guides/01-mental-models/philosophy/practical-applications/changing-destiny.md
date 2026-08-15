@@ -2,6 +2,8 @@
 
 > **"Mệnh là quân bài bạn được chia. Cải mệnh là cách bạn chơi những quân bài đó."**
 
+> **Nguồn cổ điển + playbook bắt đầu:** *Liễu Phàm* → [`lap-thien-cai-menh.md`](./lap-thien-cai-menh.md) · Day 0–7 → [`bat-dau-hanh-trinh-cai-bien-cuoc-doi.md`](./bat-dau-hanh-trinh-cai-bien-cuoc-doi.md). Bài này là lớp **Life OS** (môi trường, vận, đọc sách).
+
 Người xưa có câu: *"Nhất Mệnh, Nhì Vận, Tam Phong Thủy, Tứ Tích Đức, Ngũ Độc Thư."*
 Nhiều người nghĩ "Mệnh" là cố định. Nhưng thực tế, Mệnh chỉ là điểm xuất phát (Initial Conditions). Cải mệnh là quá trình thay đổi biến số để viết lại kết quả cuối cùng.
 

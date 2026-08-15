@@ -1,0 +1,508 @@
+# Database văn bản QPPL Việt Nam — educational index, not official text.
+# Schema: SCHEMA.md · Validate: python scripts/check_vn_law_catalog.py
+# verify_status: seed = seeded for navigation; đối chiếu Công báo/VBPL trước khi trích dẫn.
+
+version: 1
+updated: 2026-08-14
+disclaimer: Educational catalog only. Not legal advice. Verify number, status, and text against Công báo / VBPL.
+
+types:
+  - hien-phap
+  - bo-luat
+  - luat
+  - nghi-quyet-qh
+  - phap-lenh
+  - nghi-dinh
+  - quyet-dinh-ttg
+  - thong-tu
+  - an-le
+
+statuses:
+  - hieu-luc
+  - sua-doi-bo-sung
+  - het-hieu-luc
+  - chua-co-hieu-luc
+  - du-thao
+
+branches:
+  - id: hien-phap
+    name: Hiến pháp & tổ chức nhà nước
+  - id: dan-su
+    name: Dân sự
+  - id: hinh-su
+    name: Hình sự
+  - id: to-tung
+    name: Tố tụng
+  - id: lao-dong
+    name: Lao động & BHXH
+  - id: dat-dai
+    name: Đất đai & nhà ở
+  - id: doanh-nghiep
+    name: Doanh nghiệp & đầu tư
+  - id: hon-nhan-gia-dinh
+    name: Hôn nhân và gia đình
+  - id: hanh-chinh
+    name: Hành chính
+  - id: thue
+    name: Thuế
+  - id: shtt
+    name: Sở hữu trí tuệ
+  - id: so
+    name: Số / dữ liệu / an ninh mạng
+  - id: moi-truong
+    name: Môi trường
+  - id: giao-thong
+    name: Giao thông
+  - id: tieu-dung
+    name: Người tiêu dùng
+
+instruments:
+  - id: hp-2013
+    type: hien-phap
+    title: Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam
+    short: Hiến pháp 2013
+    number: null
+    year: 2013
+    issued_by: Quốc hội
+    effective_from: "2014-01-01"
+    status: hieu-luc
+    verify_status: seed
+    branches: [hien-phap]
+    supersedes: []
+    amended_by: []
+    related_instruments: []
+    note: notes/hien-phap-2013.md
+    official_hint: Công báo / vbpl.vn — Hiến pháp 2013
+    summary: Văn bản pháp lý cao nhất; quyền con người và tổ chức bộ máy nhà nước.
+
+  - id: bl-dan-su-2015
+    type: bo-luat
+    title: Bộ luật Dân sự
+    short: BLDS 2015
+    number: 91/2015/QH13
+    year: 2015
+    issued_by: Quốc hội
+    effective_from: "2017-01-01"
+    status: hieu-luc
+    verify_status: seed
+    branches: [dan-su]
+    supersedes: []
+    amended_by: []
+    related_instruments: [bl-tt-dan-su-2015]
+    note: notes/bo-luat-dan-su-2015.md
+    official_hint: vbpl.vn — 91/2015/QH13
+    summary: Chủ thể, tài sản, nghĩa vụ, hợp đồng, trách nhiệm bồi thường ngoài hợp đồng.
+
+  - id: bl-hinh-su-2015
+    type: bo-luat
+    title: Bộ luật Hình sự
+    short: BLHS 2015
+    number: 100/2015/QH13
+    year: 2015
+    issued_by: Quốc hội
+    effective_from: "2018-01-01"
+    status: sua-doi-bo-sung
+    verify_status: seed
+    branches: [hinh-su]
+    supersedes: []
+    amended_by: ["12/2017/QH14"]
+    related_instruments: [bl-tt-hinh-su-2015]
+    note: notes/bo-luat-hinh-su-2015.md
+    official_hint: vbpl.vn — 100/2015/QH13 và luật sửa đổi 12/2017/QH14
+    summary: Tội phạm, hình phạt, trách nhiệm hình sự; đọc kèm luật sửa đổi 2017.
+
+  - id: bl-tt-dan-su-2015
+    type: bo-luat
+    title: Bộ luật Tố tụng dân sự
+    short: BLTTDS 2015
+    number: 92/2015/QH13
+    year: 2015
+    issued_by: Quốc hội
+    effective_from: "2016-07-01"
+    status: hieu-luc
+    verify_status: seed
+    branches: [to-tung, dan-su]
+    supersedes: []
+    amended_by: []
+    related_instruments: [bl-dan-su-2015]
+    note: null
+    official_hint: vbpl.vn — 92/2015/QH13
+    summary: Thủ tục khởi kiện, chứng minh, xét xử vụ việc dân sự tại tòa.
+
+  - id: bl-tt-hinh-su-2015
+    type: bo-luat
+    title: Bộ luật Tố tụng hình sự
+    short: BLTT HS 2015
+    number: 101/2015/QH13
+    year: 2015
+    issued_by: Quốc hội
+    effective_from: "2018-01-01"
+    status: hieu-luc
+    verify_status: seed
+    branches: [to-tung, hinh-su]
+    supersedes: []
+    amended_by: []
+    related_instruments: [bl-hinh-su-2015]
+    note: null
+    official_hint: vbpl.vn — 101/2015/QH13
+    summary: Khởi tố, điều tra, truy tố, xét xử vụ án hình sự.
+
+  - id: bl-lao-dong-2019
+    type: bo-luat
+    title: Bộ luật Lao động
+    short: BLLĐ 2019
+    number: 45/2019/QH14
+    year: 2019
+    issued_by: Quốc hội
+    effective_from: "2021-01-01"
+    status: hieu-luc
+    verify_status: seed
+    branches: [lao-dong]
+    supersedes: []
+    amended_by: []
+    related_instruments: [luat-bhxh-2024]
+    note: notes/bo-luat-lao-dong-2019.md
+    official_hint: vbpl.vn — 45/2019/QH14
+    summary: Hợp đồng lao động, tiền lương, thời giờ làm việc, kỷ luật, tranh chấp lao động.
+
+  - id: luat-dat-dai-2024
+    type: luat
+    title: Luật Đất đai
+    short: Luật Đất đai 2024
+    number: 31/2024/QH15
+    year: 2024
+    issued_by: Quốc hội
+    effective_from: "2025-01-01"
+    status: hieu-luc
+    verify_status: seed
+    branches: [dat-dai]
+    supersedes: []
+    amended_by: []
+    related_instruments: [luat-nha-o-2023, luat-kd-bds-2023]
+    note: notes/luat-dat-dai-2024.md
+    official_hint: vbpl.vn — 31/2024/QH15
+    summary: Sở hữu toàn dân, giao/cho thuê đất, thu hồi, bồi thường, đăng ký quyền sử dụng đất.
+
+  - id: luat-doanh-nghiep-2020
+    type: luat
+    title: Luật Doanh nghiệp
+    short: LDN 2020
+    number: 59/2020/QH14
+    year: 2020
+    issued_by: Quốc hội
+    effective_from: "2021-01-01"
+    status: sua-doi-bo-sung
+    verify_status: seed
+    branches: [doanh-nghiep]
+    supersedes: []
+    amended_by: []
+    related_instruments: [luat-dau-tu-2020]
+    note: notes/luat-doanh-nghiep-2020.md
+    official_hint: vbpl.vn — 59/2020/QH14 (kiểm tra luật sửa đổi sau 2020)
+    summary: Thành lập, tổ chức quản lý, tổ chức lại, giải thể doanh nghiệp.
+
+  - id: luat-dau-tu-2020
+    type: luat
+    title: Luật Đầu tư
+    short: Luật Đầu tư 2020
+    number: 61/2020/QH14
+    year: 2020
+    issued_by: Quốc hội
+    effective_from: "2021-01-01"
+    status: sua-doi-bo-sung
+    verify_status: seed
+    branches: [doanh-nghiep]
+    supersedes: []
+    amended_by: []
+    related_instruments: [luat-doanh-nghiep-2020]
+    note: null
+    official_hint: vbpl.vn — 61/2020/QH14
+    summary: Ngành nghề đầu tư, ưu đãi, thủ tục đầu tư trong nước và nước ngoài.
+
+  - id: luat-hn-gd-2014
+    type: luat
+    title: Luật Hôn nhân và gia đình
+    short: LHNGĐ 2014
+    number: 52/2014/QH13
+    year: 2014
+    issued_by: Quốc hội
+    effective_from: "2015-01-01"
+    status: hieu-luc
+    verify_status: seed
+    branches: [hon-nhan-gia-dinh]
+    supersedes: []
+    amended_by: []
+    related_instruments: [bl-dan-su-2015]
+    note: null
+    official_hint: vbpl.vn — 52/2014/QH13
+    summary: Kết hôn, ly hôn, quan hệ cha mẹ con, cấp dưỡng, tài sản vợ chồng.
+
+  - id: luat-an-ninh-mang-2018
+    type: luat
+    title: Luật An ninh mạng
+    short: Luật An ninh mạng 2018
+    number: 24/2018/QH14
+    year: 2018
+    issued_by: Quốc hội
+    effective_from: "2019-01-01"
+    status: hieu-luc
+    verify_status: seed
+    branches: [so]
+    supersedes: []
+    amended_by: []
+    related_instruments: [luat-giao-dich-dt-2023]
+    note: null
+    official_hint: vbpl.vn — 24/2018/QH14
+    summary: Bảo vệ an ninh mạng, trách nhiệm chủ quản hệ thống thông tin.
+
+  - id: luat-giao-dich-dt-2023
+    type: luat
+    title: Luật Giao dịch điện tử
+    short: Luật GDĐT 2023
+    number: 20/2023/QH15
+    year: 2023
+    issued_by: Quốc hội
+    effective_from: "2024-07-01"
+    status: hieu-luc
+    verify_status: seed
+    branches: [so, dan-su]
+    supersedes: []
+    amended_by: []
+    related_instruments: [luat-an-ninh-mang-2018]
+    note: null
+    official_hint: vbpl.vn — 20/2023/QH15
+    summary: Thông điệp dữ liệu, chữ ký số, hợp đồng điện tử.
+
+  - id: luat-bvmt-2020
+    type: luat
+    title: Luật Bảo vệ môi trường
+    short: Luật BVMT 2020
+    number: 72/2020/QH14
+    year: 2020
+    issued_by: Quốc hội
+    effective_from: "2022-01-01"
+    status: hieu-luc
+    verify_status: seed
+    branches: [moi-truong]
+    supersedes: []
+    amended_by: []
+    related_instruments: []
+    note: null
+    official_hint: vbpl.vn — 72/2020/QH14
+    summary: Bảo vệ môi trường, đánh giá tác động, trách nhiệm tổ chức/cá nhân.
+
+  - id: luat-canh-tranh-2018
+    type: luat
+    title: Luật Cạnh tranh
+    short: Luật Cạnh tranh 2018
+    number: 23/2018/QH14
+    year: 2018
+    issued_by: Quốc hội
+    effective_from: "2019-07-01"
+    status: hieu-luc
+    verify_status: seed
+    branches: [doanh-nghiep]
+    supersedes: []
+    amended_by: []
+    related_instruments: [luat-doanh-nghiep-2020]
+    note: null
+    official_hint: vbpl.vn — 23/2018/QH14
+    summary: Hành vi hạn chế cạnh tranh, tập trung kinh tế, cạnh tranh không lành mạnh.
+
+  - id: luat-shtt
+    type: luat
+    title: Luật Sở hữu trí tuệ
+    short: Luật SHTT (bản sau sửa đổi)
+    number: 50/2005/QH11
+    year: 2005
+    issued_by: Quốc hội
+    effective_from: null
+    status: sua-doi-bo-sung
+    verify_status: seed
+    branches: [shtt]
+    supersedes: []
+    amended_by: ["36/2009/QH12", "42/2019/QH14", "07/2022/QH15"]
+    related_instruments: []
+    note: null
+    official_hint: vbpl.vn — Luật SHTT 2005 và các luật sửa đổi; ưu tiên bản hợp nhất
+    summary: Bản quyền, nhãn hiệu, sáng chế; luôn đọc bản đã sửa đổi (đặc biệt 2022).
+
+  - id: luat-xlvphc-2012
+    type: luat
+    title: Luật Xử lý vi phạm hành chính
+    short: Luật XLVPHC 2012
+    number: 15/2012/QH13
+    year: 2012
+    issued_by: Quốc hội
+    effective_from: "2013-07-01"
+    status: sua-doi-bo-sung
+    verify_status: seed
+    branches: [hanh-chinh]
+    supersedes: []
+    amended_by: []
+    related_instruments: []
+    note: null
+    official_hint: vbpl.vn — 15/2012/QH13 (kiểm tra luật sửa đổi)
+    summary: Thẩm quyền, hình thức xử phạt VPHC, thời hiệu.
+
+  - id: luat-nha-o-2023
+    type: luat
+    title: Luật Nhà ở
+    short: Luật Nhà ở 2023
+    number: 27/2023/QH15
+    year: 2023
+    issued_by: Quốc hội
+    effective_from: "2025-01-01"
+    status: hieu-luc
+    verify_status: seed
+    branches: [dat-dai]
+    supersedes: []
+    amended_by: []
+    related_instruments: [luat-dat-dai-2024, luat-kd-bds-2023]
+    note: null
+    official_hint: vbpl.vn — 27/2023/QH15
+    summary: Sở hữu, phát triển, quản lý, giao dịch nhà ở.
+
+  - id: luat-kd-bds-2023
+    type: luat
+    title: Luật Kinh doanh bất động sản
+    short: Luật KDBĐS 2023
+    number: 29/2023/QH15
+    year: 2023
+    issued_by: Quốc hội
+    effective_from: "2025-01-01"
+    status: hieu-luc
+    verify_status: seed
+    branches: [dat-dai, doanh-nghiep]
+    supersedes: []
+    amended_by: []
+    related_instruments: [luat-dat-dai-2024, luat-nha-o-2023]
+    note: null
+    official_hint: vbpl.vn — 29/2023/QH15
+    summary: Kinh doanh BĐS, điều kiện chủ đầu tư, hợp đồng mua bán.
+
+  - id: luat-nt-2023
+    type: luat
+    title: Luật Bảo vệ quyền lợi người tiêu dùng
+    short: Luật BVQLNTD 2023
+    number: 19/2023/QH15
+    year: 2023
+    issued_by: Quốc hội
+    effective_from: "2024-07-01"
+    status: hieu-luc
+    verify_status: seed
+    branches: [tieu-dung]
+    supersedes: []
+    amended_by: []
+    related_instruments: [bl-dan-su-2015]
+    note: null
+    official_hint: vbpl.vn — 19/2023/QH15
+    summary: Quyền người tiêu dùng, trách nhiệm tổ chức kinh doanh, giải quyết tranh chấp.
+
+  - id: luat-can-cuoc-2023
+    type: luat
+    title: Luật Căn cước
+    short: Luật Căn cước 2023
+    number: 26/2023/QH15
+    year: 2023
+    issued_by: Quốc hội
+    effective_from: "2024-07-01"
+    status: hieu-luc
+    verify_status: seed
+    branches: [hanh-chinh]
+    supersedes: []
+    amended_by: []
+    related_instruments: []
+    note: null
+    official_hint: vbpl.vn — 26/2023/QH15
+    summary: Thẻ căn cước, cơ sở dữ liệu căn cước, quyền và nghĩa vụ công dân.
+
+  - id: luat-bhxh-2024
+    type: luat
+    title: Luật Bảo hiểm xã hội
+    short: Luật BHXH 2024
+    number: 41/2024/QH15
+    year: 2024
+    issued_by: Quốc hội
+    effective_from: "2025-07-01"
+    status: hieu-luc
+    verify_status: seed
+    branches: [lao-dong]
+    supersedes: []
+    amended_by: []
+    related_instruments: [bl-lao-dong-2019]
+    note: null
+    official_hint: vbpl.vn — 41/2024/QH15; kiểm tra điều khoản chuyển tiếp
+    summary: Đối tượng, quỹ, chế độ BHXH; đọc kèm BLLĐ 2019 và văn bản hướng dẫn.
+
+  - id: luat-ttatgt-2024
+    type: luat
+    title: Luật Trật tự, an toàn giao thông đường bộ
+    short: Luật TTATGTĐB 2024
+    number: 36/2024/QH15
+    year: 2024
+    issued_by: Quốc hội
+    effective_from: "2025-01-01"
+    status: hieu-luc
+    verify_status: seed
+    branches: [giao-thong]
+    supersedes: []
+    amended_by: []
+    related_instruments: [luat-duong-bo-2024]
+    note: null
+    official_hint: vbpl.vn — 36/2024/QH15
+    summary: Quy tắc tham gia giao thông đường bộ, xử lý vi phạm (tách khỏi Luật Đường bộ).
+
+  - id: luat-duong-bo-2024
+    type: luat
+    title: Luật Đường bộ
+    short: Luật Đường bộ 2024
+    number: 35/2024/QH15
+    year: 2024
+    issued_by: Quốc hội
+    effective_from: "2025-01-01"
+    status: hieu-luc
+    verify_status: seed
+    branches: [giao-thong]
+    supersedes: []
+    amended_by: []
+    related_instruments: [luat-ttatgt-2024]
+    note: null
+    official_hint: vbpl.vn — 35/2024/QH15
+    summary: Kết cấu hạ tầng đường bộ, quản lý, khai thác đường bộ.
+
+  - id: luat-ban-hanh-vbqppl-2015
+    type: luat
+    title: Luật Ban hành văn bản quy phạm pháp luật
+    short: Luật BHVBQPPL 2015
+    number: 80/2015/QH13
+    year: 2015
+    issued_by: Quốc hội
+    effective_from: "2016-07-01"
+    status: sua-doi-bo-sung
+    verify_status: seed
+    branches: [hien-phap]
+    supersedes: []
+    amended_by: []
+    related_instruments: []
+    note: null
+    official_hint: vbpl.vn — 80/2015/QH13; kiểm tra luật thay thế/sửa đổi sau 2025
+    summary: Thẩm quyền, trình tự ban hành VBQPPL; đối chiếu nếu đã có luật mới thay thế.
+
+  - id: luat-pctn-2018
+    type: luat
+    title: Luật Phòng, chống tham nhũng
+    short: Luật PCTN 2018
+    number: 36/2018/QH14
+    year: 2018
+    issued_by: Quốc hội
+    effective_from: "2019-07-01"
+    status: hieu-luc
+    verify_status: seed
+    branches: [hanh-chinh, hien-phap]
+    supersedes: []
+    amended_by: []
+    related_instruments: []
+    note: null
+    official_hint: vbpl.vn — 36/2018/QH14
+    summary: Phòng ngừa, phát hiện, xử lý tham nhũng; kê khai tài sản.

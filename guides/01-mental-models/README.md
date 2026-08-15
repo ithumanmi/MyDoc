@@ -66,7 +66,7 @@ sensitivity: public
 > Action: Viết lại 1 trục điểm thấp, chọn 1 bài tương ứng, triển khai experiment trong 7 ngày.
 
 ## 🧭 Topic Map / INDEX nhanh
-|- **Decision & Risk:** [decision-making-razors.md](./psychology/decision-making-razors.md), [logic-reasoning.md](./mathematics/logic-reasoning.md), [margin-of-safety.md](./engineering/margin-of-safety.md), [trade-offs.md](./engineering/trade-offs.md)
+|- **Decision & Risk:** [decision-making-razors.md](./psychology/decision-making-razors.md), [logic-reasoning.md](./mathematics/logic-reasoning.md), [margin-of-safety.md](./engineering/margin-of-safety.md), [trade-offs.md](./engineering/trade-offs.md), [anticipate-before-you-leave.md](./philosophy/practical-applications/anticipate-before-you-leave.md)
 |- **Fast Feedback / Recall:** [action-recall.md](./action-recall.md), [fast-correction-mindset.md](./fast-correction-mindset.md)
 - **Eudaimonia & Flourishing:** [eudaimonia.md](./eudaimonia.md) – đức hạnh, telos, Trung đạo, checklist phản tư.
 - **Bias & Psychology:** [cognitive-biases.md](./psychology/cognitive-biases.md), [perception-through-models.md](./psychology/fundamentals/perception-through-models.md), [dark-psychology-defense.md](./psychology/dark-psychology-defense.md), [fast-correction-mindset.md](./fast-correction-mindset.md)
