@@ -37,7 +37,7 @@ If routing fails, then search. Prefer Stable domains (`domains/README.md`) unles
 | Play / leisure / backlog | `guides/05-games-os/play/` |
 | Game news (culture + industry) | `guides/05-games-os/follow/` |
 | Learning how to learn | `guides/03-career-skills/productivity/meta-skills/learning-os-framework.md` |
-| Hormones / health theory | `guides/04-lifestyle-os/health/` (map → playbook) |
+| Hormones / health theory | `guides/04-lifestyle-os/health/` (map → playbook → one `*-system.md` per hormone) |
 | Luật Việt Nam / VBQPPL / số hiệu đạo luật | `guides/06-vn-law/README.md` → `catalog.yaml` |
 | HĐLĐ / NDA / thuế DN thực hành | `guides/02-wealth-business/legal/` |
 | User’s own logs/metrics | `personal/` **only if asked** |

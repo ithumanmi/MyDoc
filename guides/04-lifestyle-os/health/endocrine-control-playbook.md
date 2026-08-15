@@ -112,7 +112,7 @@ Cách dùng mỗi card:
 | **Giảm lệch** | Thiếu nắng; thiếu ngủ; rượu tối; cô lập |
 | **Proxy** | Mood 1–10; thèm ngọt buổi tối; chất lượng ngủ |
 | **Cờ đỏ** | Trầm cảm / lo âu nặng, ý nghĩ tự hại → cấp cứu / bác sĩ |
-| **Deep** | [neurotransmitters-guide.md](./neurotransmitters-guide.md) |
+| **Deep** | [serotonin-system.md](./serotonin-system.md) · [neurotransmitters-guide.md](./neurotransmitters-guide.md) |
 
 ### 2.3 Oxytocin
 | | |
@@ -122,6 +122,7 @@ Cách dùng mỗi card:
 | **Giảm lệch** | Chỉ tương tác online; conflict không resolve |
 | **Proxy** | “Có tiếp xúc chất lượng hôm nay?” □ |
 | **Cờ đỏ** | Cô lập kéo dài + suy sụp mood |
+| **Deep** | [oxytocin-system.md](./oxytocin-system.md) |
 
 ### 2.4 Endorphin
 | | |
@@ -131,6 +132,7 @@ Cách dùng mỗi card:
 | **Giảm lệch** | Tập khi chấn thương để “chase high” |
 | **Proxy** | Mood sau workout; có tập đủ thở mệt vừa? |
 | **Cờ đỏ** | Đau khớp/gân ngày càng tăng |
+| **Deep** | [endorphin-system.md](./endorphin-system.md) |
 
 ### 2.5 Cortisol
 | | |
@@ -140,7 +142,7 @@ Cách dùng mỗi card:
 | **Giảm mạn tính** | Thiền 5–10′; cắt doomscroll tin; yoga; tắt việc trước ngủ |
 | **Proxy** | Stress 1–10; khó ngủ dù mệt; mỡ bụng / thèm ăn stress |
 | **Cờ đỏ** | Kiệt sức, HA cao kéo dài, rụng tóc + tăng cân trung tâm nhanh → BS |
-| **Deep** | [cortisol-melatonin-system.md](./cortisol-melatonin-system.md) |
+| **Deep** | [cortisol-system.md](./cortisol-system.md) · [cortisol-melatonin-system.md](./cortisol-melatonin-system.md) |
 
 ### 2.6 Melatonin
 | | |
@@ -150,7 +152,7 @@ Cách dùng mỗi card:
 | **Giảm lệch** | Ánh sáng xanh sát ngủ; caffeine/rượu muộn; ngủ ngày dài |
 | **Proxy** | Phút vào giấc; số lần thức giấc; sleep quality 1–10 |
 | **Cờ đỏ** | Ngưng thở khi ngủ, ngủ gà nguy hiểm (lái xe) → BS giấc ngủ |
-| **Deep** | [sleep-optimization.md](./sleep-optimization.md) |
+| **Deep** | [melatonin-system.md](./melatonin-system.md) · [sleep-optimization.md](./sleep-optimization.md) |
 
 ### 2.7 Adrenaline / Noradrenaline
 | | |
@@ -161,6 +163,7 @@ Cách dùng mỗi card:
 | **Proxy** | Tim hồi hộp không lý do; khó “xuống” tối |
 | **Cờ đỏ** | Hồi hộp + đau ngực / khó thở → cấp cứu |
 | **Acute brake** | [sns-cortisol-brake-playbook.md](./sns-cortisol-brake-playbook.md) — Physiological Sigh, panoramic vision, jaw/ground |
+| **Deep** | [adrenaline-system.md](./adrenaline-system.md) · [noradrenaline-system.md](./noradrenaline-system.md) |
 
 ### 2.8 Insulin
 | | |
@@ -170,7 +173,7 @@ Cách dùng mỗi card:
 | **Giảm lệch** | Nước ngọt, bánh liên tục; ngồi cả ngày sau meal lớn |
 | **Proxy** | Crash 1–3h sau ăn; đói lại quá sớm; vòng eo |
 | **Cờ đỏ** | Khát nhiều, tiểu nhiều, sụt cân lạ / gia đình ĐTĐ → xét nghiệm |
-| **Deep** | [glucose-insulin-system.md](./glucose-insulin-system.md) |
+| **Deep** | [insulin-system.md](./insulin-system.md) · [glucose-insulin-system.md](./glucose-insulin-system.md) |
 
 ### 2.9 T3 / T4 (giáp)
 | | |
@@ -180,6 +183,7 @@ Cách dùng mỗi card:
 | **Không làm** | Mua thyroid online; “mega iodine” tự ý |
 | **Proxy** | Sợ lạnh + mệt + rụng tóc + tăng cân **cùng lúc**; hoặc tim nhanh + sụt cân |
 | **Cờ đỏ** | Nghi ngờ nhược/ưu giáp → xét TSH/FT4 với bác sĩ |
+| **Deep** | [t3-system.md](./t3-system.md) · [t4-system.md](./t4-system.md) |
 
 ### 2.10 Leptin & Ghrelin
 | | |
@@ -188,7 +192,8 @@ Cách dùng mỗi card:
 | **Hỗ trợ** | Ngủ 7–8h; bữa có protein; đừng nhảy calorie quá gắt quá lâu |
 | **Giảm lệch** | Thức khuya + ngủ thiếu; nhịn rồi binge |
 | **Proxy** | Thèm ăn mất kiểm soát sau đêm ngủ kém |
-| **Cờ đổ** | Rối loạn ăn uống → chuyên khoa |
+| **Cờ đỏ** | Rối loạn ăn uống → chuyên khoa |
+| **Deep** | [leptin-system.md](./leptin-system.md) · [ghrelin-system.md](./ghrelin-system.md) |
 
 ### 2.11 GLP-1 (tự nhiên)
 | | |
@@ -197,6 +202,7 @@ Cách dùng mỗi card:
 | **Hỗ trợ** | Protein + xơ; ăn chậm; ngủ; tránh Ultra-processed lỏng |
 | **Không làm** | Tự tiêm/thuốc GLP-1 không chỉ định |
 | **Proxy** | Thời gian no sau bữa (phút/giờ) |
+| **Deep** | [glp1-system.md](./glp1-system.md) |
 
 ### 2.12 CCK & Secretin
 | | |
@@ -204,6 +210,7 @@ Cách dùng mỗi card:
 | **Mục tiêu** | Tiêu hóa ổn, no khỏe |
 | **Hỗ trợ** | Nhai kỹ; đủ chất béo tốt vừa phải; không nhồi quá nhanh |
 | **Proxy** | Đầy hơi / nặng bụng sau ăn nhanh |
+| **Deep** | [cck-system.md](./cck-system.md) · [secretin-system.md](./secretin-system.md) |
 
 ### 2.13 GH (Growth Hormone)
 | | |
@@ -213,6 +220,7 @@ Cách dùng mỗi card:
 | **Giảm lệch** | Thức đêm đèn sáng; rượu gần ngủ |
 | **Proxy** | Sleep depth; phục hồi sau tập (không phải “GH máu”) |
 | **Cờ đỏ** | Không dùng GH đen |
+| **Deep** | [growth-hormone-system.md](./growth-hormone-system.md) |
 
 ### 2.14 Testosterone
 | | |
@@ -229,6 +237,7 @@ Cách dùng mỗi card:
 | **Mục tiêu** | Chu kỳ / xương / mood ổn hơn (nữ) |
 | **Hỗ trợ** | % mỡ lành mạnh; đủ fat tốt; ngủ; stress |
 | **Cờ đỏ** | Rối loạn chu kỳ nặng, đau dữ dội, chảy máu bất thường → BS |
+| **Deep** | [estrogen-system.md](./estrogen-system.md) · [progesterone-system.md](./progesterone-system.md) |
 
 ### 2.16 Aldosterone · ADH
 | | |
@@ -236,6 +245,7 @@ Cách dùng mỗi card:
 | **Mục tiêu** | Nước–muối–HA ổn |
 | **Hỗ trợ** | Hydration theo khát + khí hậu; hạn chế rượu gần ngủ (ADH) |
 | **Cờ đỏ** | HA cao/thấp bất thường, phù, tiểu rất ít/rất nhiều bất thường → BS |
+| **Deep** | [aldosterone-system.md](./aldosterone-system.md) · [adh-system.md](./adh-system.md) |
 
 ### 2.17 PTH & Calcitonin (xương–canxi)
 | | |
@@ -243,6 +253,7 @@ Cách dùng mỗi card:
 | **Mục tiêu** | Xương dài hạn chắc |
 | **Hỗ trợ** | Ca + D + protein đủ; strength/impact phù hợp |
 | **Cờ đỏ** | Gãy xương nhẹ va chạm, co cứng cơ do Ca thấp nghi ngờ → BS |
+| **Deep** | [pth-system.md](./pth-system.md) · [calcitonin-system.md](./calcitonin-system.md) |
 
 ---
 

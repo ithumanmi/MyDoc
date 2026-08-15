@@ -10,7 +10,7 @@
 - Tonic (baseline) vs phasic (spike); overdose digital reward → desensitization.
 - Sections: science → inputs → outputs → failure modes → optimization protocols → nutrition/supplements → troubleshooting.
 - Protocols prioritize friction on cheap dopamine + effort-reward loops.
-- Cross-ref: [neurotransmitters-guide](./neurotransmitters-guide.md).
+- Cross-ref: [neurotransmitters-guide](./neurotransmitters-guide.md) · [serotonin-system](./serotonin-system.md) · [oxytocin-system](./oxytocin-system.md) · [endorphin-system](./endorphin-system.md).
 - Educational only — not medical diagnosis.
 <!-- /agent-summary -->
 
@@ -608,6 +608,7 @@ Các chất này có tác dụng mạnh hơn, tác động trực tiếp đến 
    
    **Trong Health OS:**
    - [High Performance & Flow State](../high-performance.md) - Cách tối ưu hóa Dopamine để đạt trạng thái dòng chảy
+   - [Serotonin](serotonin-system.md) · [Oxytocin](oxytocin-system.md) · [Endorphin](endorphin-system.md) — liking / gắn kết / relief (không thay wanting)
    - [Cortisol & Stress](cortisol-melatonin-system.md#cortisol) - Stress làm deplete dopamine
    - [Sleep System](cortisol-melatonin-system.md#melatonin) - Recovery cho dopamine receptors
    - [Optimization Protocols](health-optimization-protocols.md) - Daily routines

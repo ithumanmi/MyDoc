@@ -15,6 +15,7 @@
 *   **[🎛️ Endocrine Control Playbook](../health/endocrine-control-playbook.md)** ⭐ **Cách kiểm soát** từng hormone + checklist ngày/tuần (không phải tự kê thuốc).
 *   **[⚙️ CNS Basics](./cns-basics.md):** Khởi động bằng việc hiểu “CPU” (Hệ thần kinh trung ương).
 *   **[🧠 Dopamine System](../health/dopamine-system.md):** Khi thiếu động lực, cần reset Dopamine.
+*   **[💗 Serotonin](../health/serotonin-system.md) · [Oxytocin](../health/oxytocin-system.md) · [Endorphin](../health/endorphin-system.md):** Ổn định / gắn kết / xả sau nỗ lực — mỗi chất một bài.
 *   **[🛡️ Cortisol & Melatonin](../health/cortisol-melatonin-system.md):** Khi stress, mất ngủ, nhịp sinh học vỡ.
 *   **[🩸 Glucose & Insulin](../health/glucose-insulin-system.md):** Khi tụt năng lượng, brain fog.
 *   **[⚡ Testosterone System](../health/testosterone-system.md):** Khi thiếu drive/khả năng push.

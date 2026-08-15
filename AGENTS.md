@@ -44,8 +44,8 @@ Maturity of domains: see [`domains/README.md`](./domains/README.md) (Stable / Dr
 - Games umbrella (make/play/earn/follow) → [`guides/05-games-os/README.md`](./guides/05-games-os/README.md) → [`games-os-map.md`](./guides/05-games-os/games-os-map.md)
 - Phân tích title / full-pack (pitch·GDD·economy·teardown…) → [`domains/game-dev/analyses/`](./domains/game-dev/analyses/README.md) · skill `game-design-docs`
 - Systems teardown essay → template + skill `game-systems-teardown` (prefer file inside an analysis pack)
-- Hormone control → map then playbook:  
-  [`endocrine-hormone-map.md`](./guides/04-lifestyle-os/health/endocrine-hormone-map.md) →  
+- Hormone control → map then playbook then **một file / hormone** (`*-system.md`):  
+  [`endocrine-hormone-map.md`](./guides/04-lifestyle-os/health/endocrine-hormone-map.md) → 
   [`endocrine-control-playbook.md`](./guides/04-lifestyle-os/health/endocrine-control-playbook.md)
 - Health theory hub → [`guides/04-lifestyle-os/health/README.md`](./guides/04-lifestyle-os/health/README.md) (not `personal/`)
 - Luật Việt Nam (catalog VBQPPL, ghi chú đạo luật) → [`guides/06-vn-law/README.md`](./guides/06-vn-law/README.md) → [`catalog.yaml`](./guides/06-vn-law/catalog.yaml). Thực hành HĐ/thuế/NDA → [`guides/02-wealth-business/legal/`](./guides/02-wealth-business/legal/README.md). Làm luật / tư pháp → [`politics/vietnam/`](./guides/04-lifestyle-os/politics/vietnam/README.md). Không bịa số hiệu; đối chiếu Công báo/VBPL. Educational, not legal advice.

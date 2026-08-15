@@ -126,9 +126,11 @@ topics:
       - guides/04-lifestyle-os/health/sns-cortisol-brake-playbook.md
 
   - id: hormone.cortisol_melatonin
-    aliases: [cortisol, melatonin, stress hormone, circadian, giấc ngủ hormone]
+    aliases: [circadian, cortisol melatonin pair, nhịp ngày đêm hormone]
     canonical: guides/04-lifestyle-os/health/cortisol-melatonin-system.md
     related:
+      - guides/04-lifestyle-os/health/cortisol-system.md
+      - guides/04-lifestyle-os/health/melatonin-system.md
       - guides/04-lifestyle-os/health/sleep-optimization.md
       - guides/04-lifestyle-os/health/endocrine-control-playbook.md
       - guides/04-lifestyle-os/health/sns-cortisol-brake-playbook.md
@@ -158,24 +160,190 @@ topics:
     canonical: guides/04-lifestyle-os/health/dopamine-system.md
     related:
       - guides/04-lifestyle-os/health/neurotransmitters-guide.md
+      - guides/04-lifestyle-os/health/serotonin-system.md
+
+  - id: hormone.serotonin
+    aliases: [serotonin, 5-HT, hormone hạnh phúc, serotonin lifestyle]
+    canonical: guides/04-lifestyle-os/health/serotonin-system.md
+    related:
+      - guides/04-lifestyle-os/health/neurotransmitters-guide.md
+      - guides/04-lifestyle-os/health/melatonin-system.md
+      - guides/04-lifestyle-os/health/oxytocin-system.md
+      - guides/04-lifestyle-os/health/dopamine-system.md
+
+  - id: hormone.oxytocin
+    aliases: [oxytocin, gắn kết hormone, bonding hormone]
+    canonical: guides/04-lifestyle-os/health/oxytocin-system.md
+    related:
+      - guides/04-lifestyle-os/health/serotonin-system.md
+      - guides/04-lifestyle-os/health/cortisol-system.md
+      - guides/04-lifestyle-os/life-os/bond-presence-system.md
+
+  - id: hormone.endorphin
+    aliases: [endorphin, endpoin, runners high]
+    canonical: guides/04-lifestyle-os/health/endorphin-system.md
+    related:
+      - guides/04-lifestyle-os/health/movement-protocols.md
+      - guides/04-lifestyle-os/health/dopamine-system.md
+      - guides/04-lifestyle-os/health/oxytocin-system.md
+
+  - id: hormone.cortisol
+    aliases: [cortisol, stress hormone]
+    canonical: guides/04-lifestyle-os/health/cortisol-system.md
+    related:
+      - guides/04-lifestyle-os/health/cortisol-melatonin-system.md
+      - guides/04-lifestyle-os/health/sns-cortisol-brake-playbook.md
+      - guides/04-lifestyle-os/health/melatonin-system.md
+
+  - id: hormone.melatonin
+    aliases: [melatonin, sleep hormone, hormone ngủ]
+    canonical: guides/04-lifestyle-os/health/melatonin-system.md
+    related:
+      - guides/04-lifestyle-os/health/sleep-optimization.md
+      - guides/04-lifestyle-os/health/cortisol-melatonin-system.md
+      - guides/04-lifestyle-os/health/serotonin-system.md
+
+  - id: hormone.adrenaline
+    aliases: [adrenaline, epinephrine, chiến hay chạy]
+    canonical: guides/04-lifestyle-os/health/adrenaline-system.md
+    related:
+      - guides/04-lifestyle-os/health/noradrenaline-system.md
+      - guides/04-lifestyle-os/health/sns-cortisol-brake-playbook.md
+      - guides/04-lifestyle-os/health/cortisol-system.md
+
+  - id: hormone.noradrenaline
+    aliases: [noradrenaline, norepinephrine, cảnh giác]
+    canonical: guides/04-lifestyle-os/health/noradrenaline-system.md
+    related:
+      - guides/04-lifestyle-os/health/adrenaline-system.md
+      - guides/04-lifestyle-os/health/dopamine-system.md
+      - guides/04-lifestyle-os/health/sns-cortisol-brake-playbook.md
 
   - id: hormone.insulin
-    aliases: [insulin, glucose, blood sugar, kháng insulin]
+    aliases: [insulin, kháng insulin]
+    canonical: guides/04-lifestyle-os/health/insulin-system.md
+    related:
+      - guides/04-lifestyle-os/health/glucose-insulin-system.md
+      - guides/04-lifestyle-os/health/glp1-system.md
+      - guides/04-lifestyle-os/health/nutrition-for-brain.md
+
+  - id: hormone.glucose_insulin_pair
+    aliases: [glucose, blood sugar, đường huyết]
     canonical: guides/04-lifestyle-os/health/glucose-insulin-system.md
     related:
+      - guides/04-lifestyle-os/health/insulin-system.md
       - guides/04-lifestyle-os/health/nutrition-for-brain.md
+
+  - id: hormone.t3
+    aliases: [t3, triiodothyronine, hormone giáp hoạt tính]
+    canonical: guides/04-lifestyle-os/health/t3-system.md
+    related:
+      - guides/04-lifestyle-os/health/t4-system.md
+      - guides/04-lifestyle-os/health/endocrine-control-playbook.md
+
+  - id: hormone.t4
+    aliases: [t4, thyroxine, hormone giáp]
+    canonical: guides/04-lifestyle-os/health/t4-system.md
+    related:
+      - guides/04-lifestyle-os/health/t3-system.md
+
+  - id: hormone.leptin
+    aliases: [leptin, tín hiệu no, no kho]
+    canonical: guides/04-lifestyle-os/health/leptin-system.md
+    related:
+      - guides/04-lifestyle-os/health/ghrelin-system.md
+      - guides/04-lifestyle-os/health/glp1-system.md
+      - guides/04-lifestyle-os/health/sleep-optimization.md
+
+  - id: hormone.ghrelin
+    aliases: [ghrelin, hormone đói]
+    canonical: guides/04-lifestyle-os/health/ghrelin-system.md
+    related:
+      - guides/04-lifestyle-os/health/leptin-system.md
+      - guides/04-lifestyle-os/health/glp1-system.md
+
+  - id: hormone.glp1
+    aliases: [glp-1, glp1, incretin]
+    canonical: guides/04-lifestyle-os/health/glp1-system.md
+    related:
+      - guides/04-lifestyle-os/health/insulin-system.md
+      - guides/04-lifestyle-os/health/cck-system.md
+
+  - id: hormone.cck
+    aliases: [cck, cholecystokinin]
+    canonical: guides/04-lifestyle-os/health/cck-system.md
+    related:
+      - guides/04-lifestyle-os/health/secretin-system.md
+      - guides/04-lifestyle-os/health/glp1-system.md
+
+  - id: hormone.secretin
+    aliases: [secretin]
+    canonical: guides/04-lifestyle-os/health/secretin-system.md
+    related:
+      - guides/04-lifestyle-os/health/cck-system.md
+
+  - id: hormone.gh
+    aliases: [growth hormone, GH, hormone tăng trưởng]
+    canonical: guides/04-lifestyle-os/health/growth-hormone-system.md
+    related:
+      - guides/04-lifestyle-os/health/sleep-optimization.md
+      - guides/04-lifestyle-os/health/melatonin-system.md
+      - guides/04-lifestyle-os/health/testosterone-system.md
 
   - id: hormone.testosterone
     aliases: [testosterone, test]
     canonical: guides/04-lifestyle-os/health/testosterone-system.md
     related:
-      - guides/04-lifestyle-os/health/cortisol-melatonin-system.md
+      - guides/04-lifestyle-os/health/cortisol-system.md
+      - guides/04-lifestyle-os/health/growth-hormone-system.md
+
+  - id: hormone.estrogen
+    aliases: [estrogen, oestrogen, estradiol]
+    canonical: guides/04-lifestyle-os/health/estrogen-system.md
+    related:
+      - guides/04-lifestyle-os/health/progesterone-system.md
+      - guides/04-lifestyle-os/well-being/special-populations/womens-health.md
+
+  - id: hormone.progesterone
+    aliases: [progesterone]
+    canonical: guides/04-lifestyle-os/health/progesterone-system.md
+    related:
+      - guides/04-lifestyle-os/health/estrogen-system.md
+      - guides/04-lifestyle-os/well-being/special-populations/womens-health.md
+
+  - id: hormone.aldosterone
+    aliases: [aldosterone]
+    canonical: guides/04-lifestyle-os/health/aldosterone-system.md
+    related:
+      - guides/04-lifestyle-os/health/adh-system.md
+
+  - id: hormone.adh
+    aliases: [adh, vasopressin, antidiuretic]
+    canonical: guides/04-lifestyle-os/health/adh-system.md
+    related:
+      - guides/04-lifestyle-os/health/aldosterone-system.md
+      - guides/04-lifestyle-os/health/sleep-optimization.md
+
+  - id: hormone.pth
+    aliases: [pth, parathyroid]
+    canonical: guides/04-lifestyle-os/health/pth-system.md
+    related:
+      - guides/04-lifestyle-os/health/calcitonin-system.md
+      - guides/04-lifestyle-os/health/movement-protocols.md
+
+  - id: hormone.calcitonin
+    aliases: [calcitonin]
+    canonical: guides/04-lifestyle-os/health/calcitonin-system.md
+    related:
+      - guides/04-lifestyle-os/health/pth-system.md
 
   - id: hormone.neurotransmitters
-    aliases: [serotonin, gaba, acetylcholine, neurotransmitters]
+    aliases: [gaba, acetylcholine, neurotransmitters]
     canonical: guides/04-lifestyle-os/health/neurotransmitters-guide.md
     related:
       - guides/04-lifestyle-os/health/dopamine-system.md
+      - guides/04-lifestyle-os/health/serotonin-system.md
+      - guides/04-lifestyle-os/health/noradrenaline-system.md
 
   - id: domain.backend
     aliases: [backend, api, database]

@@ -59,7 +59,7 @@ Legend: **Canonical** = prefer first. Related = optional depth.
 | health theory hub | [`health/README.md`](../guides/04-lifestyle-os/health/README.md) | well-being README, personal/ |
 | hormone map, hệ nội tiết overview | [`endocrine-hormone-map.md`](../guides/04-lifestyle-os/health/endocrine-hormone-map.md) | Health OS overview |
 | control hormone, checklist hormone | [`endocrine-control-playbook.md`](../guides/04-lifestyle-os/health/endocrine-control-playbook.md) | hormone map |
-| cortisol, stress hormone, circadian | [`cortisol-melatonin-system.md`](../guides/04-lifestyle-os/health/cortisol-melatonin-system.md) | playbook, sleep-optimization |
+| cortisol, stress hormone | [`cortisol-system.md`](../guides/04-lifestyle-os/health/cortisol-system.md) | circadian pair, playbook, sns-cortisol-brake |
 | SNS, sympathetic, fight or flight, physiological sigh, panoramic vision, làm chủ giao cảm | [`sns-cortisol-brake-playbook.md`](../guides/04-lifestyle-os/health/sns-cortisol-brake-playbook.md) | cortisol-melatonin, endocrine-control-playbook, negotiation-composure |
 | outcome independence, không cần công nhận, unneedy, want not need, validation seeking | [`outcome-independence.md`](../guides/04-lifestyle-os/life-os/outcome-independence.md) | bond-psychology, bond-presence-system, negotiation-composure, psychology-of-self |
 | outcome independence stoicism, OI × khắc kỷ, dichotomy of control validation | [`outcome-independence-stoicism.md`](../guides/04-lifestyle-os/life-os/outcome-independence-stoicism.md) | outcome-independence, stoicism-for-modern-life |
@@ -72,11 +72,32 @@ Legend: **Canonical** = prefer first. Related = optional depth.
 | thất bại nhìn vào đâu, giải phẫu thất bại, 4 tầng thất bại, chọn sai cuộc chơi, thất bại có địa chỉ, nhìn trước startup, nhìn trước kinh doanh, mô phỏng hiện thực trước khi vận hành, kế hoạch trong đầu trước giấy, người giỏi ít gặp vấn đề, thiết kế hệ thống chặn sự cố, người giỏi nhìn thấy điều chưa xảy ra, poka-yoke đời sống | [`anticipate-before-you-leave.md`](../guides/01-mental-models/philosophy/practical-applications/anticipate-before-you-leave.md) | strategy-engine, idea-validation, freelancer-framework, inversion, FMS |
 | fun-maxing, fun maxing, tối ưu vui sống, deep fun, fun budget, hedonic treadmill, anti hustle gen z | [`fun-maxing.md`](../guides/04-lifestyle-os/life-os/fun-maxing.md) | high-quality-leisure, dopamine-system, energy-management, meaning-and-purpose |
 | psychological resilience, sức bền tâm lý, bounce back, 5 pillars resilience, Stockdale | [`psychological-resilience.md`](../guides/04-lifestyle-os/well-being/mental-resilience/psychological-resilience.md) | mental-toughness-protocol, meditations-psychology, sns-cortisol-brake, outcome-independence |
-| melatonin, sleep hormone | same cortisol-melatonin file | [`sleep-optimization.md`](../guides/04-lifestyle-os/health/sleep-optimization.md) |
-| dopamine, motivation, drive | [`dopamine-system.md`](../guides/04-lifestyle-os/health/dopamine-system.md) | neurotransmitters-guide |
-| insulin, glucose, blood sugar | [`glucose-insulin-system.md`](../guides/04-lifestyle-os/health/glucose-insulin-system.md) | nutrition-for-brain |
-| testosterone | [`testosterone-system.md`](../guides/04-lifestyle-os/health/testosterone-system.md) | cortisol (inverse), sleep |
-| serotonin, gaba, neurotransmitters | [`neurotransmitters-guide.md`](../guides/04-lifestyle-os/health/neurotransmitters-guide.md) | dopamine-system |
+| melatonin, sleep hormone | [`melatonin-system.md`](../guides/04-lifestyle-os/health/melatonin-system.md) | sleep-optimization, circadian pair |
+| circadian, cortisol × melatonin pair | [`cortisol-melatonin-system.md`](../guides/04-lifestyle-os/health/cortisol-melatonin-system.md) | cortisol-system, melatonin-system |
+| dopamine, motivation, drive | [`dopamine-system.md`](../guides/04-lifestyle-os/health/dopamine-system.md) | neurotransmitters-guide, serotonin-system |
+| serotonin, 5-HT, hormone hạnh phúc | [`serotonin-system.md`](../guides/04-lifestyle-os/health/serotonin-system.md) | neurotransmitters-guide, melatonin-system |
+| oxytocin, gắn kết hormone | [`oxytocin-system.md`](../guides/04-lifestyle-os/health/oxytocin-system.md) | bond-presence, cortisol-system |
+| endorphin, endpoin, runner high | [`endorphin-system.md`](../guides/04-lifestyle-os/health/endorphin-system.md) | movement-protocols, dopamine-system |
+| adrenaline, epinephrine | [`adrenaline-system.md`](../guides/04-lifestyle-os/health/adrenaline-system.md) | noradrenaline, sns-cortisol-brake |
+| noradrenaline, norepinephrine | [`noradrenaline-system.md`](../guides/04-lifestyle-os/health/noradrenaline-system.md) | adrenaline, dopamine |
+| insulin | [`insulin-system.md`](../guides/04-lifestyle-os/health/insulin-system.md) | glucose-insulin pair, glp1 |
+| glucose, blood sugar, đường huyết | [`glucose-insulin-system.md`](../guides/04-lifestyle-os/health/glucose-insulin-system.md) | insulin-system |
+| T3, triiodothyronine | [`t3-system.md`](../guides/04-lifestyle-os/health/t3-system.md) | t4-system |
+| T4, thyroxine | [`t4-system.md`](../guides/04-lifestyle-os/health/t4-system.md) | t3-system |
+| leptin | [`leptin-system.md`](../guides/04-lifestyle-os/health/leptin-system.md) | ghrelin, glp1, sleep |
+| ghrelin, hormone đói | [`ghrelin-system.md`](../guides/04-lifestyle-os/health/ghrelin-system.md) | leptin, glp1 |
+| GLP-1, incretin | [`glp1-system.md`](../guides/04-lifestyle-os/health/glp1-system.md) | insulin, cck |
+| CCK, cholecystokinin | [`cck-system.md`](../guides/04-lifestyle-os/health/cck-system.md) | secretin, glp1 |
+| secretin | [`secretin-system.md`](../guides/04-lifestyle-os/health/secretin-system.md) | cck |
+| GH, growth hormone | [`growth-hormone-system.md`](../guides/04-lifestyle-os/health/growth-hormone-system.md) | sleep, melatonin, testosterone |
+| testosterone | [`testosterone-system.md`](../guides/04-lifestyle-os/health/testosterone-system.md) | cortisol-system, GH |
+| estrogen, estradiol | [`estrogen-system.md`](../guides/04-lifestyle-os/health/estrogen-system.md) | progesterone, womens-health |
+| progesterone | [`progesterone-system.md`](../guides/04-lifestyle-os/health/progesterone-system.md) | estrogen, womens-health |
+| aldosterone | [`aldosterone-system.md`](../guides/04-lifestyle-os/health/aldosterone-system.md) | adh |
+| ADH, vasopressin | [`adh-system.md`](../guides/04-lifestyle-os/health/adh-system.md) | aldosterone, sleep |
+| PTH, parathyroid | [`pth-system.md`](../guides/04-lifestyle-os/health/pth-system.md) | calcitonin, movement |
+| calcitonin | [`calcitonin-system.md`](../guides/04-lifestyle-os/health/calcitonin-system.md) | pth |
+| gaba, acetylcholine, neurotransmitters | [`neurotransmitters-guide.md`](../guides/04-lifestyle-os/health/neurotransmitters-guide.md) | dopamine-system, serotonin-system |
 | health OS | [`health-os-overview.md`](../guides/04-lifestyle-os/health/health-os-overview.md) | well-being README, hormone map |
 | sleep, sleep hygiene | [`sleep-optimization.md`](../guides/04-lifestyle-os/health/sleep-optimization.md) | cortisol-melatonin, playbook |
 | movement, desk worker exercise | [`movement-protocols.md`](../guides/04-lifestyle-os/health/movement-protocols.md) | health-optimization-protocols |

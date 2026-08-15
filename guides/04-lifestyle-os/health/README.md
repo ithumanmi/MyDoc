@@ -1,7 +1,7 @@
 ---
 title: "Health OS (theory)"
 description: "Hormone, sleep, movement, nutrition theory — records live in personal/"
-updated: "2026-08-07"
+updated: "2026-08-15"
 canonical: true
 tags: [health, hormones, lifestyle, hub]
 audience: [beginner, intermediate, advanced]
@@ -11,6 +11,9 @@ related:
   - ../../../personal/README.md
   - endocrine-hormone-map.md
   - endocrine-control-playbook.md
+  - serotonin-system.md
+  - oxytocin-system.md
+  - endorphin-system.md
 sensitivity: public
 ---
 
@@ -32,16 +35,45 @@ sensitivity: public
 | Health OS overview | [health-os-overview.md](./health-os-overview.md) |
 | Daily/weekly routines | [health-optimization-protocols.md](./health-optimization-protocols.md) |
 
-## Systems
+## Hormone articles (một hormone = một file)
+
+Quy tắc: mỗi hormone có `*-system.md` riêng. Map = chỉ mục. Playbook = checklist. File cặp (circadian, glucose) = tương tác, không thay bài từng chất.
+
+| Hormone | File |
+| --- | --- |
+| Dopamine | [dopamine-system.md](./dopamine-system.md) |
+| Serotonin | [serotonin-system.md](./serotonin-system.md) |
+| Oxytocin | [oxytocin-system.md](./oxytocin-system.md) |
+| Endorphin | [endorphin-system.md](./endorphin-system.md) |
+| Cortisol | [cortisol-system.md](./cortisol-system.md) |
+| Melatonin | [melatonin-system.md](./melatonin-system.md) |
+| Adrenaline | [adrenaline-system.md](./adrenaline-system.md) |
+| Noradrenaline | [noradrenaline-system.md](./noradrenaline-system.md) |
+| Insulin | [insulin-system.md](./insulin-system.md) |
+| T3 | [t3-system.md](./t3-system.md) |
+| T4 | [t4-system.md](./t4-system.md) |
+| Leptin | [leptin-system.md](./leptin-system.md) |
+| Ghrelin | [ghrelin-system.md](./ghrelin-system.md) |
+| GLP-1 | [glp1-system.md](./glp1-system.md) |
+| CCK | [cck-system.md](./cck-system.md) |
+| Secretin | [secretin-system.md](./secretin-system.md) |
+| GH | [growth-hormone-system.md](./growth-hormone-system.md) |
+| Testosterone | [testosterone-system.md](./testosterone-system.md) |
+| Estrogen | [estrogen-system.md](./estrogen-system.md) |
+| Progesterone | [progesterone-system.md](./progesterone-system.md) |
+| Aldosterone | [aldosterone-system.md](./aldosterone-system.md) |
+| ADH | [adh-system.md](./adh-system.md) |
+| PTH | [pth-system.md](./pth-system.md) |
+| Calcitonin | [calcitonin-system.md](./calcitonin-system.md) |
+
+## Systems (cặp / protocol)
 
 | Topic | Doc |
 | --- | --- |
-| Cortisol / melatonin | [cortisol-melatonin-system.md](./cortisol-melatonin-system.md) |
+| Cortisol × melatonin (circadian) | [cortisol-melatonin-system.md](./cortisol-melatonin-system.md) |
 | SNS / cortisol acute brake | [sns-cortisol-brake-playbook.md](./sns-cortisol-brake-playbook.md) |
-| Dopamine | [dopamine-system.md](./dopamine-system.md) |
-| Glucose / insulin | [glucose-insulin-system.md](./glucose-insulin-system.md) |
-| Testosterone | [testosterone-system.md](./testosterone-system.md) |
-| Neurotransmitters | [neurotransmitters-guide.md](./neurotransmitters-guide.md) |
+| Glucose × insulin | [glucose-insulin-system.md](./glucose-insulin-system.md) |
+| Neurotransmitters (GABA, ACh…) | [neurotransmitters-guide.md](./neurotransmitters-guide.md) |
 | Sleep | [sleep-optimization.md](./sleep-optimization.md) |
 | Movement | [movement-protocols.md](./movement-protocols.md) |
 | Nutrition for brain | [nutrition-for-brain.md](./nutrition-for-brain.md) |

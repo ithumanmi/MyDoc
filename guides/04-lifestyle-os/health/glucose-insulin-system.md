@@ -2,7 +2,7 @@
 
 > [← Back to Well-being](../well-being/README.md) | [Health OS Overview](./health-os-overview.md)
 >
-> **Map / control:** [endocrine-hormone-map](./endocrine-hormone-map.md) · [endocrine-control-playbook](./endocrine-control-playbook.md)
+> **Map / control:** [endocrine-hormone-map](./endocrine-hormone-map.md) · [endocrine-control-playbook](./endocrine-control-playbook.md) · bài insulin: [insulin-system](./insulin-system.md)
 
 <!-- agent-summary -->
 **Agent SUMMARY** (read this first; jump to `##` needed):

@@ -2,7 +2,7 @@
 
 > [← Back to Health OS](health-os-overview.md) | [Home](../../../README.md)
 >
-> **Map / control:** [endocrine-hormone-map](./endocrine-hormone-map.md) · [endocrine-control-playbook](./endocrine-control-playbook.md)
+> **Map / control:** [endocrine-hormone-map](./endocrine-hormone-map.md) · [endocrine-control-playbook](./endocrine-control-playbook.md) · bài riêng: [cortisol](./cortisol-system.md) · [melatonin](./melatonin-system.md)
 
 <!-- agent-summary -->
 **Agent SUMMARY** (read this first; jump to `##` needed):

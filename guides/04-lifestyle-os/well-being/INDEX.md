@@ -8,6 +8,7 @@
 - **Hub:** [`../health/README.md`](../health/README.md)
 - **[⚙️ CNS Basics](./cns-basics.md)** – Giải phẫu hệ thần kinh trung ương, hiểu “CPU” của cơ thể.
 - **[🧠 Dopamine System](../health/dopamine-system.md)** – Reset dopamine, cai nghiện kích thích số.
+- **[💗 Serotonin](../health/serotonin-system.md) · [Oxytocin](../health/oxytocin-system.md) · [Endorphin](../health/endorphin-system.md)** – Mỗi hormone một bài.
 - **[🛡️ Cortisol & Melatonin](../health/cortisol-melatonin-system.md)** – Quản lý stress & nhịp ngủ-thức.
 - **[🩸 Glucose & Insulin](../health/glucose-insulin-system.md)** – Ổn định năng lượng, tránh brain fog.
 - **[⚡ Testosterone System](../health/testosterone-system.md)** – Kích hoạt drive, sức mạnh và sự quyết đoán.

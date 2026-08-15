@@ -49,6 +49,12 @@
 - guides/04-lifestyle-os/health/endocrine-control-playbook.md
 - guides/04-lifestyle-os/health/cortisol-melatonin-system.md
 - guides/04-lifestyle-os/health/dopamine-system.md
+- guides/04-lifestyle-os/health/serotonin-system.md
+- guides/04-lifestyle-os/health/oxytocin-system.md
+- guides/04-lifestyle-os/health/endorphin-system.md
+- guides/04-lifestyle-os/health/cortisol-system.md
+- guides/04-lifestyle-os/health/melatonin-system.md
+- guides/04-lifestyle-os/health/insulin-system.md
 - guides/04-lifestyle-os/health/glucose-insulin-system.md
 - guides/04-lifestyle-os/health/testosterone-system.md
 

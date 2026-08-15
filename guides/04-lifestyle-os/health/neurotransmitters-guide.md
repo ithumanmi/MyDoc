@@ -4,7 +4,7 @@
 > 
 > [← Back to Health OS Overview](./health-os-overview.md) | [Well-being Home](../well-being/README.md)
 >
-> **Map / control:** [endocrine-hormone-map](./endocrine-hormone-map.md) · [endocrine-control-playbook](./endocrine-control-playbook.md) · [dopamine-system](./dopamine-system.md)
+> **Map / control:** [endocrine-hormone-map](./endocrine-hormone-map.md) · [endocrine-control-playbook](./endocrine-control-playbook.md) · [dopamine-system](./dopamine-system.md) · [serotonin-system](./serotonin-system.md)
 
 <!-- agent-summary -->
 **Agent SUMMARY** (read this first; jump to `##` needed):
@@ -12,6 +12,7 @@
 - Use table “5 neurotransmitters chính” for triage; deep sections per chemical.
 - Later: interactions → testing → optimization protocols → action items.
 - Dopamine deep-dive lives in [dopamine-system.md](./dopamine-system.md) (this file is broader).
+- Serotonin lifestyle: [serotonin-system.md](./serotonin-system.md). Oxytocin / endorphin: bài riêng.
 - Educational only — mood disorders need clinical care.
 <!-- /agent-summary -->
 
@@ -707,6 +708,7 @@ Catecholamines:
 
 **Layer 1 Systems:**
 - [Dopamine System](./dopamine-system.md) - Motivation & reward
+- [Serotonin](./serotonin-system.md) · [Oxytocin](./oxytocin-system.md) · [Endorphin](./endorphin-system.md) — mỗi hormone một bài
 - [Cortisol & Melatonin](./cortisol-melatonin-system.md) - Stress & sleep (affects serotonin)
 - [Glucose System](./glucose-insulin-system.md) - Energy for neurotransmitter synthesis
 
