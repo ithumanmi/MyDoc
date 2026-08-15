@@ -4,8 +4,8 @@ description: >-
   Navigate the Docs knowledge library via AGENTS.md read order, meta/routing,
   topics.yaml, and hub READMEs (domains, Games OS, Health OS, career). Use when
   answering from this repo, finding canonical docs, resolving tech vs career
-  overlaps, Games OS make/play/earn/follow, hormones/lifestyle theory, or adding
-  canonical topics that need routing/catalog updates.
+  overlaps, Games OS make/play/earn/follow, hormones/lifestyle theory, adding
+  canonical topics, or writing Vietnamese context/content (đúng ngữ cảnh, dễ đọc).
 ---
 
 # Docs navigation
@@ -58,6 +58,16 @@ If routing fails, then search. Prefer Stable domains (`domains/README.md`) unles
 3. New domain → update `domains/README.md` maturity table.
 4. Validate: `python scripts/check_agent_catalog.py`
 
+## Vietnamese content (mandatory)
+
+Khi tạo **context** hoặc **content** tiếng Việt: phải **đúng ngữ cảnh**, **đọc dễ hiểu**.
+
+- Viết như người Việt nói/đọc được hết một mạch — câu đủ, ý rõ, không dịch cứng từ tiếng Anh.
+- Thuật ngữ Anh chỉ giữ khi cần (tên bài, tên riêng). Lần đầu **giải thích bằng tiếng Việt**; sau đó dùng tiếng Việt.
+- Cấm chồng viết tắt / jargon không giải thích (`T1`, `PE`, `PMF`, `dry-run`, `prior`, `vá T4`…) trong đoạn người đọc.
+- Bảng và gạch đầu dòng cũng phải đọc được; không nhồi một ô toàn từ Anh rút gọn.
+- Filename tiếng Anh được; **thân bài tiếng Việt** thì ngữ cảnh tiếng Việt.
+
 ## Anti-patterns
 
 - Grep random long files before routing
@@ -67,6 +77,7 @@ If routing fails, then search. Prefer Stable domains (`domains/README.md`) unles
 - Scatter pitch/GDD/teardown for one title outside `domains/game-dev/analyses/<slug>/` (use `full-pack`)
 - Put GitHub repos into `resources/collected_links/` (use `GitClone/PROJECTS.md` locally)
 - Dump Luật VN corpus into `guides/02-wealth-business/legal/` (catalog/notes → `guides/06-vn-law/`)
+- Viết body tiếng Việt kiểu dịch Anh / Vietlish / viết tắt chồng (người đọc phải dịch ngược mới hiểu)
 
 ## Quick examples
 

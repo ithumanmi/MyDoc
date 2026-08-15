@@ -65,6 +65,7 @@ Deep-dives may exceed 500–800 lines. Use the **Agent SUMMARY** block at the to
 ## 5. Editing conventions
 
 - Keep kebab-case paths; English filenames OK with Vietnamese body.
+- **Content tiếng Việt:** đúng ngữ cảnh, đọc dễ hiểu. Không dịch cứng / chồng jargon Anh. Thuật ngữ Anh lần đầu giải thích bằng tiếng Việt. Chi tiết: skill `docs-navigation` → *Vietnamese content*.
 - Update routing (`meta/routing.md` + `meta/catalog/topics.yaml`) when adding a **canonical** topic doc.
 - New domains: update `domains/README.md` maturity table.
 - Prefer relative links; breadcrumbs on new pages.

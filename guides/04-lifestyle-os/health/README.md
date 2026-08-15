@@ -43,7 +43,7 @@ sensitivity: public
 
 Quy tắc: mỗi hormone có `*-system.md` riêng. Map = chỉ mục. Playbook = checklist. File cặp (circadian, glucose) = tương tác, không thay bài từng chất.
 
-**Khung mỗi bài:** bản chất sinh học → khái niệm → vai trò → lúc nào tăng → lúc nào giảm → ưu (đúng nhịp) → nhược (lệch) → ảnh hưởng sinh hóa đời sống → đòn bẩy → protocol → an toàn. Giáo dục — không chẩn đoán, không bịa số lab.
+**Khung mỗi bài:** bản chất → khái niệm → vai trò → lúc tăng → lúc giảm → khi đủ được gì → khi lệch mất gì → kéo chất khác thế nào trong ngày → việc nên làm → theo dõi → an toàn. Thân bài tiếng Việt đủ câu, thuật ngữ Anh được giải thích lần đầu. Giáo dục — không chẩn đoán, không bịa số xét nghiệm.
 
 | Hormone | File |
 | --- | --- |

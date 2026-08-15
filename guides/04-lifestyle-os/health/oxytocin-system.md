@@ -21,16 +21,16 @@ sensitivity: public
 
 > [← Hormone map](./endocrine-hormone-map.md) · [Playbook](./endocrine-control-playbook.md) · [Serotonin](./serotonin-system.md) · [Endorphin](./endorphin-system.md) · [Bond presence](../life-os/bond-presence-system.md)
 
-Oxytocin là **peptide 9 amino acid** (hormone + neurotransmitter): hạ đồi tổng hợp, tuyến yên sau tiết vào máu; cũng cred tại synap. Việc đời thường: *an toàn xã hội / gắn kết*. Không phải love potion, không có viên uống đáng tin.
+Oxytocin là một chuỗi protein ngắn (peptide). Não tạo ra, tuyến yên tiết vào máu, đồng thời gửi tín hiệu trong não. Việc đời thường: **thấy an toàn với người (hoặc thú) mình tin**. Không phải thuốc tình yêu, không có viên uống đáng tin.
 
-## Agent SUMMARY
+## Tóm tắt cho agent
 
-- Nơi: nhân paraventricular / supraoptic → yên sau + chiếu não. Thụ thể OXTR (G-protein).
-- Vai trò: sinh nở, cho con bú, gắn cặp/cha mẹ–con, tin, đọc mặt, dịu [cortisol](./cortisol-system.md) xã hội.
-- Tăng: chạm đồng thuận, mắt+giọng, thú cưng, giúp việc có mặt, cộng đồng lặp, chuyển dạ/bú (sinh lý mạnh).
-- Giảm / thiếu ngữ cảnh: cô lập, chỉ online, conflict không nói, SNS bật (sợ trước khi tin).
-- Ưu: thuộc về, hạ cô độc. Nhược: thiên vị nhóm mình, gắn quan hệ không lành, không resolve conflict.
-- Giáo dục. Spray / thuốc = bác sĩ. Cô lập + suy sụp → người thật + có thể chuyên khoa.
+- Não tạo oxytocin; máu và não là hai đường. Đo máu không phải “chỉ số yêu”.
+- Vai trò: sinh nở, cho con bú, gắn kết, tin tưởng, đọc cảm xúc, thường làm dịu [cortisol](./cortisol-system.md) khi chuyện người tử tế.
+- Dễ tăng: chạm khi cả hai đồng ý, nhìn mắt, nghe giọng, thú cưng, giúp việc có mặt, nhóm gặp lại nhiều lần. Sinh nở và cho con bú là đỉnh sinh lý — không tự can thiệp bằng thuốc.
+- Dễ yếu: ít gặp người, chỉ sống trên mạng, cãi nhau rồi tránh mặt, đang sợ (cơ thể ưu tiên chạy trước khi tin).
+- Được: bớt cô độc. Mất / hiểu sai: chỉ tin “phe mình”, gắn vào quan hệ không lành, nghĩ ôm là xong chuyện.
+- Xịt mũi hay thuốc: bác sĩ. Cô lập lâu và suy sụp: cần người thật, có thể cần chuyên khoa.
 
 ---
 

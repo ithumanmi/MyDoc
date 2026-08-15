@@ -20,16 +20,16 @@ sensitivity: public
 
 > [← Hormone map](./endocrine-hormone-map.md) · [Playbook](./endocrine-control-playbook.md) · [Movement](./movement-protocols.md) · [Serotonin](./serotonin-system.md) · [Oxytocin](./oxytocin-system.md)
 
-Endorphin (*endogenous morphine*) là **peptide opioid** do não / tuyến yên tạo: gắn thụ thể μ (cùng họ với morphine y khoa) → giảm cảm nhận đau, dễ chịu sau nỗ lực. Không phải kế hoạch hạnh phúc cả ngày. “Runner’s high” còn có **endocannabinoid**.
+Endorphin nghĩa đen là “morphine do cơ thể tự tạo”. Não và tuyến yên tiết ra để **giảm cảm nhận đau** và cho cảm giác dễ chịu sau khi cố sức. Không phải kế hoạch hạnh phúc cả ngày. Cảm giác “phê sau chạy bộ” còn có chất khác cùng họ dầu (endocannabinoid) — thực tế bạn chỉ cần tập đủ sức, rồi nghỉ.
 
-## Agent SUMMARY
+## Tóm tắt cho agent
 
-- POMC → β-endorphin (yên trước / hạ đồi). Thụ thể opioid μ; peptidase phá nhanh. Qua BBB kém hơn endocannabinoid.
-- Vai trò: giảm đau, dịu stress cấp sau nỗ lực, mood-lift ngắn.
-- Tăng: tập đủ ngưỡng (thở mệt, đủ lâu), cười, đau/lạnh/ớt (spike), một số stress cấp.
-- Giảm / không có cửa: ngồi cả ngày, tập dưới ngưỡng, hoặc overtraining / đau mạn (hệ rối).
-- Ưu: xả, chịu được khó chịu lành. Nhược: chase high khi chấn thương; nhầm với antidepressant; opioid ngoài y khoa.
-- Giáo dục. Đau tăng / kiệt / mất kinh → dừng, BS thể thao.
+- Endorphin là peptide opioid nội sinh, đời ngắn. Khác thuốc giảm đau opioid mua ngoài — thuốc ngoài gây dung nạp và nguy hiểm.
+- Vai trò: giảm đau, dễ chịu ngắn sau nỗ lực.
+- Dễ tăng: tập đến thở mệt vừa, đủ lâu; cười lớn; chơi với người. Ớt hay nước lạnh chỉ tăng ngắn, không phải nền.
+- Dễ không có: ngồi cả ngày, tập cho có, hoặc tập quá / đau mãi.
+- Được: xả sau ngày ngồi, chịu được khó chịu lành. Mất / hiểu sai: tập khi đang chấn thương để “đòi phê”; coi đây là thuốc chống trầm cảm.
+- Đau tăng, kiệt, mất kinh: dừng, gặp bác sĩ thể thao.
 
 ---
 

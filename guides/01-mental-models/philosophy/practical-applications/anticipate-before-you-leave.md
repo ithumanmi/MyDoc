@@ -41,6 +41,16 @@ Cùng một cách nhìn — trước khi ra cửa, trước khi gửi báo giá,
 
 Câu “nếu… thì…” trong đầu vẫn cần — đó là lớp ứng biến. Lớp cao hơn là **đổi chỗ làm việc, đổi thói quen mặc định, đặt giới hạn từ trước**, để lớp sự cố đó hết cửa. Không ai thấy *mọi* việc. Giỏi là chặn được những thứ **có thể thấy trước**; thứ không thấy thì [sửa nhanh](../../fast-correction-mindset.md).
 
+Bài này **không** bảo: ít vấn đề = giỏi hơn người đang vật lộn. Có việc *phải* gặp vấn đề — học nghề, nuôi con, làm sản phẩm mới. Ít cháy vì đã chặn được lớp cũ. Né hết mọi khó khăn thì cũng né luôn chỗ đáng chơi.
+
+**Hai bản đồ, đừng trộn số:**
+
+| Bản đồ | Số | Việc của nó |
+| --- | --- | --- |
+| Cách chặn sự cố (§2) | Lớp 0 → 1 → 2 | Việc tới mới nghĩ / đã có “nếu… thì…” / đã đổi môi trường |
+| Địa chỉ thất bại (§5) | Tầng 1 → 4 | Sai cuộc chơi / sai hướng / thiếu sức / sai một cảnh |
+| Cửa sổ thời gian (§3) | A phút · B buổi · C tuần | Cùng một mắt, ba tầm nhìn |
+
 ## Agent SUMMARY
 
 - Người giỏi **ít gặp vấn đề** vì đã thấy trước rồi **chặn đường sự cố** — không phải may, không phải “cứu hỏa giỏi”.
@@ -49,7 +59,9 @@ Câu “nếu… thì…” trong đầu vẫn cần — đó là lớp ứng bi
 - Kế hoạch tốt nhất **nằm trong đầu trước khi viết ra giấy**. Giấy mà chưa chạy thử trong đầu = kế hoạch giả (kể cả slide gọi vốn hay danh sách mục tiêu).
 - Thất bại **có địa chỉ** — 4 tầng: cuộc chơi → chiến lược → năng lực → tình huống. **Đừng lẫn** với 3 lớp cách chặn ở trên. Hầu hết người ta sửa tầng 4 trong khi lỗi ở tầng 1.
 - Cùng khung cho **đời sống, kinh doanh, startup**. Việc khác nhau; chỗ sai cùng một logic.
-- 90 giây trước khi ra cửa hoặc trước giờ tập trung. Việc lớn (cuộc gọi, chốt deal, ra mắt): 10–15 phút đoán trước thất bại. Lặp hai lần → **đổi hệ thống**, đừng chỉ thêm câu “lần sau mình nhớ”. Việc không thể thấy trước → [FMS](../../failure-management-system.md).
+- **Không phải lúc nào cũng tầng 1.** Đổi cuộc chơi khi game đã thua sẵn — không phải mỗi khi khó. Có lúc đúng nước là học (tầng 3) hoặc sửa một cảnh (tầng 4).
+- Một số vỡ **không nằm trong bốn tầng** (người khác quyết, bệnh, luật, việc lạ). Đừng tự kết án. [Hệ thống xử lý thất bại](../../failure-management-system.md).
+- 90 giây trước khi ra cửa. Việc lớn: 10–15 phút. Lặp hai lần → **đổi hệ thống**. Một ngày **một** sửa — không biến bài này thành danh sách lo.
 
 ---
 
@@ -89,7 +101,7 @@ Lớp 1 vẫn hơn lớp 0. **Giỏi thật sự là lớp 2.** Câu “nếu…
 2. **Đổi mặc định** — việc đúng phải là đường dễ nhất. Túi tập luôn đủ đồ. Mẫu báo giá và giá sàn *có sẵn* trước khi khách hỏi. Giờ kết thúc cuộc họp hiện trên lịch. Thử nhu cầu bằng trang giả / làm thủ công *trước* khi dựng hệ thống lớn.
 3. **Đặt giới hạn lúc tỉnh** — đừng quyết khi đang thèm, đang nóng, đang muốn chứng minh. Chặn app *trước* giờ làm. “Dưới giá này thì không nhận.” “Hỏi xong vài người thật, không ai đang trả tiền để tự xoay — thì dừng xây.”
 4. **Biên an toàn** — đừng chạy hết 100%. Chừa giờ, tiền, sức, và số tháng còn sống được bằng tiền trong két. Sự cố nhỏ không thành vấn đề; một tháng ế không thành phá sản.
-5. **Bớt, đừng chỉ thêm ý chí** — bớt thứ tạo sự cố. Bớt mạng xã hội trên giường. Bớt kênh bán không ra đơn. Bớt tính năng chưa kiểm tra giả định rủi ro nhất ([RAT](../../../03-career-skills/innovation/rat-testing.md)).
+5. **Bớt, đừng chỉ thêm ý chí** — bớt thứ tạo sự cố. Bớt mạng xã hội trên giường. Bớt kênh bán không ra đơn. Bớt tính năng chưa thử **giả định dễ làm sập nhất** ([RAT — kiểm giả định rủi ro](../../../03-career-skills/innovation/rat-testing.md)).
 
 Người kém tối ưu **cảm giác đang giải quyết** (đổi câu quảng cáo, đổi lịch tập, họp cứu hỏa). Người giỏi tối ưu **số lần phải giải quyết**. Đời êm, công ty êm, nhìn như may — vì **lớp vấn đề đã bị xếp ra khỏi hệ thống**.
 
@@ -160,9 +172,27 @@ Hai bản đồ, đừng trộn:
 | **3** | **Kỹ năng / nguồn lực không đủ** | Thiếu tay nghề, thời gian, vốn, người, sức? | Học, mượn, hoặc làm nhỏ lại | Tin mẹo tình huống sẽ bù chỗ thiếu sức |
 | **4** | **Làm sai trong cảnh cụ thể** | Cảnh này: sai câu, sai kênh, sai lúc? | Đổi câu / đổi cách làm cảnh đó | Sửa tầng 4 trong khi lỗ ở tầng 1–3 |
 
-Hầu hết mọi người **sửa tầng 4 khi lỗi nằm ở tầng 1**: đổi cách tiếp cận, đổi câu trên trang web, đổi giờ tập, đổi “lần này để máy xa năm phút” — trong khi đáng ra phải **đổi cuộc chơi**.
+Hầu hết mọi người **sửa cách làm một cảnh khi lỗi nằm ở cuộc chơi**: đổi câu trên trang, đổi giờ tập, đổi “lần này để máy xa năm phút” — trong khi đáng ra phải **đổi việc đang chơi**.
 
-Chẩn đoán: **bắt đầu tầng 1, đi xuống**. Chỉ sửa tầng 4 khi tầng 1–3 đứng vững. [Động cơ chiến lược](../../../04-lifestyle-os/life-os/strategy-engine.md): *chiến thuật thắng một trận; chiến lược biết trận nào đáng đánh.* Việc có khớp hướng sống dài không — [động cơ khớp hướng](../../../04-lifestyle-os/life-os/alignment-engine.md).
+Chẩn đoán: **bắt đầu tầng 1, đi xuống**. Chỉ sửa tầng 4 khi tầng 1–3 đứng vững. [Động cơ chiến lược](../../../04-lifestyle-os/life-os/strategy-engine.md): *chiến thuật thắng một trận; chiến lược biết trận nào đáng đánh.* Việc có khớp hướng sống dài không — [khớp hướng sống](../../../04-lifestyle-os/life-os/alignment-engine.md).
+
+### Khi nào không phải tầng 1
+
+Bắt đầu từ tầng 1 **không** có nghĩa hầu hết việc đều sai cuộc chơi. Nếu đọc xong bài mà thấy muốn bỏ hết — đang dùng khung quá đà.
+
+| Dấu hiệu | Thường là | Không phải |
+| --- | --- | --- |
+| Việc đáng làm, có cửa thắng, khớp hướng sống — chỉ vỡ ở *một* cảnh (câu sai, giờ sai, người không tới) | Tầng 4 | Đổi nghề / xóa app / đóng công ty |
+| Hướng thắng sai (ôm hết, đua hộp thư, làm xong rồi mới tìm khách) nhưng việc vẫn đáng | Tầng 2 | “Mình không hợp” |
+| Việc đúng, hướng đúng — thiếu tay, thiếu bằng chứng, thiếu ngủ, thiếu vốn | Tầng 3 | Bỏ cuộc chơi vì chưa giỏi |
+| Làm mãi vẫn thua *cùng một luật* (sàn thưởng người rẻ nhất; trò lướt được thiết kế để thắng bạn; không ai trả cho nỗi đau này) | Tầng 1 | Thêm mẹo, thêm giờ |
+| Sếp bắt họp. Ốm. Luật đổi. Đối thủ làm điều không hợp lý để đoán | Ngoài bốn tầng | “Mình kém / chọn sai hết” |
+
+**Đổi cuộc chơi khác bỏ cuộc mỗi khi khó.** Học nghề, năm đầu công ty, nuôi con — khó là giá của cuộc chơi đúng. Hỏi: *luật của trò này có cho mình cửa không?* Có cửa mà chưa đủ sức → tầng 3. Không cửa, dù cố đến đâu cũng thua → tầng 1.
+
+Ví dụ tầng 3 (đừng đổi game): viết được, khách có, giá ổn — nhưng chưa có ba sản phẩm mẫu thì khách không trả cao. Đúng nước: làm bằng chứng, không phải bỏ làm tự do.
+
+Ví dụ tầng 4 (đừng đụng tầng 1): cuộc họp *đáng* có mặt, lịch đã có giờ cắt — chỉ cứng miệng khi bị hỏi khó. Đúng nước: thuộc một câu. Không phải “họp là cuộc chơi độc”.
 
 ### Cùng một triệu chứng, khác địa chỉ
 
@@ -207,7 +237,15 @@ Nguyên nhân hay gặp nhất: **không có nhu cầu thị trường** — [ki
 - **Tầng 2:** Cách thắng = “làm xong rồi đi tìm người dùng”, hoặc “chạy quảng cáo trước khi biết ai đang trả tiền để tự xoay”. Sai thứ tự. Thứ tự đúng: nỗi đau trước → hỏi chuyện *đã xảy ra* (không hỏi “bạn sẽ dùng chứ?”) → thử nhu cầu bằng trang giả hoặc làm hộ — [RAT](../../../03-career-skills/innovation/rat-testing.md) — *rồi mới* bỏ tiền mở kênh.
 - **Tầng 1:** Đang chơi cuộc **thuốc bổ không ai mua**, hoặc cuộc **tăng trưởng trước khi sản phẩm đã khớp thị trường** ([tech startup](../../../02-wealth-business/entrepreneurship/tech-startup/README.md): khớp thị trường là từ không có gì thành có; tăng trưởng là từ có thành lớn). Câu hay không cứu cuộc chơi sai. Đúng nước: dừng xây, đổi nỗi đau, hoặc đổi hướng khi số liệu đứng im — không phải sửa trang chủ tuần thứ chín.
 
-Phim trước khi tuyển người / chạy quảng cáo: tám tuần người vào rồi không quay lại → còn tiền sống được bao lâu → lúc đó gọi vốn với câu chuyện gì. Phim đó xấu mà vẫn “làm thêm một đợt giao diện” = sửa tầng 4 cho lỗ tầng 1.
+Phim trước khi tuyển người / chạy quảng cáo: tám tuần người vào rồi không quay lại → còn tiền sống được bao lâu → lúc đó gọi vốn với câu chuyện gì. Phim đó xấu mà vẫn “làm thêm một đợt giao diện” = sửa cách làm cảnh khi lỗ ở cuộc chơi.
+
+### Chỗ khung này dễ dùng sai
+
+1. **Coi mọi thứ là tầng 1.** Tiện, nghe sâu — và hay thành cớ bỏ việc đáng làm. Luôn hỏi thêm: *có cửa thắng không, hay chỉ chưa đủ sức?*
+2. **Trộn hai bản đồ.** “Lớp 2” (§2) là đổi môi trường. “Tầng 2” (§5) là sai hướng thắng. Cùng số, khác việc.
+3. **Xóa hết đường đi.** Máy sang phòng khác thì đúng. Xóa hết ma sát (không gặp ai, không thử gì) thì giòn — hết chỗ học, hết cửa tình cờ. Chặn lớp sự cố *lặp*; đừng chặn cả đời.
+4. **Nhìn trước thành danh sách lo.** 90 giây là đủ cho một lần ra cửa. Không audit cả tuần trong một tối. Lo quay vòng ≠ nhìn trước (§7).
+5. **Tự nhận hết lỗi.** Bốn tầng giải thích *phần mình chọn được*. Phần người khác, thể chế, bệnh, việc lạ — ghi “ngoài tầng”, rồi [xử lý thất bại](../../failure-management-system.md), đừng tự kết án.
 
 ### Sau khi biết địa chỉ — hỏi vì sao sự cố vẫn lọt
 
@@ -232,7 +270,7 @@ Giả định sai ([FMS](../../failure-management-system.md)): *mình tin X; đ�
 4. Mình tin gì sai? (tin X, đời là Y)
 5. **Một** sửa **đúng tầng** — nếu tầng 1 thì đổi hoặc thoát cuộc chơi, **không** thêm mẹo tầng 4
 
-Xong năm câu mà vẫn chỉ đổi cách làm trong cảnh cụ thể → rất có thể đang **vá tầng 4 cho lỗ tầng 1**. Hiểu rồi = biết đúng chỗ + đường đi của sự cố đã bị cắt.
+Xong năm câu mà vẫn chỉ đổi cách nói / cách làm một cảnh → hỏi lại tầng 1. Nhưng nếu tầng 1–3 đã đứng mà vẫn đổ cho “sai cuộc chơi” → đang trốn tầng 4. Hiểu rồi = biết đúng chỗ + đường đi của sự cố đã bị cắt.
 
 ## 6. Không phải thấy trước tất cả
 
@@ -260,7 +298,7 @@ Khắc kỷ *tưởng tượng sự cố hợp lý* ([stoicism mỗi ngày](./st
 | Cảm giác sau | Nhẹ hơn vì đã biết ai làm gì | Nặng hơn |
 | Có dừng? | Có — xong thì đi | Không dừng được |
 
-Không viết được **một câu “nếu… thì…”** (hoặc một địa chỉ tầng 1–4) → chưa phải nhìn thấy tương lai. Đó là lo. Hạ người đã rồi mới chạy thử trong đầu: [phanh stress](../../../04-lifestyle-os/health/sns-cortisol-brake-playbook.md) · [lo âu và thói quen dự báo](../../psychology/practical-applications/predictive-processing-anxiety-habits.md).
+Không viết được **một câu “nếu… thì…”** (hoặc một địa chỉ tầng 1–4) → chưa phải nhìn thấy tương lai. Đó là lo. Bình tĩnh đã rồi mới chạy thử trong đầu: [phanh stress](../../../04-lifestyle-os/health/sns-cortisol-brake-playbook.md) · [lo âu và thói quen dự báo](../../psychology/practical-applications/predictive-processing-anxiety-habits.md).
 
 Người làm công ty mới hay nhầm **chiếu phim mình chết** với họp đoán trước thất bại. Họp đúng có người chịu trách nhiệm, có cách giảm rủi ro, có tầng địa chỉ. Chiếu phim chết chỉ có cảm giác.
 
@@ -309,7 +347,7 @@ Hàng ngủ muộn = **hệ quả thời gian**: thấy sáng mai rồi chặn t
 
 Mỗi lần **sắp ra cửa** hoặc **sắp ngồi làm việc**: 90 giây, gồm câu *chặn hẳn được không?*. Việc lớn trong tuần: **một** lần 10–15 phút (§8).
 
-Tối một dòng: *cảnh nào đã thấy / cái nào vẫn bất ngờ / đã đổi hệ thống chưa*. Nếu vỡ: *địa chỉ tầng 1–4 / phim có cảnh không / một sửa đúng tầng* (không vá tầng 4 cho lỗ tầng 1).
+Tối một dòng: *cảnh nào đã thấy / cái nào vẫn bất ngờ / đã đổi hệ thống chưa*. Nếu vỡ: *địa chỉ tầng 1–4 / phim có cảnh không / một sửa đúng tầng*. Một ngày **một** sửa. Đừng vừa đổi cuộc chơi vừa đổi câu vừa đổi lịch.
 
 **Ba chỗ trong tuần** (không cần đủ ba mỗi ngày — có sự cố thì một dòng):
 
