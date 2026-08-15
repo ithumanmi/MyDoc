@@ -82,7 +82,7 @@ Lộ trình này được thiết kế đi từ nền tảng tư duy đến các
 *   **[Chiến thắng chính mình](./chien-thang-chinh-minh.md):** ⭐ **NEW** Nhìn ra lỗi để tỉnh thức, sửa lỗi để có bản lĩnh, chấp nhận người khác để rộng tâm, chiến thắng bản thân là tu hành thật sự.
 *   **[Logic trong đời sống](./practical-applications/logic-in-daily-life.md):** Áp dụng logic học vào họp, news, quyết định (sau nền Fallacies).
 *   **[Decision Making Frameworks](./practical-applications/decision-making-frameworks.md):** Ra quyết định dựa trên triết học.
-*   **[Người giỏi nhìn thấy điều chưa xảy ra](./practical-applications/anticipate-before-you-leave.md):** ⭐ **NEW** Ít gặp vấn đề vì đã thấy trước rồi chặn hệ thống. Thất bại có địa chỉ: 4 tầng (cuộc chơi → chiến lược → lực → tình huống) — đừng vá tầng 4 khi lỗi ở tầng 1.
+*   **[Người giỏi nhìn thấy điều chưa xảy ra](./practical-applications/anticipate-before-you-leave.md):** ⭐ **NEW** Mô phỏng trước giấy; 4 tầng địa chỉ; cùng khung đời sống · kinh doanh · startup — đừng vá tầng 4 khi lỗi ở tầng 1.
 *   **[Nâng cao năng lực ra quyết định (đời sống & công việc)](../../04-lifestyle-os/life-os/decision-capability.md):** Triage · bias · scenario life/work · calibration · drill.
 *   **[Meaning & Purpose](./practical-applications/meaning-and-purpose.md):** Tìm kiếm ý nghĩa cuộc sống (Frankl).
 *   **[Ethics in Tech](./practical-applications/ethics-in-tech.md):** Đạo đức trong AI và công nghệ.

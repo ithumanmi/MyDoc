@@ -105,3 +105,5 @@ Drew Houston (Founder Dropbox) không code sản phẩm ngay.
 4.  Lúc đó anh mới bắt đầu code.
 
 > **Bài học:** Validate trước, Build sau.
+
+Đổi landing khi chưa có nhu cầu = vá tầng 4 cho lỗ tầng 1 — [giải phẫu thất bại](../../../01-mental-models/philosophy/practical-applications/anticipate-before-you-leave.md) §5.

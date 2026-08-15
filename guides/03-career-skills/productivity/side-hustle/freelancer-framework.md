@@ -152,4 +152,5 @@ Skill & Niche → Portfolio → Acquisition (Outbound + Inbound)
 | NDA | [NDA Template](../../02-wealth-business/legal/templates/nda-template.md) |
 | Thuế doanh nghiệp | [Tax Compliance](../../02-wealth-business/legal/business/tax-compliance.md) |
 | Bước tiếp: Sản phẩm số, Coaching | [Monetization Models](./monetization-models.md) |
+| Bận mà nghèo: sai game hay sai proposal? | [Anticipate / 4 tầng địa chỉ](../../../01-mental-models/philosophy/practical-applications/anticipate-before-you-leave.md) |
 | Cold email mentor | [Cold Email Mentor](../../../templates/cold-email-mentor.md) |

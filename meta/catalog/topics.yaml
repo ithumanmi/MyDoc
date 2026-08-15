@@ -628,6 +628,9 @@ topics:
       - 4 tầng thất bại
       - chọn sai cuộc chơi
       - thất bại có địa chỉ
+      - nhìn trước startup
+      - nhìn trước kinh doanh
+      - giải phẫu thất bại startup
     canonical: guides/01-mental-models/philosophy/practical-applications/anticipate-before-you-leave.md
     related:
       - guides/01-mental-models/philosophy/practical-applications/stoicism-daily.md
@@ -637,6 +640,10 @@ topics:
       - guides/04-lifestyle-os/life-os/strategy-engine.md
       - guides/04-lifestyle-os/life-os/alignment-engine.md
       - guides/04-lifestyle-os/life-os/risk-engine.md
+      - guides/03-career-skills/innovation/rat-testing.md
+      - guides/03-career-skills/productivity/side-hustle/freelancer-framework.md
+      - guides/02-wealth-business/entrepreneurship/tech-startup/idea-validation.md
+      - guides/02-wealth-business/entrepreneurship/tech-startup/product-market-fit.md
       - guides/01-mental-models/failure-management-system.md
       - guides/01-mental-models/psychology/fundamentals/predictive-processing.md
       - guides/01-mental-models/engineering/inversion.md
