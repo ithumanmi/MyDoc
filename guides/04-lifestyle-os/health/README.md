@@ -11,6 +11,8 @@ related:
   - ../../../personal/README.md
   - endocrine-hormone-map.md
   - endocrine-control-playbook.md
+  - hormone-rhythm-playbook.md
+  - hormone-interaction-map.md
   - serotonin-system.md
   - oxytocin-system.md
   - endorphin-system.md
@@ -31,6 +33,8 @@ sensitivity: public
 | --- | --- |
 | Hormone map | [endocrine-hormone-map.md](./endocrine-hormone-map.md) |
 | Daily control levers | [endocrine-control-playbook.md](./endocrine-control-playbook.md) |
+| Làm chủ nhịp hormone (24h / tuần) | [hormone-rhythm-playbook.md](./hormone-rhythm-playbook.md) |
+| Quan hệ / tác động lẫn nhau | [hormone-interaction-map.md](./hormone-interaction-map.md) |
 | SNS × cortisol brake (Fight-or-Flight) | [sns-cortisol-brake-playbook.md](./sns-cortisol-brake-playbook.md) |
 | Health OS overview | [health-os-overview.md](./health-os-overview.md) |
 | Daily/weekly routines | [health-optimization-protocols.md](./health-optimization-protocols.md) |
@@ -38,6 +42,8 @@ sensitivity: public
 ## Hormone articles (một hormone = một file)
 
 Quy tắc: mỗi hormone có `*-system.md` riêng. Map = chỉ mục. Playbook = checklist. File cặp (circadian, glucose) = tương tác, không thay bài từng chất.
+
+**Khung mỗi bài:** bản chất sinh học → khái niệm → vai trò → lúc nào tăng → lúc nào giảm → ưu (đúng nhịp) → nhược (lệch) → ảnh hưởng sinh hóa đời sống → đòn bẩy → protocol → an toàn. Giáo dục — không chẩn đoán, không bịa số lab.
 
 | Hormone | File |
 | --- | --- |

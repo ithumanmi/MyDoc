@@ -1,6 +1,6 @@
 ---
 title: "Aldosterone System"
-description: "Na⁺ / nước / huyết áp — hydration hợp lý; không tự chỉnh thuốc HA"
+description: "Mineralocorticoid Na/nước/HA — bản chất, lúc tăng/giảm, ưu–nhược, sinh hóa đời sống"
 updated: "2026-08-15"
 canonical: true
 tags: [health, hormones, aldosterone, blood-pressure, sodium, lifestyle]
@@ -18,53 +18,62 @@ sensitivity: public
 
 > [← Hormone map](./endocrine-hormone-map.md) · [Playbook](./endocrine-control-playbook.md) · [ADH](./adh-system.md)
 
-Aldosterone (vỏ thượng thận) giữ Na⁺ và nước, thải K⁺ — thể tích máu và huyết áp. Bạn **không** tối ưu aldosterone như mood hormone. Lối sống: muối / nước / rượu / stress hợp lý; thuốc HA chỉ bác sĩ.
+Aldosterone là **mineralocorticoid** (zona glomerulosa): giữ Na⁺, thải K⁺, giữ nước → thể tích và HA. Không tối ưu như mood hormone. Thuốc HA / spironolactone = BS.
 
 ## Agent SUMMARY
 
-- Aldosterone = *thể tích / HA / Na–K*. [ADH](./adh-system.md) = giữ nước ở thận (khác cơ chế).
-- Thực dụng: đừng ăn mặn cực + stress nếu HA nhạy; đừng tự tăng muối “adrenal”.
-- Cờ đỏ: HA cao/thấp bất thường, phù, yếu cơ (K⁺) → BS. Không tự lợi tiểu / spironolactone.
+- RAAS: renin (thận) → angiotensin II → aldosterone. ACTH / K⁺ máu cũng kích. Thụ thể MR (ống lượn xa).
+- Tăng: thể tích thấp, Na thấp, K cao, đứng lâu, stress (ATII). Giảm: thừa muối+nước, một số thuốc.
+- Ưu: không xỉu khi mất muối/nước. Nhược lệch: HA, phù, K⁺ thấp/cao — **lab BS**. Không “ăn muối vì adrenal”.
 - Card: playbook §2.16.
 
 ---
 
-## 1. Việc nó làm
+## 1. Bản chất sinh học
 
-- Trục renin–angiotensin–aldosterone (RAAS)
-- Giữ muối–nước khi thể tích thấp; dư + muối + stress → phức tạp HA
-
----
-
-## 2. Dấu hiệu (không tự chẩn)
-
-Phù, HA lạ, chóng mặt đứng dậy, chuột rút nặng — đi khám. Không gọi là “aldosterone cao” tại nhà.
-
----
-
-## 3. Đòn bẩy lối sống
-
-- Hydration theo khát + khí hậu / mồ hôi
-- Muối: vừa, không keto-salt cực hoặc nhạt cực nếu không chỉ định
-- Rượu và [cortisol](./cortisol-system.md) mạn không giúp HA
-- **Không** tự chỉnh thuốc HA
+```
+Thận (máu tới / Na) → renin
+    → Ang I → ACE → Ang II
+    → vỏ thượng thận → aldosterone
+    → thận: giữ Na, thải K, nước theo Na
+Cortisol cũng gắn MR nếu 11β-HSD2 kém (y khoa)
+```
 
 ---
 
-## 4. Tương tác
+## 2–3. Khái niệm & vai trò
 
-[ADH](./adh-system.md) giữ nước. [Cortisol](./cortisol-system.md) / [adrenaline](./adrenaline-system.md) chồng HA cấp. Thuốc nhiều loại đụng RAAS — bác sĩ.
+Khác [ADH](./adh-system.md) (nước tự do). Vai trò: thể tích, HA, K⁺.
 
 ---
 
-## 5. Protocol + proxy
+## 4–5. Tăng / giảm
 
-Uống khi khát; hạn chế rượu. Nếu đo HA: ghi `personal/body/metrics.csv` — mang BS.
+Tăng: mất nước, tiêu chảy, ăn nhạt cực + mồ hôi, hẹp mạch thận (bệnh). Giảm: thừa volume, suy thượng thận (bệnh).
 
-## 6. An toàn
+**Cờ đỏ:** HA lạ, phù, yếu cơ (K⁺).
 
-Cường / nhược aldosterone = nội tiết. Giáo dục — không chẩn đoán.
+---
 
-## 7. Đọc tiếp
+## 6–7. Ưu / nhược
 
-[ADH](./adh-system.md) · [Cortisol](./cortisol-system.md) · [Adrenaline](./adrenaline-system.md) · [Map](./endocrine-hormone-map.md)
+Ưu: đứng dậy được sau nóng/tập. Nhược cường: HA + K thấp. Nhược giảm: HA thấp + K cao.
+
+---
+
+## 8. Sinh hóa đời sống
+
+```
+Mặn cực + stress
+    → phức tạp HA ở người nhạy
+Rượu
+    → ADH ↓ (tiểu) — khác aldosterone nhưng cùng mất nước
+Caffeine / mồ hôi
+    → nước + muối; uống theo khát, không mega muối tự phác
+```
+
+---
+
+## 9–12. Đòn bẩy & an toàn
+
+Hydration; muối vừa; không tự lợi tiểu. Đo HA ghi `personal/body/metrics.csv` nếu hữu ích. [ADH](./adh-system.md) · [Cortisol](./cortisol-system.md)

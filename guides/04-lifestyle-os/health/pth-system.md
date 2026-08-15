@@ -1,6 +1,6 @@
 ---
 title: "PTH System"
-description: "Parathyroid — khi máu thiếu Ca thì huy động từ xương; Ca + D + strength, không tự PTH"
+description: "Parathyroid giữ Ca máu — bản chất, lúc tăng/giảm, ưu–nhược, sinh hóa đời sống"
 updated: "2026-08-15"
 canonical: true
 tags: [health, hormones, pth, calcium, bone, lifestyle]
@@ -19,55 +19,62 @@ sensitivity: public
 
 > [← Hormone map](./endocrine-hormone-map.md) · [Playbook](./endocrine-control-playbook.md) · [Calcitonin](./calcitonin-system.md) · [Movement](./movement-protocols.md)
 
-PTH (parathyroid hormone) tăng khi canxi máu thấp: huy động Ca từ xương, tăng hấp thu (với vitamin D), giữ Ca thận. Hữu ích ngắn hạn; PTH cao kéo dài vì thiếu D / Ca / bệnh cận giáp → **xương trả giá**. Không tự tiêm PTH.
+PTH (parathyroid hormone) là **peptide** 4 tuyến cận giáp: khi Ca²⁺ máu thấp → huy động xương, giữ Ca thận, kích vitamin D (tăng hấp thu ruột). Hữu ích phút–giờ; PTH cao kéo dài vì thiếu D/Ca hoặc u cận giáp → xương trả giá.
 
 ## Agent SUMMARY
 
-- PTH = *giữ Ca máu*. [Calcitonin](./calcitonin-system.md) = chiều ngược (yếu hơn ở người lớn).
-- Lối sống xương: đủ Ca + vitamin D + protein + strength/impact.
-- Cờ đỏ: gãy nhẹ va chạm, co cứng / tê miệng nghi Ca thấp, sỏi thận lặp → BS.
-- Card: playbook §2.17. Không mega vitamin D / Ca không chỉ định.
+- Cảm biến CaSR. Ca thấp → PTH ↑. Ca cao → PTH ↓. Thụ thể PTH1R (xương, thận).
+- Tăng đúng: bữa ít Ca tạm, thiếu D nhẹ (bù). Tăng bệnh: cường cận giáp. Giảm bệnh: cắt nhầm tuyến, CaSR lệch.
+- Ưu: không tetany. Nhược mạn: loãng xương, sỏi. Không tự PTH analog.
+- Card: playbook §2.17.
 
 ---
 
-## 1. Việc nó làm
+## 1. Bản chất sinh học
 
 ```
-Ca máu thấp → PTH ↑ → xương nhả Ca + thận/ruột giữ-hấp thu
-Ca máu ổn → PTH hạ
+Ca máu thấp → PTH
+    → xương nhả Ca (hủy xương)
+    → thận giữ Ca, thải phosphate
+    → ↑ 1,25-(OH)2-D → ruột hút Ca
+Ca ổn → PTH hạ
 ```
 
 ---
 
-## 2. Dấu hiệu (không tự chẩn)
+## 2–3. Khái niệm & vai trò
 
-Chuột rút nặng, tê quanh miệng, gãy bất thường, sỏi — khám. Cường cận giáp / thiếu D là lab.
-
----
-
-## 3. Đòn bẩy
-
-- Ca từ ăn (sữa, rau lá, cá nhỏ) + D (nắng / ăn / BS chỉ định)
-- Strength / impact phù hợp
-- Protein đủ; không thiếu ăn lâu
-- **Không:** PTH analog / megadose D tự ý
+PTH ưu tiên **máu** hơn xương. [Calcitonin](./calcitonin-system.md) chiều ngược, yếu hơn ở người lớn. Vai trò: Ca, phosphate, D hoạt.
 
 ---
 
-## 4. Tương tác
+## 4–5. Tăng / giảm
 
-[Calcitonin](./calcitonin-system.md) đối. [Estrogen](./estrogen-system.md) bảo vệ xương. Ít nắng → D thấp → PTH phải làm nhiều.
+Tăng: thiếu D, thiếu Ca ăn, cường cận. Giảm: hạ PTH sau mổ giáp, thừa Ca.
+
+**Cờ đỏ:** gãy nhẹ va, tê miệng, sỏi lặp, co cứng.
 
 ---
 
-## 5. Protocol + proxy
+## 6–7. Ưu / nhược
 
-Tuần: 2–3 buổi strength + bữa có Ca. Không proxy PTH tại nhà.
+Ưu: thần kinh-cơ không loạn vì Ca. Nhược PTH cao mạn: xương rỗng, sỏi, mệt (BS).
 
-## 6. An toàn
+---
 
-Cường / nhược cận giáp = phẫu thuật / nội tiết. Giáo dục — không chẩn đoán.
+## 8. Sinh hóa đời sống
 
-## 7. Đọc tiếp
+```
+Ít nắng + ít Ca + ít tập
+    → D thấp → PTH phải làm nhiều → xương trả
+Strength + Ca ăn + nắng
+    → ít cần “rút xương”
+Estrogen thấp
+    → xương nhạy hủy hơn (cùng PTH)
+```
 
-[Calcitonin](./calcitonin-system.md) · [Estrogen](./estrogen-system.md) · [Movement](./movement-protocols.md) · [Map](./endocrine-hormone-map.md)
+---
+
+## 9–12. Đòn bẩy & an toàn
+
+Ca từ ăn; D (nắng / BS); protein; strength/impact. Không mega D/Ca. [Calcitonin](./calcitonin-system.md) · [Estrogen](./estrogen-system.md)

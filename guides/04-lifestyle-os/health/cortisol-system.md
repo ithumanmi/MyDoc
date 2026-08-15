@@ -1,6 +1,6 @@
 ---
 title: "Cortisol System"
-description: "Stress thích ứng — đỉnh sáng, hạ tối; mãn tính đè ngủ, mỡ, miễn dịch"
+description: "Glucocorticoid — bản chất, nhịp tăng/giảm, ưu thích ứng vs nhược mạn, sinh hóa đời sống"
 updated: "2026-08-15"
 canonical: true
 tags: [health, hormones, cortisol, stress, circadian, lifestyle]
@@ -20,73 +20,154 @@ sensitivity: public
 
 > [← Hormone map](./endocrine-hormone-map.md) · [Playbook](./endocrine-control-playbook.md) · [Cặp circadian](./cortisol-melatonin-system.md) · [Melatonin](./melatonin-system.md) · [SNS brake](./sns-cortisol-brake-playbook.md)
 
-Cortisol là glucocorticoid: đánh thức, huy động glucose, phản ứng nguy hiểm ngắn hạn. **Cần** đỉnh buổi sáng. Lệch khi **phẳng cao cả ngày** hoặc cao đêm.
+Cortisol là **steroid glucocorticoid** (vỏ thượng thận): đánh thức, huy động glucose, dập viêm ngắn, sống sót khi đe dọa. **Cần** đỉnh sáng. Lệch khi phẳng cao cả ngày hoặc cao đêm. Deep cặp 24h: [cortisol-melatonin-system](./cortisol-melatonin-system.md).
 
 ## Agent SUMMARY
 
-- Mục tiêu: cao sáng, hạ về tối — không “xóa cortisol”.
-- Mãn tính (proxy): mỡ bụng, khó ngủ dù mệt, thèm ăn stress, kiệt, miễn dịch yếu.
-- Đòn bẩy nhịp: nắng sáng, caffeine sau ~90′ thức, đủ ngủ, ranh giới tối. Hạ mạn: thở / đi bộ không tin nóng, cắt doomscroll.
-- Cấp (tim đập, panic): [sns-cortisol-brake-playbook](./sns-cortisol-brake-playbook.md) trước — không ép thiền 30′.
-- Deep cặp ngày/đêm + protocol dài: [cortisol-melatonin-system](./cortisol-melatonin-system.md).
-- Giáo dục. HA cao kéo dài, kiệt, tăng cân trung tâm nhanh → bác sĩ. Không tự mua steroid.
+- Trục HPA: CRH (hạ đồi) → ACTH (yên) → cortisol (vỏ thượng thận). Thụ thể GR / MR. Vòng âm: cortisol ức chế CRH/ACTH.
+- Tăng đúng: sáng (CAR), stress cấp, đói, tập nặng, caffeine. Tăng sai: đêm, tin nóng, thiếu ngủ, deadline không xuống.
+- Giảm đúng: tối, sau khi hết đe dọa. Giảm lệch (y khoa / kiệt): không tự “adrenal fatigue” — đó không phải chẩn đoán chuẩn.
+- Ưu: tỉnh sáng, đường huyết khi chạy, viêm cấp có phanh. Nhược mạn: mỡ trung tâm, ngủ kém, đè T/GH, thèm, miễn dịch lệch.
+- Cấp (panic): [SNS brake](./sns-cortisol-brake-playbook.md). Không tự steroid.
 
 ---
 
-## 1. Việc nó làm
+## 1. Bản chất sinh học
 
-- Peak sáng → tỉnh, huyết áp / đường huyết sẵn sàng
-- Stress cấp: huy động năng lượng
-- Mạn: giữ catabolic, đè [testosterone](./testosterone-system.md) / phục hồi / [melatonin](./melatonin-system.md) đêm
+**Loại:** steroid (từ cholesterol), tan lipid, vào nhân tế bào.
 
 ```
-☀️ Sáng: cortisol ↑ (tốt)     🌙 Tối: cortisol ↓ + melatonin ↑
-Lệch: cortisol cao đêm → mất ngủ → stress hơn
+Sáng / stress
+    → CRH → ACTH → vỏ thượng thận (zona fasciculata) → cortisol
+Cortisol
+    → máu (gắn CBG) → mô
+    → thụ thể MR (thận, não — ái lực cao) và GR (khắp nơi khi nồng độ cao)
+    → đổi phiên mã: glucose, miễn dịch, não
+Vòng âm: cortisol ↓ CRH / ACTH
+Thanh thải: gan (11β-HSD đổi cortisone ↔ cortisol tại mô)
 ```
 
----
+**Nhịp:** đỉnh sớm sau thức (cortisol awakening response), hạ dần, thấp đêm — nhường [melatonin](./melatonin-system.md).
 
-## 2. Dấu hiệu lệch (lối sống)
-
-- Khó ngủ dù mệt; thức 3h sáng nghĩ việc
-- Stress 1–10 cao nền; thèm ngọt khi deadline
-- Mỡ trung tâm, dễ ốm lặp
-
-**Cờ đỏ:** kiệt, HA cao kéo dài, rụng tóc + tăng cân trung tâm nhanh → BS. Không tự “adrenal reset” bằng thuốc.
+**Khác [adrenaline](./adrenaline-system.md):** adrenaline = giây (catecholamine, tủy). Cortisol = phút–giờ (steroid, vỏ).
 
 ---
 
-## 3. Đòn bẩy
+## 2. Khái niệm
 
-**Nhịp đúng:** nắng 10–30′ sáng; caffeine vừa / không ngay lúc thức; ngủ đủ; tắt việc trước cửa sổ ngủ.
-
-**Giảm mạn:** 5–10′ thở hoặc đi bộ; cắt tin nóng tối; yoga / ranh giới calendar.
-
-**Cấp:** Physiological Sigh, panoramic vision — [SNS brake](./sns-cortisol-brake-playbook.md).
-
-Card: [playbook](./endocrine-control-playbook.md) §2.5. Protocol đầy đủ: [cortisol-melatonin-system](./cortisol-melatonin-system.md).
+- **Thích ứng**, không phải kẻ thù. Xóa cortisol = không tỉnh, không chống sốc.
+- **Nhịp > “mức trung bình”.** Cùng “cao” lúc 8h khác lúc 23h.
+- **Cấp hữu ích / mạn đắt.** Mạn = tín hiệu “chưa hết nguy” cả tuần.
+- **Không phải:** tự chẩn adrenal fatigue; tự mua pregnenolone / hydrocortisone.
 
 ---
 
-## 4. Tương tác
+## 3. Vai trò
 
-| Cặp | Cách đọc |
+| Hệ | Việc |
 | --- | --- |
-| ↔ [Melatonin](./melatonin-system.md) | Hai mặt circadian. Fix nhịp = cả hai. |
-| ↔ [Adrenaline](./adrenaline-system.md) | Adrenaline = giây; cortisol = phút–giờ. Cả hai stuck “on” = kiệt. |
-| ↔ [Oxytocin](./oxytocin-system.md) | Gắn kết an toàn hạ cortisol xã hội. |
-| ↓ [Testosterone](./testosterone-system.md) / GH | Cortisol mạn đè phục hồi. |
+| Tỉnh | Đỉnh sáng, huyết áp / đường sẵn sàng |
+| Năng lượng | Tân tạo glucose, huy động từ kho |
+| Viêm | Dập đáp ứng miễn dịch ngắn (thuốc steroid = bản cực) |
+| Não | Tập trung khi đe dọa; mạn thì nhớ / mood lệch |
+| Muối / nước | Một phần (yếu hơn aldosterone) |
 
 ---
 
-## 5. Protocol + proxy
+## 4. Lúc nào tăng
 
-Daily Stack ([playbook](./endocrine-control-playbook.md) §1). Proxy: stress 1–10, phút vào giấc, thèm stress — `personal/daily/` + sleep trong `body/metrics.csv`.
+**Đúng lúc**
 
-## 6. An toàn
+- Buổi sáng sau thức + nắng
+- Stress cấp có hết hạn (nói chuyện khó, tập nặng, chạy)
+- Đói ngắn, lạnh ngắn
+- Caffeine (kéo / chồng sóng)
 
-Không tự kê corticosteroid / “cortisol blocker”. Giáo dục — không chẩn đoán.
+**Sai lúc**
 
-## 7. Đọc tiếp
+- Đêm: màn hình, deadline, tranh luận, rượu rồi thức
+- Thiếu ngủ (HPA không hạ)
+- Viêm / ốm / đau mạn
+- Caffeine muộn
+
+**Khi tăng là tốt:** 7–9h sáng; 20 phút trước presentation rồi xuống.
+
+**Khi tăng là xấu:** 23h vẫn “on”; cả tháng không có ngày thấp.
+
+---
+
+## 5. Lúc nào giảm
+
+**Đúng lúc:** tối, sau thở / đi bộ / hết việc, cuối tuần phục hồi.
+
+**Lệch (không tự gắn nhãn):** kiệt, HA thấp, không đứng dậy được — **bác sĩ** (nhược thượng thận / khác). Không protocol “tăng cortisol” tại nhà.
+
+**Proxy mạn (cao sai nhịp):** khó ngủ dù mệt, thức 3h nghĩ việc, thèm stress, mỡ trung tâm.
+
+**Cờ đỏ:** kiệt + HA + tăng cân trung tâm nhanh / rụng tóc nhiều → BS. Không tự corticosteroid.
+
+---
+
+## 6. Ưu — khi đúng nhịp
+
+- Tỉnh có hướng; làm việc khó được
+- Đường không sụp khi chạy / đói ngắn
+- Viêm cấp có phanh
+- Tập nặng có sóng rồi hồi
+
+---
+
+## 7. Nhược — khi lệch
+
+| Lệch | Đời sống / sinh hóa |
+| --- | --- |
+| Cao đêm | Phá melatonin, ngủ nông |
+| Phẳng cao mạn | Mỡ bụng, thèm, đè [testosterone](./testosterone-system.md) / [GH](./growth-hormone-system.md) |
+| Kháng insulin hỗ trợ | Xem [insulin](./insulin-system.md) |
+| Không xuống sau SNS | Tim “điện” tối — [adrenaline](./adrenaline-system.md) |
+| Tự ức chế bằng thuốc | Teo trục — chỉ BS |
+
+---
+
+## 8. Ảnh hưởng sinh hóa đời sống
+
+```
+☀️ Nắng + thức
+    → CAR (đỉnh sáng) → tỉnh, insulin sẵn sàng bữa
+Ngày: stress có hết hạn + đi bộ
+    → sóng rồi hạ
+🌙 Dim + ranh giới việc
+    → cortisol thấp + melatonin cao
+Thiếu ngủ / scroll 1h
+    → CAR lệch ngày mai + thèm + dopamine rẻ
+Oxytocin an toàn
+    → HPA xã hội dịu
+```
+
+Protocol dài, case, supplement: [cortisol-melatonin-system](./cortisol-melatonin-system.md). Cấp: [SNS brake](./sns-cortisol-brake-playbook.md).
+
+---
+
+## 9. Đòn bẩy
+
+**Nhịp:** nắng 10–30′; caffeine sau ~90′ thức; ngủ đủ; tắt việc trước gối.
+
+**Hạ mạn:** 5–10′ thở / đi bộ không tin; cắt doomscroll.
+
+Card: [playbook](./endocrine-control-playbook.md) §2.5.
+
+---
+
+## 10. Protocol + proxy
+
+Daily Stack. Proxy: stress 1–10, phút vào giấc, thèm stress — `personal/daily/` + sleep `body/metrics.csv`.
+
+---
+
+## 11. An toàn
+
+Không tự kê steroid / “cortisol blocker”. Giáo dục — không chẩn đoán Cushing / Addison.
+
+## 12. Đọc tiếp
 
 [Cặp circadian](./cortisol-melatonin-system.md) · [Melatonin](./melatonin-system.md) · [SNS brake](./sns-cortisol-brake-playbook.md) · [Sleep](./sleep-optimization.md) · [Adrenaline](./adrenaline-system.md)

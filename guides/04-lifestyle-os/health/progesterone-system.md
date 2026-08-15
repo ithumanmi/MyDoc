@@ -1,6 +1,6 @@
 ---
 title: "Progesterone System"
-description: "Pha sau rụng trứng — nội mạc, nhiệt, ngủ; lệch chu kỳ → bác sĩ, không tự uống"
+description: "Steroid pha luteal — bản chất, lúc tăng/giảm, ưu–nhược, sinh hóa đời sống"
 updated: "2026-08-15"
 canonical: true
 tags: [health, hormones, progesterone, cycle, sleep, lifestyle]
@@ -19,53 +19,60 @@ sensitivity: public
 
 > [← Hormone map](./endocrine-hormone-map.md) · [Playbook](./endocrine-control-playbook.md) · [Estrogen](./estrogen-system.md) · [Women’s health](../well-being/special-populations/womens-health.md)
 
-Progesterone tăng sau rụng trứng: chuẩn bị nội mạc, tăng nhiệt nhẹ, có thể làm ngủ khác / mood khác. Thiếu rụng (nhiều nguyên nhân) → progesterone thấp — **không** tự mua cream/viên.
+Progesterone là **steroid** từ hoàng thể (sau rụng): nội mạc, nhiệt, một phần GABA/não. Không rụng → P thấp. **Không** tự cream/viên mạng.
 
 ## Agent SUMMARY
 
-- Progesterone ≠ estrogen. Hai hormone, hai pha. Đọc [estrogen-system](./estrogen-system.md).
-- Lối sống hỗ trợ rụng/chu kỳ: năng lượng đủ, ngủ, stress, % mỡ không cực.
-- Cờ đỏ: chảy máu bất thường, đau dữ, mất kinh, nghi có thai — sản phụ khoa.
-- Card: playbook §2.15. Không chẩn đoán thiếu P bằng app.
+- LH → rụng → hoàng thể → P. Thụ thể PR. Thai: nhau tiếp. Nam: lượng nhỏ (tuyến thượng thận).
+- Tăng: pha luteal, thai. Giảm: trước kinh, không rụng, năng lượng thấp, mãn.
+- Ưu: giữ nội mạc sau E, có thể dễ ngủ hơn ở một số người. Nhược: PMS nặng / không rụng = BS, không P Amazon.
+- Card: playbook §2.15.
 
 ---
 
-## 1. Việc nó làm
+## 1. Bản chất sinh học
 
-- Nội mạc pha luteal; hỗ trợ đầu thai kỳ (y khoa)
-- Nhiệt, một phần GABA / ngủ (không dùng làm sleeping pill)
-
----
-
-## 2. Dấu hiệu lệch (proxy)
-
-- Chu kỳ không rụng / rất ngắn pha sau (cần BS nếu muốn biết)
-- PMS nặng không chịu nổi — điều trị là việc bác sĩ, không “P cream Amazon”
+```
+Rụng → hoàng thể: cholesterol → pregnenolone → P
+P → PR (nội mạc, não, vú)
+Nhiệt cơ thể ↑ nhẹ pha luteal
+Metabolite (allopregnanolone) ↔ GABA-A — cơ chế, không phải giấy phép tự uống
+```
 
 ---
 
-## 3. Đòn bẩy lối sống
+## 2–3. Khái niệm & vai trò
 
-Cùng estrogen: ăn đủ, ngủ, [cortisol](./cortisol-system.md) không mạn, không overtraining. Track chu kỳ nếu hữu ích.
-
-**Không:** progesterone tự ý (kể cả bioidentical mua mạng).
+P ≠ E. E xây, P “khóa” nội mạc sau rụng. Vai trò: nội mạc, đầu thai, nhiệt, ngủ/mood (cá nhân).
 
 ---
 
-## 4. Tương tác
+## 4–5. Tăng / giảm
 
-Estrogen xây, progesterone “ổn định” nội mạc sau rụng. [Melatonin](./melatonin-system.md) / ngủ đổi theo pha là thường — không tự coi là bệnh.
+Tăng sau rụng ~1–2 tuần; thai rất cao. Giảm trước hành kinh (sụt P). Không rụng = P thấp cả tháng.
+
+**Cờ đỏ:** chảy máu bất thường, đau dữ, mất kinh, nghi thai.
 
 ---
 
-## 5. Protocol + proxy
+## 6–7. Ưu / nhược
 
-Ghi ngày chu kỳ + ngủ + mood. Mang khi khám. Không protocol tăng P tại nhà.
+Ưu: chu kỳ có rụng, nội mạc ổn. Nhược sụt nhanh: PMS ở một số người. Tự P: liều sai, che bệnh.
 
-## 6. An toàn
+---
 
-Thuốc P / IVF / tránh thai = bác sĩ. Giáo dục — không chẩn đoán.
+## 8. Sinh hóa đời sống
 
-## 7. Đọc tiếp
+```
+Pha luteal
+    → nhiệt, có thể ngủ/đói khác
+    → melatonin/cảm giác tối đổi — không tự coi bệnh
+Không rụng (stress, leptin thấp)
+    → P không lên → E không được “đối”
+```
 
-[Estrogen](./estrogen-system.md) · [Women’s health](../well-being/special-populations/womens-health.md) · [Melatonin](./melatonin-system.md) · [Cortisol](./cortisol-system.md)
+---
+
+## 9–12. Đòn bẩy & an toàn
+
+Ăn đủ, ngủ, cortisol không mạn, không overtraining — để *có rụng*. Track chu kỳ. Thuốc P / IVF / tránh thai = BS. [Estrogen](./estrogen-system.md) · [Melatonin](./melatonin-system.md)

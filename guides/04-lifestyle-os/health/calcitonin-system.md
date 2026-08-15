@@ -1,6 +1,6 @@
 ---
 title: "Calcitonin System"
-description: "Hạ Ca máu khi thừa, đẩy vào xương — yếu hơn PTH ở người lớn; xương vẫn nhờ D + tập"
+description: "Peptide hạ Ca khi thừa — bản chất, lúc tăng/giảm, ưu–nhược yếu hơn PTH, đời sống"
 updated: "2026-08-15"
 canonical: true
 tags: [health, hormones, calcitonin, calcium, bone, lifestyle]
@@ -19,49 +19,52 @@ sensitivity: public
 
 > [← Hormone map](./endocrine-hormone-map.md) · [Playbook](./endocrine-control-playbook.md) · [PTH](./pth-system.md)
 
-Calcitonin (tuyến giáp, tế bào C) hạ canxi máu khi thừa, hỗ trợ đưa Ca vào xương. Ở người lớn tác dụng **yếu hơn** [PTH](./pth-system.md). Không có “hack calcitonin” đời thường. Thuốc calcitonin là y khoa (hiếm, chỉ định hẹp).
+Calcitonin là **peptide** tế bào C tuyến giáp: khi Ca máu cao → giảm hủy xương, thận thải Ca. Ở người lớn vai trò **nhỏ hơn** [PTH](./pth-system.md) / estrogen / tải cơ học. Không hack calcitonin. Thuốc = chỉ định hẹp.
 
 ## Agent SUMMARY
 
-- Calcitonin = *phanh Ca máu*. PTH = *giữ Ca máu từ xương*. Xương dài hạn: Ca + D + strength — không viên calcitonin.
-- Cùng card xương: playbook §2.17.
-- Cờ đỏ xương / Ca: xem bài PTH. Không tự tiêm calcitonin.
+- Ca cao → tế bào C → calcitonin → thụ thể trên osteoclast (ức chế). Tăng: Ca cao, thai/bú (sinh lý). Giảm: không có proxy lối sống đáng tin.
+- Ưu tiến hóa: phanh Ca. Nhược: cắt giáp mất C-cell thường vẫn sống được — chứng tỏ không phải nút xương chính người lớn.
+- Xương dài hạn: Ca + D + strength, không viên calcitonin. Card: playbook §2.17.
 
 ---
 
-## 1. Việc nó làm
+## 1. Bản chất sinh học
 
-- Giảm hủy xương ngắn khi Ca cao
-- Người lớn: vai trò sinh lý nhỏ hơn PTH / estrogen / tải cơ học
+```
+Ca²⁺ cao → tế bào C (giáp) → calcitonin
+    → ↓ osteoclast
+    → thận: tăng thải Ca (phụ)
+```
 
----
-
-## 2. Dấu hiệu
-
-Không có proxy lối sống riêng đáng tin. Đừng đoán “thiếu calcitonin” từ đau xương.
-
----
-
-## 3. Đòn bẩy
-
-Giống PTH: ăn đủ Ca, nắng/D, protein, [strength](./movement-protocols.md). Đó là xương — không phải tăng calcitonin.
+Marker ung thư giáp thể tủy (calcitonin) = **y khoa**, không tự xét.
 
 ---
 
-## 4. Tương tác
+## 2–3. Khái niệm & vai trò
 
-Đối [PTH](./pth-system.md). [Estrogen](./estrogen-system.md) và tải trọng quan trọng hơn calcitonin cho mật độ xương người lớn.
+Phanh yếu. PTH là ga giữ Ca máu. Vai trò lớn hơn ở trẻ / stress Ca cấp.
 
 ---
 
-## 5. Protocol + proxy
+## 4–5. Tăng / giảm
 
-Không tuần “focus calcitonin”. Làm tuần xương (PTH).
+Tăng: tăng Ca máu, pentagastrin (test cũ). Giảm: không đoán từ đau xương.
 
-## 6. An toàn
+---
 
-Calcitonin thuốc = bác sĩ. Giáo dục — không chẩn đoán ung thư giáp / Ca máu.
+## 6–7. Ưu / nhược
 
-## 7. Đọc tiếp
+Ưu: lý thuyết bảo vệ xương khi Ca đột. Nhược: thuốc có tác dụng phụ; không thay tập + D.
 
-[PTH](./pth-system.md) · [Estrogen](./estrogen-system.md) · [Movement](./movement-protocols.md) · [Map](./endocrine-hormone-map.md)
+---
+
+## 8. Sinh hóa đời sống
+
+Đừng tối ưu calcitonin. Tối ưu [PTH](./pth-system.md) (đừng bắt nó rút xương) + [estrogen](./estrogen-system.md) + [movement](./movement-protocols.md).
+
+---
+
+## 9–12. Đòn bẩy & an toàn
+
+Làm tuần xương (PTH). Không tự tiêm calcitonin. Giáo dục — không chẩn đoán ung thư giáp / Ca máu.

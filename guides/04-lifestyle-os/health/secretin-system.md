@@ -1,6 +1,6 @@
 ---
 title: "Secretin System"
-description: "Bicarbonate tụy, môi trường ruột sau acid dạ dày — ăn chậm, đừng nhồi acid+đường"
+description: "Bicarbonate tụy — bản chất, lúc tăng/giảm, ưu–nhược, sinh hóa đời sống"
 updated: "2026-08-15"
 canonical: true
 tags: [health, hormones, secretin, digestion, gut, lifestyle]
@@ -18,53 +18,54 @@ sensitivity: public
 
 > [← Hormone map](./endocrine-hormone-map.md) · [Playbook](./endocrine-control-playbook.md) · [CCK](./cck-system.md)
 
-Secretin tiết khi acid (và một phần sản phẩm tiêu hóa) vào tá tràng: tụy tiết bicarbonate, nước; bảo vệ niêm mạc; hỗ trợ enzyme làm việc đúng pH. Ít “hack hạnh phúc” hơn CCK — vẫn là hormone tiêu hóa riêng.
+Secretin là **peptide** tế bào S tá tràng: khi acid (và một phần sản phẩm tiêu hóa) vào ruột → tụy tiết bicarbonate + nước, bảo vệ niêm, enzyme làm việc đúng pH. Ít “hack hạnh phúc” — vẫn là hormone riêng.
 
 ## Agent SUMMARY
 
-- Secretin = *trung hòa acid + dịch tụy*. [CCK](./cck-system.md) = mật / no mỡ-đạm.
-- Lối sống: ăn chậm, đừng nhồi bữa cực lớn cực nhanh; đủ nước; không lạm dụng antacid dài hạn tự ý.
-- Ợ chua / đau loét kéo dài → BS, không tự tối ưu secretin.
-- Card chung tiêu hóa: playbook §2.12.
+- S-cell → secretin → thụ thể trên tụy/ống mật/dạ dày. Tăng khi pH tá tràng thấp. Giảm khi acid được trung hòa / ăn chậm vừa.
+- Ưu: pH đúng, bảo vệ tá tràng. Nhược lệch: GERD/loét = BS, không baking soda phác đồ.
+- Card chung: playbook §2.12.
 
 ---
 
-## 1. Việc nó làm
+## 1. Bản chất sinh học
 
-- Bicarbonate tụy → pH ruột phù hợp enzyme
-- Chậm một phần dạ dày khi acid xuống nhanh
+```
+Chyme acid → S-cell → secretin
+    → tụy: HCO3⁻, nước
+    → chậm acid dạ dày một phần
+```
 
----
-
-## 2. Dấu hiệu (proxy)
-
-- Ăn nhồi → nóng rát, nặng
-- Không dùng làm chẩn đoán GERD / loét
-
-**Cờ đỏ:** nôn ra máu, nuốt nghẹn, sụt cân lạ → BS.
+Phát hiện lịch sử: hormone đầu tiên được đặt tên (1902) — tín hiệu máu, không chỉ thần kinh.
 
 ---
 
-## 3. Đòn bẩy
+## 2–3. Khái niệm & vai trò
 
-Cùng [CCK](./cck-system.md): nhai, bữa vừa, không nằm ngay sau ăn nặng. Hydration. Không mega baking soda / antacid tự phác đồ.
-
----
-
-## 4. Tương tác
-
-Đi cặp sinh lý với CCK khi chyme xuống ruột. [GLP-1](./glp1-system.md) cũng chậm dạ dày — tầng khác.
+Trung hòa, không phải no (CCK/GLP-1). Vai trò: pH, bảo vệ, hỗ trợ lipase/protease.
 
 ---
 
-## 5. Protocol + proxy
+## 4–5. Tăng / giảm
 
-Ăn ngồi, chậm. Proxy: ợ / nặng sau nhồi? □
+Tăng: acid xuống nhanh (nhồi, đồ rất chua/rượu lúc đói ở một số người). Giảm: bữa vừa, nhai, acid đã được xử lý.
 
-## 6. An toàn
+**Cờ đỏ:** nôn máu, nuốt nghẹn, sụt cân lạ.
 
-GERD / loét / tụy = y khoa. Giáo dục — không chẩn đoán.
+---
 
-## 7. Đọc tiếp
+## 6–7. Ưu / nhược
 
-[CCK](./cck-system.md) · [GLP-1](./glp1-system.md) · [Map](./endocrine-hormone-map.md)
+Ưu: tiêu hóa không “đốt” tá tràng. Nhược: ợ chua mạn = bệnh, không secretin hack. Antacid dài hạn tự ý che nguyên nhân.
+
+---
+
+## 8. Sinh hóa đời sống
+
+Nhồi + nằm ngay → acid/reflux. Ngồi, chậm, không mega soda. Cùng [CCK](./cck-system.md) khi bữa có mỡ/đạm.
+
+---
+
+## 9–12. Đòn bẩy & an toàn
+
+Ăn ngồi, chậm, hydration. GERD/loét/tụy = y khoa. [CCK](./cck-system.md) · [GLP-1](./glp1-system.md)

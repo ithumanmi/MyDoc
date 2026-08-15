@@ -1,6 +1,6 @@
 ---
 title: "ADH System"
-description: "Vasopressin — giữ nước ở thận; rượu ức chế ADH → tiểu nhiều, mất nước, phá ngủ"
+description: "Vasopressin giữ nước — bản chất, lúc tăng/giảm, rượu ức chế, sinh hóa đời sống"
 updated: "2026-08-15"
 canonical: true
 tags: [health, hormones, adh, vasopressin, hydration, sleep, lifestyle]
@@ -18,53 +18,63 @@ sensitivity: public
 
 > [← Hormone map](./endocrine-hormone-map.md) · [Playbook](./endocrine-control-playbook.md) · [Aldosterone](./aldosterone-system.md) · [Sleep](./sleep-optimization.md)
 
-ADH (antidiuretic hormone / vasopressin) do hạ đồi–tuyến yên: thận giữ nước khi đặc máu / khát. **Rượu ức chế ADH** → tiểu nhiều, mất nước, gián đoạn ngủ. Đó là đòn bẩy đời thường rõ nhất.
+ADH (vasopressin) là **nonapeptide** hạ đồi → yên sau: thận giữ nước khi áp suất thẩm thấu cao / thể tích thấp. **Rượu ức chế ADH** → tiểu nhiều, mất nước, phá ngủ. Đòn bẩy đời thường rõ nhất.
 
 ## Agent SUMMARY
 
-- ADH = *giữ nước thận*. [Aldosterone](./aldosterone-system.md) = muối + nước + HA.
-- Tối ưu: hydration; hạn chế rượu gần giờ ngủ.
-- Cờ đỏ: tiểu rất ít/rất nhiều bất thường, khát khủng, phù — BS (không tự chẩn ĐTĐ / DI).
+- Cùng họ [oxytocin](./oxytocin-system.md) nhưng việc khác. Thụ thể V2 (thận, aquaporin-2), V1 (mạch).
+- Tăng: khát, đặc máu, đau/buồn nôn, đứng. Giảm: uống loãng, **rượu**, lạnh (một phần).
+- Ưu: không mất nước khi ngủ/nóng. Nhược: SIADH / đái tháo nhạt = BS. Uống nước cực → hạ Na⁺ nguy hiểm.
 - Card: playbook §2.16.
 
 ---
 
-## 1. Việc nó làm
+## 1. Bản chất sinh học
 
-- Ống góp thận tái hấp thu nước
-- Cũng là tín hiệu mạch / não (vasopressin) — không hack “gắn kết” bằng ADH (khác oxytocin)
+```
+Osmoreceptor hạ đồi / baroreceptor
+    → ADH → yên sau → máu
+V2: ống góp chèn aquaporin-2 → giữ nước
+V1: co mạch (tên vasopressin)
+```
 
----
-
-## 2. Dấu hiệu lệch (proxy)
-
-- Uống rượu tối → thức đi tiểu, khô, ngủ nát
-- Khát + tiểu nhiều ban ngày không rõ lý do → xét nghiệm (đường, khác)
-
----
-
-## 3. Đòn bẩy
-
-- Nước theo khát + vận động / nóng
-- Cắt rượu T−3h+ trước ngủ nếu ngủ là mục tiêu
-- Không nhồi nước cực (hạ Na⁺ nguy hiểm)
+Không dùng ADH để “gắn kết” (đó là oxytocin, ngữ cảnh khác).
 
 ---
 
-## 4. Tương tác
+## 2–3. Khái niệm & vai trò
 
-Rượu → ADH ↓ → tiểu. [Melatonin](./melatonin-system.md) / ngủ bị phá. Aldosterone xử muối; ADH xử nước tự do.
+Giữ *nước tự do*. Aldosterone giữ *muối* (nước theo). Vai trò: thẩm thấu, thể tích, một phần mạch.
 
 ---
 
-## 5. Protocol + proxy
+## 4–5. Tăng / giảm
 
-Tuần: rượu xa gối. Proxy: số lần thức tiểu; khát sáng.
+Tăng: mặn, đổ mồ hôi chưa uống, nôn. Giảm: rượu, uống nhiều nước nhạt, đái tháo nhạt (bệnh).
 
-## 6. An toàn
+**Proxy:** rượu tối → thức tiểu, khô miệng. **Cờ đỏ:** khát+tiểu rất nhiều, phù, ít tiểu bất thường.
 
-Hạ natri do uống nước quá / SIADH = cấp cứu y khoa. Giáo dục — không chẩn đoán.
+---
 
-## 7. Đọc tiếp
+## 6–7. Ưu / nhược
 
-[Aldosterone](./aldosterone-system.md) · [Melatonin](./melatonin-system.md) · [Sleep](./sleep-optimization.md)
+Ưu: ngủ không mất nước quá. Nhược rượu: mất nước + phá [melatonin](./melatonin-system.md). Nhược uống quá: hạ natri.
+
+---
+
+## 8. Sinh hóa đời sống
+
+```
+Rượu tối
+    → ADH ↓ → tiểu → thức → cortisol đêm
+Nóng + không uống
+    → ADH ↑ + aldosterone ↑
+Nước theo khát + khí hậu
+    → đủ, không nhồi lít
+```
+
+---
+
+## 9–12. Đòn bẩy & an toàn
+
+Rượu xa gối; uống khi khát; không nhồi nước. Hạ Na / SIADH = cấp cứu. [Aldosterone](./aldosterone-system.md) · [Sleep](./sleep-optimization.md)

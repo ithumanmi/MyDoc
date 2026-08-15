@@ -1,6 +1,6 @@
 ---
 title: "CCK System"
-description: "Cholecystokinin — no từ mỡ/đạm, mật + enzyme; nhai kỹ, đừng nhồi"
+description: "Cholecystokinin — no mỡ/đạm, mật–tụy; lúc tăng/giảm, ưu–nhược, sinh hóa đời sống"
 updated: "2026-08-15"
 canonical: true
 tags: [health, hormones, cck, digestion, satiety, lifestyle]
@@ -19,54 +19,77 @@ sensitivity: public
 
 > [← Hormone map](./endocrine-hormone-map.md) · [Playbook](./endocrine-control-playbook.md) · [Secretin](./secretin-system.md) · [GLP-1](./glp1-system.md)
 
-CCK (cholecystokinin) tiết khi thức ăn (đặc biệt mỡ và đạm) vào ruột non: co túi mật, enzyme tụy, báo dạ dày chậm lại, tín hiệu no.
+CCK (cholecystokinin) là **peptide** tế bào I tá tràng / hỗng tràng: khi fat và protein tới ruột non → co túi mật, enzyme tụy, chậm dạ dày, no (dây X + não).
 
 ## Agent SUMMARY
 
-- CCK = *no + tiêu hóa mỡ/đạm*. [Secretin](./secretin-system.md) = bicarbonate / môi trường ruột. [GLP-1](./glp1-system.md) = no incretin.
-- Đòn bẩy: nhai kỹ; đủ chất béo tốt vừa (không fat-free cực nếu không chỉ định); không nhồi quá nhanh / quá lớn.
-- Proxy: đầy hơi, nặng bụng sau ăn nhanh.
-- Card: playbook §2.12. Không có supplement CCK đáng tin.
+- I-cell → CCK (nhiều dạng phân tử) → thụ thể CCK1 (tụy, mật, dây X) / CCK2 (não, dạ dày — gastrin-related).
+- Tăng: mỡ + đạm, nhai chậm. Giảm tương đối: bữa fat-free + đường, ăn vội.
+- Ưu: tiêu hóa mỡ, no. Nhược: sỏi mật / đau mật = BS, không “tối ưu CCK”. Không supplement CCK.
+- Card: playbook §2.12.
 
 ---
 
-## 1. Việc nó làm
+## 1. Bản chất sinh học
 
-- Túi mật + tụy làm việc
-- Chậm dạ dày → no
-- Hỗ trợ tiêu hóa bữa có mỡ/đạm
-
----
-
-## 2. Dấu hiệu lệch (lối sống)
-
-- Ăn vội, bữa khổng lồ → nặng, đầy
-- Fat-free cực + bữa toàn đường: ít CCK, đói nhanh (cùng [ghrelin](./ghrelin-system.md))
-
-Đau mật / vàng da → BS, không “tối ưu CCK”.
+```
+Fat / peptide trong tá tràng → I-cell → CCK
+    → túi mật co, Oddi giãn
+    → tụy enzyme
+    → chậm dạ dày
+    → no (thần kinh + trung ương)
+```
 
 ---
 
-## 3. Đòn bẩy
+## 2. Khái niệm
 
-Nhai; protein + fat tốt vừa (cá, trứng, dầu ô liu, hạt); ngừng khi no vừa; 15–20′ trước phần hai.
-
----
-
-## 4. Tương tác
-
-Cùng bữa với [secretin](./secretin-system.md) và [GLP-1](./glp1-system.md). Không thay [insulin](./insulin-system.md) / ngủ.
+No *chất* (mỡ/đạm), khác GLP-1 (incretin) và leptin (kho). Fat-free cực có thể đói nhanh.
 
 ---
 
-## 5. Protocol + proxy
+## 3. Vai trò
 
-Một tuần: không ăn đứng/scroll; để hết 15′. Proxy: nặng bụng sau ăn nhanh? □
+Mật, tụy, no, phối hợp với [secretin](./secretin-system.md) (bicarbonate).
 
-## 6. An toàn
+---
 
-Bệnh mật / tụy = y khoa. Giáo dục — không chẩn đoán.
+## 4. Lúc nào tăng
 
-## 7. Đọc tiếp
+Bữa có trứng, cá, thịt, dầu, hạt — **nhai**. **Tốt:** no khỏe. **Xấu:** cơn mật nếu có sỏi (bệnh).
 
-[Secretin](./secretin-system.md) · [GLP-1](./glp1-system.md) · [Ghrelin](./ghrelin-system.md) · [Nutrition](./nutrition-for-brain.md)
+---
+
+## 5. Lúc nào giảm
+
+Ăn vội, bữa ngọt lỏng, cực low-fat không chỉ định.
+
+**Proxy:** nặng bụng sau nhồi; đói sau bữa “healthy” toàn salad không đạm/béo.
+
+**Cờ đỏ:** đau hạ sườn phải, vàng da → BS.
+
+---
+
+## 6. Ưu / 7. Nhược
+
+Ưu: tiêu hóa + no. Nhược: bệnh mật; nhồi quá lớn vẫn đầy dù CCK (cơ học).
+
+---
+
+## 8. Ảnh hưởng sinh hóa đời sống
+
+```
+Nhai + fat/đạm vừa
+    → CCK + secretin + GLP-1
+    → ghrelin xuống
+Ăn đứng/scroll
+    → ít tín hiệu, nhồi thêm
+```
+
+---
+
+## 9–12. Đòn bẩy, protocol, an toàn
+
+Nhai; protein + fat tốt vừa; 15′ trước phần hai. Proxy: nặng sau ăn nhanh? Bệnh mật/tụy = y khoa.
+
+[Secretin](./secretin-system.md) · [GLP-1](./glp1-system.md) · [Ghrelin](./ghrelin-system.md)

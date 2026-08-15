@@ -12,7 +12,7 @@ updated: 2026-08-15
 > **Last Updated:** August 2026
 
 <!-- agent-summary -->
-**Agent SUMMARY:** Symptom → hormone triage table (§1) → mermaid clusters → per-hormone cards with deep-dive links → then [endocrine-control-playbook](./endocrine-control-playbook.md) for daily levers. Not a diagnosis guide.
+**Agent SUMMARY:** Symptom → hormone triage table (§1) → mermaid clusters → per-hormone cards. Mỗi `*-system.md` có khung: bản chất sinh học → khái niệm → vai trò → lúc tăng → lúc giảm → ưu → nhược → sinh hóa đời sống → đòn bẩy. Playbook = checklist. Not a diagnosis guide.
 <!-- /agent-summary -->
 
 Hệ nội tiết điều khiển phần lớn chức năng sinh lý: năng lượng, tâm trạng, giấc ngủ, cân nặng, phục hồi và sinh sản. Doc này là **bản đồ tổng** — không thay lab/bác sĩ. **Mỗi hormone một bài `*-system.md`.** Khi cần đi sâu, nhảy sang file của đúng chất.
@@ -254,4 +254,4 @@ Theory ở guides; **số liệu thật** ở [`personal/`](../../../personal/RE
 | Movement | [movement-protocols.md](./movement-protocols.md) |
 | Nutrition não | [nutrition-for-brain.md](./nutrition-for-brain.md) |
 
-> **Next:** Đọc map 1 lần → mở **[Endocrine Control Playbook](./endocrine-control-playbook.md)** (checklist ngày/tuần + control card từng hormone) → track proxy trong `personal/`.
+> **Next:** Map 1 lần → **[Tương tác](./hormone-interaction-map.md)** → **[Nhịp](./hormone-rhythm-playbook.md)** → **[Control Playbook](./endocrine-control-playbook.md)** → proxy trong `personal/`.

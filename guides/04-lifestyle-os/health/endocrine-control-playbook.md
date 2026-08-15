@@ -6,14 +6,14 @@ updated: 2026-08-07
 
 # 🎛️ Endocrine Control Playbook — Kiểm soát từng hormone
 
-> [← Hormone Map](./endocrine-hormone-map.md) | [Health OS](./health-os-overview.md) | [Personal data](../../../personal/README.md)
+> [← Hormone Map](./endocrine-hormone-map.md) | [Nhịp 24h](./hormone-rhythm-playbook.md) | [Health OS](./health-os-overview.md) | [Personal data](../../../personal/README.md)
 >
 > **Mục tiêu:** Biết *đòn bẩy nào* kéo *hormone nào*, và chạy checklist ngày/tuần — không phải tự kê thuốc nội tiết.
 >
 > **Last Updated:** August 2026
 
 <!-- agent-summary -->
-**Agent SUMMARY:** 4 base levers (sleep, light, food, movement) → Master Daily Stack → per-hormone control cards (max 1–2/week) → weekly review with `personal/` proxies. Start here for “how do I control hormones?” after the map.
+**Agent SUMMARY:** 4 base levers (sleep, light, food, movement) → Master Daily Stack → per-hormone control cards (max 1–2/week) → weekly review with `personal/` proxies. Start here for “how do I control hormones?” after the map. Nhịp thời gian (timeline 24h): [hormone-rhythm-playbook](./hormone-rhythm-playbook.md).
 <!-- /agent-summary -->
 
 ---

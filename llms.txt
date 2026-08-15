@@ -47,6 +47,8 @@
 ### Canonical lifestyle / hormone
 - guides/04-lifestyle-os/health/endocrine-hormone-map.md
 - guides/04-lifestyle-os/health/endocrine-control-playbook.md
+- guides/04-lifestyle-os/health/hormone-rhythm-playbook.md
+- guides/04-lifestyle-os/health/hormone-interaction-map.md
 - guides/04-lifestyle-os/health/cortisol-melatonin-system.md
 - guides/04-lifestyle-os/health/dopamine-system.md
 - guides/04-lifestyle-os/health/serotonin-system.md

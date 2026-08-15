@@ -13,6 +13,8 @@
 ### 1️⃣ Nền tảng thần kinh & hormone
 *   **[🧬 Endocrine Hormone Map](../health/endocrine-hormone-map.md)** ⭐ **Bản đồ tổng** toàn bộ nhóm hormone (mood, stress/ngủ, chuyển hóa, GH, giáp, gut, xương…).
 *   **[🎛️ Endocrine Control Playbook](../health/endocrine-control-playbook.md)** ⭐ **Cách kiểm soát** từng hormone + checklist ngày/tuần (không phải tự kê thuốc).
+*   **[🎼 Hormone Rhythm Playbook](../health/hormone-rhythm-playbook.md):** Làm chủ nhịp 24h / tuần (ánh sáng, ngủ, bữa, tập).
+*   **[🔗 Hormone Interaction Map](../health/hormone-interaction-map.md):** Quan hệ và tác động lẫn nhau giữa các hormone.
 *   **[⚙️ CNS Basics](./cns-basics.md):** Khởi động bằng việc hiểu “CPU” (Hệ thần kinh trung ương).
 *   **[🧠 Dopamine System](../health/dopamine-system.md):** Khi thiếu động lực, cần reset Dopamine.
 *   **[💗 Serotonin](../health/serotonin-system.md) · [Oxytocin](../health/oxytocin-system.md) · [Endorphin](../health/endorphin-system.md):** Ổn định / gắn kết / xả sau nỗ lực — mỗi chất một bài.

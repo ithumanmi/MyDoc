@@ -58,7 +58,9 @@ Legend: **Canonical** = prefer first. Related = optional depth.
 | --- | --- | --- |
 | health theory hub | [`health/README.md`](../guides/04-lifestyle-os/health/README.md) | well-being README, personal/ |
 | hormone map, hệ nội tiết overview | [`endocrine-hormone-map.md`](../guides/04-lifestyle-os/health/endocrine-hormone-map.md) | Health OS overview |
-| control hormone, checklist hormone | [`endocrine-control-playbook.md`](../guides/04-lifestyle-os/health/endocrine-control-playbook.md) | hormone map |
+| control hormone, checklist hormone | [`endocrine-control-playbook.md`](../guides/04-lifestyle-os/health/endocrine-control-playbook.md) | hormone map, hormone-rhythm-playbook |
+| làm chủ nhịp hormone, hormone rhythm, nhịp điệu hormone, canh nhịp nội tiết | [`hormone-rhythm-playbook.md`](../guides/04-lifestyle-os/health/hormone-rhythm-playbook.md) | control playbook, circadian pair, sleep |
+| quan hệ hormone, tương tác hormone, tác động lẫn nhau hormone, hormone interaction | [`hormone-interaction-map.md`](../guides/04-lifestyle-os/health/hormone-interaction-map.md) | hormone map, rhythm playbook |
 | cortisol, stress hormone | [`cortisol-system.md`](../guides/04-lifestyle-os/health/cortisol-system.md) | circadian pair, playbook, sns-cortisol-brake |
 | SNS, sympathetic, fight or flight, physiological sigh, panoramic vision, làm chủ giao cảm | [`sns-cortisol-brake-playbook.md`](../guides/04-lifestyle-os/health/sns-cortisol-brake-playbook.md) | cortisol-melatonin, endocrine-control-playbook, negotiation-composure |
 | outcome independence, không cần công nhận, unneedy, want not need, validation seeking | [`outcome-independence.md`](../guides/04-lifestyle-os/life-os/outcome-independence.md) | bond-psychology, bond-presence-system, negotiation-composure, psychology-of-self |

@@ -29,6 +29,18 @@
 > 💡 **Key Insight:** Dopamine là về **"muốn"** (wanting), không phải **"thích"** (liking).
 > Bạn có thể có động lực cao (dopamine cao) nhưng vẫn không hạnh phúc (serotonin thấp).
 
+### Bản chất · tăng/giảm · ưu/nhược · đời sống
+
+**Bản chất:** catecholamine từ tyrosine (tyrosine hydroxylase → L-DOPA → dopamine). Đường mesolimbic (VTA → NAc) = reward prediction; nigrostriatal = vận động; mesocortical = PFC / focus. Tái hấp thu DAT; phân hủy MAO/COMT. Thụ thể D1-like / D2-like.
+
+**Khái niệm:** tonic (nền muốn) vs phasic (spike khi *hơn kỳ vọng*). Quá nhiều spike rẻ → desensitize nền.
+
+**Tăng:** hoàn thành khó, tập, nắng, mới lạ, caffeine, like/scroll/game/đường (rẻ). **Giảm nền:** thiếu ngủ, dopamine rẻ lặp, burnout, một số bệnh (BS).
+
+**Ưu đúng:** bắt đầu việc, học, kỷ luật. **Nhược lệch:** nghiện kích thích, trống khi hết spike, không hạnh phúc dù “có drive” nếu [serotonin](./serotonin-system.md) thấp.
+
+**Sinh hóa đời sống:** sáng MIT + nắng = phasic lành; feed sáng = hết tonic cho việc khó; tối scroll = phá [melatonin](./melatonin-system.md) + NA. Chi tiết dưới.
+
 ---
 
 ## 🔬 Khoa học cơ bản về Dopamine

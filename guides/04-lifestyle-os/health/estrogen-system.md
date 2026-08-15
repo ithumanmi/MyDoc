@@ -1,6 +1,6 @@
 ---
 title: "Estrogen System"
-description: "Chu kỳ, xương, mood, da — lối sống hỗ trợ; lệch chu kỳ → sản phụ khoa"
+description: "Estradiol — bản chất, lúc tăng/giảm theo pha, ưu–nhược, sinh hóa đời sống; không tự kê"
 updated: "2026-08-15"
 canonical: true
 tags: [health, hormones, estrogen, cycle, bone, lifestyle]
@@ -20,56 +20,77 @@ sensitivity: public
 
 > [← Hormone map](./endocrine-hormone-map.md) · [Playbook](./endocrine-control-playbook.md) · [Progesterone](./progesterone-system.md) · [Women’s health](../well-being/special-populations/womens-health.md)
 
-Estrogen (chủ yếu estradiol ở tuổi sinh sản) điều chu kỳ, xương, da, một phần mood và chuyển hóa. Nam cũng có mức thấp cần thiết. **Không** tự uống estrogen / “balance estrogen” supplement.
+Estrogen chính tuổi sinh sản là **estradiol (E2)**, steroid từ cholesterol (nang noãn; nam: aromat hóa testosterone). Điều nội mạc, xương, da, một phần mood và mạch. Nam cần mức thấp. **Không** tự HRT / blocker.
 
 ## Agent SUMMARY
 
-- Estrogen ≠ progesterone: hai việc, hai pha chu kỳ. Đọc cả [progesterone](./progesterone-system.md).
-- Lối sống: % mỡ lành mạnh, đủ fat tốt, ngủ, stress không mạn, không thâm hụt cực (leptin / mất kinh).
-- Cờ đỏ: rối loạn chu kỳ nặng, đau dữ, chảy máu bất thường, sụt/tăng cân đột ngột → sản phụ khoa.
-- Nam: gynecomastia / lệch — nội tiết, không tự aromatase blocker.
-- Card: playbook §2.15. Giáo dục — không chẩn đoán PCOS / mãn kinh.
+- Trục HPG: GnRH → FSH/LH → nang → E2. Thụ thể ERα/ERβ (nhân). Vòng âm lên yên/hạ đồi.
+- Tăng: pha nang, gần rụng (đỉnh E2). Giảm: sau rụng (nhường P), mất kinh do năng lượng thấp, mãn kinh, ức chế y khoa.
+- Ưu đúng: xương, da, nhận thức linh hoạt, chu kỳ. Nhược lệch: mất kinh, chảy máu bất thường, đau dữ — BS; nam gynecomastia — nội tiết.
+- Lối sống: % mỡ không cực, fat tốt, ngủ, cortisol. Card: playbook §2.15.
 
 ---
 
-## 1. Việc nó làm
+## 1. Bản chất sinh học
 
-- Nội mạc, rụng trứng (cùng trục), xương, da
-- Ảnh hưởng serotonin / nhiệt / nước — mood có thể đổi theo pha (không phải “yếu”)
+```
+Cholesterol → androstenedione / T → aromatase → E2
+Nữ: tế bào hạt (nang) chính
+Nam: tinh hoàn + mỡ (aromatase)
+E2 → ER → phiên mã + tín hiệu nhanh (mạch, não)
+```
 
----
-
-## 2. Dấu hiệu lệch (proxy)
-
-- Chu kỳ mất / rất thưa sau stress hoặc % mỡ thấp
-- Nặng bất thường, đau không chịu nổi
-- Nam: thay đổi ngực / libido lạ — BS
+Ba estrogen chính: E2 (sinh sản), estrone (mãn, mỡ), estriol (thai). Đời thường nói “estrogen” ≈ E2.
 
 ---
 
-## 3. Đòn bẩy lối sống
+## 2. Khái niệm
 
-- % mỡ không cực thấp; đủ chất béo tốt (cá, hạt, bơ, dầu ô liu)
-- Ngủ; [cortisol](./cortisol-system.md) không mạn
-- Strength / impact — xương dài hạn (cùng [PTH](./pth-system.md) / D / Ca)
-- **Không:** phytoestrogen megadose, HRT tự ý
+Hai việc với [progesterone](./progesterone-system.md): E xây nội mạc / đỉnh rụng; P ổn định sau rụng. Mood đổi theo pha là thường, không phải “yếu”.
 
 ---
 
-## 4. Tương tác
+## 3. Vai trò
 
-[Progesterone](./progesterone-system.md) pha sau. [Leptin](./leptin-system.md) thấp → trục sinh sản tắt. [Testosterone](./testosterone-system.md) chuyển một phần thành estrogen (nam/nữ).
+Nội mạc, xương (chống hủy), da, nhiệt, serotonin/não (một phần), mỡ phân bố, nam: xương/libido cân bằng T.
 
 ---
 
-## 5. Protocol + proxy
+## 4. Lúc nào tăng
 
-Track chu kỳ + sleep + stress trong `personal/` nếu hữu ích — mang sổ khi khám. Không “tối ưu E2” tại nhà.
+Pha nang → đỉnh trước LH. Thai (rất cao). Béo (estrone từ mỡ). **Tốt:** đỉnh rụng sinh lý. **Cần BS:** chảy máu / u / HRT tự ý.
 
-## 6. An toàn
+---
 
-HRT / viên tránh thai / tamoxifen = bác sĩ. Giáo dục — không chẩn đoán.
+## 5. Lúc nào giảm
 
-## 7. Đọc tiếp
+Pha luteal (tương đối vs P); [leptin](./leptin-system.md) thấp / RED-S; mãn kinh; ức chế GnRH (stress cực, thuốc).
 
-[Progesterone](./progesterone-system.md) · [Women’s health](../well-being/special-populations/womens-health.md) · [Leptin](./leptin-system.md) · [Testosterone](./testosterone-system.md)
+**Cờ đỏ:** mất kinh, đau không chịu, chảy máu bất thường, sụt/tăng đột.
+
+---
+
+## 6–7. Ưu / nhược
+
+Ưu: xương, chu kỳ, da. Nhược thấp: nóng bừng, xương, khô (mãn — BS). Nhược “cao” tự đoán: không tự aromatase inhibitor.
+
+---
+
+## 8. Sinh hóa đời sống
+
+```
+Thâm hụt + tập quá
+    → leptin ↓ GnRH ↓ E2 ↓ → mất kinh
+E2 đỉnh
+    → năng lượng / xã hội có thể lên (cá nhân)
+P sau rụng
+    → nhiệt, ngủ khác — xem progesterone
+T nam → E2
+    → cần một ít; lệch → BS
+```
+
+---
+
+## 9–12. Đòn bẩy & an toàn
+
+% mỡ lành; fat tốt; ngủ; strength (xương). Không phyto mega / HRT mạng. Track chu kỳ nếu hữu ích. [Progesterone](./progesterone-system.md) · [Women’s health](../well-being/special-populations/womens-health.md)

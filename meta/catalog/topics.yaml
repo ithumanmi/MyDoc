@@ -123,7 +123,40 @@ topics:
     canonical: guides/04-lifestyle-os/health/endocrine-control-playbook.md
     related:
       - guides/04-lifestyle-os/health/endocrine-hormone-map.md
+      - guides/04-lifestyle-os/health/hormone-rhythm-playbook.md
       - guides/04-lifestyle-os/health/sns-cortisol-brake-playbook.md
+
+  - id: endocrine.interactions
+    aliases:
+      - quan hệ hormone
+      - tương tác hormone
+      - tác động lẫn nhau hormone
+      - hormone interaction
+      - cascade hormone
+    canonical: guides/04-lifestyle-os/health/hormone-interaction-map.md
+    related:
+      - guides/04-lifestyle-os/health/endocrine-hormone-map.md
+      - guides/04-lifestyle-os/health/hormone-rhythm-playbook.md
+      - guides/04-lifestyle-os/health/endocrine-control-playbook.md
+      - guides/04-lifestyle-os/health/cortisol-melatonin-system.md
+      - guides/04-lifestyle-os/health/glucose-insulin-system.md
+      - guides/04-lifestyle-os/health/sns-cortisol-brake-playbook.md
+
+  - id: endocrine.rhythm
+    aliases:
+      - làm chủ nhịp hormone
+      - hormone rhythm
+      - nhịp điệu hormone
+      - canh nhịp nội tiết
+      - đồng hồ hormone
+    canonical: guides/04-lifestyle-os/health/hormone-rhythm-playbook.md
+    related:
+      - guides/04-lifestyle-os/health/endocrine-control-playbook.md
+      - guides/04-lifestyle-os/health/endocrine-hormone-map.md
+      - guides/04-lifestyle-os/health/cortisol-melatonin-system.md
+      - guides/04-lifestyle-os/health/sleep-optimization.md
+      - guides/04-lifestyle-os/health/sns-cortisol-brake-playbook.md
+      - guides/04-lifestyle-os/health/health-optimization-protocols.md
 
   - id: hormone.cortisol_melatonin
     aliases: [circadian, cortisol melatonin pair, nhịp ngày đêm hormone]

@@ -30,6 +30,16 @@
 
 > 💡 **Key Insight:** Testosterone cao không phải về "toxic masculinity". Đó là về **năng lượng sống, ý chí mạnh mẽ, và khả năng vượt qua thử thách**.
 
+### Bản chất · tăng/giảm · ưu/nhược · đời sống
+
+**Bản chất:** steroid từ cholesterol. Nam: tế bào Leydig (LH). Nữ: buồng trứng + vỏ thượng thận (mức thấp hơn, vẫn cần). Thụ thể AR (nhân). SHBG gắn trong máu; phần tự do mới tác dụng. Aromatase → [estrogen](./estrogen-system.md); 5α-reductase → DHT.
+
+**Tăng:** ngủ sâu, strength, % mỡ hợp lý, thắng/cạnh tranh lành, nắng/D. **Giảm:** thiếu ngủ, [cortisol](./cortisol-system.md) mạn, mỡ bụng cao, rượu nhiều, overtraining, tuổi (sinh lý), bệnh — lab BS.
+
+**Ưu đúng:** cơ, xương, drive, hồi, libido phù hợp giới. **Nhược lệch thấp:** mệt, mất drive, khó build (nhiều nguyên nhân). **Nhược “tăng” giả:** TRT/AAS tự ý — vô sinh, HA, máu đặc, mood — chỉ BS.
+
+**Sinh hóa đời sống:** ngủ + squat/hinge = tín hiệu lên; deadline đêm + rượu = T xuống, cortisol lên. Nữ: T quá thấp cũng mất drive; quá (bệnh) → BS, không tự T.
+
 ---
 
 ## 📊 Testosterone Levels

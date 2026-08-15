@@ -1,6 +1,6 @@
 ---
 title: "Growth Hormone System"
-description: "GH — phục hồi đêm, huy động mỡ; ngủ sâu + nỗ lực ngắn, không GH đen"
+description: "GH xung đêm — bản chất, lúc tăng/giảm, ưu–nhược, sinh hóa đời sống; không GH đen"
 updated: "2026-08-15"
 canonical: true
 tags: [health, hormones, gh, growth-hormone, recovery, sleep, lifestyle]
@@ -20,56 +20,76 @@ sensitivity: public
 
 > [← Hormone map](./endocrine-hormone-map.md) · [Playbook](./endocrine-control-playbook.md) · [Sleep](./sleep-optimization.md) · [Melatonin](./melatonin-system.md)
 
-GH hỗ trợ phục hồi mô, thành phần cơ thể, huy động mỡ. Tiết mạnh theo **xung**, đặc biệt ngủ sâu (cửa sổ đêm hay được nhắc khi ngủ đúng pha, thường sớm hơn nếu đi ngủ sớm). Không đo “GH cảm giác”. Không mua GH đen.
+GH là **peptide** yên trước, tiết **theo xung** (không phẳng): mạnh khi ngủ sâu và sau nỗ lực ngắn. Kích gan tạo IGF-1. Không đo “GH cảm giác”. Không mua GH đen.
 
 ## Agent SUMMARY
 
-- Mục tiêu: phục hồi đêm + hỗ trợ body comp. Proxy: độ sâu ngủ, phục hồi sau tập — không GH máu tại nhà.
-- Hỗ trợ: ngủ sớm/đủ sâu; HIIT hoặc nặng ngắn; khoảng cách ăn–ngủ hợp lý.
-- Phá: thức đêm đèn sáng, rượu gần ngủ, [cortisol](./cortisol-system.md) mạn, overtraining.
-- IF chỉ nếu không phá ngủ/stress. Card: playbook §2.13.
-- **Cờ đỏ:** không dùng GH / secretagogue không chỉ định.
+- GHRH (hạ đồi) kích, somatostatin ức chế; [ghrelin](./ghrelin-system.md) có thể kích GHSR. GH → gan IGF-1 (nhiều tác dụng tăng trưởng).
+- Tăng: ngủ sóng chậm, HIIT/nặng ngắn, đói ngắn. Giảm: thức đêm đèn, rượu sát ngủ, tuổi (sinh lý), béo trung tâm, cortisol mạn.
+- Ưu: phục hồi, thành phần cơ, lipolysis hỗ trợ. Nhược lệch: trẻ thiếu GH = nhi khoa; người lớn tự tiêm = doping / phù / đường / khớp.
+- Card: playbook §2.13.
 
 ---
 
-## 1. Việc nó làm
+## 1. Bản chất sinh học
 
-- Xung phục hồi, lipolysis hỗ trợ
-- Trẻ em: tăng trưởng (lệch = nhi khoa — không tự xử)
-- Người lớn: phục hồi / thành phần cơ — hiệu ứng lối sống chủ yếu qua **ngủ + tập**
+```
+GHRH ↑ / somatostatin ↓ / ghrelin ±
+    → yên: xung GH
+    → gan: IGF-1
+    → mô: phục hồi, tăng trưởng (trẻ), huy động mỡ
+Đời GH rất ngắn; IGF-1 bền hơn (lab người lớn phức, BS)
+```
 
----
-
-## 2. Dấu hiệu lệch (proxy)
-
-- Tập mãi không lên; ngủ nông; thức khuya đèn sáng
-- Không kết luận “thiếu GH” từ mệt — nhiều hormone khác
-
----
-
-## 3. Đòn bẩy
-
-- Ngủ trước cửa sổ bạn đặt (vd ~22:30–23:00 nếu muốn pha đêm sớm)
-- HIIT / strength ngắn chất lượng — [movement](./movement-protocols.md)
-- Rượu và màn hình sáng sát ngủ: trừ
-- Protein đủ; đừng nhồi đường lớn sát gối
+Cửa sổ đêm hay được nhắc khi ngủ **sớm + sâu** — không phải “bắt buộc 23h” cho mọi owl, nhưng thức 2h đèn sáng thì xung thường kém.
 
 ---
 
-## 4. Tương tác
+## 2. Khái niệm
 
-[Melatonin](./melatonin-system.md) / ngủ sâu = cửa. [Testosterone](./testosterone-system.md) và GH cùng thích strength + ngủ. Cortisol mạn đối kháng phục hồi.
+Xung, không nền. IF/HIIT không thay ngủ. Không phải viên “tăng GH” đáng tin.
 
 ---
 
-## 5. Protocol + proxy
+## 3. Vai trò
 
-Tuần: 3 buổi nặng hoặc interval + giờ ngủ cố định. Proxy: sleep depth, DOMS / năng lượng ngày sau.
+Trẻ: chiều cao. Người lớn: thành phần cơ, phục hồi, lipolysis, xương (cùng IGF-1). Mệt ≠ “thiếu GH”.
 
-## 6. An toàn
+---
 
-GH / IGF-1 / peptide = doping / y khoa. Giáo dục — không chẩn đoán thiếu GH người lớn.
+## 4. Lúc nào tăng
 
-## 7. Đọc tiếp
+Ngủ sâu; tập nặng/HIIT ngắn; đói ngắn (ghrelin). **Tốt:** đêm sau ngày có tập + đi ngủ. **Xấu:** tiêm.
 
-[Sleep](./sleep-optimization.md) · [Melatonin](./melatonin-system.md) · [Movement](./movement-protocols.md) · [Testosterone](./testosterone-system.md) · [Cortisol](./cortisol-system.md)
+---
+
+## 5. Lúc nào giảm
+
+Thức khuya, rượu, [cortisol](./cortisol-system.md) mạn, overtraining, % mỡ bụng cao (thường), tuổi.
+
+**Proxy:** ngủ nông, tập không lên — nhiều nguyên nhân, không kết luận GH.
+
+---
+
+## 6–7. Ưu / nhược
+
+Ưu: hồi, body comp. Nhược ngoại sinh: đường, phù, hội chứng ống cổ tay, ung thư nguy cơ lý thuyết — **cấm tự dùng**.
+
+---
+
+## 8. Sinh hóa đời sống
+
+```
+Dim + ngủ sớm
+    → melatonin + xung GH
+HIIT + thức 1h
+    → mất phần lớn lợi
+Cortisol mạn / rượu
+    → đối kháng phục hồi
+```
+
+---
+
+## 9–12. Đòn bẩy & an toàn
+
+Ngủ sớm/đủ; HIIT hoặc nặng ngắn; rượu xa gối; protein; khoảng ăn–ngủ hợp lý. Không GH/IGF-1/peptide. [Sleep](./sleep-optimization.md) · [Movement](./movement-protocols.md) · [Testosterone](./testosterone-system.md)
