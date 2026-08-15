@@ -20,6 +20,7 @@
 *   Người tiều phu dốt nát nhưng giác ngộ ngay khi nghe Kinh Kim Cang ("Ưng vô sở trụ nhi sanh kỳ tâm").
 *   Bài kệ nổi tiếng đối đáp với Thần Tú: *"Bồ đề bản vô thụ, minh cảnh diệc phi đài. Bản lai vô nhất vật, hà xứ nhạ trần ai?"* (Bồ đề vốn không cây, gương sáng cũng chẳng đài. Xưa nay không một vật, nơi nào dính bụi trần?).
 *   Ông nhấn mạnh vào sự giác ngộ đốn ngộ (đột ngột) thay vì tu tập tiệm ngộ (từ từ).
+*   👉 **Deep dive kinh điển:** [**Lục Tổ Đàn Kinh**](./luc-to-dan-kinh.md) — đốn ngộ, vô niệm, vô trụ, Định–Huệ không hai.
 
 ---
 

@@ -49,11 +49,14 @@ Lộ trình này được thiết kế đi từ nền tảng tư duy đến các
 *   **[Ancient Philosophy (Triết học Cổ đại)](./schools-and-thinkers/ancient-philosophy.md):** Socrates, Plato, Aristotle. Nền tảng của tư duy phương Tây.
 *   **[Eastern Philosophy (Triết học Phương Đông)](./schools-and-thinkers/eastern-philosophy.md):** Đạo giáo (Vô vi), Phật giáo (Tứ diệu đế), Nho giáo.
     *   **[Taoism Deep Dive](./schools-and-thinkers/taoism-deep-dive.md):** Lão Tử, Trang Tử, Vô Vi và Tự Nhiên.
+        *   👉 **[Đạo Đức Kinh](./schools-and-thinkers/dao-duc-kinh.md):** ⭐ **NEW** Đạo · Đức · Vô vi · Nước · Cái Không · cẩm nang HSP.
     *   **[Buddhism Deep Dive](./schools-and-thinkers/buddhism-deep-dive.md):** Tam Pháp Ấn, Tính Không, Tâm lý học & Thiền tập.
     *   **[☸️ Buddhist Philosophy Hub](./buddhism/README.md):** Lộ trình Phật học hiện đại với Foundations · Mindful Operator · Bodhisattva Leadership · Comparative lenses · Therapy stack · Daily prompts.
     *   **[Confucianism Deep Dive](./schools-and-thinkers/confucianism-deep-dive.md):** Ngũ Thường, Quân Tử, Đạo Trị Nước.
+        *   👉 **[Triết lý Vương Dương Minh](./schools-and-thinkers/wang-yangming-philosophy.md):** ⭐ **NEW** Tâm Học, Tri Hành Hợp Nhất & Trí Lương Tri.
         *   👉 **[Tứ Đức (Công - Dung - Ngôn - Hạnh)](./schools-and-thinkers/women-virtues-eastern.md):** ⭐ **NEW** Phẩm chất phụ nữ Á Đông.
     *   **[Zen Deep Dive](./schools-and-thinkers/zen-deep-dive.md):** Vô Tâm, Kiến Tánh, Trà Đạo & Wabi-Sabi.
+        *   👉 **[Lục Tổ Đàn Kinh](./schools-and-thinkers/luc-to-dan-kinh.md):** ⭐ **NEW** Huệ Năng · đốn ngộ · vô niệm · bản lai vô nhất vật.
 *   **[Modern Philosophy (Triết học Hiện đại)](./schools-and-thinkers/modern-philosophy.md):** Descartes (Tôi tư duy), Kant, Nietzsche.
 *   **[Existentialism (Chủ nghĩa Hiện sinh)](./schools-and-thinkers/existentialism-deep-dive.md):** Sartre, Camus. Tự do và sự phi lý.
 *   **[Contemporary Philosophy (Đương đại)](./schools-and-thinkers/contemporary-philosophy.md):** Wittgenstein, Foucault.

@@ -36,6 +36,7 @@ Phật giáo trong Docs tập trung vào 3 tầng:
 ## 🔗 Liên kết nhanh
 - [Buddhism Deep Dive (Schools & Thinkers)](../schools-and-thinkers/buddhism-deep-dive.md)
 - [Zen Deep Dive](../schools-and-thinkers/zen-deep-dive.md)
+- [Lục Tổ Đàn Kinh (Huệ Năng)](../schools-and-thinkers/luc-to-dan-kinh.md)
 - [Existential Mindset](../practical-applications/existential-mindset.md)
 - [Inner Strength in Adversity](../practical-applications/inner-strength-in-adversity.md)
 - [Meaning & Purpose](../practical-applications/meaning-and-purpose.md)

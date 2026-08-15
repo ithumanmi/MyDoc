@@ -10,6 +10,8 @@
 
 Lão Tử (Lao Tzu) được coi là ông tổ của Đạo giáo. Cuốn *Đạo Đức Kinh* của ông vỏn vẹn 5000 chữ nhưng chứa đựng trí tuệ sâu sắc về vũ trụ và nhân sinh.
 
+👉 **Deep dive kinh điển:** [**Đạo Đức Kinh**](./dao-duc-kinh.md) — Đạo · Đức · Vô vi · Nước · Cái Không · đọc & drill hiện đại.
+
 ### **A. Đạo (Tao) và Đức (Te)**
 *   **Đạo (Tao):** Là nguồn gốc của vạn vật, là quy luật vận hành của vũ trụ. Đạo không có hình dáng, không có tên gọi, hiện hữu ở khắp mọi nơi.
     > *"Đạo khả đạo, phi thường đạo."* (Đạo mà có thể diễn tả được thì không phải là Đạo vĩnh cửu).

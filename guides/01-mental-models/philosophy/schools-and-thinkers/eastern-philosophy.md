@@ -21,7 +21,8 @@ Khác với triết học phương Tây tập trung vào Logic và Lý trí, tri
 *   Trong Âm có Dương, trong Dương có Âm.
 *   Mục tiêu cuộc sống là tìm sự cân bằng.
 
-→ **[Đọc thêm: Taoism Deep Dive (Lão Tử, Trang Tử, Phác, Tự Nhiên)](./taoism-deep-dive.md)**
+→ **[Đọc thêm: Taoism Deep Dive (Lão Tử, Trang Tử, Phác, Tự Nhiên)](./taoism-deep-dive.md)**  
+→ **[Đạo Đức Kinh — Đạo · Đức · Vô vi](./dao-duc-kinh.md)**
 
 ---
 
@@ -64,5 +65,6 @@ Sự kết hợp giữa Phật giáo Đại thừa và Đạo giáo.
 *   **Kiến tánh thành Phật:** Thấy được bản tánh thật sự của mình là giác ngộ.
 *   **Koan (Công án):** Những câu hỏi phi logic ("Tiếng vỗ của một bàn tay là gì?") để phá vỡ tư duy nhị nguyên.
 
-→ **[Đọc thêm: Zen Deep Dive (Vô Tâm, Kiến Tánh, Wabi-Sabi)](./zen-deep-dive.md)**
+→ **[Đọc thêm: Zen Deep Dive (Vô Tâm, Kiến Tánh, Wabi-Sabi)](./zen-deep-dive.md)**  
+→ **[Lục Tổ Đàn Kinh — Huệ Năng, đốn ngộ](./luc-to-dan-kinh.md)**
 

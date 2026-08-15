@@ -766,6 +766,100 @@ topics:
       - guides/01-mental-models/philosophy/schools-and-thinkers/confucianism-deep-dive.md
       - guides/01-mental-models/philosophy/schools-and-thinkers/eastern-philosophy.md
 
+  - id: philosophy.wang_yangming
+    aliases:
+      - Wang Yangming
+      - Vương Dương Minh
+      - Tâm Học
+      - Tri Hành Hợp Nhất
+      - Unity of Knowledge and Action
+      - Trí Lương Tri
+      - nội lực Vương Dương Minh
+      - Lương Tri nội lực
+      - nội lực con người Tâm Học
+      - nguyện lực
+      - lập chí Vương Dương Minh
+      - 立志
+      - nguyện vọng vs nguyện lực
+    canonical: guides/01-mental-models/philosophy/schools-and-thinkers/wang-yangming-philosophy.md
+    related:
+      - guides/01-mental-models/philosophy/schools-and-thinkers/confucianism-deep-dive.md
+      - guides/01-mental-models/philosophy/schools-and-thinkers/eastern-philosophy.md
+      - guides/01-mental-models/philosophy/practical-applications/stoicism-daily.md
+      - guides/01-mental-models/philosophy/practical-applications/lap-thien-cai-menh.md
+      - guides/01-mental-models/philosophy/practical-applications/bat-dau-hanh-trinh-cai-bien-cuoc-doi.md
+      - guides/01-mental-models/philosophy/practical-applications/inner-strength-in-adversity.md
+      - guides/04-lifestyle-os/life-os/outcome-independence.md
+      - guides/01-mental-models/philosophy/schools-and-thinkers/luc-to-dan-kinh.md
+
+  - id: philosophy.luc_to_dan_kinh
+    aliases:
+      - Lục Tổ Đàn Kinh
+      - Đàn Kinh
+      - Platform Sutra
+      - Platform Sutra of the Sixth Patriarch
+      - 六祖坛经
+      - Huệ Năng
+      - Huineng
+      - đốn ngộ
+      - bản lai vô nhất vật
+      - vô niệm
+      - vô trụ
+      - tự tánh Bát-nhã
+    canonical: guides/01-mental-models/philosophy/schools-and-thinkers/luc-to-dan-kinh.md
+    related:
+      - guides/01-mental-models/philosophy/schools-and-thinkers/zen-deep-dive.md
+      - guides/01-mental-models/philosophy/schools-and-thinkers/buddhism-deep-dive.md
+      - guides/01-mental-models/philosophy/buddhism/README.md
+      - guides/01-mental-models/philosophy/buddhism/satipatthana-noting-protocol.md
+      - guides/01-mental-models/philosophy/schools-and-thinkers/wang-yangming-philosophy.md
+      - guides/01-mental-models/philosophy/schools-and-thinkers/eastern-philosophy.md
+      - guides/01-mental-models/philosophy/schools-and-thinkers/dao-duc-kinh.md
+
+  - id: philosophy.dao_duc_kinh
+    aliases:
+      - Đạo Đức Kinh
+      - Tao Te Ching
+      - Dao De Jing
+      - 道德經
+      - Lão Tử
+      - Laozi
+      - Lao Tzu
+      - Vô vi
+      - Wu Wei
+      - Đạo và Đức
+      - cái Không Đạo giáo
+      - nước Lão Tử
+      - Phác
+      - HSP
+      - highly sensitive person
+      - người nhạy cảm cao
+      - độ nhạy cảm cao
+      - cẩm nang nhạy cảm
+      - Đạo Đức Kinh HSP
+      - ôm một
+      - bào nhất
+      - chuyên khí trí nhu
+      - mềm như trẻ thơ
+      - tinh thần cơ thể nhất quán
+      - tẩy trừ tạp niệm
+      - địch trừ huyền lãm
+      - đối thoại nội tâm Đạo
+    canonical: guides/01-mental-models/philosophy/schools-and-thinkers/dao-duc-kinh.md
+    related:
+      - guides/01-mental-models/philosophy/schools-and-thinkers/taoism-deep-dive.md
+      - guides/01-mental-models/philosophy/schools-and-thinkers/eastern-philosophy.md
+      - guides/01-mental-models/philosophy/schools-and-thinkers/zen-deep-dive.md
+      - guides/01-mental-models/philosophy/schools-and-thinkers/luc-to-dan-kinh.md
+      - guides/01-mental-models/philosophy/schools-and-thinkers/wang-yangming-philosophy.md
+      - guides/01-mental-models/philosophy/practical-applications/stoicism-daily.md
+      - guides/01-mental-models/philosophy/practical-applications/anticipate-before-you-leave.md
+      - guides/01-mental-models/philosophy/practical-applications/inner-strength-in-adversity.md
+      - guides/01-mental-models/psychology/practical-applications/cognitive-emotional-empathy.md
+      - guides/01-mental-models/philosophy/buddhism/satipatthana-noting-protocol.md
+      - guides/04-lifestyle-os/health/sns-cortisol-brake-playbook.md
+      - guides/04-lifestyle-os/health/hormone-rhythm-playbook.md
+
   - id: philosophy.logic_daily
     aliases:
       - logic in daily life
