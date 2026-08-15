@@ -1,6 +1,6 @@
 ---
 title: "Người giỏi nhìn thấy điều chưa xảy ra"
-description: "Mô phỏng trước giấy; 4 tầng địa chỉ thất bại; áp dụng đời sống · kinh doanh · startup"
+description: "Chạy thử việc trong đầu trước khi làm; thất bại có 4 tầng; dùng cho đời sống, kinh doanh, startup"
 updated: "2026-08-15"
 canonical: true
 tags: [anticipation, planning, systems, failure-anatomy, game-selection, strategy, startup, freelance, poka-yoke, pre-mortem, post-mortem, inversion, mental-models]
@@ -31,311 +31,313 @@ sensitivity: public
 
 # Người giỏi nhìn thấy điều chưa xảy ra
 
-> [← Philosophy](../README.md) · [Stoicism daily](./stoicism-daily.md) · [Pre-mortem](../../../03-career-skills/innovation/pre-mortem-technique.md) · [Strategy engine](../../../04-lifestyle-os/life-os/strategy-engine.md)
+> [← Philosophy](../README.md) · [Stoicism mỗi ngày](./stoicism-daily.md) · [Họp đoán trước thất bại](../../../03-career-skills/innovation/pre-mortem-technique.md) · [Động cơ chiến lược](../../../04-lifestyle-os/life-os/strategy-engine.md)
 
-**Người giỏi thật sự là người ít phải đối mặt với vấn đề nhất** — không phải may mắn. Họ **đã nhìn thấy vấn đề từ trước** và **thiết kế hệ thống để vấn đề không có cơ hội xuất hiện**.
+**Người giỏi thật sự là người ít phải đối mặt với vấn đề nhất** — không phải vì may. Họ **đã thấy vấn đề từ trước** và **sắp xếp đời / việc sao cho vấn đề khó có đường xảy ra**.
 
-Họ không có mắt thần. Họ chạy phim tương lai đủ rõ để **chặn đường đi của sự cố**, không chỉ để khi sự cố tới thì ứng biến giỏi. Người kém sống trong *cái đang thấy* rồi chữa cháy. Người khá có if–then khi cháy. Người giỏi **làm cho đám cháy không có chỗ bắt lửa**.
+Họ không có mắt thần. Họ tưởng tượng trước vài cảnh sắp tới, đủ rõ để **chặn đường sự cố**, không chỉ giỏi ứng biến khi sự cố đã tới. Người kém sống với *cái đang thấy* rồi chữa cháy. Người khá biết: *nếu chuyện này xảy ra thì mình làm vậy*. Người giỏi **làm cho đám cháy không có chỗ bắt lửa**.
 
-Cùng một mắt — trước khi ra cửa, trước khi gửi proposal, trước khi viết dòng code hay đốt ads. Đời sống, kinh doanh, startup khác *sân*; không khác *cơ chế*. If–then trong đầu vẫn cần (tầng ứng biến). Tầng cao hơn = **đổi môi trường / mặc định / ràng buộc** để lớp sự cố hết cửa. “Phải thấy *mọi* việc” vẫn sai. Skill = chặn lớp *có thể thấy trước*; phần không thấy thì [sửa nhanh](../../fast-correction-mindset.md).
+Cùng một cách nhìn — trước khi ra cửa, trước khi gửi báo giá, trước khi viết code hay bỏ tiền chạy quảng cáo. Đời sống, kinh doanh, startup khác việc; **cách nghĩ giống nhau**.
+
+Câu “nếu… thì…” trong đầu vẫn cần — đó là lớp ứng biến. Lớp cao hơn là **đổi chỗ làm việc, đổi thói quen mặc định, đặt giới hạn từ trước**, để lớp sự cố đó hết cửa. Không ai thấy *mọi* việc. Giỏi là chặn được những thứ **có thể thấy trước**; thứ không thấy thì [sửa nhanh](../../fast-correction-mindset.md).
 
 ## Agent SUMMARY
 
-- Người giỏi **ít gặp vấn đề** vì đã thấy trước rồi **thiết kế hệ thống chặn** — không phải may, không phải “cứu hỏa giỏi”.
-- Ba tầng **cơ chế chặn**: **reactive** → **if–then** → **hệ thống**. Giỏi thật sự = tầng hệ thống (bảng §2).
-- “Nhìn thấy chưa xảy ra” = mô phỏng sự cố / chỗ trống / nước đi người khác / bậc 2 — rồi **xóa đường đi** (via negativa, poka-yoke, default).
-- Kế hoạch tốt nhất **nằm trong đầu trước giấy**. Giấy không chạy phim = kế hoạch giả (kể cả pitch deck / OKR).
-- Thất bại **có địa chỉ** — 4 tầng: cuộc chơi → chiến lược → năng lực → tình huống. **Không trộn** với 3 tầng cơ chế chặn. Hầu hết vá T4 khi lỗ ở T1.
-- Cùng khung trên **ba sân**: đời sống · kinh doanh (freelance/SME) · startup. Triệu chứng khác; địa chỉ cùng logic.
-- Ritual 90″ trước cửa / trước deep. Việc lớn (call, deal, launch): 10–15′ pre-mortem. Lặp 2 lần → **sửa hệ thống**. Unforeseeable → [FMS](../../failure-management-system.md).
+- Người giỏi **ít gặp vấn đề** vì đã thấy trước rồi **chặn đường sự cố** — không phải may, không phải “cứu hỏa giỏi”.
+- Ba lớp **cách chặn**: việc tới mới nghĩ → đã có “nếu… thì…” → **đổi hệ thống** (môi trường, mặc định, giới hạn). Giỏi thật sự = lớp hệ thống (§2).
+- “Nhìn thấy chưa xảy ra” = tưởng tượng sự cố, chỗ thiếu, nước đi của người khác, và hệ quả lần sau — rồi **bỏ đường đi** của sự cố.
+- Kế hoạch tốt nhất **nằm trong đầu trước khi viết ra giấy**. Giấy mà chưa chạy thử trong đầu = kế hoạch giả (kể cả slide gọi vốn hay danh sách mục tiêu).
+- Thất bại **có địa chỉ** — 4 tầng: cuộc chơi → chiến lược → năng lực → tình huống. **Đừng lẫn** với 3 lớp cách chặn ở trên. Hầu hết người ta sửa tầng 4 trong khi lỗi ở tầng 1.
+- Cùng khung cho **đời sống, kinh doanh, startup**. Việc khác nhau; chỗ sai cùng một logic.
+- 90 giây trước khi ra cửa hoặc trước giờ tập trung. Việc lớn (cuộc gọi, chốt deal, ra mắt): 10–15 phút đoán trước thất bại. Lặp hai lần → **đổi hệ thống**, đừng chỉ thêm câu “lần sau mình nhớ”. Việc không thể thấy trước → [FMS](../../failure-management-system.md).
 
 ---
 
 ## 1. “Nhìn thấy chưa xảy ra” nghĩa là gì
 
-Não không nhìn thế giới như camera ([perception through models](../../psychology/fundamentals/perception-through-models.md)). Nó **dự báo** rồi sửa bằng lỗi dự báo ([predictive processing](../../psychology/fundamentals/predictive-processing.md)).
+Não không nhìn đời như camera ([não nhìn qua mô hình](../../psychology/fundamentals/perception-through-models.md)). Nó **đoán trước**, rồi sửa khi đoán sai ([xử lý dự báo](../../psychology/fundamentals/predictive-processing.md)).
 
-Người kém để mặc prior: “sẽ ổn” hoặc “sẽ nổ hết”. Người giỏi **chủ động viết prior** — họ *thấy* trước khi chân bước / trước khi hệ thống thật chạy:
+Người kém để mặc hai kiểu đoán: “sẽ ổn” hoặc “sẽ nổ hết”. Người giỏi **tự viết đoạn phim** — họ *thấy* trước khi bước chân / trước khi việc thật chạy:
 
-| Loại “chưa xảy ra” | Họ thấy gì | Đời sống | Kinh doanh | Startup |
+| Họ thấy gì | Ý là gì | Đời sống | Kinh doanh | Startup |
 | --- | --- | --- | --- | --- |
-| **Sự cố** | Hỏng theo kiểu nào | Hết pin · người kia trễ | Client ghost · scope creep | Server sập ngày launch · ads cháy tiền |
-| **Khoảng trống** | Cái *thiếu* trên hiện trường | Không Plan B quán · không câu thoát | Không deposit · không scope viết | Không Mom Test · không số runway |
-| **Nước đi người khác** | Đối phương / hệ thống sẽ làm gì | Sếp đổi slot · TikTok xen deep | Khách “rẻ hơn bên kia” · kế toán đòi hóa đơn | Competitor copy · “sẽ dùng” nhưng không trả |
-| **Hậu quả bậc 2** | Sau bước 1, bước 2–3 | Ngủ muộn → sáng yếu → MXH | Nhận job rẻ → full lịch → không còn giờ bán đắt | Hire 2 → burn → 4 tháng runway → raise lúc yếu |
-| **Cơ hội** | Cửa mở nếu chuẩn bị | 1 câu hỏi hay → intro | 1 case study sẵn → upsell | 1 câu pain đúng → khách tự kể budget |
+| **Sự cố** | Việc sẽ hỏng kiểu nào | Hết pin. Người kia đến trễ. | Khách im luôn. Việc phình ngoài thỏa thuận. | Máy chủ sập ngày ra mắt. Quảng cáo cháy tiền. |
+| **Chỗ trống** | Cái *thiếu* khi đứng đó | Không quán dự phòng. Không câu để kết thúc. | Chưa cọc. Chưa viết rõ phạm vi việc. | Chưa hỏi khách thật. Không biết còn tiền sống được mấy tháng. |
+| **Nước đi người khác** | Họ / môi trường sẽ làm gì | Sếp dời lịch. TikTok xen vào giờ làm. | Khách so giá. Kế toán đòi hóa đơn. | Đối thủ copy. Khách nói “sẽ dùng” nhưng không trả tiền. |
+| **Hệ quả lần sau** | Sau bước này, bước 2–3 là gì | Ngủ muộn → sáng yếu → lại lướt mạng. | Nhận việc rẻ → lịch đầy → hết giờ bán việc đắt. | Tuyển 2 người → tiền cháy nhanh → còn 4 tháng → phải gọi vốn lúc yếu. |
+| **Cơ hội** | Cửa sẽ mở nếu chuẩn bị | Một câu hỏi hay → được giới thiệu tiếp. | Có sẵn một case → bán thêm được. | Hỏi đúng nỗi đau → khách tự nói họ đang chi bao nhiêu. |
 
 Người giỏi không chỉ thấy **thảm họa**. Họ thấy **đường đi của sự việc** — xấu và tốt — rồi chọn mang gì trong đầu.
 
-Cờ vua / OODA: người yếu nhìn nước hiện tại. Người mạnh nhìn **2–3 nước nữa**. [Strategic thinking](../../../03-career-skills/productivity/mental-models/strategic-thinking.md) gọi đó là second-order; đời thường gọi là “nhìn trước”. Startup hay chết ở bậc 2: không phải “landing xấu”, mà *sau 8 tuần ads không retention thì còn gì*.
+Cờ vua: người yếu nhìn nước đang đứng. Người mạnh nhìn **hai ba nước nữa**. [Tư duy chiến lược](../../../03-career-skills/productivity/mental-models/strategic-thinking.md) gọi đó là nghĩ bậc hai; đời thường gọi là “nhìn trước”. Startup hay chết ở bậc hai: không phải “trang web xấu”, mà *sau tám tuần chạy quảng cáo, người vào rồi không quay lại — lúc đó còn gì*.
 
 ## 2. Ít vấn đề nhất — không phải may
 
-Người ngoài nhìn đời người giỏi: “êm, ít drama, ít cháy”. Dễ gán **may**. Bên trong: họ đã **xóa cả lớp sự cố** trước khi lớp đó có quyền xuất hiện.
+Người ngoài nhìn đời người giỏi: êm, ít rối, ít cháy. Dễ bảo là **may**. Bên trong: họ đã **xóa cả một lớp sự cố** trước khi lớp đó kịp xảy ra.
 
-| Tầng | Hành vi | Vẫn gặp vấn đề? |
+| Lớp | Họ làm gì | Vẫn gặp vấn đề? |
 | --- | --- | --- |
-| **0. Reactive** | Việc tới mới nghĩ | Nhiều nhất — luôn bất ngờ với thứ đã từng xảy ra |
-| **1. If–then** | Thấy trước, ứng biến khi xảy ra | Ít hơn — firefighter giỏi |
-| **2. Hệ thống** | Thấy trước, **chặn đường đi** của sự cố | Ít nhất — kiến trúc sư |
+| **0. Việc tới mới nghĩ** | Tới đâu hay đó | Nhiều nhất — luôn bất ngờ với thứ *đã từng* xảy ra |
+| **1. Nếu… thì…** | Thấy trước, ứng biến khi xảy ra | Ít hơn — cứu hỏa giỏi |
+| **2. Hệ thống** | Thấy trước, **chặn đường** sự cố | Ít nhất — sắp xếp trước |
 
-Tầng 1 vẫn giỏi hơn kém. **Giỏi thật sự = tầng 2.** If–then là lưới dự phòng khi hệ thống thủng, không phải chiến lược chính.
+Lớp 1 vẫn hơn lớp 0. **Giỏi thật sự là lớp 2.** Câu “nếu… thì…” là lưới dự phòng khi hệ thống thủng, không phải cách chính.
 
-**Thiết kế để vấn đề hết cửa** (poka-yoke / error-proofing, via negativa, [inversion](../../engineering/inversion.md), [margin of safety](../../engineering/margin-of-safety.md), FMS pre-commit):
+**Làm sao để vấn đề hết cửa** (chặn lỗi từ thiết kế, bớt thứ gây hỏng, [lật ngược](../../engineering/inversion.md), [biên an toàn](../../engineering/margin-of-safety.md), hứa với chính mình từ trước — [FMS](../../failure-management-system.md)):
 
-1. **Xóa đường đi** — đừng để nguyên nhân vào tay. Điện thoại không trong tầm với khi deep. Không nhận job khi chưa có [scope + cọc](../../../02-wealth-business/legal/tech-developers/freelance-contracts.md). Không viết product trước khi có tín hiệu nhu cầu ([idea-validation](../../../02-wealth-business/entrepreneurship/tech-startup/idea-validation.md)).
-2. **Đổi mặc định** — hành vi đúng = đường ít ma sát. Túi gym luôn đủ. Template proposal + giá sàn *trước* khi khách hỏi. Calendar hard-stop hiện trên màn. Fake-door / concierge *trước* architecture.
-3. **Ràng buộc trước** — quyết định lúc tỉnh, không lúc arousal. App limit *trước* block. “Dưới giá X thì không nhận.” “Nếu sau N cuộc Mom Test không ai đang trả tiền cho workaround → dừng build.”
-4. **Biên an toàn** — đừng chạy 100%. Buffer giờ / tiền / năng lượng / runway. Sự cố nhỏ không thành vấn đề; một tháng ế không thành phá sản.
-5. **Via negativa** — bớt thứ tạo sự cố, đừng chỉ thêm willpower. Bớt MXH trên giường. Bớt kênh bán không ra deal. Bớt tính năng chưa có giả định đã test ([RAT](../../../03-career-skills/innovation/rat-testing.md)).
+1. **Xóa đường đi** — đừng để nguyên nhân nằm trong tầm tay. Điện thoại không để cạnh khi cần tập trung. Không nhận việc khi chưa có [phạm vi rõ + cọc](../../../02-wealth-business/legal/tech-developers/freelance-contracts.md). Không viết sản phẩm khi chưa có tín hiệu ai cần ([kiểm chứng ý tưởng](../../../02-wealth-business/entrepreneurship/tech-startup/idea-validation.md)).
+2. **Đổi mặc định** — việc đúng phải là đường dễ nhất. Túi tập luôn đủ đồ. Mẫu báo giá và giá sàn *có sẵn* trước khi khách hỏi. Giờ kết thúc cuộc họp hiện trên lịch. Thử nhu cầu bằng trang giả / làm thủ công *trước* khi dựng hệ thống lớn.
+3. **Đặt giới hạn lúc tỉnh** — đừng quyết khi đang thèm, đang nóng, đang muốn chứng minh. Chặn app *trước* giờ làm. “Dưới giá này thì không nhận.” “Hỏi xong vài người thật, không ai đang trả tiền để tự xoay — thì dừng xây.”
+4. **Biên an toàn** — đừng chạy hết 100%. Chừa giờ, tiền, sức, và số tháng còn sống được bằng tiền trong két. Sự cố nhỏ không thành vấn đề; một tháng ế không thành phá sản.
+5. **Bớt, đừng chỉ thêm ý chí** — bớt thứ tạo sự cố. Bớt mạng xã hội trên giường. Bớt kênh bán không ra đơn. Bớt tính năng chưa kiểm tra giả định rủi ro nhất ([RAT](../../../03-career-skills/innovation/rat-testing.md)).
 
-Người kém tối ưu **cảm giác đang giải quyết** (đổi copy, đổi split, họp cứu hỏa). Người giỏi tối ưu **số lần phải giải quyết**. Đời êm / công ty êm nhìn như may vì **lớp vấn đề đã bị thiết kế ra khỏi hệ thống**.
+Người kém tối ưu **cảm giác đang giải quyết** (đổi câu quảng cáo, đổi lịch tập, họp cứu hỏa). Người giỏi tối ưu **số lần phải giải quyết**. Đời êm, công ty êm, nhìn như may — vì **lớp vấn đề đã bị xếp ra khỏi hệ thống**.
 
-Dấu hiệu tầng 2: sự cố lặp lần 2 **không** còn được xử lý bằng if–then miệng — môi trường đã đổi. Nếu vẫn “lần này mình sẽ nhớ / lần này copy sẽ ăn” = vẫn tầng 0–1.
+Dấu hiệu lớp 2: sự cố lần hai **không** còn xử lý bằng câu “lần này mình sẽ nhớ”. Môi trường đã đổi. Nếu miệng vẫn nói vậy — vẫn đang ở lớp 0 hoặc 1.
 
-## 3. Ba tầng thời gian (cùng một mắt)
+## 3. Ba cửa sổ thời gian (cùng một mắt)
 
-| Tầng | Cửa sổ | Câu hỏi | Đủ khi | Sân nào hay kẹt |
+| Cửa sổ | Khi nào | Hỏi gì | Đủ khi | Ai hay kẹt |
 | --- | --- | --- | --- | --- |
-| **A. Phút** | Trước cửa / mở laptop / vào call | 30–90 phút tới hỏng kiểu gì? | Ritual 90″ | Đời sống. Founder giỏi tầm nhìn, quên sạc / quên agenda |
-| **B. Buổi** | Họp, gặp, tập, demo, sales | Người kia / môi trường sẽ làm gì? | 3 if–then + 1 cửa thoát | Kinh doanh: call không có next-step |
-| **C. Tuần–tháng** | Thói quen, tiền, product, hire | Lặp 20 lần / 8 tuần thì ra gì? | Second-order + pre-mortem | Startup: ship tuần này, chết ở runway quý sau |
+| **A. Phút** | Trước khi ra cửa, mở máy, vào cuộc gọi | 30–90 phút tới, hỏng kiểu gì? | 90 giây trong đầu | Đời sống. Người giỏi tầm nhìn xa vẫn quên sạc, quên giấy họp. |
+| **B. Buổi** | Họp, gặp, tập, demo, bán hàng | Người kia / chỗ đó sẽ làm gì? | Ba câu “nếu… thì…” + một cửa thoát | Kinh doanh: hết cuộc gọi mà không hẹn bước tiếp. |
+| **C. Tuần–tháng** | Thói quen, tiền, sản phẩm, tuyển người | Làm vậy 20 lần, hoặc 8 tuần, thì ra gì? | Nghĩ bậc hai + đoán trước thất bại | Startup: giao hàng tuần này, chết vì hết tiền quý sau. |
 
-Người “giỏi ra đường” mà vỡ việc lớn thường **chỉ giỏi tầng A**. Người “hay lo tương lai” mà vẫn quên sạc thường **kẹt tầng C trong đầu, bỏ tầng A**. Founder hay đảo: slide 5 năm đẹp, buổi demo không có Plan B mạng. Skill đầy = **ba tầng**, không phóng đại một tầng thành tiên tri.
+Người “giỏi ra đường” mà vỡ việc lớn thường **chỉ giỏi cửa sổ A**. Người “hay lo tương lai” mà vẫn quên sạc thường **kẹt cửa sổ C trong đầu, bỏ cửa sổ A**. Người làm startup hay đảo: slide năm năm rất đẹp, buổi demo không có phương án khi mất mạng. Đủ bộ là **ba cửa sổ**, không biến một cửa sổ thành tiên tri.
 
-Inversion ([engineering/inversion](../../engineering/inversion.md)): đừng hỏi “làm sao thành công?” — hỏi “làm sao *chắc chắn* hỏng?” rồi đừng làm các bước đó. Đó cũng là cách *nhìn việc chưa xảy ra*.
+[Lật ngược](../../engineering/inversion.md): đừng hỏi “làm sao thành công?” — hỏi “làm sao *chắc chắn* hỏng?” rồi đừng làm các bước đó. Đó cũng là cách *nhìn việc chưa xảy ra*.
 
-## 4. Kế hoạch trong đầu trước — não mô phỏng trước khi vận hành
+## 4. Kế hoạch trong đầu trước — chạy thử rồi mới viết
 
-Kế hoạch tốt nhất **nằm trong đầu trước khi ra giấy**. Giấy là bản *xuất* của phim đã chạy, không phải chỗ *sáng tạo* phim.
+Kế hoạch tốt nhất **nằm trong đầu trước khi ra giấy**. Giấy là bản *chép lại* đoạn phim đã chạy, không phải chỗ *bịa* đoạn phim.
 
 | Thứ tự sai | Thứ tự đúng |
 | --- | --- |
-| Viết checklist / slide / to-do / pitch → hy vọng đời khớp giấy | Não **dry-run hiện thực** (người, giờ, đồ, chỗ trống, arousal, tiền) → thuộc if–then → *rồi mới* ghi giấy nếu cần |
+| Viết danh sách / slide / việc cần làm → hy vọng đời khớp giấy | Trong đầu **chạy thử như thật** (người, giờ, đồ, chỗ thiếu, lúc nóng đầu, tiền) → thuộc câu “nếu… thì…” → *rồi mới* ghi giấy nếu cần |
 
-Người kém ra ngoài rồi mới tính: hết tiền, trễ, đổi lịch, mưa, hết pin — arousal cao, quyết định tệ. Người kém ship rồi mới tính: khách không đau, kênh không có, runway hết — cũng arousal, cũng quyết định tệ.
+Người kém ra ngoài rồi mới tính: hết tiền, trễ, đổi lịch, mưa, hết pin — lúc đó đầu nóng, quyết định tệ. Người kém làm xong sản phẩm rồi mới tính: khách không đau, không biết bán ở đâu, tiền sắp hết — cũng đầu nóng, cũng quyết định tệ.
 
-Người giỏi **mô phỏng trước khi chân bước / trước khi hệ thống thật chạy**:
+Người giỏi **chạy thử trước khi bước / trước khi hệ thống thật chạy**:
 
-1. **Win** — việc này thắng khi nào? (một câu — không phải “làm cho xong”)
-2. **Phim hiện thực** — 3–7 cảnh hỏng / trống / người kia, *như đang xảy ra*, không phải bullet đẹp
+1. **Thắng cuộc** — việc này xong thì được điều gì? (một câu — không phải “làm cho xong”)
+2. **Phim như thật** — ba đến bảy cảnh hỏng, thiếu, hoặc người kia phản ứng — *như đang xảy ra*, không phải gạch đầu dòng cho đẹp
 3. **Nếu X thì Y** — một câu, đã thuộc
-4. **Chặn hẳn?** — đổi mặc định / xóa đường đi, hay chỉ if–then?
-5. Xuất giấy *nếu* cần nhớ ngoài đầu — giấy không thay phim
+4. **Chặn hẳn được không?** — đổi mặc định / xóa đường đi, hay chỉ ứng biến?
+5. Viết ra giấy *nếu* cần nhớ ngoài đầu — giấy không thay phim
 
-Giấy không chạy khi đứng giữa đường, giữa call, giữa war-room launch. Não là **bộ mô phỏng + bộ thực thi**. Checklist copy từ template / deck copy từ startup khác mà chưa chạy phim = **kế hoạch giả**: trông đủ, vỡ lúc vận hành.
+Giấy không chạy khi đang đứng giữa đường, giữa cuộc gọi, giữa ngày ra mắt. Não vừa **tưởng tượng** vừa **làm**. Chép mẫu có sẵn, chép slide công ty khác, mà chưa chạy thử trong đầu = **kế hoạch giả**: trông đủ, vỡ lúc làm thật.
 
-Đó là cùng một vòng [predictive processing](../../psychology/fundamentals/predictive-processing.md): tạo prediction → so với đời → prediction error. Người giỏi **ép PE xảy ra trong đầu trước** (rẻ). Người kém để PE xảy ra ngoài đời (đắt) — hoặc đắt hơn: để PE xảy ra bằng tiền ads / lương team.
+Cùng một vòng [xử lý dự báo](../../psychology/fundamentals/predictive-processing.md): não đoán → đời khác → não giật mình. Người giỏi **để cái giật mình xảy ra trong đầu trước** (rẻ). Người kém để nó xảy ra ngoài đời (đắt) — hoặc đắt hơn: trả bằng tiền quảng cáo và lương cả nhóm.
 
-**Implementation intention** (Gollwitzer): *Nếu S thì R.* Não không đợi cảm hứng.
+Ý định có điều kiện (Gollwitzer): *Nếu tình huống S thì làm R.* Não không đợi hứng.
 
-**Dry-run việc lớn (não, 10′)** — trước sales / đàm phán / launch / phỏng vấn:
+**Chạy thử việc lớn trong đầu (khoảng 10 phút)** — trước bán hàng, đàm phán, ra mắt, phỏng vấn:
 
-- Ai trong phòng? Họ cần gì *hôm nay*, không phải “họ sẽ thích sản phẩm”?
-- Cảnh từ chối / ghost / “để em hỏi sếp” / cúp mạng — câu tiếp theo là gì?
-- Số nào phải thấy để *không* tự lừa (click ≠ mua; lời khen ≠ willingness-to-pay — [Mom Test](../../../02-wealth-business/entrepreneurship/tech-startup/idea-validation.md))?
-- Nếu hôm nay fail: địa chỉ gần nhất là T1–T4 cái nào? (đừng đợi post-mortem 3 tháng)
+- Trong phòng có ai? Họ cần gì *hôm nay*, không phải “họ sẽ thích sản phẩm”?
+- Nếu họ từ chối, im luôn, nói “để em hỏi sếp”, hoặc mất mạng — câu tiếp theo là gì?
+- Số nào phải thấy để *không* tự lừa? Bấm vào trang không phải mua. Khen hay không phải sẵn sàng trả tiền. Cách hỏi đúng: [kiểm chứng ý tưởng](../../../02-wealth-business/entrepreneurship/tech-startup/idea-validation.md).
+- Nếu hôm nay thất bại: lỗ gần tầng nào trong bốn tầng dưới? Đừng đợi ba tháng sau mới ngồi họp rút kinh nghiệm.
 
-Câu hỏi thực tế tiếp theo: phim trong đầu **sai** hoặc **không chạy** — thất bại đã xảy ra. Nhìn vào đâu?
+Phim trong đầu **sai** hoặc **không chạy** — thất bại đã xảy ra. Nhìn vào đâu?
 
 ## 5. Giải phẫu thất bại — thất bại có địa chỉ
 
-Thất bại **không** đến từ một nguyên nhân mơ hồ (“xui”, “chưa đủ cố”, “thị trường khó”). Nó **có địa chỉ**. Muốn sửa đúng phải tìm **đúng tầng nơi lỗi phát sinh**. Sửa nhầm tầng = thêm nỗ lực, cùng một thất bại.
+Thất bại **không** đến từ một nguyên nhân mơ hồ (“xui”, “chưa đủ cố”, “thị trường khó”). Nó **có địa chỉ**. Muốn sửa đúng phải tìm **đúng tầng chỗ lỗi sinh ra**. Sửa nhầm tầng = thêm sức, cùng một thất bại.
 
-Hai bản đồ (đừng trộn):
+Hai bản đồ, đừng trộn:
 
-| Bản đồ | Trả lời | Gọi là |
+| Bản đồ | Trả lời câu nào | Gọi ngắn |
 | --- | --- | --- |
-| **Địa chỉ** (4 tầng dưới) | Thua *cuộc chơi / chiến lược / lực / tình huống*? | Vì sao thua |
-| **Cơ chế lọt** (§2: reactive → if–then → hệ thống) | Đã thấy chưa, đã chặn đường chưa? | Vì sao sự cố vẫn lọt |
+| **Địa chỉ** (bốn tầng dưới) | Thua vì *cuộc chơi, chiến lược, sức, hay tình huống*? | Vì sao thua |
+| **Cách sự cố vẫn lọt** (ba lớp §2) | Đã thấy chưa? Đã chặn đường chưa? | Vì sao vẫn vỡ |
 
 ### Bốn tầng địa chỉ (đi từ trên xuống)
 
-| Tầng | Tên | Câu hỏi | Sửa đúng | Sửa sai — hầu hết mọi người |
+| Tầng | Tên | Hỏi | Sửa đúng | Sửa sai — hầu hết mọi người |
 | ---: | --- | --- | --- | --- |
-| **1** | **Chọn sai cuộc chơi** | Game này có đáng chơi / có cửa thắng? | Đổi game hoặc thoát | Đổi *cách tiếp cận* trong cùng game độc |
-| **2** | **Chiến lược sai** | Cách thắng (guiding policy) có khớp game? | Đổi kernel chiến lược | Cày thêm giờ cùng hướng sai |
-| **3** | **Kỹ năng / nguồn lực không đủ** | Thiếu skill, thời gian, vốn, đồng minh, sức? | Build / borrow / thu hẹp scope | Tin “mẹo tình huống” sẽ bù thiếu lực |
-| **4** | **Tiếp cận sai trong tình huống** | Cảnh này: sai câu, sai kênh, sai timing, sai if–then? | Đổi script / hệ thống micro | Vá T4 khi lỗ thật ra ở T1–3 |
+| **1** | **Chọn sai cuộc chơi** | Việc này có đáng làm? Mình có cửa thắng không? | Đổi việc, hoặc thôi | Đổi *cách làm* trong cùng một cuộc chơi đã thua sẵn |
+| **2** | **Chiến lược sai** | Cách thắng có khớp việc này không? | Đổi hướng thắng | Cày thêm giờ, cùng một hướng sai |
+| **3** | **Kỹ năng / nguồn lực không đủ** | Thiếu tay nghề, thời gian, vốn, người, sức? | Học, mượn, hoặc làm nhỏ lại | Tin mẹo tình huống sẽ bù chỗ thiếu sức |
+| **4** | **Làm sai trong cảnh cụ thể** | Cảnh này: sai câu, sai kênh, sai lúc? | Đổi câu / đổi cách làm cảnh đó | Sửa tầng 4 trong khi lỗ ở tầng 1–3 |
 
-Hầu hết mọi người **sửa tầng 4 khi lỗi nằm ở tầng 1**: đổi hướng tiếp cận, đổi landing, đổi giờ tập, đổi “lần này để máy xa 5 phút” — trong khi đáng ra phải **đổi cuộc chơi**.
+Hầu hết mọi người **sửa tầng 4 khi lỗi nằm ở tầng 1**: đổi cách tiếp cận, đổi câu trên trang web, đổi giờ tập, đổi “lần này để máy xa năm phút” — trong khi đáng ra phải **đổi cuộc chơi**.
 
-Chẩn đoán: **bắt đầu tầng 1, đi xuống**. Chỉ được sửa tầng 4 khi 1–3 đứng vững. [Strategy Engine](../../../04-lifestyle-os/life-os/strategy-engine.md): *chiến thuật thắng trận; chiến lược biết trận nào đáng đánh.* Alignment: game có khớp vector sống không — [alignment-engine](../../../04-lifestyle-os/life-os/alignment-engine.md).
+Chẩn đoán: **bắt đầu tầng 1, đi xuống**. Chỉ sửa tầng 4 khi tầng 1–3 đứng vững. [Động cơ chiến lược](../../../04-lifestyle-os/life-os/strategy-engine.md): *chiến thuật thắng một trận; chiến lược biết trận nào đáng đánh.* Việc có khớp hướng sống dài không — [động cơ khớp hướng](../../../04-lifestyle-os/life-os/alignment-engine.md).
 
-### Cùng triệu chứng, khác địa chỉ
+### Cùng một triệu chứng, khác địa chỉ
 
-| Triệu chứng | Sửa tầng 4 (sai nếu lỗi ở trên) | Có thể là tầng 1–3 |
+| Việc đang vỡ | Sửa tầng 4 (sai nếu lỗ ở trên) | Có thể là tầng 1–3 |
 | --- | --- | --- |
-| Deep vỡ vì TikTok | “Lần này kháng 5 phút” | T1: đang chơi *infinite feed* bằng willpower — đổi game (máy ngoài phòng / xóa app) |
-| Freelance không đủ sống | Đổi template proposal | T1: game đua giá đáy · T2: không niche · T3: chưa có portfolio |
-| Gym không tiến | Đổi split / app mới | T3: ngủ/ăn không đủ · T1: đang chơi hypertrophy khi cần phục hồi |
-| Startup không convert | Đổi copy landing | T1: không có nhu cầu · T2: kênh/ICP sai · T3: chưa đủ tin cậy |
-| Họp luôn bị cuốn | Học câu thoát mới | T1: cuộc họp không đáng có mặt · T2: không có hard-stop trên lịch |
-| Sales call chết | Đổi script objection | T1: nói với người không quyết tiền · T2: bán tính năng không bán pain |
-| Team burn, vẫn trễ | Standup thêm / tool mới | T1: đang build thứ chưa ai cần · T2: scope = “làm hết” · T3: thiếu người *đúng việc* |
+| Giờ tập trung vỡ vì TikTok | “Lần này cố chịu năm phút” | Tầng 1: đang chơi trò lướt không đáy bằng ý chí. Đổi cuộc chơi: máy sang phòng khác, xóa app. |
+| Làm tự do bận mà không đủ sống | Đổi mẫu thư chào giá | Tầng 1: đua giá rẻ. Tầng 2: không có ngách. Tầng 3: chưa có sản phẩm mẫu. |
+| Tập gym không tiến | Đổi giáo án, đổi app | Tầng 3: ngủ / ăn không đủ. Tầng 1: đang cố tăng cơ trong khi cần nghỉ chấn thương. |
+| Startup có người vào, không ai trả tiền | Đổi câu trên trang chủ | Tầng 1: không có nhu cầu. Tầng 2: sai kênh, sai khách. Tầng 3: chưa đủ uy tín. |
+| Họp luôn bị cuốn | Học thêm câu để thoát | Tầng 1: cuộc họp không đáng có mặt. Tầng 2: lịch không có giờ cắt. |
+| Cuộc gọi bán hàng chết | Đổi kịch bản xử lý từ chối | Tầng 1: đang nói với người không quyết tiền. Tầng 2: bán tính năng, không bán nỗi đau. |
+| Nhóm kiệt sức, việc vẫn trễ | Họp thêm, thêm công cụ | Tầng 1: đang xây thứ chưa ai cần. Tầng 2: ôm hết. Tầng 3: thiếu người *đúng việc*. |
 
-### Ba sân — đi đủ 4 tầng
+### Ba chỗ dùng — đi đủ bốn tầng
 
-Cùng khung. Đừng học “mẹo startup” rồi quên đời, hoặc ngược lại.
+Cùng khung. Đừng học mẹo startup rồi quên đời, hoặc ngược lại.
 
-#### Đời sống — deep vỡ, tối lại scroll
+#### Đời sống — ngồi làm việc, tối lại lướt
 
-- **T4 (mọi người sửa):** “Lần này nếu thèm thì đứng dậy 30 giây.”
-- **T3:** Ngủ thiếu, calorie lệch — willpower buổi chiều gần như hết. Mẹo T4 không bù lực.
-- **T2:** Chiến lược = *cạnh tranh với feed bằng ý chí trong cùng một phòng*. Guiding policy sai.
-- **T1 (thường là đây):** Cuộc chơi *infinite scroll* đã thiết kế để thắng bạn. Đúng nước: **thoát game** — máy ngoài phòng, xóa app, limit *trước* block. Đó là tầng hệ thống (§2), vì địa chỉ là T1.
+- **Tầng 4 (mọi người sửa):** “Lần này nếu thèm thì đứng dậy 30 giây.”
+- **Tầng 3:** Ngủ thiếu, ăn lệch — buổi chiều gần như hết sức chịu. Mẹo tầng 4 không bù được.
+- **Tầng 2:** Cách thắng = *cạnh tranh với dòng lướt bằng ý chí, trong cùng một phòng*. Hướng sai.
+- **Tầng 1 (thường là đây):** Trò lướt không đáy được thiết kế để thắng bạn. Đúng nước: **thoát cuộc chơi** — máy sang phòng khác, xóa app, chặn app *trước* giờ làm. Đó cũng là lớp hệ thống ở §2, vì địa chỉ nằm ở tầng 1.
 
-Phim trước deep: tay với máy, “chỉ 2 phút”, 40 phút sau. Nếu cảnh này đã xảy ra ≥2 lần mà vẫn chỉ thêm if–then miệng → chưa giải phẫu, mới tự an ủi.
+Phim trước giờ tập trung: tay với máy, “chỉ hai phút”, 40 phút sau. Cảnh này đã xảy ra từ hai lần mà vẫn chỉ thêm câu “lần này mình nhớ” → chưa giải phẫu, mới tự an ủi.
 
-#### Kinh doanh — freelance bận mà nghèo
+#### Kinh doanh — làm tự do, bận mà nghèo
 
-- **T4:** Đổi subject line, thêm emoji, “proposal lần này cá nhân hóa hơn”.
-- **T3:** Chưa có 3 case đúng ngách — khách không có lý do trả giá cao. Build proof *trước* khi spam thêm 50 tin ([freelancer-framework](../../../03-career-skills/productivity/side-hustle/freelancer-framework.md)).
-- **T2:** Guiding policy = “nhận mọi thứ, giá theo giờ, kênh = đua inbox”. Cày giờ không đổi kernel.
-- **T1:** Game **đua giá đáy / generic skill**. Trong game đó, người thắng là platform + người rẻ nhất, không phải người “cố hơn”. Đúng nước: **đổi cuộc chơi** — niching (một pain × một audience có willingness-to-pay), giá sàn, cọc, scope. Proposal hay trong game độc vẫn thua.
+- **Tầng 4:** Đổi dòng tiêu đề thư, thêm icon, “lần này viết thư riêng hơn”.
+- **Tầng 3:** Chưa có ba case đúng ngách — khách không có lý do trả giá cao. Làm bằng chứng *trước* khi gửi thêm 50 tin ([khung freelancer](../../../03-career-skills/productivity/side-hustle/freelancer-framework.md)).
+- **Tầng 2:** Cách thắng = “nhận mọi thứ, tính theo giờ, kênh = đua hộp thư”. Cày giờ không đổi hướng.
+- **Tầng 1:** Cuộc chơi **đua giá đáy / nhận đủ thứ**. Trong cuộc chơi đó, người thắng là sàn và người rẻ nhất, không phải người “cố hơn”. Đúng nước: **đổi cuộc chơi** — một nỗi đau × một nhóm khách sẵn sàng trả; giá sàn; cọc; phạm vi viết rõ. Thư chào giá hay trong cuộc chơi đã thua sẵn — vẫn thua.
 
-Phim trước khi nhận job rẻ: 20 lần nữa → lịch đầy → không còn giờ làm portfolio / outbound đắt → càng phụ thuộc job rẻ. Đó là bậc 2. Thấy rồi thì **không nhận**, không phải “nhận rồi tối ưu quy trình”.
+Phim trước khi nhận việc rẻ: nhận thêm 20 lần → lịch đầy → hết giờ làm hồ sơ và tìm khách trả tốt → càng phụ thuộc việc rẻ. Đó là hệ quả lần sau. Thấy rồi thì **không nhận**, không phải “nhận rồi tối ưu quy trình”.
 
-#### Startup — traffic có, không ai trả tiền
+#### Startup — có người vào trang, không ai trả tiền
 
-Repo đã ghi nguyên nhân số 1: **không có nhu cầu thị trường** — [idea-validation](../../../02-wealth-business/entrepreneurship/tech-startup/idea-validation.md) · [PMF](../../../02-wealth-business/entrepreneurship/tech-startup/product-market-fit.md).
+Nguyên nhân hay gặp nhất: **không có nhu cầu thị trường** — [kiểm chứng ý tưởng](../../../02-wealth-business/entrepreneurship/tech-startup/idea-validation.md) · [sản phẩm khớp thị trường](../../../02-wealth-business/entrepreneurship/tech-startup/product-market-fit.md).
 
-- **T4:** Đổi headline, đổi màu nút, A/B hero, “landing lần này storytelling hơn”.
-- **T3:** Không ai trong team bán được / không có uy tín ngành — borrow (advisor, design partner) hoặc thu hẹp: concierge MVP, founder tự gọi 20 khách.
-- **T2:** Guiding policy = “build xong rồi đi tìm user” hoặc “đốt ads trước khi biết ai đang trả tiền cho workaround”. Sai thứ tự. Đúng kernel: problem first → Mom Test (quá khứ + hành động, không phải “bạn sẽ dùng chứ?”) → smoke test / RAT giả định rủi ro nhất → *rồi mới* scale kênh.
-- **T1:** Đang chơi game **vitamin không ai mua**, hoặc game **tăng trưởng trước PMF** ([tech-startup](../../../02-wealth-business/entrepreneurship/tech-startup/README.md): PMF là 0→1; growth là 1→10). Copy đẹp không cứu game sai. Đúng nước: dừng build, đổi problem, hoặc pivot khi metric đi ngang — không phải sprint landing tuần thứ 9.
+- **Tầng 4:** Đổi tiêu đề, đổi màu nút, thử hai phiên bản ảnh đầu trang, “lần này kể chuyện hay hơn”.
+- **Tầng 3:** Trong nhóm không ai bán được, hoặc chưa có uy tín ngành. Mượn người (cố vấn, khách thiết kế cùng), hoặc thu nhỏ: tự làm thủ công, tự gọi 20 khách.
+- **Tầng 2:** Cách thắng = “làm xong rồi đi tìm người dùng”, hoặc “chạy quảng cáo trước khi biết ai đang trả tiền để tự xoay”. Sai thứ tự. Thứ tự đúng: nỗi đau trước → hỏi chuyện *đã xảy ra* (không hỏi “bạn sẽ dùng chứ?”) → thử nhu cầu bằng trang giả hoặc làm hộ — [RAT](../../../03-career-skills/innovation/rat-testing.md) — *rồi mới* bỏ tiền mở kênh.
+- **Tầng 1:** Đang chơi cuộc **thuốc bổ không ai mua**, hoặc cuộc **tăng trưởng trước khi sản phẩm đã khớp thị trường** ([tech startup](../../../02-wealth-business/entrepreneurship/tech-startup/README.md): khớp thị trường là từ không có gì thành có; tăng trưởng là từ có thành lớn). Câu hay không cứu cuộc chơi sai. Đúng nước: dừng xây, đổi nỗi đau, hoặc đổi hướng khi số liệu đứng im — không phải sửa trang chủ tuần thứ chín.
 
-Phim trước khi hire / đốt ads: 8 tuần retention phẳng → runway còn bao nhiêu → raise lúc nào, với câu chuyện gì. Nếu phim đó xấu mà vẫn “làm thêm một sprint UI” = vá T4 cho lỗ T1.
+Phim trước khi tuyển người / chạy quảng cáo: tám tuần người vào rồi không quay lại → còn tiền sống được bao lâu → lúc đó gọi vốn với câu chuyện gì. Phim đó xấu mà vẫn “làm thêm một đợt giao diện” = sửa tầng 4 cho lỗ tầng 1.
 
-### Sau khi có địa chỉ — soi cơ chế lọt
+### Sau khi biết địa chỉ — hỏi vì sao sự cố vẫn lọt
 
-Đừng nhìn vận đen / chỉ hành động cuối / chỉ “mình kém” / chỉ “thị trường khó”.
+Đừng nhìn vận đen. Đừng chỉ nhìn hành động cuối. Đừng chỉ bảo “mình kém” hay “thị trường khó”.
 
-**Phim vs đời (prediction error)** — cảnh thất bại có trong mô phỏng trước khi làm không?
+**Phim so với đời** — cảnh thất bại *có trong đầu* trước khi làm không?
 
-| PE | Nghĩa | Sửa (sau khi biết địa chỉ) |
+| Phim so với đời | Ý là gì | Sửa (sau khi biết địa chỉ) |
 | --- | --- | --- |
-| Cảnh **không có** trong phim | Không thấy | Dry-run bắt buộc có cảnh này *ở đúng tầng* |
-| Có phim, **không thuộc** | Không load đầu | If–then một câu |
-| Có if–then, **vẫn lọt** | Đường đi còn mở | Hệ thống chặn — nếu địa chỉ T1/T2 thì chặn = *thoát game / đổi policy*, không phải mẹo T4 |
-| **Không thể có** trong phim hợp lý | Unforeseeable | [FMS](../../failure-management-system.md) |
+| Cảnh **không có** trong phim | Không thấy | Lần sau bắt buộc có cảnh này trong đầu, đúng tầng |
+| Có phim, **không thuộc** | Thấy trên giấy, miệng không nhớ | Một câu “nếu… thì…” |
+| Có câu rồi, **vẫn vỡ** | Đường đi còn mở | Đổi hệ thống. Nếu địa chỉ là tầng 1 hoặc 2: *thoát cuộc chơi / đổi hướng*, không phải thêm mẹo tầng 4 |
+| **Không thể có** trong phim hợp lý | Việc lạ, không đoán được | [FMS](../../failure-management-system.md) |
 
-Giả định sai ([FMS](../../failure-management-system.md)): *tin X; đời Y.* 5 Whys ([inversion](../../engineering/inversion.md)) dừng ở chỗ **đổi được tầng đúng** — không dừng ở “lười / thị trường xấu”. Dự án: [`project-post-mortem`](../../../../templates/project-post-mortem.md). Tiêu hóa: [`experience-digestion`](../../../03-career-skills/productivity/core-skills/experience-digestion.md). Nhóm trước khi ship: [pre-mortem](../../../03-career-skills/innovation/pre-mortem-technique.md) — *đã fail, vì sao?* rồi map câu trả lời vào T1–T4 (không để cả phòng chỉ nêu lỗi T4).
+Giả định sai ([FMS](../../failure-management-system.md)): *mình tin X; đời là Y.* Hỏi “vì sao” năm lần ([lật ngược](../../engineering/inversion.md)) — dừng khi **đổi được đúng tầng**, đừng dừng ở “lười” hay “thị trường xấu”. Dự án lớn: [`rút kinh nghiệm sau việc`](../../../../templates/project-post-mortem.md). Tiêu hóa trải nghiệm: [`tiêu hóa trải nghiệm`](../../../03-career-skills/productivity/core-skills/experience-digestion.md). Nhóm trước khi giao hàng: [đoán trước thất bại](../../../03-career-skills/innovation/pre-mortem-technique.md) — *đã thất bại, vì sao?* rồi xếp câu trả lời vào tầng 1–4 (đừng để cả phòng chỉ kể lỗi tầng 4).
 
-### Năm câu (5 phút, lúc đủ lạnh)
+### Năm câu (năm phút, lúc đủ lạnh)
 
-1. Win ban đầu vs kết quả thật?
-2. **Địa chỉ:** tầng 1 cuộc chơi → 2 chiến lược → 3 lực → 4 tình huống? (bắt đầu từ 1)
-3. Cảnh này **có trong phim** không? Lọt vì không thấy / không load / không chặn hệ thống?
-4. Giả định nào sai? (tin X, đời Y)
-5. **Một** sửa **đúng tầng** — nếu T1 thì đổi/thoát game, **không** thêm mẹo T4
+1. Lúc đầu mình muốn thắng cái gì? Kết quả thật là gì?
+2. **Địa chỉ:** tầng 1 cuộc chơi → 2 chiến lược → 3 sức → 4 tình huống? (bắt đầu từ 1)
+3. Cảnh này **có trong phim** không? Vỡ vì không thấy, không nhớ, hay không chặn đường?
+4. Mình tin gì sai? (tin X, đời là Y)
+5. **Một** sửa **đúng tầng** — nếu tầng 1 thì đổi hoặc thoát cuộc chơi, **không** thêm mẹo tầng 4
 
-Xong 5 câu mà vẫn chỉ đổi cách tiếp cận tình huống → rất có thể đang **vá tầng 4 cho lỗ tầng 1**. Hiểu rồi = địa chỉ đúng + đường đi sự cố bị cắt.
+Xong năm câu mà vẫn chỉ đổi cách làm trong cảnh cụ thể → rất có thể đang **vá tầng 4 cho lỗ tầng 1**. Hiểu rồi = biết đúng chỗ + đường đi của sự cố đã bị cắt.
 
 ## 6. Không phải thấy trước tất cả
 
-| Có thể thấy trước (foreseeable) | Không thấy hết (unforeseeable) |
+| Có thể thấy trước | Không thấy hết |
 | --- | --- |
-| Trễ, thiếu đồ, hết pin, từ chối, ghost, scope creep, “sẽ dùng” giả, MXH xen deep, ads không retention | Thiên nga đen, tai nạn lạ, luật/đối thủ phá kịch bản không hợp lý trước đó |
-| If–then + mang theo + Plan B + ràng buộc | Trigger cắt / gọi hỗ trợ — [FMS](../../failure-management-system.md) |
+| Trễ, thiếu đồ, hết pin, bị từ chối, khách im, việc phình, lời “sẽ dùng” giả, mạng xen giờ làm, quảng cáo có người bấm nhưng không quay lại | Việc lạ, tai nạn, luật hoặc đối thủ phá kịch bản mà trước đó không hợp lý để đoán |
+| Câu “nếu… thì…” + mang theo + phương án hai + giới hạn từ trước | Có mốc để cắt / gọi người hỗ trợ — [FMS](../../failure-management-system.md) |
 
 Hai kiểu kém:
 
-- **Không thấy gì** → reactive, luôn bất ngờ với thứ *đã từng xảy ra* (cùng client ghost lần 4, cùng feed lần 40).
-- **Muốn thấy hết** → liệt, không ra cửa / không ship — đó là lo âu, không phải giỏi.
+- **Không thấy gì** — việc tới mới nghĩ, luôn bất ngờ với thứ *đã từng xảy ra* (cùng một khách im lần thứ tư, cùng một dòng lướt lần thứ 40).
+- **Muốn thấy hết** — liệt, không ra cửa, không giao việc. Đó là lo âu, không phải giỏi.
 
-Dấu hiệu bạn đang *thấy thật* chứ không ảo: sự cố lặp **lần 2 không còn bất ngờ**. Người giỏi trông như tiên tri vì họ **đã gặp lớp đó trong đầu** (và thường đã gặp ngoài đời một lần rồi nâng thành default).
+Dấu hiệu đang *thấy thật* chứ không ảo: sự cố lần hai **không còn bất ngờ**. Người giỏi trông như tiên tri vì họ **đã gặp lớp đó trong đầu** (và thường đã gặp ngoài đời một lần, rồi đổi mặc định).
 
-Stoic *Premeditatio Malorum* ([stoicism-daily](./stoicism-daily.md)) = hình dung sự cố *hợp lý* để bình tĩnh. Pre-mortem nhóm = cùng mắt cho dự án.
+Khắc kỷ *tưởng tượng sự cố hợp lý* ([stoicism mỗi ngày](./stoicism-daily.md)) = hình dung để bình tĩnh. Họp đoán trước thất bại = cùng một mắt cho cả nhóm.
 
-## 7. Nhìn trước ≠ chiếu phim lo âu
+## 7. Nhìn trước khác chiếu phim lo âu
 
-| | Nhìn trước (skill) | Lo âu (rumination) |
+| | Nhìn trước (kỹ năng) | Lo âu (quay vòng trong đầu) |
 | --- | --- | --- |
-| Câu hỏi | “Nếu X thì Y?” / “Cảnh trống nào?” / “Tầng nào?” | “Nếu X thì sao / mình hỏng / mình xấu / công ty chết” |
-| Kết thúc | Hành động hoặc chấp nhận rủi ro | Loop, không quyết |
-| Thời lượng | 1–3′ trước cửa / 10–20′ việc lớn | Giờ, đêm |
-| Cảm giác sau | Nhẹ hơn vì đã gán owner | Nặng hơn |
-| Có dừng? | Có — ritual xong thì đi | Không dừng được |
+| Câu hỏi | “Nếu X thì mình làm Y?” / “Thiếu gì?” / “Sai tầng nào?” | “Nếu X thì sao / mình hỏng / mình xấu / công ty chết” |
+| Kết thúc | Có hành động, hoặc chấp nhận rủi ro | Quay mãi, không quyết |
+| Thời lượng | 1–3 phút trước cửa / 10–20 phút việc lớn | Hàng giờ, ban đêm |
+| Cảm giác sau | Nhẹ hơn vì đã biết ai làm gì | Nặng hơn |
+| Có dừng? | Có — xong thì đi | Không dừng được |
 
-Không viết được **một câu if–then** (hoặc một địa chỉ T1–T4) → chưa phải nhìn thấy tương lai. Đó là lo. Hạ arousal rồi mới rehearsal: [SNS brake](../../../04-lifestyle-os/health/sns-cortisol-brake-playbook.md) · [PP anxiety](../../psychology/practical-applications/predictive-processing-anxiety-habits.md).
+Không viết được **một câu “nếu… thì…”** (hoặc một địa chỉ tầng 1–4) → chưa phải nhìn thấy tương lai. Đó là lo. Hạ người đã rồi mới chạy thử trong đầu: [phanh stress](../../../04-lifestyle-os/health/sns-cortisol-brake-playbook.md) · [lo âu và thói quen dự báo](../../psychology/practical-applications/predictive-processing-anxiety-habits.md).
 
-Founder hay nhầm **chiếu phim chết** với pre-mortem. Pre-mortem có owner + mitigation + tầng địa chỉ. Chiếu phim chết chỉ có cảm giác.
+Người làm công ty mới hay nhầm **chiếu phim mình chết** với họp đoán trước thất bại. Họp đúng có người chịu trách nhiệm, có cách giảm rủi ro, có tầng địa chỉ. Chiếu phim chết chỉ có cảm giác.
 
-## 8. Ritual 90 giây — trước khi ra ngoài
+## 8. Chín mươi giây — trước khi ra ngoài
 
-Làm **trong đầu** (hoặc 5 dòng). Họp, chơi, ngân hàng, gym, deep work, vào call.
+Làm **trong đầu** (hoặc năm dòng). Họp, chơi, ngân hàng, tập, giờ làm việc, vào cuộc gọi.
 
-1. **Win:** Ra ngoài / mở máy để *một* việc gì?
+1. **Thắng cuộc:** Ra ngoài / mở máy để *một* việc gì?
 2. **Phim 30–90 phút tới:** cảnh nào sẽ hiện? (không phải “hy vọng ổn”)
-3. **Hỏng / trống 3 kiểu:** thời gian · đồ · người
-4. **If–then:** nếu trễ → … · nếu thiếu X → … · nếu người kia không tới / từ chối / MXH → …
-5. **Mang:** 3 thứ tối thiểu (tiền/thẻ, pin, giấy tờ — hoặc agenda, số, link demo)
-6. **Cửa thoát:** giờ về / câu kết / Plan B chỗ
-7. **Chặn hẳn?** Lớp sự cố này có thể **xóa khỏi hệ thống** không — hay chỉ if–then? (Nếu lặp ≥2 lần → bắt buộc tầng hệ thống.)
+3. **Hỏng / thiếu ba kiểu:** giờ · đồ · người
+4. **Nếu… thì…:** nếu trễ → … · nếu thiếu X → … · nếu người kia không tới / từ chối / mạng kéo → …
+5. **Mang:** ba thứ tối thiểu (tiền, pin, giấy tờ — hoặc giấy họp, số liệu, đường dẫn demo)
+6. **Cửa thoát:** giờ về / câu kết / chỗ dự phòng
+7. **Chặn hẳn?** Lớp sự cố này **xóa khỏi hệ thống** được không — hay chỉ ứng biến? (Lặp từ hai lần → bắt buộc đổi hệ thống.)
 
-### Ritual 10–15′ — việc lớn (deal, launch, hire, pivot)
+### Mười đến mười lăm phút — việc lớn (chốt deal, ra mắt, tuyển người, đổi hướng)
 
-Cùng 7 câu, thêm 3:
+Cùng bảy câu, thêm ba:
 
-8. **Bậc 2:** 8 tuần nữa, nếu *đúng* hành vi này lặp — tiền / lịch / runway / quan hệ ra sao?
-9. **Địa chỉ giả định:** nếu hôm nay fail, lỗ gần T1 hơn T4 chứ? (Viết 1 dòng trước khi vào việc — chống tự bịa T4 sau.)
-10. **Một ràng buộc:** giá sàn / không nhận / không hire / không đốt ads / không mở app — quyết lúc tỉnh.
+8. **Hệ quả lần sau:** tám tuần nữa, nếu *cứ* làm vậy — tiền, lịch, số tháng còn sống, quan hệ ra sao?
+9. **Đoán địa chỉ:** nếu hôm nay thất bại, lỗ gần tầng 1 hơn tầng 4 chứ? Viết một dòng *trước* khi vào việc — để sau khỏi bịa chuyện tầng 4.
+10. **Một giới hạn:** giá sàn / không nhận / không tuyển / không chạy quảng cáo / không mở app — quyết lúc tỉnh.
 
-Việc lớn: [decision-capability](../../../04-lifestyle-os/life-os/decision-capability.md) · [decision-engine](../../../04-lifestyle-os/life-os/decision-engine.md) · [pre-mortem](../../../03-career-skills/innovation/pre-mortem-technique.md).
+Việc lớn: [năng lực quyết định](../../../04-lifestyle-os/life-os/decision-capability.md) · [động cơ quyết định](../../../04-lifestyle-os/life-os/decision-engine.md) · [đoán trước thất bại](../../../03-career-skills/innovation/pre-mortem-technique.md).
 
 ## 9. Ví dụ — thấy trước rồi chặn
 
-Cột if–then / hệ thống = **cơ chế chặn** (§2), không phải địa chỉ 1–4. Nếu lặp: hỏi T1 trước — còn đang chơi game độc không?
+Hai cột cuối là **cách chặn** (§2), không phải địa chỉ bốn tầng. Nếu lặp: hỏi tầng 1 trước — còn đang chơi cuộc chơi đã thua sẵn không?
 
-| Tình huống | Cảnh chưa xảy ra | If–then (cơ chế 1) | Hệ thống để hết cửa (cơ chế 2) |
+| Tình huống | Cảnh chưa xảy ra | Nếu… thì… (lớp 1) | Đổi hệ thống để hết cửa (lớp 2) |
 | --- | --- | --- | --- |
-| Gym / chạy | Mưa · ego set · quên tai nghe | Indoor / rút ngắn / walk | Túi gym luôn đủ · lịch indoor mặc định mùa mưa |
-| Họp / PV | Cúp mạng · blank · đẩy lịch | Gọi điện · “10 giây” · slot 2 | Test call 5′ trước · 1 câu đã thuộc · buffer 15′ trên lịch |
-| Ăn ngoài | Quán full · overspend | Địa điểm 2 · trần tiền | Đặt chỗ · chỉ mang đủ tiền mặt / hạn mức |
-| Deep / TikTok | Tay với máy · “chỉ 2 phút” | Đứng dậy 30″ | Điện thoại phòng khác / xóa app / limit *trước* block |
-| Ngủ muộn | Sáng yếu → MXH lấp | Deep ngắn hơn | Giờ vào giường cứng + máy ngoài phòng — [margin of safety](../../engineering/margin-of-safety.md) |
-| Freelance nhận job | Scope phình · ghost cọc | “Ngoài scope = change request” | Không start khi chưa cọc + 1 trang scope · giá sàn |
-| Sales / demo | Không quyết · “hỏi sếp” | Hỏi ai ký tiền *trước* demo | Chỉ book khi buyer ở phòng · 1 next-step trên lịch trước khi cúp |
-| Startup idea | “Mẹ khen hay” · 0 người trả | Dừng kể ý tưởng, hỏi lần cuối họ *đã* xử lý pain | Mom Test + fake-door / concierge *trước* code — [idea-validation](../../../02-wealth-business/entrepreneurship/tech-startup/idea-validation.md) |
-| Launch / ads | Click ảo · 0 retention | Cắt ads nếu D1 < ngưỡng | RAT giả định rủi ro nhất *trước* scale — [RAT](../../../03-career-skills/innovation/rat-testing.md) · [PMF](../../../02-wealth-business/entrepreneurship/tech-startup/product-market-fit.md) |
-| Hire / burn | Runway 4 tháng · raise yếu | Freeze hire nếu runway < N tháng | Trần burn + review 2 tuần · biên an toàn trước headcount |
+| Tập / chạy | Mưa. Tập quá sức vì sĩ diện. Quên tai nghe. | Tập trong nhà / rút ngắn / đi bộ | Túi tập luôn đủ. Mùa mưa mặc định lịch trong nhà. |
+| Họp / phỏng vấn | Mất mạng. Cứng miệng. Đẩy lịch. | Gọi điện. Có sẵn một câu mở. Có khung giờ hai. | Thử máy năm phút trước. Thuộc một câu. Chừa 15 phút trên lịch. |
+| Ăn ngoài | Quán đầy. Tiêu quá. | Quán hai. Trần tiền. | Đặt chỗ. Chỉ mang đủ tiền / hạn mức. |
+| Tập trung / TikTok | Tay với máy. “Chỉ hai phút.” | Đứng dậy 30 giây | Điện thoại phòng khác / xóa app / chặn *trước* giờ làm |
+| Ngủ muộn | Sáng yếu → mạng lấp | Rút ngắn giờ làm | Giờ lên giường cứng + máy ngoài phòng — [biên an toàn](../../engineering/margin-of-safety.md) |
+| Nhận việc tự do | Việc phình. Khách im, không cọc. | “Ngoài thỏa thuận = việc mới, tính tiền mới.” | Không bắt đầu khi chưa cọc + một trang phạm vi. Có giá sàn. |
+| Bán hàng / demo | Không ai quyết. “Hỏi sếp.” | Hỏi ai ký tiền *trước* khi demo | Chỉ hẹn khi người quyết tiền có mặt. Có bước tiếp trên lịch trước khi cúp máy. |
+| Ý tưởng startup | “Mẹ khen hay.” Không ai trả. | Dừng kể ý tưởng. Hỏi lần cuối họ *đã* xử lý nỗi đau thế nào. | Hỏi chuyện thật + trang giả / làm thủ công *trước* khi viết code — [kiểm chứng ý tưởng](../../../02-wealth-business/entrepreneurship/tech-startup/idea-validation.md) |
+| Ra mắt / quảng cáo | Nhiều người bấm, không ai ở lại | Cắt quảng cáo nếu ngày đầu dưới mức đã viết | Kiểm giả định rủi ro nhất *trước* khi tăng tiền — [RAT](../../../03-career-skills/innovation/rat-testing.md) · [sản phẩm khớp thị trường](../../../02-wealth-business/entrepreneurship/tech-startup/product-market-fit.md) |
+| Tuyển người / tiền cháy | Còn bốn tháng. Gọi vốn lúc yếu. | Đóng tuyển nếu còn sống dưới N tháng | Trần chi + xem lại hai tuần. Chừa biên trước khi tăng người. |
 
-Hàng ngủ muộn = **bậc 2 thời gian**: thấy sáng mai rồi chặn từ đêm. Hàng hire = **bậc 2 tiền**: thấy quý sau rồi chặn từ quyết định tuần này. Nếu lặp TikTok / lặp “đổi landing”: đừng chỉ cột if–then (địa chỉ T4) — hỏi T1.
+Hàng ngủ muộn = **hệ quả thời gian**: thấy sáng mai rồi chặn từ đêm. Hàng tuyển người = **hệ quả tiền**: thấy quý sau rồi chặn từ quyết định tuần này. Nếu lặp TikTok hoặc lặp “đổi câu trên trang”: đừng chỉ thêm “nếu… thì…” (tầng 4) — hỏi tầng 1.
 
-## 10. Drill 7 ngày
+## 10. Luyện bảy ngày
 
-Mỗi lần **sắp ra cửa** hoặc **sắp deep**: 90″ ritual, gồm câu *chặn hẳn được không?*. Việc lớn trong tuần: **một** lần 10–15′ (§8).
+Mỗi lần **sắp ra cửa** hoặc **sắp ngồi làm việc**: 90 giây, gồm câu *chặn hẳn được không?*. Việc lớn trong tuần: **một** lần 10–15 phút (§8).
 
-Tối 1 dòng: *cảnh nào đã thấy / cái nào vẫn bất ngờ / đã đổi hệ thống chưa*. Nếu có vỡ: *địa chỉ T1–T4 / phim có cảnh không / 1 sửa đúng tầng* (không vá T4 cho lỗ T1).
+Tối một dòng: *cảnh nào đã thấy / cái nào vẫn bất ngờ / đã đổi hệ thống chưa*. Nếu vỡ: *địa chỉ tầng 1–4 / phim có cảnh không / một sửa đúng tầng* (không vá tầng 4 cho lỗ tầng 1).
 
-**Ba sân trong tuần** (không cần đủ 3 mỗi ngày — 1 dòng/sân khi có sự cố):
+**Ba chỗ trong tuần** (không cần đủ ba mỗi ngày — có sự cố thì một dòng):
 
-| Sân | Câu tối |
+| Chỗ | Câu tối |
 | --- | --- |
-| Đời | Còn đang chơi game nào bằng willpower? |
-| Kinh doanh | Job / họp / giá hôm nay — T1 hay T4? |
-| Startup / side | Đã test *hành động* khách, hay mới test lời nói / UI? |
+| Đời | Hôm nay mình còn lấy ý chí để chơi trò nào đã thiết kế để thắng mình? |
+| Kinh doanh | Việc / họp / giá hôm nay — sai cuộc chơi hay chỉ sai cách nói? |
+| Startup / việc phụ | Đã xem khách *làm gì*, hay mới nghe họ *nói* và sửa giao diện? |
 
-Bất ngờ lặp **2 lần** → không chỉ thêm if–then. **Đổi mặc định / xóa đường đi / ràng buộc / đổi game.** “Lần sau mình sẽ nhớ” = chưa giỏi.
+Bất ngờ lặp **hai lần** → không chỉ thêm câu “nếu… thì…”. **Đổi mặc định, xóa đường đi, đặt giới hạn, hoặc đổi cuộc chơi.** “Lần sau mình sẽ nhớ” = chưa giỏi.
 
-**Bài tập “ghế trống”:** *30 phút nữa mình sẽ thiếu gì?* Việc lớn: *8 tuần nữa, nếu lặp đúng việc hôm nay, thiếu gì (tiền, lịch, uy tín, runway)?* Rồi: *làm sao để chỗ trống đó không còn tồn tại — túi luôn có, app không còn, giờ đã khóa, giá sàn đã viết, giả định đã test?*
+**Bài tập chỗ trống:** *30 phút nữa mình sẽ thiếu gì?* Việc lớn: *tám tuần nữa, nếu cứ làm đúng như hôm nay, sẽ thiếu gì — tiền, lịch, uy tín, số tháng còn sống?* Rồi: *làm sao để chỗ trống đó không còn — túi luôn có, app không còn, giờ đã khóa, giá sàn đã viết, giả định đã thử?*
 
-Không thêm habit mới nếu đang ≤5 habit ([definitions](../../../personal/habits/definitions.md) khi log đời sống). Gói rehearsal vào **trước cửa / trước deep / trước call**. Hệ thống (máy phòng khác, app limit, giá sàn, không code trước smoke test) **một lần** — không thành list lo cả ngày.
+Đừng thêm thói quen mới nếu đang giữ từ năm thói quen trở xuống ([định nghĩa](../../../personal/habits/definitions.md) khi ghi đời sống). Gói việc chạy thử vào **trước cửa / trước giờ làm / trước cuộc gọi**. Đổi hệ thống (máy phòng khác, chặn app, giá sàn, không viết code trước khi thử nhu cầu) **một lần** — không biến thành danh sách lo cả ngày.
 
 ## Đi tiếp
 
-| Nhu cầu | Doc |
+| Nhu cầu | Bài |
 | --- | --- |
-| Hình dung sự cố cho bình tĩnh | [stoicism-daily](./stoicism-daily.md) — Premeditatio |
-| Lật ngược / biên an toàn / 5 Whys | [inversion](../../engineering/inversion.md) · [margin-of-safety](../../engineering/margin-of-safety.md) |
-| Post-mortem dự án | [`templates/project-post-mortem.md`](../../../../templates/project-post-mortem.md) |
-| Tiêu hóa trải nghiệm | [experience-digestion](../../../03-career-skills/productivity/core-skills/experience-digestion.md) |
-| Dự án / nhóm / giả định rủi ro | [pre-mortem-technique](../../../03-career-skills/innovation/pre-mortem-technique.md) · [RAT](../../../03-career-skills/innovation/rat-testing.md) |
-| Quyết định lớn / second-order | [decision-capability](../../../04-lifestyle-os/life-os/decision-capability.md) · [strategic-thinking](../../../03-career-skills/productivity/mental-models/strategic-thinking.md) |
-| Chọn đúng cuộc chơi / chiến lược | [strategy-engine](../../../04-lifestyle-os/life-os/strategy-engine.md) · [alignment-engine](../../../04-lifestyle-os/life-os/alignment-engine.md) |
-| Freelance: ngách · proof · giá | [freelancer-framework](../../../03-career-skills/productivity/side-hustle/freelancer-framework.md) |
-| Startup: nhu cầu · PMF | [idea-validation](../../../02-wealth-business/entrepreneurship/tech-startup/idea-validation.md) · [product-market-fit](../../../02-wealth-business/entrepreneurship/tech-startup/product-market-fit.md) |
-| Não nhìn qua model | [perception-through-models](../../psychology/fundamentals/perception-through-models.md) · [PP](../../psychology/fundamentals/predictive-processing.md) |
-| Sự cố không lường / thoát sai | [FMS](../../failure-management-system.md) · [fast-correction](../../fast-correction-mindset.md) · [risk-engine](../../../04-lifestyle-os/life-os/risk-engine.md) |
-| Lo âu giả làm “nhìn trước” | [predictive-processing-anxiety-habits](../../psychology/practical-applications/predictive-processing-anxiety-habits.md) |
+| Hình dung sự cố cho bình tĩnh | [Stoicism mỗi ngày](./stoicism-daily.md) |
+| Lật ngược / biên an toàn / hỏi vì sao | [Lật ngược](../../engineering/inversion.md) · [Biên an toàn](../../engineering/margin-of-safety.md) |
+| Rút kinh nghiệm sau dự án | [`project-post-mortem`](../../../../templates/project-post-mortem.md) |
+| Tiêu hóa trải nghiệm | [Tiêu hóa trải nghiệm](../../../03-career-skills/productivity/core-skills/experience-digestion.md) |
+| Việc nhóm / giả định rủi ro | [Đoán trước thất bại](../../../03-career-skills/innovation/pre-mortem-technique.md) · [RAT](../../../03-career-skills/innovation/rat-testing.md) |
+| Quyết định lớn / nghĩ bậc hai | [Năng lực quyết định](../../../04-lifestyle-os/life-os/decision-capability.md) · [Tư duy chiến lược](../../../03-career-skills/productivity/mental-models/strategic-thinking.md) |
+| Chọn đúng cuộc chơi | [Động cơ chiến lược](../../../04-lifestyle-os/life-os/strategy-engine.md) · [Khớp hướng sống](../../../04-lifestyle-os/life-os/alignment-engine.md) |
+| Làm tự do: ngách, bằng chứng, giá | [Khung freelancer](../../../03-career-skills/productivity/side-hustle/freelancer-framework.md) |
+| Startup: nhu cầu, khớp thị trường | [Kiểm chứng ý tưởng](../../../02-wealth-business/entrepreneurship/tech-startup/idea-validation.md) · [Sản phẩm khớp thị trường](../../../02-wealth-business/entrepreneurship/tech-startup/product-market-fit.md) |
+| Não nhìn qua mô hình | [Nhìn qua mô hình](../../psychology/fundamentals/perception-through-models.md) · [Xử lý dự báo](../../psychology/fundamentals/predictive-processing.md) |
+| Sự cố không lường / thoát sai | [FMS](../../failure-management-system.md) · [Sửa nhanh](../../fast-correction-mindset.md) · [Động cơ rủi ro](../../../04-lifestyle-os/life-os/risk-engine.md) |
+| Lo âu giả làm “nhìn trước” | [Lo âu và thói quen dự báo](../../psychology/practical-applications/predictive-processing-anxiety-habits.md) |
