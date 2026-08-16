@@ -16,7 +16,7 @@ Machine-oriented layer for Cursor agents and external RAG. Human landing still s
 | [`ops/`](./ops/) | Maintenance, difficulty guide, content roadmap, community |
 | [`domain-guide-map.md`](./domain-guide-map.md) | Tech (`domains/`) vs Career (`guides/`) overlaps |
 | [`retrieval-plan.md`](./retrieval-plan.md) | Hardening plan / status |
-| [`../tools/telegram-docs-bot/`](../tools/telegram-docs-bot/) | Telegram Q&A bot (catalog retrieval + LLM) |
+| [`../scripts/telegram-docs-bot/`](../scripts/telegram-docs-bot/) | Telegram Q&A bot (catalog retrieval + LLM) |
 
 ## Validate
 

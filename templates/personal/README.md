@@ -15,6 +15,9 @@ Blank forms. Copy vào `personal/` — đừng ghi data thật ở đây.
 
 Body metrics → append 1 dòng vào [`personal/body/metrics.csv`](../../personal/body/metrics.csv).
 
+**Excel tracking (Daily / Habits / Health / Nutrition):**  
+`python scripts/personal/create_tracking_templates.py --month YYYY-MM` → [`data/personal/`](../../data/personal/README.md)
+
 **Lifestyle score:** config [`personal/config.yaml`](../../personal/config.yaml) · rubric [`personal/SCORE.md`](../../personal/SCORE.md) · script:
 
 ```powershell

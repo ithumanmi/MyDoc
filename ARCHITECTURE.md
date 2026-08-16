@@ -225,6 +225,21 @@ Blank forms: `templates/personal/`. Hub: [`personal/README.md`](./personal/READM
 
 ---
 
+### **2.5b. `data/expenses/` — Financial working data**
+
+**Purpose:** Sao kê ngân hàng, bảng chi tiêu Excel, export Power BI — tách khỏi markdown logs trong `personal/`.
+
+| Layer | Path |
+|:---|:---|
+| Raw bank exports | `data/expenses/raw/` |
+| Working workbooks | `data/expenses/working/` |
+| Power BI exports | `data/expenses/powerbi/` |
+| Tooling | `scripts/expenses/` |
+
+Hub: [`data/expenses/README.md`](./data/expenses/README.md). Sensitive xlsx/csv under `raw/`, `working/`, `powerbi/` are gitignored.
+
+---
+
 ### **2.6. Agent & RAG navigation layer**
 
 Machine-oriented entrypoints so Cursor / external RAG do not random-walk the corpus:

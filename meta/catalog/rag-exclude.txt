@@ -23,6 +23,12 @@ meta/ops/COMMUNITY.md
 # Private life data — do not embed by default
 personal/**
 
+# Expense / bank working data (sensitive Excel/CSV)
+data/expenses/**
+
+# Personal Excel tracking workbooks
+data/personal/**
+
 # VCS / local graphs
 .git/**
 .codebase-memory/**

@@ -30,6 +30,12 @@ Repo này vừa là **knowledge library**, vừa là **personal OS data store** 
 
 **Không ghi protocol dài vào `personal/`** — link sang `health/` rồi chỉ log số liệu/ngày.
 
+**Chi tiêu / sao kê ngân hàng** (Excel, Power BI) → [`data/expenses/`](../data/expenses/README.md) + scripts [`scripts/expenses/`](../scripts/expenses/README.md). Không nhét file bank vào `personal/`.
+
+**Excel tracking Daily / Habits / Health** → [`data/personal/`](../data/personal/README.md) · `python scripts/personal/create_tracking_templates.py --month YYYY-MM`
+
+**Excel dự án / mục tiêu / productivity (ngày→năm)** → cùng folder · `python scripts/personal/create_work_tracking_templates.py --year YYYY`
+
 **Học kiến thức mới?** Dùng [Learning OS Framework](../guides/03-career-skills/productivity/meta-skills/learning-os-framework.md) + template [`templates/personal/learning-session.md`](../templates/personal/learning-session.md); ghi deep work vào `daily/`.
 
 ## 📂 Cấu trúc

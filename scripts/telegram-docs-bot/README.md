@@ -15,7 +15,7 @@ Ask your local **Docs** markdown corpus via Telegram — retrieval follows `AGEN
 ## Setup (Windows)
 
 ```powershell
-cd c:\Projects\Docs\tools\telegram-docs-bot
+cd c:\Projects\Docs\scripts\telegram-docs-bot
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt

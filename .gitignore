@@ -114,6 +114,14 @@ drafts/
 # ===== Local clone catalog (do not push) =====
 GitClone/
 
+# ===== Expense / bank working data (sensitive) =====
+data/expenses/raw/
+data/expenses/working/
+data/expenses/powerbi/
+
+# ===== Personal life Excel tracking (sensitive) =====
+data/personal/*.xlsx
+
 # ===== codebase-memory-mcp local graph artifact =====
 .codebase-memory/
 

@@ -5,6 +5,12 @@
 # --- Private life data (never index) ---
 /personal/
 
+# --- Expense / bank working data (sensitive) ---
+/data/expenses/
+
+# --- Personal Excel tracking ---
+/data/personal/
+
 # --- Local clone warehouse (already gitignored; belt-and-suspenders) ---
 /GitClone/
 
