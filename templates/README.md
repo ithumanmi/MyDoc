@@ -65,6 +65,7 @@
 
 | Template | Mô tả ngắn | Đường dẫn |
 |:---------|:-----------|:----------|
+| **Mistake Journal** | Nhật ký sai lầm — ghi từng lỗi, nguyên nhân, quy tắc tránh lặp (FMS) | [templates/mistake-journal.md](./mistake-journal.md) |
 | **Project Post-Mortem** | Phân tích dự án sau khi hoàn thành hoặc thất bại | [templates/project-post-mortem.md](./project-post-mortem.md) |
 | **Multi-Project Scenario** | Kịch bản quản lý 3 dự án cùng lúc (Day Theming, block 2h, checklist, ví dụ tuần) | [templates/multi-project-scenario.md](./multi-project-scenario.md) |
 | **Examples: Goal & Productivity** | Bộ ví dụ mẫu (OKR, Weekly Review, Daily Log, Deep Work Scheduler) | [examples/examples-goal-productivity.md](./examples/examples-goal-productivity.md) |

@@ -902,6 +902,7 @@ topics:
       - guides/03-career-skills/innovation/pre-mortem-technique.md
       - guides/03-career-skills/sales-telesales/negotiation-composure-playbook.md
       - templates/decision-journal.md
+      - templates/mistake-journal.md
       - guides/01-mental-models/philosophy/practical-applications/anticipate-before-you-leave.md
 
   - id: philosophy.anticipate_before_you_leave
@@ -945,6 +946,41 @@ topics:
       - guides/03-career-skills/productivity/core-skills/experience-digestion.md
       - guides/03-career-skills/productivity/meta-skills/meta-thinking-bias-filter.md
       - templates/project-post-mortem.md
+      - templates/mistake-journal.md
+
+  - id: mental_models.mistake_journal
+    aliases:
+      - nhật ký sai lầm
+      - mistake journal
+      - ghi sai lầm
+      - không lặp lỗi
+      - learning extraction
+      - nhật ký thất bại
+      - error journal
+      - mistake log
+    canonical: templates/mistake-journal.md
+    related:
+      - guides/01-mental-models/failure-management-system.md
+      - guides/01-mental-models/fast-correction-mindset.md
+      - templates/decision-journal.md
+      - templates/project-post-mortem.md
+      - guides/01-mental-models/philosophy/practical-applications/anticipate-before-you-leave.md
+      - guides/03-career-skills/growth/failure-playbooks.md
+
+  - id: mental_models.failure_management
+    aliases:
+      - failure management system
+      - FMS
+      - giới hạn sai lầm
+      - tốc độ sửa sai
+      - fast cut protocol
+      - antifragile failure
+    canonical: guides/01-mental-models/failure-management-system.md
+    related:
+      - guides/01-mental-models/fast-correction-mindset.md
+      - templates/mistake-journal.md
+      - guides/01-mental-models/philosophy/practical-applications/anticipate-before-you-leave.md
+      - guides/03-career-skills/growth/failure-playbooks.md
 
   - id: lifestyle.fun_maxing
     aliases:

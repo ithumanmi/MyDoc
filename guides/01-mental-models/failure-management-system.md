@@ -40,7 +40,7 @@ Khi các chỉ số chạm ngưỡng trigger, thực hiện nghi thức cắt b�
 ### 5. Learning Extraction Layer (Trích xuất bài học)
 Thất bại mà không học được gì là sự lãng phí tài nguyên lớn nhất.
 *   **Phân tích hậu kỳ:** Sai do giả định, do thời điểm (timing), do thực thi (execution) hay do thị trường?
-*   **Ghi chép:** Lưu trữ vào "Nhật ký sai lầm" để đảm bảo không lặp lại lỗi cũ.
+*   **Ghi chép:** Lưu trữ vào [**Nhật ký sai lầm**](../../templates/mistake-journal.md) để đảm bảo không lặp lại lỗi cũ.
 
 ---
 
