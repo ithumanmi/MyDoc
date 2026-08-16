@@ -18,7 +18,7 @@
 3. **Barbell Strategy & Redundancy**
    - Phân bổ tài nguyên: 80% an toàn, 20% high-risk/high-upside.
 4. **Antifragile / Hormesis**
-   - Hưởng lợi từ va chạm nhỏ, luyện cơ chống chịu.
+   - Hưởng lợi từ va chạm nhỏ, luyện cơ chống chịu. Deep: [`antifragile-thinking.md`](../../01-mental-models/antifragile-thinking.md).
 5. **Entropy & Maintenance**
    - Mọi thứ sẽ hỏng, nên bảo dưỡng trước khi hỏng.
 6. **Tail vs Routine Risk**

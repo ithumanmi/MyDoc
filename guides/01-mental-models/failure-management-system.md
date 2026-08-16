@@ -74,7 +74,9 @@ Trong kinh doanh và thay đổi sự nghiệp, áp dụng chiến lược **"Ti
 
 *   **Cách làm:** Thử nghiệm nhiều cái nhỏ (Optionality).
 *   **Chấp nhận xác suất:** Chấp nhận 8/10 thất bại nhỏ.
-*   **Asymmetric Payoff (Lợi nhuận bất cân xứng):** Chỉ cần 1-2 cái thành công rực rỡ sẽ bù đắp toàn bộ thất bại và tạo ra bước ngoặt vĩ đại.
+*   **Asymmetric Payoff (Lợi nhuận bất cân xứng):** Chỉ cần 1–2 cái thành công rực rỡ sẽ bù đắp toàn bộ thất bại và tạo ra bước ngoặt.
+
+👉 Deep-dive: [**Tư duy Antifragile (Nassim Taleb)**](./antifragile-thinking.md)
 
 ---
 

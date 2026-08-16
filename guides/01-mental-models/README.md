@@ -33,6 +33,7 @@ sensitivity: public
 | Global Intelligence | Systems thinking, feedback loops | [global-intelligence/README.md](./global-intelligence/README.md) | ⚠️ Chưa/ít (cần thêm anchor Applications) |
 | Mysticism | Văn hoá/tín ngưỡng như framework nhận thức | [mysticism/README.md](./mysticism/README.md) | ⚠️ Ứng dụng chọn lọc |
 | Failure Management | Phòng thủ & phục hồi khi đổ vỡ | [failure-management-system.md](./failure-management-system.md) | ✅ Có |
+| Antifragile (Taleb) | Mạnh lên nhờ hỗn loạn / stress đúng liều | [antifragile-thinking.md](./antifragile-thinking.md) | ✅ Có |
 | Metacog-OS | Hệ điều hành tự nhận thức 7 ngày khởi động | [metacognitive-operating-system.md](./metacognitive-operating-system.md) | ✅ Có |
 
 ## 🗺️ Mental Model Roadmap (3 Layer)
@@ -74,7 +75,7 @@ sensitivity: public
 - **History & Cycles:** [history/README.md](./history/README.md), [path-dependence.md](./history/path-dependence.md), [lindy-effect.md](./history/lindy-effect.md)
 - **Stoicism & Philosophy:** [stoicism-101.md](./philosophy/schools-and-thinkers/stoicism-101.md), [logic-and-fallacies.md](./philosophy/fundamentals/logic-and-fallacies.md), [personal-philosophy-template.md](./philosophy/integration/personal-philosophy-template.md)
 - **Global Intelligence (I.P.O):** [global-intelligence/README.md](./global-intelligence/README.md), [world-order-cycles.md](./global-intelligence/geopolitics-macro/world-order-cycles.md), [future-trends (AI/demography)](./global-intelligence/future-trends/ai-singularity.md)
-- **Failure & Resilience:** [failure-management-system.md](./failure-management-system.md), [metacognitive-operating-system.md](./metacognitive-operating-system.md)
+- **Failure & Resilience:** [failure-management-system.md](./failure-management-system.md), [antifragile-thinking.md](./antifragile-thinking.md), [metacognitive-operating-system.md](./metacognitive-operating-system.md)
 
 > Full danh sách xem thêm [INDEX.md](./INDEX.md) (phân nhóm chi tiết theo discipline & chủ đề). Nếu bài nào có mục "Ứng dụng Thực chiến" sẽ ghi rõ trong bài; cột trên giúp biết module nào đã có ứng dụng.
 

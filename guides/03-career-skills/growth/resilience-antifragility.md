@@ -163,5 +163,6 @@ Thất bại khiến bạn cảm thấy mình vô giá trị. Hãy nhắc nhở 
 
 ---
 > **Đọc thêm:**
+> *   [Tư duy Antifragile (Taleb)](../../01-mental-models/antifragile-thinking.md) — khung Fragile / Robust / Antifragile, barbell, optionality
 > *   [Energy Management](../productivity/core-skills/energy-management.md)
 > *   [Decision Journal](../productivity/templates/decision-journal.md)

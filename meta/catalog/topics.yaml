@@ -981,6 +981,32 @@ topics:
       - templates/mistake-journal.md
       - guides/01-mental-models/philosophy/practical-applications/anticipate-before-you-leave.md
       - guides/03-career-skills/growth/failure-playbooks.md
+      - guides/01-mental-models/antifragile-thinking.md
+
+  - id: mental_models.antifragile
+    aliases:
+      - antifragile
+      - antifragility
+      - phản mong manh
+      - kháng thương
+      - nassim taleb antifragile
+      - tư duy antifragile
+      - barbell strategy
+      - optionality taleb
+      - via negativa
+      - skin in the game
+      - hormesis stress
+    canonical: guides/01-mental-models/antifragile-thinking.md
+    related:
+      - guides/01-mental-models/failure-management-system.md
+      - guides/01-mental-models/fast-correction-mindset.md
+      - guides/04-lifestyle-os/life-os/risk-engine.md
+      - guides/03-career-skills/growth/resilience-antifragility.md
+      - guides/01-mental-models/history/lindy-effect.md
+      - guides/01-mental-models/engineering/redundancy.md
+      - guides/01-mental-models/engineering/inversion.md
+      - guides/01-mental-models/global-intelligence/systems-thinking/antifragile.md
+      - templates/mistake-journal.md
 
   - id: lifestyle.fun_maxing
     aliases:

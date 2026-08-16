@@ -10,7 +10,7 @@
 
 Trong một hệ thống phức tạp (Kinh doanh, Đầu tư, Sự nghiệp), nỗ lực tối đa hóa sự "đúng đắn" thường dẫn đến thất bại.
 *   **Không thể dự báo chính xác:** Bạn không bao giờ có đủ 100% thông tin.
-*   **Thiết kế hệ thống chịu lỗi:** Thay vì cố gắng không bao giờ sai, hãy xây dựng một hệ thống mà sai lầm không thể tiêu diệt bạn (Tư duy **Antifragile** của Nassim Taleb).
+*   **Thiết kế hệ thống chịu lỗi:** Thay vì cố gắng không bao giờ sai, hãy xây dựng một hệ thống mà sai lầm không thể tiêu diệt bạn ([**Tư duy Antifragile**](./antifragile-thinking.md) của Nassim Taleb).
 
 **Chìa khóa:** Bạn không cần trí tuệ siêu phàm để luôn chọn đúng. Bạn cần kỷ luật sắt đá để thừa nhận mình đã chọn sai.
 
@@ -70,4 +70,4 @@ Nếu bạn đang cảm thấy stress vì lo sợ chọn sai nghề hoặc sai h
 > 
 > **Người chiến thắng tối ưu hóa tốc độ sửa sai, không phải độ chính xác ban đầu.**
 
-👉 **Hệ thống Quản trị:** [**Failure Management System (FMS): Giới hạn sai lầm & Tối đa tốc độ sửa sai**](./failure-management-system.md) (⭐ **New**)
+👉 **Hệ thống Quản trị:** [**Failure Management System (FMS)**](./failure-management-system.md) · [**Tư duy Antifragile**](./antifragile-thinking.md)

@@ -29,7 +29,7 @@ Trong kỷ nguyên thông tin hỗn loạn, khả năng lọc nhiễu và nhìn 
 
 **1. Systems Thinking (Tư duy Hệ thống):**
 *   **[Feedback Loops](./systems-thinking/feedback-loops-deep-dive.md):** Hiểu về vòng lặp phản hồi Dương (Bùng nổ) & Âm (Cân bằng).
-*   **[Antifragile](./systems-thinking/antifragile.md):** Tư duy "Kháng thương" - Hưởng lợi từ sự hỗn loạn.
+*   **[Antifragile](./systems-thinking/antifragile.md)** → canonical: [**Tư duy Antifragile (Taleb)**](../antifragile-thinking.md) — hưởng lợi từ biến động có trần thiệt hại.
 *   **🛠️ Applications (đề xuất):**
     *   **Hedging checklist:** đa dạng hóa nguồn thu, phân bổ tài sản “barbell”, backup location/data.
     *   **Incident playbook:** khi tin xấu xuất hiện → kiểm chứng nguồn, chạy kịch bản best/base/worst.
