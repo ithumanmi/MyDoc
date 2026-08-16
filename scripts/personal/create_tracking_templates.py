@@ -27,6 +27,12 @@ from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
 from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.datavalidation import DataValidation
 
+# cùng folder scripts/personal/
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from excel_tracking_style import polish_workbook  # noqa: E402
+
 REPO_ROOT = Path(__file__).resolve().parents[2]
 OUT_DIR = REPO_ROOT / "data" / "personal"
 
@@ -533,11 +539,13 @@ def main() -> None:
         raise SystemExit(f"Đã có {out} — thêm --force để ghi đè, hoặc chọn --month khác.")
 
     wb = create_workbook(year, month)
+    polish_workbook(wb)
     wb.save(out)
     print(f"Đã tạo: {out}")
     print(
         "Sheets: Cot_y_nghia · Legend · Daily_* · Habits · Health · Nutrition"
     )
+    print("Format: tab màu theo nhóm · zebra · điểm 1–10 tô màu · habit x/~/- ")
     print("Mỗi sheet data: dòng 1 = tên cột · dòng 2 (vàng) = ý nghĩa tiếng Việt")
 
 

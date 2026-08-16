@@ -26,6 +26,12 @@ from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
 from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.datavalidation import DataValidation
 
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from excel_tracking_style import polish_workbook  # noqa: E402
+from perf_review_schema import PERF_RUBRIC_ROWS, perf_columns  # noqa: E402
+
 REPO_ROOT = Path(__file__).resolve().parents[2]
 OUT_DIR = REPO_ROOT / "data" / "personal"
 
@@ -150,6 +156,11 @@ SHEET_COLUMNS: dict[str, list[tuple[str, str]]] = {
         ("Score_1_10", "Tự chấm cả năm"),
     ],
 }
+
+SHEET_COLUMNS["Perf_Weekly"] = perf_columns("Week", "Tuần ISO — 1 hàng review / tuần")
+SHEET_COLUMNS["Perf_Monthly"] = perf_columns("Month", "Tháng YYYY-MM")
+SHEET_COLUMNS["Perf_Quarterly"] = perf_columns("Quarter", "Quý YYYY-Qn")
+SHEET_COLUMNS["Perf_Yearly"] = perf_columns("Year", "Năm")
 
 
 def _style_header(ws, row: int = HEADER_ROW) -> None:
@@ -327,12 +338,15 @@ def _write_legend(wb: Workbook, year: int) -> None:
         ("Prod_Monthly", "Review 12 tháng"),
         ("Prod_Quarterly", "Review 4 quý"),
         ("Prod_Yearly", "Review cả năm"),
+        ("Perf_Weekly…Yearly", "Đánh giá performance + Keep/Stop/Start"),
+        ("Perf_Rubric", "Rubric thang điểm"),
         ("", ""),
         ("Cách dùng gợi ý", ""),
         ("1", "Điền Goals + Key_Results cho năm/quý"),
         ("2", "Tạo Projects + Timeline mốc"),
         ("3", "Mỗi tối: 1 dòng Prod_Daily"),
-        ("4", "Chủ nhật: Prod_Weekly · cuối tháng/quý/năm: sheet tương ứng"),
+        ("4", "Chủ nhật: Prod_Weekly + Perf_Weekly"),
+        ("5", "Cuối tháng/quý/năm: Perf_Monthly / Quarterly / Yearly"),
     ]
     for i, (a, b) in enumerate(rows, start=3):
         ws.cell(i, 1, a)
@@ -486,6 +500,89 @@ def _write_prod_yearly(wb: Workbook, year: int) -> None:
     ws.merge_cells(start_row=note, start_column=1, end_row=note, end_column=ncols)
 
 
+def _write_perf_rubric(wb: Workbook) -> None:
+    rub = wb.create_sheet("Perf_Rubric")
+    rub["A1"] = "Rubric chấm performance"
+    rub["A1"].font = Font(bold=True, size=14)
+    rub["A2"] = (
+        "Dùng với Perf_Weekly / Monthly / Quarterly / Yearly. "
+        "Không phải điểm nhân sự — chỉ tự phản tư."
+    )
+    rub["A2"].alignment = Alignment(wrap_text=True)
+    rub.merge_cells("A2:E2")
+    for i, h in enumerate(["Trục", "Ý nghĩa", "1–3 yếu", "4–7 ổn", "8–10 mạnh"], start=1):
+        cell = rub.cell(4, i, h)
+        cell.font = Font(bold=True, color="FFFFFF")
+        cell.fill = PatternFill("solid", fgColor="922B21")
+    for i, row in enumerate(PERF_RUBRIC_ROWS, start=5):
+        for c, val in enumerate(row, start=1):
+            rub.cell(i, c, val)
+            rub.cell(i, c).border = THIN
+            rub.cell(i, c).alignment = Alignment(wrap_text=True, vertical="top")
+    for col, w in zip("ABCDE", (14, 28, 28, 32, 28)):
+        rub.column_dimensions[col].width = w
+
+
+def _write_perf_sheets(wb: Workbook, year: int) -> None:
+    """Hàng kỳ trống + snapshot cột để điền điểm review."""
+    weeks = _iso_weeks(year)
+
+    def empty_perf(period_key: str, period: str) -> dict:
+        return {
+            period_key: period,
+            "Items": "",
+            "Done": "",
+            "Shipped": "",
+            "Ship_pct": "",
+            "Est_hours": "",
+            "Reopen_sum": "",
+            "Blockers": "",
+            "Throughput_1_10": "",
+            "Quality_1_10": "",
+            "Focus_1_10": "",
+            "Stability_1_10": "",
+            "Overall_1_10": "",
+            "Wins": "",
+            "Misses": "",
+            "Root_cause": "",
+            "Keep": "",
+            "Stop": "",
+            "Start": "",
+            "Energy": "",
+            "Next_priority": "",
+            "Reviewed_on": "",
+            "Note": "",
+        }
+
+    for sheet, key, periods in [
+        ("Perf_Weekly", "Week", [w[0] for w in weeks]),
+        ("Perf_Monthly", "Month", [f"{year:04d}-{m:02d}" for m in range(1, 13)]),
+        ("Perf_Quarterly", "Quarter", [f"{year:04d}-Q{q}" for q in range(1, 5)]),
+        ("Perf_Yearly", "Year", [str(year)]),
+    ]:
+        ws = wb.create_sheet(sheet)
+        cols = SHEET_COLUMNS[sheet]
+        ncols = _write_column_headers(ws, cols)
+        recs = [empty_perf(key, p) for p in periods]
+        for i, rec in enumerate(recs):
+            r = DATA_START + i
+            for c, col_name in enumerate([x[0] for x in cols], start=1):
+                ws.cell(r, c, rec.get(col_name) or None)
+                ws.cell(r, c).border = THIN
+        last = DATA_START + len(recs) - 1
+        ws.freeze_panes = "B3"
+        ws.auto_filter.ref = f"A{HEADER_ROW}:{get_column_letter(ncols)}{last}"
+        _autosize(ws)
+        _add_score_validation(
+            ws,
+            [
+                f"I{DATA_START}:M{last}",  # Throughput…Overall approx cols 9-13
+            ],
+        )
+
+    _write_perf_rubric(wb)
+
+
 def create_workbook(year: int) -> Workbook:
     wb = Workbook()
     default = wb.active
@@ -501,6 +598,7 @@ def create_workbook(year: int) -> Workbook:
     _write_prod_monthly(wb, year)
     _write_prod_quarterly(wb, year)
     _write_prod_yearly(wb, year)
+    _write_perf_sheets(wb, year)
     return wb
 
 
@@ -527,12 +625,16 @@ def main() -> None:
         raise SystemExit(f"Đã có {out} — thêm --force để ghi đè.")
 
     wb = create_workbook(year)
+    polish_workbook(wb)
     wb.save(out)
     print(f"Đã tạo: {out}")
     print(
         "Sheets: Cot_y_nghia · Legend · Projects · Goals · Key_Results · Timeline · "
-        "Prod_Daily · Prod_Weekly · Prod_Monthly · Prod_Quarterly · Prod_Yearly"
+        "Prod_Daily · Prod_Weekly · Prod_Monthly · Prod_Quarterly · Prod_Yearly · "
+        "Perf_* · Perf_Rubric"
     )
+    print("Format: tab màu · zebra · Status/Priority tự tô khi chọn dropdown")
+    print("Perf_*: chấm Throughput/Quality/Focus/Stability/Overall + Keep/Stop/Start")
 
 
 if __name__ == "__main__":
