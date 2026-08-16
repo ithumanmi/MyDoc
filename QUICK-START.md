@@ -1,340 +1,183 @@
-# 🚀 Quick Start Guide - Bắt đầu từ đâu?
+# Quick Start — Roadmap từ trong ra ngoài
 
-> [← Back to Home](./README.md)
+> [← Home](./README.md) · [Overview](./OVERVIEW.md) · [Mind · Nội lực · Sinh hóa](./README.md#mind--nội-lực--sinh-hóa-ưu-tiên)
 
-**Chào mừng bạn đến với Zero to One Docs!** 
+**Nguyên tắc:** Xây **nội lực → kiểm soát tâm lý / nội tâm → thực hành** trước. Career và thế giới bên ngoài chỉ bền khi lớp trong đã đứng.
 
-Với khoảng **1.2M từ**, **~1,800 file Markdown**, và **15 technical domains** (không phải domain nào cũng Stable), bạn có thể bị overwhelm. Guide này giúp chọn đúng lộ trình theo **profile** và **mục tiêu**. Ưu tiên domain 🟢 Stable trên [`domains/README.md`](./domains/README.md) nếu mới bắt đầu.
+Repo lớn (~1.2M từ, ~1,800 file, 15 domains). Đừng đọc hết. Đi **từng lớp** dưới đây.
 
-**🤖 AI agents / Cursor:** bắt đầu từ [`AGENTS.md`](./AGENTS.md) → [`meta/routing.md`](./meta/routing.md) / [`meta/catalog/topics.yaml`](./meta/catalog/topics.yaml). Không cần đọc hết `QUICK-START` nếu bạn là agent.
-
----
-
-## 🎯 Bước 1: Bạn là ai? (Choose Your Path)
-
-Click vào profile phù hợp nhất với bạn:
-
-### 👶 [Path A: Beginner Developer (0-1 năm kinh nghiệm)](#path-a-beginner-developer)
-*"Mình mới học code, chưa biết bắt đầu từ đâu..."*
-
-### 🔧 [Path B: Mid-Level Developer (2-5 năm, muốn chuyển domain hoặc level up)](#path-b-mid-level-developer)
-*"Mình đã biết code, nhưng muốn chuyên sâu hoặc đổi ngành..."*
-
-### 👑 [Path C: Senior/Expert (5+ năm, hướng đến Top 1%)](#path-c-senior-expert)
-*"Mình muốn trở thành Tech Lead, Architect, hoặc kiếm $5k-10k/tháng..."*
-
-### 💼 [Path D: Entrepreneur/Side Income](#path-d-entrepreneur-side-income)
-*"Mình muốn kiếm tiền từ kỹ năng tech (Freelance, Startup, MMO)..."*
-
-### 🧘 [Path E: Work-Life Balance & Well-being](#path-e-work-life-balance-well-being)
-*"Mình bị burnout, stress, hoặc muốn optimize sức khỏe..."*
+**🤖 AI agents:** [`AGENTS.md`](./AGENTS.md) → [`meta/routing.md`](./meta/routing.md) / [`meta/catalog/topics.yaml`](./meta/catalog/topics.yaml).
 
 ---
 
-## 👶 Path A: Beginner Developer
+## Bản đồ 5 lớp (Inside → Out)
 
-### **Mục tiêu của bạn:**
-- ✅ Chọn đúng lĩnh vực phù hợp (Game Dev? Web? AI?)
-- ✅ Tránh Tutorial Hell
-- ✅ Build portfolio để xin việc Junior
-- ✅ Lương $600-1200/tháng trong 6-12 tháng
+```text
+Lớp 0  Sinh hóa & năng lượng     ← phần cứng (ngủ, hormone, stress)
+Lớp 1  Tâm lý & nội tâm          ← nhìn model, cảm xúc, sức bền
+Lớp 2  Nội lực & hệ sửa sai      ← antifragile, FMS, kỷ luật
+Lớp 3  Thực hành có chủ đích     ← habit, deliberate practice, template
+Lớp 4  Career & thế giới ngoài   ← nghề, tiền, network, tech domain
+```
 
-### **Lộ trình học (4 tuần đầu):**
+| Lớp | Câu hỏi | Hub chính |
+| --- | --- | --- |
+| **0** | Cơ thể / hormone có ổn để não làm việc không? | [`health/`](./guides/04-lifestyle-os/health/README.md) |
+| **1** | Mình đang bị model / cảm xúc nào lái? | [`psychology/`](./guides/01-mental-models/psychology/README.md) · [`mental-resilience/`](./guides/04-lifestyle-os/well-being/mental-resilience/README.md) |
+| **2** | Hệ thống có mạnh lên nhờ cú sốc nhỏ không? | [`antifragile-thinking.md`](./guides/01-mental-models/antifragile-thinking.md) · [`failure-management-system.md`](./guides/01-mental-models/failure-management-system.md) |
+| **3** | Có vòng luyện + ghi nhận hàng ngày không? | [`chapters/02`](./chapters/02-luyen-tap-co-chu-dich.md) · [`templates/`](./templates/README.md) · [`personal/`](./personal/README.md) |
+| **4** | Nghề / tiền / tech đã có nền trong chưa? | [`guides/03-career-skills/`](./guides/03-career-skills/) · [`domains/`](./domains/README.md) |
 
-#### **Tuần 1: Định hướng**
-1. 📖 **[Chương 1: Xác định lĩnh vực](./chapters/01-xac-dinh-linh-vuc.md)** (30 phút)
-   - Chọn 1 domain: Game Dev | AI/ML | Web Dev | App Dev | Backend | Security
-2. 🎯 **Đọc README của domain bạn chọn** (1 giờ):
-   - [Game Dev](./domains/game-dev/README.md)
-   - [Backend Dev](./domains/backend-dev/README.md)
-   - [AI/ML](./domains/ai-ml/README.md)
-   - [Web Dev](./domains/web-dev/README.md)
-3. ✍️ **Action:** Điền [Template xác định mục tiêu](./templates/doc-framework.md#phần-1-xác-định-mục-tiêu) (30 phút)
-
-#### **Tuần 2-3: Foundation + Luyện tập**
-1. 📖 **[Chương 2: Luyện tập có chủ đích](./chapters/02-luyen-tap-co-chu-dich.md)** (1 giờ)
-2. 🛠️ **Bắt đầu học technical:**
-   - **Backend:** Follow [Level 1: Foundations](./domains/backend-dev/README.md#-level-1-foundations-0---4-tháng)
-   - **Game Dev:** Follow [Unity Basics](./domains/game-dev/README.md)
-   - **AI/ML:** Follow [Fundamentals](./domains/ai-ml/README.md)
-3. ⏰ **Thiết lập routine:** Dùng [Daily Log Template](./templates/daily-log.md)
-
-#### **Tuần 4: Habit & Mindset**
-1. 📖 **[Chương 5: Kỷ luật & Thói quen](./chapters/05-ky-luat-thoi-quen.md)** (1 giờ)
-2. 🛡️ **[Anti-Slip System](./guides/03-career-skills/growth/anti-slip-system.md)** (1 giờ) - Hệ thống chống bỏ cuộc
-3. ✅ **Action:** Setup [Habit Tracker](./templates/doc-framework.md#habit-tracker)
-
-### **Checkpoint (Sau 1 tháng):**
-- [ ] Đã chọn 1 lĩnh vực cụ thể
-- [ ] Code 1-2 giờ/ngày ổn định
-- [ ] Hoàn thành 1 mini project đầu tiên (Todo App hoặc Pong Game)
-
-### **Next Steps (Tháng 2-6):**
-→ Đọc **[Portfolio-Driven Roadmap](./chapters/01-xac-dinh-linh-vuc.md#-portfolio-driven-roadmap-thực-chiến)** để build portfolio xin việc.
+> README ưu tiên khối Mind: [`README.md`](./README.md). Career/tech trên README đã thu gọn.
 
 ---
 
-## 🔧 Path B: Mid-Level Developer
+## Lộ trình mặc định (8 tuần) — ai cũng bắt đầu đây
 
-### **Mục tiêu của bạn:**
-- ✅ Chuyên sâu 1 lĩnh vực (T-Shaped Skills)
-- ✅ Học System Design & Architecture
-- ✅ Tăng lương lên $2000-4000/tháng
-- ✅ Chuẩn bị lên Senior
+Dành **~45–90 phút/ngày**. Nếu đang burnout nặng: làm tuần 1–2 trước, đừng nhảy lớp 4.
 
-### **Lộ trình học (8 tuần):**
+### Tuần 1–2 · Lớp 0 — Sinh hóa
 
-#### **Tuần 1-2: Tư duy Top 1%**
-1. 🏆 **[Becoming Top 1%](./guides/03-career-skills/growth/becoming-top-1-percent.md)** (2 giờ) ⭐ **Must Read**
-   - Hiểu sự khác biệt giữa Average và Top 1%
-2. 🧠 **[Systems Thinking](./chapters/09-systems-thinking.md)** (2 giờ)
-3. 🎯 **[ONE CORE SKILL Framework](./chapters/01-xac-dinh-linh-vuc.md#-one-core-skill-framework---vũ-khí-của-top-1)** (1 giờ)
-   - Xác định Core Skill của bạn
+1. [Burnout prevention](./guides/04-lifestyle-os/well-being/mental-resilience/burnout-prevention.md) — tự đánh giá giai đoạn  
+2. [Sleep optimization](./guides/04-lifestyle-os/health/sleep-optimization.md)  
+3. [Endocrine hormone map](./guides/04-lifestyle-os/health/endocrine-hormone-map.md) → [endocrine-control-playbook](./guides/04-lifestyle-os/health/endocrine-control-playbook.md)  
+4. [SNS × cortisol brake](./guides/04-lifestyle-os/health/sns-cortisol-brake-playbook.md) · [dopamine-system](./guides/04-lifestyle-os/health/dopamine-system.md)  
+5. **Action:** ghi [`personal/`](./personal/README.md) (ngủ / năng lượng) hoặc [Daily Performance Tracker](./templates/well-being/daily-performance-tracker.md)
 
-#### **Tuần 3-4: Deep Dive Technical**
-**Chọn 1 trong 3:**
+**Checkpoint:** ngủ ổn hơn; biết 1–2 đòn bẩy hormone đang dùng.
 
-**Option 1: Backend Advanced**
-- 📖 [Database Fundamentals](./domains/backend-dev/database-fundamentals.md)
-- 📖 [API Design Guide](./domains/backend-dev/api-design-guide.md)
-- 📖 [System Design Guide](./domains/backend-dev/system-design-guide.md)
+### Tuần 3–4 · Lớp 1 — Tâm lý & nội tâm
 
-**Option 2: Game Dev Advanced**
-- 📖 [Senior Game Server Roadmap](./domains/game-dev/senior-game-server-roadmap.md)
-- 📖 [Game Server Guide](./domains/game-dev/game-server-guide.md)
+1. [Perception through models](./guides/01-mental-models/psychology/fundamentals/perception-through-models.md) (+ case study)  
+2. [Psychological resilience](./guides/04-lifestyle-os/well-being/mental-resilience/psychological-resilience.md)  
+3. [Mental toughness protocol](./guides/04-lifestyle-os/well-being/mental-resilience/mental-toughness-protocol.md)  
+4. [Mindfulness](./guides/04-lifestyle-os/well-being/mental-resilience/mindfulness-meditation.md) · [Stoicism đời thường](./guides/04-lifestyle-os/well-being/mental-resilience/stoicism-for-modern-life.md)  
+5. [Outcome independence](./guides/04-lifestyle-os/life-os/outcome-independence.md) · [CBT](./guides/01-mental-models/psychology/schools-of-thought/cbt.md) (tuỳ chọn)  
+6. **Action:** micro-drill 2 phút/ngày (đặt tên model đang chạy)
 
-**Option 3: AI/ML Deep Dive**
-- 📖 [Machine Learning Path](./domains/ai-ml/machine-learning/)
-- 📖 [Deep Learning Path](./domains/ai-ml/deep-learning/)
+**Checkpoint:** phân biệt được *data thuần* vs *diễn dịch*; có 1 ritual sáng/tối nhỏ.
 
-#### **Tuần 5-6: Soft Skills & Career**
-1. 💬 **[Networking](./chapters/07-networking.md)** (1 giờ)
-2. 🎨 **[Personal Brand](./chapters/08-personal-brand.md)** (2 giờ)
-3. 📧 **Action:** Gửi 3 [Cold Email](./templates/cold-email-mentor.md) tìm mentor
+### Tuần 5–6 · Lớp 2 — Nội lực & sửa sai
 
-#### **Tuần 7-8: Productivity & Health**
-1. ⏰ **[Deep Work](./guides/03-career-skills/productivity/core-skills/deep-work-mastery.md)** (2 giờ)
-2. 🧘 **[Burnout Prevention](./guides/04-lifestyle-os/well-being/mental-resilience/burnout-prevention.md)** (1 giờ)
-3. 🛌 **[Sleep Optimization](./guides/04-lifestyle-os/health/sleep-optimization.md)** (1 giờ)
+1. [Inner strength in adversity](./guides/01-mental-models/philosophy/practical-applications/inner-strength-in-adversity.md)  
+2. [Antifragile thinking (Taleb)](./guides/01-mental-models/antifragile-thinking.md)  
+3. [Resilience & antifragility](./guides/03-career-skills/growth/resilience-antifragility.md) (thực hành)  
+4. [Failure Management System](./guides/01-mental-models/failure-management-system.md) · [Fast correction](./guides/01-mental-models/fast-correction-mindset.md)  
+5. [Anticipate before you leave](./guides/01-mental-models/philosophy/practical-applications/anticipate-before-you-leave.md)  
+6. **Action:** mở [Mistake Journal](./templates/mistake-journal.md) — ghi ≥ 1 mục thật
 
-### **Checkpoint (Sau 2 tháng):**
-- [ ] Đã define Core Skill rõ ràng
-- [ ] Hoàn thành 1 advanced project (Microservices hoặc Game với multiplayer)
-- [ ] LinkedIn profile updated + 1 blog post về technical topic
+**Checkpoint:** có quy tắc cắt lỗ / Pre-Commit cho 1 lĩnh vực (tiền, nghề, hoặc thói quen).
 
-### **Next Steps:**
-→ Apply cho Senior role hoặc negotiate raise tại công ty hiện tại.
+### Tuần 7–8 · Lớp 3 — Thực hành
 
----
+1. [Chương 5: Kỷ luật & thói quen](./chapters/05-ky-luat-thoi-quen.md) · [Anti-Slip System](./guides/03-career-skills/growth/anti-slip-system.md)  
+2. [Chương 2: Luyện tập có chủ đích](./chapters/02-luyen-tap-co-chu-dich.md)  
+3. [Learning OS](./guides/03-career-skills/productivity/meta-skills/learning-os-framework.md)  
+4. [Metacognitive OS](./guides/01-mental-models/metacognitive-operating-system.md) hoặc [Life OS](./guides/04-lifestyle-os/life-os/README.md)  
+5. **Action:** [Weekly Review](./templates/weekly-review.md) + [Daily Log](./templates/daily-log.md); chọn **một** skill nhỏ luyện 25–45 phút/ngày
 
-## 👑 Path C: Senior/Expert
+**Checkpoint:** 14 ngày liên tiếp có log; 1 thói quen không trượt >2 ngày liên tiếp.
 
-### **Mục tiêu của bạn:**
-- ✅ Tech Lead / Architect / Principal Engineer
-- ✅ Lương $5000-10000+/tháng
-- ✅ Thought Leadership (Conference talks, Open source)
-- ✅ Financial Freedom
+### Sau tuần 8 · Lớp 4 — Career & bên ngoài
 
-### **Lộ trình học (12 tuần):**
+Chỉ khi lớp 0–3 tạm ổn (ngủ, không burnout nặng, có vòng luyện):
 
-#### **Tuần 1-4: Leadership & Strategy**
-1. 🏛️ **Philosophy & Mental Models:**
-   - [Stoicism for Modern Life](./guides/01-mental-models/philosophy/practical-applications/stoicism-for-modern-life.md)
-   - [Philosophy Guide](./guides/01-mental-models/philosophy/README.md) - Explore decision-making frameworks
-2. 🎮 **[Game Theory](./guides/03-career-skills/growth/game-theory.md)** + **[Game Theory for Engineers](./guides/03-career-skills/growth/game-theory-for-engineers.md)** (4 giờ)
-3. 🧠 **[Life OS Framework](./guides/03-career-skills/growth/life-os-framework.md)** (3 giờ) - Hệ điều hành cuộc đời
+1. Chọn path career bên dưới (Beginner / Mid / Entrepreneur…)  
+2. Domain 🟢 Stable: [`domains/README.md`](./domains/README.md)  
+3. Career hub: [`guides/03-career-skills/`](./guides/03-career-skills/)  
+4. Wealth: [`guides/02-wealth-business/`](./guides/02-wealth-business/)  
 
-#### **Tuần 5-8: Deep Technical Mastery**
-**Backend Track:**
-- 📖 [Microservices Patterns](./domains/backend-dev/architecture/microservices-patterns-deep-dive.md)
-- 📖 [Distributed Systems](./domains/backend-dev/architecture/distributed-systems.md)
-- 📖 [System Design Case Studies](./domains/backend-dev/system-design/case-studies.md)
-- 📖 [Advanced Security](./domains/backend-dev/security/advanced-security.md)
-
-**Game Dev Track:**
-- 📖 [Game Publisher Roadmap](./guides/03-career-skills/game-dev/game-publisher-roadmap.md)
-- 📖 [Publisher Financial Model](./guides/03-career-skills/game-dev/publisher-financial-model.md)
-
-#### **Tuần 9-10: Finance & Investing**
-1. 💰 **Economics Foundation:**
-   - [Macroeconomics](./guides/02-wealth-business/investing/advanced/macroeconomics.md)
-   - [Microeconomics](./guides/02-wealth-business/investing/advanced/microeconomics.md)
-   - [Behavioral Economics](./guides/02-wealth-business/investing/advanced/behavioral-economics.md)
-2. 📈 **[Investing Guide](./guides/02-wealth-business/investing/README.md)** (Start passive income streams)
-
-#### **Tuần 11-12: Legacy & Impact**
-1. 📝 **Content Creation:**
-   - Start technical blog (2 posts/tháng)
-   - Prepare conference talk proposal
-2. 👥 **Mentoring:** Mentor 2-3 Junior/Mid developers
-3. 🚀 **Side Project:** Build SaaS hoặc Open Source project có impact
-
-### **Checkpoint (Sau 3 tháng):**
-- [ ] Published 6 technical blog posts
-- [ ] Mentoring ít nhất 2 người
-- [ ] Có investment portfolio (stocks/crypto/real estate)
-- [ ] Được mời phỏng vấn cho Staff/Principal role
-
-### **Next Steps:**
-→ **[Entrepreneurship Path](./guides/02-wealth-business/entrepreneurship/README.md)** hoặc **[Remote Work Guide](./guides/03-career-skills/career/remote-backend-guide.md)** để kiếm $10k+/tháng.
+**Đừng** lấy lương / portfolio làm thuốc chữa rối loạn giấc ngủ hoặc ego chưa kiểm soát — lớp 4 sẽ kéo sập lớp 0–1.
 
 ---
 
-## 💼 Path D: Entrepreneur/Side Income
+## Bạn đang ở đâu? (chọn lối vào)
 
-### **Mục tiêu của bạn:**
-- ✅ Kiếm $1000-3000/tháng side income
-- ✅ Freelancing hoặc Build SaaS
-- ✅ Financial independence
-
-### **Lộ trình học (6 tuần):**
-
-#### **Tuần 1-2: Mindset & Market**
-1. 💡 **[Indie Hacker Roadmap](./guides/03-career-skills/career/indie-hacker-roadmap.md)** (2 giờ)
-2. 🎯 **[Path to $10k Monthly](./guides/03-career-skills/career/path-to-10k-monthly.md)** (2 giờ)
-3. 📊 **[Market Research](./guides/02-wealth-business/market-research/README.md)** - Tìm ý tưởng
-
-#### **Tuần 3-4: Monetization Strategy**
-**Pick Your Model:**
-
-**Option 1: Freelancing**
-- 📖 [Freelancer Roadmap](./guides/03-career-skills/productivity/side-hustle/freelancer-roadmap.md)
-- 📖 [Game Dev Freelance Guide](./guides/03-career-skills/game-dev/game-dev-freelance-guide.md)
-
-**Option 2: App/SaaS**
-- 📖 [App Monetization Guide](./guides/03-career-skills/career/app-monetization-guide.md)
-- 📖 [App Dev Side Income](./guides/03-career-skills/career/app-dev-side-income.md)
-
-**Option 3: Game Indie Hacker**
-- 📖 [Game Indie Hacker Guide](./guides/03-career-skills/game-dev/game-indie-hacker-guide.md)
-- 📖 [Game Dev $10k Roadmap](./guides/03-career-skills/game-dev/game-dev-10k-roadmap.md)
-
-#### **Tuần 5-6: Launch & Iterate**
-1. 🚀 Build MVP trong 2 tuần
-2. 💰 **[Salary Negotiation](./guides/03-career-skills/productivity/career-growth/salary-negotiation.md)** (nếu giữ full-time job)
-3. 📈 **[Growth Marketing](./guides/02-wealth-business/entrepreneurship/growth/)** basics
-
-### **Vietnam-Specific Resources:**
-- 📜 **[Tax & Legal Vietnam](./guides/03-career-skills/career/tax-legal-vietnam.md)**
-- 📜 **[Legal Resources](./guides/02-wealth-business/legal-resources.md)**
-
-### **Checkpoint (Sau 6 tuần):**
-- [ ] Launched MVP hoặc landed first client
-- [ ] Revenue > $100 (proof of concept)
-- [ ] Setup legal/tax structure
-
-### **Next Steps:**
-→ Scale to $1000/month → $10k/month theo **[Entrepreneurship Guide](./guides/02-wealth-business/entrepreneurship/README.md)**.
+| Tình trạng | Bắt đầu |
+| --- | --- |
+| Mệt, burnout, ngủ kém | **Tuần 1–2** (Lớp 0) — Path E cũ gộp vào đây |
+| Tâm trí loạn, dễ bị trigger | **Tuần 3–4** (Lớp 1) |
+| Đã ổn sức khỏe, hay cố chấp / sợ sai | **Tuần 5–6** (Lớp 2) |
+| Đã có nền trong, cần kỷ luật luyện skill | **Tuần 7–8** (Lớp 3) |
+| Nền trong ổn, muốn nghề / tiền / tech | **Lớp 4** — section career bên dưới |
 
 ---
 
-## 🧘 Path E: Work-Life Balance & Well-being
+<details>
+<summary><strong>Lớp 4 — Career / Tech / Wealth</strong> (mở khi lớp trong đã đứng)</summary>
 
-### **Mục tiêu của bạn:**
-- ✅ Phục hồi từ burnout
-- ✅ Optimize sức khỏe (sleep, energy, focus)
-- ✅ Sustainable high performance
+### Path A · Beginner (0–1 năm)
 
-### **Lộ trình học (4 tuần):**
+- [Chương 1: Chọn lĩnh vực](./chapters/01-xac-dinh-linh-vuc.md) → README domain (Game / Backend / AI / Web…)  
+- [Chương 2: Deliberate practice](./chapters/02-luyen-tap-co-chu-dich.md)  
+- Portfolio theo chương 1 · mục tiêu Junior  
 
-#### **Tuần 1: Assessment & Recovery**
-1. 🔥 **[Burnout Prevention](./guides/04-lifestyle-os/well-being/mental-resilience/burnout-prevention.md)** (2 giờ) ⭐ **Start Here**
-   - Self-assessment: Bạn ở giai đoạn nào?
-2. 🛌 **[Sleep Optimization](./guides/04-lifestyle-os/health/sleep-optimization.md)** (1 giờ)
-   - Fix giấc ngủ = Fix 70% vấn đề
+### Path B · Mid (2–5 năm)
 
-#### **Tuần 2: Energy Management**
-1. ⚡ **[Health OS Framework](./guides/04-lifestyle-os/health/health-os-overview.md)** (2 giờ)
-2. 🩸 **[Glucose & Insulin System](./guides/04-lifestyle-os/health/glucose-insulin-system.md)** (1 giờ)
-   - Ổn định năng lượng cả ngày
-3. 🧬 **[Endocrine Hormone Map](./guides/04-lifestyle-os/health/endocrine-hormone-map.md)** (45 phút) — bản đồ toàn hệ nội tiết
-4. 🧠 **[Dopamine System](./guides/04-lifestyle-os/health/dopamine-system.md)** (1 giờ)
-   - Lấy lại động lực
+- [Becoming Top 1%](./guides/03-career-skills/growth/becoming-top-1-percent.md)  
+- [Systems thinking](./chapters/09-systems-thinking.md) · deep-dive domain Stable  
+- [Networking](./chapters/07-networking.md) · [Personal brand](./chapters/08-personal-brand.md)  
 
-#### **Tuần 3: Movement & Mindfulness**
-1. 🏃 **[Movement Protocols](./guides/04-lifestyle-os/health/movement-protocols.md)** (1 giờ)
-2. 🧘 **[Mindfulness Meditation](./guides/04-lifestyle-os/well-being/mental-resilience/mindfulness-meditation.md)** (1 giờ)
-   - Start với 5 phút/ngày
+### Path C · Senior / Expert
 
-#### **Tuần 4: Systems & Sustainability**
-1. 🌊 **[High Performance & Flow](./guides/04-lifestyle-os/well-being/high-performance.md)** (2 giờ)
-2. 🏛️ **[Stoicism](./guides/04-lifestyle-os/well-being/mental-resilience/stoicism-for-modern-life.md)** (1 giờ)
-3. 📋 **[Health Optimization Protocols](./guides/04-lifestyle-os/health/health-optimization-protocols.md)** - Daily routine
+- [Life OS Framework](./guides/03-career-skills/growth/life-os-framework.md) · philosophy / game theory  
+- Architecture / System Design trong `domains/`  
+- [Investing](./guides/02-wealth-business/investing/README.md)  
 
-### **Templates:**
-- 🧠 **[Learning OS Framework](./guides/03-career-skills/productivity/meta-skills/learning-os-framework.md)** — pipeline học hiện đại (bắt buộc nếu muốn học nhanh mọi thứ)
-- 📊 **[Daily Performance Tracker](./templates/well-being/daily-performance-tracker.md)**
-- 🧬 **[Personal Life Data](./personal/README.md)** ⭐ — ghi daily / nutrition / body / habits (không chỉ đọc theory)
-- 📟 **[Personal Dashboard](./personal/dashboard.md)** — tóm tắt tuần
+### Path D · Entrepreneur / Side income
 
-### **Checkpoint (Sau 1 tháng):**
-- [ ] Sleep 7-8 giờ/đêm ổn định
-- [ ] Exercise 3x/tuần
-- [ ] Energy levels improved (track với Daily Tracker)
+- [Indie hacker](./guides/03-career-skills/career/indie-hacker-roadmap.md) · [Freelancer](./guides/03-career-skills/productivity/side-hustle/freelancer-roadmap.md)  
+- [Market research](./guides/02-wealth-business/market-research/README.md) · [Entrepreneurship](./guides/02-wealth-business/entrepreneurship/README.md)  
 
-### **Next Steps:**
-→ Maintain protocols + Explore **[Systems Thinking in Life](./guides/03-career-skills/growth/systems-thinking-in-life.md)** để optimize toàn diện.
+Chi tiết tuần cũ vẫn có trong lịch sử git nếu cần; bản này **không** đẩy career lên trước nội lực.
+
+</details>
 
 ---
 
-## 🛠️ Universal Tools (Dành cho tất cả)
+## Tools dùng mọi lớp
 
-Bất kể bạn ở path nào, hãy dùng những tools này:
-
-### **📋 Planning & Tracking:**
-- [Weekly Review Template](./templates/weekly-review.md) - Review mỗi Chủ nhật
-- [OKR Planning Template](./templates/okr-planning.md) - Set goals hàng Quý
-- [Daily Log Template](./templates/daily-log.md) - Track progress hàng ngày
-
-### **🎯 Frameworks:**
-- [Doc Framework](./templates/doc-framework.md) - Master template cho mọi thứ
-- [Project Post-Mortem](./templates/project-post-mortem.md) - Learn from projects
-
-### **📚 Learning Resources:**
-- [Books](./resources/books.md) - Top sách nên đọc
-- [Tools](./resources/tools.md) - Productivity tools
-- [Communities](./resources/communities.md) - Nơi kết nối
-- [Learning OS Framework](./guides/03-career-skills/productivity/meta-skills/learning-os-framework.md) - Học bất kỳ topic nào có hệ thống
-- [AGENTS.md](./AGENTS.md) / [meta/routing.md](./meta/routing.md) - Navigation cho AI agent & RAG
-- [meta/README.md](./meta/README.md) - Hub catalog + eval
+| Việc | Template / doc |
+| --- | --- |
+| Review tuần | [weekly-review.md](./templates/weekly-review.md) |
+| Log ngày | [daily-log.md](./templates/daily-log.md) |
+| Sai → bài học | [mistake-journal.md](./templates/mistake-journal.md) |
+| Quyết định lớn | [decision-journal.md](./templates/decision-journal.md) |
+| Life data | [personal/README.md](./personal/README.md) |
+| Học có hệ thống | [learning-os-framework.md](./guides/03-career-skills/productivity/meta-skills/learning-os-framework.md) |
+| Agent nav | [AGENTS.md](./AGENTS.md) · [meta/routing.md](./meta/routing.md) |
 
 ---
 
-## ❓ FAQ - Câu hỏi thường gặp
+## FAQ
 
-### **1. Tôi có nên đọc hết tất cả không?**
-❌ **Không!** Bạn sẽ bị overwhelm. Hãy follow 1 trong 5 paths ở trên.
+**1. Phải xong hết lớp 0–3 mới được làm nghề?**  
+Không tuyệt đối. Nhưng nếu lớp 0–1 đang vỡ (ngủ, burnout, loạn cảm xúc), ưu tiên vá trong — không tăng tải lớp 4.
 
-### **2. Tôi nên dành bao nhiêu thời gian mỗi ngày?**
-- **Minimum:** 1 giờ đọc + 1 giờ practice
-- **Optimal:** 2 giờ deep work technical + 30 phút đọc
+**2. Đọc hết repo?**  
+Không. Đi theo 5 lớp hoặc một mục trong [README Mind](./README.md#mind--nội-lực--sinh-hóa-ưu-tiên).
 
-### **3. Tài liệu này có phù hợp cho người không biết tiếng Anh?**
-✅ Có. Tài liệu viết bằng tiếng Việt với technical terms tiếng Anh kèm giải thích.
+**3. Thời gian mỗi ngày?**  
+Tối thiểu 45 phút (đọc + 1 hành động nhỏ). Optimal: 25–45 phút luyện + 15 phút log.
 
-### **4. Tôi nên bắt đầu từ Chương 1 à?**
-❌ Không nhất thiết. Follow path phù hợp với profile của bạn ở trên.
+**4. Sợ bỏ cuộc?**  
+[Anti-Slip System](./guides/03-career-skills/growth/anti-slip-system.md) + Weekly Review.
 
-### **5. Làm sao để không bỏ cuộc giữa chừng?**
-📖 Đọc **[Anti-Slip System](./guides/03-career-skills/growth/anti-slip-system.md)** - Hệ thống chống trượt dốc.
-
----
-
-## 🚀 Ready to Start?
-
-**Bước tiếp theo của bạn:**
-1. ✅ Chọn 1 trong 5 paths ở trên
-2. ✅ Block 1 giờ trong lịch hôm nay để đọc bài đầu tiên
-3. ✅ Join [Community](./meta/ops/COMMUNITY.md) để connect với người cùng đam mê
-
-**Remember:** 
-> *"The journey of a thousand miles begins with a single step."*  
-> *"Hành trình nghìn dặm bắt đầu từ một bước chân."*
-
-Don't try to be perfect. Just start. **Consistency > Intensity.**
+**5. Agent / Cursor?**  
+[`AGENTS.md`](./AGENTS.md) — không cần đọc hết Quick Start.
 
 ---
 
-> [← Back to Home](./README.md) | [View Full Content Roadmap](./meta/ops/CONTENT-ROADMAP.md)
+## Bước tiếp theo (hôm nay)
 
-**Last Updated:** February 17, 2026
+1. Đánh dấu bạn đang ở **lớp nào** (bảng trên).  
+2. Mở **một** bài của lớp đó — block 45 phút.  
+3. Ghi 3 dòng vào Daily Log hoặc Mistake Journal.
+
+> Consistency > Intensity. Trong vững rồi mới ra ngoài.
+
+---
+
+> [← Home](./README.md) · [OVERVIEW](./OVERVIEW.md) · [CONTENT-ROADMAP](./meta/ops/CONTENT-ROADMAP.md)
+
+**Last updated:** August 16, 2026

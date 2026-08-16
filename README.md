@@ -6,9 +6,9 @@
 
 ## Bắt đầu từ đây
 
-**👉 [QUICK START GUIDE](./QUICK-START.md)** — chọn lộ trình theo giai đoạn.
+**👉 [QUICK START GUIDE](./QUICK-START.md)** — roadmap **từ trong ra ngoài** (sinh hóa → tâm lý → nội lực → thực hành → career).
 
-Với **~1.2M từ**, **~1,800 file Markdown**, **15 technical domains**, và lớp **`personal/`** (life data), dễ bị overwhelm. Trên README này, bắt đầu bằng khối **Mind · Nội lực · Sinh hóa** bên dưới.
+Với **~1.2M từ**, **~1,800 file Markdown**, **15 technical domains**, và lớp **`personal/`** (life data), dễ bị overwhelm. Trên README này, bắt đầu bằng khối **Mind · Nội lực · Sinh hóa** bên dưới. Bản đồ kiến trúc: [`OVERVIEW.md`](./OVERVIEW.md).
 
 **⏱️ 2 phút Quick Start = tránh đi sai hướng hàng giờ.**
 
