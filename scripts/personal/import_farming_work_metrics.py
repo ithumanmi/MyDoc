@@ -350,15 +350,15 @@ def parse_daily_metrics_reviews(daily_path: Path) -> dict[str, dict[str, str]]:
         body = parts[i + 1]
         i += 2
         period = None
-        m = re.search(r"Tổng kết tuần\s+(20\d{2}-W\d{2})", heading, re.I)
+        m = re.search(r"(?:Tổng kết tuần|Week summary)\s+(20\d{2}-W\d{2})", heading, re.I)
         if m:
             period = m.group(1)
         else:
-            m = re.search(r"Tổng kết tháng\s+(20\d{2}-\d{2})", heading, re.I)
+            m = re.search(r"(?:Tổng kết tháng|Month summary)\s+(20\d{2}-\d{2})", heading, re.I)
             if m:
                 period = m.group(1)
             else:
-                m = re.search(r"Tổng kết quý\s+(20\d{2}-Q[1-4])", heading, re.I)
+                m = re.search(r"(?:Tổng kết quý|Quarter summary)\s+(20\d{2}-Q[1-4])", heading, re.I)
                 if m:
                     period = m.group(1)
         if not period:

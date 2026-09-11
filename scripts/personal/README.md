@@ -7,6 +7,8 @@
 | [`create_work_tracking_templates.py`](./create_work_tracking_templates.py) | Excel trống dự án / OKR / timeline / productivity → `work-tracking-YYYY.xlsx` |
 | [`import_farming_work_metrics.py`](./import_farming_work_metrics.py) | Đổ `Farming/Docs` WORK_METRICS (+ cột `story_id`/`priority`/`hours_actual`/`verify`/`deep_work`) + STATUS + epic + DAILY Metrics review → `work-tracking-farming-YYYY.xlsx` |
 
+Browser dashboard (Farming): `Farming/Docs/WORK_TRACKING.html` — build bằng `python Farming/Docs/build_work_tracking.py` (import parsers từ script này). Excel: thêm `--excel`.
+
 | [`../personal_week_summary.py`](../personal_week_summary.py) | Tóm tắt tuần + Lifestyle score từ `personal/` |
 
 ```powershell

@@ -16,6 +16,7 @@ Khung định hướng cho toàn bộ thư mục `mental-resilience/`. Sử dụ
 | PP → lo âu / thói quen (educational) | [predictive-processing-anxiety-habits.md](../../../01-mental-models/psychology/practical-applications/predictive-processing-anxiety-habits.md) | Threat prior, graded PE, habit loop. |
 | OI × Khắc kỷ (validation / want-not-need) | [outcome-independence-stoicism.md](../../life-os/outcome-independence-stoicism.md) | Map Dichotomy ↔ Outcome Independence. |
 | Cảm giác “tâm lý yếu”, dễ nản, né việc khó | [mental-toughness-protocol.md](./mental-toughness-protocol.md) | 6 bước kỷ luật vi mô, phơi nhiễm dần, ranh giới xã hội. |
+| Nhóm / feed toàn than–hạ thấp–cynic | [van-hoa-am-tinh.md](../../../01-mental-models/psychology/practical-applications/van-hoa-am-tinh.md) | Phân biệt phản biện lành mạnh vs văn hóa âm tính. |
 
 ## 🔄 Routine gợi ý
 1. **Sáng:** 5 phút breathing + gratitude (Mindfulness).

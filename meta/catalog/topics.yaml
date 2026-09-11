@@ -1166,6 +1166,28 @@ topics:
       - guides/02-wealth-business/market-research/core/user-research-persona.md
       - guides/03-career-skills/innovation/pre-mortem-technique.md
 
+  - id: psychology.van_hoa_am_tinh
+    aliases:
+      - văn hóa âm tính
+      - negativity culture
+      - văn hóa phàn nàn
+      - cynic tập thể
+      - hạ thấp thành công
+      - toxic positivity
+      - dương tính thực
+      - văn hóa tiêu cực
+    canonical: guides/01-mental-models/psychology/practical-applications/van-hoa-am-tinh.md
+    related:
+      - guides/01-mental-models/psychology/practical-applications/social-psychology.md
+      - guides/01-mental-models/psychology/schools-of-thought/positive-psych.md
+      - guides/01-mental-models/psychology/cognitive-biases.md
+      - guides/01-mental-models/psychology/schools-of-thought/cbt.md
+      - guides/04-lifestyle-os/well-being/mental-resilience/psychological-resilience.md
+      - guides/04-lifestyle-os/well-being/mental-resilience/mental-toughness-protocol.md
+      - guides/01-mental-models/antifragile-thinking.md
+      - guides/03-career-skills/innovation/innovation-culture.md
+      - guides/01-mental-models/psychology/practical-applications/quality-vs-quantity.md
+
   - id: guides.wealth
     aliases: [wealth, business, investing, entrepreneurship]
     canonical: guides/02-wealth-business/README.md

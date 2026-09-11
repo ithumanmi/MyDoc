@@ -40,6 +40,7 @@ Chào mừng bạn đến với **Psychology Domain**. Đây là bản đồ ki�
 *   **[First Date: 6 lưu ý giản dị mà hiệu quả](./first-date-simple-rules.md):** ⭐ **NEW** Thơm tho, trả tiền, hẹn đơn giản, quà nhỏ, kéo dài trò chuyện, kết thúc tử tế.
 *   **[Skillset chinh phục: Từ giữ mùi đến dẫn dắt cảm xúc](./practical-applications/attraction-skills-expanded.md):** ⭐ **NEW** Bộ kỹ năng thực dụng: vệ sinh/ngoại hình, đọc tín hiệu, dẫn dắt cảm xúc, khung hẹn hò 3 bước, tránh bẫy phá cảm xúc.
 *   **[Social Psychology (Hiểu người)](./practical-applications/social-psychology.md):** Áp lực đám đông, Quyền lực & Sự tuân phục.
+*   **[🌫️ Văn hóa âm tính](./practical-applications/van-hoa-am-tinh.md):** ⭐ **NEW** Phàn nàn–hạ thấp–cynic thành “không khí chung”; thoát bằng sự thật có hướng sửa (không lạc quan giả).
 *   **[Quality vs Quantity (Chất lượng Mối quan hệ)](./practical-applications/quality-vs-quantity.md):** ⭐ **NEW** Nhận diện người thật lòng và sự cô độc trưởng thành.
 *   **[The Art of Reading People (Nghệ thuật Nhìn người)](./practical-applications/art-of-reading-people.md):** ⭐ **NEW** 7 dấu hiệu nhận biết bản chất con người để bảo vệ tâm hồn.
 *   **[Đọc vị càng sắc — dùng càng cẩn thận](./practical-applications/reading-people-responsibility.md):** Psychology literacy ↑ → trách nhiệm dùng ↑.
@@ -76,6 +77,7 @@ Chào mừng bạn đến với **Psychology Domain**. Đây là bản đồ ki�
 - **Quan hệ:** [relationships.md](./practical-applications/relationships.md), [quality-vs-quantity.md](./practical-applications/quality-vs-quantity.md), [art-of-reading-people.md](./practical-applications/art-of-reading-people.md)
 - **Công việc & ra quyết định:** [work-money.md](./practical-applications/work-money.md), [decision-making-razors.md](./decision-making-razors.md), [multi-criteria-decision-making.md](./practical-applications/multi-criteria-decision-making.md)
 - **Phòng vệ / thao túng:** [defense-mechanisms.md](./practical-applications/defense-mechanisms.md), [dark-psychology-defense.md](./dark-psychology-defense.md), [social-psychology.md](./practical-applications/social-psychology.md)
+- **Văn hóa nhóm / âm tính:** [van-hoa-am-tinh.md](./practical-applications/van-hoa-am-tinh.md), [social-psychology.md](./practical-applications/social-psychology.md), [positive-psych.md](./schools-of-thought/positive-psych.md)
 - **Trưởng thành nội tâm:** [self-mastery.md](./practical-applications/self-mastery.md), [true-maturity.md](./practical-applications/true-maturity.md), [inclusive-quality.md](./practical-applications/inclusive-quality.md)
 - **Lo âu / thói quen (PP-lens):** [predictive-processing-anxiety-habits.md](./practical-applications/predictive-processing-anxiety-habits.md), [cbt.md](./schools-of-thought/cbt.md)
 - **Đọc người & ảnh hưởng:** [art-of-reading-people.md](./practical-applications/art-of-reading-people.md), [social-psychology.md](./practical-applications/social-psychology.md)
